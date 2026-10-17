@@ -1,0 +1,11 @@
+{
+  "themes": [
+    {"name": "Local Shanghai", "zones": ["wukang_fuxing_xujiahui"], "interest_tags": ["local_life", "history"], "experience_tags": ["neighborhood_walk"], "culture_tags": []},
+    {"name": "Architecture Walk", "zones": ["wukang_fuxing_xujiahui", "old_city_central"], "interest_tags": ["architecture"], "experience_tags": ["architecture_detail"], "culture_tags": []},
+    {"name": "Literary Shanghai", "zones": ["hongkou_literary"], "interest_tags": ["literature"], "experience_tags": ["neighborhood_walk", "quiet_walk"], "culture_tags": []},
+    {"name": "Art & Industrial Heritage", "zones": ["west_bund"], "interest_tags": ["art", "industrial_heritage"], "experience_tags": ["riverside_walk"], "culture_tags": []},
+    {"name": "Classic Shanghai", "zones": ["old_city_central"], "interest_tags": ["history", "architecture"], "experience_tags": ["iconic_landmark"], "culture_tags": []},
+    {"name": "Urban Life", "zones": ["wukang_fuxing_xujiahui", "old_city_central"], "interest_tags": ["shopping_lifestyle", "modern_city"], "experience_tags": ["street_scene"], "culture_tags": []},
+    {"name": "Riverside Walk", "zones": ["west_bund"], "interest_tags": ["waterfront", "industrial_heritage"], "experience_tags": ["riverside_walk"], "culture_tags": []}
+  ]
+}

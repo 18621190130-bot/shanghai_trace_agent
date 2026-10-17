@@ -1,0 +1,218 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_b7acaee740c202f1",
+  "node_identity": "wukang_fuxing_xujiahui_b7acaee740c202f1",
+  "output": {
+    "category": "public_art",
+    "interest_tags": [
+      "art"
+    ],
+    "experience_tags": [
+      "photogenic"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_948d93ef6bba",
+          "e_15f3f14aee92",
+          "e_8087dd8dd568"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "photogenic",
+        "evidence_refs": [
+          "e_948d93ef6bba",
+          "e_15f3f14aee92"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_948d93ef6bba",
+      "e_15f3f14aee92",
+      "e_8087dd8dd568"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据仅表明这是一座普希金雕像（tourism=artwork、artwork_type=statue），属于可短暂停留观看的公共艺术节点，缺乏独立深度体验或可承载主题的证据，故以连接性停留为主。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "不成立：仅有雕像类别与名称，无独立目的地价值或可承载主题的证据。",
+        "supporting_stop": "可考虑但证据不足：作为沿线雕塑之一可顺访，但缺少独立体验内容支撑其作为补充性目的地。",
+        "transition_stop": "最契合：作为沿线经典雕塑之一，适合短时观看并连接更强节点。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "仅可确认其为沿线雕塑类公共艺术，信息量有限，适合作为路线中的短时观察点而非核心目的地。",
+      "evidence_refs": [
+        "e_948d93ef6bba",
+        "e_15f3f14aee92",
+        "e_a0b3224f55dc"
+      ]
+    },
+    "summary_draft": {
+      "text": "普希金雕像",
+      "evidence_refs": [
+        "e_69548c11dfea"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 3,
+        "standard": 8,
+        "deep": 15
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅针对雕像本体的短时公共艺术观察，不含周边街区游览。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "雕像的具体位置与可达方式",
+      "雕像的设立背景与年代",
+      "是否可近距离观看或存在围护"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "public_art",
+    "interest_tags": [
+      "art"
+    ],
+    "experience_tags": [
+      "photogenic"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_948d93ef6bba",
+          "e_15f3f14aee92",
+          "e_8087dd8dd568"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "photogenic",
+        "evidence_refs": [
+          "e_948d93ef6bba",
+          "e_15f3f14aee92"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_948d93ef6bba",
+      "e_15f3f14aee92",
+      "e_8087dd8dd568"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据仅表明这是一座普希金雕像（tourism=artwork、artwork_type=statue），属于可短暂停留观看的公共艺术节点，缺乏独立深度体验或可承载主题的证据，故以连接性停留为主。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "不成立：仅有雕像类别与名称，无独立目的地价值或可承载主题的证据。",
+        "supporting_stop": "可考虑但证据不足：作为沿线雕塑之一可顺访，但缺少独立体验内容支撑其作为补充性目的地。",
+        "transition_stop": "最契合：作为沿线经典雕塑之一，适合短时观看并连接更强节点。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "仅可确认其为沿线雕塑类公共艺术，信息量有限，适合作为路线中的短时观察点而非核心目的地。",
+      "evidence_refs": [
+        "e_948d93ef6bba",
+        "e_15f3f14aee92",
+        "e_a0b3224f55dc"
+      ]
+    },
+    "summary_draft": {
+      "text": "普希金雕像",
+      "evidence_refs": [
+        "e_69548c11dfea"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 3,
+        "standard": 8,
+        "deep": 15
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅针对雕像本体的短时公共艺术观察，不含周边街区游览。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "雕像的具体位置与可达方式",
+      "雕像的设立背景与年代",
+      "是否可近距离观看或存在围护"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.208874386749635,
+      121.45176672309859
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3604,
+      "completion_tokens": 596,
+      "total_tokens": 4200,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 2964
+    }
+  }
+}

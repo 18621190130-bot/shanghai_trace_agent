@@ -1,0 +1,978 @@
+{
+  "schema_version": 1,
+  "default_status": "PENDING",
+  "records": {
+    "p2": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the corner building, shopfronts and the two streets meeting here."
+        ],
+        "zh": [
+          "比较转角建筑、沿街店面和两条道路交会的方式。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p4": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice the narrow lanes and the close spacing of the homes.",
+          "Consider how an ordinary home could also be a place of writing and debate."
+        ],
+        "zh": [
+          "观察狭窄弄堂与紧密相邻的住宅。",
+          "想一想，普通住宅如何也成为写作与思想交流的空间。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p5": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the heavy architectural forms with the openness of the riverfront.",
+          "If you enter, notice how the gallery spaces shape your encounter with the artworks."
+        ],
+        "zh": [
+          "比较建筑厚重的形体与滨江开阔空间。",
+          "如进入展厅，留意空间如何影响观看作品的方式。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p7": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at the stone-framed entrances and the lanes between the houses.",
+          "Compare the residential scale of the buildings with their present commercial uses."
+        ],
+        "zh": [
+          "观察石框门以及房屋之间的弄堂。",
+          "比较建筑原有的住宅尺度与今天的商业用途。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p9": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the different facades and the spaces between them.",
+          "Look for the relationship between restored buildings and their new uses."
+        ],
+        "zh": [
+          "比较不同立面的形式与建筑之间的空间。",
+          "留意修缮后的建筑与新用途之间的关系。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p10": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at the lane widths and the transitions between older buildings and their present uses."
+        ],
+        "zh": [
+          "观察弄堂宽度，以及老建筑与当下用途之间的衔接。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p11": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice the doorways and repeating house fronts from the public parts of the lanes."
+        ],
+        "zh": [
+          "在公共通道上留意门洞与连续住宅立面的节奏。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p12": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at the relationship between the lane entrance and the homes beyond; keep residential access clear."
+        ],
+        "zh": [
+          "观察弄口与内部住宅的关系，保持居民通道畅通。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p13": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice how the building's narrow corner changes as you walk past it."
+        ],
+        "zh": [
+          "边走边观察建筑狭窄转角带来的不同视觉效果。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p14": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look from the historic Bund buildings across the river to Pudong.",
+          "Read the river and the two skylines together as different chapters of the city."
+        ],
+        "zh": [
+          "从外滩历史建筑望向江对岸的浦东。",
+          "把黄浦江和两岸天际线一起看作城市的不同时代。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p15": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Watch how a doorway or window frames the next view.",
+          "If you enter, compare the enclosed garden with the busy streets outside."
+        ],
+        "zh": [
+          "观察门洞或窗景如何框出下一幅画面。",
+          "如入园，比较园内空间与外侧街巷的不同节奏。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p16": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice how memorial spaces and everyday park activities sit alongside one another.",
+          "Observe public life from a respectful distance without interrupting it."
+        ],
+        "zh": [
+          "留意纪念空间与日常公园活动如何相邻共存。",
+          "保持适当距离观察公共生活，不打扰活动中的人。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p20": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at the relationship between the temple and the surrounding shopping streets.",
+          "Notice religious and commercial details while respecting worshippers."
+        ],
+        "zh": [
+          "观察庙宇与周围商业街巷的空间关系。",
+          "留意信仰与商业元素，也尊重现场祭拜活动。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p21": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice the relationship between the villa, garden and domestic scale.",
+          "If open for visiting, connect personal rooms and objects with the public history described on site."
+        ],
+        "zh": [
+          "留意住宅、花园与生活空间的尺度关系。",
+          "如开放参观，将生活空间与现场介绍的公共历史联系起来。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p23": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the scale of the houses, gardens and paths between them."
+        ],
+        "zh": [
+          "比较住宅、花园与其间道路的尺度。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p24": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the intimate scale of the historic meeting site with the larger memorial spaces.",
+          "Use the on-site displays to place the 1921 meeting in the city around it."
+        ],
+        "zh": [
+          "比较历史会址的亲近尺度与纪念空间。",
+          "结合现场陈列，把1921年的会议放回当时的上海语境。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p25": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "If open, look at how books and displays connect writers with the neighborhood outside."
+        ],
+        "zh": [
+          "如开放，留意书籍与陈列如何把作家与外面的街区联系起来。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p26": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Read the on-site account of the writers' group and compare it with the modest scale of the building."
+        ],
+        "zh": [
+          "阅读现场对作家团体的介绍，再观察建筑的日常尺度。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p27": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Follow the relationship between ramps, bridges and columns.",
+          "Consider how circulation designed for industrial work is experienced by visitors today."
+        ],
+        "zh": [
+          "观察坡道、桥廊与立柱如何组织空间。",
+          "想一想，原为工业流程设计的动线如何变成今天的游览体验。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p28": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the museum building with the surrounding riverfront spaces.",
+          "If you visit an exhibition, notice how the gallery and outdoor setting affect the experience."
+        ],
+        "zh": [
+          "比较美术馆建筑与周边滨江空间。",
+          "如参观展览，留意展厅与室外环境带来的不同感受。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p29": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at the scale and curved surfaces of the former tanks.",
+          "Notice how the tanks relate to open public space around them."
+        ],
+        "zh": [
+          "观察油罐巨大的尺度与弧形表面。",
+          "留意罐体与周围开放公共空间的关系。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p30": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice where people choose to sit, meet and pause.",
+          "Compare the connections between indoor uses and the riverfront public space."
+        ],
+        "zh": [
+          "留意人们选择在哪里坐下、相聚和停留。",
+          "比较室内用途与滨江公共空间如何连接。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p31": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Choose one work and consider the city or society that might have made it possible.",
+          "Read the exhibition context before drawing conclusions about an artwork."
+        ],
+        "zh": [
+          "选一件作品，思考怎样的城市或社会生活让它成为可能。",
+          "先读展览说明，再形成自己对作品的理解。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p32": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice the Gothic forms against the surrounding Shanghai streetscape.",
+          "Respect worship and follow on-site access guidance when entering."
+        ],
+        "zh": [
+          "观察哥特式建筑形式与周围上海街景的对照。",
+          "入内时遵守现场指引，尊重宗教活动。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p33": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice how reading spaces relate to the surrounding Xujiahui streets; follow access guidance."
+        ],
+        "zh": [
+          "留意阅读空间与徐家汇街区的关系，并遵守入内指引。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p34": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare long-established storefronts with newer retail displays.",
+          "Look above the signs to notice the buildings behind the shopping street."
+        ],
+        "zh": [
+          "比较老字号门面与新式商业展示。",
+          "把视线移到招牌上方，观察商业街背后的建筑。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p35": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the pedestrian routes, shop entrances and changing scale of the surrounding buildings."
+        ],
+        "zh": [
+          "比较行人通道、商场入口与周边建筑的不同尺度。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p36": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at the scale and structure of the art-center building from the public approach."
+        ],
+        "zh": [
+          "从公共通道观察艺术中心建筑的尺度与结构。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p37": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice the curved roofline and its relationship with the open plaza."
+        ],
+        "zh": [
+          "留意弧形屋顶轮廓与开阔广场的关系。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p38": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Watch how skaters use ramps and edges while keeping well clear of their movement paths."
+        ],
+        "zh": [
+          "观察滑板运动如何使用坡面与边缘，并远离运动轨迹。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p39": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look along the park's long axis and notice how paths organize movement through it."
+        ],
+        "zh": [
+          "沿公园长轴望去，观察道路如何组织穿行。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p42": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the tower's vertical form with the open river and plaza around it."
+        ],
+        "zh": [
+          "比较塔的竖向形态与周围开阔的江面、广场。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p43": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at the crane's frame and imagine the movement its industrial function required."
+        ],
+        "zh": [
+          "观察塔吊框架，想象其工业用途所需要的运动方式。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "p41": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the theatre's exterior with the riverfront public space around it."
+        ],
+        "zh": [
+          "比较剧院外部形态与周围滨江公共空间。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_17d41390cac9": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look for traces of time, skill and material choices in the objects on display.",
+          "Compare the crafts with the architectural setting around them."
+        ],
+        "zh": [
+          "观察展品中体现的制作时间、技艺与材料选择。",
+          "比较工艺展品与周围建筑环境。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_a74f9e58195a": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice the transition from the old-city streets into the park's planted spaces."
+        ],
+        "zh": [
+          "留意从老城街巷进入公园绿地时的空间变化。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_0b545bb1cf2a": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the park paths with the rhythm of the surrounding neighborhood streets."
+        ],
+        "zh": [
+          "比较公园步道与周边街区道路的不同节奏。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_b72e3b8998b3": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at old buildings, side lanes and changes in the streetscape.",
+          "Use plaques or displays to connect literary names with actual places."
+        ],
+        "zh": [
+          "观察老建筑、支弄与街景的变化。",
+          "借助铭牌或展陈，把文学人物与具体地点联系起来。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_b4acff8f32fc": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at street-level details and the rhythm of the residential facades as you walk."
+        ],
+        "zh": [
+          "步行时留意街道细节与住宅立面的连续节奏。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_68957332b418": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice how paths and waterside spaces connect to the streets around the park."
+        ],
+        "zh": [
+          "观察步道、水边空间如何连接周围街道。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_8919938b21f2": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Watch how the park offers places to pause within a busy urban neighborhood."
+        ],
+        "zh": [
+          "留意公园如何在繁忙街区中提供停留空间。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_bd40d04c7f5d": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the paths and planted spaces with how visitors use them.",
+          "Pause to observe everyday activities without interrupting participants."
+        ],
+        "zh": [
+          "比较园路与绿化的布局，以及人们实际使用它们的方式。",
+          "停下来观察日常活动，不打扰参与者。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_a87eb2b5b5da": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look beyond a single landmark to the trees, pavements and adjoining buildings.",
+          "Notice the overlap of residential life, small businesses and visitors."
+        ],
+        "zh": [
+          "把视线从单个地标扩展到树木、人行道和相邻建筑。",
+          "观察居住生活、小商业与游客活动如何交织。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_553cfd36707c": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at how planted areas and paths separate a quiet pause from the street outside."
+        ],
+        "zh": [
+          "观察绿化与步道如何将安静的停留空间与外侧道路区分开。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_a27dbbc6cab8": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice the change in sound and pace as you move from the pavement into the park."
+        ],
+        "zh": [
+          "从人行道走入公园时，留意声音与步行节奏的变化。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_a446052910a0": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Observe the lane entrance and residential scale from public space without entering private areas."
+        ],
+        "zh": [
+          "从公共空间观察弄口与住宅尺度，不进入私人区域。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_0db17d82e9ec": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at how paths connect the square to surrounding institutions and streets.",
+          "Notice the different reasons people pass through or pause here."
+        ],
+        "zh": [
+          "观察步道如何连接广场、周边机构与街道。",
+          "留意人们经过这里或在此停留的不同方式。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "USER_DOCUMENT_DERIVED",
+        "source_file": "地点内容.docx",
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_cc5300aee299": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look for book-related storefronts and compare them with the surrounding commercial street."
+        ],
+        "zh": [
+          "留意与书籍有关的门面，并与周边商业街景作比较。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_66452d5db8a1": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "If open, connect the rooms and displays with the history described on site."
+        ],
+        "zh": [
+          "如开放参观，将房间与陈列联系到现场介绍的历史。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_54f53d30c0dc": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Look at the apartment facade from the pavement and respect the privacy of residents."
+        ],
+        "zh": [
+          "从人行道观察公寓立面，尊重居民隐私。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_de47b0cf3e98": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Observe how the neighborhood entrance connects the main street with smaller residential lanes."
+        ],
+        "zh": [
+          "观察街区入口如何将主路与较小的居住弄堂连接起来。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_437ddd34f2c1": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "If open, notice how drawings and domestic objects help tell the artist's story."
+        ],
+        "zh": [
+          "如开放，留意画作与生活物件如何讲述艺术家的故事。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_7e40d824dbee": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Notice how the concert hall meets the street and how its entrance guides visitors."
+        ],
+        "zh": [
+          "观察音乐厅与街道的衔接，以及入口如何引导访客。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_09b5938601ee": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Compare the park's paths and open spaces with the surrounding city buildings."
+        ],
+        "zh": [
+          "比较公园步道、开放空间与周边城市建筑。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_8b1bb0928e7e": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Use the on-site interpretation to connect the home's everyday spaces with the life commemorated here."
+        ],
+        "zh": [
+          "借助现场说明，将住宅的日常空间与纪念人物的经历联系起来。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_c862ec0d6ddd": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "If open, look for the relationship between writing, displayed works and the scale of the home."
+        ],
+        "zh": [
+          "如开放，留意书写、陈列作品与住宅尺度之间的关系。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_c4f63095cb01": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "Observe the exterior from public space and read any on-site heritage information for historical context."
+        ],
+        "zh": [
+          "从公共空间观察建筑外部，并借助现场历史说明理解其背景。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    },
+    "pz_f8277d15786a": {
+      "content_status": "AVAILABLE",
+      "what_to_notice": {
+        "en": [
+          "If an exhibition is open, compare its contemporary themes with the older streetscape outside."
+        ],
+        "zh": [
+          "如有开放展览，比较当代主题与外部较老街景的关系。"
+        ]
+      },
+      "notice_provenance": {
+        "source": "EDITORIAL_OBSERVATION_GUIDANCE",
+        "source_file": null,
+        "prepared_at": "2026-10-08"
+      }
+    }
+  }
+}

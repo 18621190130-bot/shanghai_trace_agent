@@ -1,0 +1,61 @@
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.runtime/
+
+# Generated Python/Node environments and local tooling
+.venv/
+venv/
+node_modules/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Runtime output and machine-specific settings
+*.log
+*.pid
+*.tmp
+*.bak
+.DS_Store
+._*
+Thumbs.db
+.vscode/
+.idea/
+
+# Former temporary hosting and duplicate project snapshots
+/deployment/
+/versions/
+/cloudflared.exe
+/*.zip
+
+# Local original materials; retain only the directory guide
+/materials/*
+!/materials/README.md
+
+# Reproducible pipeline caches and resume checkpoints
+/data/poi_pipeline/recall/semantic_cache/
+/data/poi_pipeline/semantic/cache/
+/data/poi_pipeline/semantic/checkpoint/
+/data/poi_pipeline/recall/semantic_call_ledger.json
+/data/poi_pipeline/recall/unittest_command_result.json
+/data/poi_pipeline/semantic/final/test_result.json
+/data/poi_pipeline/semantic/repair/test_result.json
+
+# Local historical archives and generated visual/test evidence
+/examples/phase3a_freeze/phase3a_baseline.zip
+/examples/phase3b_2_freeze_candidate/phase3b_2_candidate.zip
+/examples/**/*.png
+/examples/**/*.jpg
+/examples/**/full_tests.txt
+/examples/**/live_tests.txt
+/examples/**/test_results.json
+/examples/**/browser_checks.json
+/examples/location_baseline_tests.txt
+/examples/phase3a_freeze_baseline_tests.txt
+/examples/walking_live_tests.txt
+/examples/walking_routing_full_tests.txt
+.coverage.*

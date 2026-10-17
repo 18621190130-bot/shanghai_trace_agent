@@ -1,0 +1,83 @@
+{
+  "source": "official",
+  "url": "https://whlyj.sh.gov.cn/gqfc/20260904/89b6a38c04274b0fbfe300752f21c3e6.html",
+  "parameters": {},
+  "variant": "official-excerpts-v1:谷地花溪|滨江滑板公园|塔吊广场",
+  "retrieved_at": "2026-10-04T07:39:05.986412+00:00",
+  "response": {
+    "excerpts": {
+      "谷地花溪": [
+        "00米的样板段,起点设于星美术馆,终点抵达龙美术馆,一路串联西岸中环、谷地花溪、滨江滑板公园等。从百年铁路记忆到当代艺术水岸,从潮流商业到运动公园,一趟车就能看遍西岸的多元面貌。",
+        "谷地花溪",
+        "继续前行,漫游线会经过谷地花溪——这片位于瑞宁路243号附近、紧邻滑板公园的滨江绿地,保留着铁轨遗迹,植被丰富,是西岸少有的野趣空间。"
+      ],
+      "滨江滑板公园": [
+        "板段,起点设于星美术馆,终点抵达龙美术馆,一路串联西岸中环、谷地花溪、滨江滑板公园等。从百年铁路记忆到当代艺术水岸,从潮流商业到运动公园,一趟车就能看遍西岸的多元面貌。",
+        "滨江滑板公园",
+        "与谷地花溪相邻的,是徐汇滨江滑板公园。这片上海市区少有的专业级户外滑板场地,融合城市景观与功能性障碍设计,是本地滑板社群的重要聚集地。"
+      ],
+      "塔吊广场": [
+        "想坐完全程,可以在这里下车,沿着滨江步道慢慢走到龙美术馆,沿途还能经过塔吊广场等西岸标志性景观。"
+      ]
+    },
+    "links": [
+      {
+        "href": "https://wzagjt.shanghai.gov.cn/dist/public/instructions_zh-CN.html?appid=f91493199f93866a42d853edb5a38455",
+        "label": "无障碍操作说明"
+      },
+      {
+        "href": "javascript:createNodeDiv('mainNav', '已定位到网站导航');",
+        "label": "跳转到网站导航区"
+      },
+      {
+        "href": "javascript:createNodeDiv('main', '已定位到主要内容区域');",
+        "label": "跳转到主要内容区域"
+      },
+      {
+        "href": "/index.html",
+        "label": "首页"
+      },
+      {
+        "href": "/ywdt/index.html",
+        "label": "要闻动态"
+      },
+      {
+        "href": "/gqfc/index.html",
+        "label": "各区风采"
+      },
+      {
+        "href": "https://h.xinhuaxmt.com/vh512/share/13113613?docid=13113613&newstype=1001&d=13526a9&channel=weixin",
+        "label": "李强主持召开国务院常务会议 研究推进全国统一大市场建设有关工作 审议通过《现代..."
+      },
+      {
+        "href": "https://h.xinhuaxmt.com/vh512/share/13026174?docid=13026174&newstype=1001&d=13525e7&time=1774751508077",
+        "label": "李强主持召开国务院常务会议"
+      },
+      {
+        "href": "https://h.xinhuaxmt.com/vh512/share/13005098?docid=13005098&newstype=1001&d=13525d9",
+        "label": "李强主持召开国务院常务会议"
+      },
+      {
+        "href": "https://h.xinhuaxmt.com/vh512/share/12993878?docid=12993878&newstype=1001&d=13525d1&channel=weixin",
+        "label": "十四届全国人大四次会议在京开幕 习近平等在主席台就座"
+      },
+      {
+        "href": "https://content-static.cctvnews.cctv.com/snow-book/index.html?item_id=3791285225425095504&toc_style_id=feeds_default&share_to=wechat&track_id=c61b6a85-20bc-4ecf-a644-502987326643",
+        "label": "世界看两会丨国际人士:中国高质量发展为全球经济注入稳定性"
+      },
+      {
+        "href": "https://holidy.whlyj.sh.gov.cn:8443/event-web/#/",
+        "label": "上海市文旅招商平台"
+      },
+      {
+        "href": "https://whlyj.sh.gov.cn/resource/theme/images/安全手册25.pdf",
+        "label": "旅游安全实务手册"
+      },
+      {
+        "href": "http://www.meet-in-shanghai.net/",
+        "label": "文旅对外推广平台"
+      }
+    ]
+  },
+  "response_hash": "02771072a331dbcc907edc1216af5f43bc4306b9f0afdf8e85c38aa9fed12e2b"
+}

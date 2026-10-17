@@ -1,0 +1,78 @@
+{
+  "source": "official",
+  "url": "https://lhsr.sh.gov.cn/ywdt/20241206/9b079c2d-7ea5-4c55-a0cd-2052074593cc.html",
+  "parameters": {},
+  "variant": "official-substantive-v2:古城公园",
+  "retrieved_at": "2026-10-04T15:19:00.467638+00:00",
+  "response": {
+    "excerpts": {
+      "古城公园": [
+        "古城公园建成于2002年。公园东、北临人民路,西靠安仁街,南达福佑路,总面积为38800平方米。由于公园建在上海老城厢内,景观中又保留了老城厢的城墙、护城河,故取名为古城公园。公园最高点主体建筑丹凤楼,据历史考证位于旧城墙的万军台上,是当时上海城内最高的建筑,凭栏远眺,浦江景色尽收眼底。游人可以亲身体验当时登上丹凤楼的视觉感受,追古思今,品味上海的历史与底蕴。",
+        "本条路线途经豫园、古城公园丹凤楼、商船会馆、董家渡天主堂等历史文化坐标,可以体验在历史街区中穿梭的打卡探秘之旅,路线也途经福佑路、人民路、老太平弄、董家渡花桥等近年改造更新街区,沿途也可以领略街区更新、城市发展的魅力。让我们相约来一场Citywalk吧!"
+      ]
+    },
+    "links": [
+      {
+        "href": "javascript:;",
+        "label": "要闻动态"
+      },
+      {
+        "href": "https://lhsr.sh.gov.cn",
+        "label": "首页"
+      },
+      {
+        "href": "/xwfb/",
+        "label": "> 新闻动态"
+      },
+      {
+        "href": "/ywdt/",
+        "label": "> 要闻动态"
+      },
+      {
+        "href": "javascript:;",
+        "label": "大"
+      },
+      {
+        "href": "javascript:;",
+        "label": "中"
+      },
+      {
+        "href": "javascript:;",
+        "label": "小"
+      },
+      {
+        "href": "/cmsres/94/94e8ef23dd834b0b9bfce358b543db8d/ba5c87207ee02c99a14438b6a900e80d.png",
+        "label": "图片7.png"
+      },
+      {
+        "href": "/cmsres/2d/2d5af2923cc141efbe661d41e512c73d/0efcc18f3d4e9472078094be9c7a2bf7.png",
+        "label": "图片2.png"
+      },
+      {
+        "href": "/cmsres/f5/f58857a8e3dd49f7afb9ec04134908b1/90b21cd3b258dbe6d999706a10425d56.png",
+        "label": "图片1.png"
+      },
+      {
+        "href": "/cmsres/df/df9db375b74d49ebbeadeb96179789dc/5fee516f86c1073ac14b6c833983440d.png",
+        "label": "图片10.png"
+      },
+      {
+        "href": "/cmsres/47/47755befb8fa4c54b41bcc612e877b60/2ad31f4bd926ffb9b64337d1ff4b81b8.png",
+        "label": "图片6.png"
+      },
+      {
+        "href": "/cmsres/4d/4d22f938ce5b4e21945dcc00d07b90f0/5f4c7bbc5200fa3ea5170869e71ab4bc.png",
+        "label": "图片3.png"
+      },
+      {
+        "href": "/cmsres/d8/d8714ec1cfcf42d2914dbbebbcc8a25a/b27946925c0d771afc72e8da1cf8b652.png",
+        "label": "图片12.png"
+      },
+      {
+        "href": "/cmsres/d0/d0d665e41c7f4fa584fe3205584462f0/548352ce4f67c7b3026b3322d32fdcd9.png",
+        "label": "图片4.png"
+      }
+    ]
+  },
+  "response_hash": "07e11013c6a82ab2f1218ec8f46b1020b8acf117e9e91014f9117516892d64f4"
+}

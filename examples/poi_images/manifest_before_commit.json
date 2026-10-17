@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "policy": [
+    "CURATED",
+    "AMAP",
+    "MANUAL_WEB",
+    "FALLBACK"
+  ],
+  "generated_at": "2026-10-07T13:19:49.806633+00:00",
+  "records": [
+    {
+      "poi_id": "p2",
+      "route_role": "transition_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "NO_PROVIDER_PHOTOS"
+    },
+    {
+      "poi_id": "p4",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p5",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p7",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p9",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p10",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p11",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p12",
+      "route_role": "transition_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p13",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p14",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p15",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p16",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p20",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p21",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p23",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p24",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p25",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p26",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p27",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p28",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p29",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p30",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p31",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p32",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p33",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p34",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "p35",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "IDENTITY_NOT_FOUND"
+    },
+    {
+      "poi_id": "p36",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p37",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p38",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p39",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p42",
+      "route_role": "transition_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p43",
+      "route_role": "transition_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "p41",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_17d41390cac9",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "pz_a74f9e58195a",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_0b545bb1cf2a",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_b72e3b8998b3",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "pz_b4acff8f32fc",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_68957332b418",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_8919938b21f2",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_bd40d04c7f5d",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "pz_a87eb2b5b5da",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "pz_553cfd36707c",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_a27dbbc6cab8",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_a446052910a0",
+      "route_role": "transition_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_0db17d82e9ec",
+      "route_role": "anchor",
+      "source": "CURATED",
+      "status": "MISSING",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "ANCHOR_RESERVED"
+    },
+    {
+      "poi_id": "pz_cc5300aee299",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_66452d5db8a1",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_54f53d30c0dc",
+      "route_role": "transition_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_de47b0cf3e98",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_437ddd34f2c1",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_7e40d824dbee",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_09b5938601ee",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_8b1bb0928e7e",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_c862ec0d6ddd",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_c4f63095cb01",
+      "route_role": "transition_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    },
+    {
+      "poi_id": "pz_f8277d15786a",
+      "route_role": "supporting_stop",
+      "source": "FALLBACK",
+      "status": "FALLBACK",
+      "reviewed": false,
+      "image_url": null,
+      "reason": "HUMAN_REVIEW_REQUIRED"
+    }
+  ]
+}

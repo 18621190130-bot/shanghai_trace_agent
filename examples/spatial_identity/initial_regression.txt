@@ -1,0 +1,14 @@
+======================================================================
+FAIL: test_only_authorized_core_changes (tests.test_identity_calibration.CalibrationTests.test_only_authorized_core_changes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\huawei\Desktop\数据科学探索之路\city walk大创项目\shanghai_trace_agent\tests\test_identity_calibration.py", line 138, in test_only_authorized_core_changes
+    self.assertEqual(expected,after)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+AssertionError: {'met[101455 chars]31.2359, 'representative_lng': 121.4805, 'coor[414609 chars]'}}]} != {'met[101455 chars]31.236534, 'representative_lng': 121.482374, '[414576 chars]'}}]}
+Diff is 1583575 characters long. Set self.maxDiff to None to see it.
+
+----------------------------------------------------------------------
+Ran 89 tests in 4.870s
+
+FAILED (failures=1)

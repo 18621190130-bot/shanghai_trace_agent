@@ -1,0 +1,212 @@
+{
+  "dispositions": [
+    {
+      "candidate_id": "old_city_central_b6d5ce81307d6a31",
+      "name": "太平桥公园",
+      "decision": "accept",
+      "reason": "unchanged_validator_and_admission_passed",
+      "missing_evidence": null,
+      "route_selectable": true,
+      "role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示为具名的城市公园（leisure=park，公园广场），有独立可停留的绿地体验，但缺乏规模、设施与特色说明，难以支撑为路线主题核心。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据仅表明是公园，无规模、特色或独立目的地价值的高强度证据，不足以承担路线主题。",
+          "supporting_stop": "作为具名公园，可提供独立于周边节点的绿地休憩体验，适合作为补充性停留。",
+          "transition_stop": "虽可作为短时经过点，但其公园属性具备一定独立体验价值，优于纯连接性停留。"
+        }
+      },
+      "poi_id": "pz_68957332b418"
+    },
+    {
+      "candidate_id": "old_city_central_fd9f90a4d3e59ac7",
+      "name": "淮海公园",
+      "decision": "accept",
+      "reason": "unchanged_validator_and_admission_passed",
+      "missing_evidence": null,
+      "route_selectable": true,
+      "role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示为具名城市公园（leisure=park），有草坪开放信息，具备独立停留价值，但缺乏规模、设施与特色体验证据，难以承担路线主题，故定为支持性停留。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "仅有公园类别与草坪开放期信息，缺少足以支撑专程前往的独特体验证据，不宜作为锚点。",
+          "supporting_stop": "作为具名公园，可作为步行路线中独立可停留的一站，补充绿地体验，符合支持性停留。",
+          "transition_stop": "虽可作短暂停留，但公园本身具独立休闲价值，不止于连接功能，故不作为首选。"
+        }
+      },
+      "poi_id": "pz_8919938b21f2"
+    },
+    {
+      "candidate_id": "old_city_central_4099dce97a905559",
+      "name": "福州路",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "old_city_central_70bbb635ef76cb0e",
+      "name": "复兴公园",
+      "decision": "accept",
+      "reason": "unchanged_validator_and_admission_passed",
+      "missing_evidence": null,
+      "route_selectable": true,
+      "role": {
+        "primary": "anchor",
+        "eligible": [
+          "anchor",
+          "supporting_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示其为具名的百年法式园林，含灯光装置、观光小火车与夜间活动，具备独立到访与承载主题的能力。",
+        "independent_destination_value": "high",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "有独立园林空间与多项园内体验，可作主题目的地。",
+          "supporting_stop": "若路线主题非园林，也可作为补充性体验节点。",
+          "transition_stop": "园内体验内容较多，不止短暂停留的连接点。"
+        }
+      },
+      "poi_id": "pz_bd40d04c7f5d"
+    },
+    {
+      "candidate_id": "old_city_central_04d3c9c6bca78389",
+      "name": "中国社会主义青年团中央机关旧址",
+      "decision": "defer",
+      "reason": "strict_semantic_validation_or_provider_failure",
+      "missing_evidence": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. anchor requires high independent destination value",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "old_city_central_330641af97b370bc",
+      "name": "大韩民国临时政府旧址",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "old_city_central_7e582e001a84968c",
+      "name": "延中公园",
+      "decision": "defer",
+      "reason": "weak_location",
+      "missing_evidence": "sub-park identity and representative anchor",
+      "route_selectable": false,
+      "explanation": "OSM 代表点与高德巨鹿路成都南路口约200m差异，可能是不同分区，补证没有解决。"
+    },
+    {
+      "candidate_id": "old_city_central_7a7e1b84663beb98",
+      "name": "徐光启故居(九间楼)",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "independent public observation or exhibition scope",
+      "route_selectable": false,
+      "explanation": "保护名单支持稳定身份；缺的是独立街面观察/展陈体验证据，不是此刻是否开门。"
+    },
+    {
+      "candidate_id": "old_city_central_dd18a6e82a853f20",
+      "name": "fudeli",
+      "decision": "defer",
+      "reason": "weak_identity",
+      "missing_evidence": "provider identity/address reconciliation",
+      "route_selectable": false,
+      "explanation": "缓存英文名位置与大沽路379号的辅德里公园未对齐，不能凭译名合并。"
+    },
+    {
+      "candidate_id": "old_city_central_a085d8c87e1380e7",
+      "name": "上海人民广场",
+      "decision": "defer",
+      "reason": "weak_location",
+      "missing_evidence": "bounded visitor scope",
+      "route_selectable": false,
+      "explanation": "多个面/点代表对象，范围宽且与周边节点独立访问范围未分清。"
+    },
+    {
+      "candidate_id": "old_city_central_06591af3b6abd091",
+      "name": "东海大楼",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "facade public observation scope and architectural evidence",
+      "route_selectable": false,
+      "explanation": "历史建筑线索保留，未以名气推断值得独立停靠。"
+    }
+  ],
+  "human_review": [
+    {
+      "candidate_id": "old_city_central_7e582e001a84968c",
+      "name": "延中公园",
+      "decision": "defer",
+      "reason": "weak_location",
+      "missing_evidence": "sub-park identity and representative anchor",
+      "route_selectable": false,
+      "explanation": "OSM 代表点与高德巨鹿路成都南路口约200m差异，可能是不同分区，补证没有解决。"
+    },
+    {
+      "candidate_id": "old_city_central_a085d8c87e1380e7",
+      "name": "上海人民广场",
+      "decision": "defer",
+      "reason": "weak_location",
+      "missing_evidence": "bounded visitor scope",
+      "route_selectable": false,
+      "explanation": "多个面/点代表对象，范围宽且与周边节点独立访问范围未分清。"
+    }
+  ],
+  "high_potential_unrescued": [
+    {
+      "candidate_id": "old_city_central_04d3c9c6bca78389",
+      "name": "中国社会主义青年团中央机关旧址",
+      "decision": "defer",
+      "reason": "strict_semantic_validation_or_provider_failure",
+      "missing_evidence": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. anchor requires high independent destination value",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "old_city_central_330641af97b370bc",
+      "name": "大韩民国临时政府旧址",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "old_city_central_4099dce97a905559",
+      "name": "福州路",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "old_city_central_7a7e1b84663beb98",
+      "name": "徐光启故居(九间楼)",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "independent public observation or exhibition scope",
+      "route_selectable": false,
+      "explanation": "保护名单支持稳定身份；缺的是独立街面观察/展陈体验证据，不是此刻是否开门。"
+    },
+    {
+      "candidate_id": "old_city_central_7e582e001a84968c",
+      "name": "延中公园",
+      "decision": "defer",
+      "reason": "weak_location",
+      "missing_evidence": "sub-park identity and representative anchor",
+      "route_selectable": false,
+      "explanation": "OSM 代表点与高德巨鹿路成都南路口约200m差异，可能是不同分区，补证没有解决。"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "checks": [
+    {
+      "status": "FAR",
+      "distance": 700.000505090189,
+      "source": "DEMO"
+    },
+    {
+      "status": "NEAR",
+      "distance": 130.00009380215045,
+      "source": "DEMO"
+    },
+    {
+      "status": "ARRIVED",
+      "distance": 0,
+      "source": "DEMO"
+    }
+  ],
+  "walking": "AVAILABLE",
+  "visited": [
+    "p12"
+  ],
+  "js_map": true,
+  "errors": []
+}

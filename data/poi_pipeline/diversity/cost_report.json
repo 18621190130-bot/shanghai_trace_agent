@@ -1,0 +1,29 @@
+{
+  "semantic_candidates_per_zone": {
+    "old_city_central": 6,
+    "wukang_fuxing_xujiahui": 6,
+    "hongkou_literary": 6
+  },
+  "semantic_candidates_total": 18,
+  "deepseek_calls": 0,
+  "reused_f_source_checks": 10,
+  "new_retained_subject_checks": 23,
+  "targeted_map_calls": 16,
+  "map_provider_statuses": {
+    "success": 6,
+    "provider_error": 10
+  },
+  "accepted": 15,
+  "deferred": 3,
+  "protected_sha256": {
+    "data\\pois.json": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513",
+    "data\\pois_phase2_5_candidate.json": "dc30a2933786b2c339a1b1f10ddfbf5f0025b502894f1e376232287799c00d2c",
+    "data\\pois_phase2_5_all_zones_candidate.json": "7d773867802236dcffdc0e307bd7fbda1e312f45d7cdf307c055957bc1e0e14c",
+    "data\\pois_phase2_5_recall_candidate.json": "ac33bc58127a57f8c06fdf734eb91d1a3e3d3427b4aa4cd167136ed1085d78ee",
+    "data\\poi_pipeline\\zone_configs.json": "0c55ae63d737ec5fe6c8ec046567be5c2410c997897a15f08deb32e157555686",
+    "src\\poi_pipeline\\semantic\\validation.py": "d3f287eaf46c1e2c14c8955c38e4d760635b4ba92f972c3b14ebbdcae6b47b4a",
+    "src\\route_engine.py": "0e2fc008023a39f7282cd0e2344279dc5a3c4df7dfc195c38fed57269451383f"
+  },
+  "full_zone_collection_calls": 0,
+  "source_checks_definition": "Retained inspected candidate/source pairs; broad search-result snippets excluded. Failed map reservations counted, never hidden. Existing coordinate/source caches reused; no model tokens or currency costs."
+}

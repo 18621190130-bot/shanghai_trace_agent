@@ -1,0 +1,95 @@
+[
+  {
+    "poi_id": "p7",
+    "name": "新天地北里（石库门街区）",
+    "status": "coordinate_patch_proposed",
+    "candidate_approval": "approved_for_recall_candidate_by_authorized_identity_verification",
+    "old_coordinate": [
+      31.2212,
+      121.4679
+    ],
+    "new_coordinate": [
+      31.220692,
+      121.474751
+    ],
+    "coordinate_system": "GCJ-02",
+    "distance_m": 653.9,
+    "provider": {
+      "type": "购物服务;特色商业街;特色商业街",
+      "id": "B00156YMMX",
+      "address": "太仓路181弄1-25号",
+      "name": "上海新天地北里",
+      "location": "121.474751,31.220692"
+    },
+    "sources": [
+      "https://www.amap.com/detail/B00156YMMX",
+      "https://www.shanghai.gov.cn/nw31406/20250707/93b77d0a95794a39a75b7e8ef69ccfed.html"
+    ],
+    "reason": "太仓路、兴业路、马当路、黄陂南路街区，与高德太仓路181弄北里身份一致。",
+    "confidence": "high",
+    "retrieved_at": "2026-10-04T16:14:01.431699+00:00",
+    "boundary_status": "inside_pilot"
+  },
+  {
+    "poi_id": "p9",
+    "name": "张园",
+    "status": "coordinate_patch_proposed",
+    "candidate_approval": "approved_for_recall_candidate_by_authorized_identity_verification",
+    "old_coordinate": [
+      31.2286,
+      121.4638
+    ],
+    "new_coordinate": [
+      31.227971,
+      121.460064
+    ],
+    "coordinate_system": "GCJ-02",
+    "distance_m": 362.1,
+    "provider": {
+      "type": "购物服务;商场;商场",
+      "id": "B00155QIPB",
+      "address": "茂名北路258号(南京西路地铁站13号口步行50米)",
+      "name": "张园",
+      "location": "121.460064,31.227971"
+    },
+    "sources": [
+      "https://www.amap.com/detail/B00155QIPB",
+      "https://arabic.shanghai.gov.cn/cmsres/fb/fb4c67ebf9604322a8b3f6f74d7e1760/eec310a1555eb5a02a121cee2922800d.pdf"
+    ],
+    "reason": "茂名北路188弄；高德258号为同一张园街区另一地址，非门牌一一相等；采用 provider 街区代表点。",
+    "confidence": "high",
+    "retrieved_at": "2026-10-04T16:14:02.514148+00:00",
+    "boundary_status": "needs_review"
+  },
+  {
+    "poi_id": "p13",
+    "name": "武康大楼",
+    "status": "coordinate_patch_proposed",
+    "candidate_approval": "approved_for_recall_candidate_by_authorized_identity_verification",
+    "old_coordinate": [
+      31.2108,
+      121.4472
+    ],
+    "new_coordinate": [
+      31.20443,
+      121.438278
+    ],
+    "coordinate_system": "GCJ-02",
+    "distance_m": 1105.3,
+    "provider": {
+      "type": "商务住宅;住宅区;住宅小区",
+      "id": "B00155ITJ1",
+      "address": "淮海中路1850号",
+      "name": "武康大楼",
+      "location": "121.438278,31.204430"
+    },
+    "sources": [
+      "https://www.amap.com/detail/B00155ITJ1",
+      "https://japanese.shanghai.gov.cn/ja-CityWalk/20240325/ab41c95b41a54cef96d54c2ab843abd9.html"
+    ],
+    "reason": "官方与高德均指淮海中路1850号武康大楼。",
+    "confidence": "high",
+    "retrieved_at": "2026-10-04T16:14:03.604883+00:00",
+    "boundary_status": "needs_review"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "baseline_file_count": 44,
+  "changed_existing_files": [
+    "src\\route_mutation.py",
+    "src\\trip_actions.py",
+    "src\\trip_action_executor.py",
+    "src\\trip_action_fixtures.py",
+    "src\\trip_action_rendering.py"
+  ],
+  "unexpected_changes": [],
+  "compression_ast_unchanged": true,
+  "compression_ast_sha256": "ba377a61afe6894cc5b4279edea223af6e5190f7ed7050c35b5df3cf8dc4adcb",
+  "production_sha256": "6fe891c894995df9aaf9c1c8488d085178399e8cf6d22fe84a87c68e28018782",
+  "live_api_calls": 0
+}

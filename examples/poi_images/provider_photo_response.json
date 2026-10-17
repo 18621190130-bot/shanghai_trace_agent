@@ -1,0 +1,667 @@
+{
+  "retrieved_at": "2026-10-07T13:16:29.939055+00:00",
+  "batches": [
+    {
+      "ids": [
+        "B0FFI8L58U",
+        "B0HDACXK1W",
+        "B00156O2YR",
+        "B00156COKX",
+        "B00155ITJ1",
+        "B001574I9I",
+        "B0I2KZFZRY",
+        "B00155IKHF",
+        "B0FFMH4KQS",
+        "B0FFFFROYU"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "ids": [
+        "B0HAL54MUG",
+        "B0FFG8TX4N",
+        "B0FFI8D8QU",
+        "B0FFGXZYD4",
+        "B0HGOCVMOG",
+        "B0KAK1PF9S",
+        "B001556ZBL",
+        "B00152B056",
+        "BZAGR001Z2",
+        "B00150C70A"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "ids": [
+        "B00155KIAS",
+        "B00155IQRX",
+        "B0015581AB",
+        "B0FFH165MQ",
+        "BZAFR002HH",
+        "B001556HRR",
+        "B0KUFC7BAU",
+        "B0H6D7AFIV",
+        "B00155LW7J",
+        "B0FFF3T00K"
+      ],
+      "status": "SUCCESS"
+    },
+    {
+      "ids": [
+        "B00155ILI8",
+        "B00155L3BC",
+        "B00155L3B4",
+        "B00155MRU8",
+        "B001559DIY"
+      ],
+      "status": "SUCCESS"
+    }
+  ],
+  "pois": {
+    "B0FFI8L58U": {
+      "id": "B0FFI8L58U",
+      "name": "嘉善路与永康路交叉口",
+      "photos": null
+    },
+    "B0HDACXK1W": {
+      "id": "B0HDACXK1W",
+      "name": "今潮8弄",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0HDACXK1W/comment/content_media_external_file_1000007633_ss__1765315535233_82095304.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0HDACXK1W/comment/16FB687C_96F2_4C3B_9DD9_882FA54164EE_L0_001_1500_200_1764377875028_35547708.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/22b68c58c43dc8590000005362078970?type=pic"
+        }
+      ]
+    },
+    "B00156O2YR": {
+      "id": "B00156O2YR",
+      "name": "建业里",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00156O2YR/comment/IMG_20250322_140520_tem_1742623564753_65853246.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/1a1d98b7315157030000000953468099?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00156O2YR/comment/767CDB73_5C52_4EDF_95DB_E384B4FA16E3_L0_001_1165_158_1773138613038_55596817.jpg"
+        }
+      ]
+    },
+    "B00156COKX": {
+      "id": "B00156COKX",
+      "name": "陕南邨",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/958085b7714b7d130000002868014913?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/b1d5f961b52c5baee87dca392bd959cf"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/6c69fd6e57dd105526365673cdeca200"
+        }
+      ]
+    },
+    "B00155ITJ1": {
+      "id": "B00155ITJ1",
+      "name": "武康大楼",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://aos-cdn-image.amap.com/sns/ugccomment/0c9fe8c8-713b-4802-8c7a-c72b13b60005.jpeg"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/9facfa21487f27840000007590930906?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/a00275afad74d4de0000004441956395?type=pic"
+        }
+      ]
+    },
+    "B001574I9I": {
+      "id": "B001574I9I",
+      "name": "思南公馆",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/a36166f6428f6e780000002247902840?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B001574I9I/comment/content_media_external_file_82647_ss__1769430197204_01726235.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B001574I9I/comment/20260318-50997e04c65e9954899434a8-5BVEUIj76so8MB59jjOfLt.jpg"
+        }
+      ]
+    },
+    "B0I2KZFZRY": {
+      "id": "B0I2KZFZRY",
+      "name": "1927·鲁迅与内山纪念书局",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0I2KZFZRY/comment/f512a41ecbe5add8bc45ec17995f3e56_2048_2048_80.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0I2KZFZRY/comment/file_media_Photo_3529_IMG_1754483558_3590_IMG_20250518_174808_jpg_ss_2.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0I2KZFZRY/comment/1650520038671b498e924d4ff8a0e419_2048_2048_80.jpg"
+        }
+      ]
+    },
+    "B00155IKHF": {
+      "id": "B00155IKHF",
+      "name": "左联会址纪念馆",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/8d2681b28f07ce95c563ed70532e8d23"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/a4b7d4067c68a42d4b6f11953cf0bf5b"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/f45b58b33c093c09878bdd15e3508761"
+        }
+      ]
+    },
+    "B0FFMH4KQS": {
+      "id": "B0FFMH4KQS",
+      "name": "上海市徐汇区图书馆(徐家汇书院)",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/f994cf2ab3f1997e0000003067794408?type=pic"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/a0f2fb28645efbb1019be0a595f6286c"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/bb7c8242bd5275a50000000694254574"
+        }
+      ]
+    },
+    "B0FFFFROYU": {
+      "id": "B0FFFFROYU",
+      "name": "西岸艺术中心",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/fe070297c07c6b429f6e38cc973ae3ad"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0FFFFROYU/comment/content_media_external_file_195477_ss__1762132132552_23511145.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0FFFFROYU/comment/828745da77c092da4c5c4b8eb9dd8b9d_2048_2048_80.jpg"
+        }
+      ]
+    },
+    "B0HAL54MUG": {
+      "id": "B0HAL54MUG",
+      "name": "西岸穹顶艺术中心",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0HAL54MUG/comment/362DCF03_0906_46A2_95EC_5F2B5092047D_L0_001_1500_200_1758540548567_01479851.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0HAL54MUG/comment/CD94CBFC_AE04_46B0_A434_0EC04405B3CB_L0_001_1169_77_1761812478462_77809632.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0HAL54MUG/comment/content_media_external_file_1000156733_ss__1759271499384_40087368.jpg"
+        }
+      ]
+    },
+    "B0FFG8TX4N": {
+      "id": "B0FFG8TX4N",
+      "name": "上海市滨江滑板公园",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://aos-cdn-image.amap.com/sns/ugccomment/16d28e48-8d9b-4642-b244-8508f861fd40.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/2c0439d15ab91dfb0000003906252506?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0FFG8TX4N/comment/9c5427e538d34525ad67f607bec3c266_2048_2048_80.jpg"
+        }
+      ]
+    },
+    "B0FFI8D8QU": {
+      "id": "B0FFI8D8QU",
+      "name": "徐汇跑道公园",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/13c6d19f0ac191320000007166560542?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/f3d8a3f4b13e30bb0000003130784249?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/3db350beeac995160000007166556751?type=pic"
+        }
+      ]
+    },
+    "B0FFGXZYD4": {
+      "id": "B0FFGXZYD4",
+      "name": "徐汇滨江海事塔广场",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0FFGXZYD4/comment/3FD8C013_7EB4_46F9_BE72_D4F4BCA12031_L0_001_1500_200_1761695466503_78069707.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/358d4725a2b67f2a0000002359864199?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/9ec62f46fedd611a0000002340090981?type=pic"
+        }
+      ]
+    },
+    "B0HGOCVMOG": {
+      "id": "B0HGOCVMOG",
+      "name": "北票码头塔吊",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0HGOCVMOG/comment/content_media_external_file_100005810_1766567865887_58857915.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0HGOCVMOG/headerImg/cd124ed090831f0fcfc4edcfa636e5e0_2048_2048_80.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0HGOCVMOG/headerImg/8ff9cf95bfaabff087f7ca5ab33a3a03_2048_2048_80.jpg"
+        }
+      ]
+    },
+    "B0KAK1PF9S": {
+      "id": "B0KAK1PF9S",
+      "name": "西岸大剧院",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/31b76c12caeb95cc0000003596580904?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/comment/content_service__1768727908560_28515536_1768727944434_35202977.jpg"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/87f414d3fd94ed316d5383ee8db4bd94"
+        }
+      ]
+    },
+    "B001556ZBL": {
+      "id": "B001556ZBL",
+      "name": "古城公园",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/656875a0587a16340000002446214803?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/ce02b3cc4f86a92b0000002991768842?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/25e153fada0db8120000002886112486?type=pic"
+        }
+      ]
+    },
+    "B00152B056": {
+      "id": "B00152B056",
+      "name": "四川北路公园",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/8476ce2fa2df42e379d4fd1afd37055f"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/e6603322f2e5927987698baa4b974706"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/74847a3947afefac0000000723224195?type=pic"
+        }
+      ]
+    },
+    "BZAGR001Z2": {
+      "id": "BZAGR001Z2",
+      "name": "甜爱路",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/b9153df2164d5488b8b3fc75ae49add4"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/4cf90c5aef994b82feb3aaf18178fc93"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/BZAGR001Z2/comment/9E14CE55_A882_43E5_8091_68FD4464EE14_L0_001_1512_2016_1736216801299_92817502.jpg"
+        }
+      ]
+    },
+    "B00150C70A": {
+      "id": "B00150C70A",
+      "name": "太平桥公园",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/dddd31f1ef34cd1b0000006634628581?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00150C70A/comment/D56D71C7_11CC_45B8_BE42_7580362AFD32_L0_001_2000_1500_1747242213867_51103242.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00150C70A/comment/content_media_external_file_1000018723_ss__1746440805615_30858719.jpg"
+        }
+      ]
+    },
+    "B00155KIAS": {
+      "id": "B00155KIAS",
+      "name": "淮海公园(暂停开放)",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00155KIAS/comment/content_media_external_file_1000038158_ss__1746755393982_09870004.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00155KIAS/comment/content_media_external_images_media_1000034003_ss__1734172794908_08320906.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00155KIAS/comment/content_media_external_file_201914_1772809341936_58529526.jpg"
+        }
+      ]
+    },
+    "B00155IQRX": {
+      "id": "B00155IQRX",
+      "name": "衡山公园",
+      "photos": [
+        {
+          "title": "衡山公园",
+          "url": "http://store.is.autonavi.com/showpic/58ea8b4382ee90dae2e58228dd2a3cc6"
+        },
+        {
+          "title": "外景图",
+          "url": "http://store.is.autonavi.com/showpic/f42d607a926fc65fd0cd4963f895348e"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00155IQRX/comment/content_media_external_file_100000277_1761317759189_37063777.jpg"
+        }
+      ]
+    },
+    "B0015581AB": {
+      "id": "B0015581AB",
+      "name": "襄阳公园",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/6e7e4508581a833c0000002353670690?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/f96832776d10c0c50000002520060894?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/85a9cd11ea794fb70000005603352716?type=pic"
+        }
+      ]
+    },
+    "B0FFH165MQ": {
+      "id": "B0FFH165MQ",
+      "name": "山阴路274弄小区",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/e68cda0c0d10e2068e4cf654c4c04a0e"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/ebdc2750ae6a2c7bca2abec309a80c94"
+        }
+      ]
+    },
+    "BZAFR002HH": {
+      "id": "BZAFR002HH",
+      "name": "福州路",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/57b9187c68ba1477457327f2f3914d97"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/78d328b5c93d2bc744e70b3e6b6b7fcd"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/BZAFR002HH/comment/dd4a8df6a1dcd1627cf1ae57a31ca287_2048_2048_80.jpg"
+        }
+      ]
+    },
+    "B001556HRR": {
+      "id": "B001556HRR",
+      "name": "大韩民国临时政府旧址",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/722fcc0c87e134266df465c1448fb20d"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/aae616eebf70a98f5cdd80cc2cad72d2"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/8b19412df362cf643c098efbe3583ba5"
+        }
+      ]
+    },
+    "B0KUFC7BAU": {
+      "id": "B0KUFC7BAU",
+      "name": "优秀历史建筑乌鲁木齐南路176号",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/dbeacc1fb1fcc8db4e4c00a1525b5d81"
+        }
+      ]
+    },
+    "B0H6D7AFIV": {
+      "id": "B0H6D7AFIV",
+      "name": "中南新邨",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/dda94cd24dceb9086ff84e164b85deb6"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/4ea47e0662d1502d4d551181be746281"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/79439f83061c1b74f6e5d139770ed5d3"
+        }
+      ]
+    },
+    "B00155LW7J": {
+      "id": "B00155LW7J",
+      "name": "张乐平故居",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00155LW7J/comment/content_media_external_file_34651_1769148584014_30390885.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00155LW7J/comment/content_media_external_file_34651_1769148584036_99247653.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/0bf3c81c134b4f380000007138054799?type=pic"
+        }
+      ]
+    },
+    "B0FFF3T00K": {
+      "id": "B0FFF3T00K",
+      "name": "捷豹上海交响音乐厅",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B0FFF3T00K/comment/EC336C82_091E_4C85_B504_A2FB282BF042_L0_001_1536_2048_1735591964143_57745011.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/2b974b8fdb678a8e0000001544040401?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/fc4bbc537e65c6a20000004930828785?type=pic"
+        }
+      ]
+    },
+    "B00155ILI8": {
+      "id": "B00155ILI8",
+      "name": "徐家汇公园",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://aos-cdn-image.amap.com/sns/ugccomment/9ed04432-0422-4617-b33a-ca5e72b19849.jpg"
+        },
+        {
+          "title": "",
+          "url": "http://aos-cdn-image.amap.com/sns/ugccomment/69eada58-8da2-43cc-b77b-b38caa185c97.jpg"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/6842381643b284e0894e1f4416e44638"
+        }
+      ]
+    },
+    "B00155L3BC": {
+      "id": "B00155L3BC",
+      "name": "李白烈士故居",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/29e7caf84570078db67c3134d29a8f69"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/46d4dd5f0c05dbeff84f870e8782b0ee"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/d1e6c542361dc4e1d84bab92544df5fd"
+        }
+      ]
+    },
+    "B00155L3B4": {
+      "id": "B00155L3B4",
+      "name": "沈尹默故居",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00155L3B4/headerImg/eafb0fa4a53e28a17b51fe96a271e327_2048_2048_80.jpg"
+        },
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/1937f7a00784638522b85edb9200811f"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B00155L3B4/headerImg/7590eb71a548e1c0f75841bbbe61d12d_2048_2048_80.jpg"
+        }
+      ]
+    },
+    "B00155MRU8": {
+      "id": "B00155MRU8",
+      "name": "日本海军特别陆战队司令部旧址",
+      "photos": [
+        {
+          "title": "",
+          "url": "http://store.is.autonavi.com/showpic/bccabbe43735854c8dfb5321b1d42190"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/872cc8f7cc491de50000002879022149"
+        },
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/ed2cd7f242307ae5121abab94e6539a0"
+        }
+      ]
+    },
+    "B001559DIY": {
+      "id": "B001559DIY",
+      "name": "上海多伦现代美术馆",
+      "photos": [
+        {
+          "title": "",
+          "url": "https://store.is.autonavi.com/showpic/49233114bd3721620000007062732390?type=pic"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B001559DIY/comment/67C27C9F_A5D4_4339_8DE6_AB23EE98702B_L0_001_2000_150_1769758220713_93029916.jpg"
+        },
+        {
+          "title": "",
+          "url": "https://aos-comment.amap.com/B001559DIY/comment/b7d51cd8e20d47d25c6fa7da770ea708_2048_2048_80.jpg"
+        }
+      ]
+    }
+  }
+}

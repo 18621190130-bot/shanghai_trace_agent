@@ -1,0 +1,251 @@
+{
+  "scenario": "baseline + recommended accept only; no production write; review/reject excluded",
+  "baseline_poi_count": 5,
+  "proposed_additions": 0,
+  "proposed_poi_count": 5,
+  "coverage": {
+    "interest_tags": {
+      "history": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "architecture": {
+        "before": 4,
+        "proposed_after": 4,
+        "delta": 0
+      },
+      "local_life": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "literature": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "art": {
+        "before": 4,
+        "proposed_after": 4,
+        "delta": 0
+      },
+      "industrial_heritage": {
+        "before": 4,
+        "proposed_after": 4,
+        "delta": 0
+      },
+      "waterfront": {
+        "before": 4,
+        "proposed_after": 4,
+        "delta": 0
+      },
+      "religion": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "parks": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "modern_city": {
+        "before": 1,
+        "proposed_after": 1,
+        "delta": 0
+      },
+      "modern_china_history": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "music": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "gardens": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "shopping_lifestyle": {
+        "before": 1,
+        "proposed_after": 1,
+        "delta": 0
+      }
+    },
+    "experience_tags": {
+      "iconic_landmark": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "neighborhood_walk": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "street_scene": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "local_atmosphere": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "museum_visit": {
+        "before": 4,
+        "proposed_after": 4,
+        "delta": 0
+      },
+      "photogenic": {
+        "before": 4,
+        "proposed_after": 4,
+        "delta": 0
+      },
+      "quiet_walk": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "adaptive_reuse": {
+        "before": 4,
+        "proposed_after": 4,
+        "delta": 0
+      },
+      "riverside_walk": {
+        "before": 4,
+        "proposed_after": 4,
+        "delta": 0
+      },
+      "bookish": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "social_observation": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "architecture_detail": {
+        "before": 1,
+        "proposed_after": 1,
+        "delta": 0
+      },
+      "shopping_leisure": {
+        "before": 1,
+        "proposed_after": 1,
+        "delta": 0
+      }
+    },
+    "culture_tags": {
+      "old_city": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "shikumen": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "lane_life": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "modern_shanghai": {
+        "before": 5,
+        "proposed_after": 5,
+        "delta": 0
+      },
+      "literary_shanghai": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "religious_culture": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "sino_foreign_exchange": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "political_history": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "industrial_transformation": {
+        "before": 5,
+        "proposed_after": 5,
+        "delta": 0
+      },
+      "urban_renewal": {
+        "before": 5,
+        "proposed_after": 5,
+        "delta": 0
+      },
+      "garden_culture": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "public_life": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      },
+      "music_culture": {
+        "before": 0,
+        "proposed_after": 0,
+        "delta": 0
+      }
+    }
+  },
+  "role_distribution": {
+    "transition_stop": 14,
+    "supporting_stop": 22,
+    "anchor": 6
+  },
+  "unresolved_role_count": 1,
+  "accepted_role_distribution": {},
+  "art_without_museum": [
+    "wb_24d09c49daee9643",
+    "wb_5ba4c6c8d9b9c96f",
+    "wb_6873dc4313fa88b8",
+    "wb_7ca7f91efb488c29",
+    "wb_8ba492670ebf81c0",
+    "wb_a270c8e06c4fca4f",
+    "wb_b55918e554af9f49",
+    "wb_bfd5b11fdae241d1",
+    "wb_d34dcd08daf7ae26",
+    "wb_d7d1677306fa4d92",
+    "wb_de8ce749c2f780de",
+    "wb_f13a79c1c0f72683",
+    "wb_f4e1599573e2323c",
+    "wb_f6850b69ebbff1fc",
+    "wb_group_a183ff3db609",
+    "wb_group_dae6c03fe1f9"
+  ],
+  "non_museum_art_proposals": [
+    "wb_24d09c49daee9643",
+    "wb_5ba4c6c8d9b9c96f",
+    "wb_8ba492670ebf81c0",
+    "wb_a270c8e06c4fca4f",
+    "wb_b55918e554af9f49",
+    "wb_bfd5b11fdae241d1",
+    "wb_d7d1677306fa4d92",
+    "wb_f13a79c1c0f72683",
+    "wb_f4e1599573e2323c"
+  ],
+  "warning": "Review identities and evidence before considering adoption. A map category is not independent cultural verification."
+}

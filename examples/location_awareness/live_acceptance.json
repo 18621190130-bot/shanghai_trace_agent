@@ -1,0 +1,183 @@
+{
+  "source": "live_amap_web_service",
+  "location": {
+    "location": {
+      "lat": 31.167682,
+      "lng": 121.463841,
+      "coordinate_system": "GCJ02"
+    },
+    "formatted_address": "上海市徐汇区龙华街道龙耀滨江广场西岸美术馆",
+    "province": "上海市",
+    "city": "上海市",
+    "district": "徐汇区",
+    "township": "龙华街道",
+    "adcode": "310104",
+    "street": "龙腾大道",
+    "street_number": "2600号",
+    "provider": "amap",
+    "fetched_at": "2026-10-05T13:46:27.830165+00:00",
+    "live_data_status": "AVAILABLE",
+    "cache_hit": false,
+    "error_code": null
+  },
+  "gps_location": {
+    "location": {
+      "lat": 31.15805826823,
+      "lng": 121.464558919271,
+      "coordinate_system": "GCJ02"
+    },
+    "formatted_address": "上海市徐汇区龙华街道徐汇滨江绿道Gate M西岸梦中心",
+    "province": "上海市",
+    "city": "上海市",
+    "district": "徐汇区",
+    "township": "龙华街道",
+    "adcode": "310104",
+    "street": "龙腾大道",
+    "street_number": "2121号",
+    "provider": "amap",
+    "fetched_at": "2026-10-05T13:46:28.801356+00:00",
+    "live_data_status": "AVAILABLE",
+    "cache_hit": false,
+    "error_code": null
+  },
+  "pois": [
+    {
+      "provider_id": "B0FFJGOAFY",
+      "core_poi_id": "p28",
+      "provider": "amap",
+      "name": "西岸美术馆",
+      "address": "龙腾大道2600号",
+      "location": {
+        "lat": 31.167682,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ02"
+      },
+      "tel": "021-31011015",
+      "opentime_today": null,
+      "opentime_week": "周二至周日11:00-18:00(最后入场时间17:30),周一固定闭馆；2月16日-2月20日:闭馆 2月21日:开馆 2月23日正常营业；",
+      "rating": 4.9,
+      "cost": null,
+      "tags": [
+        "美术馆"
+      ],
+      "poi_type": "科教文化服务;美术馆;美术馆",
+      "fetched_at": "2026-10-05T13:46:29.359800+00:00",
+      "live_data_status": "PARTIAL",
+      "open_status": "UNKNOWN",
+      "mapping_status": "MATCHED",
+      "identity_mapping_status": "MATCHED",
+      "live_info_applicability": "FULL",
+      "cache_hit": false,
+      "status_evaluated_at": "2026-10-05T21:46:28.801467+08:00",
+      "error_code": null
+    },
+    {
+      "provider_id": "B0H0OSXDUD",
+      "core_poi_id": "p30",
+      "provider": "amap",
+      "name": "Gate M西岸梦中心",
+      "address": "龙腾大道2266号",
+      "location": {
+        "lat": 31.16119,
+        "lng": 121.465465,
+        "coordinate_system": "GCJ02"
+      },
+      "tel": "021-60196688",
+      "opentime_today": "10:00-22:00",
+      "opentime_week": "周一至周日 10:00-22:00",
+      "rating": 4.9,
+      "cost": null,
+      "tags": [
+        "商场"
+      ],
+      "poi_type": "购物服务;商场;购物中心",
+      "fetched_at": "2026-10-05T13:46:29.849975+00:00",
+      "live_data_status": "PARTIAL",
+      "open_status": "OPEN",
+      "mapping_status": "MATCHED",
+      "identity_mapping_status": "MATCHED",
+      "live_info_applicability": "FULL",
+      "cache_hit": false,
+      "status_evaluated_at": "2026-10-05T21:46:29.359979+08:00",
+      "error_code": null
+    },
+    {
+      "provider_id": null,
+      "core_poi_id": "p34",
+      "provider": "amap",
+      "name": null,
+      "address": null,
+      "location": null,
+      "tel": null,
+      "opentime_today": null,
+      "opentime_week": null,
+      "rating": null,
+      "cost": null,
+      "tags": null,
+      "poi_type": null,
+      "fetched_at": null,
+      "live_data_status": "UNAVAILABLE",
+      "open_status": "NOT_APPLICABLE",
+      "mapping_status": "NOT_FOUND",
+      "identity_mapping_status": "NOT_FOUND",
+      "live_info_applicability": "NOT_APPLICABLE",
+      "cache_hit": false,
+      "status_evaluated_at": null,
+      "error_code": "mapping_not_found"
+    }
+  ],
+  "proximity": [
+    {
+      "current_location": {
+        "lat": 31.167951796109115,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ02"
+      },
+      "target_poi_id": "p28",
+      "target_location": {
+        "lat": 31.167682,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ02"
+      },
+      "distance_m": 29.99999999986761,
+      "status": "ARRIVED",
+      "arrival_threshold_m": 60,
+      "near_threshold_m": 200
+    },
+    {
+      "current_location": {
+        "lat": 31.16876118443647,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ02"
+      },
+      "target_poi_id": "p28",
+      "target_location": {
+        "lat": 31.167682,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ02"
+      },
+      "distance_m": 119.99999999947045,
+      "status": "NEAR",
+      "arrival_threshold_m": 60,
+      "near_threshold_m": 200
+    },
+    {
+      "current_location": {
+        "lat": 31.17667520363725,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ02"
+      },
+      "target_poi_id": "p28",
+      "target_location": {
+        "lat": 31.167682,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ02"
+      },
+      "distance_m": 1000.0000000000668,
+      "status": "FAR",
+      "arrival_threshold_m": 60,
+      "near_threshold_m": 200
+    }
+  ],
+  "trip_unchanged": true
+}

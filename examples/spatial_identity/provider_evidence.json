@@ -1,0 +1,4592 @@
+{
+  "details": {
+    "p10": {
+      "normalized": {
+        "provider_id": "B0HDACXK1W",
+        "core_poi_id": null,
+        "provider": "amap",
+        "name": "今潮8弄",
+        "address": "四川北路989弄35-95号(10号线3号口出)",
+        "location": {
+          "lat": 31.251626,
+          "lng": 121.484182,
+          "coordinate_system": "GCJ02"
+        },
+        "tel": "021-63939666",
+        "opentime_today": "10:00-22:00",
+        "opentime_week": "周一至周日 10:00-22:00",
+        "rating": 4.7,
+        "cost": null,
+        "tags": [
+          "特色商业街"
+        ],
+        "poi_type": "购物服务;特色商业街;特色商业街",
+        "fetched_at": "2026-10-05T14:53:16.925466+00:00",
+        "live_data_status": "PARTIAL",
+        "open_status": "UNKNOWN",
+        "mapping_status": null,
+        "identity_mapping_status": null,
+        "live_info_applicability": null,
+        "cache_hit": false,
+        "status_evaluated_at": null,
+        "error_code": null
+      },
+      "raw": [
+        {
+          "id": "B0HDACXK1W",
+          "name": "今潮8弄",
+          "location": "121.484182,31.251626",
+          "address": "四川北路989弄35-95号(10号线3号口出)",
+          "adname": "虹口区",
+          "adcode": "310109",
+          "type": "购物服务;特色商业街;特色商业街",
+          "typecode": "061000",
+          "children": null
+        }
+      ]
+    },
+    "p12": {
+      "normalized": {
+        "provider_id": "B00156COKX",
+        "core_poi_id": null,
+        "provider": "amap",
+        "name": "陕南邨",
+        "address": "陕西南路187弄1-87号",
+        "location": {
+          "lat": 31.214589,
+          "lng": 121.460986,
+          "coordinate_system": "GCJ02"
+        },
+        "tel": null,
+        "opentime_today": null,
+        "opentime_week": null,
+        "rating": null,
+        "cost": null,
+        "tags": [
+          "住宅区"
+        ],
+        "poi_type": "商务住宅;住宅区;住宅小区",
+        "fetched_at": "2026-10-05T14:53:18.406147+00:00",
+        "live_data_status": "PARTIAL",
+        "open_status": "UNKNOWN",
+        "mapping_status": null,
+        "identity_mapping_status": null,
+        "live_info_applicability": null,
+        "cache_hit": false,
+        "status_evaluated_at": null,
+        "error_code": null
+      },
+      "raw": [
+        {
+          "id": "B00156COKX",
+          "name": "陕南邨",
+          "location": "121.460986,31.214589",
+          "address": "陕西南路187弄1-87号",
+          "adname": "黄浦区",
+          "adcode": "310101",
+          "type": "商务住宅;住宅区;住宅小区",
+          "typecode": "120302",
+          "children": null
+        }
+      ]
+    },
+    "p34": {
+      "normalized": {
+        "provider_id": "B0IA369WVI",
+        "core_poi_id": null,
+        "provider": "amap",
+        "name": "南京路步行街",
+        "address": "黄浦区",
+        "location": {
+          "lat": 31.236534,
+          "lng": 121.482374,
+          "coordinate_system": "GCJ02"
+        },
+        "tel": null,
+        "opentime_today": null,
+        "opentime_week": null,
+        "rating": null,
+        "cost": null,
+        "tags": [
+          "城市次干路"
+        ],
+        "poi_type": "地名地址信息;交通地名;道路名",
+        "fetched_at": "2026-10-05T14:53:19.901022+00:00",
+        "live_data_status": "PARTIAL",
+        "open_status": "UNKNOWN",
+        "mapping_status": null,
+        "identity_mapping_status": null,
+        "live_info_applicability": null,
+        "cache_hit": false,
+        "status_evaluated_at": null,
+        "error_code": null
+      },
+      "raw": [
+        {
+          "id": "B0IA369WVI",
+          "name": "南京路步行街",
+          "location": "121.482374,31.236534",
+          "address": "黄浦区",
+          "adname": "黄浦区",
+          "adcode": "310101",
+          "type": "地名地址信息;交通地名;道路名",
+          "typecode": "190301",
+          "children": null
+        }
+      ]
+    },
+    "p25": {
+      "normalized": {
+        "provider_id": "B0I2KZFZRY",
+        "core_poi_id": null,
+        "provider": "amap",
+        "name": "1927·鲁迅与内山纪念书局",
+        "address": "四川北路2056号(近鲁迅公园)",
+        "location": {
+          "lat": 31.264788,
+          "lng": 121.483615,
+          "coordinate_system": "GCJ02"
+        },
+        "tel": null,
+        "opentime_today": null,
+        "opentime_week": null,
+        "rating": 4.5,
+        "cost": null,
+        "tags": [
+          "纪念馆"
+        ],
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所",
+        "fetched_at": "2026-10-05T14:53:21.417937+00:00",
+        "live_data_status": "PARTIAL",
+        "open_status": "UNKNOWN",
+        "mapping_status": null,
+        "identity_mapping_status": null,
+        "live_info_applicability": null,
+        "cache_hit": false,
+        "status_evaluated_at": null,
+        "error_code": null
+      },
+      "raw": [
+        {
+          "id": "B0I2KZFZRY",
+          "name": "1927·鲁迅与内山纪念书局",
+          "location": "121.483615,31.264788",
+          "address": "四川北路2056号(近鲁迅公园)",
+          "adname": "虹口区",
+          "adcode": "310109",
+          "type": "科教文化服务;科教文化场所;科教文化场所",
+          "typecode": "140000",
+          "children": null
+        }
+      ]
+    },
+    "pz_b72e3b8998b3": {
+      "normalized": {
+        "provider_id": "B00155FLFD",
+        "core_poi_id": null,
+        "provider": "amap",
+        "name": "多伦路文化名人街",
+        "address": "多伦路",
+        "location": {
+          "lat": 31.264124,
+          "lng": 121.481748,
+          "coordinate_system": "GCJ02"
+        },
+        "tel": null,
+        "opentime_today": "24小时营业",
+        "opentime_week": "周一至周日 00:00-24:00",
+        "rating": 4.6,
+        "cost": null,
+        "tags": [
+          "名人故居"
+        ],
+        "poi_type": "购物服务;特色商业街;特色商业街",
+        "fetched_at": "2026-10-05T14:53:22.920741+00:00",
+        "live_data_status": "PARTIAL",
+        "open_status": "UNKNOWN",
+        "mapping_status": null,
+        "identity_mapping_status": null,
+        "live_info_applicability": null,
+        "cache_hit": false,
+        "status_evaluated_at": null,
+        "error_code": null
+      },
+      "raw": [
+        {
+          "id": "B00155FLFD",
+          "name": "多伦路文化名人街",
+          "location": "121.481748,31.264124",
+          "address": "多伦路",
+          "adname": "虹口区",
+          "adcode": "310109",
+          "type": "购物服务;特色商业街;特色商业街",
+          "typecode": "061000",
+          "children": null
+        }
+      ]
+    },
+    "p14": {
+      "normalized": {
+        "provider_id": "B00155G6WO",
+        "core_poi_id": null,
+        "provider": "amap",
+        "name": "外滩-陈毅广场",
+        "address": "中山东一路外滩内(北侧)",
+        "location": {
+          "lat": 31.238992,
+          "lng": 121.49039,
+          "coordinate_system": "GCJ02"
+        },
+        "tel": null,
+        "opentime_today": "24小时营业",
+        "opentime_week": "周一至周日 00:00-24:00",
+        "rating": 4.5,
+        "cost": null,
+        "tags": [
+          "广场"
+        ],
+        "poi_type": "风景名胜;公园广场;城市广场",
+        "fetched_at": "2026-10-05T15:25:22.179914+00:00",
+        "live_data_status": "PARTIAL",
+        "open_status": "UNKNOWN",
+        "mapping_status": null,
+        "identity_mapping_status": null,
+        "live_info_applicability": null,
+        "cache_hit": false,
+        "status_evaluated_at": null,
+        "error_code": null
+      },
+      "raw": [
+        {
+          "id": "B00155G6WO",
+          "name": "外滩-陈毅广场",
+          "location": "121.490390,31.238992",
+          "address": "中山东一路外滩内(北侧)",
+          "adname": "黄浦区",
+          "adcode": "310101",
+          "type": "风景名胜;公园广场;城市广场",
+          "typecode": "110105",
+          "children": null
+        }
+      ]
+    }
+  },
+  "surroundings": {
+    "p10": [
+      {
+        "provider_id": "B0FFGGNLDQ",
+        "name": "四川北路与武进路交叉口",
+        "location": {
+          "lat": 31.251768,
+          "lng": 121.484381,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0M26S8XJ7",
+        "name": "今潮8弄-云朵框装置夜景(打卡点)",
+        "location": {
+          "lat": 31.251448,
+          "lng": 121.48434,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路989弄35-95号今潮8弄",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0FFGGN79X",
+        "name": "中州路与武进路交叉口",
+        "location": {
+          "lat": 31.251544,
+          "lng": 121.483775,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0J29H5B5X",
+        "name": "上海市城市更新研究会",
+        "location": {
+          "lat": 31.251775,
+          "lng": 121.484825,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路1318号盛邦国际大厦801室",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0L3MRNSPK",
+        "name": "斯蓓思会议室(四川北路店)",
+        "location": {
+          "lat": 31.251324,
+          "lng": 121.48475,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路与武进路交叉口东南60米(四川北路地铁站2号口旁)",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0MUAZ06PV",
+        "name": "上海祥貌传媒有限公司",
+        "location": {
+          "lat": 31.252046,
+          "lng": 121.483621,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "中州路40号(四川北路地铁站出入口步行70米)",
+        "poi_type": "科教文化服务;传媒机构;传媒机构"
+      },
+      {
+        "provider_id": "B0MUYAPMDF",
+        "name": "上海样貌传媒有限公司",
+        "location": {
+          "lat": 31.252061,
+          "lng": 121.483611,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "中州路40号(四川北路地铁站出入口步行70米)",
+        "poi_type": "科教文化服务;传媒机构;传媒机构"
+      },
+      {
+        "provider_id": "B0IA3YL69V",
+        "name": "武进路",
+        "location": {
+          "lat": 31.251947,
+          "lng": 121.48487,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0I6SH78NM",
+        "name": "瑜音社",
+        "location": {
+          "lat": 31.250825,
+          "lng": 121.483875,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路989弄今潮848-59号101瑜音社",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0FFIXRPYF",
+        "name": "武进路297弄1号",
+        "location": {
+          "lat": 31.251604,
+          "lng": 121.485184,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;地名地址信息;地名地址信息"
+      },
+      {
+        "provider_id": "B0LKB6RWCU",
+        "name": "声心睿TOMATIS·注意力·感统体能·语言社交·多动症(海泰时代大厦)",
+        "location": {
+          "lat": 31.251756,
+          "lng": 121.485174,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "武进路与四川北路交叉口东80米",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0MUYRRX03",
+        "name": "山荣吉他",
+        "location": {
+          "lat": 31.250847,
+          "lng": 121.48473,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路1274号四行大楼608室",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "BZAGR0039N",
+        "name": "四川北路",
+        "location": {
+          "lat": 31.250744,
+          "lng": 121.484584,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0M1FDAR3U",
+        "name": "今潮8弄-狗狗挂牌夜景(打卡点)",
+        "location": {
+          "lat": 31.250918,
+          "lng": 121.483435,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路989弄35-95号今潮8弄",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0K0P7VRAW",
+        "name": "中州路27号",
+        "location": {
+          "lat": 31.252259,
+          "lng": 121.483306,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "中州路与中州支路交叉口东20米",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0M2YM5OZ4",
+        "name": "今潮8弄-楼梯和电影名人名言(打卡点)",
+        "location": {
+          "lat": 31.251104,
+          "lng": 121.483169,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路989弄35-95号今潮8弄",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0MUS9EIN5",
+        "name": "上海多伦路地区海派文化馆",
+        "location": {
+          "lat": 31.251075,
+          "lng": 121.483175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "武进路与中州路交叉口西南80米",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0G1LR650U",
+        "name": "达赫德语",
+        "location": {
+          "lat": 31.251549,
+          "lng": 121.485399,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路1361号壹丰广场19楼1902室",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0H29R5X1Q",
+        "name": "上海小螺号能力开发中心",
+        "location": {
+          "lat": 31.251602,
+          "lng": 121.485426,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "武进路289号海泰时代大厦",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0MBM77ESM",
+        "name": "StudyHub自习室",
+        "location": {
+          "lat": 31.251626,
+          "lng": 121.485435,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路街道武进路289号海泰时代大厦1508室",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0M6YSRCJJ",
+        "name": "恕之教育·小初高辅导(虹口海泰店)",
+        "location": {
+          "lat": 31.251626,
+          "lng": 121.485435,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "武进路289号海泰时代大厦608室",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0J6GSGV8U",
+        "name": "天声音乐(北外滩店)",
+        "location": {
+          "lat": 31.251648,
+          "lng": 121.485442,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "武进路289号海泰时代大厦17楼1708-1709室",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0FFGGPMXB",
+        "name": "中州支路与中州路交叉口",
+        "location": {
+          "lat": 31.252274,
+          "lng": 121.483165,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0MB4ZYA1I",
+        "name": "秦面扶风",
+        "location": {
+          "lat": 31.252751,
+          "lng": 121.484743,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "乍浦路与海南路交叉口西南80米(四川北路地铁站出入口旁)",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0K1FHO9DW",
+        "name": "今潮8弄海派文化中心",
+        "location": {
+          "lat": 31.250758,
+          "lng": 121.48314,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路街道武进路409-11号",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      }
+    ],
+    "p12": [
+      {
+        "provider_id": "B0FFF52YLT",
+        "name": "陕西南路153号",
+        "location": {
+          "lat": 31.214839,
+          "lng": 121.460726,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "陕西南路与南昌路交叉口东南80米",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0FFHQ8E7Q",
+        "name": "南昌路205弄1-10号",
+        "location": {
+          "lat": 31.215393,
+          "lng": 121.460691,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南昌路与陕西南路交叉口东80米",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B00150EF16",
+        "name": "上海市清华中学",
+        "location": {
+          "lat": 31.214291,
+          "lng": 121.461975,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "茂名南路156号(陕西南路地铁站4号口步行350米)",
+        "poi_type": "科教文化服务;学校;中学"
+      },
+      {
+        "provider_id": "B0MBTXE2QJ",
+        "name": "化学世界编辑部",
+        "location": {
+          "lat": 31.215484,
+          "lng": 121.460913,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南昌路与陕西南路交叉口东100米",
+        "poi_type": "科教文化服务;传媒机构;传媒机构"
+      },
+      {
+        "provider_id": "B0JB67HZ1G",
+        "name": "上海芙睿文化传播有限公司",
+        "location": {
+          "lat": 31.214667,
+          "lng": 121.459888,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "陕西南路350号(陕西南路地铁站6号口步行130米)",
+        "poi_type": "科教文化服务;传媒机构;传媒机构"
+      },
+      {
+        "provider_id": "B0IA3SUTHL",
+        "name": "陕西南路",
+        "location": {
+          "lat": 31.213674,
+          "lng": 121.460607,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0LD2AIFB7",
+        "name": "南昌路185号",
+        "location": {
+          "lat": 31.215567,
+          "lng": 121.461444,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "瑞金二路街道南昌路193号",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0FFLKZD18",
+        "name": "复兴中路与陕西南路交叉口",
+        "location": {
+          "lat": 31.213505,
+          "lng": 121.460692,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFI8O9HX",
+        "name": "南昌路与陕西南路交叉口",
+        "location": {
+          "lat": 31.21521,
+          "lng": 121.459889,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B001538F06",
+        "name": "上海市黄浦区巨鹿路第一小学",
+        "location": {
+          "lat": 31.215499,
+          "lng": 121.460196,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南昌路366号(近陕西南路)",
+        "poi_type": "科教文化服务;学校;小学"
+      },
+      {
+        "provider_id": "B0LBMDXS2Z",
+        "name": "茂名南路124号甲",
+        "location": {
+          "lat": 31.215532,
+          "lng": 121.461855,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "瑞金二路街道茂名南路124号甲",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0KAAHCWHT",
+        "name": "一惬画室",
+        "location": {
+          "lat": 31.215916,
+          "lng": 121.46099,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "淮海中路927弄118号(陕西南路地铁站4号口步行260米)",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0FFI8G8CM",
+        "name": "复兴中路与茂名南路交叉口",
+        "location": {
+          "lat": 31.213991,
+          "lng": 121.462423,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPC0RM",
+        "name": "上海理工大学-中英国际学院",
+        "location": {
+          "lat": 31.21328,
+          "lng": 121.460453,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "上海理工大学复兴路校区(徐汇区复兴中路1195号教学楼S3-5层)",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0M275KH0Y",
+        "name": "静安寺-店铺门口(打卡点)",
+        "location": {
+          "lat": 31.216063,
+          "lng": 121.460889,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京西路1686号静安寺(陕西南路地铁站4号口步行250米)",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0FFGAR2OO",
+        "name": "上海市黄浦区卢湾二中心小学(西区)",
+        "location": {
+          "lat": 31.214387,
+          "lng": 121.462712,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "复兴中路与茂名南路交叉口东北60米",
+        "poi_type": "科教文化服务;学校;小学"
+      },
+      {
+        "provider_id": "B00156NU56",
+        "name": "徐悲鸿旧居",
+        "location": {
+          "lat": 31.21607,
+          "lng": 121.460756,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "淮海中路927弄99号(陕西南路地铁站4号口步行260米)",
+        "poi_type": "风景名胜;风景名胜;纪念馆"
+      },
+      {
+        "provider_id": "B0FFI7RYZ7",
+        "name": "巴金旧居",
+        "location": {
+          "lat": 31.216058,
+          "lng": 121.460666,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "淮海中路九二七弄59号(陕西南路地铁站4号口步行270米)",
+        "poi_type": "风景名胜;风景名胜;纪念馆"
+      },
+      {
+        "provider_id": "B0FFFWPYQR",
+        "name": "许广平旧居",
+        "location": {
+          "lat": 31.216149,
+          "lng": 121.460948,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "淮海中路927弄64号(陕西南路地铁站4号口步行240米)",
+        "poi_type": "风景名胜;风景名胜;纪念馆"
+      },
+      {
+        "provider_id": "B0HGTZ8IGL",
+        "name": "复兴中路",
+        "location": {
+          "lat": 31.214143,
+          "lng": 121.462787,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      },
+      {
+        "provider_id": "B0HAK9L9M9",
+        "name": "美甲店文化广场",
+        "location": {
+          "lat": 31.212987,
+          "lng": 121.461081,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "复兴中路599号美(陕西南路地铁站6号口步行340米)",
+        "poi_type": "风景名胜;公园广场;城市广场"
+      },
+      {
+        "provider_id": "B0MGK5KSVS",
+        "name": "茂名南路163弄2号",
+        "location": {
+          "lat": 31.215506,
+          "lng": 121.462577,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "茂名南路167号",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0HR4MY5FM",
+        "name": "阅读花园",
+        "location": {
+          "lat": 31.216067,
+          "lng": 121.461865,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南昌路与茂名南路交叉口东南侧",
+        "poi_type": "风景名胜;公园广场;公园"
+      },
+      {
+        "provider_id": "B0FFI8HVI0",
+        "name": "南昌路与茂名南路交叉口",
+        "location": {
+          "lat": 31.216188,
+          "lng": 121.461757,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      }
+    ],
+    "p34": [
+      {
+        "provider_id": "B0IA369WVI",
+        "name": "南京路步行街",
+        "location": {
+          "lat": 31.236534,
+          "lng": 121.482374,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0FFFPWQ3Y",
+        "name": "南京路步行街-雕像",
+        "location": {
+          "lat": 31.236715,
+          "lng": 121.482536,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B001574SKW",
+        "name": "朵云艺术馆",
+        "location": {
+          "lat": 31.236699,
+          "lng": 121.482145,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路422号朵云轩4层(南京东路山西南路)",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0MD649GKG",
+        "name": "上海记忆展览馆",
+        "location": {
+          "lat": 31.236324,
+          "lng": 121.482037,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路409号上海置地广场F1层(南京东路地铁站4号口旁)",
+        "poi_type": "科教文化服务;展览馆;展览馆"
+      },
+      {
+        "provider_id": "B0M1K6PS6Z",
+        "name": "奔跑吧文创",
+        "location": {
+          "lat": 31.236275,
+          "lng": 121.482025,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京路步行街与五福弄交叉口东60米",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0LK0N65BG",
+        "name": "子佩集大师作品馆",
+        "location": {
+          "lat": 31.236137,
+          "lng": 121.482385,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路409号上海置地广场F1层(南京东路地铁站4号口旁)",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0JK7RIULV",
+        "name": "云松沉香(朵云轩)",
+        "location": {
+          "lat": 31.236975,
+          "lng": 121.482525,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "山西南路与南京路步行街交叉口北40米",
+        "poi_type": "购物服务;专卖店;专营店|风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0FFHUAVRS",
+        "name": "謒浪亭",
+        "location": {
+          "lat": 31.237039,
+          "lng": 121.482202,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0FFGGUX64",
+        "name": "九江路与山西南路交叉口",
+        "location": {
+          "lat": 31.236044,
+          "lng": 121.48278,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0MAH1MI20",
+        "name": "亚朵竹居流动图书馆(上海外滩置地广场)",
+        "location": {
+          "lat": 31.23596,
+          "lng": 121.482083,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路409号上海置地广场",
+        "poi_type": "科教文化服务;图书馆;图书馆"
+      },
+      {
+        "provider_id": "B0LAJOV382",
+        "name": "九江路320号",
+        "location": {
+          "lat": 31.236321,
+          "lng": 121.483364,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "九江路360号",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0FFH111ZT",
+        "name": "瞿晏亭",
+        "location": {
+          "lat": 31.236797,
+          "lng": 121.483375,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路353号悦荟mosaicF3",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B00155I1IJ",
+        "name": "华盛大厦会议中心",
+        "location": {
+          "lat": 31.23565,
+          "lng": 121.482567,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "汉口路398-400号上海华盛大厦602-604",
+        "poi_type": "科教文化服务;会展中心;会展中心"
+      },
+      {
+        "provider_id": "B0M2RSMXWD",
+        "name": "百联ZX创趣场-吉伊卡哇快闪店内贴纸(打卡点)",
+        "location": {
+          "lat": 31.237024,
+          "lng": 121.483319,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路340-372号百联ZX创趣场",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0FFLQF683",
+        "name": "零鸿教育托福雅思英语留学",
+        "location": {
+          "lat": 31.235611,
+          "lng": 121.482719,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "汉口路398号华盛大厦15I室",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0M2ZB1YZ2",
+        "name": "百联ZX创趣场-三色吉伊(打卡点)",
+        "location": {
+          "lat": 31.237125,
+          "lng": 121.483275,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路340-372号百联ZX创趣场",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0M271LDCW",
+        "name": "百联ZX创趣场-吉伊卡哇快闪店内大海报(打卡点)",
+        "location": {
+          "lat": 31.236922,
+          "lng": 121.483434,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路340-372号百联ZX创趣场",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0K0TOW1LO",
+        "name": "上海纪念品",
+        "location": {
+          "lat": 31.236675,
+          "lng": 121.483525,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "九江路与山东中路交叉口西80米",
+        "poi_type": "购物服务;购物相关场所;购物相关场所|风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0KUR99VG4",
+        "name": "鎏婳书香文化展厅",
+        "location": {
+          "lat": 31.235527,
+          "lng": 121.482057,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "九江路501号一楼112室(南京东路地铁站4号口步行60米)",
+        "poi_type": "科教文化服务;展览馆;展览馆"
+      },
+      {
+        "provider_id": "B0FFKJT469",
+        "name": "上海失恋博物馆",
+        "location": {
+          "lat": 31.236683,
+          "lng": 121.483583,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路上海悦荟广场4层(南京东路地铁站3号口步行50米)",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0L0R54WFT",
+        "name": "半笑空间-外滩店1号剧场",
+        "location": {
+          "lat": 31.235488,
+          "lng": 121.482647,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "汉口路398号华盛大厦2楼",
+        "poi_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所|科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0MUR5CKZU",
+        "name": "灰色博物馆(上海店)",
+        "location": {
+          "lat": 31.236528,
+          "lng": 121.483655,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "外滩街道悦荟广场4楼(南京东路地铁站4号口步行100米)",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0MANAPNKU",
+        "name": "梵高的天空·光影大展",
+        "location": {
+          "lat": 31.236614,
+          "lng": 121.483666,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京路步行街353号",
+        "poi_type": "科教文化服务;展览馆;展览馆"
+      },
+      {
+        "provider_id": "B0M2UXGF55",
+        "name": "上海星空艺术馆(外滩店)-与向日葵画作合影(打卡点)",
+        "location": {
+          "lat": 31.236705,
+          "lng": 121.483654,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "上海星空艺术馆(外滩店)(南京东路地铁站3号口步行70米)",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0LRJZGVOA",
+        "name": "上海星空艺术馆(外滩店)",
+        "location": {
+          "lat": 31.236675,
+          "lng": 121.483675,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路步行街353号悦荟广场4楼",
+        "poi_type": "科教文化服务;展览馆;展览馆"
+      }
+    ],
+    "p25": [
+      {
+        "provider_id": "B0I2KZFZRY",
+        "name": "1927·鲁迅与内山纪念书局",
+        "location": {
+          "lat": 31.264788,
+          "lng": 121.483615,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2056号(近鲁迅公园)",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B00155GHK0",
+        "name": "内山书店旧址",
+        "location": {
+          "lat": 31.264816,
+          "lng": 121.483639,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2050号(四川北路甜爱路)",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0M6GSOK84",
+        "name": "银巷NORTHERN SILVER",
+        "location": {
+          "lat": 31.264807,
+          "lng": 121.483728,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;地名地址信息;地名地址信息"
+      },
+      {
+        "provider_id": "B0FFLKXCRL",
+        "name": "山阴路与四川北路交叉口",
+        "location": {
+          "lat": 31.264677,
+          "lng": 121.483607,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFGGOFS6",
+        "name": "四川北路与甜爱路交叉口",
+        "location": {
+          "lat": 31.264694,
+          "lng": 121.483313,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0M1FDAQUN",
+        "name": "甜爱路-绿色蝴蝶结(打卡点)",
+        "location": {
+          "lat": 31.265053,
+          "lng": 121.483315,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0FFF3WVGX",
+        "name": "西童公学旧址",
+        "location": {
+          "lat": 31.264771,
+          "lng": 121.483133,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2066号",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0LG0R6EMG",
+        "name": "上海贰点九文化传播有限公司",
+        "location": {
+          "lat": 31.264557,
+          "lng": 121.483183,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路与甜爱路交叉口西南20米",
+        "poi_type": "科教文化服务;传媒机构;传媒机构"
+      },
+      {
+        "provider_id": "B0MAH7M5QZ",
+        "name": "学霸哥哥工作室·小初高辅导·教育补习中心(虹口区2号店)",
+        "location": {
+          "lat": 31.264817,
+          "lng": 121.483103,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路与甜爱路交叉口西北20米",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0KDVCT6D3",
+        "name": "昂立小学辅导(虹口宝华校区)",
+        "location": {
+          "lat": 31.264365,
+          "lng": 121.484334,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2000号宝华商业广场1层",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B00155KD87",
+        "name": "太阳社旧址",
+        "location": {
+          "lat": 31.263944,
+          "lng": 121.483464,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路街道四川北路街道四川北路1999弄32号",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0M1FSACRB",
+        "name": "甜爱路-11号橱窗(打卡点)",
+        "location": {
+          "lat": 31.265671,
+          "lng": 121.483496,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0FFGGTM3U",
+        "name": "山阴路与长山路交叉口",
+        "location": {
+          "lat": 31.264729,
+          "lng": 121.484679,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0J2A55EFG",
+        "name": "四川北路2005号",
+        "location": {
+          "lat": 31.263842,
+          "lng": 121.483843,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;地名地址信息;地名地址信息"
+      },
+      {
+        "provider_id": "B00150ECB9",
+        "name": "上海市民办新复兴初级中学",
+        "location": {
+          "lat": 31.265468,
+          "lng": 121.482787,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路街道四川北路2066号",
+        "poi_type": "科教文化服务;学校;中学"
+      },
+      {
+        "provider_id": "B0M21OZFDB",
+        "name": "甜爱路-涂鸦墙(打卡点)",
+        "location": {
+          "lat": 31.265827,
+          "lng": 121.483529,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0KURR1U4C",
+        "name": "掌门集团",
+        "location": {
+          "lat": 31.264082,
+          "lng": 121.48453,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2000号宝华商业广场6层",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0LA3UFGRI",
+        "name": "甜爱路311号",
+        "location": {
+          "lat": 31.26586,
+          "lng": 121.483246,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路100号靠近上海鲁迅纪念馆",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0FFGGQ3U8",
+        "name": "溧阳路与四川北路交叉口",
+        "location": {
+          "lat": 31.263691,
+          "lng": 121.483992,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFGGAFOJ",
+        "name": "吉祥路与山阴路交叉口",
+        "location": {
+          "lat": 31.265461,
+          "lng": 121.484714,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "BZAGR001Z0",
+        "name": "吉祥路",
+        "location": {
+          "lat": 31.265461,
+          "lng": 121.484761,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0G2X7M41A",
+        "name": "冯雪峰拉摩斯公寓旧居",
+        "location": {
+          "lat": 31.264588,
+          "lng": 121.482176,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2099号",
+        "poi_type": "风景名胜;风景名胜;红色景区"
+      },
+      {
+        "provider_id": "B0FFGQ97QX",
+        "name": "长山路",
+        "location": {
+          "lat": 31.264215,
+          "lng": 121.484969,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0MB6UO0V1",
+        "name": "山阴路103弄1号",
+        "location": {
+          "lat": 31.26567,
+          "lng": 121.484814,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "吉祥路与山阴路交叉口东北20米",
+        "poi_type": "科教文化服务;学校;学校内部设施"
+      },
+      {
+        "provider_id": "B00155KD3R",
+        "name": "汤公馆",
+        "location": {
+          "lat": 31.263983,
+          "lng": 121.48223,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2023弄35号",
+        "poi_type": "风景名胜;风景名胜;纪念馆"
+      }
+    ],
+    "pz_b72e3b8998b3": [
+      {
+        "provider_id": "B0FFFWQ8SW",
+        "name": "白公馆",
+        "location": {
+          "lat": 31.264023,
+          "lng": 121.481871,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路210号",
+        "poi_type": "风景名胜;风景名胜;风景名胜"
+      },
+      {
+        "provider_id": "B0HG6SDY58",
+        "name": "瞿秋白雕像",
+        "location": {
+          "lat": 31.264027,
+          "lng": 121.481573,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路文化名人街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0G3LBD7AN",
+        "name": "柔石雕像",
+        "location": {
+          "lat": 31.263957,
+          "lng": 121.481582,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路文化名人街",
+        "poi_type": "风景名胜;风景名胜;风景名胜"
+      },
+      {
+        "provider_id": "B0FFKZUNOA",
+        "name": "多伦文化艺术会客厅",
+        "location": {
+          "lat": 31.264313,
+          "lng": 121.481524,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "川北路街道1999弄求安里1号",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0M2YL8RP6",
+        "name": "多伦路文化名人街-人像雕塑与绿植(打卡点)",
+        "location": {
+          "lat": 31.263821,
+          "lng": 121.481627,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路文化名人街",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0FFKHPMNV",
+        "name": "陈仲篪旧居",
+        "location": {
+          "lat": 31.26379,
+          "lng": 121.481742,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路208号",
+        "poi_type": "风景名胜;风景名胜;纪念馆"
+      },
+      {
+        "provider_id": "BZAGR0033N",
+        "name": "多伦路",
+        "location": {
+          "lat": 31.264469,
+          "lng": 121.481702,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0FFHGRH3F",
+        "name": "梁鸿志旧居",
+        "location": {
+          "lat": 31.263808,
+          "lng": 121.481492,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路215号",
+        "poi_type": "风景名胜;风景名胜;纪念馆"
+      },
+      {
+        "provider_id": "B0FFLG5J2Q",
+        "name": "中国政法大学上海学习中心",
+        "location": {
+          "lat": 31.2638,
+          "lng": 121.481471,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路与四川北路交叉口南160米",
+        "poi_type": "科教文化服务;学校;高等院校"
+      },
+      {
+        "provider_id": "B001572XF8",
+        "name": "宝亨利艺术公馆",
+        "location": {
+          "lat": 31.264051,
+          "lng": 121.481277,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路215号",
+        "poi_type": "科教文化服务;展览馆;展览馆"
+      },
+      {
+        "provider_id": "B00155KD3Q",
+        "name": "多伦路250号住宅孔公馆",
+        "location": {
+          "lat": 31.264536,
+          "lng": 121.481856,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2099-2101号附近",
+        "poi_type": "风景名胜;风景名胜;风景名胜"
+      },
+      {
+        "provider_id": "B00155KD3R",
+        "name": "汤公馆",
+        "location": {
+          "lat": 31.263983,
+          "lng": 121.48223,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2023弄35号",
+        "poi_type": "风景名胜;风景名胜;纪念馆"
+      },
+      {
+        "provider_id": "B00150BB6F",
+        "name": "上海市老干部大学(纺织分校)",
+        "location": {
+          "lat": 31.263894,
+          "lng": 121.481309,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路215号",
+        "poi_type": "科教文化服务;学校;成人教育"
+      },
+      {
+        "provider_id": "B0MUF7HLY8",
+        "name": "多伦路250号住宅孔公馆-菱形窗户与彩绘墙(打卡点)",
+        "location": {
+          "lat": 31.264618,
+          "lng": 121.4818,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路250号住宅孔公馆(西北角)",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0MUF7HUSF",
+        "name": "多伦路250号住宅孔公馆-复古门头(打卡点)",
+        "location": {
+          "lat": 31.264634,
+          "lng": 121.481679,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路250号住宅孔公馆",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0G2X7M41A",
+        "name": "冯雪峰拉摩斯公寓旧居",
+        "location": {
+          "lat": 31.264588,
+          "lng": 121.482176,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路2099号",
+        "poi_type": "风景名胜;风景名胜;红色景区"
+      },
+      {
+        "provider_id": "B0JRHRFS8K",
+        "name": "190艺术空间(永安里店)",
+        "location": {
+          "lat": 31.263532,
+          "lng": 121.481811,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路190号",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0FFHRYOOU",
+        "name": "多伦路189号",
+        "location": {
+          "lat": 31.26354,
+          "lng": 121.481549,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路与多伦路文化名人街交叉口北140米",
+        "poi_type": "地名地址信息;门牌信息;道路门牌"
+      },
+      {
+        "provider_id": "B0FFLEOUE9",
+        "name": "赵世炎寓所",
+        "location": {
+          "lat": 31.263467,
+          "lng": 121.481614,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路街道四川北路街道多伦路189号",
+        "poi_type": "风景名胜;风景名胜;红色景区|风景名胜;风景名胜;纪念馆"
+      },
+      {
+        "provider_id": "B0MD1UTOQI",
+        "name": "骐骥开物琳琅境艺术空间",
+        "location": {
+          "lat": 31.263429,
+          "lng": 121.481678,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路文化名人街187号",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B0FFF9ZHTS",
+        "name": "上海制冷历史博物馆",
+        "location": {
+          "lat": 31.263302,
+          "lng": 121.481627,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路179号",
+        "poi_type": "科教文化服务;博物馆;博物馆"
+      },
+      {
+        "provider_id": "B0FFF9ZHTM",
+        "name": "上海多伦路地区海派文化馆(多伦生活广场店)",
+        "location": {
+          "lat": 31.263302,
+          "lng": 121.481627,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路179号",
+        "poi_type": "科教文化服务;文化宫;文化宫"
+      },
+      {
+        "provider_id": "B0G1PPIZAA",
+        "name": "王介平楷隶书法教学",
+        "location": {
+          "lat": 31.263675,
+          "lng": 121.480873,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "宝山路与横浜路交叉口东北140米",
+        "poi_type": "科教文化服务;培训机构;培训机构"
+      },
+      {
+        "provider_id": "B0FFK63Q86",
+        "name": "虎山画院",
+        "location": {
+          "lat": 31.263218,
+          "lng": 121.481706,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路177号",
+        "poi_type": "科教文化服务;科教文化场所;科教文化场所"
+      },
+      {
+        "provider_id": "B00155F5PW",
+        "name": "新中国剧社旧址",
+        "location": {
+          "lat": 31.26361,
+          "lng": 121.480828,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路201弄4号",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      }
+    ]
+  },
+  "queries": {
+    "南京东路与西藏中路交叉口": [
+      {
+        "provider_id": "B0J2L7Z4SR",
+        "name": "手机维修",
+        "location": {
+          "lat": 31.231866,
+          "lng": 121.475855,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路290号一楼",
+        "poi_type": "生活服务;维修站点;维修站点"
+      },
+      {
+        "provider_id": "B0L19BFIEO",
+        "name": "肯悦咖啡和平店",
+        "location": {
+          "lat": 31.232751,
+          "lng": 121.47605,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路290号一层B区商铺",
+        "poi_type": "餐饮服务;咖啡厅;咖啡厅"
+      },
+      {
+        "provider_id": "B0MUT1LUU8",
+        "name": "南京东路830号B馆负一楼",
+        "location": {
+          "lat": 31.235725,
+          "lng": 121.474425,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与凤阳路交叉口东南60米",
+        "poi_type": "商务住宅;楼宇;商务写字楼"
+      },
+      {
+        "provider_id": "B0MD0OT5C4",
+        "name": "金饭碗·自选快餐(第一百货店)",
+        "location": {
+          "lat": 31.235725,
+          "lng": 121.474425,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与凤阳路交叉口东南60米",
+        "poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      {
+        "provider_id": "B0JKYUEX4M",
+        "name": "小米之家(黄浦区来福士广场专卖店)",
+        "location": {
+          "lat": 31.232283,
+          "lng": 121.476689,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路268号5F06铺小米",
+        "poi_type": "购物服务;家电电子卖场;手机销售"
+      },
+      {
+        "provider_id": "B00155KU0L",
+        "name": "顺风大酒店(西藏中路店)",
+        "location": {
+          "lat": 31.235672,
+          "lng": 121.474494,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路830号上海市第一百货商店B馆7楼",
+        "poi_type": "餐饮服务;中餐厅;上海菜|餐饮服务;中餐厅;浙江菜"
+      },
+      {
+        "provider_id": "B0LRHD8L76",
+        "name": "网鱼电竞(黄浦人民广场店)",
+        "location": {
+          "lat": 31.231229,
+          "lng": 121.476883,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路180号102室",
+        "poi_type": "体育休闲服务;娱乐场所;网吧"
+      },
+      {
+        "provider_id": "B0HU2BTDQ6",
+        "name": "南京路(第一百货商业中心店)",
+        "location": {
+          "lat": 31.235748,
+          "lng": 121.473851,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路830号第一百货商业中心F5层",
+        "poi_type": "购物服务;购物相关场所;购物相关场所"
+      },
+      {
+        "provider_id": "B0H1K17IGC",
+        "name": "第一百货商业中心-女洗手间",
+        "location": {
+          "lat": 31.235479,
+          "lng": 121.475157,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路800-830号(近西藏中路)第一百货商业中心F2",
+        "poi_type": "公共设施;公共厕所;公共厕所"
+      },
+      {
+        "provider_id": "B0L32N242Z",
+        "name": "逸匠牛肉饭(西藏中路店)",
+        "location": {
+          "lat": 31.235575,
+          "lng": 121.473025,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路525号雅居乐国际广场第一层1012号商铺",
+        "poi_type": "餐饮服务;中餐厅;中餐厅|餐饮服务;快餐厅;快餐厅"
+      }
+    ],
+    "南京东路与中山东一路交叉口": [
+      {
+        "provider_id": "B0FFHPIXCJ",
+        "name": "中山东一路与南京东路交叉口",
+        "location": {
+          "lat": 31.238985,
+          "lng": 121.490045,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "BV10025233",
+        "name": "中山东一路南京东路(公交站)",
+        "location": {
+          "lat": 31.241412,
+          "lng": 121.490309,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "305路;307路;317路;33路;55路;55路大站车(早高峰);55路大站车(晚高峰);65路",
+        "poi_type": "交通设施服务;公交车站;公交车站相关"
+      },
+      {
+        "provider_id": "B0L1J79JNI",
+        "name": "南京东路45号",
+        "location": {
+          "lat": 31.238645,
+          "lng": 121.488908,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路与中山东一路交叉口西100米",
+        "poi_type": "地名地址信息;门牌信息;地名门牌"
+      },
+      {
+        "provider_id": "B0KRUMW5DW",
+        "name": "和平饭店南楼",
+        "location": {
+          "lat": 31.238605,
+          "lng": 121.489317,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路与中山东一路交叉口西南80米",
+        "poi_type": "风景名胜;风景名胜;风景名胜"
+      },
+      {
+        "provider_id": "B0IRRHC7LZ",
+        "name": "OMEGA欧米茄(和平饭店直营旗舰店)",
+        "location": {
+          "lat": 31.238726,
+          "lng": 121.48972,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路与中山东一路交叉口西南40米",
+        "poi_type": "购物服务;专卖店;钟表店"
+      },
+      {
+        "provider_id": "B0FFFWVF6S",
+        "name": "上海外滩建筑群汇中饭店大楼",
+        "location": {
+          "lat": 31.238697,
+          "lng": 121.489334,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路23号(近中山东一路)",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0L3ASS72G",
+        "name": "TheBund",
+        "location": {
+          "lat": 31.238825,
+          "lng": 121.490275,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "中山东一路与南京东路交叉口东南20米",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0FFFQHPLH",
+        "name": "中国银行大楼",
+        "location": {
+          "lat": 31.239569,
+          "lng": 121.489041,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "中山东一路(南京东路地铁站出入口步行480米)",
+        "poi_type": "商务住宅;楼宇;商务写字楼"
+      },
+      {
+        "provider_id": "B0FFJBLRW1",
+        "name": "和平饭店金尊费尔蒙酒廊",
+        "location": {
+          "lat": 31.239188,
+          "lng": 121.489331,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路与中山东一路交叉口西60米",
+        "poi_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所"
+      },
+      {
+        "provider_id": "B0M6TR5TR4",
+        "name": "越克洗车(和平饭店站)",
+        "location": {
+          "lat": 31.239075,
+          "lng": 121.489025,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路与中山东一路交叉口西100米",
+        "poi_type": "汽车服务;洗车场;洗车场"
+      }
+    ],
+    "甜爱路与四川北路交叉口": [
+      {
+        "provider_id": "B0FFGGOFS6",
+        "name": "四川北路与甜爱路交叉口",
+        "location": {
+          "lat": 31.264694,
+          "lng": 121.483313,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "BV10030137",
+        "name": "甜爱路四川北路(公交站)",
+        "location": {
+          "lat": 31.265998,
+          "lng": 121.483616,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "103路;167路;21路;47路;597路;854路;939路;962路",
+        "poi_type": "交通设施服务;公交车站;公交车站相关"
+      },
+      {
+        "provider_id": "B0FFG1NY34",
+        "name": "甜爱路26、28号",
+        "location": {
+          "lat": 31.265453,
+          "lng": 121.483259,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与四川北路交叉口北80米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "BV11581682",
+        "name": "甜爱路(地铁站)",
+        "location": {
+          "lat": 31.264415,
+          "lng": 121.483602,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "(在建)19号线",
+        "poi_type": "交通设施服务;地铁站;地铁站"
+      },
+      {
+        "provider_id": "B0FFH4B2BE",
+        "name": "四川北路2023弄洋房",
+        "location": {
+          "lat": 31.263964,
+          "lng": 121.482817,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路与甜爱路交叉口西南100米",
+        "poi_type": "商务住宅;住宅区;住宅区"
+      },
+      {
+        "provider_id": "B0M6NLFVZ4",
+        "name": "不如见一面·中式小排档甜爱路店",
+        "location": {
+          "lat": 31.267696,
+          "lng": 121.483998,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路街道甜爱路129号",
+        "poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      {
+        "provider_id": "B0FFI0LMKN",
+        "name": "W CAFE",
+        "location": {
+          "lat": 31.268014,
+          "lng": 121.484115,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路街道甜爱路137号",
+        "poi_type": "餐饮服务;咖啡厅;咖啡厅"
+      },
+      {
+        "provider_id": "B0FFHUKGKC",
+        "name": "上海川北物业有限公司永丰管理站",
+        "location": {
+          "lat": 31.264129,
+          "lng": 121.482521,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路与甜爱路交叉口西南100米",
+        "poi_type": "公司企业;公司企业;公司企业"
+      },
+      {
+        "provider_id": "B0MRAL0RBV",
+        "name": "四川北路2043弄1号",
+        "location": {
+          "lat": 31.264497,
+          "lng": 121.483434,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路与甜爱路交叉口东南20米",
+        "poi_type": "商务住宅;住宅区;住宅区"
+      },
+      {
+        "provider_id": "B0MU7S5HRP",
+        "name": "四川北路2079号底层之底层部分",
+        "location": {
+          "lat": 31.264575,
+          "lng": 121.482625,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路与甜爱路交叉口西60米",
+        "poi_type": "商务住宅;商务住宅相关;商务住宅相关"
+      }
+    ],
+    "甜爱路与甜爱支路交叉口": [
+      {
+        "provider_id": "B0FFG5OG17",
+        "name": "甜爱路与甜爱支路交叉口",
+        "location": {
+          "lat": 31.268113,
+          "lng": 121.484034,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFGDT57L",
+        "name": "甜爱支路地库",
+        "location": {
+          "lat": 31.268562,
+          "lng": 121.48399,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口北60米",
+        "poi_type": "交通设施服务;停车场;专用停车场"
+      },
+      {
+        "provider_id": "B0FFH1Y2NL",
+        "name": "甜爱路公房",
+        "location": {
+          "lat": 31.269791,
+          "lng": 121.484815,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口东北200米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0MD96MFBR",
+        "name": "甜爱留言墙",
+        "location": {
+          "lat": 31.267125,
+          "lng": 121.483975,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口南120米",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0KUH77WTH",
+        "name": "甜爱路301-331号小区",
+        "location": {
+          "lat": 31.269824,
+          "lng": 121.484551,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口北200米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0H2G7VN24",
+        "name": "甜爱路-道路停车位",
+        "location": {
+          "lat": 31.268866,
+          "lng": 121.484175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口北80米",
+        "poi_type": "交通设施服务;停车场;路边停车场"
+      },
+      {
+        "provider_id": "B0MRLO61TO",
+        "name": "甜爱支路50弄1号",
+        "location": {
+          "lat": 31.268325,
+          "lng": 121.483375,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱支路与甜爱路交叉口西60米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFH165MQ",
+        "name": "山阴路274弄小区",
+        "location": {
+          "lat": 31.268259,
+          "lng": 121.484599,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口东北60米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0M1FDADWK",
+        "name": "甜爱路-电镀皇冠熊(打卡点)",
+        "location": {
+          "lat": 31.268115,
+          "lng": 121.483512,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱支路与甜爱路交叉口西40米",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0G0O5W5HU",
+        "name": "TIANAIPLAZA",
+        "location": {
+          "lat": 31.268453,
+          "lng": 121.483698,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱支路与甜爱路交叉口西北40米",
+        "poi_type": "购物服务;商场;普通商场"
+      }
+    ],
+    "多伦路与四川北路交叉口": [
+      {
+        "provider_id": "B0M2MRN7MR",
+        "name": "多伦路与四川北路交叉口",
+        "location": {
+          "lat": 31.265131,
+          "lng": 121.481874,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "BV10025642",
+        "name": "四川北路多伦路(公交站)",
+        "location": {
+          "lat": 31.26579,
+          "lng": 121.482066,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "70路;97路",
+        "poi_type": "交通设施服务;公交车站;公交车站相关"
+      },
+      {
+        "provider_id": "B0FFGGG5QX",
+        "name": "多伦路文化名人街与四川北路交叉口",
+        "location": {
+          "lat": 31.262034,
+          "lng": 121.483877,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFGQDL6N",
+        "name": "四川北路与多伦路文化名人街交叉口",
+        "location": {
+          "lat": 31.265131,
+          "lng": 121.481874,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B00155G8JI",
+        "name": "多伦生活广场",
+        "location": {
+          "lat": 31.261537,
+          "lng": 121.483496,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路1885号(近多伦路)",
+        "poi_type": "购物服务;商场;普通商场"
+      },
+      {
+        "provider_id": "B00155L3C5",
+        "name": "四川北路商业街",
+        "location": {
+          "lat": 31.264721,
+          "lng": 121.482441,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路与多伦路交叉口东南80米",
+        "poi_type": "购物服务;特色商业街;特色商业街"
+      },
+      {
+        "provider_id": "B0FFILI023",
+        "name": "多伦路237弄1-26号院",
+        "location": {
+          "lat": 31.264185,
+          "lng": 121.481366,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路与四川北路交叉口西南120米",
+        "poi_type": "商务住宅;住宅区;住宅区"
+      },
+      {
+        "provider_id": "B0FFG0Z9A9",
+        "name": "平成屋(四川北路店)",
+        "location": {
+          "lat": 31.261781,
+          "lng": 121.483725,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路1885号1楼近多伦路",
+        "poi_type": "餐饮服务;外国餐厅;日本料理"
+      },
+      {
+        "provider_id": "B0KUHOJJTC",
+        "name": "蜗牛青年旅舍(东宝兴路地铁站店)",
+        "location": {
+          "lat": 31.261179,
+          "lng": 121.48368,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "四川北路1885号(近多伦路)多伦生活广场",
+        "poi_type": "住宿服务;旅馆招待所;青年旅舍"
+      },
+      {
+        "provider_id": "B0FFGQE2SR",
+        "name": "东江湾路与四川北路交叉口",
+        "location": {
+          "lat": 31.265131,
+          "lng": 121.481874,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      }
+    ],
+    "武康路与华山路交叉口": [
+      {
+        "provider_id": "B0FFHPKI3I",
+        "name": "华山路与武康路交叉口",
+        "location": {
+          "lat": 31.213351,
+          "lng": 121.439162,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "长宁区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "BV10029965",
+        "name": "华山路武康路(公交站)",
+        "location": {
+          "lat": 31.212587,
+          "lng": 121.438702,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "113路;328路;48路;548路",
+        "poi_type": "交通设施服务;公交车站;公交车站相关"
+      },
+      {
+        "provider_id": "B0LBSDJS2P",
+        "name": "中商银行",
+        "location": {
+          "lat": 31.212899,
+          "lng": 121.438775,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "华山路与武康路交叉口西南60米",
+        "poi_type": "金融保险服务;银行;中国银行"
+      },
+      {
+        "provider_id": "B0K059TG8K",
+        "name": "顶祥健康管理中心(老洋房·家办)",
+        "location": {
+          "lat": 31.213075,
+          "lng": 121.437625,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "华山路与武康路交叉口西140米",
+        "poi_type": "医疗保健服务;医疗保健服务场所;医疗保健服务场所"
+      },
+      {
+        "provider_id": "B0L07H1OCH",
+        "name": "井陆cocktail&live music",
+        "location": {
+          "lat": 31.212725,
+          "lng": 121.439275,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "华山路与武康路交叉口南80米",
+        "poi_type": "体育休闲服务;娱乐场所;酒吧"
+      },
+      {
+        "provider_id": "B0FFGIM3M2",
+        "name": "江苏路市场监督管理所消费者权益保护华山居委会联络点",
+        "location": {
+          "lat": 31.212854,
+          "lng": 121.438461,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "华山路与武康路交叉口西南80米",
+        "poi_type": "政府机构及社会团体;社会团体;消费者协会"
+      },
+      {
+        "provider_id": "B0MDKABUOA",
+        "name": "煀世好煲·粤味啫啫小酒馆(丁香花园店)",
+        "location": {
+          "lat": 31.212525,
+          "lng": 121.438825,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "华山路与武康路交叉口南100米",
+        "poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      {
+        "provider_id": "B0FFFRVVJ7",
+        "name": "总统公寓内部地面停车场(入口)",
+        "location": {
+          "lat": 31.213081,
+          "lng": 121.438958,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "华山路与武康路交叉口西南40米",
+        "poi_type": "交通设施服务;停车场;停车场入口"
+      },
+      {
+        "provider_id": "B0FFGKWH66",
+        "name": "应急掩蔽场所",
+        "location": {
+          "lat": 31.2129,
+          "lng": 121.438591,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "华山路与武康路交叉口西南80米",
+        "poi_type": "公共设施;紧急避难场所;紧急避难场所"
+      },
+      {
+        "provider_id": "B0KG1U7U5J",
+        "name": "上海丁香花园内部地面停车场",
+        "location": {
+          "lat": 31.212626,
+          "lng": 121.438876,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "华山路与武康路交叉口南80米",
+        "poi_type": "交通设施服务;停车场;专用停车场"
+      }
+    ],
+    "武康路与淮海中路交叉口": [
+      {
+        "provider_id": "B0FFHPLENP",
+        "name": "武康路与淮海中路交叉口",
+        "location": {
+          "lat": 31.203998,
+          "lng": 121.437919,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "长宁区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "BV10031528",
+        "name": "淮海中路武康路(公交站)",
+        "location": {
+          "lat": 31.204397,
+          "lng": 121.438533,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "26路;911路;911路双层;926路;DZ415线",
+        "poi_type": "交通设施服务;公交车站;公交车站相关"
+      },
+      {
+        "provider_id": "B0FFLKYJ9L",
+        "name": "天平路与武康路交叉口",
+        "location": {
+          "lat": 31.203998,
+          "lng": 121.437919,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "长宁区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B00156TK9N",
+        "name": "海友酒店(上海淮海中路店)",
+        "location": {
+          "lat": 31.212128,
+          "lng": 121.446265,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "乌鲁木齐中路247号2F(常熟路地铁站8号口步行410米)",
+        "poi_type": "住宿服务;宾馆酒店;经济型连锁酒店"
+      },
+      {
+        "provider_id": "B0FFHPLQAK",
+        "name": "兴国路与武康路交叉口",
+        "location": {
+          "lat": 31.203998,
+          "lng": 121.437919,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "长宁区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B00155ITJ1",
+        "name": "武康大楼",
+        "location": {
+          "lat": 31.20443,
+          "lng": 121.438278,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "淮海中路1850号",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFFF53JS",
+        "name": "淮海中路1710弄小区",
+        "location": {
+          "lat": 31.206635,
+          "lng": 121.44164,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "武康路历史文化名街附近(上海图书馆地铁站3号口步行280米)",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0L1YXEQMH",
+        "name": "Color pop染发馆(武康大楼店)",
+        "location": {
+          "lat": 31.203975,
+          "lng": 121.438225,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "淮海中路与余庆路交叉口东20米",
+        "poi_type": "生活服务;美容美发店;美容美发店"
+      },
+      {
+        "provider_id": "B00156YTX9",
+        "name": "Rosa Gallica(武康路店)",
+        "location": {
+          "lat": 31.206766,
+          "lng": 121.439443,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "武康路374号沿街(近淮海中路)",
+        "poi_type": "购物服务;花鸟鱼虫市场;花卉市场"
+      },
+      {
+        "provider_id": "B0L0740VH1",
+        "name": "武康客厅",
+        "location": {
+          "lat": 31.204225,
+          "lng": 121.438025,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "淮海中路与兴国路交叉口东北20米",
+        "poi_type": "购物服务;购物相关场所;购物相关场所"
+      }
+    ],
+    "福州路与西藏中路交叉口": [
+      {
+        "provider_id": "B0FFHPIT6P",
+        "name": "福州路与西藏中路交叉口",
+        "location": {
+          "lat": 31.231509,
+          "lng": 121.476291,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0L127UQJC",
+        "name": "西藏中路268号裙楼",
+        "location": {
+          "lat": 31.232425,
+          "lng": 121.476425,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与福州路交叉口北100米",
+        "poi_type": "商务住宅;楼宇;商务写字楼"
+      },
+      {
+        "provider_id": "B0LD7D0ZBM",
+        "name": "MOLESKINE(上海来福士广场店)",
+        "location": {
+          "lat": 31.232175,
+          "lng": 121.476775,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "福州路与西藏中路交叉口东北80米",
+        "poi_type": "购物服务;文化用品店;文化用品店"
+      },
+      {
+        "provider_id": "B0J31SHWEG",
+        "name": "西藏中路200号",
+        "location": {
+          "lat": 31.231541,
+          "lng": 121.476679,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与人民大道交叉口东北20米",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0MUDLKBJE",
+        "name": "醉庐·新上海菜(人广来福士店)",
+        "location": {
+          "lat": 31.232352,
+          "lng": 121.476513,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与福州路交叉口北80米",
+        "poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      {
+        "provider_id": "B0LRYHWSRR",
+        "name": "人民广场献血屋",
+        "location": {
+          "lat": 31.231873,
+          "lng": 121.47556,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与福州路交叉口西北80米",
+        "poi_type": "医疗保健服务;医疗保健服务场所;医疗保健服务场所"
+      },
+      {
+        "provider_id": "B0MDDPKO1I",
+        "name": "爱焙iBAKING(上海来福士广场店)",
+        "location": {
+          "lat": 31.231875,
+          "lng": 121.476725,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "福州路与西藏中路交叉口东北40米",
+        "poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      {
+        "provider_id": "B0MRKL4GMI",
+        "name": "巴斯克蛋糕",
+        "location": {
+          "lat": 31.232125,
+          "lng": 121.476725,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "福州路与西藏中路交叉口东北60米",
+        "poi_type": "餐饮服务;糕饼店;糕饼店"
+      },
+      {
+        "provider_id": "B0MUMAUBS6",
+        "name": "POP MART潮酷冒险岛",
+        "location": {
+          "lat": 31.232328,
+          "lng": 121.476319,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与福州路交叉口北80米",
+        "poi_type": "体育休闲服务;休闲场所;游乐场"
+      },
+      {
+        "provider_id": "B0MUMAUIHD",
+        "name": "泡泡玛特机器人商店(和平影都1F店)",
+        "location": {
+          "lat": 31.232376,
+          "lng": 121.476274,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与福州路交叉口北100米",
+        "poi_type": "购物服务;便民商店/便利店;便民商店/便利店"
+      }
+    ],
+    "福州路与中山东一路交叉口": [
+      {
+        "provider_id": "B0FFHPHK17",
+        "name": "中山东一路与福州路交叉口",
+        "location": {
+          "lat": 31.23563,
+          "lng": 121.490436,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0M2GC0QV1",
+        "name": "福州路-路侧停车场",
+        "location": {
+          "lat": 31.235575,
+          "lng": 121.489975,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "福州路与中山东一路交叉口西40米",
+        "poi_type": "交通设施服务;停车场;路边停车场"
+      },
+      {
+        "provider_id": "B0H06SBI8N",
+        "name": "来意艺术中餐厅(外滩店)(暂停营业)",
+        "location": {
+          "lat": 31.235183,
+          "lng": 121.489931,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "福州路与中山东一路交叉口西南60米",
+        "poi_type": "餐饮服务;餐饮相关场所;餐饮相关"
+      },
+      {
+        "provider_id": "B0LK1ZCEV7",
+        "name": "上海外滩建筑群汇丰银行大楼",
+        "location": {
+          "lat": 31.236184,
+          "lng": 121.490114,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "中山东一路与福州路交叉口西北60米",
+        "poi_type": "商务住宅;楼宇;商务写字楼"
+      },
+      {
+        "provider_id": "B0HDLMVTDX",
+        "name": "Dugout Coffee",
+        "location": {
+          "lat": 31.235373,
+          "lng": 121.489792,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "福州路与中山东一路交叉口西60米",
+        "poi_type": "餐饮服务;咖啡厅;咖啡厅"
+      },
+      {
+        "provider_id": "B0FFI7415E",
+        "name": "中山一路外滩8弄",
+        "location": {
+          "lat": 31.235298,
+          "lng": 121.490281,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "中山东一路与福州路交叉口西南40米",
+        "poi_type": "商务住宅;商务住宅相关;商务住宅相关"
+      },
+      {
+        "provider_id": "B0FFGBDZTS",
+        "name": "外滩金牛广场",
+        "location": {
+          "lat": 31.235581,
+          "lng": 121.490891,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "福州路与中山东一路交汇处路东",
+        "poi_type": "风景名胜;公园广场;城市广场"
+      },
+      {
+        "provider_id": "B0MB4KXYJ8",
+        "name": "28号大楼",
+        "location": {
+          "lat": 31.235802,
+          "lng": 121.489707,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "福州路与中山东一路交叉口西80米",
+        "poi_type": "商务住宅;楼宇;商务写字楼"
+      },
+      {
+        "provider_id": "B0LD3DIZIJ",
+        "name": "外滩律师事务所",
+        "location": {
+          "lat": 31.235776,
+          "lng": 121.490988,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "中山东一路与福州路交叉口东40米",
+        "poi_type": "生活服务;事务所;律师事务所"
+      }
+    ],
+    "美罗城": [
+      {
+        "provider_id": "B00154DTEG",
+        "name": "美罗城",
+        "location": {
+          "lat": 31.192944,
+          "lng": 121.439649,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路1111号",
+        "poi_type": "购物服务;商场;购物中心"
+      },
+      {
+        "provider_id": "B0GKNU83YA",
+        "name": "美罗城地下停车场",
+        "location": {
+          "lat": 31.193502,
+          "lng": 121.440522,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路1111号美罗城B2",
+        "poi_type": "交通设施服务;停车场;公共停车场"
+      },
+      {
+        "provider_id": "B0FFFDPLAW",
+        "name": "美罗城A区",
+        "location": {
+          "lat": 31.193435,
+          "lng": 121.439693,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路1111-1号美罗城",
+        "poi_type": "购物服务;商场;商场"
+      },
+      {
+        "provider_id": "B0FFFDKQ9G",
+        "name": "美罗城B区",
+        "location": {
+          "lat": 31.192581,
+          "lng": 121.438917,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路1111号美罗城(徐家汇地铁站出入口旁)",
+        "poi_type": "购物服务;商场;商场"
+      },
+      {
+        "provider_id": "B0GR3LLON5",
+        "name": "LOFT(美罗城店)",
+        "location": {
+          "lat": 31.192851,
+          "lng": 121.440143,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路1111号美罗城2层",
+        "poi_type": "购物服务;购物相关场所;购物相关场所"
+      },
+      {
+        "provider_id": "B0K6JLSOHC",
+        "name": "美罗城会员礼品站(美罗城)",
+        "location": {
+          "lat": 31.193236,
+          "lng": 121.439827,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路1111号美罗城B1层",
+        "poi_type": "生活服务;生活服务场所;生活服务场所"
+      },
+      {
+        "provider_id": "B0FFIS5WWZ",
+        "name": "美罗城-卸货区",
+        "location": {
+          "lat": 31.192729,
+          "lng": 121.440129,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路1111号美罗城5F层(徐家汇地铁站出入口旁)",
+        "poi_type": "生活服务;生活服务场所;生活服务场所"
+      },
+      {
+        "provider_id": "B0FFF3N37L",
+        "name": "香港美心(美罗城店)",
+        "location": {
+          "lat": 31.192769,
+          "lng": 121.439341,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路1111号美罗城B1层",
+        "poi_type": "购物服务;专卖店;专营店|餐饮服务;糕饼店;糕饼店"
+      },
+      {
+        "provider_id": "B0L6TS5DC3",
+        "name": "美罗城地下停车场(入口)",
+        "location": {
+          "lat": 31.193561,
+          "lng": 121.440482,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "美罗城地下停车场",
+        "poi_type": "交通设施服务;停车场;停车场入口"
+      },
+      {
+        "provider_id": "B0FFG950NW",
+        "name": "上剧场(美罗城)",
+        "location": {
+          "lat": 31.192866,
+          "lng": 121.440104,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐家汇街道肇嘉浜路1111号美罗城5楼",
+        "poi_type": "体育休闲服务;影剧院;剧场"
+      }
+    ],
+    "港汇恒隆广场": [
+      {
+        "provider_id": "B00155QPSL",
+        "name": "上海港汇恒隆广场",
+        "location": {
+          "lat": 31.194628,
+          "lng": 121.437217,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "虹桥路1号(地铁1号线12号出口)",
+        "poi_type": "购物服务;商场;购物中心"
+      },
+      {
+        "provider_id": "B0G02Z2I8M",
+        "name": "港汇恒隆广场地下停车场",
+        "location": {
+          "lat": 31.193972,
+          "lng": 121.437387,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "虹桥路1号上海港汇恒隆广场",
+        "poi_type": "交通设施服务;停车场;公共停车场"
+      },
+      {
+        "provider_id": "B0JAL9GB9P",
+        "name": "港汇恒隆广场南座",
+        "location": {
+          "lat": 31.19457,
+          "lng": 121.43759,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "华山路与虹桥路交叉口西北120米",
+        "poi_type": "购物服务;商场;普通商场|购物服务;商场;购物中心"
+      },
+      {
+        "provider_id": "B0JRXMTB8K",
+        "name": "港汇恒隆广场北座",
+        "location": {
+          "lat": 31.195053,
+          "lng": 121.436572,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "虹桥路一号",
+        "poi_type": "购物服务;商场;普通商场|购物服务;商场;购物中心"
+      },
+      {
+        "provider_id": "B0MR0BGJB8",
+        "name": "上海港汇恒隆广场A座",
+        "location": {
+          "lat": 31.194649,
+          "lng": 121.43722,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "虹桥路1号上海港汇恒隆广场",
+        "poi_type": "商务住宅;楼宇;商务写字楼"
+      },
+      {
+        "provider_id": "B0LGNUMNPH",
+        "name": "上海港汇恒隆广场店",
+        "location": {
+          "lat": 31.193972,
+          "lng": 121.436714,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "虹桥路与恭城路交叉口东北60米",
+        "poi_type": "公司企业;公司;公司"
+      },
+      {
+        "provider_id": "B0K12B7T7Q",
+        "name": "博朗上海港汇恒隆广场南座615C",
+        "location": {
+          "lat": 31.194375,
+          "lng": 121.436925,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "港汇恒隆广场南座",
+        "poi_type": "购物服务;家电电子卖场;综合家电商场"
+      },
+      {
+        "provider_id": "B0LR3CDD69",
+        "name": "港汇恒隆广场-B3",
+        "location": {
+          "lat": 31.194604,
+          "lng": 121.437228,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "虹桥路1号上海港汇恒隆广场",
+        "poi_type": "商务住宅;楼宇;商务写字楼"
+      },
+      {
+        "provider_id": "B0G3ZBMSQ8",
+        "name": "波司登(上海港汇恒隆广场店)",
+        "location": {
+          "lat": 31.194776,
+          "lng": 121.436872,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "虹桥路1号港汇恒隆广场北座四楼",
+        "poi_type": "购物服务;服装鞋帽皮具店;服装鞋帽皮具店"
+      },
+      {
+        "provider_id": "B0GDLUHC4L",
+        "name": "梵克雅宝(港汇恒隆广场店)",
+        "location": {
+          "lat": 31.194681,
+          "lng": 121.4377,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "虹桥路1号港汇恒隆广场1层105室",
+        "poi_type": "购物服务;专卖店;珠宝首饰工艺品"
+      }
+    ],
+    "徐家汇商圈": [
+      {
+        "provider_id": "B00156EVQY",
+        "name": "徐家汇源",
+        "location": {
+          "lat": 31.193908,
+          "lng": 121.440641,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      },
+      {
+        "provider_id": "B0HGTS9D3A",
+        "name": "湖南路",
+        "location": {
+          "lat": 31.208295,
+          "lng": 121.440124,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      },
+      {
+        "provider_id": "B0MDDZM62B",
+        "name": "光启城",
+        "location": {
+          "lat": 31.183919,
+          "lng": 121.428514,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "宜山路455号(宜山路地铁站出入口步行180米)",
+        "poi_type": "购物服务;商场;购物中心|购物服务;商场;普通商场"
+      },
+      {
+        "provider_id": "B0FFFDRY82",
+        "name": "岳阳",
+        "location": {
+          "lat": 31.20492,
+          "lng": 121.452156,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      },
+      {
+        "provider_id": "B0HGTS797D",
+        "name": "枫林路",
+        "location": {
+          "lat": 31.191226,
+          "lng": 121.459258,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      },
+      {
+        "provider_id": "B0K39AC9E0",
+        "name": "新华路",
+        "location": {
+          "lat": 31.204565,
+          "lng": 121.423033,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "长宁区",
+        "address": "长宁区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      },
+      {
+        "provider_id": "B0HGTD9DDF",
+        "name": "斜土路",
+        "location": {
+          "lat": 31.197267,
+          "lng": 121.463126,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      },
+      {
+        "provider_id": "B0FFH5DB08",
+        "name": "龙腾绿地",
+        "location": {
+          "lat": 31.185507,
+          "lng": 121.466373,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      },
+      {
+        "provider_id": "B0FFFDRUEG",
+        "name": "龙华",
+        "location": {
+          "lat": 31.170158,
+          "lng": 121.445101,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      },
+      {
+        "provider_id": "B0KUNL66LD",
+        "name": "陕西南路",
+        "location": {
+          "lat": 31.212745,
+          "lng": 121.460623,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;热点地名;热点地名"
+      }
+    ],
+    "山阴路274弄小区": [
+      {
+        "provider_id": "B0FFH165MQ",
+        "name": "山阴路274弄小区",
+        "location": {
+          "lat": 31.268259,
+          "lng": 121.484599,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口东北60米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFF9ZVQV",
+        "name": "四季烟酒店(甜爱路店)",
+        "location": {
+          "lat": 31.268158,
+          "lng": 121.484229,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "山阴路274弄小区",
+        "poi_type": "购物服务;专卖店;烟酒专卖店"
+      },
+      {
+        "provider_id": "B0FFGBBWU4",
+        "name": "山阴路226弄小区",
+        "location": {
+          "lat": 31.267519,
+          "lng": 121.484398,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "山阴路与四达路交叉口西南60米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0K0KB0KSI",
+        "name": "山阴麺馆(山阴路274弄小区店)",
+        "location": {
+          "lat": 31.268331,
+          "lng": 121.484231,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "山阴路274弄小区(虹口足球场地铁站6号口步行440米)",
+        "poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      {
+        "provider_id": "B0FFGFJZ3P",
+        "name": "山阴路124弄小区",
+        "location": {
+          "lat": 31.265918,
+          "lng": 121.484386,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "吉祥路与山阴路交叉口西北60米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B00155KD13",
+        "name": "山阴路229弄小区",
+        "location": {
+          "lat": 31.267554,
+          "lng": 121.485445,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "山阴路229弄之1-9号",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFF9ZUKM",
+        "name": "山阴路2弄小区",
+        "location": {
+          "lat": 31.265978,
+          "lng": 121.483875,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "山阴路2弄",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFG04TC0",
+        "name": "山阴路216弄小区",
+        "location": {
+          "lat": 31.267511,
+          "lng": 121.484856,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "山阴路与四达路交叉口西南40米",
+        "poi_type": "商务住宅;商务住宅相关;商务住宅相关"
+      },
+      {
+        "provider_id": "B0I2DR0VCC",
+        "name": "大陆新邨山阴路192弄",
+        "location": {
+          "lat": 31.267072,
+          "lng": 121.484564,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "山阴路与四达路交叉口西南80米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0J0A77SKX",
+        "name": "老陕一面(山阴路229弄小区店)",
+        "location": {
+          "lat": 31.267653,
+          "lng": 121.485084,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "山阴路229弄小区西门旁",
+        "poi_type": "餐饮服务;中餐厅;中餐厅"
+      }
+    ],
+    "中南新邨": [
+      {
+        "provider_id": "B0H6D7AFIV",
+        "name": "中南新邨",
+        "location": {
+          "lat": 31.207585,
+          "lng": 121.442365,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "淮海中路1670弄1-32号",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B00155IR9R",
+        "name": "江南新村(中山南二路)",
+        "location": {
+          "lat": 31.192126,
+          "lng": 121.462758,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "大木桥路600弄49号(大木桥路地铁站5号口步行80米)",
+        "poi_type": "住宿服务;住宿服务相关;住宿服务相关|商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B001540219",
+        "name": "城南新村",
+        "location": {
+          "lat": 31.377351,
+          "lng": 121.253669,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "嘉定区",
+        "address": "沙霞路95弄",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B00155HRQA",
+        "name": "东南新村(张杨路)",
+        "location": {
+          "lat": 31.225281,
+          "lng": 121.516361,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "浦东新区",
+        "address": "浦东南路1288号",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B00157HUKR",
+        "name": "源味酒窖(中南新邨店)",
+        "location": {
+          "lat": 31.207094,
+          "lng": 121.442547,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "淮海中路1670弄1-32号中南新邨",
+        "poi_type": "购物服务;专卖店;烟酒专卖店|体育休闲服务;娱乐场所;酒吧"
+      },
+      {
+        "provider_id": "B0I1RBTYB5",
+        "name": "Bella的小屋(中南新邨店)",
+        "location": {
+          "lat": 31.206985,
+          "lng": 121.442346,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "淮海中路1670弄1-32号中南新邨",
+        "poi_type": "购物服务;服装鞋帽皮具店;服装鞋帽皮具店"
+      },
+      {
+        "provider_id": "B0FFF2UQ9Z",
+        "name": "LIMITLESS(湖南路店)",
+        "location": {
+          "lat": 31.208011,
+          "lng": 121.442625,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "淮海中路1670弄1-32号中南新邨",
+        "poi_type": "购物服务;家居建材市场;家居建材市场"
+      },
+      {
+        "provider_id": "B001509189",
+        "name": "莘南新村",
+        "location": {
+          "lat": 31.103157,
+          "lng": 121.377466,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "闵行区",
+        "address": "莘中路15弄",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFIQCZFX",
+        "name": "三林新村",
+        "location": {
+          "lat": 31.13595,
+          "lng": 121.506169,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "浦东新区",
+        "address": "永泰路136弄",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B00155MFPZ",
+        "name": "中国福利彩票(中南新邨店)",
+        "location": {
+          "lat": 31.206935,
+          "lng": 121.44231,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "淮海中路1692号(上海图书馆地铁站3号口步行190米)",
+        "poi_type": "生活服务;彩票彩券销售点;彩票彩券销售点"
+      }
+    ],
+    "新天地北里": [
+      {
+        "provider_id": "B00156YMMX",
+        "name": "上海新天地北里",
+        "location": {
+          "lat": 31.220692,
+          "lng": 121.474751,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "太仓路181弄1-25号",
+        "poi_type": "购物服务;特色商业街;特色商业街"
+      },
+      {
+        "provider_id": "B0FFK0XU84",
+        "name": "上海新天地南北里",
+        "location": {
+          "lat": 31.219917,
+          "lng": 121.474949,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "太仓路181弄2号(黄陂南路太仓路交叉口)",
+        "poi_type": "购物服务;商场;商场"
+      },
+      {
+        "provider_id": "B0FFF6XN5S",
+        "name": "新天地壹号(上海新天地北里店)",
+        "location": {
+          "lat": 31.221259,
+          "lng": 121.474765,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "太仓路181弄新天地北里1号楼(近马当路)",
+        "poi_type": "餐饮服务;中餐厅;上海菜"
+      },
+      {
+        "provider_id": "B0L0X5M381",
+        "name": "UGG(上海新天地南北里店)",
+        "location": {
+          "lat": 31.220061,
+          "lng": 121.474477,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "马当路159号(一大会址·黄陂南路地铁站2号口步行390米)",
+        "poi_type": "体育休闲服务;娱乐场所;酒吧"
+      },
+      {
+        "provider_id": "B0LK7Y2OF8",
+        "name": "新天地南里商城",
+        "location": {
+          "lat": 31.219097,
+          "lng": 121.475539,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄陂南路与自忠路交叉口西北60米",
+        "poi_type": "购物服务;购物相关场所;购物相关场所"
+      },
+      {
+        "provider_id": "B00155IVUA",
+        "name": "碧云新天地家园北区",
+        "location": {
+          "lat": 31.262086,
+          "lng": 121.588295,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "浦东新区",
+        "address": "博兴路760弄1-33号(博兴路地铁站1号口步行90米)",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFH17XDC",
+        "name": "楠书房(上海新天地北里店)",
+        "location": {
+          "lat": 31.220716,
+          "lng": 121.474893,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "太仓路181弄上海新天地北里F1层",
+        "poi_type": "购物服务;购物相关场所;购物相关场所"
+      },
+      {
+        "provider_id": "B0MGSNLI0J",
+        "name": "88新天地写字楼",
+        "location": {
+          "lat": 31.219742,
+          "lng": 121.475073,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "太仓路181弄2号上海新天地南北里",
+        "poi_type": "商务住宅;楼宇;商务写字楼"
+      },
+      {
+        "provider_id": "B0FFI985DG",
+        "name": "碧云新天地家园三期",
+        "location": {
+          "lat": 31.259419,
+          "lng": 121.591057,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "浦东新区",
+        "address": "长岛路1066弄",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFKTL9WH",
+        "name": "Manner Coffee(上海新天地南北里店)",
+        "location": {
+          "lat": 31.220825,
+          "lng": 121.474175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "马当路119号103室(新天地)",
+        "poi_type": "餐饮服务;餐饮相关场所;餐饮相关"
+      }
+    ],
+    "西藏中路与南京东路交叉口": [
+      {
+        "provider_id": "B0J2L7Z4SR",
+        "name": "手机维修",
+        "location": {
+          "lat": 31.231866,
+          "lng": 121.475855,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路290号一楼",
+        "poi_type": "生活服务;维修站点;维修站点"
+      },
+      {
+        "provider_id": "B0L19BFIEO",
+        "name": "肯悦咖啡和平店",
+        "location": {
+          "lat": 31.232751,
+          "lng": 121.47605,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路290号一层B区商铺",
+        "poi_type": "餐饮服务;咖啡厅;咖啡厅"
+      },
+      {
+        "provider_id": "B0MUT1LUU8",
+        "name": "南京东路830号B馆负一楼",
+        "location": {
+          "lat": 31.235725,
+          "lng": 121.474425,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与凤阳路交叉口东南60米",
+        "poi_type": "商务住宅;楼宇;商务写字楼"
+      },
+      {
+        "provider_id": "B0JKYUEX4M",
+        "name": "小米之家(黄浦区来福士广场专卖店)",
+        "location": {
+          "lat": 31.232283,
+          "lng": 121.476689,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路268号5F06铺小米",
+        "poi_type": "购物服务;家电电子卖场;手机销售"
+      },
+      {
+        "provider_id": "B00155KU0L",
+        "name": "顺风大酒店(西藏中路店)",
+        "location": {
+          "lat": 31.235672,
+          "lng": 121.474494,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路830号上海市第一百货商店B馆7楼",
+        "poi_type": "餐饮服务;中餐厅;上海菜|餐饮服务;中餐厅;浙江菜"
+      },
+      {
+        "provider_id": "B0MD0OT5C4",
+        "name": "金饭碗·自选快餐(第一百货店)",
+        "location": {
+          "lat": 31.235725,
+          "lng": 121.474425,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "西藏中路与凤阳路交叉口东南60米",
+        "poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      {
+        "provider_id": "B0LUGUK6DE",
+        "name": "MALOVE MZ(人广来福士店)",
+        "location": {
+          "lat": 31.232425,
+          "lng": 121.476625,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路268号来福士广场03-02号",
+        "poi_type": "购物服务;服装鞋帽皮具店;服装鞋帽皮具店"
+      },
+      {
+        "provider_id": "B0HU2BTDQ6",
+        "name": "南京路(第一百货商业中心店)",
+        "location": {
+          "lat": 31.235748,
+          "lng": 121.473851,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路830号第一百货商业中心F5层",
+        "poi_type": "购物服务;购物相关场所;购物相关场所"
+      },
+      {
+        "provider_id": "B0LRHD8L76",
+        "name": "网鱼电竞(黄浦人民广场店)",
+        "location": {
+          "lat": 31.231229,
+          "lng": 121.476883,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路街道西藏中路180号102室",
+        "poi_type": "体育休闲服务;娱乐场所;网吧"
+      },
+      {
+        "provider_id": "B00155NERK",
+        "name": "老庙黄金(上海市第一百货商店)",
+        "location": {
+          "lat": 31.234995,
+          "lng": 121.475015,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路830号第一百货1层b馆(近西藏中路)",
+        "poi_type": "购物服务;专卖店;珠宝首饰工艺品"
+      }
+    ],
+    "肇嘉浜路与漕溪北路交叉口": [
+      {
+        "provider_id": "B0FFHPKBPR",
+        "name": "肇嘉浜路与虹桥路交叉口",
+        "location": {
+          "lat": 31.193781,
+          "lng": 121.438463,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFGPMBPG",
+        "name": "男洗手间(美罗城)",
+        "location": {
+          "lat": 31.192708,
+          "lng": 121.439073,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "漕溪北路辅路与肇嘉浜路交叉口东南60米",
+        "poi_type": "公共设施;公共厕所;男洗手间"
+      },
+      {
+        "provider_id": "B0MUCR2F8N",
+        "name": "上海肇嘉浜路1111号",
+        "location": {
+          "lat": 31.19284,
+          "lng": 121.439775,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路与漕溪北路辅路交叉口东南100米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0MDAO5M10",
+        "name": "谷乐豆(徐汇店)",
+        "location": {
+          "lat": 31.193025,
+          "lng": 121.439175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "漕溪北路辅路与肇嘉浜路交叉口东南40米",
+        "poi_type": "餐饮服务;餐饮相关场所;餐饮相关"
+      },
+      {
+        "provider_id": "B0LGZ5W01J",
+        "name": "洗手间",
+        "location": {
+          "lat": 31.192489,
+          "lng": 121.439203,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "漕溪北路辅路与肇嘉浜路交叉口东南80米",
+        "poi_type": "公共设施;公共厕所;公共厕所"
+      },
+      {
+        "provider_id": "B0IUUPFEHD",
+        "name": "丌·SPACE派空间轰趴馆·团建生日派对(美罗城店)",
+        "location": {
+          "lat": 31.192167,
+          "lng": 121.439406,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "漕溪北路辅路与肇嘉浜路交叉口东南140米",
+        "poi_type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所"
+      },
+      {
+        "provider_id": "B0MBCRO7VZ",
+        "name": "回味关中西安小馆(徐家汇TPY店)",
+        "location": {
+          "lat": 31.193225,
+          "lng": 121.438925,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "漕溪北路辅路与肇嘉浜路交叉口东南20米",
+        "poi_type": "餐饮服务;中餐厅;中餐厅"
+      },
+      {
+        "provider_id": "B0KKXNMV8V",
+        "name": "五月专业脱毛连锁(徐家汇店)",
+        "location": {
+          "lat": 31.192275,
+          "lng": 121.439325,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "漕溪北路辅路与肇嘉浜路交叉口东南120米",
+        "poi_type": "生活服务;美容美发店;美容美发店"
+      },
+      {
+        "provider_id": "B0ID6GWN4H",
+        "name": "欧风街(美罗城店)",
+        "location": {
+          "lat": 31.193002,
+          "lng": 121.439737,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路与漕溪北路辅路交叉口东100米",
+        "poi_type": "购物服务;特色商业街;特色商业街"
+      },
+      {
+        "provider_id": "B0MATHVLLX",
+        "name": "申什一杯(百脑汇店)",
+        "location": {
+          "lat": 31.192125,
+          "lng": 121.438975,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "漕溪北路辅路与肇嘉浜路交叉口南140米",
+        "poi_type": "餐饮服务;冷饮店;冷饮店"
+      }
+    ],
+    "多伦路牌坊": [
+      {
+        "provider_id": "B0G2CRB88C",
+        "name": "多伦路文化名人街牌坊",
+        "location": {
+          "lat": 31.262091,
+          "lng": 121.483703,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "多伦路文化名人街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      }
+    ],
+    "甜爱路351弄": [
+      {
+        "provider_id": "B00155KB7V",
+        "name": "甜爱大楼小区",
+        "location": {
+          "lat": 31.272203,
+          "lng": 121.485286,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路351号",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFG9UF28",
+        "name": "甜爱路30弄小区",
+        "location": {
+          "lat": 31.265767,
+          "lng": 121.483257,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路30弄1-4号",
+        "poi_type": "商务住宅;住宅区;住宅区"
+      },
+      {
+        "provider_id": "B0KUH77WTH",
+        "name": "甜爱路301-331号小区",
+        "location": {
+          "lat": 31.269824,
+          "lng": 121.484551,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口北200米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "BZAGR001Z2",
+        "name": "甜爱路",
+        "location": {
+          "lat": 31.267662,
+          "lng": 121.483974,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "虹口区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B00155P1VL",
+        "name": "甜爱路",
+        "location": {
+          "lat": 31.26723,
+          "lng": 121.483903,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "千爱里",
+        "poi_type": "风景名胜;风景名胜;风景名胜"
+      },
+      {
+        "provider_id": "B0FFHQ3C9R",
+        "name": "甜爱路32弄小区",
+        "location": {
+          "lat": 31.266269,
+          "lng": 121.483169,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路32号",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      },
+      {
+        "provider_id": "B0FFF5QP6L",
+        "name": "鲁迅公园-百鹤亭",
+        "location": {
+          "lat": 31.273386,
+          "lng": 121.483984,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路351号",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0LA3UFGRI",
+        "name": "甜爱路311号",
+        "location": {
+          "lat": 31.26586,
+          "lng": 121.483246,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路100号靠近上海鲁迅纪念馆",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0M60GLOK3",
+        "name": "甜爱路311弄1号",
+        "location": {
+          "lat": 31.269898,
+          "lng": 121.484586,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口北200米",
+        "poi_type": "商务住宅;住宅区;住宅区"
+      },
+      {
+        "provider_id": "B0FFH1Y2NL",
+        "name": "甜爱路公房",
+        "location": {
+          "lat": 31.269791,
+          "lng": 121.484815,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "虹口区",
+        "address": "甜爱路与甜爱支路交叉口东北200米",
+        "poi_type": "商务住宅;住宅区;住宅小区"
+      }
+    ],
+    "南京东路 西藏中路": [
+      {
+        "provider_id": "B0G1PNGH03",
+        "name": "大上海大戏院旧址",
+        "location": {
+          "lat": 31.235926,
+          "lng": 121.474288,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      }
+    ],
+    "南京路步行街西入口": [
+      {
+        "provider_id": "B0IA369WVI",
+        "name": "南京路步行街",
+        "location": {
+          "lat": 31.236534,
+          "lng": 121.482374,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0FFF6XTM4",
+        "name": "南京路世纪广场",
+        "location": {
+          "lat": 31.235308,
+          "lng": 121.479688,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路555号(南京东路地铁站4号口步行300米)",
+        "poi_type": "风景名胜;公园广场;城市广场"
+      },
+      {
+        "provider_id": "B0JBTX83LH",
+        "name": "茂名北路步行街",
+        "location": {
+          "lat": 31.226829,
+          "lng": 121.460037,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "静安区",
+        "address": "威海路600号(南京西路地铁站13号口步行70米)",
+        "poi_type": "地名地址信息;交通地名;交通地名|购物服务;购物相关场所;购物相关场所"
+      },
+      {
+        "provider_id": "B0FFFPWQ3Y",
+        "name": "南京路步行街-雕像",
+        "location": {
+          "lat": 31.236715,
+          "lng": 121.482536,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0FFGX33QM",
+        "name": "南京东路",
+        "location": {
+          "lat": 31.238742,
+          "lng": 121.488756,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0M1FD9UPZ",
+        "name": "南京路步行街-大型主题装置(打卡点)",
+        "location": {
+          "lat": 31.237301,
+          "lng": 121.484597,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0FFH10ASN",
+        "name": "南京东路观光车",
+        "location": {
+          "lat": 31.234789,
+          "lng": 121.47571,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0FFF2XPGI",
+        "name": "大新公司旧址",
+        "location": {
+          "lat": 31.234869,
+          "lng": 121.474753,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0M1FSADIB",
+        "name": "名创优品(上海南京路步行街宏伊广场店)-钥匙背景(打卡点)",
+        "location": {
+          "lat": 31.235925,
+          "lng": 121.481175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "名创优品(上海南京路步行街宏伊广场店)",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0M1FS97S9",
+        "name": "名创优品(上海南京路步行街宏伊广场店)-文字背景装置(打卡点)",
+        "location": {
+          "lat": 31.235925,
+          "lng": 121.481175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "名创优品(上海南京路步行街宏伊广场店)",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0M1FDADZJ",
+        "name": "名创优品(上海南京路步行街宏伊广场店)-圆形凯蒂猫(打卡点)",
+        "location": {
+          "lat": 31.235925,
+          "lng": 121.481175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "名创优品(上海南京路步行街宏伊广场店)",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0M1FD9UD6",
+        "name": "名创优品(上海南京路步行街宏伊广场店)-兔子雕塑(打卡点)",
+        "location": {
+          "lat": 31.235925,
+          "lng": 121.481175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "名创优品(上海南京路步行街宏伊广场店)",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0FFHPLFGA",
+        "name": "南京东路与河南中路交叉口",
+        "location": {
+          "lat": 31.237534,
+          "lng": 121.484835,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0M2ZR3E39",
+        "name": "南京路步行街-露台东方明珠夜景(打卡点)",
+        "location": {
+          "lat": 31.237299,
+          "lng": 121.48893,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0FFKJT469",
+        "name": "上海失恋博物馆",
+        "location": {
+          "lat": 31.236683,
+          "lng": 121.483583,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路上海悦荟广场4层(南京东路地铁站3号口步行50米)",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0FFHGHUXL",
+        "name": "茅丽瑛烈士遇害处",
+        "location": {
+          "lat": 31.238516,
+          "lng": 121.487302,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京路步行街与四川中路交叉口西40米",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0M1FSAQ3W",
+        "name": "名创优品(上海南京路步行街宏伊广场店)-史迪仔装置(打卡点)",
+        "location": {
+          "lat": 31.235925,
+          "lng": 121.481175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "名创优品(上海南京路步行街宏伊广场店)",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0M1FS9TBL",
+        "name": "名创优品(上海南京路步行街宏伊广场店)-蝴蝶结货架(打卡点)",
+        "location": {
+          "lat": 31.235925,
+          "lng": 121.481175,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "名创优品(上海南京路步行街宏伊广场店)",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      },
+      {
+        "provider_id": "B0KUKCJBH4",
+        "name": "惠露营",
+        "location": {
+          "lat": 31.23465,
+          "lng": 121.474902,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京路步行街与西藏中路交叉口东40米",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0G3M92BXH",
+        "name": "咸恒广场",
+        "location": {
+          "lat": 31.235436,
+          "lng": 121.476304,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;公园广场;城市广场"
+      },
+      {
+        "provider_id": "B00155I4I6",
+        "name": "老闸捕房旧址",
+        "location": {
+          "lat": 31.235954,
+          "lng": 121.476198,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0FFFZXYO2",
+        "name": "慈安里大楼",
+        "location": {
+          "lat": 31.238516,
+          "lng": 121.487357,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路120号(南京东路地铁站7号口步行320米)",
+        "poi_type": "风景名胜;风景名胜;风景名胜"
+      },
+      {
+        "provider_id": "B00155FXB3",
+        "name": "外滩",
+        "location": {
+          "lat": 31.233516,
+          "lng": 121.492127,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "中山东一路",
+        "poi_type": "风景名胜;风景名胜;风景名胜"
+      },
+      {
+        "provider_id": "B0FFFOWIE5",
+        "name": "世纪元钟",
+        "location": {
+          "lat": 31.235348,
+          "lng": 121.480432,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京东路558号南京路步行街",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      },
+      {
+        "provider_id": "B0L0L1BLLP",
+        "name": "穿越中国",
+        "location": {
+          "lat": 31.23515,
+          "lng": 121.475402,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "南京路步行街800-803号F6",
+        "poi_type": "风景名胜;风景名胜相关;旅游景点"
+      }
+    ],
+    "徐家汇 肇嘉浜路 虹桥路": [
+      {
+        "provider_id": "B0IA3MPLKD",
+        "name": "肇嘉浜路",
+        "location": {
+          "lat": 31.2,
+          "lng": 121.452259,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0M2GX2Z7W",
+        "name": "肇嘉浜路辅路",
+        "location": {
+          "lat": 31.193675,
+          "lng": 121.439297,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;道路名"
+      },
+      {
+        "provider_id": "B0FFHPKBPR",
+        "name": "肇嘉浜路与虹桥路交叉口",
+        "location": {
+          "lat": 31.193781,
+          "lng": 121.438463,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFIK138K",
+        "name": "吴兴路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.198343,
+          "lng": 121.44605,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPL4OF",
+        "name": "宛平路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.197298,
+          "lng": 121.44475,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPKRSG",
+        "name": "宛平南路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.196972,
+          "lng": 121.444848,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFI8GH39",
+        "name": "天钥桥路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.194676,
+          "lng": 121.440409,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFGGXDBK",
+        "name": "高安路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.19864,
+          "lng": 121.447783,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPK32M",
+        "name": "肇嘉浜路与襄阳南路交叉口",
+        "location": {
+          "lat": 31.202393,
+          "lng": 121.458675,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPJSL7",
+        "name": "岳阳路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.200685,
+          "lng": 121.453329,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFGGVHL6",
+        "name": "太原路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.201796,
+          "lng": 121.45624,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPL1SG",
+        "name": "嘉善路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.203005,
+          "lng": 121.460858,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFLKYDYD",
+        "name": "天平路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.195282,
+          "lng": 121.44149,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0M2MRNA2Z",
+        "name": "襄阳南路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.202078,
+          "lng": 121.458814,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPHOOG",
+        "name": "乌鲁木齐南路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.199694,
+          "lng": 121.450426,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPK79J",
+        "name": "东安路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.199694,
+          "lng": 121.450426,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPLH2I",
+        "name": "华山路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.193823,
+          "lng": 121.438735,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPGFQZ",
+        "name": "陕西南路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.202993,
+          "lng": 121.462284,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHVI9S7",
+        "name": "大木桥路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.203013,
+          "lng": 121.460874,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFHPKISP",
+        "name": "枫林路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.200391,
+          "lng": 121.453462,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0FFGGH5SD",
+        "name": "肇嘉浜路与雅安路交叉口",
+        "location": {
+          "lat": 31.20338,
+          "lng": 121.464236,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "徐汇区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B0M2MRN451",
+        "name": "瑞金南路与肇嘉浜路交叉口",
+        "location": {
+          "lat": 31.204514,
+          "lng": 121.466754,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "黄浦区",
+        "address": "黄浦区",
+        "poi_type": "地名地址信息;交通地名;路口名"
+      },
+      {
+        "provider_id": "B00155ILI8",
+        "name": "徐家汇公园",
+        "location": {
+          "lat": 31.197401,
+          "lng": 121.442461,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路986号(徐家汇地铁站14号口步行250米)",
+        "poi_type": "风景名胜;公园广场;公园"
+      },
+      {
+        "provider_id": "B0FFIXS457",
+        "name": "肇嘉浜路417弄11号",
+        "location": {
+          "lat": 31.201602,
+          "lng": 121.457596,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路与太原路交叉口东120米",
+        "poi_type": "地名地址信息;门牌信息;门牌信息"
+      },
+      {
+        "provider_id": "B0M1FSAJ0Z",
+        "name": "美罗城-卡通板(打卡点)",
+        "location": {
+          "lat": 31.193285,
+          "lng": 121.439815,
+          "coordinate_system": "GCJ02"
+        },
+        "district": "徐汇区",
+        "address": "肇嘉浜路1111号美罗城",
+        "poi_type": "风景名胜;风景名胜;观景点"
+      }
+    ]
+  }
+}

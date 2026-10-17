@@ -1,0 +1,278 @@
+{
+  "candidate_id": "hongkou_literary_d459b1fbdf9d157b",
+  "node_identity": "amap:B00155P1VL",
+  "semantic": {
+    "category": "public_space",
+    "interest_tags": [
+      "parks",
+      "shopping_lifestyle"
+    ],
+    "experience_tags": [
+      "street_scene",
+      "quiet_walk"
+    ],
+    "culture_tags": [
+      "lane_life"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_099089932a13"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "shopping_lifestyle",
+        "evidence_refs": [
+          "e_099089932a13"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "street_scene",
+        "evidence_refs": [
+          "e_c0b5ad987933",
+          "e_5d3f5077c1bb"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "quiet_walk",
+        "evidence_refs": [
+          "e_388c19fb95e8"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "lane_life",
+        "evidence_refs": [
+          "e_388c19fb95e8"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_5d3f5077c1bb",
+      "e_340509e2bc25"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示甜爱路是有情调的私密空间与爱情主题街道，具备独立漫步体验，但中段仅三四百米，更适合作补充性停留。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示足以独立承载路线主题的高目的地价值，长度有限，故不宜作锚点。",
+        "supporting_stop": "具备独立体验价值，可补充鲁迅公园等更强节点，符合支持性停留。",
+        "transition_stop": "虽可连接南北节点，但自身有爱情街与弄堂体验，价值高于单纯过渡。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "爱情邮筒、绿树篱笆的私密空间与千爱里弄堂共同构成有主题的漫步体验，但规模较小。",
+      "evidence_refs": [
+        "e_c0b5ad987933",
+        "e_099089932a13",
+        "e_388c19fb95e8"
+      ]
+    },
+    "summary_draft": {
+      "text": "甜爱路素有“最浪漫爱情街”之称",
+      "evidence_refs": [
+        "e_c0b5ad987933"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "有条与它共用一道围墙的弄堂叫千爱里",
+      "evidence_refs": [
+        "e_388c19fb95e8"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 35
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "甜爱路中段及千爱里弄堂的步行体验"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放状态与运营信息未提供",
+      "具体门牌与入口位置未提供"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.26723,
+      121.483903
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "output": {
+    "category": "public_space",
+    "interest_tags": [
+      "parks",
+      "shopping_lifestyle"
+    ],
+    "experience_tags": [
+      "street_scene",
+      "quiet_walk"
+    ],
+    "culture_tags": [
+      "lane_life"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_099089932a13"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "shopping_lifestyle",
+        "evidence_refs": [
+          "e_099089932a13"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "street_scene",
+        "evidence_refs": [
+          "e_c0b5ad987933",
+          "e_5d3f5077c1bb"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "quiet_walk",
+        "evidence_refs": [
+          "e_388c19fb95e8"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "lane_life",
+        "evidence_refs": [
+          "e_388c19fb95e8"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_5d3f5077c1bb",
+      "e_340509e2bc25"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示甜爱路是有情调的私密空间与爱情主题街道，具备独立漫步体验，但中段仅三四百米，更适合作补充性停留。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示足以独立承载路线主题的高目的地价值，长度有限，故不宜作锚点。",
+        "supporting_stop": "具备独立体验价值，可补充鲁迅公园等更强节点，符合支持性停留。",
+        "transition_stop": "虽可连接南北节点，但自身有爱情街与弄堂体验，价值高于单纯过渡。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "爱情邮筒、绿树篱笆的私密空间与千爱里弄堂共同构成有主题的漫步体验，但规模较小。",
+      "evidence_refs": [
+        "e_c0b5ad987933",
+        "e_099089932a13",
+        "e_388c19fb95e8"
+      ]
+    },
+    "summary_draft": {
+      "text": "甜爱路素有“最浪漫爱情街”之称",
+      "evidence_refs": [
+        "e_c0b5ad987933"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "有条与它共用一道围墙的弄堂叫千爱里",
+      "evidence_refs": [
+        "e_388c19fb95e8"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 35
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "甜爱路中段及千爱里弄堂的步行体验"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放状态与运营信息未提供",
+      "具体门牌与入口位置未提供"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "attempts": [
+    {
+      "status": "success",
+      "provider": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 4927,
+          "completion_tokens": 835,
+          "total_tokens": 5762,
+          "prompt_tokens_details": {
+            "cached_tokens": 512
+          },
+          "prompt_cache_hit_tokens": 512,
+          "prompt_cache_miss_tokens": 4415
+        }
+      }
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "a0e049d158c510a298745560e7f1778b4d2ab70b78aa733b1316b08edf6534af",
+  "evidence_hash": "94f1e192c78b0dc115f61c6e712f8d63fcf3a74e6574e40a22b973a93fbb6918",
+  "retry_reason": null
+}

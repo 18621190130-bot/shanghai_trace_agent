@@ -1,0 +1,419 @@
+{
+  "zone_id": "old_city_central",
+  "status": "success_with_fixture_clarification",
+  "calls_reserved": 1,
+  "text": "请在老城厢—新天地—外滩安排180分钟普通城市漫步，不去购物，区域限定为old_city_central。",
+  "intent": {
+    "route_mode": "plan_for_me",
+    "start_location_text": null,
+    "start_lat": null,
+    "start_lng": null,
+    "start_coordinate_system": "GCJ-02",
+    "available_minutes": 180,
+    "interest_tags": [],
+    "experience_tags": [],
+    "culture_tags": [],
+    "avoid_tags": [
+      "shopping_lifestyle",
+      "shopping_leisure"
+    ],
+    "avoid_poi_ids": [],
+    "unresolved_negative_preferences": [],
+    "travel_pace": "standard",
+    "must_go_poi_ids": [],
+    "preferred_zone": "old_city_central",
+    "max_walking_km": null,
+    "visit_mode_overrides": {},
+    "surprise_seed": 0,
+    "needs_clarification": true,
+    "missing_fields": [
+      "interest_tags"
+    ],
+    "clarification_requests": [
+      {
+        "field": "interest_tags",
+        "question": "What are you most interested in?",
+        "input_type": "multi_choice",
+        "options": [
+          {
+            "label": "History",
+            "value": "history"
+          },
+          {
+            "label": "Architecture",
+            "value": "architecture"
+          },
+          {
+            "label": "Local Life",
+            "value": "local_life"
+          },
+          {
+            "label": "Literature",
+            "value": "literature"
+          },
+          {
+            "label": "Art",
+            "value": "art"
+          },
+          {
+            "label": "Industrial Heritage",
+            "value": "industrial_heritage"
+          },
+          {
+            "label": "Waterfront",
+            "value": "waterfront"
+          },
+          {
+            "label": "Religion",
+            "value": "religion"
+          },
+          {
+            "label": "Parks",
+            "value": "parks"
+          },
+          {
+            "label": "Modern City",
+            "value": "modern_city"
+          },
+          {
+            "label": "Modern China History",
+            "value": "modern_china_history"
+          },
+          {
+            "label": "Music",
+            "value": "music"
+          },
+          {
+            "label": "Gardens",
+            "value": "gardens"
+          },
+          {
+            "label": "Shopping Lifestyle",
+            "value": "shopping_lifestyle"
+          }
+        ],
+        "required": true,
+        "max_choices": 3
+      }
+    ],
+    "warnings": [],
+    "semantic_concepts": []
+  },
+  "route_status": "needs_clarification",
+  "route_plan": null,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 2550,
+      "completion_tokens": 123,
+      "total_tokens": 2673,
+      "prompt_tokens_details": {
+        "cached_tokens": 2304
+      },
+      "prompt_cache_hit_tokens": 2304,
+      "prompt_cache_miss_tokens": 246
+    }
+  },
+  "entry_status": "needs_clarification",
+  "route_engine_status": "success",
+  "clarification_test_fixture": {
+    "interest_tags": [
+      "history",
+      "architecture"
+    ]
+  },
+  "clarified_intent": {
+    "route_mode": "plan_for_me",
+    "start_location_text": null,
+    "start_lat": null,
+    "start_lng": null,
+    "start_coordinate_system": "GCJ-02",
+    "available_minutes": 180,
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "avoid_tags": [
+      "shopping_lifestyle",
+      "shopping_leisure"
+    ],
+    "avoid_poi_ids": [],
+    "unresolved_negative_preferences": [],
+    "travel_pace": "standard",
+    "must_go_poi_ids": [],
+    "preferred_zone": "old_city_central",
+    "max_walking_km": null,
+    "visit_mode_overrides": {},
+    "surprise_seed": 0,
+    "needs_clarification": false,
+    "missing_fields": [],
+    "clarification_requests": [],
+    "warnings": [],
+    "semantic_concepts": []
+  },
+  "clarified_route_plan": {
+    "status": "success",
+    "request": {
+      "available_minutes": 180,
+      "start_lat": null,
+      "start_lng": null,
+      "start_coordinate_system": "GCJ-02",
+      "interest_tags": [
+        "history",
+        "architecture"
+      ],
+      "experience_tags": [],
+      "culture_tags": [],
+      "must_go_poi_ids": [],
+      "preferred_zone": "old_city_central",
+      "max_walking_km": null,
+      "avoid_crowds": false,
+      "environment_preference": null,
+      "travel_pace": "standard",
+      "visit_mode_overrides": {},
+      "full_visit_unavailable_poi_ids": [],
+      "willing_to_buy_tickets": true,
+      "allow_mode_downgrade": true,
+      "avoid_tags": [
+        "shopping_lifestyle",
+        "shopping_leisure"
+      ],
+      "avoid_poi_ids": [],
+      "route_mode": "plan_for_me"
+    },
+    "selected_zone": "old_city_central",
+    "ordered_pois": [
+      {
+        "poi_id": "p14",
+        "display_order": 10,
+        "poi_type": "landmark",
+        "name_zh": "外滩·陈毅广场",
+        "name_en": "The Bund · Chen Yi Square",
+        "walk_zone": "old_city_central",
+        "estimated_stay_minutes": 25.0,
+        "estimated_distance_from_previous_stop_km": 0.0,
+        "estimated_walking_minutes": 0.0,
+        "recommendation_score": 14.0,
+        "matched_tags": {
+          "interest_tags": [
+            "architecture",
+            "history"
+          ],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "reason_for_recommendation": "Recommended because it matches: architecture, history. Located in Old City–Xintiandi–Bund. Visit mode: walk_stop; pace: standard.",
+        "must_go": false,
+        "selected_visit_mode": "walk_stop",
+        "travel_pace": "standard",
+        "requested_visit_mode": "walk_stop",
+        "downgrade_reason": null,
+        "opening_status": "opening_status_unverified",
+        "original_opening_hours": null,
+        "ticket_required": false,
+        "reservation_required": false,
+        "coordinate_system": "GCJ-02",
+        "estimated_coordinates": [
+          31.2365,
+          121.4915
+        ],
+        "original_coordinates": [
+          31.2365,
+          121.4915
+        ],
+        "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+        "visit_scope": "Key exterior/public-space observation.",
+        "selection_reason": "core_match",
+        "effective_primary_role": "anchor",
+        "estimated_distance_from_previous": 0.0,
+        "estimated_walking_minutes_from_previous": 0.0
+      },
+      {
+        "poi_id": "pz_a74f9e58195a",
+        "display_order": 37,
+        "poi_type": "park",
+        "name_zh": "古城公园",
+        "name_en": "Gucheng Park",
+        "walk_zone": "old_city_central",
+        "estimated_stay_minutes": 30.0,
+        "estimated_distance_from_previous_stop_km": 1.1559335235633192,
+        "estimated_walking_minutes": 15.412446980844258,
+        "recommendation_score": 7.266099714655021,
+        "matched_tags": {
+          "interest_tags": [
+            "history"
+          ],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "reason_for_recommendation": "Recommended because it matches: history. Located in Old City–Xintiandi–Bund. Visit mode: walk_stop; pace: standard.",
+        "must_go": false,
+        "selected_visit_mode": "walk_stop",
+        "travel_pace": "standard",
+        "requested_visit_mode": "walk_stop",
+        "downgrade_reason": null,
+        "opening_status": "opening_status_unverified",
+        "original_opening_hours": null,
+        "ticket_required": null,
+        "reservation_required": false,
+        "coordinate_system": "GCJ-02",
+        "estimated_coordinates": [
+          31.228427,
+          121.493836
+        ],
+        "original_coordinates": [
+          31.228427,
+          121.493836
+        ],
+        "original_coordinate_system": "GCJ-02",
+        "visit_scope": "公园内部步道、丹凤楼及主要景观节点",
+        "selection_reason": "richness_expansion",
+        "effective_primary_role": "supporting_stop",
+        "estimated_distance_from_previous": 1.1559335235633192,
+        "estimated_walking_minutes_from_previous": 15.412446980844258
+      },
+      {
+        "poi_id": "p15",
+        "display_order": 11,
+        "poi_type": "district",
+        "name_zh": "豫园",
+        "name_en": "Yu Garden",
+        "walk_zone": "old_city_central",
+        "estimated_stay_minutes": 45.0,
+        "estimated_distance_from_previous_stop_km": 0.2540767790253185,
+        "estimated_walking_minutes": 3.3876903870042465,
+        "recommendation_score": 13.618884831462022,
+        "matched_tags": {
+          "interest_tags": [
+            "architecture",
+            "history"
+          ],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "reason_for_recommendation": "Recommended because it matches: architecture, history. Located in Old City–Xintiandi–Bund. Visit mode: walk_stop; pace: standard.",
+        "must_go": false,
+        "selected_visit_mode": "walk_stop",
+        "travel_pace": "standard",
+        "requested_visit_mode": "walk_stop",
+        "downgrade_reason": null,
+        "opening_status": "opening_status_unverified",
+        "original_opening_hours": null,
+        "ticket_required": false,
+        "reservation_required": false,
+        "coordinate_system": "GCJ-02",
+        "estimated_coordinates": [
+          31.227,
+          121.4925
+        ],
+        "original_coordinates": [
+          31.227,
+          121.4925
+        ],
+        "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+        "visit_scope": "Yu Garden shopping area and surrounding streets; excludes ticketed garden entry.",
+        "selection_reason": "richness_expansion",
+        "effective_primary_role": "anchor",
+        "estimated_distance_from_previous": 0.2540767790253185,
+        "estimated_walking_minutes_from_previous": 3.3876903870042465
+      },
+      {
+        "poi_id": "p20",
+        "display_order": 13,
+        "poi_type": "venue",
+        "name_zh": "上海城隍庙",
+        "name_en": "Shanghai City God Temple",
+        "walk_zone": "old_city_central",
+        "estimated_stay_minutes": 40.0,
+        "estimated_distance_from_previous_stop_km": 0.15586450290008017,
+        "estimated_walking_minutes": 2.078193372001069,
+        "recommendation_score": 13.76620324564988,
+        "matched_tags": {
+          "interest_tags": [
+            "architecture",
+            "history"
+          ],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "reason_for_recommendation": "Recommended because it matches: architecture, history. Located in Old City–Xintiandi–Bund. Visit mode: full_visit; pace: standard.",
+        "must_go": false,
+        "selected_visit_mode": "full_visit",
+        "travel_pace": "standard",
+        "requested_visit_mode": "full_visit",
+        "downgrade_reason": null,
+        "opening_status": "opening_status_unverified",
+        "original_opening_hours": "08:30-16:30 (official page; lunar 1st/15th may differ)",
+        "ticket_required": false,
+        "reservation_required": false,
+        "coordinate_system": "GCJ-02",
+        "estimated_coordinates": [
+          31.225879,
+          121.492466
+        ],
+        "original_coordinates": [
+          31.225879,
+          121.492466
+        ],
+        "original_coordinate_system": "GCJ-02/Amap POI anchor",
+        "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+        "selection_reason": "richness_expansion",
+        "effective_primary_role": "anchor",
+        "estimated_distance_from_previous": 0.15586450290008017,
+        "estimated_walking_minutes_from_previous": 2.078193372001069
+      }
+    ],
+    "cross_zone_required": false,
+    "total_estimated_distance_km": 1.565874805488718,
+    "total_estimated_walking_minutes": 20.878330739849574,
+    "total_stay_minutes": 140.0,
+    "buffer_minutes": 15,
+    "total_estimated_minutes": 175.87833073984956,
+    "remaining_minutes": 4.1216692601504406,
+    "warnings": [
+      "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+      "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+      "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+      "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+      "crowd_level_unknown: p14; low crowd is not guaranteed.",
+      "entry_requirements_unverified: p14; unknown does not mean free or reservation-free.",
+      "visit_time_pending_manual_calibration: pz_a74f9e58195a walk_stop; product estimate.",
+      "crowd_level_unknown: pz_a74f9e58195a; low crowd is not guaranteed.",
+      "entry_requirements_unverified: pz_a74f9e58195a; unknown does not mean free or reservation-free.",
+      "representative_coordinate: p15; this anchor is not the whole area's unique location or entry/exit.",
+      "crowd_level_unknown: p15; low crowd is not guaranteed.",
+      "entry_requirements_unverified: p15; unknown does not mean free or reservation-free."
+    ],
+    "explanation": "Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+    "errors": [],
+    "relaxation_suggestions": [],
+    "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+    "distance_method": "estimated: Haversine × configured walking_distance_factor",
+    "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+    "richness_target": {
+      "min_stops": 4,
+      "max_stops": 5
+    },
+    "richness_target_met": true,
+    "time_utilization_ratio": 0.9771018374436087,
+    "estimated_max_single_leg_km": 1.1559335235633192,
+    "long_estimated_leg_warning": false,
+    "composition_diagnostics": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "anchor": 3,
+        "supporting_stop": 1
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    }
+  },
+  "smoke_scope": "Real provider extraction -> RouteIntent -> recorded deterministic clarification test fixture -> shared adapter and RouteEngine; zero extra provider calls"
+}

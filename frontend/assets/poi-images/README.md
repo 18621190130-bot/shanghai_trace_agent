@@ -1,0 +1,1 @@
+Place reviewed manual POI images here as {core_poi_id}.webp (or jpg/png). Keep provenance in data/poi_images.json via scripts/enrich_poi_images.py --commit. Do not permanently download AMap provider photos into this directory. Anchor curated assets use frontend/content.json. See PHASE4B_1_REPORT.md.

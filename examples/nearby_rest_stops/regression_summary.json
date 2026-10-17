@@ -1,0 +1,47 @@
+{
+  "phase": "3B_3",
+  "category_count": 7,
+  "targeted": {
+    "total": 117,
+    "passed": 117,
+    "duration_s": 3.34,
+    "log": "examples/nearby_rest_stops/targeted_regression.txt"
+  },
+  "final_mapping_targeted": {
+    "total": 58,
+    "passed": 58,
+    "duration_s": 1.048,
+    "source": "Executed after adding the missing-typecode mother/infant-room guard; recorded from successful tool output"
+  },
+  "full_offline": {
+    "runs": 1,
+    "total": 821,
+    "passed": 816,
+    "skipped_live": 5,
+    "duration_s": 75.463,
+    "log": "examples/nearby_rest_stops/final_offline_regression.txt"
+  },
+  "full_live": {
+    "runs": 1,
+    "test_count": 1,
+    "case_count": 3,
+    "passed": 1,
+    "duration_s": 6.301,
+    "around_requests": 12,
+    "coordinate_conversion_requests": 1,
+    "detail_requests": 0,
+    "log": "examples/nearby_rest_stops/final_live_regression.txt"
+  },
+  "targeted_live_mapping_correction": {
+    "case_count": 3,
+    "categories": [
+      "RESTROOM",
+      "MALL"
+    ],
+    "status": "PASS",
+    "around_requests": 6,
+    "detail_requests": 0,
+    "log": "examples/nearby_rest_stops/targeted_live_correction.txt"
+  },
+  "policy_note": "No full regression rerun after provider classification-only corrections. Only affected new service tests and two live categories were checked; original other five category observations retained."
+}

@@ -1,0 +1,887 @@
+{
+  "execution": "Actual shared-engine and CLI execution with explicitly injected Mock parsing; not live semantic verification.",
+  "cases": {
+    "A": {
+      "input": "I have two and a half hours. I want local neighborhoods and I'd rather avoid museums.",
+      "clarification": null,
+      "initial_intent": {
+        "route_mode": "plan_for_me",
+        "start_location_text": null,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "available_minutes": 150,
+        "interest_tags": [
+          "local_life"
+        ],
+        "experience_tags": [
+          "neighborhood_walk"
+        ],
+        "culture_tags": [],
+        "avoid_tags": [
+          "museum_visit"
+        ],
+        "avoid_poi_ids": [],
+        "unresolved_negative_preferences": [],
+        "travel_pace": "standard",
+        "must_go_poi_ids": [],
+        "preferred_zone": null,
+        "max_walking_km": null,
+        "visit_mode_overrides": {},
+        "surprise_seed": 0,
+        "needs_clarification": false,
+        "missing_fields": [],
+        "clarification_requests": [],
+        "warnings": []
+      },
+      "final": {
+        "status": "success",
+        "intent": {
+          "route_mode": "plan_for_me",
+          "start_location_text": null,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "available_minutes": 150,
+          "interest_tags": [
+            "local_life"
+          ],
+          "experience_tags": [
+            "neighborhood_walk"
+          ],
+          "culture_tags": [],
+          "avoid_tags": [
+            "museum_visit"
+          ],
+          "avoid_poi_ids": [],
+          "unresolved_negative_preferences": [],
+          "travel_pace": "standard",
+          "must_go_poi_ids": [],
+          "preferred_zone": null,
+          "max_walking_km": null,
+          "visit_mode_overrides": {},
+          "surprise_seed": 0,
+          "needs_clarification": false,
+          "missing_fields": [],
+          "clarification_requests": [],
+          "warnings": []
+        },
+        "route_plan": {
+          "status": "success",
+          "request": {
+            "available_minutes": 150,
+            "start_lat": null,
+            "start_lng": null,
+            "start_coordinate_system": "GCJ-02",
+            "interest_tags": [
+              "local_life"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": [],
+            "must_go_poi_ids": [],
+            "preferred_zone": null,
+            "max_walking_km": null,
+            "avoid_crowds": false,
+            "environment_preference": null,
+            "travel_pace": "standard",
+            "visit_mode_overrides": {},
+            "full_visit_unavailable_poi_ids": [],
+            "willing_to_buy_tickets": true,
+            "allow_mode_downgrade": true,
+            "avoid_tags": [
+              "museum_visit"
+            ],
+            "avoid_poi_ids": []
+          },
+          "selected_zone": "wukang_fuxing_xujiahui",
+          "ordered_pois": [
+            {
+              "poi_id": "p11",
+              "display_order": 7,
+              "poi_type": "district",
+              "name_zh": "建业里",
+              "name_en": "Jianyeli",
+              "walk_zone": "wukang_fuxing_xujiahui",
+              "estimated_stay_minutes": 15.0,
+              "estimated_distance_from_previous_stop_km": 0.0,
+              "estimated_walking_minutes": 0.0,
+              "recommendation_score": 11.0,
+              "matched_tags": {
+                "interest_tags": [
+                  "local_life"
+                ],
+                "experience_tags": [
+                  "neighborhood_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.2073,
+                121.4562
+              ],
+              "original_coordinates": [
+                31.2073,
+                121.4562
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "core_match",
+              "estimated_distance_from_previous": 0.0,
+              "estimated_walking_minutes_from_previous": 0.0
+            },
+            {
+              "poi_id": "p2",
+              "display_order": 1,
+              "poi_type": "street",
+              "name_zh": "永康路与嘉善路口",
+              "name_en": "Yongkang Road × Jiashan Road",
+              "walk_zone": "wukang_fuxing_xujiahui",
+              "estimated_stay_minutes": 20.0,
+              "estimated_distance_from_previous_stop_km": 0.8435613726987543,
+              "estimated_walking_minutes": 11.247484969316725,
+              "recommendation_score": 9.734657940951868,
+              "matched_tags": {
+                "interest_tags": [
+                  "local_life"
+                ],
+                "experience_tags": [
+                  "neighborhood_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.2128,
+                121.4592
+              ],
+              "original_coordinates": [
+                31.2128,
+                121.4592
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "estimated_distance_from_previous": 0.8435613726987543,
+              "estimated_walking_minutes_from_previous": 11.247484969316725
+            },
+            {
+              "poi_id": "p12",
+              "display_order": 8,
+              "poi_type": "district",
+              "name_zh": "陕南邨",
+              "name_en": "Shannan Village",
+              "walk_zone": "wukang_fuxing_xujiahui",
+              "estimated_stay_minutes": 10.0,
+              "estimated_distance_from_previous_stop_km": 0.5261996102389217,
+              "estimated_walking_minutes": 7.015994803185622,
+              "recommendation_score": 10.210700584641618,
+              "matched_tags": {
+                "interest_tags": [
+                  "local_life"
+                ],
+                "experience_tags": [
+                  "neighborhood_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.2158,
+                121.4565
+              ],
+              "original_coordinates": [
+                31.2158,
+                121.4565
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "estimated_distance_from_previous": 0.5261996102389217,
+              "estimated_walking_minutes_from_previous": 7.015994803185622
+            }
+          ],
+          "cross_zone_required": false,
+          "total_estimated_distance_km": 1.369760982937676,
+          "total_estimated_walking_minutes": 18.263479772502347,
+          "total_stay_minutes": 45.0,
+          "buffer_minutes": 15,
+          "total_estimated_minutes": 78.26347977250235,
+          "remaining_minutes": 71.73652022749765,
+          "warnings": [
+            "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+            "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+            "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+            "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+            "representative_coordinate: p11; this anchor is not the whole area's unique location or entry/exit.",
+            "crowd_level_unknown: p11; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p11; unknown does not mean free or reservation-free.",
+            "representative_coordinate: p2; this anchor is not the whole area's unique location or entry/exit.",
+            "crowd_level_unknown: p2; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p2; unknown does not mean free or reservation-free.",
+            "representative_coordinate: p12; this anchor is not the whole area's unique location or entry/exit.",
+            "crowd_level_unknown: p12; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p12; unknown does not mean free or reservation-free.",
+            "Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap."
+          ],
+          "explanation": "Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+          "errors": [],
+          "relaxation_suggestions": [],
+          "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+          "distance_method": "estimated: Haversine × configured walking_distance_factor",
+          "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+          "richness_target": {
+            "min_stops": 3,
+            "max_stops": 4
+          },
+          "richness_target_met": true,
+          "time_utilization_ratio": 0.5217565318166824,
+          "estimated_max_single_leg_km": 0.8435613726987543,
+          "long_estimated_leg_warning": false
+        },
+        "feasibility": null,
+        "surprise_theme": null,
+        "warnings": [],
+        "errors": []
+      }
+    },
+    "B": {
+      "input": "I want to see the more authentic side of Shanghai.",
+      "clarification": "3",
+      "initial_intent": {
+        "route_mode": "plan_for_me",
+        "start_location_text": null,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "available_minutes": null,
+        "interest_tags": [
+          "local_life"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "unresolved_negative_preferences": [],
+        "travel_pace": "standard",
+        "must_go_poi_ids": [],
+        "preferred_zone": null,
+        "max_walking_km": null,
+        "visit_mode_overrides": {},
+        "surprise_seed": 0,
+        "needs_clarification": true,
+        "missing_fields": [
+          "available_minutes"
+        ],
+        "clarification_requests": [
+          {
+            "field": "available_minutes",
+            "question": "How long would you like to walk?",
+            "input_type": "single_choice",
+            "options": [
+              {
+                "label": "1.5 hours",
+                "value": 90
+              },
+              {
+                "label": "2 hours",
+                "value": 120
+              },
+              {
+                "label": "3 hours",
+                "value": 180
+              },
+              {
+                "label": "Half day",
+                "value": 240
+              }
+            ],
+            "required": true,
+            "max_choices": null
+          }
+        ],
+        "warnings": []
+      },
+      "final": {
+        "status": "success",
+        "intent": {
+          "route_mode": "plan_for_me",
+          "start_location_text": null,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "available_minutes": 180,
+          "interest_tags": [
+            "local_life"
+          ],
+          "experience_tags": [],
+          "culture_tags": [],
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "unresolved_negative_preferences": [],
+          "travel_pace": "standard",
+          "must_go_poi_ids": [],
+          "preferred_zone": null,
+          "max_walking_km": null,
+          "visit_mode_overrides": {},
+          "surprise_seed": 0,
+          "needs_clarification": false,
+          "missing_fields": [],
+          "clarification_requests": [],
+          "warnings": []
+        },
+        "route_plan": {
+          "status": "success",
+          "request": {
+            "available_minutes": 180,
+            "start_lat": null,
+            "start_lng": null,
+            "start_coordinate_system": "GCJ-02",
+            "interest_tags": [
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": [],
+            "must_go_poi_ids": [],
+            "preferred_zone": null,
+            "max_walking_km": null,
+            "avoid_crowds": false,
+            "environment_preference": null,
+            "travel_pace": "standard",
+            "visit_mode_overrides": {},
+            "full_visit_unavailable_poi_ids": [],
+            "willing_to_buy_tickets": true,
+            "allow_mode_downgrade": true,
+            "avoid_tags": [],
+            "avoid_poi_ids": []
+          },
+          "selected_zone": "wukang_fuxing_xujiahui",
+          "ordered_pois": [
+            {
+              "poi_id": "p11",
+              "display_order": 7,
+              "poi_type": "district",
+              "name_zh": "建业里",
+              "name_en": "Jianyeli",
+              "walk_zone": "wukang_fuxing_xujiahui",
+              "estimated_stay_minutes": 15.0,
+              "estimated_distance_from_previous_stop_km": 0.0,
+              "estimated_walking_minutes": 0.0,
+              "recommendation_score": 9.0,
+              "matched_tags": {
+                "interest_tags": [
+                  "local_life"
+                ],
+                "experience_tags": [],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.2073,
+                121.4562
+              ],
+              "original_coordinates": [
+                31.2073,
+                121.4562
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "core_match",
+              "estimated_distance_from_previous": 0.0,
+              "estimated_walking_minutes_from_previous": 0.0
+            },
+            {
+              "poi_id": "p2",
+              "display_order": 1,
+              "poi_type": "street",
+              "name_zh": "永康路与嘉善路口",
+              "name_en": "Yongkang Road × Jiashan Road",
+              "walk_zone": "wukang_fuxing_xujiahui",
+              "estimated_stay_minutes": 20.0,
+              "estimated_distance_from_previous_stop_km": 0.8435613726987543,
+              "estimated_walking_minutes": 11.247484969316725,
+              "recommendation_score": 7.734657940951869,
+              "matched_tags": {
+                "interest_tags": [
+                  "local_life"
+                ],
+                "experience_tags": [],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.2128,
+                121.4592
+              ],
+              "original_coordinates": [
+                31.2128,
+                121.4592
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "estimated_distance_from_previous": 0.8435613726987543,
+              "estimated_walking_minutes_from_previous": 11.247484969316725
+            },
+            {
+              "poi_id": "p12",
+              "display_order": 8,
+              "poi_type": "district",
+              "name_zh": "陕南邨",
+              "name_en": "Shannan Village",
+              "walk_zone": "wukang_fuxing_xujiahui",
+              "estimated_stay_minutes": 10.0,
+              "estimated_distance_from_previous_stop_km": 0.5261996102389217,
+              "estimated_walking_minutes": 7.015994803185622,
+              "recommendation_score": 8.210700584641618,
+              "matched_tags": {
+                "interest_tags": [
+                  "local_life"
+                ],
+                "experience_tags": [],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.2158,
+                121.4565
+              ],
+              "original_coordinates": [
+                31.2158,
+                121.4565
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "estimated_distance_from_previous": 0.5261996102389217,
+              "estimated_walking_minutes_from_previous": 7.015994803185622
+            }
+          ],
+          "cross_zone_required": false,
+          "total_estimated_distance_km": 1.369760982937676,
+          "total_estimated_walking_minutes": 18.263479772502347,
+          "total_stay_minutes": 45.0,
+          "buffer_minutes": 15,
+          "total_estimated_minutes": 78.26347977250235,
+          "remaining_minutes": 101.73652022749765,
+          "warnings": [
+            "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+            "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+            "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+            "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+            "representative_coordinate: p11; this anchor is not the whole area's unique location or entry/exit.",
+            "crowd_level_unknown: p11; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p11; unknown does not mean free or reservation-free.",
+            "representative_coordinate: p2; this anchor is not the whole area's unique location or entry/exit.",
+            "crowd_level_unknown: p2; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p2; unknown does not mean free or reservation-free.",
+            "representative_coordinate: p12; this anchor is not the whole area's unique location or entry/exit.",
+            "crowd_level_unknown: p12; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p12; unknown does not mean free or reservation-free.",
+            "richness_target_unmet: Preferred route richness was not reached because additional candidates failed the route-quality gate. Preferred 4-5 stops; actual 3. This is a soft preference, not a failure.",
+            "Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap."
+          ],
+          "explanation": "Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+          "errors": [],
+          "relaxation_suggestions": [],
+          "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+          "distance_method": "estimated: Haversine × configured walking_distance_factor",
+          "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+          "richness_target": {
+            "min_stops": 4,
+            "max_stops": 5
+          },
+          "richness_target_met": false,
+          "time_utilization_ratio": 0.4347971098472353,
+          "estimated_max_single_leg_km": 0.8435613726987543,
+          "long_estimated_leg_warning": false
+        },
+        "feasibility": null,
+        "surprise_theme": null,
+        "warnings": [],
+        "errors": []
+      }
+    },
+    "C": {
+      "input": "I have two hours and want architecture and local neighborhoods.",
+      "clarification": null,
+      "initial_intent": {
+        "route_mode": "plan_for_me",
+        "start_location_text": null,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "available_minutes": 120,
+        "interest_tags": [
+          "architecture",
+          "local_life"
+        ],
+        "experience_tags": [
+          "neighborhood_walk"
+        ],
+        "culture_tags": [],
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "unresolved_negative_preferences": [],
+        "travel_pace": "standard",
+        "must_go_poi_ids": [],
+        "preferred_zone": null,
+        "max_walking_km": null,
+        "visit_mode_overrides": {},
+        "surprise_seed": 0,
+        "needs_clarification": false,
+        "missing_fields": [],
+        "clarification_requests": [],
+        "warnings": []
+      },
+      "final": {
+        "status": "success",
+        "intent": {
+          "route_mode": "plan_for_me",
+          "start_location_text": null,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "available_minutes": 120,
+          "interest_tags": [
+            "architecture",
+            "local_life"
+          ],
+          "experience_tags": [
+            "neighborhood_walk"
+          ],
+          "culture_tags": [],
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "unresolved_negative_preferences": [],
+          "travel_pace": "standard",
+          "must_go_poi_ids": [],
+          "preferred_zone": null,
+          "max_walking_km": null,
+          "visit_mode_overrides": {},
+          "surprise_seed": 0,
+          "needs_clarification": false,
+          "missing_fields": [],
+          "clarification_requests": [],
+          "warnings": []
+        },
+        "route_plan": {
+          "status": "success",
+          "request": {
+            "available_minutes": 120,
+            "start_lat": null,
+            "start_lng": null,
+            "start_coordinate_system": "GCJ-02",
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": [],
+            "must_go_poi_ids": [],
+            "preferred_zone": null,
+            "max_walking_km": null,
+            "avoid_crowds": false,
+            "environment_preference": null,
+            "travel_pace": "standard",
+            "visit_mode_overrides": {},
+            "full_visit_unavailable_poi_ids": [],
+            "willing_to_buy_tickets": true,
+            "allow_mode_downgrade": true,
+            "avoid_tags": [],
+            "avoid_poi_ids": []
+          },
+          "selected_zone": "wukang_fuxing_xujiahui",
+          "ordered_pois": [
+            {
+              "poi_id": "p11",
+              "display_order": 7,
+              "poi_type": "district",
+              "name_zh": "建业里",
+              "name_en": "Jianyeli",
+              "walk_zone": "wukang_fuxing_xujiahui",
+              "estimated_stay_minutes": 15.0,
+              "estimated_distance_from_previous_stop_km": 0.0,
+              "estimated_walking_minutes": 0.0,
+              "recommendation_score": 16.0,
+              "matched_tags": {
+                "interest_tags": [
+                  "architecture",
+                  "local_life"
+                ],
+                "experience_tags": [
+                  "neighborhood_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.2073,
+                121.4562
+              ],
+              "original_coordinates": [
+                31.2073,
+                121.4562
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "core_match",
+              "estimated_distance_from_previous": 0.0,
+              "estimated_walking_minutes_from_previous": 0.0
+            },
+            {
+              "poi_id": "p2",
+              "display_order": 1,
+              "poi_type": "street",
+              "name_zh": "永康路与嘉善路口",
+              "name_en": "Yongkang Road × Jiashan Road",
+              "walk_zone": "wukang_fuxing_xujiahui",
+              "estimated_stay_minutes": 20.0,
+              "estimated_distance_from_previous_stop_km": 0.8435613726987543,
+              "estimated_walking_minutes": 11.247484969316725,
+              "recommendation_score": 14.734657940951868,
+              "matched_tags": {
+                "interest_tags": [
+                  "architecture",
+                  "local_life"
+                ],
+                "experience_tags": [
+                  "neighborhood_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.2128,
+                121.4592
+              ],
+              "original_coordinates": [
+                31.2128,
+                121.4592
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "estimated_distance_from_previous": 0.8435613726987543,
+              "estimated_walking_minutes_from_previous": 11.247484969316725
+            },
+            {
+              "poi_id": "p12",
+              "display_order": 8,
+              "poi_type": "district",
+              "name_zh": "陕南邨",
+              "name_en": "Shannan Village",
+              "walk_zone": "wukang_fuxing_xujiahui",
+              "estimated_stay_minutes": 10.0,
+              "estimated_distance_from_previous_stop_km": 0.5261996102389217,
+              "estimated_walking_minutes": 7.015994803185622,
+              "recommendation_score": 15.210700584641618,
+              "matched_tags": {
+                "interest_tags": [
+                  "architecture",
+                  "local_life"
+                ],
+                "experience_tags": [
+                  "neighborhood_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.2158,
+                121.4565
+              ],
+              "original_coordinates": [
+                31.2158,
+                121.4565
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "estimated_distance_from_previous": 0.5261996102389217,
+              "estimated_walking_minutes_from_previous": 7.015994803185622
+            }
+          ],
+          "cross_zone_required": false,
+          "total_estimated_distance_km": 1.369760982937676,
+          "total_estimated_walking_minutes": 18.263479772502347,
+          "total_stay_minutes": 45.0,
+          "buffer_minutes": 15,
+          "total_estimated_minutes": 78.26347977250235,
+          "remaining_minutes": 41.73652022749765,
+          "warnings": [
+            "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+            "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+            "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+            "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+            "representative_coordinate: p11; this anchor is not the whole area's unique location or entry/exit.",
+            "crowd_level_unknown: p11; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p11; unknown does not mean free or reservation-free.",
+            "representative_coordinate: p2; this anchor is not the whole area's unique location or entry/exit.",
+            "crowd_level_unknown: p2; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p2; unknown does not mean free or reservation-free.",
+            "representative_coordinate: p12; this anchor is not the whole area's unique location or entry/exit.",
+            "crowd_level_unknown: p12; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p12; unknown does not mean free or reservation-free."
+          ],
+          "explanation": "Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+          "errors": [],
+          "relaxation_suggestions": [],
+          "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+          "distance_method": "estimated: Haversine × configured walking_distance_factor",
+          "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+          "richness_target": {
+            "min_stops": 3,
+            "max_stops": 4
+          },
+          "richness_target_met": true,
+          "time_utilization_ratio": 0.6521956647708529,
+          "estimated_max_single_leg_km": 0.8435613726987543,
+          "long_estimated_leg_warning": false
+        },
+        "feasibility": null,
+        "surprise_theme": null,
+        "warnings": [],
+        "errors": []
+      }
+    }
+  },
+  "live_cli_attempts": [
+    {
+      "case": "A",
+      "argv": [
+        "python",
+        "chat_demo.py",
+        "--mode",
+        "plan_for_me",
+        "--text",
+        "I have two and a half hours. I want local neighborhoods and I'd rather avoid museums."
+      ],
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "{\"status\": \"validation_error\", \"errors\": [\"Set DEEPSEEK_API_KEY in the process environment before using live mode\"]}\n"
+    },
+    {
+      "case": "B",
+      "argv": [
+        "python",
+        "chat_demo.py",
+        "--mode",
+        "plan_for_me",
+        "--text",
+        "I want to see the more authentic side of Shanghai."
+      ],
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "{\"status\": \"validation_error\", \"errors\": [\"Set DEEPSEEK_API_KEY in the process environment before using live mode\"]}\n"
+    },
+    {
+      "case": "C",
+      "argv": [
+        "python",
+        "chat_demo.py",
+        "--mode",
+        "plan_for_me",
+        "--text",
+        "I have two hours and want architecture and local neighborhoods."
+      ],
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "{\"status\": \"validation_error\", \"errors\": [\"Set DEEPSEEK_API_KEY in the process environment before using live mode\"]}\n"
+    }
+  ]
+}

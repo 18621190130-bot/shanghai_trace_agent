@@ -1,0 +1,896 @@
+[
+  {
+    "poi_id": "p2",
+    "name_en": "Yongkang Road × Jiashan Road",
+    "name_zh": "永康路与嘉善路口",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.2128,
+      "lng": 121.4592,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p4",
+    "name_en": "Lu Xun Former Residence",
+    "name_zh": "鲁迅故居",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.266023,
+      "lng": 121.484701,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269024
+  },
+  {
+    "poi_id": "p5",
+    "name_en": "Long Museum (West Bund)",
+    "name_zh": "龙美术馆（西岸馆）",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.183541,
+      "lng": 121.464239,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269055
+  },
+  {
+    "poi_id": "p7",
+    "name_en": "Xintiandi North Block (Shikumen)",
+    "name_zh": "新天地北里（石库门街区）",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.220692,
+      "lng": 121.474751,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p9",
+    "name_en": "Zhangyuan",
+    "name_zh": "张园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.227971,
+      "lng": 121.460064,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p10",
+    "name_en": "Jinchao 8 Lanes",
+    "name_zh": "今潮8弄",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.251626,
+      "lng": 121.484182,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p11",
+    "name_en": "Jianyeli",
+    "name_zh": "建业里",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.203688,
+      "lng": 121.451802,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p12",
+    "name_en": "Shannan Village",
+    "name_zh": "陕南邨",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.214589,
+      "lng": 121.460986,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p13",
+    "name_en": "Wukang Mansion",
+    "name_zh": "武康大楼",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.204297,
+      "lng": 121.43837,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269198
+  },
+  {
+    "poi_id": "p14",
+    "name_en": "The Bund · Chen Yi Square",
+    "name_zh": "外滩·陈毅广场",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.238992,
+      "lng": 121.49039,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p15",
+    "name_en": "Yu Garden",
+    "name_zh": "豫园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.227,
+      "lng": 121.4925,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p16",
+    "name_en": "Lu Xun Park",
+    "name_zh": "鲁迅公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.2712,
+      "lng": 121.4844,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p20",
+    "name_en": "Shanghai City God Temple",
+    "name_zh": "上海城隍庙",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.224743,
+      "lng": 121.49364,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269284
+  },
+  {
+    "poi_id": "p21",
+    "name_en": "Former Residence of Soong Ching-ling in Shanghai",
+    "name_zh": "上海宋庆龄故居纪念馆",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.204432,
+      "lng": 121.438748,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269305
+  },
+  {
+    "poi_id": "p23",
+    "name_en": "Sinan Mansions",
+    "name_zh": "思南公馆",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.214509,
+      "lng": 121.468956,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p24",
+    "name_en": "Memorial of the First National Congress of the CPC",
+    "name_zh": "中共一大纪念馆",
+    "spatial_type": "POINT",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.22012192043575,
+      "lng": 121.47522210826187,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedArrival"
+  },
+  {
+    "poi_id": "p25",
+    "name_en": "1927 Lu Xun & Uchiyama Memorial Bookstore",
+    "name_zh": "1927·鲁迅与内山纪念书局",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.264687,
+      "lng": 121.483708,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269453
+  },
+  {
+    "poi_id": "p26",
+    "name_en": "Memorial Site of the League of Left-Wing Writers",
+    "name_zh": "中国左翼作家联盟会址纪念馆",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.263505,
+      "lng": 121.481102,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269472
+  },
+  {
+    "poi_id": "p27",
+    "name_en": "1933 Old Millfun",
+    "name_zh": "1933老场坊",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.254582,
+      "lng": 121.491697,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269496
+  },
+  {
+    "poi_id": "p28",
+    "name_en": "West Bund Museum",
+    "name_zh": "西岸美术馆",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.167067,
+      "lng": 121.463512,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269517
+  },
+  {
+    "poi_id": "p29",
+    "name_en": "TANK Shanghai",
+    "name_zh": "上海油罐艺术中心",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.165007,
+      "lng": 121.462773,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269534
+  },
+  {
+    "poi_id": "p30",
+    "name_en": "Gate M West Bund Dream Center",
+    "name_zh": "Gate M 西岸梦中心",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.16119,
+      "lng": 121.465465,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p31",
+    "name_en": "START Museum",
+    "name_zh": "星美术馆",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.188143,
+      "lng": 121.469909,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269591
+  },
+  {
+    "poi_id": "p32",
+    "name_en": "St. Ignatius Cathedral / Xujiahui Cathedral",
+    "name_zh": "徐家汇天主堂",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.190838,
+      "lng": 121.436768,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269615
+  },
+  {
+    "poi_id": "p33",
+    "name_en": "Zikawei Library / Xujiahui Academy",
+    "name_zh": "徐家汇书院",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.190079,
+      "lng": 121.437549,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269632
+  },
+  {
+    "poi_id": "p34",
+    "name_en": "Nanjing Road Pedestrian Street",
+    "name_zh": "南京路步行街",
+    "spatial_type": "LINEAR",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.234789,
+      "lng": 121.47571,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p35",
+    "name_en": "Xujiahui Commercial District",
+    "name_zh": "徐家汇商圈",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.193781,
+      "lng": 121.438463,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p36",
+    "name_en": "West Bund Art Center",
+    "name_zh": "西岸艺术中心",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.166985,
+      "lng": 121.462852,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.326968
+  },
+  {
+    "poi_id": "p37",
+    "name_en": "West Bund Dome Art Center (including North Plaza)",
+    "name_zh": "西岸穹顶艺术中心（含北广场）",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.163167,
+      "lng": 121.464561,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p38",
+    "name_en": "Riverside Skateboard Park",
+    "name_zh": "滨江滑板公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.185976,
+      "lng": 121.467781,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p39",
+    "name_en": "Xuhui Runway Park",
+    "name_zh": "徐汇跑道公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.168592,
+      "lng": 121.45773,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p42",
+    "name_en": "Xuhui Riverside Maritime Tower Square",
+    "name_zh": "徐汇滨江海事塔广场",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.177546,
+      "lng": 121.4624,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "p43",
+    "name_en": "Beipiao Wharf Crane",
+    "name_zh": "北票码头塔吊",
+    "spatial_type": "POINT",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.1819,
+      "lng": 121.464763,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedArrival"
+  },
+  {
+    "poi_id": "p41",
+    "name_en": "West Bund Theatre",
+    "name_zh": "西岸大剧院",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.162445,
+      "lng": 121.464148,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269799
+  },
+  {
+    "poi_id": "pz_17d41390cac9",
+    "name_en": "Shanghai Museum of Arts And Crafts",
+    "name_zh": "上海工艺美术博物馆",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.210334,
+      "lng": 121.454023,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3269818
+  },
+  {
+    "poi_id": "pz_a74f9e58195a",
+    "name_en": "Gucheng Park",
+    "name_zh": "古城公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.228427,
+      "lng": 121.493836,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_0b545bb1cf2a",
+    "name_en": "North Sichuan Road Park",
+    "name_zh": "四川北路公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.254871,
+      "lng": 121.484802,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_b72e3b8998b3",
+    "name_en": "多伦路文化名人街",
+    "name_zh": "多伦路文化名人街",
+    "spatial_type": "LINEAR",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.262091,
+      "lng": 121.483703,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_b4acff8f32fc",
+    "name_en": "甜爱路",
+    "name_zh": "甜爱路",
+    "spatial_type": "LINEAR",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.264694,
+      "lng": 121.483313,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_68957332b418",
+    "name_en": "Taipingqiao Park",
+    "name_zh": "太平桥公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.219645626782466,
+      "lng": 121.47788238919954,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_8919938b21f2",
+    "name_en": "Huaihai Park",
+    "name_zh": "淮海公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.223114644219063,
+      "lng": 121.47759133585856,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_bd40d04c7f5d",
+    "name_en": "Fuxing Park",
+    "name_zh": "复兴公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.21698,
+      "lng": 121.469115,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_a87eb2b5b5da",
+    "name_en": "武康路历史文化名街",
+    "name_zh": "武康路历史文化名街",
+    "spatial_type": "LINEAR",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.203998,
+      "lng": 121.437919,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_553cfd36707c",
+    "name_en": "Hengshan Park",
+    "name_zh": "衡山公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.200606722311015,
+      "lng": 121.44213913780838,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_a27dbbc6cab8",
+    "name_en": "Xiangyang Park",
+    "name_zh": "襄阳公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.216991,
+      "lng": 121.456737,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_a446052910a0",
+    "name_en": "山阴路274弄",
+    "name_zh": "山阴路274弄",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.268259025551146,
+      "lng": 121.48456693686504,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_0db17d82e9ec",
+    "name_en": "People's Square",
+    "name_zh": "上海人民广场",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.228827,
+      "lng": 121.475213,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_cc5300aee299",
+    "name_en": "福州路",
+    "name_zh": "福州路",
+    "spatial_type": "LINEAR",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.231509,
+      "lng": 121.476291,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_66452d5db8a1",
+    "name_en": "Former site of the Provisional Government of the Republic of Korea",
+    "name_zh": "大韩民国临时政府旧址",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.217377,
+      "lng": 121.474787,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.327013
+  },
+  {
+    "poi_id": "pz_54f53d30c0dc",
+    "name_en": "安康公寓（乌鲁木齐南路176号）",
+    "name_zh": "安康公寓（乌鲁木齐南路176号）",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.203559,
+      "lng": 121.449214,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.327015
+  },
+  {
+    "poi_id": "pz_de47b0cf3e98",
+    "name_en": "中南新邨",
+    "name_zh": "中南新邨",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.207083837661216,
+      "lng": 121.44266142241591,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_437ddd34f2c1",
+    "name_en": "Zhang Leping Former Residence",
+    "name_zh": "张乐平故居",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.21207,
+      "lng": 121.443349,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3270185
+  },
+  {
+    "poi_id": "pz_7e40d824dbee",
+    "name_en": "Shanghai Symphony Hall",
+    "name_zh": "上海交响乐团音乐厅",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.211349,
+      "lng": 121.452498,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.32702
+  },
+  {
+    "poi_id": "pz_09b5938601ee",
+    "name_en": "Xujiahui Park",
+    "name_zh": "徐家汇公园",
+    "spatial_type": "AREA",
+    "location_type": "CURATED_ARRIVAL_ANCHOR",
+    "arrival_location": {
+      "lat": 31.197401,
+      "lng": 121.442461,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "FROZEN_ROUTE_TARGET",
+    "verification": "RECOMMENDED_NOT_OFFICIAL_ENTRANCE",
+    "display_note": "suggestedStart"
+  },
+  {
+    "poi_id": "pz_8b1bb0928e7e",
+    "name_en": "李白烈士故居",
+    "name_zh": "李白烈士故居",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.268036,
+      "lng": 121.481713,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3270235
+  },
+  {
+    "poi_id": "pz_c862ec0d6ddd",
+    "name_en": "Shen Yinmo's Former Residence",
+    "name_zh": "沈尹默故居",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.258476,
+      "lng": 121.487263,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3270254
+  },
+  {
+    "poi_id": "pz_c4f63095cb01",
+    "name_en": "日本海军特别陆战队司令部旧址",
+    "name_zh": "日本海军特别陆战队司令部旧址",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.265427,
+      "lng": 121.48194,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3270266
+  },
+  {
+    "poi_id": "pz_f8277d15786a",
+    "name_en": "上海多伦现代美术馆",
+    "name_zh": "上海多伦现代美术馆",
+    "spatial_type": "POINT",
+    "location_type": "PROVIDER_ENTRANCE",
+    "arrival_location": {
+      "lat": 31.262091,
+      "lng": 121.483118,
+      "coordinate_system": "GCJ02"
+    },
+    "source": "AMAP_ID_DETAIL_NAVI",
+    "verification": "PROVIDER_REPORTED",
+    "display_note": "providerEntrance",
+    "retrieved_at": 1791439343.3270288
+  }
+]

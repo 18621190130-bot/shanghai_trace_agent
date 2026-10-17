@@ -1,0 +1,75 @@
+{
+  "before": {
+    "nodes": 11,
+    "category_distribution": {
+      "Literary District": 2,
+      "Historic Residential Architecture": 1,
+      "Literary Heritage / Bookstore": 1,
+      "Literary & Modern History": 1,
+      "Industrial Heritage": 1,
+      "park": 2,
+      "public_space": 3
+    },
+    "primary_role_distribution": {
+      "anchor": 4,
+      "supporting_stop": 6,
+      "transition_stop": 1
+    },
+    "park_share": 0.2727,
+    "street_lane_share": 0.3636,
+    "historic_building_share": 0.2727,
+    "public_square_civic_space_share": 0.0,
+    "landmark_share": 0.0,
+    "cultural_space_share": 0.2727,
+    "urban_texture_node_count": 7,
+    "facet_counts": {
+      "historic_building": 3,
+      "historic_district": 1,
+      "urban_renewal": 2,
+      "lane": 1,
+      "park": 3,
+      "cultural_space": 3,
+      "industrial_heritage": 1,
+      "street": 3
+    },
+    "definitions": "Facets may overlap; legacy classification uses existing category/type/name/tags, new facets have explicit scope audit. Ordinary parks excluded from urban_texture count. Diagnostics never add tags or change roles."
+  },
+  "after": {
+    "nodes": 15,
+    "category_distribution": {
+      "Literary District": 2,
+      "Historic Residential Architecture": 1,
+      "Literary Heritage / Bookstore": 1,
+      "Literary & Modern History": 1,
+      "Industrial Heritage": 1,
+      "park": 1,
+      "public_space": 3,
+      "heritage": 3,
+      "cultural_venue": 2
+    },
+    "primary_role_distribution": {
+      "anchor": 4,
+      "supporting_stop": 9,
+      "transition_stop": 2
+    },
+    "park_share": 0.1333,
+    "street_lane_share": 0.2667,
+    "historic_building_share": 0.4,
+    "public_square_civic_space_share": 0.0,
+    "landmark_share": 0.0,
+    "cultural_space_share": 0.4667,
+    "urban_texture_node_count": 11,
+    "facet_counts": {
+      "historic_building": 6,
+      "historic_district": 1,
+      "urban_renewal": 2,
+      "lane": 1,
+      "park": 2,
+      "cultural_space": 7,
+      "industrial_heritage": 1,
+      "street": 3,
+      "community_space": 1
+    },
+    "definitions": "Facets may overlap; legacy classification uses existing category/type/name/tags, new facets have explicit scope audit. Ordinary parks excluded from urban_texture count. Diagnostics never add tags or change roles."
+  }
+}

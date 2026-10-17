@@ -1,0 +1,427 @@
+{
+  "base": "http://127.0.0.1:8766",
+  "generated_at": "2026-10-06T07:24:52.195Z",
+  "errors": [],
+  "responses": {
+    "/api/reality": {
+      "checked_at": "2026-10-06T15:24:53.012420+08:00",
+      "route_version": "v1",
+      "status": "PARTIAL",
+      "warnings": [
+        {
+          "code": "OPENING_HOURS_UNKNOWN",
+          "severity": "LOW",
+          "message": "缺少可可靠解析的到达日营业时间。",
+          "details": {
+            "estimated_arrival": "2026-10-06T15:24:53.012420+08:00",
+            "estimated_departure": "2026-10-06T16:39:53.012420+08:00",
+            "opening_hours": null,
+            "provider_status": "PARTIAL",
+            "current_open_status": "UNKNOWN",
+            "planned_visit_minutes": 75
+          },
+          "poi_id": "p28",
+          "leg_index": null,
+          "source": "poi_live_info",
+          "confidence": "LOW"
+        },
+        {
+          "code": "OPENING_HOURS_UNKNOWN",
+          "severity": "LOW",
+          "message": "缺少可可靠解析的到达日营业时间。",
+          "details": {
+            "estimated_arrival": "2026-10-06T17:07:19.012420+08:00",
+            "estimated_departure": "2026-10-06T18:22:19.012420+08:00",
+            "opening_hours": null,
+            "provider_status": "PARTIAL",
+            "current_open_status": "UNKNOWN",
+            "planned_visit_minutes": 75
+          },
+          "poi_id": "p5",
+          "leg_index": 0,
+          "source": "poi_live_info",
+          "confidence": "LOW"
+        }
+      ],
+      "weather": {
+        "provider": "amap",
+        "province": "上海",
+        "city": "徐汇区",
+        "district": null,
+        "adcode": "310104",
+        "weather_text": "晴",
+        "temperature_c": 23,
+        "humidity_pct": 26,
+        "wind_direction": "东",
+        "wind_power": "≤3",
+        "report_time": "2026-10-06T15:01:17+08:00",
+        "data_status": "AVAILABLE",
+        "fetched_at": "2026-10-06T15:22:39.606235+08:00",
+        "cache_hit": true,
+        "error_code": null,
+        "resolved_location": {
+          "location": {
+            "lat": 31.167682,
+            "lng": 121.463841,
+            "coordinate_system": "GCJ02"
+          },
+          "formatted_address": "上海市徐汇区龙华街道龙耀滨江广场西岸美术馆",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "徐汇区",
+          "township": "龙华街道",
+          "adcode": "310104",
+          "street": "龙腾大道",
+          "street_number": "2600号",
+          "provider": "amap",
+          "fetched_at": "2026-10-06T07:22:39.089473+00:00",
+          "live_data_status": "AVAILABLE",
+          "cache_hit": true,
+          "error_code": null
+        },
+        "origin_source": "NEXT_UNVISITED_CORE",
+        "origin_core_poi_id": "p28"
+      },
+      "metrics": {
+        "remaining_poi_ids": [
+          "p28",
+          "p5"
+        ],
+        "remaining_budget_minutes": 240,
+        "budget_tolerance_minutes": 5,
+        "stops": [
+          {
+            "poi_id": "p28",
+            "leg_index": null,
+            "walking_status": "AVAILABLE",
+            "walking_minutes": 0,
+            "selected_visit_mode": "full_visit",
+            "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+            "planned_visit_minutes": 75,
+            "estimated_arrival": "2026-10-06T15:24:53.012420+08:00",
+            "estimated_departure": "2026-10-06T16:39:53.012420+08:00",
+            "eta_confidence": "HIGH",
+            "provider_open_status": "UNKNOWN",
+            "opening_hours": null,
+            "live_info_applicability": "FULL",
+            "provider_status": "PARTIAL",
+            "opening_evaluation": "UNKNOWN"
+          },
+          {
+            "poi_id": "p5",
+            "leg_index": 0,
+            "walking_status": "AVAILABLE",
+            "walking_minutes": 27.433333333333334,
+            "selected_visit_mode": "full_visit",
+            "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+            "planned_visit_minutes": 75,
+            "estimated_arrival": "2026-10-06T17:07:19.012420+08:00",
+            "estimated_departure": "2026-10-06T18:22:19.012420+08:00",
+            "eta_confidence": "HIGH",
+            "provider_open_status": "UNKNOWN",
+            "opening_hours": null,
+            "live_info_applicability": "FULL",
+            "provider_status": "PARTIAL",
+            "opening_evaluation": "UNKNOWN"
+          }
+        ],
+        "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+        "budget_is_soft": true,
+        "remaining_live_walking_minutes": 27.433333333333334,
+        "remaining_reference_walking_minutes": 27.433333333333334,
+        "known_walking_minutes": 27.433333333333334,
+        "remaining_planned_visit_minutes": 150,
+        "reality_adjusted_remaining_minutes": 177.43333333333334,
+        "remaining_walking_distance_m": 2057,
+        "budget_confidence": "HIGH",
+        "timing_complete": true
+      },
+      "data_quality": {
+        "walking": "AVAILABLE",
+        "weather": "AVAILABLE",
+        "poi_live_info": {
+          "p28": {
+            "data_status": "PARTIAL",
+            "applicability": "FULL",
+            "error_code": null,
+            "cache_hit": true
+          },
+          "p5": {
+            "data_status": "PARTIAL",
+            "applicability": "FULL",
+            "error_code": null,
+            "cache_hit": true
+          }
+        }
+      }
+    },
+    "/api/poi": {
+      "provider_id": "B0FFJGOAFY",
+      "core_poi_id": "p28",
+      "provider": "amap",
+      "name": "西岸美术馆",
+      "address": "龙腾大道2600号",
+      "location": {
+        "lat": 31.167682,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ02"
+      },
+      "tel": "021-31011015",
+      "opentime_today": null,
+      "opentime_week": "周二至周日11:00-18:00(最后入场时间17:30),周一固定闭馆；2月16日-2月20日:闭馆 2月21日:开馆 2月23日正常营业；",
+      "rating": 4.9,
+      "cost": null,
+      "tags": [
+        "美术馆"
+      ],
+      "poi_type": "科教文化服务;美术馆;美术馆",
+      "fetched_at": "2026-10-06T07:22:38.121383+00:00",
+      "live_data_status": "PARTIAL",
+      "open_status": "UNKNOWN",
+      "mapping_status": "MATCHED",
+      "identity_mapping_status": "MATCHED",
+      "live_info_applicability": "FULL",
+      "cache_hit": true,
+      "status_evaluated_at": "2026-10-06T15:24:53.963566+08:00",
+      "error_code": null
+    },
+    "/api/nearby": {
+      "origin": {
+        "lat": 31.167682,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ02"
+      },
+      "origin_source": "CORE_POI",
+      "radius_m": 800,
+      "requested_categories": [
+        "CAFE"
+      ],
+      "results": [
+        {
+          "provider": "amap",
+          "provider_poi_id": "B0LDA57MVO",
+          "name": "West Bund Museum Coffee西岸美术馆咖啡",
+          "primary_category": "CAFE",
+          "categories": [
+            "CAFE"
+          ],
+          "provider_type": "餐饮服务;咖啡厅;咖啡厅",
+          "location": {
+            "lat": 31.167929,
+            "lng": 121.463927,
+            "coordinate_system": "GCJ02"
+          },
+          "distance_m": 28,
+          "distance_type": "PROVIDER",
+          "fetched_at": "2026-10-06T07:22:59.925940+00:00",
+          "provider_typecode": "050500",
+          "address": "龙腾大道2600号西岸美术馆1层东侧空间",
+          "tel": "14755979694",
+          "rating": 4.5,
+          "cost": 32,
+          "opentime_today": "10:00-19:00",
+          "opentime_week": "周一至周日 10:00-19:00",
+          "open_status": "OPEN",
+          "data_status": "AVAILABLE",
+          "status_evaluated_at": "2026-10-06T15:24:54.045312+08:00",
+          "classification_source": "PROVIDER_TYPECODE",
+          "service_poi_id": "amap:B0LDA57MVO",
+          "category": "CAFE",
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "provider": "amap",
+          "provider_poi_id": "B0L2TO44Z8",
+          "name": "Plusone咖啡(西岸店)",
+          "primary_category": "CAFE",
+          "categories": [
+            "CAFE"
+          ],
+          "provider_type": "餐饮服务;咖啡厅;咖啡厅",
+          "location": {
+            "lat": 31.166675,
+            "lng": 121.463282,
+            "coordinate_system": "GCJ02"
+          },
+          "distance_m": 124,
+          "distance_type": "PROVIDER",
+          "fetched_at": "2026-10-06T07:22:59.925940+00:00",
+          "provider_typecode": "050500",
+          "address": "龙腾大道2596号(云锦路地铁站3号口步行450米)",
+          "tel": "17321478621",
+          "rating": 4.6,
+          "cost": 61,
+          "opentime_today": "10:00-20:00",
+          "opentime_week": "周一至周日 10:00-20:00",
+          "open_status": "OPEN",
+          "data_status": "AVAILABLE",
+          "status_evaluated_at": "2026-10-06T15:24:54.045312+08:00",
+          "classification_source": "PROVIDER_TYPECODE",
+          "service_poi_id": "amap:B0L2TO44Z8",
+          "category": "CAFE",
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "provider": "amap",
+          "provider_poi_id": "B0LG7X6KCD",
+          "name": "Cafe The Corner",
+          "primary_category": "CAFE",
+          "categories": [
+            "CAFE"
+          ],
+          "provider_type": "餐饮服务;咖啡厅;咖啡厅",
+          "location": {
+            "lat": 31.167119,
+            "lng": 121.462642,
+            "coordinate_system": "GCJ02"
+          },
+          "distance_m": 130,
+          "distance_type": "PROVIDER",
+          "fetched_at": "2026-10-06T07:22:59.925940+00:00",
+          "provider_typecode": "050500",
+          "address": "龙兰路与龙腾大道交叉口西北20米",
+          "tel": "13901665902",
+          "rating": 4.3,
+          "cost": 48,
+          "opentime_today": "10:00-18:30",
+          "opentime_week": "周一 全天关闭；周二至周日 10:00-18:30",
+          "open_status": "OPEN",
+          "data_status": "AVAILABLE",
+          "status_evaluated_at": "2026-10-06T15:24:54.045312+08:00",
+          "classification_source": "PROVIDER_TYPECODE",
+          "service_poi_id": "amap:B0LG7X6KCD",
+          "category": "CAFE",
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "provider": "amap",
+          "provider_poi_id": "B0KKBCXNGR",
+          "name": "Manner Coffee(阿里巴巴徐汇滨江园区D区店)",
+          "primary_category": "CAFE",
+          "categories": [
+            "CAFE"
+          ],
+          "provider_type": "餐饮服务;咖啡厅;咖啡厅",
+          "location": {
+            "lat": 31.165184,
+            "lng": 121.462074,
+            "coordinate_system": "GCJ02"
+          },
+          "distance_m": 325,
+          "distance_type": "PROVIDER",
+          "fetched_at": "2026-10-06T07:22:59.925940+00:00",
+          "provider_typecode": "050500",
+          "address": "龙启路与龙腾大道交叉口西北60米",
+          "tel": null,
+          "rating": 4.3,
+          "cost": 20,
+          "opentime_today": "07:00-17:00",
+          "opentime_week": "周一至周日 07:00-17:00",
+          "open_status": "OPEN",
+          "data_status": "PARTIAL",
+          "status_evaluated_at": "2026-10-06T15:24:54.045312+08:00",
+          "classification_source": "PROVIDER_TYPECODE",
+          "service_poi_id": "amap:B0KKBCXNGR",
+          "category": "CAFE",
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "provider": "amap",
+          "provider_poi_id": "B0KAY52LX5",
+          "name": "AOKKA COFFEE(灿星店)",
+          "primary_category": "CAFE",
+          "categories": [
+            "CAFE"
+          ],
+          "provider_type": "餐饮服务;咖啡厅;咖啡厅",
+          "location": {
+            "lat": 31.16508,
+            "lng": 121.460387,
+            "coordinate_system": "GCJ02"
+          },
+          "distance_m": 438,
+          "distance_type": "PROVIDER",
+          "fetched_at": "2026-10-06T07:22:59.925940+00:00",
+          "provider_typecode": "050500",
+          "address": "龙启路158号灿星大厦地下一层下沉式广场B1-16-17(绿草坪旁)",
+          "tel": "13570866562;18117033009",
+          "rating": 4.6,
+          "cost": 31,
+          "opentime_today": "07:00-18:00",
+          "opentime_week": "周一至周日 07:00-18:00 2026-02-16至2026-02-23 周一至周日 全天关闭",
+          "open_status": "OPEN",
+          "data_status": "AVAILABLE",
+          "status_evaluated_at": "2026-10-06T15:24:54.045312+08:00",
+          "classification_source": "PROVIDER_TYPECODE",
+          "service_poi_id": "amap:B0KAY52LX5",
+          "category": "CAFE",
+          "coordinate_system": "GCJ02"
+        }
+      ],
+      "status": "AVAILABLE",
+      "provider": "amap",
+      "fetched_at": "2026-10-06T15:24:54.045312+08:00",
+      "errors": [],
+      "core_poi_id": "p28",
+      "limit_per_category": 5,
+      "cache_hit_categories": [
+        "CAFE"
+      ],
+      "category_statuses": [
+        {
+          "category": "CAFE",
+          "status": "AVAILABLE"
+        }
+      ],
+      "category_result_ids": {
+        "CAFE": [
+          "amap:B0LDA57MVO",
+          "amap:B0L2TO44Z8",
+          "amap:B0LG7X6KCD",
+          "amap:B0KKBCXNGR",
+          "amap:B0KAY52LX5"
+        ]
+      },
+      "category_counts": {
+        "CAFE": 5
+      },
+      "display_groups": {
+        "FOOD_AND_DRINK": [
+          "RESTAURANT",
+          "CAFE",
+          "TEA_DRINK",
+          "DESSERT_ICE_CREAM"
+        ],
+        "ESSENTIALS": [
+          "CONVENIENCE_STORE",
+          "RESTROOM"
+        ],
+        "REST_AND_SHELTER": [
+          "MALL"
+        ]
+      }
+    }
+  },
+  "capabilities": {
+    "natural_language": true,
+    "live_world": true,
+    "nearby_add_stop": false
+  },
+  "trip": {
+    "status": "PLANNED",
+    "stops": [
+      "p28",
+      "p5"
+    ],
+    "legs": [
+      {
+        "status": "AVAILABLE",
+        "distance_m": 2057,
+        "duration_s": 1646,
+        "geometry_points": 55
+      }
+    ]
+  },
+  "basemap_available": true,
+  "nearby_cards": 5
+}

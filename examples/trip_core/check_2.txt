@@ -1,0 +1,10 @@
+Create Trip / Status: PLANNED
+Start / Status: ACTIVE / Current: p29
+Complete / Visited: ['p29'] / Current: p30
+Skip / Skipped: ['p30'] / Current: p42
+Original: ['p29', 'p30', 'p42', 'p43', 'p5']
+Active sequence: ['p29', 'p30', 'p42', 'p43', 'p5']
+Active remaining: ['p42', 'p43', 'p5']
+Events: ['trip_started', 'stop_completed', 'stop_skipped']
+Journey context: {"visited_roles": ["anchor"], "remaining_roles": ["transition_stop", "transition_stop", "anchor"], "visited_role_counts": {"anchor": 1}, "remaining_role_counts": {"transition_stop": 2, "anchor": 1}, "visited_stop_count": 1, "remaining_stop_count": 3, "has_visited_anchor": true, "has_visited_anchor_or_supporting_count": 1, "skipped_must_go_ids": []}
+JSON roundtrip: True

@@ -1,0 +1,178 @@
+{
+  "p4": {
+    "amap_poi_id": "B0015474E7",
+    "matched_name": "鲁迅故居",
+    "match_method": "MANUAL_COORDINATE_CORRECTION",
+    "entity_type": "residence_museum",
+    "live_info_applicability": "FULL",
+    "aliases": [],
+    "reviewed": true,
+    "notes": "Explicit project-owner confirmation in Phase 3B_2.1 request; automatic candidate margins do not override this decision."
+  },
+  "p11": {
+    "amap_poi_id": "B00156O2YR",
+    "matched_name": "建业里",
+    "match_method": "MANUAL_COORDINATE_CORRECTION",
+    "entity_type": "historic_district",
+    "live_info_applicability": "LIMITED",
+    "aliases": [],
+    "reviewed": true,
+    "notes": "Explicit project-owner confirmation in Phase 3B_2.1 request; automatic candidate margins do not override this decision."
+  },
+  "p20": {
+    "amap_poi_id": "B00155FHOA",
+    "matched_name": "上海城隍庙",
+    "match_method": "MANUAL_PARENT_CONFIRMATION",
+    "entity_type": "temple",
+    "live_info_applicability": "FULL",
+    "aliases": [],
+    "reviewed": true,
+    "notes": "Explicit project-owner confirmation in Phase 3B_2.1 request; automatic candidate margins do not override this decision."
+  },
+  "p36": {
+    "amap_poi_id": "B0FFFFROYU",
+    "matched_name": "西岸艺术中心",
+    "match_method": "MANUAL_PARENT_CONFIRMATION",
+    "entity_type": "art_center",
+    "live_info_applicability": "FULL",
+    "aliases": [],
+    "reviewed": true,
+    "notes": "Explicit project-owner confirmation in Phase 3B_2.1 request; automatic candidate margins do not override this decision."
+  },
+  "p37": {
+    "amap_poi_id": "B0HAL54MUG",
+    "matched_name": "西岸穹顶艺术中心",
+    "match_method": "MANUAL_PARENT_CONFIRMATION",
+    "entity_type": "art_center",
+    "live_info_applicability": "FULL",
+    "aliases": [],
+    "reviewed": true,
+    "notes": "Explicit project-owner confirmation in Phase 3B_2.1 request; automatic candidate margins do not override this decision."
+  },
+  "p32": {
+    "amap_poi_id": "B0H3TUK613",
+    "matched_name": "天主教上海教区徐家汇圣依纳爵主教座堂",
+    "match_method": "MANUAL_ALIAS_CONFIRMATION",
+    "entity_type": "church",
+    "live_info_applicability": "LIMITED",
+    "aliases": [
+      "徐家汇天主堂",
+      "徐家汇圣依纳爵主教座堂",
+      "天主教上海教区徐家汇圣依纳爵主教座堂"
+    ],
+    "reviewed": true,
+    "notes": "Explicit project-owner confirmation in Phase 3B_2.1 request; automatic candidate margins do not override this decision."
+  },
+  "p33": {
+    "amap_poi_id": "B0FFMH4KQS",
+    "matched_name": "上海市徐汇区图书馆(徐家汇书院)",
+    "match_method": "MANUAL_PARENT_CONFIRMATION",
+    "entity_type": "library",
+    "live_info_applicability": "FULL",
+    "aliases": [
+      "徐家汇书院",
+      "上海市徐汇区图书馆",
+      "上海市徐汇区图书馆(徐家汇书院)"
+    ],
+    "reviewed": true,
+    "notes": "Explicit project-owner confirmation in Phase 3B_2.1 request; automatic candidate margins do not override this decision."
+  },
+  "pz_54f53d30c0dc": {
+    "amap_poi_id": "B0KUFC7BAU",
+    "matched_name": "优秀历史建筑乌鲁木齐南路176号",
+    "match_method": "MANUAL_ALIAS_CONFIRMATION",
+    "entity_type": "historic_building",
+    "live_info_applicability": "LIMITED",
+    "aliases": [
+      "安康公寓",
+      "乌鲁木齐南路176号",
+      "优秀历史建筑乌鲁木齐南路176号"
+    ],
+    "reviewed": true,
+    "notes": "Explicit project-owner confirmation in Phase 3B_2.1 request; automatic candidate margins do not override this decision."
+  },
+  "pz_7e40d824dbee": {
+    "amap_poi_id": "B0FFF3T00K",
+    "matched_name": "捷豹上海交响音乐厅",
+    "match_method": "MANUAL_ALIAS_CONFIRMATION",
+    "entity_type": "concert_hall",
+    "live_info_applicability": "FULL",
+    "aliases": [
+      "上海交响乐团音乐厅",
+      "上海交响音乐厅",
+      "捷豹上海交响音乐厅"
+    ],
+    "reviewed": true,
+    "notes": "Explicit project-owner confirmation in Phase 3B_2.1 request; automatic candidate margins do not override this decision."
+  },
+  "p10": {
+    "amap_poi_id": "B0HDACXK1W",
+    "matched_name": "今潮8弄",
+    "match_method": "MANUAL_COORDINATE_CORRECTION",
+    "entity_type": "historic_district",
+    "live_info_applicability": "NOT_APPLICABLE",
+    "aliases": [],
+    "reviewed": true,
+    "notes": "Owner authorized trustworthy same-entity provider location priority. Name, district, type, lane/street address, aliases, official public-place context and surrounding map entities verified; distance alone is not an identity veto.",
+    "reviewed_by": "CODEX_UNDER_OWNER_AUTHORIZATION",
+    "identity_evidence_reference": "examples/spatial_identity/provider_evidence.json",
+    "public_context_source": "https://www.shhk.gov.cn/xwzx/002003/20211201/f7e7613f-be5d-4c30-93c1-e2edbbf45b2d.html"
+  },
+  "p12": {
+    "amap_poi_id": "B00156COKX",
+    "matched_name": "陕南邨",
+    "match_method": "MANUAL_COORDINATE_CORRECTION",
+    "entity_type": "historic_district",
+    "live_info_applicability": "NOT_APPLICABLE",
+    "aliases": [],
+    "reviewed": true,
+    "notes": "Owner authorized trustworthy same-entity provider location priority. Name, district, type, lane/street address, aliases, official public-place context and surrounding map entities verified; distance alone is not an identity veto.",
+    "reviewed_by": "CODEX_UNDER_OWNER_AUTHORIZATION",
+    "identity_evidence_reference": "examples/spatial_identity/provider_evidence.json",
+    "public_context_source": "https://lhsr.sh.gov.cn/ywdt/20240807/5c8cb815-ef70-4bd1-909d-b31c45574382.html"
+  },
+  "p34": {
+    "amap_poi_id": "B0IA369WVI",
+    "matched_name": "南京路步行街",
+    "match_method": "MANUAL_COORDINATE_CORRECTION",
+    "entity_type": "street",
+    "live_info_applicability": "NOT_APPLICABLE",
+    "aliases": [],
+    "reviewed": true,
+    "notes": "Owner authorized trustworthy same-entity provider location priority. Name, district, type, lane/street address, aliases, official public-place context and surrounding map entities verified; distance alone is not an identity veto.",
+    "reviewed_by": "CODEX_UNDER_OWNER_AUTHORIZATION",
+    "identity_evidence_reference": "examples/spatial_identity/provider_evidence.json",
+    "public_context_source": "https://www.shanghai.gov.cn/xxzfgzwj/20220127/d2c2979752314dc69738454f24cd515c.html"
+  },
+  "p25": {
+    "amap_poi_id": "B0I2KZFZRY",
+    "matched_name": "1927·鲁迅与内山纪念书局",
+    "match_method": "MANUAL_SEMANTIC_SCOPE_CONFIRMATION",
+    "entity_type": "cultural_bookshop",
+    "live_info_applicability": "FULL",
+    "aliases": [
+      "内山书店旧址"
+    ],
+    "reviewed": true,
+    "notes": "Owner confirmed current product semantic scope; official detail name, district, address and type reverified. Historic/road aliases remain cultural evidence, not the live identity.",
+    "reviewed_by": "CODEX_UNDER_OWNER_AUTHORIZATION",
+    "identity_evidence_reference": "examples/spatial_identity/provider_evidence.json",
+    "public_context_source": "https://www.shhk.gov.cn/xwzx/002005/20251222/2cbc6abf-6327-465e-859c-c1c29873c841.html"
+  },
+  "pz_b72e3b8998b3": {
+    "amap_poi_id": "B00155FLFD",
+    "matched_name": "多伦路文化名人街",
+    "match_method": "MANUAL_SEMANTIC_SCOPE_CONFIRMATION",
+    "entity_type": "cultural_street",
+    "live_info_applicability": "NOT_APPLICABLE",
+    "aliases": [
+      "Duolun Road",
+      "多伦路"
+    ],
+    "reviewed": true,
+    "notes": "Owner confirmed current product semantic scope; official detail name, district, address and type reverified. Historic/road aliases remain cultural evidence, not the live identity.",
+    "reviewed_by": "CODEX_UNDER_OWNER_AUTHORIZATION",
+    "identity_evidence_reference": "examples/spatial_identity/provider_evidence.json",
+    "public_context_source": "https://www.shhk.gov.cn/xwzx/002003/20240226/c159f769-0d8b-48d5-a8a9-d7fc432cfdad.html"
+  }
+}

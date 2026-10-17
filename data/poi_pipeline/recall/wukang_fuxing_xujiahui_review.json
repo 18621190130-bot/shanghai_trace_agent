@@ -1,0 +1,181 @@
+{
+  "dispositions": [
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_56500741faabe13a",
+      "name": "武康路历史文化名街",
+      "decision": "accept",
+      "reason": "unchanged_validator_and_admission_passed",
+      "missing_evidence": null,
+      "route_selectable": true,
+      "role": {
+        "primary": "anchor",
+        "eligible": [
+          "anchor",
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示其为历史文化名街并位于衡复历史文化风貌区内的街区，具备独立目的地价值，可承载街区漫步主题。",
+        "independent_destination_value": "high",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "名称与政府片段均指向成片历史文化街区，适合作为独立到访的路线主题锚点。",
+          "supporting_stop": "若路线主题为其他风貌区，其街区漫步价值也可作为补充节点，但证据更支持锚点。",
+          "transition_stop": "其成片街区属性超出短暂连接性停留，故不作为首选。"
+        }
+      },
+      "poi_id": "pz_a87eb2b5b5da"
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_b7acaee740c202f1",
+      "name": "普希金雕像",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_e58b1a0d921a65c8",
+      "name": "衡山公园",
+      "decision": "accept",
+      "reason": "unchanged_validator_and_admission_passed",
+      "missing_evidence": null,
+      "route_selectable": true,
+      "role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示为具名的城市公园（leisure=park），可作为独立体验的补充性停留；但缺乏规模、设施与开放信息，难以支撑为路线主题核心。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据仅表明其为具名公园，缺少足以支撑专程前往的独立目的地价值信息，故不宜作为锚点。",
+          "supporting_stop": "作为具名公园，具备独立体验价值，可补充路线中的公园类停留，符合支持性停留标准。",
+          "transition_stop": "虽可作为短时停留，但公园本身具独立体验价值，优于仅作连接用途的过渡停留。"
+        }
+      },
+      "poi_id": "pz_553cfd36707c"
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_53ae8b1a1f19b458",
+      "name": "天钥桥路口袋公园",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_376c57989e6ecafa",
+      "name": "优秀历史建筑乌鲁木齐南路176号",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_6813e50b550d36b6",
+      "name": "襄阳公园",
+      "decision": "accept",
+      "reason": "unchanged_validator_and_admission_passed",
+      "missing_evidence": null,
+      "route_selectable": true,
+      "role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示其为有花坛、草坪与市民活动的公园，具备独立休憩与漫步体验，可作为补充型停留；但缺乏高独立目的地价值证据，不足以承担路线主题。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据未显示其具备高独立目的地价值或可承载路线主题的独特体验，故不适合作为锚点。",
+          "supporting_stop": "有明确公园属性与花坛、市民活动等体验证据，可作为补充型停留。",
+          "transition_stop": "虽可作为短时停留，但其公园体验价值高于单纯连接节点，故支持型更合适。"
+        }
+      },
+      "poi_id": "pz_a27dbbc6cab8"
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+      "name": "徐家汇公园",
+      "decision": "defer",
+      "reason": "strict_semantic_validation_or_provider_failure",
+      "missing_evidence": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. photogenic unsupported by cited evidence; remove or cite explicit matching description",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_1e47e74b88bb959d",
+      "name": "聂耳铜像",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_a820e639b44f621e",
+      "name": "中南新邨",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "heritage identity and public walk scope",
+      "route_selectable": false,
+      "explanation": "社区型对象不等于游客可进入的独立文化节点。"
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_c17d7311ad244c39",
+      "name": "盛宣怀住宅",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "current exterior access and heritage match",
+      "route_selectable": false,
+      "explanation": "历史名称和 map 点尚不足以证明独立可观察参访范围。"
+    }
+  ],
+  "human_review": [],
+  "high_potential_unrescued": [
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+      "name": "徐家汇公园",
+      "decision": "defer",
+      "reason": "strict_semantic_validation_or_provider_failure",
+      "missing_evidence": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. photogenic unsupported by cited evidence; remove or cite explicit matching description",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_b7acaee740c202f1",
+      "name": "普希金雕像",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_1e47e74b88bb959d",
+      "name": "聂耳铜像",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_376c57989e6ecafa",
+      "name": "优秀历史建筑乌鲁木齐南路176号",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "wukang_fuxing_xujiahui_53ae8b1a1f19b458",
+      "name": "天钥桥路口袋公园",
+      "decision": "defer",
+      "reason": "independent_value_or_confidence_unresolved",
+      "missing_evidence": "confident stable independent visit scope",
+      "route_selectable": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "nodes": 62,
+  "accepted": 15,
+  "deferred": 3,
+  "new_ids": {
+    "old_city_central": [
+      "pz_0db17d82e9ec",
+      "pz_cc5300aee299",
+      "pz_42efca09357d",
+      "pz_66452d5db8a1",
+      "pz_463c9b82ac1e"
+    ],
+    "wukang_fuxing_xujiahui": [
+      "pz_54f53d30c0dc",
+      "pz_de47b0cf3e98",
+      "pz_437ddd34f2c1",
+      "pz_7e40d824dbee",
+      "pz_09b5938601ee"
+    ],
+    "hongkou_literary": [
+      "pz_8b1bb0928e7e",
+      "pz_c862ec0d6ddd",
+      "pz_c4f63095cb01",
+      "pz_bc5155c245b0",
+      "pz_f8277d15786a"
+    ]
+  },
+  "semantic_fingerprint": "aa706a5405385d390e108ab1c2f46b92d972de6eb4618a5d2d06266caf4b057b"
+}

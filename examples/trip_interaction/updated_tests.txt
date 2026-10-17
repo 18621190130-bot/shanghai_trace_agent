@@ -1,0 +1,16 @@
+======================================================================
+FAIL: test_24_all_three_modes_real_entry_lifecycle (tests.test_trip_agent.TripAgentTests.test_24_all_three_modes_real_entry_lifecycle) (mode=<RouteMode.PLACES_IN_MIND: 'places_in_mind'>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\huawei\Desktop\数据科学探索之路\city walk大创项目\shanghai_trace_agent\tests\test_trip_agent.py", line 167, in test_24_all_three_modes_real_entry_lifecycle
+    self.assertEqual(a.handle_turn(sid, "I've finished this stop.").status, 'success_core_action')
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 'success_mutated' != 'success_core_action'
+- success_mutated
++ success_core_action
+
+
+----------------------------------------------------------------------
+Ran 104 tests in 18.963s
+
+FAILED (failures=1)

@@ -1,0 +1,4122 @@
+[
+  {
+    "source_candidate_id": "B0FFJGOAFY",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFJGOAFY",
+    "retrieved_at": "2026-10-04T07:38:36.105025+00:00",
+    "name_zh": "西岸美术馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2600号",
+    "coordinates": [
+      31.167682,
+      121.463841
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;美术馆;美术馆",
+    "raw_provider_tags": {
+      "type": "科教文化服务;美术馆;美术馆",
+      "typecode": "140400",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "B0FFFFROYU",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFFFROYU",
+    "retrieved_at": "2026-10-04T07:38:36.105025+00:00",
+    "name_zh": "西岸艺术中心",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2555号(近丰谷路)",
+    "coordinates": [
+      31.167719,
+      121.461939
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;美术馆;美术馆",
+    "raw_provider_tags": {
+      "type": "科教文化服务;美术馆;美术馆",
+      "typecode": "140400",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "B0FFF2YL75",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFF2YL75",
+    "retrieved_at": "2026-10-04T07:38:36.105025+00:00",
+    "name_zh": "龙美术馆(西岸馆)",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道3398号",
+    "coordinates": [
+      31.183954,
+      121.464761
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;美术馆;美术馆",
+    "raw_provider_tags": {
+      "type": "科教文化服务;美术馆;美术馆",
+      "typecode": "140400",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "B0JA9MFYWG",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0JA9MFYWG",
+    "retrieved_at": "2026-10-04T07:38:36.105025+00:00",
+    "name_zh": "西岸艺术中心N馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2763号",
+    "coordinates": [
+      31.170546,
+      121.462019
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;美术馆;美术馆",
+    "raw_provider_tags": {
+      "type": "科教文化服务;美术馆;美术馆",
+      "typecode": "140400",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "B0KAK1PF9S",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0KAK1PF9S",
+    "retrieved_at": "2026-10-04T07:38:36.105025+00:00",
+    "name_zh": "西岸大剧院",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2290号",
+    "coordinates": [
+      31.163461,
+      121.465695
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;影剧院;剧场",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;影剧院;剧场",
+      "typecode": "080603",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "B0FFKHIWQJ",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFKHIWQJ",
+    "retrieved_at": "2026-10-04T07:38:38.252952+00:00",
+    "name_zh": "西岸艺术中心A馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2555号(云锦路地铁站3号口步行480米)",
+    "coordinates": [
+      31.167365,
+      121.461674
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;科教文化场所;科教文化场所",
+    "raw_provider_tags": {
+      "type": "科教文化服务;科教文化场所;科教文化场所",
+      "typecode": "140000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0HAL54MUG",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0HAL54MUG",
+    "retrieved_at": "2026-10-04T07:38:38.252952+00:00",
+    "name_zh": "西岸穹顶艺术中心",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2300号",
+    "coordinates": [
+      31.163167,
+      121.464561
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;文化宫;文化宫",
+    "raw_provider_tags": {
+      "type": "科教文化服务;文化宫;文化宫",
+      "typecode": "140800",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "B0L3J4CCJM",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0L3J4CCJM",
+    "retrieved_at": "2026-10-04T07:38:38.252952+00:00",
+    "name_zh": "西岸艺术中心D馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道与龙兰路交叉口北80米",
+    "coordinates": [
+      31.167625,
+      121.462875
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;科教文化场所;科教文化场所",
+    "raw_provider_tags": {
+      "type": "科教文化服务;科教文化场所;科教文化场所",
+      "typecode": "140000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0IRB7XUJF",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0IRB7XUJF",
+    "retrieved_at": "2026-10-04T07:38:38.252952+00:00",
+    "name_zh": "西岸艺术中心B1馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙华机场路与龙腾大道交叉口西北100米",
+    "coordinates": [
+      31.166325,
+      121.461775
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;科教文化场所;科教文化场所",
+    "raw_provider_tags": {
+      "type": "科教文化服务;科教文化场所;科教文化场所",
+      "typecode": "140000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B00155G2UQ",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00155G2UQ",
+    "retrieved_at": "2026-10-04T07:38:38.252952+00:00",
+    "name_zh": "西岸自然艺术公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "华泾路190号",
+    "coordinates": [
+      31.121755,
+      121.452554
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0LRNMKBDV",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0LRNMKBDV",
+    "retrieved_at": "2026-10-04T07:38:38.252952+00:00",
+    "name_zh": "西岸国际会展中心(上海)",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙耀路7号",
+    "coordinates": [
+      31.162193,
+      121.463315
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;会展中心;会展中心",
+    "raw_provider_tags": {
+      "type": "科教文化服务;会展中心;会展中心",
+      "typecode": "140300",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "B0K1GHXAXC",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0K1GHXAXC",
+    "retrieved_at": "2026-10-04T07:38:38.252952+00:00",
+    "name_zh": "西岸梦中心·梦工场",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2266号Gate M西岸梦中心3F层",
+    "coordinates": [
+      31.160297,
+      121.46552
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;娱乐场所;娱乐场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;娱乐场所;娱乐场所",
+      "typecode": "080300",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0KAHA0UY9",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0KAHA0UY9",
+    "retrieved_at": "2026-10-04T07:38:38.252952+00:00",
+    "name_zh": "西岸自然艺术公园活力乐园",
+    "name_en": "",
+    "aliases": [],
+    "address": "华泾路192号",
+    "coordinates": [
+      31.120895,
+      121.453263
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+      "typecode": "080000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0MDUZ0B5K",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0MDUZ0B5K",
+    "retrieved_at": "2026-10-04T07:38:38.252952+00:00",
+    "name_zh": "西岸自然艺术公园儿童乐园",
+    "name_en": "",
+    "aliases": [],
+    "address": "华泾路190号西岸自然艺术公园",
+    "coordinates": [
+      31.12242,
+      121.453553
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;休闲场所;游乐场",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;休闲场所;游乐场",
+      "typecode": "080501",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0LGJLN8OD",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0LGJLN8OD",
+    "retrieved_at": "2026-10-04T07:38:39.338484+00:00",
+    "name_zh": "西岸自然艺术公园1期",
+    "name_en": "",
+    "aliases": [],
+    "address": "华泾路190号西岸自然艺术公园内(东侧)",
+    "coordinates": [
+      31.122655,
+      121.455975
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0KAHMX4Y8",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0KAHMX4Y8",
+    "retrieved_at": "2026-10-04T07:38:39.338484+00:00",
+    "name_zh": "西岸自然艺术公园篮球场",
+    "name_en": "",
+    "aliases": [],
+    "address": "华泾路192号",
+    "coordinates": [
+      31.120577,
+      121.453488
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;运动场馆;篮球场馆",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;运动场馆;篮球场馆",
+      "typecode": "080104",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0J06CECKY",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0J06CECKY",
+    "retrieved_at": "2026-10-04T07:38:39.338484+00:00",
+    "name_zh": "西岸自然艺术公园-露营地",
+    "name_en": "",
+    "aliases": [],
+    "address": "华泾路190号西岸自然艺术公园",
+    "coordinates": [
+      31.122316,
+      121.45251
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜相关;旅游景点",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜相关;旅游景点",
+      "typecode": "110000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFHUD4BQ",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFHUD4BQ",
+    "retrieved_at": "2026-10-04T07:38:39.338484+00:00",
+    "name_zh": "上海油罐艺术中心",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2380号",
+    "coordinates": [
+      31.164519,
+      121.464321
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "科教文化服务;美术馆;美术馆",
+    "raw_provider_tags": {
+      "type": "科教文化服务;美术馆;美术馆",
+      "typecode": "140400",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "B00156R4X5",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00156R4X5",
+    "retrieved_at": "2026-10-04T07:38:39.338484+00:00",
+    "name_zh": "西岸自然艺术公园-刘三故居",
+    "name_en": "",
+    "aliases": [],
+    "address": "华泾路190号西岸自然艺术公园(西南角)",
+    "coordinates": [
+      31.119819,
+      121.450721
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜;纪念馆",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜;纪念馆",
+      "typecode": "110204",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFG9607X",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFG9607X",
+    "retrieved_at": "2026-10-04T07:38:39.338484+00:00",
+    "name_zh": "上海西岸艺术品保税仓库",
+    "name_en": "",
+    "aliases": [],
+    "address": "华泾镇华展东路45号",
+    "coordinates": [
+      31.111395,
+      121.45842
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "公司企业;公司;公司",
+    "raw_provider_tags": {
+      "type": "公司企业;公司;公司",
+      "typecode": "170200",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0GKX5DOBT",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0GKX5DOBT",
+    "retrieved_at": "2026-10-04T07:38:39.338484+00:00",
+    "name_zh": "GATE M 西岸凤巢",
+    "name_en": "",
+    "aliases": [],
+    "address": "云锦路683号",
+    "coordinates": [
+      31.163444,
+      121.460353
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "购物服务;商场;普通商场",
+    "raw_provider_tags": {
+      "type": "购物服务;商场;普通商场",
+      "typecode": "060102",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFHKDU6C",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFHKDU6C",
+    "retrieved_at": "2026-10-04T07:38:41.518171+00:00",
+    "name_zh": "徐家汇体育公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "零陵路800号(上海游泳馆地铁站2号口旁)",
+    "coordinates": [
+      31.181297,
+      121.440734
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;运动场馆;运动场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;运动场馆;运动场所",
+      "typecode": "080100",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFG8TX4N",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFG8TX4N",
+    "retrieved_at": "2026-10-04T07:38:41.518171+00:00",
+    "name_zh": "上海市滨江滑板公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "瑞宁路",
+    "coordinates": [
+      31.185976,
+      121.467781
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B00152A03C",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00152A03C",
+    "retrieved_at": "2026-10-04T07:38:41.518171+00:00",
+    "name_zh": "东安公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "上海市枫林路街道中山南二路811号",
+    "coordinates": [
+      31.185207,
+      121.454354
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B00155ILI8",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00155ILI8",
+    "retrieved_at": "2026-10-04T07:38:41.518171+00:00",
+    "name_zh": "徐家汇公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "肇嘉浜路986号(徐家汇地铁站14号口步行250米)",
+    "coordinates": [
+      31.197401,
+      121.442461
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B00155MF66",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00155MF66",
+    "retrieved_at": "2026-10-04T07:38:41.518171+00:00",
+    "name_zh": "漕溪公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "漕溪路203号(漕宝路地铁站2号口步行410米)",
+    "coordinates": [
+      31.171985,
+      121.436035
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0FFF34ZDB",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFF34ZDB",
+    "retrieved_at": "2026-10-04T07:38:41.518171+00:00",
+    "name_zh": "光启龙华港湾",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道辅路与龙恒东路交叉口东南100米",
+    "coordinates": [
+      31.176654,
+      121.46237
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜相关;旅游景点",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜相关;旅游景点",
+      "typecode": "110000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0MGXUY5BY",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0MGXUY5BY",
+    "retrieved_at": "2026-10-04T07:38:41.518171+00:00",
+    "name_zh": "徐汇油罐艺术公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道龙耀路",
+    "coordinates": [
+      31.164454,
+      121.464322
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0I0H5SMNU",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0I0H5SMNU",
+    "retrieved_at": "2026-10-04T07:38:41.518171+00:00",
+    "name_zh": "乐动力西岸活力谷",
+    "name_en": "",
+    "aliases": [],
+    "address": "云锦路与龙启路交叉口(云锦路地铁站4号口步行130米)",
+    "coordinates": [
+      31.164802,
+      121.458362
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+      "typecode": "080000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B00155L0UC",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00155L0UC",
+    "retrieved_at": "2026-10-04T07:38:41.518171+00:00",
+    "name_zh": "桂林公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "漕宝路188号(桂林公园地铁站5号口步行100米)",
+    "coordinates": [
+      31.16532,
+      121.417929
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B00154GF8J",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00154GF8J",
+    "retrieved_at": "2026-10-04T07:38:42.616970+00:00",
+    "name_zh": "光启公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "南丹路17号(徐家汇地铁站1号口步行230米)",
+    "coordinates": [
+      31.18957,
+      121.43463
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B00155HO9J",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00155HO9J",
+    "retrieved_at": "2026-10-04T07:38:42.616970+00:00",
+    "name_zh": "日晖绿地",
+    "name_en": "",
+    "aliases": [],
+    "address": "上海市斜土路街道小木桥路与斜土路交叉口东150米",
+    "coordinates": [
+      31.196892,
+      121.460005
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0J647JYMM",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0J647JYMM",
+    "retrieved_at": "2026-10-04T07:38:42.616970+00:00",
+    "name_zh": "乐汇小游园",
+    "name_en": "",
+    "aliases": [],
+    "address": "中山西路与漕溪路交叉口(上海体育馆地铁站7号口步行140米)",
+    "coordinates": [
+      31.179879,
+      121.435575
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B00156NS4T",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00156NS4T",
+    "retrieved_at": "2026-10-04T07:38:42.616970+00:00",
+    "name_zh": "康健园",
+    "name_en": "",
+    "aliases": [],
+    "address": "冠生园路458号(桂林公园地铁站4号口步行370米)",
+    "coordinates": [
+      31.16398,
+      121.422053
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0JA2CLQZ0",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0JA2CLQZ0",
+    "retrieved_at": "2026-10-04T07:38:42.616970+00:00",
+    "name_zh": "有氧公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "零陵路与火炬台路交叉口东80米",
+    "coordinates": [
+      31.183265,
+      121.440798
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0J6AAVULU",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0J6AAVULU",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "foo'mart 東西公园(徐家汇书院店)",
+    "name_en": "",
+    "aliases": [],
+    "address": "蒲西路与紫阳路交叉口东南60米(徐家汇地铁站3号口旁)",
+    "coordinates": [
+      31.190344,
+      121.437148
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B00155L3PY",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00155L3PY",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "田林公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "田林东路414弄25号",
+    "coordinates": [
+      31.174902,
+      121.425999
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜相关;旅游景点",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜相关;旅游景点",
+      "typecode": "110000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0KUBRQ399",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0KUBRQ399",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "躺床花园",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道与喜泰支路交叉口东北100米",
+    "coordinates": [
+      31.146626,
+      121.455435
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜相关;旅游景点",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜相关;旅游景点",
+      "typecode": "110000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B00155IQRX",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00155IQRX",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "衡山公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "上海市天平路街道广元路2号(衡山路宛平路口)",
+    "coordinates": [
+      31.20056,
+      121.442123
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0FFILFL30",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFILFL30",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "CBD中央公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "万科中心地块内临近上海南站",
+    "coordinates": [
+      31.157318,
+      121.431948
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0J1OUD0JW",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0J1OUD0JW",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "吴兴公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "衡山路吴兴路路口(衡山路地铁站1号口步行250米)",
+    "coordinates": [
+      31.20233,
+      121.444516
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0FFFWPZWH",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFFWPZWH",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "老鹰公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "田林街道田林三中对面(近田林东路)",
+    "coordinates": [
+      31.173687,
+      121.430432
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0FFMCC2IW",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFMCC2IW",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "康健社区体育公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "康健新村街道桂林西街168号康健社区体育场内(近浦北路)",
+    "coordinates": [
+      31.152215,
+      121.418177
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园|体育休闲服务;运动场馆;综合体育馆",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园|体育休闲服务;运动场馆;综合体育馆",
+      "typecode": "110101|080101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0KUBRWFIQ",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0KUBRWFIQ",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "星扬公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙耀路175号LUMINA星扬西岸中心",
+    "coordinates": [
+      31.161384,
+      121.460549
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B001559DZU",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B001559DZU",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "番禺公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "虹桥路637号",
+    "coordinates": [
+      31.19451,
+      121.426806
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0HB6RMUZN",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0HB6RMUZN",
+    "retrieved_at": "2026-10-04T07:38:43.728893+00:00",
+    "name_zh": "徐汇中城绿谷",
+    "name_en": "",
+    "aliases": [],
+    "address": "定安路与沪闵路辅路交叉口东南180米",
+    "coordinates": [
+      31.158993,
+      121.433847
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0MD9RR0YA",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0MD9RR0YA",
+    "retrieved_at": "2026-10-04T07:38:44.773141+00:00",
+    "name_zh": "西岸中环梯田广场",
+    "name_en": "",
+    "aliases": [],
+    "address": "瑞宁路350号西岸中环2期",
+    "coordinates": [
+      31.186625,
+      121.467075
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;休闲场所;休闲场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;休闲场所;休闲场所",
+      "typecode": "080500",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0LK6UKA2X",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0LK6UKA2X",
+    "retrieved_at": "2026-10-04T07:38:44.773141+00:00",
+    "name_zh": "西岸穹顶北广场",
+    "name_en": "",
+    "aliases": [],
+    "address": "西岸穹顶艺术中心北侧,龙耀路与龙腾大道交叉口以东",
+    "coordinates": [
+      31.163894,
+      121.46481
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;城市广场",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;城市广场",
+      "typecode": "110105",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0M36SMJKK",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0M36SMJKK",
+    "retrieved_at": "2026-10-04T07:38:44.773141+00:00",
+    "name_zh": "西岸运动公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "瑞宁路-小木桥路路口以东",
+    "coordinates": [
+      31.185046,
+      121.46665
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;公园",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;公园",
+      "typecode": "110101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0K0PCWWBZ",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0K0PCWWBZ",
+    "retrieved_at": "2026-10-04T07:38:45.969234+00:00",
+    "name_zh": "龙华码头",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2072号",
+    "coordinates": [
+      31.157613,
+      121.465024
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "交通设施服务;港口码头;港口码头",
+    "raw_provider_tags": {
+      "type": "交通设施服务;港口码头;港口码头",
+      "typecode": "150300",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "pier"
+  },
+  {
+    "source_candidate_id": "B0HGOCVMOG",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0HGOCVMOG",
+    "retrieved_at": "2026-10-04T07:38:45.969234+00:00",
+    "name_zh": "北票码头塔吊",
+    "name_en": "",
+    "aliases": [],
+    "address": "徐汇滨江公共开放空间东段",
+    "coordinates": [
+      31.1819,
+      121.464763
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜相关;旅游景点",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜相关;旅游景点",
+      "typecode": "110000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFG6T9ZT",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFG6T9ZT",
+    "retrieved_at": "2026-10-04T07:38:45.969234+00:00",
+    "name_zh": "汇龙3号码头",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙水南路",
+    "coordinates": [
+      31.153911,
+      121.461893
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "交通设施服务;港口码头;港口码头",
+    "raw_provider_tags": {
+      "type": "交通设施服务;港口码头;港口码头",
+      "typecode": "150300",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "pier"
+  },
+  {
+    "source_candidate_id": "BV10597573",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/BV10597573",
+    "retrieved_at": "2026-10-04T07:38:45.969234+00:00",
+    "name_zh": "港口渡口(轮渡站)",
+    "name_en": "",
+    "aliases": [],
+    "address": "三港线",
+    "coordinates": [
+      31.133217,
+      121.459389
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "交通设施服务;轮渡站;轮渡站",
+    "raw_provider_tags": {
+      "type": "交通设施服务;轮渡站;轮渡站",
+      "typecode": "151200",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFGMBRFV",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFGMBRFV",
+    "retrieved_at": "2026-10-04T07:38:45.969234+00:00",
+    "name_zh": "游船码头",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙吴路1111号上海植物园(西南角)",
+    "coordinates": [
+      31.144587,
+      121.440502
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜;风景名胜",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜;风景名胜",
+      "typecode": "110200",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFHOKM7Z",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFHOKM7Z",
+    "retrieved_at": "2026-10-04T07:38:45.969234+00:00",
+    "name_zh": "宏安建设龙吴路码头",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙吴路1994号",
+    "coordinates": [
+      31.129258,
+      121.455802
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "交通设施服务;港口码头;港口码头",
+    "raw_provider_tags": {
+      "type": "交通设施服务;港口码头;港口码头",
+      "typecode": "150300",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "pier"
+  },
+  {
+    "source_candidate_id": "B00156ZM9O",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B00156ZM9O",
+    "retrieved_at": "2026-10-04T07:38:45.969234+00:00",
+    "name_zh": "康健游乐园码头",
+    "name_en": "",
+    "aliases": [],
+    "address": "桂林路91号康健园内",
+    "coordinates": [
+      31.163817,
+      121.422833
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "交通设施服务;港口码头;港口码头",
+    "raw_provider_tags": {
+      "type": "交通设施服务;港口码头;港口码头",
+      "typecode": "150300",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "pier"
+  },
+  {
+    "source_candidate_id": "B0K1GHS8KL",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0K1GHS8KL",
+    "retrieved_at": "2026-10-04T07:38:48.078130+00:00",
+    "name_zh": "开心麻花大三角剧场(Gate M西岸梦中心)",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2266号Gate M西岸梦中心7栋3楼",
+    "coordinates": [
+      31.159621,
+      121.465506
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;影剧院;剧场",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;影剧院;剧场",
+      "typecode": "080603",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "B0H0OSXDUD",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0H0OSXDUD",
+    "retrieved_at": "2026-10-04T07:38:49.191599+00:00",
+    "name_zh": "Gate M西岸梦中心",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2266号",
+    "coordinates": [
+      31.16119,
+      121.465465
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "购物服务;商场;购物中心",
+    "raw_provider_tags": {
+      "type": "购物服务;商场;购物中心",
+      "typecode": "060101",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0K1GHR662",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0K1GHR662",
+    "retrieved_at": "2026-10-04T07:38:49.191599+00:00",
+    "name_zh": "岩时攀岩(Gate M西岸梦中心)",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙华街道龙腾大道2266号Gate M西岸梦中心12号楼201单元",
+    "coordinates": [
+      31.158304,
+      121.464793
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+      "typecode": "080000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0LDNL4APT",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0LDNL4APT",
+    "retrieved_at": "2026-10-04T07:38:49.191599+00:00",
+    "name_zh": "FISEHOOD极限运动公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2210号",
+    "coordinates": [
+      31.158033,
+      121.464199
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+      "typecode": "080000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFHJS9WX",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFHJS9WX",
+    "retrieved_at": "2026-10-04T07:38:49.191599+00:00",
+    "name_zh": "城市轮滑(绿地缤纷城店)",
+    "name_en": "",
+    "aliases": [],
+    "address": "东安路562号徐汇绿地缤纷城西区3F层",
+    "coordinates": [
+      31.183858,
+      121.456193
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;运动场馆;运动场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;运动场馆;运动场所",
+      "typecode": "080100",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0I27SLYC6",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0I27SLYC6",
+    "retrieved_at": "2026-10-04T07:38:49.191599+00:00",
+    "name_zh": "悠吖轮滑馆(田林店)",
+    "name_en": "",
+    "aliases": [],
+    "address": "桂林路402号74幢1楼302室",
+    "coordinates": [
+      31.171226,
+      121.416989
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;体育休闲服务场所;体育休闲服务场所",
+      "typecode": "080000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFJ2B6O7",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFJ2B6O7",
+    "retrieved_at": "2026-10-04T07:38:49.191599+00:00",
+    "name_zh": "悠吖轮滑馆(汇京国际广场店)",
+    "name_en": "",
+    "aliases": [],
+    "address": "淮海路555号汇京国际广场F2层",
+    "coordinates": [
+      31.196005,
+      121.423415
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "体育休闲服务;运动场馆;运动场所",
+    "raw_provider_tags": {
+      "type": "体育休闲服务;运动场馆;运动场所",
+      "typecode": "080100",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFGXZYD4",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFGXZYD4",
+    "retrieved_at": "2026-10-04T07:38:50.249841+00:00",
+    "name_zh": "徐汇滨江海事塔广场",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道",
+    "coordinates": [
+      31.177546,
+      121.4624
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;公园广场;城市广场",
+    "raw_provider_tags": {
+      "type": "风景名胜;公园广场;城市广场",
+      "typecode": "110105",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "B0K2H5JNWJ",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0K2H5JNWJ",
+    "retrieved_at": "2026-10-04T07:38:50.249841+00:00",
+    "name_zh": "玻璃宅",
+    "name_en": "",
+    "aliases": [],
+    "address": "西岸美术馆左侧50米处",
+    "coordinates": [
+      31.168905,
+      121.463904
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜;风景名胜",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜;风景名胜",
+      "typecode": "110200",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFIUCV1B",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFIUCV1B",
+    "retrieved_at": "2026-10-04T07:38:50.249841+00:00",
+    "name_zh": "攀岩抱石区",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道与东安路交叉口东北120米",
+    "coordinates": [
+      31.18186,
+      121.464527
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜相关;旅游景点",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜相关;旅游景点",
+      "typecode": "110000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "B0FFHB7UAD",
+    "source_type": "amap",
+    "source_name": "Amap Web Service",
+    "source_url": "https://www.amap.com/detail/B0FFHB7UAD",
+    "retrieved_at": "2026-10-04T07:38:51.350666+00:00",
+    "name_zh": "优秀历史建筑龙腾大道2555号",
+    "name_en": "",
+    "aliases": [],
+    "address": "龙腾大道2555-18号附近",
+    "coordinates": [
+      31.167354,
+      121.461873
+    ],
+    "coordinate_system": "GCJ-02",
+    "source_category": "风景名胜;风景名胜相关;旅游景点",
+    "raw_provider_tags": {
+      "type": "风景名胜;风景名胜相关;旅游景点",
+      "typecode": "110000",
+      "pname": "上海市",
+      "cityname": "上海市",
+      "adname": "徐汇区"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "address",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "node/3126004579",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/3126004579",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "龙美术馆（西岸馆）",
+    "name_en": "Long Museum West Bund",
+    "aliases": [],
+    "address": "上海 龙腾大道 3398",
+    "coordinates": [
+      31.1859164,
+      121.4601929
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "addr:city": "上海",
+      "addr:housenumber": "3398",
+      "addr:street": "龙腾大道",
+      "name": "龙美术馆（西岸馆）",
+      "name:en": "Long Museum West Bund",
+      "phone": "+86 21 6877 8787",
+      "tourism": "museum",
+      "website": "http://thelongmuseum.org/",
+      "wheelchair": "yes",
+      "wikidata": "Q111896175"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "node/6796216885",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/6796216885",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "Tank Shanghai",
+    "aliases": [],
+    "address": "龙腾大道 2350",
+    "coordinates": [
+      31.1665266,
+      121.4594047
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "addr:housenumber": "2350",
+      "addr:postcode": "200235",
+      "addr:street": "龙腾大道",
+      "name": "油罐艺术中心",
+      "name:en": "Tank Shanghai",
+      "tourism": "museum"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "node/8542957518",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/8542957518",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "后滩滨江",
+    "name_en": "Houtan Riverside",
+    "aliases": [
+      "后滩公园"
+    ],
+    "address": "世博大道 2200号",
+    "coordinates": [
+      31.1828031,
+      121.4649486
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=attraction",
+    "raw_provider_tags": {
+      "addr:housenumber": "2200号",
+      "addr:street": "世博大道",
+      "name": "后滩滨江",
+      "name:en": "Houtan Riverside",
+      "name:ru": "Хоутан Биньцзян",
+      "old_name": "后滩公园",
+      "tourism": "attraction"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "node/11204366617",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/11204366617",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "斜土社区文化活动中心",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1976759,
+      121.4588528
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "amenity=community_centre",
+    "raw_provider_tags": {
+      "amenity": "community_centre",
+      "name": "斜土社区文化活动中心"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "node/11204388844",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/11204388844",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "南浦站",
+    "name_en": "Nampo Station",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1897482,
+      121.4657123
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "historic=monument",
+    "raw_provider_tags": {
+      "historic": "monument",
+      "name": "南浦站",
+      "name:en": "Nampo Station"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "building"
+  },
+  {
+    "source_candidate_id": "node/12802472267",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/12802472267",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "上海温室花园",
+    "name_en": "Shanghai Greenhouse Garden",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.18026,
+      121.4704027
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=attraction",
+    "raw_provider_tags": {
+      "name": "上海温室花园",
+      "name:en": "Shanghai Greenhouse Garden",
+      "name:ru": "Шанхайский тепличный сад",
+      "tourism": "attraction"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "node/12850656766",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/12850656766",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "海宝",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1832992,
+      121.4743742
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=artwork",
+    "raw_provider_tags": {
+      "artwork_type": "statue",
+      "material": "plastic",
+      "name": "海宝",
+      "tourism": "artwork"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "artwork"
+  },
+  {
+    "source_candidate_id": "node/12850656767",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/12850656767",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "圆梦",
+    "name_en": "Dream come true",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1825877,
+      121.4719905
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=artwork",
+    "raw_provider_tags": {
+      "artwork_type": "statue",
+      "material": "metal",
+      "name": "圆梦",
+      "name:en": "Dream come true",
+      "tourism": "artwork"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "artwork"
+  },
+  {
+    "source_candidate_id": "node/12850656807",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/12850656807",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "舞动广场",
+    "name_en": "Dancing Square",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1844482,
+      121.4778933
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=attraction;place=plaza",
+    "raw_provider_tags": {
+      "name": "舞动广场",
+      "name:en": "Dancing Square",
+      "place": "plaza",
+      "tourism": "attraction"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "node/13077641178",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/13077641178",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "无尽影院",
+    "name_en": "A Film Endless",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1703504,
+      121.4598014
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=artwork",
+    "raw_provider_tags": {
+      "artist_name": "郭熙",
+      "artwork_type": "installation",
+      "name": "无尽影院",
+      "name:en": "A Film Endless",
+      "tourism": "artwork"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "artwork"
+  },
+  {
+    "source_candidate_id": "node/13092021311",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/13092021311",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "瓦肆 VAS est",
+    "name_en": "",
+    "aliases": [],
+    "address": "上海市 龙腾大道 2266",
+    "coordinates": [
+      31.1633666,
+      121.4607221
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "amenity=theatre",
+    "raw_provider_tags": {
+      "addr:city": "上海市",
+      "addr:district": "徐汇区",
+      "addr:housenumber": "2266",
+      "addr:postcode": "200000",
+      "addr:province": "上海市",
+      "addr:street": "龙腾大道",
+      "amenity": "theatre",
+      "level": "3",
+      "mobile": "+86 19117373734",
+      "name": "瓦肆 VAS est",
+      "official_name": "瓦肆 VAS est",
+      "official_name:en": "VAS est",
+      "website": "https://www.instagram.com/vasculture_official/"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "node/13100182892",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/13100182892",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "罗丹艺术文化发展中心",
+    "name_en": "Centre d'Art Rodin",
+    "aliases": [
+      "罗丹艺术中心"
+    ],
+    "address": "",
+    "coordinates": [
+      31.1866151,
+      121.4745417
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "alt_name": "罗丹艺术中心",
+      "name": "罗丹艺术文化发展中心",
+      "name:en": "Centre d'Art Rodin",
+      "tourism": "gallery",
+      "wikidata": "Q22100461",
+      "wikipedia": "zh:罗丹艺术文化发展中心"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "node/14026973901",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/node/14026973901",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "",
+    "name_en": "оранжерея",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1808923,
+      121.471286
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "leisure": "park",
+      "name": "оранжерея"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/299012534",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/299012534",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "南园公园",
+    "name_en": "Nanyuan Park",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1945405,
+      121.4709937
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "leisure": "park",
+      "name": "南园公园",
+      "name:en": "Nanyuan Park"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/304754415",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/304754415",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "徐汇游泳馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1953498,
+      121.4531287
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=sports_centre",
+    "raw_provider_tags": {
+      "leisure": "sports_centre",
+      "name": "徐汇游泳馆",
+      "sport": "swimming"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/307455604",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/307455604",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "西岸艺术中心",
+    "name_en": "West Bund Art Center",
+    "aliases": [],
+    "address": "上海 龙腾大道 2555",
+    "coordinates": [
+      31.1693193,
+      121.457005
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "addr:city": "上海",
+      "addr:housenumber": "2555",
+      "addr:postcode": "20032",
+      "addr:street": "龙腾大道",
+      "building": "yes",
+      "name": "西岸艺术中心",
+      "name:en": "West Bund Art Center",
+      "tourism": "museum"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/321093879",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/321093879",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "西岸穹顶艺术中心",
+    "name_en": "West Bund Dome",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1651353,
+      121.4600004
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "amenity=theatre",
+    "raw_provider_tags": {
+      "amenity": "theatre",
+      "building": "yes",
+      "name": "西岸穹顶艺术中心",
+      "name:en": "West Bund Dome"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/350242039",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/350242039",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "南园滨江绿地-东区",
+    "name_en": "Nanyuan Binjiang Park-East District",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1930094,
+      121.4699784
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "leisure": "park",
+      "name": "南园滨江绿地-东区",
+      "name:en": "Nanyuan Binjiang Park-East District"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/404677930",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/404677930",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "上海世博公园",
+    "name_en": "Shanghai Expo Park",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1893016,
+      121.4799648
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "leisure": "park",
+      "name": "上海世博公园",
+      "name:en": "Shanghai Expo Park",
+      "name:zh": "上海世博公园",
+      "phone": "+86 21 6333 6207",
+      "wikidata": "Q7488439",
+      "wikimedia_commons": "Category:Shanghai Expo Park",
+      "wikipedia": "en:Shanghai Expo Park"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/404680079",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/404680079",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "东方体育中心",
+    "name_en": "Shanghai Oriental Sports Centre",
+    "aliases": [],
+    "address": "shanghai 耀体路",
+    "coordinates": [
+      31.1580417,
+      121.4725153
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=sports_centre",
+    "raw_provider_tags": {
+      "addr:city": "shanghai",
+      "addr:street": "耀体路",
+      "leisure": "sports_centre",
+      "name": "上海东方体育中心",
+      "name:en": "Shanghai Oriental Sports Centre",
+      "name:zh": "东方体育中心",
+      "source": "bing map and local knowledge"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/450545076",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/450545076",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "前滩公园",
+    "name_en": "Qiantan Park",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1585969,
+      121.4679323
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "leisure": "park",
+      "name": "前滩公园",
+      "name:en": "Qiantan Park"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/450546969",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/450546969",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "前滩休闲公园",
+    "name_en": "Qiantan Leisure Park",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1520398,
+      121.46064
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "leisure": "park",
+      "name": "前滩休闲公园",
+      "name:en": "Qiantan Leisure Park"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/488984509",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/488984509",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "",
+    "name_en": "Shanghai Center of Photography",
+    "aliases": [
+      "SCôP"
+    ],
+    "address": "龙腾大道 2555",
+    "coordinates": [
+      31.1698764,
+      121.4583984
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "addr:housenumber": "2555",
+      "addr:street": "龙腾大道",
+      "alt_name": "SCôP",
+      "building": "yes",
+      "name": "Shanghai Center of Photography",
+      "opening_hours": "Tu-Su 10:30-17:30",
+      "tourism": "museum"
+    },
+    "snippets": [
+      {
+        "text": "Tu-Su 10:30-17:30",
+        "supports": [
+          "opening"
+        ],
+        "provider_field": "opening_hours"
+      }
+    ],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category",
+      "opening"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/490656166",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/490656166",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "世博会博物馆",
+    "name_en": "World Expo Museum",
+    "aliases": [],
+    "address": "上海市 蒙自路 818",
+    "coordinates": [
+      31.1963919,
+      121.4775766
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "addr:city": "上海市",
+      "addr:housenumber": "818",
+      "addr:postcode": "200023",
+      "addr:street": "蒙自路",
+      "name": "世博会博物馆",
+      "name:en": "World Expo Museum",
+      "name:zh": "世博会博物馆",
+      "name:zh-Hans": "世博会博物馆",
+      "name:zh-Hant": "世博會博物館",
+      "opening_hours": "Tu-Su 09:00-17:00",
+      "phone": "+86 21 2313 2818",
+      "start_date": "2017-05-01",
+      "tourism": "museum",
+      "website": "http://www.expo-museum.cn/sbbwg/n55/index.html",
+      "wikidata": "Q16858547"
+    },
+    "snippets": [
+      {
+        "text": "Tu-Su 09:00-17:00",
+        "supports": [
+          "opening"
+        ],
+        "provider_field": "opening_hours"
+      }
+    ],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category",
+      "opening"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/694647240",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/694647240",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "上海市滨江滑板公园",
+    "name_en": "Shanghai Riverside Skateboard Park",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1864064,
+      121.4638973
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "leisure": "park",
+      "name": "上海市滨江滑板公园",
+      "name:en": "Shanghai Riverside Skateboard Park"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/725029867",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/725029867",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "TANK Shanghai",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1664591,
+      121.4599554
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "油罐艺术中心",
+      "name:en": "TANK Shanghai",
+      "tourism": "gallery"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/725029868",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/725029868",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "TANK Shanghai",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1669023,
+      121.4598688
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "油罐艺术中心",
+      "name:en": "TANK Shanghai",
+      "tourism": "gallery"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/725029869",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/725029869",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "TANK Shanghai",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1672176,
+      121.4587055
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "油罐艺术中心",
+      "name:en": "TANK Shanghai",
+      "tourism": "gallery"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/725029870",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/725029870",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "TANK Shanghai",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1668825,
+      121.4592299
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "油罐艺术中心",
+      "name:en": "TANK Shanghai",
+      "tourism": "gallery"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/745277168",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/745277168",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "西岸美术馆x蓬皮杜中心",
+    "name_en": "West Bund Museum",
+    "aliases": [],
+    "address": "龙腾大道 2600",
+    "coordinates": [
+      31.1696238,
+      121.4592939
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "addr:housenumber": "2600",
+      "addr:street": "龙腾大道",
+      "building": "yes",
+      "name": "西岸美术馆x蓬皮杜中心",
+      "name:en": "West Bund Museum",
+      "name:ru": "мультимедийное шоу планета динозавров",
+      "opening_hours": "Tu-Su 10:00-17:00",
+      "phone": "+862131011011",
+      "tourism": "museum",
+      "website": "http://www.westbund.com/en"
+    },
+    "snippets": [
+      {
+        "text": "Tu-Su 10:00-17:00",
+        "supports": [
+          "opening"
+        ],
+        "provider_field": "opening_hours"
+      }
+    ],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category",
+      "opening"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/745536118",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/745536118",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "TANK Shanghai",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1665646,
+      121.4593761
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "油罐艺术中心",
+      "name:en": "TANK Shanghai",
+      "tourism": "gallery"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/745536121",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/745536121",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "TANK Shanghai",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1668175,
+      121.4593589
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "油罐艺术中心",
+      "name:en": "TANK Shanghai",
+      "tourism": "gallery"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/863990759",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/863990759",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "西岸大剧院",
+    "name_en": "West Bund Theatre",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1654067,
+      121.4612121
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "amenity=theatre",
+    "raw_provider_tags": {
+      "amenity": "theatre",
+      "building": "yes",
+      "name": "西岸大剧院",
+      "name:en": "West Bund Theatre",
+      "website": "https://www.shwbtheatre.com/",
+      "wikidata": "Q137653487",
+      "wikipedia": "zh:上海西岸大剧院"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/863990763",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/863990763",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "TANK Shanghai",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1660897,
+      121.4593202
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "油罐艺术中心",
+      "name:en": "TANK Shanghai",
+      "tourism": "gallery"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/871722895",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/871722895",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "济阳公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1706788,
+      121.4753614
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "leisure": "park",
+      "name": "济阳公园"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/985832361",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/985832361",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "中国乒乓球博物馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1951715,
+      121.4766623
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "中国乒乓球博物馆",
+      "name:zh": "中国乒乓球博物馆",
+      "name:zh-Hans": "中国乒乓球博物馆",
+      "name:zh-Hant": "中國乒乓球博物館",
+      "tourism": "museum"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/985832362",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/985832362",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "卢湾城市规划展览馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1935728,
+      121.4719429
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "卢湾城市规划展览馆",
+      "name:ru": "Луван градостроительный выставочный зал",
+      "tourism": "museum"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/1211499394",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/1211499394",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "徐汇跑道公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1711051,
+      121.4531086
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "leisure": "park",
+      "name": "徐汇跑道公园"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "way/1271909272",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/1271909272",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "TANK Shanghai",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1663258,
+      121.4594095
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "油罐艺术中心",
+      "name:en": "TANK Shanghai",
+      "tourism": "gallery"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/1271909276",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/1271909276",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "星美术馆",
+    "name_en": "Start Art Gallery",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1897078,
+      121.4657097
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=gallery",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "星美术馆",
+      "name:en": "Start Art Gallery",
+      "tourism": "gallery"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/1316877732",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/1316877732",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "时光印记大道",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1833292,
+      121.4745983
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "highway=pedestrian",
+    "raw_provider_tags": {
+      "highway": "pedestrian",
+      "name": "时光印记大道"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "street"
+  },
+  {
+    "source_candidate_id": "way/1316877742",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/1316877742",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "上海大歌剧院",
+    "name_en": "Shanghai Grand Opera House",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1806591,
+      121.4663903
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "amenity=theatre",
+    "raw_provider_tags": {
+      "amenity": "theatre",
+      "building": "yes",
+      "name": "上海大歌剧院",
+      "name:en": "Shanghai Grand Opera House"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/1376876640",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/1376876640",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "西岸漩心",
+    "name_en": "West Bund Orbit",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1848817,
+      121.4590833
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "building": "yes",
+      "name": "西岸漩心",
+      "name:en": "West Bund Orbit",
+      "tourism": "museum"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "way/1388253664",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/1388253664",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "十一孔桥",
+    "name_en": "Eleven Holes Bridge",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1809976,
+      121.473066
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=attraction;man_made=bridge",
+    "raw_provider_tags": {
+      "layer": "1",
+      "man_made": "bridge",
+      "name": "十一孔桥",
+      "name:en": "Eleven Holes Bridge",
+      "tourism": "attraction"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "way/1425238001",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/way/1425238001",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "观江挑台",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1886009,
+      121.4744515
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=attraction;man_made=bridge",
+    "raw_provider_tags": {
+      "layer": "1",
+      "man_made": "bridge",
+      "name": "观江挑台",
+      "name:ru": "Посмотрите на реку и выберите платформу",
+      "tourism": "attraction"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "unknown"
+  },
+  {
+    "source_candidate_id": "relation/9653742",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/relation/9653742",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "龙美术馆",
+    "name_en": "Long Museum",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.1859148,
+      121.4602152
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "tourism=museum",
+    "raw_provider_tags": {
+      "building": "yes",
+      "layer": "1",
+      "name": "龙美术馆",
+      "name:en": "Long Museum",
+      "tourism": "museum",
+      "type": "multipolygon"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "relation/18069663",
+    "source_type": "osm",
+    "source_name": "OpenStreetMap contributors / Overpass",
+    "source_url": "https://www.openstreetmap.org/relation/18069663",
+    "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+    "name_zh": "世博文化公园",
+    "name_en": "Shanghai Expo Cultural Park",
+    "aliases": [],
+    "address": "上海市 济坤路 100",
+    "coordinates": [
+      31.1815542,
+      121.4712859
+    ],
+    "coordinate_system": "WGS84",
+    "source_category": "leisure=park",
+    "raw_provider_tags": {
+      "addr:city": "上海市",
+      "addr:district": "浦东新区",
+      "addr:housenumber": "100",
+      "addr:province": "上海",
+      "addr:street": "济坤路",
+      "leisure": "park",
+      "name": "世博文化公园",
+      "name:en": "Shanghai Expo Cultural Park",
+      "name:zh": "世博文化公园",
+      "type": "multipolygon",
+      "wikidata": "Q125245263",
+      "wikipedia": "zh:上海世博文化公园"
+    },
+    "snippets": [],
+    "supports": [
+      "identity",
+      "coordinates",
+      "basic_category"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "7004a4d088ea256b0112",
+    "source_type": "official",
+    "source_name": "www.westbund.com",
+    "source_url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_aa8Ec.html",
+    "retrieved_at": "2026-10-04T07:44:48.591807+00:00",
+    "name_zh": "龙美术馆(西岸馆)",
+    "name_en": "",
+    "aliases": [
+      "龙美术馆"
+    ],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "龙美术馆(西岸馆)",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "龙美术馆(西岸馆)选址原北票码头,由著名艺术品收藏家刘益谦、王薇夫妇创建,中国顶尖设计师柳亦春先生(大舍建筑设计事务所)担纲设计,总建筑面积约33000平方米,于2014年建成开馆。",
+        "supports": [
+          "identity",
+          "history"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "龙美术馆(西岸馆)不再是封闭内向型的美术馆空间模式,在功能设计上更多地容纳了具有开放性和公众参与性的公共空间,如地上两层有视野开阔的江景餐厅、公共景观庭院、音乐厅、咖啡厅、艺术品商店等,地下一层设有儿童展厅、图书馆、艺术品修复室、艺术书店等,地下二层有三百多个车位的停车场。这一切使得艺术不再远离大众,而是与公众的日常休闲生活息息相关。",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "history",
+      "identity",
+      "public_space"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "f1da811a09cdcc9009ff",
+    "source_type": "official",
+    "source_name": "www.westbund.com",
+    "source_url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_695y4T.html",
+    "retrieved_at": "2026-10-04T07:39:03.241360+00:00",
+    "name_zh": "西岸美术馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "西岸美术馆",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "西岸美术馆位于上海徐汇滨江,是“西岸美术馆大道”的核心公共文化场馆之一。",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "西岸美术馆由英国著名建筑师戴卫·奇普菲尔德爵士设计,于2017年启动建设,2019年正式开放,同年与法国乔治·蓬皮杜国家艺术文化中心达成中法最高级别文化合作项目。",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "identity",
+      "public_space"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "168c99556be4165b3d3a",
+    "source_type": "official",
+    "source_name": "www.westbund.com",
+    "source_url": "https://www.westbund.com/cn/index/POPULAR-VENUES/detail_e9dD9.html",
+    "retrieved_at": "2026-10-04T07:39:04.354348+00:00",
+    "name_zh": "上海油罐艺术中心",
+    "name_en": "",
+    "aliases": [
+      "油罐艺术中心"
+    ],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "上海油罐艺术中心建筑群坐落于中国最早的机场——上海龙华机场原址,机场停用后被保留的一组废弃航油罐,极具历史时代色彩,是全球为数不多的油罐空间改造案例之一。昔日的油罐变身为艺术载体,通过当代艺术展览、活动,让公众可以亲近感受艺术,成为上海艺术文化新地标。",
+        "supports": [
+          "identity",
+          "history"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "history",
+      "identity"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "299bec6a1d3655b322eb",
+    "source_type": "official",
+    "source_name": "www.westbund.com",
+    "source_url": "https://www.westbund.com/cn/index/NEWS-CENTER/2022-1230.html",
+    "retrieved_at": "2026-10-04T07:39:05.503757+00:00",
+    "name_zh": "星美术馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "历经8年筹备,凝聚创办人及其团队长期深度的艺术文化研究观察, 星美术馆于12月30日正式开馆,带来主题为“开启START”的首展,为期5个月的展期中,将展现来自全球85名(组)艺术家的88件当代艺术佳作,向公众交上了一份足具份量的答卷。",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "作为西岸美术馆大道的重要组成,位于最北端的星美术馆不仅将成为“艺术西岸”全新的内容策源地,其为文化发展输出的积极能量亦将汇入徐汇滨江,共融一炉地赋能上海西岸整体品牌的打造,构筑起艺术场景的新版图,开启又一个对话世界的窗口。",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "为中心城区不可多得的战略空间,上海西岸将坚持国际视野、对标世界一流,而星美术馆的启幕将成为集聚优质资源磁场的重要组成,助力上海西岸引进更多的重量级项目、高能级平台、标杆性企业,持续放大产业溢出效应,推动区域打造高质量发展的强劲增长极,共同塑造未来的城市级新地标。",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "identity",
+      "public_space"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "ce13a36a917a6e9376fe",
+    "source_type": "government",
+    "source_name": "whlyj.sh.gov.cn",
+    "source_url": "https://whlyj.sh.gov.cn/gqfc/20260904/89b6a38c04274b0fbfe300752f21c3e6.html",
+    "retrieved_at": "2026-10-04T07:39:05.986412+00:00",
+    "name_zh": "谷地花溪",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "00米的样板段,起点设于星美术馆,终点抵达龙美术馆,一路串联西岸中环、谷地花溪、滨江滑板公园等。从百年铁路记忆到当代艺术水岸,从潮流商业到运动公园,一趟车就能看遍西岸的多元面貌。",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "谷地花溪",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "继续前行,漫游线会经过谷地花溪——这片位于瑞宁路243号附近、紧邻滑板公园的滨江绿地,保留着铁轨遗迹,植被丰富,是西岸少有的野趣空间。",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "identity",
+      "public_space"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "ebc62f8b66b959fbcfc2",
+    "source_type": "government",
+    "source_name": "whlyj.sh.gov.cn",
+    "source_url": "https://whlyj.sh.gov.cn/gqfc/20260904/89b6a38c04274b0fbfe300752f21c3e6.html",
+    "retrieved_at": "2026-10-04T07:39:05.986412+00:00",
+    "name_zh": "滨江滑板公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "板段,起点设于星美术馆,终点抵达龙美术馆,一路串联西岸中环、谷地花溪、滨江滑板公园等。从百年铁路记忆到当代艺术水岸,从潮流商业到运动公园,一趟车就能看遍西岸的多元面貌。",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "滨江滑板公园",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "与谷地花溪相邻的,是徐汇滨江滑板公园。这片上海市区少有的专业级户外滑板场地,融合城市景观与功能性障碍设计,是本地滑板社群的重要聚集地。",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "identity",
+      "public_space"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "25d8408f9c9c7d3ae8b8",
+    "source_type": "government",
+    "source_name": "whlyj.sh.gov.cn",
+    "source_url": "https://whlyj.sh.gov.cn/gqfc/20260904/89b6a38c04274b0fbfe300752f21c3e6.html",
+    "retrieved_at": "2026-10-04T07:39:05.986412+00:00",
+    "name_zh": "塔吊广场",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "想坐完全程,可以在这里下车,沿着滨江步道慢慢走到龙美术馆,沿途还能经过塔吊广场等西岸标志性景观。",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "identity",
+      "public_space"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "b8860c7070b482487a17",
+    "source_type": "official",
+    "source_name": "www.westbund.com",
+    "source_url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_6deD0.html",
+    "retrieved_at": "2026-10-04T07:39:16.728328+00:00",
+    "name_zh": "跑道公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "跑道公园",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "跑道公园以机场跑道为原型展现航空历史印迹,采用城市轨迹的设计概念,用多样化的线性空间将街道和公园组织成一个统一的跑道系统,并将水系和绿地穿插其中,将原龙华机场跑道转变为汽车、自行车、人与河流的跑道,满足现代社会中人们对交通、休闲和体育运动的需要。此外,为容纳不同的功能需求,项目在道路铺装、人行通道、沿岸设计、道路设计等方面精心设计,给徐汇滨江地区带来现代城市",
+        "supports": [
+          "identity",
+          "history",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "跑道公园地下通道",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "history",
+      "identity",
+      "public_space"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "789c3bec97d30a128bb9",
+    "source_type": "official",
+    "source_name": "www.westbund.com",
+    "source_url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_d62y5P.html",
+    "retrieved_at": "2026-10-04T07:43:37.027105+00:00",
+    "name_zh": "西岸中央公园",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "西岸中央公园",
+        "supports": [
+          "identity",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "identity",
+      "public_space"
+    ],
+    "entity_kind": "public_space"
+  },
+  {
+    "source_candidate_id": "0d8876e390b1e4515544",
+    "source_type": "official",
+    "source_name": "www.westbund.com",
+    "source_url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_41bE6.html",
+    "retrieved_at": "2026-10-04T07:39:20.028794+00:00",
+    "name_zh": "西岸艺术中心A馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "西岸艺术中心A馆",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "西岸艺术中心A馆前身为上海飞机制造厂冲压车间厂房,设计最大程度保留了建筑原本空间的工业气质。如今的西岸艺术中心积极发挥着平台作用,吸引文化艺术、科技创新、人工智能、设计时尚等优质文化活动、产业资源聚集,助力“艺术西岸”影响力提升及徐汇滨江整体开发建设。",
+        "supports": [
+          "identity",
+          "history",
+          "public_space"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "history",
+      "identity",
+      "public_space"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "59594059c76507a46f99",
+    "source_type": "official",
+    "source_name": "www.westbund.com",
+    "source_url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_e9dD9.html",
+    "retrieved_at": "2026-10-04T07:39:21.114481+00:00",
+    "name_zh": "油罐艺术中心",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "油罐艺术中心",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "上海油罐艺术中心建筑群坐落于中国最早的机场——上海龙华机场原址,机场停用后被保留的一组废弃航油罐,极具历史时代色彩,是全球为数不多的油罐空间改造案例之一。昔日的油罐变身为艺术载体,通过当代艺术展览、活动,让公众可以亲近感受艺术,成为上海艺术文化新地标。",
+        "supports": [
+          "identity",
+          "history"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "history",
+      "identity"
+    ],
+    "entity_kind": "venue"
+  },
+  {
+    "source_candidate_id": "da9e05f7aff3f12c72fd",
+    "source_type": "official",
+    "source_name": "www.westbund.com",
+    "source_url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_e52D8.html",
+    "retrieved_at": "2026-10-04T07:39:22.213036+00:00",
+    "name_zh": "上海摄影艺术中心",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": null,
+    "coordinate_system": "WGS84",
+    "source_category": "official_place_mention",
+    "raw_provider_tags": {},
+    "snippets": [
+      {
+        "text": "上海摄影艺术中心",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      },
+      {
+        "text": "上海摄影艺术中心位于龙腾大道2555号-1,由国际著名摄影艺术家刘香成先生创办、美国建筑师组合Sharon Johnston &Mark Lee担纲设计,总建筑面积500平方米,旨在打造上海首家具有美术馆规格的摄影艺术场馆。",
+        "supports": [
+          "identity"
+        ],
+        "extraction": "literal_excerpt; unverified temporal context"
+      }
+    ],
+    "supports": [
+      "identity"
+    ],
+    "entity_kind": "venue"
+  }
+]

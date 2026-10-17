@@ -1,0 +1,81 @@
+{
+  "before": {
+    "canonical": 58,
+    "needs_review": 43,
+    "reject": 15
+  },
+  "final_review_count": 30,
+  "production_audit_count": 5,
+  "new_candidate_count": 19,
+  "possible_duplicate_count": 4,
+  "unresolved_count": 2,
+  "new_route_selectable_count": 12,
+  "decisions": {
+    "needs_review": 21,
+    "recommended_accept": 2,
+    "reject": 7
+  },
+  "new_admission_decisions": {
+    "recommended_accept": 2,
+    "needs_review": 16,
+    "reject": 7
+  },
+  "failure_analysis": {
+    "total_failed_attempts": 99,
+    "primary_categories": {
+      "unsupported_tag_evidence_or_over_generation": 96,
+      "syntax_or_schema": 1,
+      "invalid_role_consistency": 1,
+      "unsupported_factual_field_or_nonextractive_draft": 1
+    },
+    "definition": "one primary category per recorded failed provider attempt; immutable previous run metadata"
+  },
+  "historical_api_attempts": 158,
+  "evidence_atoms_before": 467,
+  "evidence_atoms_compact": 298,
+  "protected_unchanged": true,
+  "protected_hashes": {
+    "data\\pois.json": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513",
+    "src\\poi_pipeline\\semantic\\validation.py": "d3f287eaf46c1e2c14c8955c38e4d760635b4ba92f972c3b14ebbdcae6b47b4a",
+    "data\\poi_pipeline\\semantic\\west_bund_review.json": "2b0bd8d3f6ee0783fd31408071ccb5b571bd01b284855a6f4a65177e65548904",
+    "data\\poi_pipeline\\semantic\\west_bund_prepared_candidates.json": "d7a92f9cc9deefc8eed7842e31cc21709709551b52467c25e178458ef4103a1d",
+    "src\\route_engine.py": "c808ea854b7d1e612e78b0b9c847ffe5fd130f446834f340ddd29b6e10a5b2b4",
+    "src\\intent_models.py": "a00dc1123da9188201c55b6a06b9741c9096730997ebf2d08fb667a707faa115",
+    "src\\intent_schema.py": "ff87536e42d57e233cba90ccf24b68e0fc6165c029939bc194923094e858d7e7",
+    "src\\semantic_expansion.py": "dd0475018e2d1a95c17dca510162b7b935454cfbacb4d2b1d70f101bce5141cd",
+    "src\\clarification.py": "4ec22bfcd5d51f398fdf937f8575bf0c0d55ccfa341dc935a383adadf160aca2",
+    "src\\route_quality.py": "2677e8d3023043f5f98307b632203ec72c38f71442980adaaa679fe97168abaf",
+    "src\\route_entry.py": "ef6a5fd79847c11d4995d870c332bbcce66502eabe8b1656b9ca0046477c9829",
+    "data\\poi_pipeline\\canonical\\west_bund_canonical_candidates.json": "8b94b119873786d0c3109ecb554fdf006405715edb1c35dfedd45e65b71c324f",
+    "data\\poi_pipeline\\canonical\\west_bund_evidence_bundles.json": "f7c0ceff71f5ad8cced8b820167f05db65cf36bd6795cb0622eae926a7569747"
+  },
+  "test_result": "python -m unittest discover -s tests -t . -q: 285 tests passed (259 existing + 26 repair tests); all offline fixtures/mock providers. No live route regression.",
+  "low_value_review": [
+    {
+      "name": "FISEHOOD极限运动公园",
+      "decision": "reject",
+      "reason": "empty validated tags and no independent City Walk evidence; internal entities stay nonselectable"
+    },
+    {
+      "name": "攀岩抱石区",
+      "decision": "reject",
+      "reason": "empty validated tags and no independent City Walk evidence; internal entities stay nonselectable"
+    },
+    {
+      "name": "岩时攀岩(Gate M西岸梦中心)",
+      "decision": "reject",
+      "reason": "empty validated tags and no independent City Walk evidence; internal entities stay nonselectable"
+    },
+    {
+      "name": "乐动力西岸活力谷",
+      "decision": "reject",
+      "reason": "empty validated tags and no independent City Walk evidence; internal entities stay nonselectable"
+    },
+    {
+      "name": "西岸国际会展中心(上海)",
+      "decision": "reject",
+      "reason": "empty validated tags and no independent City Walk evidence; internal entities stay nonselectable"
+    }
+  ],
+  "status": "PASS"
+}

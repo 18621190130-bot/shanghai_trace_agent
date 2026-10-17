@@ -1,0 +1,4093 @@
+{
+  "human_review": [],
+  "all_dispositions": [
+    {
+      "node_id": "wukang_fuxing_xujiahui_e0751a820cea1e1a",
+      "name": "徐家汇国际大厦",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_e5a10ac5f359fe77",
+      "name": "上海话剧艺术中心(安福路)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_5b438dd905b4bb51",
+      "name": "徐家汇花园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_d6e97c6d969a3916",
+      "name": "上海市工艺美术研究所",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_edba0b070f44f501",
+      "name": "上海话剧艺术中心-艺术剧院(话剧大厦店)",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_2f55fdeec1363ed3",
+      "name": "上海工艺美术学会",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_6813e50b550d36b6",
+      "name": "襄阳公园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "semantic_validation_or_provider_failure",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 10,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_4166542166e2c5f8",
+      "name": "上海话剧艺术中心戏剧沙龙",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_7e2c23d2cd07b5e9",
+      "name": "上海工艺美术博物馆办公室",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_7011b010db1aaf81",
+      "name": "上海市工艺美术博物馆-多功能厅",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_14ca6e7d0575c5bb",
+      "name": "徐家汇公园-百代公司旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+      "name": "徐家汇公园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "semantic_validation_or_provider_failure",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 10,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_3fc25cc02c92902b",
+      "name": "武康大楼",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "possible_duplicate",
+        "production_match": "p13",
+        "confidence": "low",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 1105.3,
+          "address_match": true,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_c64fa233db0d9293",
+      "name": "徐家汇景园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_40b9abdb621cec5c",
+      "name": "上海美术馆(中华艺术宫)",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_b073f459a9491668",
+      "name": "上海市徐汇区世界小学",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_836f6bfc01af319b",
+      "name": "上海工艺美术博物馆",
+      "decision": "recommended_accept",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "reason": "all_admission_gates_passed",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 10,
+      "boundary_status": "inside_pilot",
+      "primary_role": "anchor",
+      "eligible_roles": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "role_confidence": "medium"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_7af790dec32719fb",
+      "name": "徐家汇公园-希望之泉",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_360ff6d79a1619a7",
+      "name": "徐家汇公园-纪念烟囱",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_0d36da8a4b78e14f",
+      "name": "徐汇世家花园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_630ad6b903fc1d08",
+      "name": "上海当代艺术博物馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_23b69c622b216b1f",
+      "name": "上海工艺美术职业学院",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_d3786b82a6a01a34",
+      "name": "淮海中路1710弄小区",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_365d779315891942",
+      "name": "优秀历史建筑",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_f4d0b0d3d8b92513",
+      "name": "徐汇公园道壹号臻庭",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_217a2c1e3c8410ac",
+      "name": "万国建筑博览群",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_9227a8445c03ceb3",
+      "name": "六角亭",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_243194e74e328b64",
+      "name": "徐家汇公园-儿童乐园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_300ded03ddd73138",
+      "name": "徐家汇公园-瀑布",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_24b3ab19bd5f22eb",
+      "name": "徐光启雕塑夜观天象",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_325c03999db02641",
+      "name": "优秀历史建筑龙腾大道2555号",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p36",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 41.1,
+          "address_match": false,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_2775fd4823451c32",
+      "name": "徐家汇体育公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_ebec4945f1d5b21a",
+      "name": "历史保护建筑群",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_274569eb4465aab2",
+      "name": "徐汇跑道公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p39",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 0.0,
+          "address_match": false,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_56500741faabe13a",
+      "name": "武康路历史文化名街",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_4a9c144f76d782b6",
+      "name": "百年香樟",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_f0074b8f5388c25f",
+      "name": "徐家汇公园-长廊",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_a3a1d5913e079405",
+      "name": "光启公园-上海南春华堂",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_837283b4c8bbde1e",
+      "name": "汇金湖",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8a904a0bc1e2345e",
+      "name": "优秀历史建筑威海路651号",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_bda69a3dece6e9ac",
+      "name": "滇池路历史老建筑",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_d1a23582b0d32cee",
+      "name": "上影演员剧团",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8b6ed4e3c0e2231d",
+      "name": "嘉定区古建筑与民俗历史文化研究会",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_cd2939ad5bae6222",
+      "name": "老城厢",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_341039c661781edd",
+      "name": "徐汇公园道壹号尊庭",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_66b2db5d84804f00",
+      "name": "上海市黄浦区历史建筑保护事务中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_193b95672f14d45b",
+      "name": "优秀历史建筑威海路651号665弄",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_c1d1870b8f4eb77b",
+      "name": "民防工程(徐家汇公园)",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_fe12b6d0c5b31aa2",
+      "name": "monotone(武康路历史文化名街店)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_98ca1c625055646a",
+      "name": "Septieme",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_29a3c7cb604d8e90",
+      "name": "松荫里Pine's Art",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_48cf24f85e510bfd",
+      "name": "上海体育博物馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_644bbaa397a7072c",
+      "name": "积庆堂",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_257a878479620502",
+      "name": "徐家汇体育公园综合馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_53ae8b1a1f19b458",
+      "name": "天钥桥路口袋公园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8cc83256da8d8e39",
+      "name": "foo'mart 東西公园(徐家汇书院店)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "possible_duplicate",
+        "production_match": "p33",
+        "confidence": "medium",
+        "evidence": {
+          "reason": "scope-name containment; legacy representative geometry requires reconciliation"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_f5613810d94fa75a",
+      "name": "耐克篮球公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_13be054555927757",
+      "name": "圣佳艺术空间",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_c580d3171082109d",
+      "name": "徐家汇公园法治文化广场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_82e3174921039cd6",
+      "name": "上海民生现代美术馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_376c57989e6ecafa",
+      "name": "优秀历史建筑乌鲁木齐南路176号",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_24ac24638504271b",
+      "name": "景观天桥",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_4343ca9e43685259",
+      "name": "徐汇公园道壹号",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_788fb4ec1892b604",
+      "name": "徐汇区华泾公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_77459b0c2aa879de",
+      "name": "EXPRESSTUDIO(武康路店)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_34bd2f1a9b6b01de",
+      "name": "历史建筑保护设计院",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_bc38b968b721434e",
+      "name": "上海理工大学-历史建筑群",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_131d04df1342ff37",
+      "name": "徐汇油罐艺术公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_983a6e56e6216820",
+      "name": "徐家汇体育公园庆典广场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_5591e2bdbe63e01d",
+      "name": "徐家汇体育公园西广场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_459a86e1e6e9a691",
+      "name": "优秀历史建筑胶州路522号",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_89f3596f3073a27e",
+      "name": "优秀历史建筑康定路2号",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8d755add93946a0e",
+      "name": "武康康之家",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_dda8bd840391567a",
+      "name": "上剧场",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_c17d7311ad244c39",
+      "name": "盛宣怀住宅",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_08faa8ce432875e1",
+      "name": "宏恩医院",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_f3825444272646cf",
+      "name": "嘉道理爵士住宅",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_7fa343b49df0f798",
+      "name": "黄佐临像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_146dd37c50feb537",
+      "name": "艺术剧院",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_40e8c9d59eca8782",
+      "name": "迈克尔·杰克逊雕像",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_dc2b710f6c8b3b3d",
+      "name": "佳都剧场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_dbd6357b195a379b",
+      "name": "马兰花剧场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_57d258fc5ec63d0f",
+      "name": "光影车间",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_6ca6e75beb409ff4",
+      "name": "斜土社区文化活动中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_55448e07971192c1",
+      "name": "南浦站",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_377fae795c115b3b",
+      "name": "青少年活动中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_70a6b5076d3946dc",
+      "name": "熊佛西像",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_68014df30cc91cd5",
+      "name": "600号画廊",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_89b39b83fa41ab65",
+      "name": "蔡元培故居",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_356316d1197994f9",
+      "name": "毛泽东旧居",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_80659a052a9e2e82",
+      "name": "肆笑喜剧",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_3e8dba2a3d5e8079",
+      "name": "犀牛铜像",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_a3ae33b05254164a",
+      "name": "黑匣子剧场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_41af94b49b4d8316",
+      "name": "Sinan touristic area with shikumens",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_dd18a6e82a853f20",
+      "name": "fudeli",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_3544c9a348c77974",
+      "name": "百年校庆纪念碑",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_ddbc917019c27455",
+      "name": "龙美术馆(西岸馆)",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p5",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 93.4,
+          "address_match": true,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_6630dfb2381c76c5",
+      "name": "史霄雯穆漢祥二烈士之墓",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_2522aa38594629f9",
+      "name": "上海公安博物馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_bfea363bd78599c8",
+      "name": "上海市卢湾区体育中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_1beba1d156376bbb",
+      "name": "Chinese Cooking Workshop",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_2f56d3f7f148e3c0",
+      "name": "马恩雕像",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_b126927f5a716b02",
+      "name": "健身工作室",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_51cc9b0e86fe4baa",
+      "name": "马可尼纪念柱",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_7717b22172c7b764",
+      "name": "Longshan Residential Community",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_54f0fa7465d698c6",
+      "name": "同汇苑",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_a820e639b44f621e",
+      "name": "中南新邨",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_dedde225a3a2b1b7",
+      "name": "龙山小区",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_88f103a68fc85401",
+      "name": "Statue of Lei Feng",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8897f3472336b022",
+      "name": "蔡元培",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8002efbfbd71ccdc",
+      "name": "上海宣传画艺术中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_d90241aa789950f0",
+      "name": "张乐平",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_cacb77c4ca982810",
+      "name": "Xin Xin Game Centre",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_9f486559ec39066b",
+      "name": "Provisional Government of the Republic of Korea building",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_4dd0cfaa0d8296ae",
+      "name": "上海体育场攀岩运动中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_d439657afb1de326",
+      "name": "陆汉斌打字机博物馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_e2dbd214ab372678",
+      "name": "刘长胜故居",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_04d3c9c6bca78389",
+      "name": "中国社会主义青年团中央机关旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_c76698dcab524aba",
+      "name": "徐光启墓",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8765eef66dbcfcd2",
+      "name": "畫家樓",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_97c5a47a61058f93",
+      "name": "思南88",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_b2802abed0f759e3",
+      "name": "上海市文史研究馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_54dd5726a9c8397b",
+      "name": "上海市文史研究馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_e16074f6e2170cf8",
+      "name": "现代艺术基地",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_75dd3032590cdf32",
+      "name": "上海琉璃艺术博物馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_539d9c2faae94812",
+      "name": "贺绿汀音乐厅",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_be26f79a972691ed",
+      "name": "马相伯像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_048c259fbb6a0011",
+      "name": "刘海粟旧居",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_59213dcc45e6c287",
+      "name": "Luwan Stadium, Basketballlcourt 2",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_43655d978d8de8fe",
+      "name": "第一美术馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_661cd7db33729a57",
+      "name": "田汉",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_1e47e74b88bb959d",
+      "name": "聂耳铜像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_e6830903ae15e79a",
+      "name": "东方乐器博物馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_512cfe60df280d9c",
+      "name": "枫林街道社区卫生服务中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_b7acaee740c202f1",
+      "name": "普希金雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_cae1545107953f40",
+      "name": "Shanghai Museum of Sun Yat-sen's Former Residence",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_460bf7d40d6db461",
+      "name": "中国园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_7e41684f59223398",
+      "name": "水榭长廊",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_63dab555d86fe930",
+      "name": "玫瑰园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_da011da5b2dae396",
+      "name": "春广场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_e84d1f6a73d7c78a",
+      "name": "上海市科协一门式服务中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_a8916a353ac0cf52",
+      "name": "屋裡廂石庫門博物館",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_88963916b6f3c4b4",
+      "name": "Seantiques",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_69388cc1112bc5ae",
+      "name": "韬奋纪念馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_72a0d14f97a539f4",
+      "name": "上海电影博物馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_4999706784833b06",
+      "name": "谢晋",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_e2a268e4516a7aa3",
+      "name": "中共中央上海局机关旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_80046da365420216",
+      "name": "后滩滨江",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_56fd74f0ae9b36a1",
+      "name": "Nine dragon pillar",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_0aa47c7fec768f42",
+      "name": "霞飞坊旧址",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8d6aadb526674ace",
+      "name": "圆明讲堂YMSY",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_7e582e001a84968c",
+      "name": "延中公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_b99c18568c7e9ed2",
+      "name": "世博文化公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_4a74ea9db37c23cb",
+      "name": "荷花池",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_76c98afb023ffbb7",
+      "name": "龙美术馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p5",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 93.0,
+          "address_match": false,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_fadd831d0e85853c",
+      "name": "上海大戏院",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_66ea2ca762c0f933",
+      "name": "白公馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_718536325c4aed7f",
+      "name": "卢湾体育场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_1aa657f36bdb7810",
+      "name": "宛平剧院",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_fe3c5d1a3d4838eb",
+      "name": "端钧剧场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_5d2dc83812ab933a",
+      "name": "白玉兰广场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_cdc2d690b71126de",
+      "name": "复旦大学附属华东医院南花园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_6beee882799c69c4",
+      "name": "上戏实验剧院",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_872ddac0eb74992a",
+      "name": "新实验空间",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_6b93c4aaf4d5160a",
+      "name": "憩园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_b760ec28e10728b8",
+      "name": "星美术馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p31",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 18.2,
+          "address_match": false,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_0d99398955cb02bc",
+      "name": "静安寺广场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_0a8b020c2408b180",
+      "name": "上海大歌剧院",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_3855808c00edb19b",
+      "name": "西岸漩心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_cce0e02a09596134",
+      "name": "静安寺",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_2ab148849a624362",
+      "name": "文定花园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_e58b1a0d921a65c8",
+      "name": "衡山公园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_611579dcd8f2999c",
+      "name": "上海文化广场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_c104be764f67baf8",
+      "name": "嘉善老市",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_ada118c7ab184d1a",
+      "name": "静安公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_afbbe14a4615534e",
+      "name": "光启公园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_74499c7c549a40a6",
+      "name": "峻岭寄庐",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_cc767bb786584621",
+      "name": "上海游泳馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_168913bdee2921d1",
+      "name": "田子坊",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_1a995fbb8f2c3ee3",
+      "name": "学生体育活动中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_c57bc7fa497f614e",
+      "name": "华山花园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_4abb1bf0e78d7c7d",
+      "name": "日晖绿地公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_7ace0e771f075507",
+      "name": "乐山绿地",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_2104c8d730d27cfa",
+      "name": "南园公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_263b1c24b9b89944",
+      "name": "徐汇游泳馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_f2d4df23ecc19cdd",
+      "name": "云峰剧场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_39c4238dc9b24634",
+      "name": "南园滨江绿地-东区",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_56724c11ed767690",
+      "name": "复兴公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_6f16dbf5664124f1",
+      "name": "幸福里",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_299fa3812f7e9019",
+      "name": "新天地",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "possible_duplicate",
+        "production_match": "p7",
+        "confidence": "medium",
+        "evidence": {
+          "reason": "scope-name containment; legacy representative geometry requires reconciliation"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_74643062d4ad2213",
+      "name": "东亚体育文化中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_0a44d3d9e723b88b",
+      "name": "上海交响乐团音乐厅",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_4ab7f5eeada81157",
+      "name": "上体篮球公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_fa7a193d9205b23c",
+      "name": "大草坪",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_3a32962a91aaba8a",
+      "name": "绍兴公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_905ef4ab59cc484f",
+      "name": "国际网球中心",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_b0518ec82bacdaa8",
+      "name": "延中广场公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_4adc4baa3984ef23",
+      "name": "捷豹上海交响音乐厅",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_e786acc3d0f670a2",
+      "name": "上海交响音乐厅 演艺厅",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_16bd981b47ac831a",
+      "name": "上海市水务局",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_e34ab923030bf72c",
+      "name": "华懋公寓",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_d324c67e38f849b8",
+      "name": "华山绿地",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_0b2ae14dcd779c6d",
+      "name": "玉兰园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_b81468dcf9c21bae",
+      "name": "兰心大戏院",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_1776f6c0edc2f723",
+      "name": "中国共产党第二次全国代表大会会址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8dd8410b9a27fd8d",
+      "name": "马勒住宅",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_9a000d93d45a7e17",
+      "name": "常德公寓",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_87a74802ecf09d90",
+      "name": "宋庆龄故居",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p21",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 10.3,
+          "address_match": true,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_a6bccfe12706a3d3",
+      "name": "邬达克纪念馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8308b2cb02bc12ad",
+      "name": "华园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_a29e1e6cca010ac5",
+      "name": "徐家汇篮球公园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_749055561f86890a",
+      "name": "汇学长廊",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_208a36a087996c14",
+      "name": "龙华烈士陵园死刑处决场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_019d17a63b64f4ce",
+      "name": "青之杰花园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_f6db3d821b88950a",
+      "name": "上海青旅集团有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_b2ee76cab9f92861",
+      "name": "上海徐志摩旧居",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_f52df38bdd9b18ca",
+      "name": "上海中华职业教育社",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_5e00e051d112123d",
+      "name": "《新青年》编辑部旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_18cc67266d23c204",
+      "name": "上海市滨江滑板公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p38",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 179.2,
+          "address_match": false,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_8aeba5b7af8b06ba",
+      "name": "东安公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_a54a55bd2223ab92",
+      "name": "淮茂绿地",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_52e4a044f8fb436e",
+      "name": "马恩雕像广场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_ee335dccc8071195",
+      "name": "法租界会审公廨旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "wukang_fuxing_xujiahui_80f2867ed40f7f01",
+      "name": "OBJ+",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    }
+  ],
+  "remaining_deferred": 0,
+  "low_confidence_existing": []
+}

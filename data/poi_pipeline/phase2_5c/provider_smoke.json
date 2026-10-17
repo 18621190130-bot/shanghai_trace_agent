@@ -1,0 +1,1242 @@
+{
+  "status": "completed",
+  "calls": 3,
+  "retried": 0,
+  "cases": [
+    {
+      "prompt": "I have three hours to explore art in the West Bund but I do not want to visit museums.",
+      "parsed_intent": {
+        "route_mode": "plan_for_me",
+        "start_location_text": null,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "available_minutes": 180,
+        "interest_tags": [
+          "art"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "avoid_tags": [
+          "museum_visit"
+        ],
+        "avoid_poi_ids": [],
+        "unresolved_negative_preferences": [],
+        "travel_pace": "standard",
+        "must_go_poi_ids": [],
+        "preferred_zone": "west_bund",
+        "max_walking_km": null,
+        "visit_mode_overrides": {},
+        "surprise_seed": 0,
+        "needs_clarification": false,
+        "missing_fields": [],
+        "clarification_requests": [],
+        "warnings": [],
+        "semantic_concepts": [
+          {
+            "concept": "art",
+            "primary": "art",
+            "secondary": []
+          }
+        ]
+      },
+      "result": {
+        "status": "composition_failure",
+        "intent": {
+          "route_mode": "plan_for_me",
+          "start_location_text": null,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "available_minutes": 180,
+          "interest_tags": [
+            "art"
+          ],
+          "experience_tags": [],
+          "culture_tags": [],
+          "avoid_tags": [
+            "museum_visit"
+          ],
+          "avoid_poi_ids": [],
+          "unresolved_negative_preferences": [],
+          "travel_pace": "standard",
+          "must_go_poi_ids": [],
+          "preferred_zone": "west_bund",
+          "max_walking_km": null,
+          "visit_mode_overrides": {},
+          "surprise_seed": 0,
+          "needs_clarification": false,
+          "missing_fields": [],
+          "clarification_requests": [],
+          "warnings": [],
+          "semantic_concepts": [
+            {
+              "concept": "art",
+              "primary": "art",
+              "secondary": []
+            }
+          ]
+        },
+        "route_plan": {
+          "status": "composition_failure",
+          "request": {
+            "available_minutes": 180,
+            "start_lat": null,
+            "start_lng": null,
+            "start_coordinate_system": "GCJ-02",
+            "interest_tags": [
+              "art"
+            ],
+            "experience_tags": [],
+            "culture_tags": [],
+            "must_go_poi_ids": [],
+            "preferred_zone": "west_bund",
+            "max_walking_km": null,
+            "avoid_crowds": false,
+            "environment_preference": null,
+            "travel_pace": "standard",
+            "visit_mode_overrides": {},
+            "full_visit_unavailable_poi_ids": [],
+            "willing_to_buy_tickets": true,
+            "allow_mode_downgrade": true,
+            "avoid_tags": [
+              "museum_visit"
+            ],
+            "avoid_poi_ids": [],
+            "route_mode": "plan_for_me"
+          },
+          "selected_zone": "west_bund",
+          "ordered_pois": [
+            {
+              "poi_id": "p36",
+              "display_order": 28,
+              "poi_type": "venue",
+              "name_zh": "西岸艺术中心",
+              "name_en": "West Bund Art Center",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 15.0,
+              "estimated_distance_from_previous_stop_km": 0.0,
+              "estimated_walking_minutes": 0.0,
+              "recommendation_score": 9.0,
+              "matched_tags": {
+                "interest_tags": [
+                  "art"
+                ],
+                "experience_tags": [],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: art. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": null,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.167719,
+                121.461939
+              ],
+              "original_coordinates": [
+                31.167719,
+                121.461939
+              ],
+              "original_coordinate_system": "GCJ-02",
+              "visit_scope": "官方说明保留飞机制造厂冲压车间的建筑与工业空间，并承载文化活动。可独立观察再利用空间，作为滨江主题的补充站；展览内容和可进入范围未核实，暂不将其当作主目的地。",
+              "selection_reason": "core_match",
+              "effective_primary_role": "supporting_stop",
+              "estimated_distance_from_previous": 0.0,
+              "estimated_walking_minutes_from_previous": 0.0
+            },
+            {
+              "poi_id": "p37",
+              "display_order": 29,
+              "poi_type": "venue",
+              "name_zh": "西岸穹顶艺术中心（含北广场）",
+              "name_en": "West Bund Dome Art Center (including North Plaza)",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 60.0,
+              "estimated_distance_from_previous_stop_km": 0.7053766410975693,
+              "estimated_walking_minutes": 9.405021881300923,
+              "recommendation_score": 7.9419350383536464,
+              "matched_tags": {
+                "interest_tags": [
+                  "art"
+                ],
+                "experience_tags": [],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: art. Located in West Bund Waterfront. Visit mode: full_visit; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "full_visit",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": null,
+              "reservation_required": null,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.163167,
+                121.464561
+              ],
+              "original_coordinates": [
+                31.163167,
+                121.464561
+              ],
+              "original_coordinate_system": "GCJ-02",
+              "visit_scope": "场馆内部/演出文化访问；仅在另行核实活动及入场条件时使用",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "supporting_stop",
+              "estimated_distance_from_previous": 0.7053766410975693,
+              "estimated_walking_minutes_from_previous": 9.405021881300923
+            },
+            {
+              "poi_id": "p41",
+              "display_order": 35,
+              "poi_type": "venue",
+              "name_zh": "西岸大剧院",
+              "name_en": "West Bund Theatre",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 20.0,
+              "estimated_distance_from_previous_stop_km": 0.14092856486444227,
+              "estimated_walking_minutes": 1.879047531525897,
+              "recommendation_score": 8.788607152703337,
+              "matched_tags": {
+                "interest_tags": [
+                  "art"
+                ],
+                "experience_tags": [],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: art. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": null,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.163461,
+                121.465695
+              ],
+              "original_coordinates": [
+                31.163461,
+                121.465695
+              ],
+              "original_coordinate_system": "GCJ-02",
+              "visit_scope": "walk_stop 产品估时仅适用另行确认的参观范围；观演时长取实际节目，不推定免费或随时入内。",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "supporting_stop",
+              "estimated_distance_from_previous": 0.14092856486444227,
+              "estimated_walking_minutes_from_previous": 1.879047531525897
+            }
+          ],
+          "cross_zone_required": false,
+          "total_estimated_distance_km": 0.8463052059620115,
+          "total_estimated_walking_minutes": 11.28406941282682,
+          "total_stay_minutes": 95.0,
+          "buffer_minutes": 15,
+          "total_estimated_minutes": 121.28406941282682,
+          "remaining_minutes": 58.715930587173176,
+          "warnings": [
+            "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+            "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+            "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+            "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+            "visit_time_pending_manual_calibration: p36 walk_stop; product estimate.",
+            "crowd_level_unknown: p36; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p36; unknown does not mean free or reservation-free.",
+            "visit_mode_expanded_for_time_utilization: p37; walk_stop -> full_visit; still a product planning estimate.",
+            "visit_time_pending_manual_calibration: p37 full_visit; product estimate.",
+            "crowd_level_unknown: p37; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p37; unknown does not mean free or reservation-free.",
+            "visit_time_pending_manual_calibration: p41 walk_stop; product estimate.",
+            "crowd_level_unknown: p41; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p41; unknown does not mean free or reservation-free.",
+            "richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 4-5 stops; actual 3. This is a soft preference, not a failure."
+          ],
+          "explanation": "Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+          "errors": [
+            "requires an anchor and at least two anchor/supporting stops"
+          ],
+          "relaxation_suggestions": [],
+          "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+          "distance_method": "estimated: Haversine × configured walking_distance_factor",
+          "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+          "richness_target": {
+            "min_stops": 4,
+            "max_stops": 5
+          },
+          "richness_target_met": false,
+          "time_utilization_ratio": 0.6738003856268157,
+          "estimated_max_single_leg_km": 0.7053766410975693,
+          "long_estimated_leg_warning": false,
+          "composition_diagnostics": {
+            "enabled": true,
+            "minimum_stop_count_passed": true,
+            "route_composition_passed": false,
+            "primary_role_counts": {
+              "supporting_stop": 3
+            },
+            "longest_transition_run": 0,
+            "transition_soft_preference_passed": true,
+            "basis": "primary roles only; visit modes never promote roles",
+            "failure_reason": "requires an anchor and at least two anchor/supporting stops"
+          }
+        },
+        "feasibility": null,
+        "surprise_theme": null,
+        "warnings": [],
+        "errors": [],
+        "route_quality": null
+      },
+      "provider_metadata": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 2541,
+          "completion_tokens": 114,
+          "total_tokens": 2655,
+          "prompt_tokens_details": {
+            "cached_tokens": 896
+          },
+          "prompt_cache_hit_tokens": 896,
+          "prompt_cache_miss_tokens": 1645
+        }
+      },
+      "status": "contract_passed"
+    },
+    {
+      "prompt": "Give me a three-hour outdoor West Bund walk with river views and public spaces. No museums.",
+      "parsed_intent": {
+        "route_mode": "plan_for_me",
+        "start_location_text": null,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "available_minutes": 180,
+        "interest_tags": [
+          "waterfront",
+          "parks"
+        ],
+        "experience_tags": [
+          "riverside_walk"
+        ],
+        "culture_tags": [],
+        "avoid_tags": [
+          "museum_visit"
+        ],
+        "avoid_poi_ids": [],
+        "unresolved_negative_preferences": [],
+        "travel_pace": "standard",
+        "must_go_poi_ids": [],
+        "preferred_zone": "west_bund",
+        "max_walking_km": null,
+        "visit_mode_overrides": {},
+        "surprise_seed": 0,
+        "needs_clarification": false,
+        "missing_fields": [],
+        "clarification_requests": [],
+        "warnings": [],
+        "semantic_concepts": [
+          {
+            "concept": "river views",
+            "primary": "waterfront",
+            "secondary": []
+          },
+          {
+            "concept": "public spaces",
+            "primary": "parks",
+            "secondary": []
+          },
+          {
+            "concept": "outdoor West Bund walk",
+            "primary": "riverside_walk",
+            "secondary": []
+          }
+        ]
+      },
+      "result": {
+        "status": "success",
+        "intent": {
+          "route_mode": "plan_for_me",
+          "start_location_text": null,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "available_minutes": 180,
+          "interest_tags": [
+            "waterfront",
+            "parks"
+          ],
+          "experience_tags": [
+            "riverside_walk"
+          ],
+          "culture_tags": [],
+          "avoid_tags": [
+            "museum_visit"
+          ],
+          "avoid_poi_ids": [],
+          "unresolved_negative_preferences": [],
+          "travel_pace": "standard",
+          "must_go_poi_ids": [],
+          "preferred_zone": "west_bund",
+          "max_walking_km": null,
+          "visit_mode_overrides": {},
+          "surprise_seed": 0,
+          "needs_clarification": false,
+          "missing_fields": [],
+          "clarification_requests": [],
+          "warnings": [],
+          "semantic_concepts": [
+            {
+              "concept": "river views",
+              "primary": "waterfront",
+              "secondary": []
+            },
+            {
+              "concept": "public spaces",
+              "primary": "parks",
+              "secondary": []
+            },
+            {
+              "concept": "outdoor West Bund walk",
+              "primary": "riverside_walk",
+              "secondary": []
+            }
+          ]
+        },
+        "route_plan": {
+          "status": "success",
+          "request": {
+            "available_minutes": 180,
+            "start_lat": null,
+            "start_lng": null,
+            "start_coordinate_system": "GCJ-02",
+            "interest_tags": [
+              "waterfront",
+              "parks"
+            ],
+            "experience_tags": [
+              "riverside_walk"
+            ],
+            "culture_tags": [],
+            "must_go_poi_ids": [],
+            "preferred_zone": "west_bund",
+            "max_walking_km": null,
+            "avoid_crowds": false,
+            "environment_preference": null,
+            "travel_pace": "standard",
+            "visit_mode_overrides": {},
+            "full_visit_unavailable_poi_ids": [],
+            "willing_to_buy_tickets": true,
+            "allow_mode_downgrade": true,
+            "avoid_tags": [
+              "museum_visit"
+            ],
+            "avoid_poi_ids": [],
+            "route_mode": "plan_for_me"
+          },
+          "selected_zone": "west_bund",
+          "ordered_pois": [
+            {
+              "poi_id": "p30",
+              "display_order": 22,
+              "poi_type": "district",
+              "name_zh": "Gate M 西岸梦中心",
+              "name_en": "Gate M West Bund Dream Center",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 30.0,
+              "estimated_distance_from_previous_stop_km": 0.0,
+              "estimated_walking_minutes": 0.0,
+              "recommendation_score": 11.0,
+              "matched_tags": {
+                "interest_tags": [
+                  "waterfront"
+                ],
+                "experience_tags": [
+                  "riverside_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: waterfront, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.16119,
+                121.465465
+              ],
+              "original_coordinates": [
+                31.16119,
+                121.465465
+              ],
+              "original_coordinate_system": "GCJ-02 / Amap",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "anchor",
+              "estimated_distance_from_previous": 0.0,
+              "estimated_walking_minutes_from_previous": 0.0
+            },
+            {
+              "poi_id": "p39",
+              "display_order": 31,
+              "poi_type": "park",
+              "name_zh": "徐汇跑道公园",
+              "name_en": "Xuhui Runway Park",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 20.0,
+              "estimated_distance_from_previous_stop_km": 1.3801518857310233,
+              "estimated_walking_minutes": 18.402025143080312,
+              "recommendation_score": 6.9297721714034655,
+              "matched_tags": {
+                "interest_tags": [
+                  "parks"
+                ],
+                "experience_tags": [],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: parks. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": null,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.168592,
+                121.45773
+              ],
+              "original_coordinates": [
+                31.168592,
+                121.45773
+              ],
+              "original_coordinate_system": "GCJ-02",
+              "visit_scope": "官方说明机场跑道转为街道、公园及多种交通休闲空间；可作为独立的线性空间观察站。水系不等于黄浦江滨水路线，因此移除 waterfront/riverside_walk；试点边界仍待核实。",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "supporting_stop",
+              "estimated_distance_from_previous": 1.3801518857310233,
+              "estimated_walking_minutes_from_previous": 18.402025143080312
+            },
+            {
+              "poi_id": "p42",
+              "display_order": 33,
+              "poi_type": "landmark",
+              "name_zh": "徐汇滨江海事塔广场",
+              "name_en": "Xuhui Riverside Maritime Tower Square",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 10.0,
+              "estimated_distance_from_previous_stop_km": 1.3628461246794275,
+              "estimated_walking_minutes": 18.171281662392367,
+              "recommendation_score": 8.955730812980859,
+              "matched_tags": {
+                "interest_tags": [
+                  "waterfront"
+                ],
+                "experience_tags": [
+                  "riverside_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: waterfront, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": null,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.177546,
+                121.4624
+              ],
+              "original_coordinates": [
+                31.177546,
+                121.4624
+              ],
+              "original_coordinate_system": "GCJ-02",
+              "visit_scope": "地图确认滨江城市广场身份，空间位置可补充两处较强节点之间的短停；没有独立展览或复杂历史内容证据，故不提议 anchor。可达范围待核实。",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "transition_stop",
+              "estimated_distance_from_previous": 1.3628461246794275,
+              "estimated_walking_minutes_from_previous": 18.171281662392367
+            },
+            {
+              "poi_id": "p43",
+              "display_order": 34,
+              "poi_type": "landmark",
+              "name_zh": "北票码头塔吊",
+              "name_en": "Beipiao Wharf Crane",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 10.0,
+              "estimated_distance_from_previous_stop_km": 0.6672344794431618,
+              "estimated_walking_minutes": 8.896459725908825,
+              "recommendation_score": 9.999148280835257,
+              "matched_tags": {
+                "interest_tags": [
+                  "waterfront"
+                ],
+                "experience_tags": [
+                  "riverside_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: waterfront, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": null,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.1819,
+                121.464763
+              ],
+              "original_coordinates": [
+                31.1819,
+                121.464763
+              ],
+              "original_coordinate_system": "GCJ-02",
+              "visit_scope": "塔吊及公共滨江地址支持工业构筑物的短时观察；设备不是因为视觉上有艺术感就成为 art。与塔吊广场的身份/范围关系未确证，不同时计作两站。",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "transition_stop",
+              "estimated_distance_from_previous": 0.6672344794431618,
+              "estimated_walking_minutes_from_previous": 8.896459725908825
+            },
+            {
+              "poi_id": "p38",
+              "display_order": 30,
+              "poi_type": "park",
+              "name_zh": "滨江滑板公园",
+              "name_en": "Riverside Skateboard Park",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 15.0,
+              "estimated_distance_from_previous_stop_km": 0.6706381355788266,
+              "estimated_walking_minutes": 8.941841807717687,
+              "recommendation_score": 14.99404279663176,
+              "matched_tags": {
+                "interest_tags": [
+                  "parks",
+                  "waterfront"
+                ],
+                "experience_tags": [
+                  "riverside_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: parks, waterfront, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": null,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.185976,
+                121.467781
+              ],
+              "original_coordinates": [
+                31.185976,
+                121.467781
+              ],
+              "original_coordinate_system": "GCJ-02",
+              "visit_scope": "官方描述专业户外场地及本地滑板社群聚集，可有目的地观察公共活动；不是仅因位于滨江赋予社会观察标签。多源坐标为不同代表点，入口和观察边界仍需核对。",
+              "selection_reason": "core_match",
+              "effective_primary_role": "supporting_stop",
+              "estimated_distance_from_previous": 0.6706381355788266,
+              "estimated_walking_minutes_from_previous": 8.941841807717687
+            }
+          ],
+          "cross_zone_required": false,
+          "total_estimated_distance_km": 4.080870625432439,
+          "total_estimated_walking_minutes": 54.41160833909919,
+          "total_stay_minutes": 85.0,
+          "buffer_minutes": 15,
+          "total_estimated_minutes": 154.4116083390992,
+          "remaining_minutes": 25.58839166090081,
+          "warnings": [
+            "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+            "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+            "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+            "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+            "representative_coordinate: p30; this anchor is not the whole area's unique location or entry/exit.",
+            "visit_time_pending_manual_calibration: p39 walk_stop; product estimate.",
+            "crowd_level_unknown: p39; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p39; unknown does not mean free or reservation-free.",
+            "visit_time_pending_manual_calibration: p42 walk_stop; product estimate.",
+            "crowd_level_unknown: p42; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p42; unknown does not mean free or reservation-free.",
+            "visit_time_pending_manual_calibration: p43 walk_stop; product estimate.",
+            "crowd_level_unknown: p43; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p43; unknown does not mean free or reservation-free.",
+            "visit_time_pending_manual_calibration: p38 walk_stop; product estimate.",
+            "crowd_level_unknown: p38; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p38; unknown does not mean free or reservation-free."
+          ],
+          "explanation": "Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+          "errors": [],
+          "relaxation_suggestions": [],
+          "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+          "distance_method": "estimated: Haversine × configured walking_distance_factor",
+          "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+          "richness_target": {
+            "min_stops": 4,
+            "max_stops": 5
+          },
+          "richness_target_met": true,
+          "time_utilization_ratio": 0.857842268550551,
+          "estimated_max_single_leg_km": 1.3801518857310233,
+          "long_estimated_leg_warning": false,
+          "composition_diagnostics": {
+            "enabled": true,
+            "minimum_stop_count_passed": true,
+            "route_composition_passed": true,
+            "primary_role_counts": {
+              "anchor": 1,
+              "supporting_stop": 2,
+              "transition_stop": 2
+            },
+            "longest_transition_run": 2,
+            "transition_soft_preference_passed": true,
+            "basis": "primary roles only; visit modes never promote roles",
+            "failure_reason": null
+          }
+        },
+        "feasibility": null,
+        "surprise_theme": null,
+        "warnings": [],
+        "errors": [],
+        "route_quality": {
+          "status": "passed",
+          "minimum_required_stops": 3,
+          "minimum_viable": true,
+          "reasons": [],
+          "available_minutes": 180,
+          "actual_stops": 5,
+          "preferred_min_stops": 4,
+          "time_utilization_ratio": 0.857842268550551,
+          "remaining_minutes": 25.58839166090081,
+          "candidate_availability": {
+            "eligible_same_zone": 8,
+            "matching_same_zone": 5
+          },
+          "question": null,
+          "options": [],
+          "clarification_applied": false,
+          "preference_broadening": null
+        }
+      },
+      "provider_metadata": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 2540,
+          "completion_tokens": 180,
+          "total_tokens": 2720,
+          "prompt_tokens_details": {
+            "cached_tokens": 2304
+          },
+          "prompt_cache_hit_tokens": 2304,
+          "prompt_cache_miss_tokens": 236
+        }
+      },
+      "status": "contract_passed"
+    },
+    {
+      "prompt": "I have three hours in the West Bund and want to understand Shanghai industrial past while walking along the river.",
+      "parsed_intent": {
+        "route_mode": "plan_for_me",
+        "start_location_text": null,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "available_minutes": 180,
+        "interest_tags": [
+          "industrial_heritage",
+          "waterfront"
+        ],
+        "experience_tags": [
+          "riverside_walk"
+        ],
+        "culture_tags": [
+          "industrial_transformation"
+        ],
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "unresolved_negative_preferences": [],
+        "travel_pace": "standard",
+        "must_go_poi_ids": [],
+        "preferred_zone": "west_bund",
+        "max_walking_km": null,
+        "visit_mode_overrides": {},
+        "surprise_seed": 0,
+        "needs_clarification": false,
+        "missing_fields": [],
+        "clarification_requests": [],
+        "warnings": [],
+        "semantic_concepts": [
+          {
+            "concept": "understand Shanghai industrial past",
+            "primary": "industrial_heritage",
+            "secondary": [
+              "industrial_transformation"
+            ]
+          },
+          {
+            "concept": "walking along the river",
+            "primary": "waterfront",
+            "secondary": [
+              "riverside_walk"
+            ]
+          }
+        ]
+      },
+      "result": {
+        "status": "success",
+        "intent": {
+          "route_mode": "plan_for_me",
+          "start_location_text": null,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "available_minutes": 180,
+          "interest_tags": [
+            "industrial_heritage",
+            "waterfront"
+          ],
+          "experience_tags": [
+            "riverside_walk"
+          ],
+          "culture_tags": [
+            "industrial_transformation"
+          ],
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "unresolved_negative_preferences": [],
+          "travel_pace": "standard",
+          "must_go_poi_ids": [],
+          "preferred_zone": "west_bund",
+          "max_walking_km": null,
+          "visit_mode_overrides": {},
+          "surprise_seed": 0,
+          "needs_clarification": false,
+          "missing_fields": [],
+          "clarification_requests": [],
+          "warnings": [],
+          "semantic_concepts": [
+            {
+              "concept": "understand Shanghai industrial past",
+              "primary": "industrial_heritage",
+              "secondary": [
+                "industrial_transformation"
+              ]
+            },
+            {
+              "concept": "walking along the river",
+              "primary": "waterfront",
+              "secondary": [
+                "riverside_walk"
+              ]
+            }
+          ]
+        },
+        "route_plan": {
+          "status": "success",
+          "request": {
+            "available_minutes": 180,
+            "start_lat": null,
+            "start_lng": null,
+            "start_coordinate_system": "GCJ-02",
+            "interest_tags": [
+              "industrial_heritage",
+              "waterfront"
+            ],
+            "experience_tags": [
+              "riverside_walk"
+            ],
+            "culture_tags": [
+              "industrial_transformation"
+            ],
+            "must_go_poi_ids": [],
+            "preferred_zone": "west_bund",
+            "max_walking_km": null,
+            "avoid_crowds": false,
+            "environment_preference": null,
+            "travel_pace": "standard",
+            "visit_mode_overrides": {},
+            "full_visit_unavailable_poi_ids": [],
+            "willing_to_buy_tickets": true,
+            "allow_mode_downgrade": true,
+            "avoid_tags": [],
+            "avoid_poi_ids": [],
+            "route_mode": "plan_for_me"
+          },
+          "selected_zone": "west_bund",
+          "ordered_pois": [
+            {
+              "poi_id": "p30",
+              "display_order": 22,
+              "poi_type": "district",
+              "name_zh": "Gate M 西岸梦中心",
+              "name_en": "Gate M West Bund Dream Center",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 30.0,
+              "estimated_distance_from_previous_stop_km": 0.0,
+              "estimated_walking_minutes": 0.0,
+              "recommendation_score": 17.0,
+              "matched_tags": {
+                "interest_tags": [
+                  "industrial_heritage",
+                  "waterfront"
+                ],
+                "experience_tags": [
+                  "riverside_walk"
+                ],
+                "culture_tags": [
+                  "industrial_transformation"
+                ]
+              },
+              "reason_for_recommendation": "Recommended because it matches: industrial_heritage, waterfront, riverside_walk, industrial_transformation. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.16119,
+                121.465465
+              ],
+              "original_coordinates": [
+                31.16119,
+                121.465465
+              ],
+              "original_coordinate_system": "GCJ-02 / Amap",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "anchor",
+              "estimated_distance_from_previous": 0.0,
+              "estimated_walking_minutes_from_previous": 0.0
+            },
+            {
+              "poi_id": "p29",
+              "display_order": 21,
+              "poi_type": "venue",
+              "name_zh": "上海油罐艺术中心",
+              "name_en": "TANK Shanghai",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 25.0,
+              "estimated_distance_from_previous_stop_km": 0.48230118522827403,
+              "estimated_walking_minutes": 6.43068246971032,
+              "recommendation_score": 16.27654822215759,
+              "matched_tags": {
+                "interest_tags": [
+                  "industrial_heritage",
+                  "waterfront"
+                ],
+                "experience_tags": [
+                  "riverside_walk"
+                ],
+                "culture_tags": [
+                  "industrial_transformation"
+                ]
+              },
+              "reason_for_recommendation": "Recommended because it matches: industrial_heritage, waterfront, riverside_walk, industrial_transformation. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.164519,
+                121.464321
+              ],
+              "original_coordinates": [
+                31.164519,
+                121.464321
+              ],
+              "original_coordinate_system": "GCJ-02 / Amap",
+              "visit_scope": "Exterior tanks, industrial heritage and waterfront public space; no exhibition entry.",
+              "selection_reason": "core_match",
+              "effective_primary_role": "anchor",
+              "estimated_distance_from_previous": 0.48230118522827403,
+              "estimated_walking_minutes_from_previous": 6.43068246971032
+            },
+            {
+              "poi_id": "p28",
+              "display_order": 20,
+              "poi_type": "venue",
+              "name_zh": "西岸美术馆",
+              "name_en": "West Bund Museum",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 20.0,
+              "estimated_distance_from_previous_stop_km": 0.44332853829981694,
+              "estimated_walking_minutes": 5.911047177330893,
+              "recommendation_score": 11.335007192550275,
+              "matched_tags": {
+                "interest_tags": [
+                  "waterfront"
+                ],
+                "experience_tags": [
+                  "riverside_walk"
+                ],
+                "culture_tags": [
+                  "industrial_transformation"
+                ]
+              },
+              "reason_for_recommendation": "Recommended because it matches: waterfront, riverside_walk, industrial_transformation. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard. Downgraded because: insufficient_time.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "full_visit",
+              "downgrade_reason": "insufficient_time",
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": "Tue-Sun 11:00-18:00; last entry 17:00; Monday closed",
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.167682,
+                121.463841
+              ],
+              "original_coordinates": [
+                31.167682,
+                121.463841
+              ],
+              "original_coordinate_system": "GCJ-02 / Amap",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "anchor",
+              "estimated_distance_from_previous": 0.44332853829981694,
+              "estimated_walking_minutes_from_previous": 5.911047177330893
+            },
+            {
+              "poi_id": "p43",
+              "display_order": 34,
+              "poi_type": "landmark",
+              "name_zh": "北票码头塔吊",
+              "name_en": "Beipiao Wharf Crane",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 10.0,
+              "estimated_distance_from_previous_stop_km": 1.979253968673333,
+              "estimated_walking_minutes": 26.39005291564444,
+              "recommendation_score": 13.03111904699,
+              "matched_tags": {
+                "interest_tags": [
+                  "industrial_heritage",
+                  "waterfront"
+                ],
+                "experience_tags": [
+                  "riverside_walk"
+                ],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Recommended because it matches: industrial_heritage, waterfront, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "walk_stop",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": null,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.1819,
+                121.464763
+              ],
+              "original_coordinates": [
+                31.1819,
+                121.464763
+              ],
+              "original_coordinate_system": "GCJ-02",
+              "visit_scope": "塔吊及公共滨江地址支持工业构筑物的短时观察；设备不是因为视觉上有艺术感就成为 art。与塔吊广场的身份/范围关系未确证，不同时计作两站。",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "transition_stop",
+              "estimated_distance_from_previous": 1.979253968673333,
+              "estimated_walking_minutes_from_previous": 26.39005291564444
+            },
+            {
+              "poi_id": "p5",
+              "display_order": 3,
+              "poi_type": "venue",
+              "name_zh": "龙美术馆（西岸馆）",
+              "name_en": "Long Museum (West Bund)",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 25.0,
+              "estimated_distance_from_previous_stop_km": 0.4040661532319981,
+              "estimated_walking_minutes": 5.387548709759975,
+              "recommendation_score": 16.393900770152,
+              "matched_tags": {
+                "interest_tags": [
+                  "industrial_heritage",
+                  "waterfront"
+                ],
+                "experience_tags": [
+                  "riverside_walk"
+                ],
+                "culture_tags": [
+                  "industrial_transformation"
+                ]
+              },
+              "reason_for_recommendation": "Recommended because it matches: industrial_heritage, waterfront, riverside_walk, industrial_transformation. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard. Downgraded because: insufficient_time.",
+              "must_go": false,
+              "selected_visit_mode": "walk_stop",
+              "travel_pace": "standard",
+              "requested_visit_mode": "full_visit",
+              "downgrade_reason": "insufficient_time",
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": false,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.1848,
+                121.465
+              ],
+              "original_coordinates": [
+                31.1848,
+                121.465
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Key exterior/public-space observation.",
+              "selection_reason": "richness_expansion",
+              "effective_primary_role": "anchor",
+              "estimated_distance_from_previous": 0.4040661532319981,
+              "estimated_walking_minutes_from_previous": 5.387548709759975
+            }
+          ],
+          "cross_zone_required": false,
+          "total_estimated_distance_km": 3.308949845433422,
+          "total_estimated_walking_minutes": 44.11933127244563,
+          "total_stay_minutes": 110.0,
+          "buffer_minutes": 15,
+          "total_estimated_minutes": 169.11933127244563,
+          "remaining_minutes": 10.880668727554365,
+          "warnings": [
+            "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+            "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+            "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+            "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+            "representative_coordinate: p30; this anchor is not the whole area's unique location or entry/exit.",
+            "visit_mode_downgraded: p28: full_visit -> walk_stop; insufficient_time.",
+            "visit_time_pending_manual_calibration: p28 walk_stop; product estimate.",
+            "visit_time_pending_manual_calibration: p43 walk_stop; product estimate.",
+            "crowd_level_unknown: p43; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p43; unknown does not mean free or reservation-free.",
+            "visit_mode_downgraded: p5: full_visit -> walk_stop; insufficient_time.",
+            "visit_time_pending_manual_calibration: p5 walk_stop; product estimate.",
+            "crowd_level_unknown: p5; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p5; unknown does not mean free or reservation-free."
+          ],
+          "explanation": "Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+          "errors": [],
+          "relaxation_suggestions": [],
+          "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+          "distance_method": "estimated: Haversine × configured walking_distance_factor",
+          "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+          "richness_target": {
+            "min_stops": 4,
+            "max_stops": 5
+          },
+          "richness_target_met": true,
+          "time_utilization_ratio": 0.9395518404024757,
+          "estimated_max_single_leg_km": 1.979253968673333,
+          "long_estimated_leg_warning": false,
+          "composition_diagnostics": {
+            "enabled": true,
+            "minimum_stop_count_passed": true,
+            "route_composition_passed": true,
+            "primary_role_counts": {
+              "anchor": 4,
+              "transition_stop": 1
+            },
+            "longest_transition_run": 1,
+            "transition_soft_preference_passed": true,
+            "basis": "primary roles only; visit modes never promote roles",
+            "failure_reason": null
+          }
+        },
+        "feasibility": null,
+        "surprise_theme": null,
+        "warnings": [],
+        "errors": [],
+        "route_quality": {
+          "status": "passed",
+          "minimum_required_stops": 3,
+          "minimum_viable": true,
+          "reasons": [],
+          "available_minutes": 180,
+          "actual_stops": 5,
+          "preferred_min_stops": 4,
+          "time_utilization_ratio": 0.9395518404024757,
+          "remaining_minutes": 10.880668727554365,
+          "candidate_availability": {
+            "eligible_same_zone": 13,
+            "matching_same_zone": 9
+          },
+          "question": null,
+          "options": [],
+          "clarification_applied": false,
+          "preference_broadening": null
+        }
+      },
+      "provider_metadata": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 2542,
+          "completion_tokens": 222,
+          "total_tokens": 2764,
+          "prompt_tokens_details": {
+            "cached_tokens": 2304
+          },
+          "prompt_cache_hit_tokens": 2304,
+          "prompt_cache_miss_tokens": 238
+        }
+      },
+      "status": "contract_passed"
+    }
+  ]
+}

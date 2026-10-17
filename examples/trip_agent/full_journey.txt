@@ -1,0 +1,80 @@
+Provider: MOCK | Initial route: RouteEntryService + RouteEngine
+You: I have three hours and want architecture, industrial heritage and river views around West Bund.
+Assistant: Your route is ready. Type start when you are ready.
+Phase: ROUTE_READY
+Route: TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+Current planned stop: none | remaining: 3 | minutes: 180 | version: v1
+You: start
+Assistant: Trip started.
+Phase: ACTIVE_TRIP
+Current planned stop: TANK Shanghai | remaining: 3 | minutes: 180 | version: v1
+You: I've finished this stop.
+Assistant: Stop completed.
+Phase: ACTIVE_TRIP
+Completed: TANK Shanghai
+Current planned stop: Beipiao Wharf Crane | remaining: 2 | minutes: 180 | version: v1
+You: Skip this place.
+Assistant: Route updated
+Phase: ACTIVE_TRIP
+  A saved skip was applied before replanning.
+Route: West Bund Museum → West Bund Art Center → Xuhui Riverside Maritime Tower Square → Long Museum (West Bund)
+Current planned stop: West Bund Museum | remaining: 4 | minutes: 180 | version: v2
+Route updated: v1 → v2
+removed stops : 
+added stops : West Bund Museum, West Bund Art Center, Xuhui Riverside Maritime Tower Square
+kept stops : Long Museum (West Bund)
+You: I only have one hour left.
+Assistant: Route updated
+Phase: ACTIVE_TRIP
+  Remaining time was reduced to 60 minutes.
+Route: West Bund Museum → West Bund Art Center
+Current planned stop: West Bund Museum | remaining: 2 | minutes: 60 | version: v3
+Route updated: v2 → v3
+removed stops : Xuhui Riverside Maritime Tower Square, Long Museum (West Bund)
+added stops : 
+kept stops : West Bund Museum, West Bund Art Center
+You: Why did you change my route?
+Assistant: Route updated
+Phase: ACTIVE_TRIP
+  Remaining time was reduced to 60 minutes.
+Current planned stop: West Bund Museum | remaining: 2 | minutes: 60 | version: v3
+removed stops : Xuhui Riverside Maritime Tower Square, Long Museum (West Bund)
+added stops : 
+kept stops : West Bund Museum, West Bund Art Center
+You: What changes have been made to my route?
+Assistant: show route history
+Phase: ACTIVE_TRIP
+Current planned stop: West Bund Museum | remaining: 2 | minutes: 60 | version: v3
+v1 | initial plan | remaining budget: 180
+   TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+v2 | stop skipped | remaining budget: 180
+   West Bund Museum → West Bund Art Center → Xuhui Riverside Maritime Tower Square → Long Museum (West Bund)
+v3 | time reduced | remaining budget: 60
+   West Bund Museum → West Bund Art Center
+You: Show me my original route.
+Assistant: show original route
+Phase: ACTIVE_TRIP
+Route: TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+Current planned stop: West Bund Museum | remaining: 2 | minutes: 60 | version: v3
+You: I've finished this stop.
+Assistant: Stop completed.
+Phase: ACTIVE_TRIP
+Completed: West Bund Museum
+Current planned stop: West Bund Art Center | remaining: 1 | minutes: 60 | version: v3
+You: I've finished this stop.
+Assistant: Trip completed.
+Phase: COMPLETED
+Completed: West Bund Art Center
+Current planned stop: none | remaining: 0 | minutes: 60 | version: v3
+Trip: COMPLETED | visited: TANK Shanghai, West Bund Museum, West Bund Art Center | skipped: Beipiao Wharf Crane | replans: 2
+Original route: TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+Final route: West Bund Museum → West Bund Art Center
+Minutes: original 180 | elapsed 0 | remaining 60
+You: summary
+Assistant: success query
+Phase: COMPLETED
+Current planned stop: none | remaining: 0 | minutes: 60 | version: v3
+Trip: COMPLETED | visited: TANK Shanghai, West Bund Museum, West Bund Art Center | skipped: Beipiao Wharf Crane | replans: 2
+Original route: TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+Final route: West Bund Museum → West Bund Art Center
+Minutes: original 180 | elapsed 0 | remaining 60

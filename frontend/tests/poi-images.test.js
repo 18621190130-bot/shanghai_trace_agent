@@ -1,0 +1,10 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {resolvePoiImage,safePoiImageUrl} from '../poi-images.js';import {imageSlot} from '../components.js';
+const poi={name_en:'Wukang Mansion',name_zh:'武康大楼'};
+const row={poi_id:'p13',route_role:'supporting_stop',source:'AMAP',status:'AVAILABLE',reviewed:true,image_url:'https://store.is.autonavi.com/example.jpg'};
+const resolve=(r=row,extra={})=>resolvePoiImage('p13',{manifest:{records:[r]},poi,...extra});
+test('curated has priority and provider cannot fill anchor slots',()=>{assert.equal(resolve(row,{curated:{p13:{src:'/assets/curated.webp'}}}).source,'CURATED');assert.equal(resolve({...row,route_role:'anchor'}).src,null);assert.equal(resolve({...row,route_role:'anchor',source:'CURATED',image_url:'/assets/curated.webp'}).source,'CURATED');});
+test('reviewed AMap, manual and fallback resolve consistently',()=>{assert.equal(resolve().source,'AMAP');assert.equal(resolve({...row,reviewed:false}).src,null);assert.equal(resolve({...row,source:'MANUAL_WEB',image_url:'/assets/poi-images/p13.webp'}).source,'MANUAL_WEB');assert.equal(resolve({...row,status:'REJECTED'}).src,null);assert.equal(resolve({...row,image_url:'javascript:alert(1)'}).src,null);});
+test('bilingual alt uses Core names rather than provider titles',()=>{assert.equal(resolve().alt,'Wukang Mansion');assert.equal(resolve(row,{lang:'zh'}).alt,'武康大楼');});
+test('only approved provider HTTPS domains or local assets are accepted',()=>{for(const value of ['http://store.is.autonavi.com/a.jpg','https://amap.com.evil.test/a.jpg','https://user:password@amap.com/a.jpg','https://evil.test/a.jpg'])assert.equal(safePoiImageUrl(value,'AMAP'),null);});
+test('slots retain fallback structure behind images',()=>{const markup=imageSlot(resolve(),'Wukang Mansion','gallery-image');assert.match(markup,/class="slot-frame"/);assert.match(markup,/class="slot-label"/);assert.match(markup,/alt="Wukang Mansion"/);assert.match(markup,/referrerpolicy="no-referrer"/);});

@@ -1,0 +1,379 @@
+{
+  "errors": [
+    {
+      "source": "official",
+      "request": "https://www.shanghai.gov.cn/xuhui/index.html",
+      "error_type": "SourceError",
+      "status": "partial_source_failure"
+    }
+  ],
+  "deterministic_rejected": [
+    {
+      "record_id": "amap:B00155QNUQ",
+      "name": "徐家汇公园地下停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFFP35E8",
+      "name": "徐家汇公园停车场(出入口)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFHB9AHC",
+      "name": "徐家汇公园-公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B001574KZG",
+      "name": "阿迪达斯徐家汇公园篮球场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B00156CS7I",
+      "name": "徐家汇公园-公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAQSB",
+      "name": "徐家汇公园-花盆(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFHB98HY",
+      "name": "徐家汇公园地下停车场(入口)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFGXABHE",
+      "name": "徐家汇公园-公共厕所(暂停营业)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFFQO507",
+      "name": "徐家汇公园地下停车场(出口)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2KCJK14",
+      "name": "徐家汇公园-红色尖塔和红色栅栏(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0LDR5GXOC",
+      "name": "徐家汇公园精品套房美宿",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M2KKGUGQ",
+      "name": "徐家汇公园-栏杆处彩色花带(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M215XOWG",
+      "name": "徐家汇公园-栏杆处与樱花树合影(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MR3U2BDG",
+      "name": "徐家汇体育公园-P3地下停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MD0OTCMR",
+      "name": "徐家汇体育公园-室内匹克球馆",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0J3K5TSSG",
+      "name": "徐家汇体育公园P1停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFIRVA3R",
+      "name": "徐汇公园道一号接待会馆",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M61AGKS5",
+      "name": "徐家汇体育公园Wilson网球场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0KAL9EBVF",
+      "name": "徐家汇体育公园壁球馆",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B00151149F",
+      "name": "恒悦轩精致香港粤菜(徐家汇店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0H6GSXTKE",
+      "name": "三利音·东方融宴(徐家汇店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0HBGLEZOY",
+      "name": "公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAA7R",
+      "name": "上海工艺美术博物馆-法式复古建筑外观(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FSA9GR",
+      "name": "上海工艺美术博物馆-复古外侧楼梯(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M219YW9Y",
+      "name": "上海工艺美术博物馆-白色佛像展品(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FS9N21",
+      "name": "上海工艺美术博物馆-与欧式建筑楼梯合影(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MUBR869Q",
+      "name": "上海市工艺美术博物馆-内部专用地上停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAEJ3",
+      "name": "上海工艺美术博物馆-红地毯弧形楼梯(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FSACDA",
+      "name": "上海工艺美术博物馆-收割场景木雕(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFJ5FM2Q",
+      "name": "城宿团团公寓(上海工艺美术博物馆店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFGPRT7D",
+      "name": "上海工艺美术职业学院餐厅",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:BV10031578",
+      "name": "襄阳公园(公交站)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0LGOG5E8K",
+      "name": "襄阳公园-公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFF5VLTP",
+      "name": "襄阳公园-公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFG69ZVY",
+      "name": "襄阳北路-道路停车位",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0I2CLF5AP",
+      "name": "BOTTEGA意库(嘉华中心店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B00155KHOC",
+      "name": "HOMES上海本帮菜(必吃榜店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFK98X99",
+      "name": "上海水晶晶儿特色民宿(襄阳公园分店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFGDVAYX",
+      "name": "上海话剧艺术中心售票处",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFLI2AHQ",
+      "name": "上海话剧艺术中心-D6空间",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0HGXSWNOA",
+      "name": "话剧大厦停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFGOL5OV",
+      "name": "CHLOECHEN(武康路历史文化名街店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MG45XEYD",
+      "name": "武康路历史文化名街-欧式建筑橱窗(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAJCD",
+      "name": "武康路历史文化名街-地球仪玻璃橱窗(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFJQOFP2",
+      "name": "上海隐居繁华武康路公馆",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFFGNIM7",
+      "name": "ipluso意索(武康路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M1FD9UAB",
+      "name": "武康路历史文化名街-与花店橱窗合影(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MAZ7DOMM",
+      "name": "武康路历史文化名街-东侧地上停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M215XADO",
+      "name": "武康路历史文化名街-庭院小屋与桌椅(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2KGHQV0",
+      "name": "武康路历史文化名街-拍摄数字376墙面(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2OKZCH9",
+      "name": "武康路历史文化名街-咖啡馆外立面(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FS9N3V",
+      "name": "武康路历史文化名街-2店铺建筑外墙花艺装饰(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FS9N1E",
+      "name": "武康路历史文化名街-CIRCE店铺门口装饰(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAXWI",
+      "name": "武康路历史文化名街-欧式建筑橱窗(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M21HXNL1",
+      "name": "武康路历史文化名街-与红色盆景装饰合影(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2CZHDW3",
+      "name": "武康路历史文化名街-建筑阳台与向日葵(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAA0C",
+      "name": "武康路历史文化名街-和你相遇本身就很浪漫了文字牌(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAJGY",
+      "name": "武康路历史文化名街-建筑夜景(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFL2THMS",
+      "name": "乐恒地产(武康路历史文化名街店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M6VPI1QM",
+      "name": "御语画廊",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "osm:node/5530017323",
+      "name": "大韩民国临时政府旧址",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    }
+  ],
+  "raw_count": 303
+}

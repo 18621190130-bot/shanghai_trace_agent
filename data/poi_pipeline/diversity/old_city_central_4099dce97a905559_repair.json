@@ -1,0 +1,628 @@
+{
+  "candidate": {
+    "candidate_id": "old_city_central_4099dce97a905559",
+    "name_zh": "福州路",
+    "name_en": "",
+    "aliases": [],
+    "address": "黄浦区",
+    "coordinates": [
+      31.233657,
+      121.481917
+    ],
+    "entity_kind": "street",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "name_zh": "福州路",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄浦区",
+        "coordinates": [
+          31.233657,
+          121.481917
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "地名地址信息;交通地名;道路名",
+        "raw_provider_tags": {
+          "type": "地名地址信息;交通地名;道路名",
+          "typecode": "190301",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "name_zh": "福州路",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "name_zh": "福州路",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市主要道路（河道）和景观区域范围界定。福州路 | 中山东一路-西藏中路",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "name_zh": "福州路",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "建设福州路文化街等“阅读+”街区，构建“城市书房”体系，形成建筑可阅读、街区可漫步、书店可品味的书香氛围。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:BZAFR002HH"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_c175efcbb039",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_5ceae444727b",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_c3ee2e546e1f",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:BZAFR002HH",
+      "name_en": null,
+      "address": "amap:BZAFR002HH",
+      "coordinates": "amap:BZAFR002HH"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_55c5d5d2b929": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "福州路"
+      },
+      "e_0e4d72f25b2f": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄浦区"
+      },
+      "e_72318069013f": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "福州路"
+      },
+      "e_c734d781ca25": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "福州路"
+      },
+      "e_58860d7f9c76": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "福州路"
+      },
+      "e_fc325e08fdcf": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.233657,
+            121.481917
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_b96327f802f3": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "地名地址信息;交通地名;道路名"
+      },
+      "e_3af5b49b2bda": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "地名地址信息;交通地名;道路名"
+      },
+      "e_fd92e8fab844": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "190301"
+      },
+      "e_0377a3ed5a80": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_4b133dc98865": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街"
+      },
+      "e_1425dfbd0513": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_88512e768132": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市主要道路（河道）和景观区域范围界定。福州路 | 中山东一路-西藏中路"
+      },
+      "e_079eb2a0fa3a": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_54bfc7d07894": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "建设福州路文化街等“阅读+”街区，构建“城市书房”体系，形成建筑可阅读、街区可漫步、书店可品味的书香氛围。"
+      },
+      "e_f65395580122": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街"
+      },
+      "e_b5b67f00dcab": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海市主要道路（河道）和景观区域范围界定。福州路 | 中山东一路-西藏中路"
+      },
+      "e_e1c34f591a5b": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "建设福州路文化街等“阅读+”街区，构建“城市书房”体系，形成建筑可阅读、街区可漫步、书店可品味的书香氛围。"
+      },
+      "e_118ca3432ccb": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街"
+      },
+      "e_8c8e3cdbfca5": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市主要道路（河道）和景观区域范围界定。福州路 | 中山东一路-西藏中路"
+      },
+      "e_3dad5230fc36": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "建设福州路文化街等“阅读+”街区，构建“城市书房”体系，形成建筑可阅读、街区可漫步、书店可品味的书香氛围。"
+      },
+      "e_0a59e66addd6": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街"
+      }
+    },
+    "recall_screen": {
+      "rank": 3,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "福州路",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "public_space",
+    "interest_tags": [
+      "architecture"
+    ],
+    "experience_tags": [
+      "street_scene",
+      "bookish"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_54bfc7d07894"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "street_scene",
+        "evidence_refs": [
+          "e_4b133dc98865"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "bookish",
+        "evidence_refs": [
+          "e_54bfc7d07894"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_0a59e66addd6"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有明确文化街身份与连接价值；只观察代表点附近公共街段，不包含沿线书店或场馆内部，不把全路反复计数。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "high",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "有明确文化街身份与连接价值；只观察代表点附近公共街段，不包含沿线书店或场馆内部，不把全路反复计数。",
+      "evidence_refs": [
+        "e_0a59e66addd6"
+      ]
+    },
+    "summary_draft": {
+      "text": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街",
+      "evidence_refs": [
+        "e_0a59e66addd6"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 7,
+        "standard": 15,
+        "deep": 23
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "有明确文化街身份与连接价值；只观察代表点附近公共街段，不包含沿线书店或场馆内部，不把全路反复计数。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "public_space",
+    "interest_tags": [
+      "architecture"
+    ],
+    "experience_tags": [
+      "street_scene",
+      "bookish"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_54bfc7d07894"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "street_scene",
+        "evidence_refs": [
+          "e_4b133dc98865"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "bookish",
+        "evidence_refs": [
+          "e_54bfc7d07894"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_0a59e66addd6"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有明确文化街身份与连接价值；只观察代表点附近公共街段，不包含沿线书店或场馆内部，不把全路反复计数。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "high",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "有明确文化街身份与连接价值；只观察代表点附近公共街段，不包含沿线书店或场馆内部，不把全路反复计数。",
+      "evidence_refs": [
+        "e_0a59e66addd6"
+      ]
+    },
+    "summary_draft": {
+      "text": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街",
+      "evidence_refs": [
+        "e_0a59e66addd6"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 7,
+        "standard": 15,
+        "deep": 23
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "有明确文化街身份与连接价值；只观察代表点附近公共街段，不包含沿线书店或场馆内部，不把全路反复计数。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.233657,
+      121.481917
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "street"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

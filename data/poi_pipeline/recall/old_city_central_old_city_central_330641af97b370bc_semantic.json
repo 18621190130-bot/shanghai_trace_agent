@@ -1,0 +1,274 @@
+{
+  "candidate_id": "old_city_central_330641af97b370bc",
+  "node_identity": "old_city_central_330641af97b370bc",
+  "output": {
+    "category": "heritage",
+    "interest_tags": [
+      "history",
+      "modern_china_history"
+    ],
+    "experience_tags": [],
+    "culture_tags": [
+      "modern_shanghai",
+      "political_history"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_95ec9d5667aa",
+          "e_f97b194f5160",
+          "e_57dbf33d9ef0"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "modern_china_history",
+        "evidence_refs": [
+          "e_57dbf33d9ef0",
+          "e_5eb92c8ddcfc"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_57dbf33d9ef0",
+          "e_5eb92c8ddcfc"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "political_history",
+        "evidence_refs": [
+          "e_57dbf33d9ef0",
+          "e_5eb92c8ddcfc"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_95ec9d5667aa",
+      "e_f97b194f5160",
+      "e_57dbf33d9ef0"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有明确名称、纪念属性与文物保护单位身份，具备独立到访价值，可承载近代史主题。",
+      "independent_destination_value": "high",
+      "route_connector_value": "low",
+      "alternatives_reason": {
+        "anchor": "名称、historic=memorial 与区级文物保护单位身份支持其作为独立目的地。",
+        "supporting_stop": "若路线主题不涉近代政治史，也可作为补充性历史节点。",
+        "transition_stop": "证据显示其为原址保留的纪念性建筑，非单纯过路节点，故不宜仅作过渡。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为原址保留的文物保护单位，具有明确历史纪念主题，适合纳入近代史主题步行路线。",
+      "evidence_refs": [
+        "e_57dbf33d9ef0",
+        "e_95ec9d5667aa"
+      ]
+    },
+    "summary_draft": {
+      "text": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留",
+      "evidence_refs": [
+        "e_57dbf33d9ef0"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "大韩民国临时政府旧址",
+      "evidence_refs": [
+        "e_28dd4eb2a27b"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 35
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅外部建筑与纪念标识观察，不含入内参观。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "开放时间",
+      "是否可入内参观",
+      "门票与预约要求",
+      "当前运营状态"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": {
+        "text": "区级文物保护单位",
+        "evidence_refs": [
+          "e_57dbf33d9ef0"
+        ]
+      }
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "heritage",
+    "interest_tags": [
+      "history",
+      "modern_china_history"
+    ],
+    "experience_tags": [],
+    "culture_tags": [
+      "modern_shanghai",
+      "political_history"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_95ec9d5667aa",
+          "e_f97b194f5160",
+          "e_57dbf33d9ef0"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "modern_china_history",
+        "evidence_refs": [
+          "e_57dbf33d9ef0",
+          "e_5eb92c8ddcfc"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_57dbf33d9ef0",
+          "e_5eb92c8ddcfc"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "political_history",
+        "evidence_refs": [
+          "e_57dbf33d9ef0",
+          "e_5eb92c8ddcfc"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_95ec9d5667aa",
+      "e_f97b194f5160",
+      "e_57dbf33d9ef0"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有明确名称、纪念属性与文物保护单位身份，具备独立到访价值，可承载近代史主题。",
+      "independent_destination_value": "high",
+      "route_connector_value": "low",
+      "alternatives_reason": {
+        "anchor": "名称、historic=memorial 与区级文物保护单位身份支持其作为独立目的地。",
+        "supporting_stop": "若路线主题不涉近代政治史，也可作为补充性历史节点。",
+        "transition_stop": "证据显示其为原址保留的纪念性建筑，非单纯过路节点，故不宜仅作过渡。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为原址保留的文物保护单位，具有明确历史纪念主题，适合纳入近代史主题步行路线。",
+      "evidence_refs": [
+        "e_57dbf33d9ef0",
+        "e_95ec9d5667aa"
+      ]
+    },
+    "summary_draft": {
+      "text": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留",
+      "evidence_refs": [
+        "e_57dbf33d9ef0"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "大韩民国临时政府旧址",
+      "evidence_refs": [
+        "e_28dd4eb2a27b"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 35
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅外部建筑与纪念标识观察，不含入内参观。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "开放时间",
+      "是否可入内参观",
+      "门票与预约要求",
+      "当前运营状态"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": {
+        "text": "区级文物保护单位",
+        "evidence_refs": [
+          "e_57dbf33d9ef0"
+        ]
+      }
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.217283290774702,
+      121.47469284661551
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3819,
+      "completion_tokens": 790,
+      "total_tokens": 4609,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 3179
+    }
+  }
+}

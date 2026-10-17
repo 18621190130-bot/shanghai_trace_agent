@@ -1,0 +1,467 @@
+[
+  {
+    "poi_id": "p7",
+    "name": "新天地北里（石库门街区）",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "medium",
+    "role_reason": "石库门街巷肌理与商业再利用形成可独立持续探索的整体街区，可用完整访问范围承担城市更新主题；不是因购物或production身份判定。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "这里最值得看的，是旧有建筑肌理与现代商业如何彼此借景。"
+      },
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 60
+          },
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_scope": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p9",
+    "name": "张园",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "medium",
+    "role_reason": "既有完整历史建筑群保存与重新使用的观察体验具有独立目的地范围，能围绕保护和再利用组织主题；依赖街区公共范围，非入店购物。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "一座城市更新中的历史建筑群，适合观察保存与重新使用如何同时发生。"
+      },
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 20,
+            "standard": 40,
+            "deep": 60
+          }
+        }
+      },
+      "visit_scope": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p14",
+    "name": "外滩·陈毅广场",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "medium",
+    "role_reason": "既有外滩节点同时涵盖临江历史建筑界面、河流与对岸天际线的对照观察，可独立展开上海历史与现代城市主题；不再拆广场和雕像为新站。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "站在上海的城市正面：一边是万国建筑，一边是黄浦江，历史与天际线同时展开。"
+      },
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 10,
+            "standard": 25,
+            "deep": 45
+          }
+        }
+      },
+      "visit_scope": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p15",
+    "name": "豫园",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "medium",
+    "role_reason": "用户确认的街区游览以及可选完整园林参访，分别具有持续探索范围；能承担老城商业与园林主题，明确walk_stop不含购票园林。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "默认游览豫园商城及周边街区；full_visit 模式增加购票入园并保留周边游览。"
+      },
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 30,
+            "standard": 45,
+            "deep": 60
+          },
+          "full_visit": {
+            "quick": 60,
+            "standard": 90,
+            "deep": 120
+          }
+        }
+      },
+      "visit_scope": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Yu Garden shopping area and surrounding streets; excludes ticketed garden entry."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": true,
+          "scope": "Ticketed Yu Garden garden visit plus surrounding shopping area and streets."
+        }
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p20",
+    "name": "上海城隍庙",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "high",
+    "role_reason": "官方支持的道教宫观及完整参访范围可以独立阐释城隍信仰与传统城市，具有专门宗教文化目的地价值；与周边商城观察区分。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "上海老城厢重要的道教宫观，可用来解释中国传统城市中的城隍信仰以及庙宇、商业和市集的关系。"
+      },
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 20,
+            "standard": 40,
+            "deep": 60
+          }
+        }
+      },
+      "visit_scope": {
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "source": "official Shanghai City God Temple website",
+        "checked_on": "2026-10-02"
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p23",
+    "name": "思南公馆",
+    "primary_role": "supporting_stop",
+    "eligible_roles": [
+      "supporting_stop"
+    ],
+    "role_confidence": "high",
+    "role_reason": "历史住宅建筑群与保护再利用提供独立街区体验，值得主动加入；在此产品的默认短时外观范围内主要补充周边历史和更新主题。",
+    "independent_destination_value": "medium",
+    "citywalk_experiential_value": "medium",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "由51幢花园住宅组成的历史街区，可展示上海近代住宅建筑类型和保护性再利用。"
+      },
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 50
+          },
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_scope": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai government English portal",
+        "checked_on": "2026-10-02"
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p24",
+    "name": "中共一大纪念馆",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "high",
+    "role_reason": "既有官方支持的纪念馆完整参访可以持续展开政治史与石库门城市空间关系，具备独立主目的地价值；外观模式不改变审定角色。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "理解20世纪中国政治史和上海石库门城市空间之间关系的重要地点。"
+      },
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit",
+          "walk_stop"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          },
+          "walk_stop": {
+            "quick": 15,
+            "standard": 25,
+            "deep": 40
+          }
+        }
+      },
+      "visit_scope": {
+        "full_visit": {
+          "environment": "indoor",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        },
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai municipal government",
+        "checked_on": "2026-10-02"
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p34",
+    "name": "南京路步行街",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "medium",
+    "role_reason": "用户明确确认核心步行路段作为完整目的地，持续的商业建筑和街道观察能够承担城市商业史主题；不以普通商店数量增加路线站点。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "将南京东路核心步行路段作为完整游览目的地，而非单一建筑或短暂停留点。"
+      },
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_scope": {
+        "full_visit": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "user_confirmed_scope_with_approximate_map_anchor",
+        "source": "Phase 1.5B final calibration V2",
+        "checked_on": "2026-10-03",
+        "note": "Live access, precise entrances and representative anchors still require manual verification."
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  }
+]

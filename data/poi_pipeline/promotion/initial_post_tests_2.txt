@@ -1,0 +1,5 @@
+POI KB: production
+POI Count: 59
+West Bund Route Nodes: 13
+{'command': 'python -m scripts.verify_all_zones (unittest discover tests)', 'tests_run': 379, 'failures': 3, 'errors': 0, 'skipped': 0, 'successful': False, 'elapsed_seconds': 16.472, 'completed_at': '2026-10-05T03:33:07.299391+00:00', 'validation_fingerprint': '91a063566b2c5735c20d1dfc31cfe803d6ad431e137698ab38faef1109b94d5c'}
+{"status": "PARTIAL", "candidate": "data\\pois_phase2_5_all_zones_candidate.json", "zone_counts": {"wukang_fuxing_xujiahui": 9, "hongkou_literary": 9, "west_bund": 13, "old_city_central": 9}, "cross_passed": 12, "cross_total": 12, "protected_west_bund_unchanged": true, "full_tests": "pending_or_stale", "provider_smoke_passed": true}

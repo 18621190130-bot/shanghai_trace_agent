@@ -1,0 +1,948 @@
+{
+  "candidate": {
+    "candidate_id": "old_city_central_a085d8c87e1380e7",
+    "name_zh": "上海人民广场",
+    "name_en": "People's Square",
+    "aliases": [
+      "People's Square",
+      "人民广场"
+    ],
+    "address": "人民大道185号",
+    "coordinates": [
+      31.228827,
+      121.475213
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "人民广场",
+        "name_en": "People's Square",
+        "aliases": [],
+        "address": "上海 人民大道 120",
+        "coordinates": [
+          31.2310837,
+          121.4703964
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction;leisure=park",
+        "raw_provider_tags": {
+          "addr:city": "上海",
+          "addr:housenumber": "120",
+          "addr:street": "人民大道",
+          "leisure": "park",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:fr": "people square",
+          "name:ko": "인민광장",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "wikidata": "Q10883549",
+          "wikipedia": "zh:人民广场"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "name_zh": "人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄浦区",
+        "coordinates": [
+          31.228818,
+          121.475233
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "地名地址信息;热点地名;热点地名",
+        "raw_provider_tags": {
+          "type": "地名地址信息;热点地名;热点地名",
+          "typecode": "190700",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "人民广场",
+        "name_en": "People's Square",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2314722,
+          121.4701315
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction;highway=pedestrian",
+        "raw_provider_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "street"
+      },
+      {
+        "source_candidate_id": "diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "name_zh": "上海人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "东起西藏中路西侧人行道，西至黄陂北路东侧人行道，南起延安东路北侧人行道，北至上海大剧院和人民大道200号外墙沿线范围内的公共区域。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "name_zh": "上海人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "name_zh": "上海人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "人民大道185号",
+        "coordinates": [
+          31.228827,
+          121.475213
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;公园广场;城市广场",
+        "raw_provider_tags": {
+          "type": "风景名胜;公园广场;城市广场",
+          "typecode": "110105",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B00157917M"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/404709025"
+      },
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B0KUNUNG7Y"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:relation/2153738"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_18310ab607f9",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_84aa77dfe9fb",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B00157917M",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B00157917M",
+      "name_en": "osm:way/404709025",
+      "address": "amap:B00157917M",
+      "coordinates": "amap:B00157917M"
+    },
+    "issues": [
+      "address_variants_preserved"
+    ],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_d1dbc6896e41": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "人民广场"
+      },
+      "e_27227b07d146": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "People's Square"
+      },
+      "e_80b7c25ebcdd": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "上海 人民大道 120"
+      },
+      "e_64e2fecd9fa0": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "人民广场"
+      },
+      "e_c694f3971897": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄浦区"
+      },
+      "e_cec466967b77": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "人民广场"
+      },
+      "e_7278962ebe9b": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "People's Square"
+      },
+      "e_4420ec1b6f94": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海人民广场"
+      },
+      "e_8d0578c9c84d": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海人民广场"
+      },
+      "e_30dca6a932b7": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海人民广场"
+      },
+      "e_7b452bdc2e4b": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "人民大道185号"
+      },
+      "e_0c127ec91bc5": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2310837,
+            121.4703964
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_2d5e24cfcea6": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.228818,
+            121.475233
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_2c3b4bee276c": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2314722,
+            121.4701315
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_01a955973f9c": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.228827,
+            121.475213
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_b1e160e5936e": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "地名地址信息;热点地名;热点地名"
+      },
+      "e_313cdb4ba0d0": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "地名地址信息;热点地名;热点地名"
+      },
+      "e_e3da628a0e43": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "190700"
+      },
+      "e_b6d62b398079": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;公园广场;城市广场"
+      },
+      "e_65a5a3085b93": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;公园广场;城市广场"
+      },
+      "e_da844bb655c1": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110105"
+      },
+      "e_9dc7d6815961": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction;leisure=park"
+      },
+      "e_45f24e52cb54": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_0aa083ef1d8e": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "人民广场"
+      },
+      "e_8265db01bb86": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "People's Square"
+      },
+      "e_8330ae01a4d3": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "人民广场"
+      },
+      "e_8750894cd419": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_b41f432c3f01": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction;highway=pedestrian"
+      },
+      "e_fec7a3670e5f": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "人民广场"
+      },
+      "e_b1e05e4a9985": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "People's Square"
+      },
+      "e_a4dbdae81224": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "人民广场"
+      },
+      "e_ae71aa27fc44": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_9126a5be2c2b": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "type",
+        "value": "multipolygon"
+      },
+      "e_ce17ceeba934": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d874677dbadb": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "东起西藏中路西侧人行道，西至黄陂北路东侧人行道，南起延安东路北侧人行道，北至上海大剧院和人民大道200号外墙沿线范围内的公共区域。"
+      },
+      "e_6a2f5c9ba667": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_5994271ed4ed": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。"
+      },
+      "e_2bf380377a4d": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "东起西藏中路西侧人行道，西至黄陂北路东侧人行道，南起延安东路北侧人行道，北至上海大剧院和人民大道200号外墙沿线范围内的公共区域。"
+      },
+      "e_9e6f485147ca": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。"
+      },
+      "e_f30c021c408f": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "东起西藏中路西侧人行道，西至黄陂北路东侧人行道，南起延安东路北侧人行道，北至上海大剧院和人民大道200号外墙沿线范围内的公共区域。"
+      },
+      "e_2e8c4a018b89": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。"
+      }
+    },
+    "recall_screen": {
+      "rank": 11,
+      "reason": null,
+      "review_note": [
+        "weak_location",
+        "多个面/点代表对象，范围宽且与周边节点独立访问范围未分清。",
+        "bounded visitor scope"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "上海人民广场",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "public_space",
+    "interest_tags": [
+      "modern_city"
+    ],
+    "experience_tags": [
+      "iconic_landmark"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "modern_city",
+        "evidence_refs": [
+          "e_5994271ed4ed"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "iconic_landmark",
+        "evidence_refs": [
+          "e_5994271ed4ed"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_2e8c4a018b89"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor"
+      ],
+      "confidence": "medium",
+      "reason": "城市中心公共广场的独立城市空间体验，可承载上海城市中心主题；不含博物馆、人民公园或地铁内部。",
+      "independent_destination_value": "high",
+      "route_connector_value": "high",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "high",
+      "reason": "城市中心公共广场的独立城市空间体验，可承载上海城市中心主题；不含博物馆、人民公园或地铁内部。",
+      "evidence_refs": [
+        "e_2e8c4a018b89"
+      ]
+    },
+    "summary_draft": {
+      "text": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。",
+      "evidence_refs": [
+        "e_2e8c4a018b89"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 9,
+        "standard": 18,
+        "deep": 26
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "城市中心公共广场的独立城市空间体验，可承载上海城市中心主题；不含博物馆、人民公园或地铁内部。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "public_space",
+    "interest_tags": [
+      "modern_city"
+    ],
+    "experience_tags": [
+      "iconic_landmark"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "modern_city",
+        "evidence_refs": [
+          "e_5994271ed4ed"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "iconic_landmark",
+        "evidence_refs": [
+          "e_5994271ed4ed"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_2e8c4a018b89"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor"
+      ],
+      "confidence": "medium",
+      "reason": "城市中心公共广场的独立城市空间体验，可承载上海城市中心主题；不含博物馆、人民公园或地铁内部。",
+      "independent_destination_value": "high",
+      "route_connector_value": "high",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "high",
+      "reason": "城市中心公共广场的独立城市空间体验，可承载上海城市中心主题；不含博物馆、人民公园或地铁内部。",
+      "evidence_refs": [
+        "e_2e8c4a018b89"
+      ]
+    },
+    "summary_draft": {
+      "text": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。",
+      "evidence_refs": [
+        "e_2e8c4a018b89"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 9,
+        "standard": 18,
+        "deep": 26
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "城市中心公共广场的独立城市空间体验，可承载上海城市中心主题；不含博物馆、人民公园或地铁内部。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.228827,
+      121.475213
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "public_square",
+    "civic_space",
+    "landmark"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

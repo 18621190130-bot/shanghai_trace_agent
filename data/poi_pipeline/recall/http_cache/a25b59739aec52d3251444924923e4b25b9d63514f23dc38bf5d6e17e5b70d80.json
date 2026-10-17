@@ -1,0 +1,50 @@
+{
+  "source": "amap",
+  "url": "https://restapi.amap.com/v3/place/detail",
+  "parameters": {
+    "id": "B00155ITJ1",
+    "extensions": "base",
+    "output": "JSON"
+  },
+  "variant": "json-v1",
+  "retrieved_at": "2026-10-04T16:14:03.604883+00:00",
+  "response": {
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "distance": [],
+        "keytag": "文物古迹",
+        "importance": [],
+        "biz_ext": [],
+        "type": "商务住宅;住宅区;住宅小区",
+        "photos": [],
+        "building": [],
+        "typecode": "120302",
+        "shopinfo": "0",
+        "poiweight": [],
+        "updateflag": "0",
+        "adname": "徐汇区",
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B00155ITJ1",
+        "address": "淮海中路1850号",
+        "space_num": [],
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "childtype": [],
+        "atag": "文物古迹",
+        "name": "武康大楼",
+        "location": "121.438278,31.204430",
+        "shopid": [],
+        "favorite_num": [],
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  },
+  "response_hash": "5508c973df6fe8d01be4213a3c68c23f407de9b76c9c53ebdb3fb9dade802e4c"
+}

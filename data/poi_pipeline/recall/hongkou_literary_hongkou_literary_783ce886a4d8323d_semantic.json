@@ -1,0 +1,280 @@
+{
+  "candidate_id": "hongkou_literary_783ce886a4d8323d",
+  "node_identity": "hongkou_literary_783ce886a4d8323d",
+  "output": {
+    "category": "heritage",
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail"
+    ],
+    "culture_tags": [
+      "modern_shanghai",
+      "urban_renewal"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_06934a7afa50",
+          "e_93c96aee0863"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_06934a7afa50"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_06934a7afa50"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_06934a7afa50"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "urban_renewal",
+        "evidence_refs": [
+          "e_93c96aee0863"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_06934a7afa50",
+      "e_93c96aee0863"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示为沿街三层两开间西式住宅，底楼陈列室与二楼书房画室构成可独立参观的名人故居体验，具备独立体验价值，但规模有限，更适合作补充性节点。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "虽为名人故居且有陈列内容，但证据未显示足以承载整条路线主题的独立目的地价值，故不作为首选。",
+        "supporting_stop": "有明确建筑形态与内部陈列描述，可独立参观并补充路线文化体验，符合支持性节点。",
+        "transition_stop": "并非仅为连接性短暂停留，其内部陈列与建筑特征提供实质体验，故不选过渡节点。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为沿街西式住宅形态的名人故居，兼具建筑观察与书法文化陈列，适合作为城市漫步中的文化补充节点。",
+      "evidence_refs": [
+        "e_06934a7afa50",
+        "e_93c96aee0863"
+      ]
+    },
+    "summary_draft": {
+      "text": "沈尹默故居是沿街三层两开间西式住宅",
+      "evidence_refs": [
+        "e_06934a7afa50"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "活化沈尹默故居、景云里名人故居群等历史建筑",
+      "evidence_refs": [
+        "e_93c96aee0863"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 35
+      },
+      "full_visit": {
+        "quick": 20,
+        "standard": 40,
+        "deep": 60
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "故居建筑外观及内部陈列参观"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放状态与开放时间",
+      "是否需预约",
+      "门票信息"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": null,
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "evidence_hash": "452fa7cb3fddde77726937e6452f5ed234acbcf36bf113e587ee06c4e16900aa",
+  "prior_attempt": {
+    "candidate_id": "hongkou_literary_783ce886a4d8323d",
+    "node_identity": "hongkou_literary_783ce886a4d8323d",
+    "output": {
+      "category": "heritage",
+      "interest_tags": [
+        "history",
+        "architecture"
+      ],
+      "experience_tags": [
+        "architecture_detail"
+      ],
+      "culture_tags": [
+        "urban_renewal"
+      ],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "history",
+          "evidence_refs": [
+            "e_93c96aee0863"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "architecture",
+          "evidence_refs": [
+            "e_716468a6ca1b"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "architecture_detail",
+          "evidence_refs": [
+            "e_716468a6ca1b"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "urban_renewal",
+          "evidence_refs": [
+            "e_93c96aee0863"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_716468a6ca1b",
+        "e_93c96aee0863"
+      ],
+      "route_role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "有名人故居身份与沿街西式住宅形制，具备独立可看性，但证据仅限外观描述与活化提及，无开放或内部体验信息，故为补充性停留而非锚点。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据未显示可独立承载路线主题的完整体验，不宜作锚点。",
+          "supporting_stop": "作为名人故居与历史建筑，可与周边名人故居群串联，构成有独立价值的补充节点。",
+          "transition_stop": "虽为沿街建筑可短停，但故居身份使其价值高于单纯连接性停留。"
+        }
+      },
+      "citywalk_value": {
+        "level": "medium",
+        "reason": "名人故居与沿街西式住宅形制提供历史与建筑观察价值，并处于城市更新活化语境中，但缺乏开放与内部体验证据。",
+        "evidence_refs": [
+          "e_716468a6ca1b",
+          "e_93c96aee0863"
+        ]
+      },
+      "summary_draft": {
+        "text": "沈尹默故居是沿街三层两开间西式住宅",
+        "evidence_refs": [
+          "e_716468a6ca1b"
+        ]
+      },
+      "culture_bridge_draft": {
+        "text": "活化沈尹默故居、景云里名人故居群等历史建筑",
+        "evidence_refs": [
+          "e_93c96aee0863"
+        ]
+      },
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 5,
+          "standard": 15,
+          "deep": 30
+        },
+        "full_visit": null,
+        "time_basis": "product_planning_estimate",
+        "scope": "仅外部沿街观察，无内部开放信息"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "是否对外开放及开放时间",
+        "内部可参观内容",
+        "是否需预约",
+        "门票信息"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": null,
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": []
+    },
+    "semantic": null,
+    "cache_hit": false,
+    "api_calls_this_run": 1,
+    "reason": "architecture unsupported by cited evidence; remove or cite explicit matching description; architecture_detail unsupported by cited evidence; remove or cite explicit matching description",
+    "provider": {
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 3803,
+        "completion_tokens": 719,
+        "total_tokens": 4522,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 3163
+      }
+    }
+  },
+  "material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+  "reason": "architecture unsupported by cited evidence; remove or cite explicit matching description; architecture_detail unsupported by cited evidence; remove or cite explicit matching description; modern_shanghai unsupported by cited evidence; remove or cite explicit matching description",
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3880,
+      "completion_tokens": 848,
+      "total_tokens": 4728,
+      "prompt_tokens_details": {
+        "cached_tokens": 3200
+      },
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 680
+    }
+  }
+}

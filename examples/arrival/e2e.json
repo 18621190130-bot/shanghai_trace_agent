@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "flows": [
+    "A manual arrival/nearby/dismiss/reopen/visit",
+    "B real proximity demo and next target",
+    "C centered explore detail",
+    "D real replan with retained history"
+  ],
+  "observations": [
+    {
+      "status": "ARRIVED",
+      "source": "MANUAL"
+    },
+    {
+      "status": "FAR",
+      "source": "DEMO",
+      "distance": 700.000505090189
+    },
+    {
+      "status": "NEAR",
+      "source": "DEMO",
+      "distance": 130.00009380215045
+    },
+    {
+      "status": "ARRIVED",
+      "source": "DEMO",
+      "distance": 0
+    },
+    {
+      "status": "ARRIVED",
+      "source": "DEMO",
+      "distance": 0
+    },
+    {
+      "status": "ARRIVED",
+      "source": "DEMO",
+      "distance": 0
+    }
+  ],
+  "errors": []
+}

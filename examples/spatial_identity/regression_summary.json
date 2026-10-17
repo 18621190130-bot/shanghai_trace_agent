@@ -1,0 +1,24 @@
+{
+  "phase": "3B_2.2",
+  "offline": {
+    "command": "python -m scripts.run_offline_tests",
+    "total": 762,
+    "passed": 758,
+    "skipped_opt_in_live": 4,
+    "failed": 0,
+    "duration_s": 69.555,
+    "log": "examples/spatial_identity/offline_regression.txt"
+  },
+  "live": {
+    "command": "python -m unittest tests.test_walking_live tests.test_location_live tests.test_identity_calibration_live tests.test_spatial_identity_live -q",
+    "total": 4,
+    "passed": 4,
+    "failed": 0,
+    "duration_s": 22.748
+  },
+  "new_phase_tests": {
+    "offline": 24,
+    "live": 1
+  },
+  "saved_provider_route_acceptance": "examples/spatial_identity/live_acceptance.json"
+}

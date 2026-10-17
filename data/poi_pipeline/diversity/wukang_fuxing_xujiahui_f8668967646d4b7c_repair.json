@@ -1,0 +1,1038 @@
+{
+  "candidate": {
+    "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+    "name_zh": "徐家汇公园",
+    "name_en": "Xujiahui Park",
+    "aliases": [],
+    "address": "肇嘉浜路986号(徐家汇地铁站14号口步行250米)",
+    "coordinates": [
+      31.197401,
+      121.442461
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "肇嘉浜路986号(徐家汇地铁站14号口步行250米)",
+        "coordinates": [
+          31.197401,
+          121.442461
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;公园广场;公园",
+        "raw_provider_tags": {
+          "type": "风景名胜;公园广场;公园",
+          "typecode": "110101",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "徐汇区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "Xujiahui Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.1994755,
+          121.4377772
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "leisure=park",
+        "raw_provider_tags": {
+          "bicycle": "no",
+          "dog": "no",
+          "leisure": "park",
+          "name": "徐家汇公园",
+          "name:en": "Xujiahui Park",
+          "source": "estimation",
+          "wikidata": "Q6802124",
+          "wikimedia_commons": "Category:Xujiahui Park",
+          "wikipedia": "en:Xujiahui Park"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "source_url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "WGS84",
+        "source_category": "official_place_mention",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "主题路线首站始于被誉为“城市绿肺”的徐家汇公园,这里不仅有《义勇军进行曲》灌制地百代唱片公司的旧址,还设有深受市民喜爱的健身步道和室外篮球场,是市民健身和举办篮球比赛的上佳场所。公园西邻繁华的徐家汇商圈,汇聚港汇恒隆、美罗城、ITC、百脑汇以及在建的浦西第一高楼徐家汇中心等顶级商业综合体,云集阿迪达斯、露露乐蒙、哥伦比亚等知名跨国公司总部型体育企业,彰显了徐汇区在体育产业领域的强劲吸引力与国际化格局。",
+            "supports": [
+              "identity",
+              "history",
+              "public_space"
+            ],
+            "extraction": "literal_excerpt; unverified temporal context"
+          }
+        ],
+        "supports": [
+          "history",
+          "identity",
+          "public_space"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "source_url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "WGS84",
+        "source_category": "official_place_mention",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "该园原系大中华橡胶厂、中国唱片上海公司及周边部分单位和居民住宅的建筑区域。",
+            "supports": [
+              "identity",
+              "history"
+            ],
+            "extraction": "web search returned indexed official-page excerpt; direct page exceeded bounded HTTP body limit; not a fresh direct fetch"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "Xujiahui Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "Xujiahui Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B00155ILI8"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/12271429"
+      },
+      {
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "supports": [
+          "history",
+          "identity",
+          "public_space"
+        ],
+        "record_id": "government:ee0f2c57dc1bcd913eae"
+      },
+      {
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "supports": [
+          "identity"
+        ],
+        "record_id": "government:624a3dc194b15aeaae73"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_3c0b158ad9d6",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_b02e839bd004",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_3c0b158ad9d6",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_b02e839bd004",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B00155ILI8",
+      "name_en": "osm:way/12271429",
+      "address": "amap:B00155ILI8",
+      "coordinates": "amap:B00155ILI8"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_35fcdd0b42b3": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_0933012ac5cb": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "肇嘉浜路986号(徐家汇地铁站14号口步行250米)"
+      },
+      "e_adc5a4c970e3": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_1f1cc1392567": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Xujiahui Park"
+      },
+      "e_7615d19c906d": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_3a3ae4440446": {
+        "record_id": "government:624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_73d471ee7738": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_37bfca80d495": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Xujiahui Park"
+      },
+      "e_ef87e8f15053": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_ae67d2913599": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Xujiahui Park"
+      },
+      "e_83397c8fd7d5": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_99f05b4ae142": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_5bdc4f6dd129": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.197401,
+            121.442461
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_8b360e1144f9": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.1994755,
+            121.4377772
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_cbbb027f51ba": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;公园广场;公园"
+      },
+      "e_9d6183ea2780": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;公园广场;公园"
+      },
+      "e_c5a32a6cd370": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110101"
+      },
+      "e_97ebbb0c816d": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "leisure=park"
+      },
+      "e_2b863174bbd0": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_e2ab40a6b5dc": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "徐家汇公园"
+      },
+      "e_e1e8fad831ec": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Xujiahui Park"
+      },
+      "e_45f72ffa7b2f": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "official_place_mention"
+      },
+      "e_cbe19e00ad85": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "主题路线首站始于被誉为“城市绿肺”的徐家汇公园,这里不仅有《义勇军进行曲》灌制地百代唱片公司的旧址,还设有深受市民喜爱的健身步道和室外篮球场,是市民健身和举办篮球比赛的上佳场所。公园西邻繁华的徐家汇商圈,汇聚港汇恒隆、美罗城、ITC、百脑汇以及在建的浦西第一高楼徐家汇中心等顶级商业综合体,云集阿迪达斯、露露乐蒙、哥伦比亚等知名跨国公司总部型体育企业,彰显了徐汇区在体育产业领域的强劲吸引力与国际化格局。"
+      },
+      "e_0f0032be703e": {
+        "record_id": "government:624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "group": "official",
+        "field": "category",
+        "value": "official_place_mention"
+      },
+      "e_23b326bcc3b9": {
+        "record_id": "government:624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "group": "official",
+        "field": "snippet",
+        "value": "该园原系大中华橡胶厂、中国唱片上海公司及周边部分单位和居民住宅的建筑区域。"
+      },
+      "e_6d8d690d211f": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_60ff270fcc5a": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_3c9add73980e": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_7bc092ae43f1": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_bc75a16fd2a3": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d806f805d1d7": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_37d53fcaef04": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_0a901fde8575": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_fed9de001d69": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "主题路线首站始于被誉为“城市绿肺”的徐家汇公园,这里不仅有《义勇军进行曲》灌制地百代唱片公司的旧址,还设有深受市民喜爱的健身步道和室外篮球场,是市民健身和举办篮球比赛的上佳场所。公园西邻繁华的徐家汇商圈,汇聚港汇恒隆、美罗城、ITC、百脑汇以及在建的浦西第一高楼徐家汇中心等顶级商业综合体,云集阿迪达斯、露露乐蒙、哥伦比亚等知名跨国公司总部型体育企业,彰显了徐汇区在体育产业领域的强劲吸引力与国际化格局。"
+      },
+      "e_6c0b84cfb7fb": {
+        "record_id": "government:624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "group": "history",
+        "field": "snippet",
+        "value": "该园原系大中华橡胶厂、中国唱片上海公司及周边部分单位和居民住宅的建筑区域。"
+      },
+      "e_2235e4bbc78d": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_41437145f0af": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_f834a6f9ab75": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_3b95a797302b": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_04714a243204": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "主题路线首站始于被誉为“城市绿肺”的徐家汇公园,这里不仅有《义勇军进行曲》灌制地百代唱片公司的旧址,还设有深受市民喜爱的健身步道和室外篮球场,是市民健身和举办篮球比赛的上佳场所。公园西邻繁华的徐家汇商圈,汇聚港汇恒隆、美罗城、ITC、百脑汇以及在建的浦西第一高楼徐家汇中心等顶级商业综合体,云集阿迪达斯、露露乐蒙、哥伦比亚等知名跨国公司总部型体育企业,彰显了徐汇区在体育产业领域的强劲吸引力与国际化格局。"
+      },
+      "e_5573a34fe3f8": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_d8f5b145f7e6": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_42ea551f94cf": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_73899d5d287c": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_9f39966a0dde": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_1f410f4b4a3c": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      }
+    },
+    "recall_screen": {
+      "rank": 7,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "recall_material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+    "original_cached_name": "徐家汇公园",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "history"
+    ],
+    "experience_tags": [],
+    "culture_tags": [
+      "modern_shanghai"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_1f410f4b4a3c"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "工业及唱片厂址再利用的公共空间观察，补充徐家汇城市文化路线；内部设施不另拆stop。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "工业及唱片厂址再利用的公共空间观察，补充徐家汇城市文化路线；内部设施不另拆stop。",
+      "evidence_refs": [
+        "e_1f410f4b4a3c"
+      ]
+    },
+    "summary_draft": {
+      "text": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。",
+      "evidence_refs": [
+        "e_1f410f4b4a3c"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 7,
+        "standard": 15,
+        "deep": 23
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "工业及唱片厂址再利用的公共空间观察，补充徐家汇城市文化路线；内部设施不另拆stop。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "history"
+    ],
+    "experience_tags": [],
+    "culture_tags": [
+      "modern_shanghai"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_1f410f4b4a3c"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "工业及唱片厂址再利用的公共空间观察，补充徐家汇城市文化路线；内部设施不另拆stop。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "工业及唱片厂址再利用的公共空间观察，补充徐家汇城市文化路线；内部设施不另拆stop。",
+      "evidence_refs": [
+        "e_1f410f4b4a3c"
+      ]
+    },
+    "summary_draft": {
+      "text": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。",
+      "evidence_refs": [
+        "e_1f410f4b4a3c"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 7,
+        "standard": 15,
+        "deep": 23
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "工业及唱片厂址再利用的公共空间观察，补充徐家汇城市文化路线；内部设施不另拆stop。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.197401,
+      121.442461
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

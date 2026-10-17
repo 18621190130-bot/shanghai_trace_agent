@@ -1,0 +1,536 @@
+{
+  "candidate": {
+    "candidate_id": "hongkou_literary_aa45403fa488bac4",
+    "name_zh": "日本海军特别陆战队司令部旧址",
+    "name_en": "",
+    "aliases": [],
+    "address": "黄渡路8-6号",
+    "coordinates": [
+      31.265862,
+      121.481639
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "name_zh": "日本海军特别陆战队司令部旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2677507,
+          121.4770993
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=museum",
+        "raw_provider_tags": {
+          "building": "yes",
+          "museum": "history",
+          "name": "日本海军特别陆战队司令部旧址",
+          "name:ru": "Бывшее место расположения штаб-квартиры Специального корпуса морской пехоты ВМС Японии",
+          "tourism": "museum"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "diversity_7d249fcf9035",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shhk.gov.cn/xwzx/002004/20190826/eb1c2f45-f642-4218-af30-3327b4777473.html",
+        "retrieved_at": "2026-10-05T02:33:01.444713+00:00",
+        "name_zh": "日本海军特别陆战队司令部旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "走读李白烈士故居、日本海军特别陆战队司令部旧址和周恩来在沪早期革命活动旧址。日本海军特别陆战司令部旧址位于黄渡路口，斑驳的围墙记录了这幢看似普通的建筑背后的历史。这里曾经是日军重要军事基地，如今已是解放军部队的重要军事基地。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B00155MRU8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00155MRU8",
+        "retrieved_at": "2026-10-05T02:25:23.366505+00:00",
+        "name_zh": "日本海军特别陆战队司令部旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄渡路8-6号",
+        "coordinates": [
+          31.265862,
+          121.481639
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;风景名胜;风景名胜",
+        "raw_provider_tags": {
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "虹口区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/1080935708"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_7d249fcf9035",
+        "url": "https://www.shhk.gov.cn/xwzx/002004/20190826/eb1c2f45-f642-4218-af30-3327b4777473.html",
+        "retrieved_at": "2026-10-05T02:33:01.444713+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B00155MRU8",
+        "url": "https://www.amap.com/detail/B00155MRU8",
+        "retrieved_at": "2026-10-05T02:25:23.366505+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:way/1080935708",
+      "name_en": null,
+      "address": "amap:B00155MRU8",
+      "coordinates": "amap:B00155MRU8"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_2e3c15a62b73": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "日本海军特别陆战队司令部旧址"
+      },
+      "e_7a57d56e2fdf": {
+        "record_id": "government:diversity_7d249fcf9035",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002004/20190826/eb1c2f45-f642-4218-af30-3327b4777473.html",
+        "retrieved_at": "2026-10-05T02:33:01.444713+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "日本海军特别陆战队司令部旧址"
+      },
+      "e_5a9dfaff0ab4": {
+        "record_id": "amap:B00155MRU8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155MRU8",
+        "retrieved_at": "2026-10-05T02:25:23.366505+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "日本海军特别陆战队司令部旧址"
+      },
+      "e_d8cbfdc8d264": {
+        "record_id": "amap:B00155MRU8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155MRU8",
+        "retrieved_at": "2026-10-05T02:25:23.366505+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄渡路8-6号"
+      },
+      "e_aa282b12f961": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2677507,
+            121.4770993
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_c441096bc513": {
+        "record_id": "amap:B00155MRU8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155MRU8",
+        "retrieved_at": "2026-10-05T02:25:23.366505+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.265862,
+            121.481639
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_4a91b03eac4e": {
+        "record_id": "amap:B00155MRU8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155MRU8",
+        "retrieved_at": "2026-10-05T02:25:23.366505+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_622d29fbd0ff": {
+        "record_id": "amap:B00155MRU8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155MRU8",
+        "retrieved_at": "2026-10-05T02:25:23.366505+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_d657cc6e312d": {
+        "record_id": "amap:B00155MRU8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155MRU8",
+        "retrieved_at": "2026-10-05T02:25:23.366505+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110200"
+      },
+      "e_dabd6e570482": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=museum"
+      },
+      "e_30e04cfeae49": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "building",
+        "value": "yes"
+      },
+      "e_c8ba1ce15c83": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "日本海军特别陆战队司令部旧址"
+      },
+      "e_05163149d799": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "museum"
+      },
+      "e_635fa73b970c": {
+        "record_id": "government:diversity_7d249fcf9035",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002004/20190826/eb1c2f45-f642-4218-af30-3327b4777473.html",
+        "retrieved_at": "2026-10-05T02:33:01.444713+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_90c1f847d3cf": {
+        "record_id": "government:diversity_7d249fcf9035",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002004/20190826/eb1c2f45-f642-4218-af30-3327b4777473.html",
+        "retrieved_at": "2026-10-05T02:33:01.444713+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "走读李白烈士故居、日本海军特别陆战队司令部旧址和周恩来在沪早期革命活动旧址。日本海军特别陆战司令部旧址位于黄渡路口，斑驳的围墙记录了这幢看似普通的建筑背后的历史。这里曾经是日军重要军事基地，如今已是解放军部队的重要军事基地。"
+      },
+      "e_a12fd3778e0c": {
+        "record_id": "government:diversity_7d249fcf9035",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002004/20190826/eb1c2f45-f642-4218-af30-3327b4777473.html",
+        "retrieved_at": "2026-10-05T02:33:01.444713+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "走读李白烈士故居、日本海军特别陆战队司令部旧址和周恩来在沪早期革命活动旧址。日本海军特别陆战司令部旧址位于黄渡路口，斑驳的围墙记录了这幢看似普通的建筑背后的历史。这里曾经是日军重要军事基地，如今已是解放军部队的重要军事基地。"
+      },
+      "e_aa97a98a2c2b": {
+        "record_id": "government:diversity_7d249fcf9035",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002004/20190826/eb1c2f45-f642-4218-af30-3327b4777473.html",
+        "retrieved_at": "2026-10-05T02:33:01.444713+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "走读李白烈士故居、日本海军特别陆战队司令部旧址和周恩来在沪早期革命活动旧址。日本海军特别陆战司令部旧址位于黄渡路口，斑驳的围墙记录了这幢看似普通的建筑背后的历史。这里曾经是日军重要军事基地，如今已是解放军部队的重要军事基地。"
+      }
+    },
+    "recall_screen": {
+      "rank": 8,
+      "reason": null,
+      "review_note": [
+        "insufficient_evidence",
+        "历史旧址 map 记录不证明现时公众可参访范围。",
+        "public exterior scope/access"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "日本海军特别陆战队司令部旧址",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "heritage",
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_90c1f847d3cf"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_90c1f847d3cf"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_aa97a98a2c2b"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "官方走读证据支持道路侧旧址观察；军事设施内部完全排除，不提供进入承诺或内部观察位置。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "官方走读证据支持道路侧旧址观察；军事设施内部完全排除，不提供进入承诺或内部观察位置。",
+      "evidence_refs": [
+        "e_aa97a98a2c2b"
+      ]
+    },
+    "summary_draft": {
+      "text": "走读李白烈士故居、日本海军特别陆战队司令部旧址和周恩来在沪早期革命活动旧址。日本海军特别陆战司令部旧址位于黄渡路口，斑驳的围墙记录了这幢看似普通的建筑背后的历史。这里曾经是日军重要军事基地，如今已是解放军部队的重要军事基地。",
+      "evidence_refs": [
+        "e_aa97a98a2c2b"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 3,
+        "standard": 6,
+        "deep": 14
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "官方走读证据支持道路侧旧址观察；军事设施内部完全排除，不提供进入承诺或内部观察位置。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "heritage",
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_90c1f847d3cf"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_90c1f847d3cf"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_aa97a98a2c2b"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "官方走读证据支持道路侧旧址观察；军事设施内部完全排除，不提供进入承诺或内部观察位置。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "官方走读证据支持道路侧旧址观察；军事设施内部完全排除，不提供进入承诺或内部观察位置。",
+      "evidence_refs": [
+        "e_aa97a98a2c2b"
+      ]
+    },
+    "summary_draft": {
+      "text": "走读李白烈士故居、日本海军特别陆战队司令部旧址和周恩来在沪早期革命活动旧址。日本海军特别陆战司令部旧址位于黄渡路口，斑驳的围墙记录了这幢看似普通的建筑背后的历史。这里曾经是日军重要军事基地，如今已是解放军部队的重要军事基地。",
+      "evidence_refs": [
+        "e_aa97a98a2c2b"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 3,
+        "standard": 6,
+        "deep": 14
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "官方走读证据支持道路侧旧址观察；军事设施内部完全排除，不提供进入承诺或内部观察位置。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.265862,
+      121.481639
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "historic_building"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

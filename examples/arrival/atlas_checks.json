@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "checks": [
+    "centered detail",
+    "anchor fallback",
+    "scroll restoration",
+    "Plan around this place retains POI/zone",
+    "mobile centered detail"
+  ]
+}

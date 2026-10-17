@@ -1,0 +1,969 @@
+{
+  "candidate": {
+    "candidate_id": "hongkou_literary_783ce886a4d8323d",
+    "name_zh": "沈尹默故居",
+    "name_en": "Shen Yinmo's Former Residence",
+    "aliases": [],
+    "address": "海伦路504号(海伦路地铁站5号口步行210米)",
+    "coordinates": [
+      31.258552,
+      121.487422
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "Shen Yinmo's Former Residence",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2604845,
+          121.4828947
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction",
+        "raw_provider_tags": {
+          "name": "沈尹默故居",
+          "name:en": "Shen Yinmo's Former Residence",
+          "name:zh": "沈尹默故居",
+          "name:zh-Hans": "沈尹默故居",
+          "name:zh-Hant": "沈尹默故居",
+          "tourism": "attraction"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "Shen Yinmo's Former Residence",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "Shen Yinmo's Former Residence",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_e1baa07aa706",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.628319+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市博物馆名单（2024年度）。沈尹默故居 | 海伦路504号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B00155L3B4",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00155L3B4",
+        "retrieved_at": "2026-10-05T02:25:23.254479+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "海伦路504号(海伦路地铁站5号口步行210米)",
+        "coordinates": [
+          31.258552,
+          121.487422
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;风景名胜;纪念馆",
+        "raw_provider_tags": {
+          "type": "风景名胜;风景名胜;纪念馆",
+          "typecode": "110204",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "虹口区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/9913893955"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_2284f7c49161",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_9d38b4db95a0",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_2284f7c49161",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_9d38b4db95a0",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_e1baa07aa706",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.628319+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B00155L3B4",
+        "url": "https://www.amap.com/detail/B00155L3B4",
+        "retrieved_at": "2026-10-05T02:25:23.254479+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/9913893955",
+      "name_en": "osm:node/9913893955",
+      "address": "amap:B00155L3B4",
+      "coordinates": "amap:B00155L3B4"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_27bc81168c4b": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_be7c4b89c2d2": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Shen Yinmo's Former Residence"
+      },
+      "e_35721b559473": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_fbb7b1076b54": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Shen Yinmo's Former Residence"
+      },
+      "e_13af72f92ebd": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_89868914a9e4": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Shen Yinmo's Former Residence"
+      },
+      "e_6f9e554a7cbc": {
+        "record_id": "government:diversity_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_84b3b1dc5a93": {
+        "record_id": "government:diversity_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_c104de116cad": {
+        "record_id": "government:diversity_e1baa07aa706",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.628319+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_8fea265c7dda": {
+        "record_id": "amap:B00155L3B4",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3B4",
+        "retrieved_at": "2026-10-05T02:25:23.254479+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_1a2e93b7f4f8": {
+        "record_id": "amap:B00155L3B4",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3B4",
+        "retrieved_at": "2026-10-05T02:25:23.254479+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "海伦路504号(海伦路地铁站5号口步行210米)"
+      },
+      "e_482f9fd114f6": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2604845,
+            121.4828947
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_216f89ee321b": {
+        "record_id": "amap:B00155L3B4",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3B4",
+        "retrieved_at": "2026-10-05T02:25:23.254479+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.258552,
+            121.487422
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_296f8879aaeb": {
+        "record_id": "amap:B00155L3B4",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3B4",
+        "retrieved_at": "2026-10-05T02:25:23.254479+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;风景名胜;纪念馆"
+      },
+      "e_ebd2cc1dc25b": {
+        "record_id": "amap:B00155L3B4",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3B4",
+        "retrieved_at": "2026-10-05T02:25:23.254479+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;风景名胜;纪念馆"
+      },
+      "e_a5477ef37332": {
+        "record_id": "amap:B00155L3B4",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3B4",
+        "retrieved_at": "2026-10-05T02:25:23.254479+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110204"
+      },
+      "e_89d8624ba010": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction"
+      },
+      "e_4320fc67890c": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "沈尹默故居"
+      },
+      "e_e2e92cb3332a": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Shen Yinmo's Former Residence"
+      },
+      "e_e6a604f96463": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "沈尹默故居"
+      },
+      "e_79df2336a2b2": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_4a78aa3e77c2": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_06934a7afa50": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_713bc0caa7b1": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_93c96aee0863": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      },
+      "e_041ea550bacb": {
+        "record_id": "government:diversity_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d1377aa34453": {
+        "record_id": "government:diversity_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_bc597d3d9d2a": {
+        "record_id": "government:diversity_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_b5684bef44fb": {
+        "record_id": "government:diversity_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      },
+      "e_48550cbe0815": {
+        "record_id": "government:diversity_e1baa07aa706",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.628319+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_90ce0fb74831": {
+        "record_id": "government:diversity_e1baa07aa706",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.628319+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。沈尹默故居 | 海伦路504号"
+      },
+      "e_c233dfcce513": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_c2ada1262cfa": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      },
+      "e_941ba27e5987": {
+        "record_id": "government:diversity_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_77fe01ada6a6": {
+        "record_id": "government:diversity_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      },
+      "e_488ba75434c4": {
+        "record_id": "government:diversity_e1baa07aa706",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.628319+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。沈尹默故居 | 海伦路504号"
+      },
+      "e_645383b5a0d1": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_ca7f62b2677b": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      },
+      "e_ea3aee89e107": {
+        "record_id": "government:diversity_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_198037de3cce": {
+        "record_id": "government:diversity_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      },
+      "e_149b37f0d22a": {
+        "record_id": "government:diversity_e1baa07aa706",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.628319+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。沈尹默故居 | 海伦路504号"
+      },
+      "e_5f739944ab42": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_cd250fd1710a": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      }
+    },
+    "recall_screen": {
+      "rank": 3,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "recall_material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+    "original_cached_name": "沈尹默故居",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "heritage",
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail",
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_93c96aee0863"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_93c96aee0863"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_93c96aee0863"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_90ce0fb74831"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_cd250fd1710a"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "独立故居陈列与书法体验，补充文学历史街区；不因标签多少提高角色。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "独立故居陈列与书法体验，补充文学历史街区；不因标签多少提高角色。",
+      "evidence_refs": [
+        "e_cd250fd1710a"
+      ]
+    },
+    "summary_draft": {
+      "text": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。",
+      "evidence_refs": [
+        "e_cd250fd1710a"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 9,
+        "standard": 18,
+        "deep": 26
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "独立故居陈列与书法体验，补充文学历史街区；不因标签多少提高角色。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "heritage",
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail",
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_93c96aee0863"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_93c96aee0863"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_93c96aee0863"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_90ce0fb74831"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_cd250fd1710a"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "独立故居陈列与书法体验，补充文学历史街区；不因标签多少提高角色。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "独立故居陈列与书法体验，补充文学历史街区；不因标签多少提高角色。",
+      "evidence_refs": [
+        "e_cd250fd1710a"
+      ]
+    },
+    "summary_draft": {
+      "text": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。",
+      "evidence_refs": [
+        "e_cd250fd1710a"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 9,
+        "standard": 18,
+        "deep": 26
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "独立故居陈列与书法体验，补充文学历史街区；不因标签多少提高角色。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.258552,
+      121.487422
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "historic_building",
+    "cultural_space"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

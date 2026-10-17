@@ -1,0 +1,473 @@
+{
+  "candidate": {
+    "candidate_id": "old_city_central_06591af3b6abd091",
+    "name_zh": "东海大楼",
+    "name_en": "Dunhai building",
+    "aliases": [
+      "慈淑大楼",
+      "东海商都"
+    ],
+    "address": "南京东路353号",
+    "coordinates": [
+      31.236488185005573,
+      121.4841012919283
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "东海大楼",
+        "name_en": "Dunhai building",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2384432,
+          121.4795971
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction",
+        "raw_provider_tags": {
+          "name": "东海大楼",
+          "name:en": "Dunhai building",
+          "name:ru": "Здание Дунхай",
+          "tourism": "attraction"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "name_zh": "东海大楼",
+        "name_en": "",
+        "aliases": [],
+        "address": "南京东路353号",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/10738317085"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_7b1840858e0f",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/10738317085",
+      "name_en": "osm:node/10738317085",
+      "address": "government:diversity_7b1840858e0f",
+      "coordinates": "osm:node/10738317085"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_e45ccb5d215a": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "东海大楼"
+      },
+      "e_8d487dad92da": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Dunhai building"
+      },
+      "e_59876e8ab4e0": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "东海大楼"
+      },
+      "e_0094f79ccfdf": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "南京东路353号"
+      },
+      "e_7239f95ef2cd": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2384432,
+            121.4795971
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_35496efc454b": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction"
+      },
+      "e_c04a8eb886ff": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "东海大楼"
+      },
+      "e_9ff4f325e651": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Dunhai building"
+      },
+      "e_a830322f0da3": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_60c16c31bd56": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_a933737a8adb": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号"
+      },
+      "e_965a1d477fbf": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号"
+      },
+      "e_e4b3a35c5733": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号"
+      }
+    },
+    "recall_screen": {
+      "rank": 12,
+      "reason": "weak_semantic_signal",
+      "review_note": [
+        "insufficient_evidence",
+        "历史建筑线索保留，未以名气推断值得独立停靠。",
+        "facade public observation scope and architectural evidence"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "东海大楼",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "architecture",
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_a933737a8adb"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_a933737a8adb"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_a933737a8adb"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_e4b3a35c5733"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "独立历史建筑立面的观察节点；与南京路总体步行体验区分，不包含商场内部购物。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "独立历史建筑立面的观察节点；与南京路总体步行体验区分，不包含商场内部购物。",
+      "evidence_refs": [
+        "e_e4b3a35c5733"
+      ]
+    },
+    "summary_draft": {
+      "text": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号",
+      "evidence_refs": [
+        "e_e4b3a35c5733"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 18
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "独立历史建筑立面的观察节点；与南京路总体步行体验区分，不包含商场内部购物。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "architecture",
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_a933737a8adb"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_a933737a8adb"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_a933737a8adb"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_e4b3a35c5733"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "独立历史建筑立面的观察节点；与南京路总体步行体验区分，不包含商场内部购物。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "独立历史建筑立面的观察节点；与南京路总体步行体验区分，不包含商场内部购物。",
+      "evidence_refs": [
+        "e_e4b3a35c5733"
+      ]
+    },
+    "summary_draft": {
+      "text": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号",
+      "evidence_refs": [
+        "e_e4b3a35c5733"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 18
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "独立历史建筑立面的观察节点；与南京路总体步行体验区分，不包含商场内部购物。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.236488185005573,
+      121.4841012919283
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "historic_building",
+    "landmark"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

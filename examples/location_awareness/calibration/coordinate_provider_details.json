@@ -1,0 +1,62 @@
+{
+  "p4": {
+    "provider_id": "B0015474E7",
+    "core_poi_id": null,
+    "provider": "amap",
+    "name": "鲁迅故居",
+    "address": "山阴路132弄大陆新邨9号",
+    "location": {
+      "lat": 31.266045,
+      "lng": 121.484647,
+      "coordinate_system": "GCJ02"
+    },
+    "tel": "021-56662608",
+    "opentime_today": null,
+    "opentime_week": null,
+    "rating": 3.9,
+    "cost": null,
+    "tags": [
+      "纪念馆"
+    ],
+    "poi_type": "风景名胜;风景名胜;红色景区",
+    "fetched_at": "2026-10-05T13:30:20.493633+00:00",
+    "live_data_status": "PARTIAL",
+    "open_status": "UNKNOWN",
+    "mapping_status": null,
+    "identity_mapping_status": null,
+    "live_info_applicability": null,
+    "cache_hit": false,
+    "status_evaluated_at": null,
+    "error_code": null
+  },
+  "p11": {
+    "provider_id": "B00156O2YR",
+    "core_poi_id": null,
+    "provider": "amap",
+    "name": "建业里",
+    "address": "建国西路442号",
+    "location": {
+      "lat": 31.203688,
+      "lng": 121.451802,
+      "coordinate_system": "GCJ02"
+    },
+    "tel": null,
+    "opentime_today": null,
+    "opentime_week": null,
+    "rating": 4.4,
+    "cost": null,
+    "tags": [
+      "文物古迹"
+    ],
+    "poi_type": "商务住宅;住宅区;住宅小区|购物服务;特色商业街;特色商业街",
+    "fetched_at": "2026-10-05T13:30:20.982849+00:00",
+    "live_data_status": "PARTIAL",
+    "open_status": "UNKNOWN",
+    "mapping_status": null,
+    "identity_mapping_status": null,
+    "live_info_applicability": null,
+    "cache_hit": false,
+    "status_evaluated_at": null,
+    "error_code": null
+  }
+}

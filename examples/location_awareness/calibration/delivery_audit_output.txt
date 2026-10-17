@@ -1,0 +1,33 @@
+{
+  "phase": "3B_2.1",
+  "changed_baseline_files": [
+    "src/providers/amap/client.py",
+    "tests/test_phase2_5_promotion.py",
+    "tests/test_trip_agent.py",
+    "tests/test_trip_final_acceptance.py",
+    "tests/test_trip_interaction.py",
+    "data/pois.json"
+  ],
+  "unexpected_protected_changes": [],
+  "core_change_scope_verified": true,
+  "frozen_route_trip_replan_sources_unchanged": true,
+  "production_count": 58,
+  "mapping_count": 58,
+  "configured_secret_exposures": [],
+  "coordinate_detail_provenance_verified": true,
+  "active_p40_reference_count": 0,
+  "active_reference_inventory": [
+    "data/pois.json",
+    "data/amap_poi_mappings.json",
+    "data/amap_manual_confirmations.json",
+    "data/poi_pipeline/promotion/production_cli_4.txt",
+    "tests/fixtures/trip_semantics_initial.json",
+    "examples/walking_routing/live_west_bund.json",
+    "examples/location_awareness/live_acceptance.json",
+    "examples/location_awareness/calibration/live_acceptance.json",
+    "examples/location_awareness/calibration/new_generated_west_bund.json"
+  ],
+  "remaining_route_order_preserved": true,
+  "historical_p40_evidence": "Retained in archived candidates/reports and calibration baseline only; not a current Core identity.",
+  "phase3b_3_started": false
+}

@@ -1,0 +1,1000 @@
+{
+  "candidate": {
+    "candidate_id": "hongkou_literary_1b33161e4ad878ef",
+    "name_zh": "李白烈士故居",
+    "name_en": "",
+    "aliases": [
+      "李白烈士故居"
+    ],
+    "address": "黄渡路107弄15号(虹口足球场地铁站6号口步行280米)",
+    "coordinates": [
+      31.268021,
+      121.481397
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2698238,
+          121.4769319
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=museum",
+        "raw_provider_tags": {
+          "name": "李白烈士故居",
+          "name:ru": "Бывшая резиденция мученика Ли Бая",
+          "tourism": "museum"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_5738ce1ae978",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002002/20190111/b53c6837-8bb2-4cc0-85b6-773559cc68ec.html",
+        "retrieved_at": "2026-10-05T02:33:01.433500+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "李白烈士故居位于黄渡路107弄亚西亚里15号。故居建筑为欧式联排花园里弄住宅，建于1935年。坐北朝南，砖木结构三层。1987年，故居对外开放。一、二楼为展厅，展出李白生平事迹；三楼为场景复原，再现李白生前战斗、生活的情景。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_7f7cfe4cc6fe",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.622153+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市博物馆名单（2024年度）。李白烈士故居 | 黄渡路107弄15号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-05T02:25:23.150300+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄渡路107弄15号(虹口足球场地铁站6号口步行280米)",
+        "coordinates": [
+          31.268021,
+          121.481397
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;风景名胜;风景名胜",
+        "raw_provider_tags": {
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "虹口区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-04T15:13:35.186883+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B00155L3BC"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/12074687693"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_4a4a0c11f490",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_de6df90eddf6",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_4a4a0c11f490",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_de6df90eddf6",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_5738ce1ae978",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002002/20190111/b53c6837-8bb2-4cc0-85b6-773559cc68ec.html",
+        "retrieved_at": "2026-10-05T02:33:01.433500+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_7f7cfe4cc6fe",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.622153+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B00155L3BC",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-05T02:25:23.150300+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B00155L3BC",
+      "name_en": null,
+      "address": "amap:B00155L3BC",
+      "coordinates": "amap:B00155L3BC"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_7def74aea146": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_78354599a0b6": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_2721d9045fa7": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_a7f3c7aa8977": {
+        "record_id": "government:diversity_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_de385c550c9b": {
+        "record_id": "government:diversity_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_776b779a2333": {
+        "record_id": "government:diversity_5738ce1ae978",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002002/20190111/b53c6837-8bb2-4cc0-85b6-773559cc68ec.html",
+        "retrieved_at": "2026-10-05T02:33:01.433500+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_eea48210e606": {
+        "record_id": "government:diversity_7f7cfe4cc6fe",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.622153+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_910d56703963": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-05T02:25:23.150300+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_f86d7481eda3": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-05T02:25:23.150300+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄渡路107弄15号(虹口足球场地铁站6号口步行280米)"
+      },
+      "e_e3096527b6d7": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2698238,
+            121.4769319
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_b493d1dde76f": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-05T02:25:23.150300+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.268021,
+            121.481397
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_4f156d985afc": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-05T02:25:23.150300+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_387285e59412": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-05T02:25:23.150300+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_fa07bda40678": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-05T02:25:23.150300+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110200"
+      },
+      "e_722d0ad8b557": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=museum"
+      },
+      "e_0d68c50c2f80": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "李白烈士故居"
+      },
+      "e_38e33b63781d": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "museum"
+      },
+      "e_0fe30ce73434": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_a368c056842e": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_59e8c58d5576": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_89ccbd68b9f9": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      },
+      "e_8f2eb55cf51e": {
+        "record_id": "government:diversity_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_a059a2414837": {
+        "record_id": "government:diversity_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_3958e042765a": {
+        "record_id": "government:diversity_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_68b78c0ed0df": {
+        "record_id": "government:diversity_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      },
+      "e_8c4c0966a435": {
+        "record_id": "government:diversity_5738ce1ae978",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002002/20190111/b53c6837-8bb2-4cc0-85b6-773559cc68ec.html",
+        "retrieved_at": "2026-10-05T02:33:01.433500+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_ac9a6473a294": {
+        "record_id": "government:diversity_5738ce1ae978",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002002/20190111/b53c6837-8bb2-4cc0-85b6-773559cc68ec.html",
+        "retrieved_at": "2026-10-05T02:33:01.433500+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "李白烈士故居位于黄渡路107弄亚西亚里15号。故居建筑为欧式联排花园里弄住宅，建于1935年。坐北朝南，砖木结构三层。1987年，故居对外开放。一、二楼为展厅，展出李白生平事迹；三楼为场景复原，再现李白生前战斗、生活的情景。"
+      },
+      "e_a021ec930ba5": {
+        "record_id": "government:diversity_7f7cfe4cc6fe",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.622153+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_cf0486890c8a": {
+        "record_id": "government:diversity_7f7cfe4cc6fe",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.622153+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。李白烈士故居 | 黄渡路107弄15号"
+      },
+      "e_bfe7ac906419": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_49b56dd8c605": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      },
+      "e_30735884a108": {
+        "record_id": "government:diversity_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_2e1bbc072c6e": {
+        "record_id": "government:diversity_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      },
+      "e_6335c0960e86": {
+        "record_id": "government:diversity_5738ce1ae978",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002002/20190111/b53c6837-8bb2-4cc0-85b6-773559cc68ec.html",
+        "retrieved_at": "2026-10-05T02:33:01.433500+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "李白烈士故居位于黄渡路107弄亚西亚里15号。故居建筑为欧式联排花园里弄住宅，建于1935年。坐北朝南，砖木结构三层。1987年，故居对外开放。一、二楼为展厅，展出李白生平事迹；三楼为场景复原，再现李白生前战斗、生活的情景。"
+      },
+      "e_e16217814978": {
+        "record_id": "government:diversity_7f7cfe4cc6fe",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.622153+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。李白烈士故居 | 黄渡路107弄15号"
+      },
+      "e_1b62b1521072": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_16f6c026d181": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      },
+      "e_313856f18150": {
+        "record_id": "government:diversity_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_003a3ac60f96": {
+        "record_id": "government:diversity_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      },
+      "e_dc3b6a6c2733": {
+        "record_id": "government:diversity_5738ce1ae978",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002002/20190111/b53c6837-8bb2-4cc0-85b6-773559cc68ec.html",
+        "retrieved_at": "2026-10-05T02:33:01.433500+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "李白烈士故居位于黄渡路107弄亚西亚里15号。故居建筑为欧式联排花园里弄住宅，建于1935年。坐北朝南，砖木结构三层。1987年，故居对外开放。一、二楼为展厅，展出李白生平事迹；三楼为场景复原，再现李白生前战斗、生活的情景。"
+      },
+      "e_b5097e1d9fef": {
+        "record_id": "government:diversity_7f7cfe4cc6fe",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.622153+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。李白烈士故居 | 黄渡路107弄15号"
+      },
+      "e_f0f6b251d123": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_78155c08efec": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      }
+    },
+    "recall_screen": {
+      "rank": 2,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "recall_material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+    "original_cached_name": "李白烈士故居",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "heritage",
+    "interest_tags": [
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail",
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_ac9a6473a294"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_ac9a6473a294"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_cf0486890c8a"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_78155c08efec"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "独立旧址展陈与电台体验证据充分，作为历史路线的参访补充；不以革命人物知名度直接判anchor。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "独立旧址展陈与电台体验证据充分，作为历史路线的参访补充；不以革命人物知名度直接判anchor。",
+      "evidence_refs": [
+        "e_78155c08efec"
+      ]
+    },
+    "summary_draft": {
+      "text": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。",
+      "evidence_refs": [
+        "e_78155c08efec"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 28
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "独立旧址展陈与电台体验证据充分，作为历史路线的参访补充；不以革命人物知名度直接判anchor。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "heritage",
+    "interest_tags": [
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail",
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_ac9a6473a294"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_ac9a6473a294"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_cf0486890c8a"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_78155c08efec"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "独立旧址展陈与电台体验证据充分，作为历史路线的参访补充；不以革命人物知名度直接判anchor。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "独立旧址展陈与电台体验证据充分，作为历史路线的参访补充；不以革命人物知名度直接判anchor。",
+      "evidence_refs": [
+        "e_78155c08efec"
+      ]
+    },
+    "summary_draft": {
+      "text": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。",
+      "evidence_refs": [
+        "e_78155c08efec"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 28
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "独立旧址展陈与电台体验证据充分，作为历史路线的参访补充；不以革命人物知名度直接判anchor。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.268021,
+      121.481397
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "historic_building",
+    "cultural_space"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

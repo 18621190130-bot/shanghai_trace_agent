@@ -1,0 +1,38 @@
+[
+  {
+    "case": "A_CURRENT_GPS",
+    "counts": {
+      "RESTAURANT": 5,
+      "CAFE": 5,
+      "TEA_DRINK": 1,
+      "DESSERT_ICE_CREAM": 5,
+      "CONVENIENCE_STORE": 5,
+      "RESTROOM": 5,
+      "MALL": 1
+    }
+  },
+  {
+    "case": "B_P28_WEST_BUND",
+    "counts": {
+      "RESTAURANT": 5,
+      "CAFE": 5,
+      "TEA_DRINK": 1,
+      "DESSERT_ICE_CREAM": 5,
+      "CONVENIENCE_STORE": 1,
+      "RESTROOM": 5,
+      "MALL": 1
+    }
+  },
+  {
+    "case": "C_P35_XUJIAHUI",
+    "counts": {
+      "RESTAURANT": 5,
+      "CAFE": 5,
+      "TEA_DRINK": 1,
+      "DESSERT_ICE_CREAM": 5,
+      "CONVENIENCE_STORE": 2,
+      "RESTROOM": 5,
+      "MALL": 2
+    }
+  }
+]

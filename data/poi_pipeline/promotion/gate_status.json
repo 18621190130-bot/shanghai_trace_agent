@@ -1,0 +1,18 @@
+{
+  "status": "PROMOTED_AND_FROZEN",
+  "phase": "2.5",
+  "poi_count": 59,
+  "zone_counts": {
+    "wukang_fuxing_xujiahui": 17,
+    "hongkou_literary": 14,
+    "west_bund": 13,
+    "old_city_central": 15
+  },
+  "schema_valid": true,
+  "object_diff_passed": true,
+  "regression_passed": true,
+  "full_tests_passed": true,
+  "default_cli_passed": true,
+  "backup_verified": true,
+  "production_sha256": "6fe891c894995df9aaf9c1c8488d085178399e8cf6d22fe84a87c68e28018782"
+}

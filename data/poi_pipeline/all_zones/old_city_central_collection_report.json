@@ -1,0 +1,436 @@
+{
+  "errors": [
+    {
+      "source": "amap",
+      "status": "discovery_truncated",
+      "request": {
+        "keywords": "人民公园 上海",
+        "city": "上海",
+        "citylimit": "true"
+      }
+    }
+  ],
+  "deterministic_rejected": [
+    {
+      "record_id": "amap:B0LUDRC0R5",
+      "name": "复兴公园-小卖部",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B00157HYSS",
+      "name": "复兴公园-公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MUF7HH7I",
+      "name": "复兴公园-绿植拱廊(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2RGM0LQ",
+      "name": "复兴公园-枫叶(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MUF7HVQ3",
+      "name": "复兴公园-藤蔓长廊与长椅倒影(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B00157I188",
+      "name": "春园·四如春(复兴公园店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MUF7HH0O",
+      "name": "复兴公园-藤蔓长廊雨滴状装饰(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0H1URY1VX",
+      "name": "Boffi DePadova上海旗舰店",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0I0ARARUD",
+      "name": "猫二玫瑰咖啡",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:BV09199211",
+      "name": "古城公园(人民路)(公交站)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:BV11113514",
+      "name": "古城公园(新开河路)(公交站)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:BV09550419",
+      "name": "古城公园(公交站)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2DP6MUB",
+      "name": "古城公园-步道与城墙和远处建筑(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2DD79SG",
+      "name": "古城公园-一号门银杏树(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M219YVJL",
+      "name": "古城公园-巨型心巢装置(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0H2N5EIKP",
+      "name": "公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0J0LNGH7U",
+      "name": "古城茶室",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0G1RU0KZO",
+      "name": "上海旅游纪念品(古城公园店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B001513524",
+      "name": "人民公园邮政支局",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0HB4U8AHK",
+      "name": "人民公园公共厕所(建设中)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B00157I2TB",
+      "name": "人民公园-公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFHC3A5S",
+      "name": "人民公园-公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MUF7HLZ1",
+      "name": "人民公园-透过绿树拍摄上海中心大厦(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2ZN1MJ4",
+      "name": "人民公园-拍摄上海中心大厦顶部(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MUF7HUWP",
+      "name": "人民公园-水边建筑绿植及倒影(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MUUSWOB9",
+      "name": "人民公园-石凳和石桌(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MUUSWO70",
+      "name": "人民公园-垂丝海棠小路(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0KKGH7LWC",
+      "name": "上海人民广场大世界地铁站亚朵酒店",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFIPT71N",
+      "name": "上海人民广场地面停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFME80VA",
+      "name": "Ministry Of Crab(人民公园店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:BV11082437",
+      "name": "人民广场(武胜路)(公交站)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0KDY1Z9RH",
+      "name": "上海茱莉亚食品有限公司(人民广场店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0L2BSJDUO",
+      "name": "Mr·Bond Coffee邦德咖啡(人民广场店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0HBBR5E3I",
+      "name": "上海醉白池公园东门售票处",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0K6GKRS55",
+      "name": "光影民宿(上海第六人民医院桂林公园地铁站店)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0JBFG0VR7",
+      "name": "缙云美味烧饼(人民公园店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0LRA70DQV",
+      "name": "蜜雪冰城(人民公园店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B00155H8SM",
+      "name": "星巴克(人民公园店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B00155KSFU",
+      "name": "哈根达斯(公园店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFG8TS4Q",
+      "name": "上海醉白池公园游客中心",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFLPX4S0",
+      "name": "上海书城(福州路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B00153CA7F",
+      "name": "上海古籍书店",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0KDZOR9DI",
+      "name": "沪上书城精品馆(福州路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B00155LIFF",
+      "name": "星巴克(上海书城店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0L2VC811R",
+      "name": "代巴尼意大利餐厅(福州路上海书城店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0KD1RDCLS",
+      "name": "长春堂顺时而饮(上海书城店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0KUFK4U0T",
+      "name": "精之星眼镜书城配镜中心(福州路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0J0BUUB2G",
+      "name": "达利餐厅(德必上海书城WE店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0K1O5TP0M",
+      "name": "魔泛娱乐X现代书店(上海书城店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0L6RPYRB0",
+      "name": "土家鲜肉饼(福州路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M6FHYVLT",
+      "name": "福州路465号裙房",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B00156GN4Q",
+      "name": "海上摄影(中福城一期店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0J067RWNB",
+      "name": "白日清澄·喫茶(上海书城店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0LGS79NVL",
+      "name": "野人先生现做冰淇淋(上海书城福州路店)(暂停营业)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0LDGZBLJW",
+      "name": "瑞幸咖啡",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0L3ASUD5S",
+      "name": "上海根与芽",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MAT7VWSM",
+      "name": "都市白领婚姻介绍所",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MAO5IVAC",
+      "name": "爱丽丝小世界.西太后专门店",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0GKVY0SB0",
+      "name": "Stussy(新天地时尚店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0JKUSFPOB",
+      "name": "酒后文化(疁城新天地店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFGHO0CR",
+      "name": "宇宸图文快印中心-新天地店",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0IBXUO4AM",
+      "name": "tea'stone喝好茶的店(新天地店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFF9KJS2",
+      "name": "玺粤轩·粤菜·海鲜·港式茶点·私宴·家宴·商务宴请·宴会(新天地店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0G39ZN6FE",
+      "name": "鲁采LU STYLE(新天地店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFH0AFCG",
+      "name": "捞王锅物料理(虹桥天地购物中心店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B001572F9F",
+      "name": "同画馆(碧云新天地家园北区店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0LRLKL6H1",
+      "name": "上海沁滢文化传播有限公司言又几书店(虹桥天地购物中心店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "osm:node/5530017323",
+      "name": "大韩民国临时政府旧址",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "osm:node/13081592780",
+      "name": "more more artbook HAUS",
+      "decision": "reject",
+      "reason": "generic_shop"
+    },
+    {
+      "record_id": "osm:way/228035340",
+      "name": "湖心亭",
+      "decision": "reject",
+      "reason": "generic_service"
+    }
+  ],
+  "raw_count": 524
+}

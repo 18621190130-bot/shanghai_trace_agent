@@ -1,0 +1,11 @@
+{
+  "source": "official",
+  "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+  "parameters": {},
+  "variant": "official-excerpts-v1:西岸穹顶艺术中心|西岸梦中心",
+  "retrieved_at": "2026-10-04T07:44:57.455471+00:00",
+  "status": "request_failed",
+  "error_type": "SourceError",
+  "http_status": null,
+  "attempts": 3
+}

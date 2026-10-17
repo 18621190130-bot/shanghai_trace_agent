@@ -1,0 +1,286 @@
+{
+  "walk_zone": "old_city_central",
+  "poi_count": 8,
+  "coverage": {
+    "interest_tags": {
+      "frequency": {
+        "history": 8,
+        "architecture": 8,
+        "local_life": 2,
+        "literature": 0,
+        "art": 0,
+        "industrial_heritage": 0,
+        "waterfront": 1,
+        "religion": 1,
+        "parks": 0,
+        "modern_city": 2,
+        "modern_china_history": 1,
+        "music": 0,
+        "gardens": 1,
+        "shopping_lifestyle": 3
+      },
+      "zero_coverage": [
+        "literature",
+        "art",
+        "industrial_heritage",
+        "parks",
+        "music"
+      ],
+      "low_coverage": [
+        "waterfront",
+        "religion",
+        "modern_china_history",
+        "gardens"
+      ]
+    },
+    "experience_tags": {
+      "frequency": {
+        "iconic_landmark": 5,
+        "neighborhood_walk": 5,
+        "street_scene": 2,
+        "local_atmosphere": 1,
+        "museum_visit": 1,
+        "photogenic": 6,
+        "quiet_walk": 0,
+        "adaptive_reuse": 3,
+        "riverside_walk": 1,
+        "bookish": 0,
+        "social_observation": 0,
+        "architecture_detail": 3,
+        "shopping_leisure": 1
+      },
+      "zero_coverage": [
+        "quiet_walk",
+        "bookish",
+        "social_observation"
+      ],
+      "low_coverage": [
+        "local_atmosphere",
+        "museum_visit",
+        "riverside_walk",
+        "shopping_leisure"
+      ]
+    },
+    "culture_tags": {
+      "frequency": {
+        "old_city": 2,
+        "shikumen": 3,
+        "lane_life": 2,
+        "modern_shanghai": 7,
+        "literary_shanghai": 0,
+        "religious_culture": 1,
+        "sino_foreign_exchange": 2,
+        "political_history": 1,
+        "industrial_transformation": 0,
+        "urban_renewal": 3,
+        "garden_culture": 1,
+        "public_life": 2,
+        "music_culture": 0
+      },
+      "zero_coverage": [
+        "literary_shanghai",
+        "industrial_transformation",
+        "music_culture"
+      ],
+      "low_coverage": [
+        "religious_culture",
+        "political_history",
+        "garden_culture"
+      ]
+    }
+  },
+  "route_role_coverage": {
+    "unaudited": 8
+  },
+  "category_distribution": {
+    "Shikumen": 2,
+    "Waterfront": 1,
+    "Old City": 1,
+    "Taoist Cultural Site": 1,
+    "Historic Residential Block": 1,
+    "Modern Chinese History": 1,
+    "Commercial Pedestrian Street": 1
+  },
+  "largest_category_fraction": 0.25,
+  "strong_themes": {
+    "interest_tags": [
+      "architecture",
+      "history",
+      "shopping_lifestyle",
+      "local_life",
+      "modern_city"
+    ],
+    "experience_tags": [
+      "photogenic",
+      "iconic_landmark",
+      "neighborhood_walk",
+      "adaptive_reuse",
+      "architecture_detail",
+      "street_scene"
+    ],
+    "culture_tags": [
+      "modern_shanghai",
+      "shikumen",
+      "urban_renewal",
+      "lane_life",
+      "old_city",
+      "public_life",
+      "sino_foreign_exchange"
+    ]
+  },
+  "highly_correlated_tags": [
+    {
+      "tags": [
+        "interest_tags.history",
+        "interest_tags.architecture"
+      ],
+      "jaccard": 1.0,
+      "shared_poi_count": 8
+    },
+    {
+      "tags": [
+        "interest_tags.history",
+        "culture_tags.modern_shanghai"
+      ],
+      "jaccard": 0.875,
+      "shared_poi_count": 7
+    },
+    {
+      "tags": [
+        "interest_tags.architecture",
+        "culture_tags.modern_shanghai"
+      ],
+      "jaccard": 0.875,
+      "shared_poi_count": 7
+    },
+    {
+      "tags": [
+        "interest_tags.modern_city",
+        "experience_tags.street_scene"
+      ],
+      "jaccard": 1.0,
+      "shared_poi_count": 2
+    },
+    {
+      "tags": [
+        "interest_tags.modern_city",
+        "culture_tags.sino_foreign_exchange"
+      ],
+      "jaccard": 1.0,
+      "shared_poi_count": 2
+    },
+    {
+      "tags": [
+        "experience_tags.street_scene",
+        "culture_tags.sino_foreign_exchange"
+      ],
+      "jaccard": 1.0,
+      "shared_poi_count": 2
+    },
+    {
+      "tags": [
+        "experience_tags.photogenic",
+        "culture_tags.modern_shanghai"
+      ],
+      "jaccard": 0.8571428571428571,
+      "shared_poi_count": 6
+    },
+    {
+      "tags": [
+        "experience_tags.adaptive_reuse",
+        "culture_tags.urban_renewal"
+      ],
+      "jaccard": 1.0,
+      "shared_poi_count": 3
+    }
+  ],
+  "definitions": {
+    "low_coverage": "count = 1",
+    "highly_correlated": "Jaccard >= 0.8, joint count >= 2; descriptive co-occurrence, not causal or Pearson correlation"
+  },
+  "production_sha256": "dc30a2933786b2c339a1b1f10ddfbf5f0025b502894f1e376232287799c00d2c",
+  "museum_dependency": {
+    "definition": "museum_visit tag; does not imply indoor-only or required admission",
+    "count": 1,
+    "fraction": 0.125,
+    "non_museum_count": 7,
+    "museum_pois_supporting_walk_stop": 1
+  },
+  "geography": {
+    "coordinate_system": "GCJ-02",
+    "missing_count": 0,
+    "bbox": [
+      31.214509,
+      121.4638,
+      31.2365,
+      121.4925
+    ],
+    "pois": [
+      {
+        "id": "p7",
+        "name": "新天地北里（石库门街区）",
+        "coordinates": [
+          31.2212,
+          121.4679
+        ]
+      },
+      {
+        "id": "p9",
+        "name": "张园",
+        "coordinates": [
+          31.2286,
+          121.4638
+        ]
+      },
+      {
+        "id": "p14",
+        "name": "外滩·陈毅广场",
+        "coordinates": [
+          31.2365,
+          121.4915
+        ]
+      },
+      {
+        "id": "p15",
+        "name": "豫园",
+        "coordinates": [
+          31.227,
+          121.4925
+        ]
+      },
+      {
+        "id": "p20",
+        "name": "上海城隍庙",
+        "coordinates": [
+          31.225879,
+          121.492466
+        ]
+      },
+      {
+        "id": "p23",
+        "name": "思南公馆",
+        "coordinates": [
+          31.214509,
+          121.468956
+        ]
+      },
+      {
+        "id": "p24",
+        "name": "中共一大纪念馆",
+        "coordinates": [
+          31.22012192043575,
+          121.47522210826187
+        ]
+      },
+      {
+        "id": "p34",
+        "name": "南京路步行街",
+        "coordinates": [
+          31.233941258407807,
+          121.48500090050078
+        ]
+      }
+    ]
+  },
+  "audit_input": "data\\pois_phase2_5_candidate.json"
+}

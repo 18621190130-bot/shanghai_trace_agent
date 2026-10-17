@@ -1,0 +1,322 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "available_minutes": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "start_location_text": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "interest_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "history",
+          "architecture",
+          "local_life",
+          "literature",
+          "art",
+          "industrial_heritage",
+          "waterfront",
+          "religion",
+          "parks",
+          "modern_city",
+          "modern_china_history",
+          "music",
+          "gardens",
+          "shopping_lifestyle"
+        ]
+      }
+    },
+    "experience_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "iconic_landmark",
+          "neighborhood_walk",
+          "street_scene",
+          "local_atmosphere",
+          "museum_visit",
+          "photogenic",
+          "quiet_walk",
+          "adaptive_reuse",
+          "riverside_walk",
+          "bookish",
+          "social_observation",
+          "architecture_detail",
+          "shopping_leisure"
+        ]
+      }
+    },
+    "culture_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "old_city",
+          "shikumen",
+          "lane_life",
+          "modern_shanghai",
+          "literary_shanghai",
+          "religious_culture",
+          "sino_foreign_exchange",
+          "political_history",
+          "industrial_transformation",
+          "urban_renewal",
+          "garden_culture",
+          "public_life",
+          "music_culture"
+        ]
+      }
+    },
+    "travel_pace": {
+      "type": "string",
+      "enum": [
+        "quick",
+        "standard",
+        "deep"
+      ]
+    },
+    "preferred_zone": {
+      "oneOf": [
+        {
+          "type": "string",
+          "enum": [
+            "wukang_fuxing_xujiahui",
+            "old_city_central",
+            "hongkou_literary",
+            "west_bund"
+          ]
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "max_walking_km": {
+      "oneOf": [
+        {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "must_go_place_names": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "avoid_tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "adaptive_reuse",
+          "architecture",
+          "architecture_detail",
+          "art",
+          "bookish",
+          "garden_culture",
+          "gardens",
+          "history",
+          "iconic_landmark",
+          "industrial_heritage",
+          "industrial_transformation",
+          "lane_life",
+          "literary_shanghai",
+          "literature",
+          "local_atmosphere",
+          "local_life",
+          "modern_china_history",
+          "modern_city",
+          "modern_shanghai",
+          "museum_visit",
+          "music",
+          "music_culture",
+          "neighborhood_walk",
+          "old_city",
+          "parks",
+          "photogenic",
+          "political_history",
+          "public_life",
+          "quiet_walk",
+          "religion",
+          "religious_culture",
+          "riverside_walk",
+          "shikumen",
+          "shopping_leisure",
+          "shopping_lifestyle",
+          "sino_foreign_exchange",
+          "social_observation",
+          "street_scene",
+          "urban_renewal",
+          "waterfront"
+        ]
+      }
+    },
+    "avoid_place_names": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "unresolved_negative_preferences": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    },
+    "semantic_concepts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "concept": {
+            "type": "string",
+            "minLength": 1
+          },
+          "primary": {
+            "type": "string",
+            "enum": [
+              "adaptive_reuse",
+              "architecture",
+              "architecture_detail",
+              "art",
+              "bookish",
+              "garden_culture",
+              "gardens",
+              "history",
+              "iconic_landmark",
+              "industrial_heritage",
+              "industrial_transformation",
+              "lane_life",
+              "literary_shanghai",
+              "literature",
+              "local_atmosphere",
+              "local_life",
+              "modern_china_history",
+              "modern_city",
+              "modern_shanghai",
+              "museum_visit",
+              "music",
+              "music_culture",
+              "neighborhood_walk",
+              "old_city",
+              "parks",
+              "photogenic",
+              "political_history",
+              "public_life",
+              "quiet_walk",
+              "religion",
+              "religious_culture",
+              "riverside_walk",
+              "shikumen",
+              "shopping_leisure",
+              "shopping_lifestyle",
+              "sino_foreign_exchange",
+              "social_observation",
+              "street_scene",
+              "urban_renewal",
+              "waterfront"
+            ]
+          },
+          "secondary": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "adaptive_reuse",
+                "architecture",
+                "architecture_detail",
+                "art",
+                "bookish",
+                "garden_culture",
+                "gardens",
+                "history",
+                "iconic_landmark",
+                "industrial_heritage",
+                "industrial_transformation",
+                "lane_life",
+                "literary_shanghai",
+                "literature",
+                "local_atmosphere",
+                "local_life",
+                "modern_china_history",
+                "modern_city",
+                "modern_shanghai",
+                "museum_visit",
+                "music",
+                "music_culture",
+                "neighborhood_walk",
+                "old_city",
+                "parks",
+                "photogenic",
+                "political_history",
+                "public_life",
+                "quiet_walk",
+                "religion",
+                "religious_culture",
+                "riverside_walk",
+                "shikumen",
+                "shopping_leisure",
+                "shopping_lifestyle",
+                "sino_foreign_exchange",
+                "social_observation",
+                "street_scene",
+                "urban_renewal",
+                "waterfront"
+              ]
+            },
+            "maxItems": 2
+          }
+        },
+        "required": [
+          "concept",
+          "primary",
+          "secondary"
+        ]
+      }
+    }
+  },
+  "required": [
+    "available_minutes",
+    "start_location_text",
+    "interest_tags",
+    "experience_tags",
+    "culture_tags",
+    "travel_pace",
+    "preferred_zone",
+    "max_walking_km",
+    "must_go_place_names",
+    "avoid_tags",
+    "avoid_place_names",
+    "unresolved_negative_preferences"
+  ]
+}

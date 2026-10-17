@@ -1,0 +1,2722 @@
+{
+  "p2": {
+    "core_id": "p2",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.2128,
+      "lng": 121.4592,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "永康路与嘉善路口 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFI8L58U",
+          "identity_offset_m": 173.82455168632129,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.2128,
+        "lng": 121.4592,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 90,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 90m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p2",
+          "core_type": "street",
+          "address": "徐汇区永康路嘉善路口",
+          "identity_id": "B0FFI8L58U"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.2128,
+      "lng": 121.4592,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p4": {
+    "core_id": "p4",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.266045,
+      "lng": 121.484647,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "鲁迅故居 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0015474E7",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.266045,
+      "lng": 121.484647,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p5": {
+    "core_id": "p5",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.1848,
+      "lng": 121.465,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "龙美术馆（西岸馆） City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFF2YL75",
+          "identity_offset_m": 96.77947776537565,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.1848,
+      "lng": 121.465,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p7": {
+    "core_id": "p7",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.220692,
+      "lng": 121.474751,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "新天地北里（石库门街区） City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00156YMMX",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.220692,
+        "lng": 121.474751,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 130,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 130m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p7",
+          "core_type": "district",
+          "address": "黄浦区太仓路181弄",
+          "identity_id": "B00156YMMX"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.220692,
+      "lng": 121.474751,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p9": {
+    "core_id": "p9",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.227971,
+      "lng": 121.460064,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "张园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155QIPB",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.227971,
+        "lng": 121.460064,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 150,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 150m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p9",
+          "core_type": "district",
+          "address": "静安区威海路588号",
+          "identity_id": "B00155QIPB"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.227971,
+      "lng": 121.460064,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p10": {
+    "core_id": "p10",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.251626,
+      "lng": 121.484182,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "今潮8弄 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0HDACXK1W",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.251626,
+        "lng": 121.484182,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 150,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 150m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p10",
+          "core_type": "district",
+          "address": "虹口区四川北路989弄",
+          "identity_id": "B0HDACXK1W"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.251626,
+      "lng": 121.484182,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p11": {
+    "core_id": "p11",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.203688,
+      "lng": 121.451802,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "建业里 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00156O2YR",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.203688,
+        "lng": 121.451802,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 160,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 160m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p11",
+          "core_type": "district",
+          "address": "徐汇区建国西路456弄",
+          "identity_id": "B00156O2YR"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.203688,
+      "lng": 121.451802,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p12": {
+    "core_id": "p12",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.214589,
+      "lng": 121.460986,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "陕南邨 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00156COKX",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.214589,
+        "lng": 121.460986,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 160,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 160m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p12",
+          "core_type": "district",
+          "address": "黄浦区陕西南路151号",
+          "identity_id": "B00156COKX"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.214589,
+      "lng": 121.460986,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p13": {
+    "core_id": "p13",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.20443,
+      "lng": 121.438278,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "武康大楼 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155ITJ1",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.20443,
+      "lng": 121.438278,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p14": {
+    "core_id": "p14",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.238992,
+      "lng": 121.49039,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.9,
+      "name": "外滩-陈毅广场",
+      "notes": "Verified formal square identity position takes priority over the older Core point 296.5m away. Public square visit anchor; no Core identity coordinate rewrite.",
+      "evidence": [
+        {
+          "provider_id": "B00155G6WO",
+          "detail_reference": "examples/spatial_identity/provider_evidence.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "AMAP_POI",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.238992,
+        "lng": 121.49039,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 100,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "100m first-version public square experience vicinity around the verified formal Chen Yi Square position. Not the entire Bund or a provider boundary.",
+      "evidence": [
+        {
+          "core_id": "p14",
+          "core_type": "landmark",
+          "address": "黄浦区中山东一路",
+          "identity_id": "B00155G6WO"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.2365,
+      "lng": 121.4915,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p15": {
+    "core_id": "p15",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.227,
+      "lng": 121.4925,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "豫园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155MF55",
+          "identity_offset_m": 79.39379973410558,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.227,
+        "lng": 121.4925,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 240,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 240m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p15",
+          "core_type": "district",
+          "address": "黄浦区方浜中路",
+          "identity_id": "B00155MF55"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.227,
+      "lng": 121.4925,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p16": {
+    "core_id": "p16",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.2712,
+      "lng": 121.4844,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "鲁迅公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155KZKW",
+          "identity_offset_m": 103.5348332314305,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.2712,
+        "lng": 121.4844,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 420,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 420m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p16",
+          "core_type": "park",
+          "address": "虹口区四川北路2288号",
+          "identity_id": "B00155KZKW"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.2712,
+      "lng": 121.4844,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p20": {
+    "core_id": "p20",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.225879,
+      "lng": 121.492466,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "上海城隍庙 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155FHOA",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.225879,
+      "lng": 121.492466,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p21": {
+    "core_id": "p21",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.204017,
+      "lng": 121.439062,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "上海宋庆龄故居纪念馆 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00151EA79",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.204017,
+      "lng": 121.439062,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p23": {
+    "core_id": "p23",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.214509,
+      "lng": 121.468956,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "思南公馆 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B001574I9I",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.214509,
+        "lng": 121.468956,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 180,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 180m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p23",
+          "core_type": "district",
+          "address": "黄浦区复兴中路523号",
+          "identity_id": "B001574I9I"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.214509,
+      "lng": 121.468956,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p24": {
+    "core_id": "p24",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.22012192043575,
+      "lng": 121.47522210826187,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "中共一大纪念馆 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0MGOCVX94",
+          "identity_offset_m": 72.83552320696782,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.22012192043575,
+      "lng": 121.47522210826187,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p25": {
+    "core_id": "p25",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.264768526339903,
+      "lng": 121.4837278959415,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "1927·鲁迅与内山纪念书局 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0I2KZFZRY",
+          "identity_offset_m": 10.946736813436168,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.264768526339903,
+      "lng": 121.4837278959415,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p26": {
+    "core_id": "p26",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.263599596059006,
+      "lng": 121.48105086774376,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "中国左翼作家联盟会址纪念馆 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155IKHF",
+          "identity_offset_m": 2.135476056102023,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.263599596059006,
+      "lng": 121.48105086774376,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p27": {
+    "core_id": "p27",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.254559,
+      "lng": 121.491884,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "1933老场坊 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155LPBC",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.254559,
+      "lng": 121.491884,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p28": {
+    "core_id": "p28",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.167682,
+      "lng": 121.463841,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "西岸美术馆 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFJGOAFY",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.167682,
+      "lng": 121.463841,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p29": {
+    "core_id": "p29",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.164519,
+      "lng": 121.464321,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "上海油罐艺术中心 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFHUD4BQ",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.164519,
+      "lng": 121.464321,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p30": {
+    "core_id": "p30",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.16119,
+      "lng": 121.465465,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "Gate M 西岸梦中心 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0H0OSXDUD",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.16119,
+        "lng": 121.465465,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 350,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 350m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p30",
+          "core_type": "district",
+          "address": "徐汇区龙腾大道2266号",
+          "identity_id": "B0H0OSXDUD"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.16119,
+      "lng": 121.465465,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p31": {
+    "core_id": "p31",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.18786,
+      "lng": 121.470412,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "星美术馆 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0H0USLCSP",
+          "identity_offset_m": 15.176726793161658,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.18786,
+      "lng": 121.470412,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p32": {
+    "core_id": "p32",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.19149671484055,
+      "lng": 121.4372036194208,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "徐家汇天主堂 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0H3TUK613",
+          "identity_offset_m": 111.39549691285255,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.19149671484055,
+      "lng": 121.4372036194208,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p33": {
+    "core_id": "p33",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.190626365374555,
+      "lng": 121.4371436403768,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "徐家汇书院 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFMH4KQS",
+          "identity_offset_m": 22.60840726564095,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.190626365374555,
+      "lng": 121.4371436403768,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p34": {
+    "core_id": "p34",
+    "spatial_type": "LINEAR",
+    "route_anchor": {
+      "lat": 31.234789,
+      "lng": 121.47571,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "南京东路观光车",
+      "notes": "Recommended western public walking-start vicinity beside the sightseeing-car position. No ticket/service use is required; not claimed as an official surveyed gate.",
+      "evidence": [
+        {
+          "provider_id": "B0FFH10ASN",
+          "query": "南京路步行街西入口"
+        }
+      ]
+    },
+    "secondary_anchor": {
+      "lat": 31.238985,
+      "lng": 121.490045,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "中山东一路与南京东路交叉口",
+      "notes": "Eastern walking-space exit towards the Bund.",
+      "evidence": [
+        {
+          "provider_id": "B0FFHPIXCJ",
+          "query": "南京东路与中山东一路交叉口"
+        }
+      ]
+    },
+    "anchor_source": "AMAP_POI",
+    "spatial_extent": {
+      "type": "POLYLINE",
+      "coordinate_system": "GCJ02",
+      "extent_source": "DERIVED",
+      "extent_confidence": 0.7,
+      "notes": "Approximate City Walk street experience extent from named map features; straight chords/curated bends are not surveyed roadway geometry or provider boundary. Secondary anchor is metadata only; no automatic traversal, exit selection or internal walking-time addition.",
+      "evidence": [
+        {
+          "provider_id": "B0FFH10ASN",
+          "query": "南京路步行街西入口"
+        },
+        {
+          "provider_id": "B0FFHPIXCJ",
+          "query": "南京东路与中山东一路交叉口"
+        },
+        {
+          "public_context_source": "https://www.shanghai.gov.cn/xxzfgzwj/20220127/d2c2979752314dc69738454f24cd515c.html"
+        }
+      ],
+      "vertices": [
+        {
+          "lat": 31.234789,
+          "lng": 121.47571,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.235348,
+          "lng": 121.480432,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.237534,
+          "lng": 121.484835,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.238985,
+          "lng": 121.490045,
+          "coordinate_system": "GCJ02"
+        }
+      ]
+    },
+    "extent_source": "DERIVED",
+    "extent_confidence": 0.7,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.236534,
+      "lng": 121.482374,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p35": {
+    "core_id": "p35",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.193781,
+      "lng": 121.438463,
+      "coordinate_system": "GCJ02",
+      "source": "TRACEMATE_CURATED",
+      "confidence": 0.82,
+      "name": "肇嘉浜路与虹桥路交叉口",
+      "notes": "Public junction beside the central Metro City/Grand Gateway cluster; curated City Walk entry, not a mall identity or region centroid.",
+      "evidence": [
+        {
+          "provider_id": "B0FFHPKBPR",
+          "query": "肇嘉浜路与漕溪北路交叉口"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "TRACEMATE_CURATED",
+    "spatial_extent": {
+      "type": "POLYGON",
+      "coordinate_system": "GCJ02",
+      "vertices": [
+        {
+          "lat": 31.1908,
+          "lng": 121.4358,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.1908,
+          "lng": 121.4416,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.1965,
+          "lng": 121.4416,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.1965,
+          "lng": 121.4358,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.1908,
+          "lng": 121.4358,
+          "coordinate_system": "GCJ02"
+        }
+      ],
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.65,
+      "notes": "Product review polygon limited to the Core central Metro City/Grand Gateway shopping and public-space cluster, including the adjacent cathedral frontage. Excludes the wider Xujiahui central activity district. Approximate bounds, not Amap or governmental commercial-district boundary.",
+      "evidence": [
+        {
+          "provider_id": "B00154DTEG",
+          "location": {
+            "lat": 31.192944,
+            "lng": 121.439649,
+            "coordinate_system": "GCJ02"
+          }
+        },
+        {
+          "provider_id": "B00155QPSL",
+          "location": {
+            "lat": 31.194628,
+            "lng": 121.437217,
+            "coordinate_system": "GCJ02"
+          }
+        },
+        {
+          "public_context_source": "https://sww.sh.gov.cn/swdt/20240220/42959b17d7da40d6b1ee2da5b196d64a.html"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.65,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.193526044665383,
+      "lng": 121.43842179377025,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p36": {
+    "core_id": "p36",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.167719,
+      "lng": 121.461939,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "西岸艺术中心 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFFFROYU",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.167719,
+      "lng": 121.461939,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p37": {
+    "core_id": "p37",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.163167,
+      "lng": 121.464561,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "西岸穹顶艺术中心（含北广场） City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0HAL54MUG",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.163167,
+        "lng": 121.464561,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 160,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 160m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p37",
+          "core_type": "venue",
+          "address": "龙腾大道2300号",
+          "identity_id": "B0HAL54MUG"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.163167,
+      "lng": 121.464561,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p38": {
+    "core_id": "p38",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.185976,
+      "lng": 121.467781,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "滨江滑板公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFG8TX4N",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.185976,
+        "lng": 121.467781,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 200,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 200m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p38",
+          "core_type": "park",
+          "address": "瑞宁路",
+          "identity_id": "B0FFG8TX4N"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.185976,
+      "lng": 121.467781,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p39": {
+    "core_id": "p39",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.168592,
+      "lng": 121.45773,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "徐汇跑道公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFI8D8QU",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.168592,
+        "lng": 121.45773,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 350,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 350m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p39",
+          "core_type": "park",
+          "address": "",
+          "identity_id": "B0FFI8D8QU"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.168592,
+      "lng": 121.45773,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p42": {
+    "core_id": "p42",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.177546,
+      "lng": 121.4624,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "徐汇滨江海事塔广场 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFGXZYD4",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.177546,
+        "lng": 121.4624,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 100,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 100m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "p42",
+          "core_type": "landmark",
+          "address": "龙腾大道",
+          "identity_id": "B0FFGXZYD4"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.177546,
+      "lng": 121.4624,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p43": {
+    "core_id": "p43",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.1819,
+      "lng": 121.464763,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "北票码头塔吊 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0HGOCVMOG",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.1819,
+      "lng": 121.464763,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "p41": {
+    "core_id": "p41",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.163461,
+      "lng": 121.465695,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "西岸大剧院 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0KAK1PF9S",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.163461,
+      "lng": 121.465695,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_17d41390cac9": {
+    "core_id": "pz_17d41390cac9",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.210087,
+      "lng": 121.454495,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "上海工艺美术博物馆 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155LL5X",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.210087,
+      "lng": 121.454495,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_a74f9e58195a": {
+    "core_id": "pz_a74f9e58195a",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.228427,
+      "lng": 121.493836,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "古城公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B001556ZBL",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.228427,
+        "lng": 121.493836,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 160,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 160m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_a74f9e58195a",
+          "core_type": "park",
+          "address": "人民路333号(豫园地铁站7号口步行280米)",
+          "identity_id": "B001556ZBL"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.228427,
+      "lng": 121.493836,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_0b545bb1cf2a": {
+    "core_id": "pz_0b545bb1cf2a",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.254871,
+      "lng": 121.484802,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "四川北路公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00152B056",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.254871,
+        "lng": 121.484802,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 220,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 220m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_0b545bb1cf2a",
+          "core_type": "park",
+          "address": "四川北路1428号(四川北路地铁站1号口步行220米)",
+          "identity_id": "B00152B056"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.254871,
+      "lng": 121.484802,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_b72e3b8998b3": {
+    "core_id": "pz_b72e3b8998b3",
+    "spatial_type": "LINEAR",
+    "route_anchor": {
+      "lat": 31.262091,
+      "lng": 121.483703,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "多伦路文化名人街牌坊",
+      "notes": "Enter the cultural street at the southern archway; not its ordinary road identity.",
+      "evidence": [
+        {
+          "provider_id": "B0G2CRB88C",
+          "query": "多伦路牌坊"
+        }
+      ]
+    },
+    "secondary_anchor": {
+      "lat": 31.265131,
+      "lng": 121.481874,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "多伦路与四川北路交叉口",
+      "notes": "Northern connection back to Sichuan North Road.",
+      "evidence": [
+        {
+          "provider_id": "B0M2MRN7MR",
+          "query": "多伦路与四川北路交叉口"
+        }
+      ]
+    },
+    "anchor_source": "AMAP_POI",
+    "spatial_extent": {
+      "type": "POLYLINE",
+      "coordinate_system": "GCJ02",
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.6,
+      "notes": "Approximate City Walk street experience extent from named map features; straight chords/curated bends are not surveyed roadway geometry or provider boundary. Secondary anchor is metadata only; no automatic traversal, exit selection or internal walking-time addition.",
+      "evidence": [
+        {
+          "provider_id": "B0G2CRB88C",
+          "query": "多伦路牌坊"
+        },
+        {
+          "provider_id": "B0M2MRN7MR",
+          "query": "多伦路与四川北路交叉口"
+        },
+        {
+          "public_context_source": "https://www.shhk.gov.cn/xwzx/002003/20240226/c159f769-0d8b-48d5-a8a9-d7fc432cfdad.html"
+        }
+      ],
+      "vertices": [
+        {
+          "lat": 31.262091,
+          "lng": 121.483703,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.263,
+          "lng": 121.48185,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.264124,
+          "lng": 121.481748,
+          "coordinate_system": "GCJ02"
+        },
+        {
+          "lat": 31.265131,
+          "lng": 121.481874,
+          "coordinate_system": "GCJ02"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.6,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.264124,
+      "lng": 121.481748,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_b4acff8f32fc": {
+    "core_id": "pz_b4acff8f32fc",
+    "spatial_type": "LINEAR",
+    "route_anchor": {
+      "lat": 31.264694,
+      "lng": 121.483313,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "四川北路与甜爱路交叉口",
+      "notes": "Southern entry from Sichuan North Road; start a walk along the cultural street.",
+      "evidence": [
+        {
+          "provider_id": "B0FFGGOFS6",
+          "query": "甜爱路与四川北路交叉口"
+        }
+      ]
+    },
+    "secondary_anchor": {
+      "lat": 31.268113,
+      "lng": 121.484034,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "甜爱路与甜爱支路交叉口",
+      "notes": "Secondary anchor at Tianai Branch Road; first-version romantic-walk segment.",
+      "evidence": [
+        {
+          "provider_id": "B0FFG5OG17",
+          "query": "甜爱路与甜爱支路交叉口"
+        }
+      ]
+    },
+    "anchor_source": "AMAP_POI",
+    "spatial_extent": {
+      "type": "START_END",
+      "coordinate_system": "GCJ02",
+      "extent_source": "DERIVED",
+      "extent_confidence": 0.7,
+      "notes": "Approximate City Walk street experience extent from named map features; straight chords/curated bends are not surveyed roadway geometry or provider boundary. Secondary anchor is metadata only; no automatic traversal, exit selection or internal walking-time addition.",
+      "evidence": [
+        {
+          "provider_id": "B0FFGGOFS6",
+          "query": "甜爱路与四川北路交叉口"
+        },
+        {
+          "provider_id": "B0FFG5OG17",
+          "query": "甜爱路与甜爱支路交叉口"
+        },
+        {
+          "public_context_source": "https://www.shhk.gov.cn/xwzx/002005/20251222/2cbc6abf-6327-465e-859c-c1c29873c841.html"
+        }
+      ],
+      "start": {
+        "lat": 31.264694,
+        "lng": 121.483313,
+        "coordinate_system": "GCJ02"
+      },
+      "end": {
+        "lat": 31.268113,
+        "lng": 121.484034,
+        "coordinate_system": "GCJ02"
+      }
+    },
+    "extent_source": "DERIVED",
+    "extent_confidence": 0.7,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.26723,
+      "lng": 121.483903,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_68957332b418": {
+    "core_id": "pz_68957332b418",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.219645626782466,
+      "lng": 121.47788238919954,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "太平桥公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00150C70A",
+          "identity_offset_m": 93.66896272477452,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.219645626782466,
+        "lng": 121.47788238919954,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 250,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 250m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_68957332b418",
+          "core_type": "park",
+          "address": "上海市 自忠路 170",
+          "identity_id": "B00150C70A"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.219645626782466,
+      "lng": 121.47788238919954,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_8919938b21f2": {
+    "core_id": "pz_8919938b21f2",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.223114644219063,
+      "lng": 121.47759133585856,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "淮海公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155KIAS",
+          "identity_offset_m": 7.226976926674037,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.223114644219063,
+        "lng": 121.47759133585856,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 150,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 150m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_8919938b21f2",
+          "core_type": "park",
+          "address": "",
+          "identity_id": "B00155KIAS"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.223114644219063,
+      "lng": 121.47759133585856,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_bd40d04c7f5d": {
+    "core_id": "pz_bd40d04c7f5d",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.21698,
+      "lng": 121.469115,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "复兴公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155KTVH",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.21698,
+        "lng": 121.469115,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 300,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 300m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_bd40d04c7f5d",
+          "core_type": "park",
+          "address": "复兴中路516号",
+          "identity_id": "B00155KTVH"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.21698,
+      "lng": 121.469115,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_a87eb2b5b5da": {
+    "core_id": "pz_a87eb2b5b5da",
+    "spatial_type": "LINEAR",
+    "route_anchor": {
+      "lat": 31.203998,
+      "lng": 121.437919,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "武康路与淮海中路交叉口",
+      "notes": "Recommended southern entry beside Wukang Mansion; walk north along the historical street.",
+      "evidence": [
+        {
+          "provider_id": "B0FFHPLENP",
+          "query": "武康路与淮海中路交叉口"
+        }
+      ]
+    },
+    "secondary_anchor": {
+      "lat": 31.213351,
+      "lng": 121.439162,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "华山路与武康路交叉口",
+      "notes": "Northern secondary anchor connecting Huashan Road.",
+      "evidence": [
+        {
+          "provider_id": "B0FFHPKI3I",
+          "query": "武康路与华山路交叉口"
+        }
+      ]
+    },
+    "anchor_source": "AMAP_POI",
+    "spatial_extent": {
+      "type": "START_END",
+      "coordinate_system": "GCJ02",
+      "extent_source": "DERIVED",
+      "extent_confidence": 0.7,
+      "notes": "Approximate City Walk street experience extent from named map features; straight chords/curated bends are not surveyed roadway geometry or provider boundary. Secondary anchor is metadata only; no automatic traversal, exit selection or internal walking-time addition.",
+      "evidence": [
+        {
+          "provider_id": "B0FFHPLENP",
+          "query": "武康路与淮海中路交叉口"
+        },
+        {
+          "provider_id": "B0FFHPKI3I",
+          "query": "武康路与华山路交叉口"
+        },
+        {
+          "public_context_source": "https://mzj.sh.gov.cn/lnb-lyxx/20231220/92ff0d6b62494a3e92fbd357e060b120.html"
+        }
+      ],
+      "start": {
+        "lat": 31.203998,
+        "lng": 121.437919,
+        "coordinate_system": "GCJ02"
+      },
+      "end": {
+        "lat": 31.213351,
+        "lng": 121.439162,
+        "coordinate_system": "GCJ02"
+      }
+    },
+    "extent_source": "DERIVED",
+    "extent_confidence": 0.7,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.207255,
+      "lng": 121.43993,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_553cfd36707c": {
+    "core_id": "pz_553cfd36707c",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.200606722311015,
+      "lng": 121.44213913780838,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "衡山公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155IQRX",
+          "identity_offset_m": 5.417282637717182,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.200606722311015,
+        "lng": 121.44213913780838,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 120,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 120m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_553cfd36707c",
+          "core_type": "park",
+          "address": "",
+          "identity_id": "B00155IQRX"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.200606722311015,
+      "lng": 121.44213913780838,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_a27dbbc6cab8": {
+    "core_id": "pz_a27dbbc6cab8",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.216991,
+      "lng": 121.456737,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "襄阳公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0015581AB",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.216991,
+        "lng": 121.456737,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 160,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 160m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_a27dbbc6cab8",
+          "core_type": "park",
+          "address": "淮海中路1008号(近襄阳北路)",
+          "identity_id": "B0015581AB"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.216991,
+      "lng": 121.456737,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_a446052910a0": {
+    "core_id": "pz_a446052910a0",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.268259025551146,
+      "lng": 121.48456693686504,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "山阴路274弄 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFH165MQ",
+          "identity_offset_m": 3.047397296621848,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.268259025551146,
+        "lng": 121.48456693686504,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 100,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 100m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_a446052910a0",
+          "core_type": "street",
+          "address": "",
+          "identity_id": "B0FFH165MQ"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.268259025551146,
+      "lng": 121.48456693686504,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_0db17d82e9ec": {
+    "core_id": "pz_0db17d82e9ec",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.228827,
+      "lng": 121.475213,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "上海人民广场 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00157917M",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.228827,
+        "lng": 121.475213,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 300,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 300m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_0db17d82e9ec",
+          "core_type": "street",
+          "address": "人民大道185号",
+          "identity_id": "B00157917M"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.228827,
+      "lng": 121.475213,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_cc5300aee299": {
+    "core_id": "pz_cc5300aee299",
+    "spatial_type": "LINEAR",
+    "route_anchor": {
+      "lat": 31.231509,
+      "lng": 121.476291,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "福州路与西藏中路交叉口",
+      "notes": "Western entry for the bookish/street-scene walk.",
+      "evidence": [
+        {
+          "provider_id": "B0FFHPIT6P",
+          "query": "福州路与西藏中路交叉口"
+        }
+      ]
+    },
+    "secondary_anchor": {
+      "lat": 31.23563,
+      "lng": 121.490436,
+      "coordinate_system": "GCJ02",
+      "source": "AMAP_POI",
+      "confidence": 0.88,
+      "name": "中山东一路与福州路交叉口",
+      "notes": "Eastern secondary anchor at the Bund approach.",
+      "evidence": [
+        {
+          "provider_id": "B0FFHPHK17",
+          "query": "福州路与中山东一路交叉口"
+        }
+      ]
+    },
+    "anchor_source": "AMAP_POI",
+    "spatial_extent": {
+      "type": "START_END",
+      "coordinate_system": "GCJ02",
+      "extent_source": "DERIVED",
+      "extent_confidence": 0.7,
+      "notes": "Approximate City Walk street experience extent from named map features; straight chords/curated bends are not surveyed roadway geometry or provider boundary. Secondary anchor is metadata only; no automatic traversal, exit selection or internal walking-time addition.",
+      "evidence": [
+        {
+          "provider_id": "B0FFHPIT6P",
+          "query": "福州路与西藏中路交叉口"
+        },
+        {
+          "provider_id": "B0FFHPHK17",
+          "query": "福州路与中山东一路交叉口"
+        },
+        {
+          "public_context_source": null
+        }
+      ],
+      "start": {
+        "lat": 31.231509,
+        "lng": 121.476291,
+        "coordinate_system": "GCJ02"
+      },
+      "end": {
+        "lat": 31.23563,
+        "lng": 121.490436,
+        "coordinate_system": "GCJ02"
+      }
+    },
+    "extent_source": "DERIVED",
+    "extent_confidence": 0.7,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.233657,
+      "lng": 121.481917,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_66452d5db8a1": {
+    "core_id": "pz_66452d5db8a1",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.217351,
+      "lng": 121.474625,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "大韩民国临时政府旧址 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B001556HRR",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.217351,
+      "lng": 121.474625,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_54f53d30c0dc": {
+    "core_id": "pz_54f53d30c0dc",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.203534,
+      "lng": 121.449089,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "安康公寓（乌鲁木齐南路176号） City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0KUFC7BAU",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.203534,
+      "lng": 121.449089,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_de47b0cf3e98": {
+    "core_id": "pz_de47b0cf3e98",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.207083837661216,
+      "lng": 121.44266142241591,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "中南新邨 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0H6D7AFIV",
+          "identity_offset_m": 62.451743292617,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.207083837661216,
+        "lng": 121.44266142241591,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 150,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 150m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_de47b0cf3e98",
+          "core_type": "street",
+          "address": "淮海中路1670弄",
+          "identity_id": "B0H6D7AFIV"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.207083837661216,
+      "lng": 121.44266142241591,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_437ddd34f2c1": {
+    "core_id": "pz_437ddd34f2c1",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.212523394593628,
+      "lng": 121.44205113723257,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "张乐平故居 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155LW7J",
+          "identity_offset_m": 121.60411753240173,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.212523394593628,
+      "lng": 121.44205113723257,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_7e40d824dbee": {
+    "core_id": "pz_7e40d824dbee",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.211562009435305,
+      "lng": 121.45169572057236,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "上海交响乐团音乐厅 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B0FFF3T00K",
+          "identity_offset_m": 6.725329140901686,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.211562009435305,
+      "lng": 121.45169572057236,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_09b5938601ee": {
+    "core_id": "pz_09b5938601ee",
+    "spatial_type": "AREA",
+    "route_anchor": {
+      "lat": 31.197401,
+      "lng": 121.442461,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "徐家汇公园 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155ILI8",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": {
+      "type": "CENTER_RADIUS",
+      "coordinate_system": "GCJ02",
+      "center": {
+        "lat": 31.197401,
+        "lng": 121.442461,
+        "coordinate_system": "GCJ02"
+      },
+      "radius_m": 300,
+      "extent_source": "TRACEMATE_CURATED",
+      "extent_confidence": 0.55,
+      "notes": "First-version City Walk experience vicinity: 300m around an existing place anchor. Product approximation chosen for this park/complex/lane/plaza scale; not a provider boundary, building footprint, public-access guarantee or whole administrative area.",
+      "evidence": [
+        {
+          "core_id": "pz_09b5938601ee",
+          "core_type": "park",
+          "address": "肇嘉浜路986号(徐家汇地铁站14号口步行250米)",
+          "identity_id": "B00155ILI8"
+        }
+      ]
+    },
+    "extent_source": "TRACEMATE_CURATED",
+    "extent_confidence": 0.55,
+    "extent_status": "CURATED_APPROXIMATE",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.197401,
+      "lng": 121.442461,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_8b1bb0928e7e": {
+    "core_id": "pz_8b1bb0928e7e",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.268021,
+      "lng": 121.481397,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "李白烈士故居 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155L3BC",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.268021,
+      "lng": 121.481397,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_c862ec0d6ddd": {
+    "core_id": "pz_c862ec0d6ddd",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.258552,
+      "lng": 121.487422,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "沈尹默故居 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155L3B4",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.258552,
+      "lng": 121.487422,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_c4f63095cb01": {
+    "core_id": "pz_c4f63095cb01",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.265862,
+      "lng": 121.481639,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "日本海军特别陆战队司令部旧址 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B00155MRU8",
+          "identity_offset_m": 0.0,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.265862,
+      "lng": 121.481639,
+      "coordinate_system": "GCJ02"
+    }
+  },
+  "pz_f8277d15786a": {
+    "core_id": "pz_f8277d15786a",
+    "spatial_type": "POINT",
+    "route_anchor": {
+      "lat": 31.261837889040287,
+      "lng": 121.48301456308863,
+      "coordinate_system": "GCJ02",
+      "source": "CORE_EXISTING",
+      "confidence": 0.75,
+      "name": "上海多伦现代美术馆 City Walk anchor",
+      "notes": "Retained existing Core visit position, corroborated against the current same-entity map identity and its recorded offset; not generated from an extent centroid and not claimed as a verified gate.",
+      "evidence": [
+        {
+          "identity_id": "B001559DIY",
+          "identity_offset_m": 7.919597430271508,
+          "audit_reference": "examples/spatial_identity/identity_audit.json"
+        }
+      ]
+    },
+    "secondary_anchor": null,
+    "anchor_source": "CORE_EXISTING",
+    "spatial_extent": null,
+    "extent_source": null,
+    "extent_confidence": null,
+    "extent_status": "NOT_REQUIRED",
+    "reviewed": false,
+    "notes": "Identity, navigation anchor and extent are separate. No geofence/Trip automation. Spatial proposal is not owner-reviewed.",
+    "identity_coordinate": {
+      "lat": 31.261837889040287,
+      "lng": 121.48301456308863,
+      "coordinate_system": "GCJ02"
+    }
+  }
+}

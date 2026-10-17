@@ -1,0 +1,1595 @@
+{
+  "metadata": {
+    "project": "ShanghaiTrace / 沪迹",
+    "version": "poi-kb-v4-phase1.5b-final-calibration-v2",
+    "purpose": "Minimal POI knowledge base for Shanghai City Walk route planning, replanning and culture explanation",
+    "poi_count": 27,
+    "walk_zone_count": 4,
+    "walk_zones": [
+      {
+        "id": "wukang_fuxing_xujiahui",
+        "name_zh": "武康—复兴—徐家汇",
+        "name_en": "Wukang–Fuxing–Xujiahui",
+        "poi_count": 8
+      },
+      {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City–Xintiandi–Bund",
+        "poi_count": 8
+      },
+      {
+        "id": "hongkou_literary",
+        "name_zh": "鲁迅公园—四川北路",
+        "name_en": "Lu Xun Park–North Sichuan Road",
+        "poi_count": 6
+      },
+      {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸滨江",
+        "name_en": "West Bund Waterfront",
+        "poi_count": 5
+      }
+    ],
+    "tag_taxonomy": {
+      "interest_tags": {
+        "history": "历史",
+        "architecture": "建筑",
+        "local_life": "在地生活",
+        "literature": "文学",
+        "art": "艺术",
+        "industrial_heritage": "工业遗产",
+        "waterfront": "滨水",
+        "religion": "宗教文化",
+        "parks": "公园与公共空间",
+        "modern_city": "现代城市",
+        "modern_china_history": "中国近现代史",
+        "music": "音乐文化",
+        "gardens": "园林",
+        "shopping_lifestyle": "商业与生活方式"
+      },
+      "experience_tags": {
+        "iconic_landmark": "城市地标",
+        "neighborhood_walk": "街区漫步",
+        "street_scene": "街景观察",
+        "local_atmosphere": "本地生活氛围",
+        "museum_visit": "博物馆/纪念馆参观",
+        "photogenic": "适合视觉观察/拍照",
+        "quiet_walk": "相对安静的步行体验",
+        "adaptive_reuse": "历史建筑再利用",
+        "riverside_walk": "滨江步行",
+        "bookish": "书店/阅读氛围",
+        "social_observation": "观察市民公共生活",
+        "architecture_detail": "建筑细节观察",
+        "shopping_leisure": "休闲商业体验"
+      },
+      "culture_tags": {
+        "old_city": "上海老城厢",
+        "shikumen": "石库门",
+        "lane_life": "弄堂/里弄生活",
+        "modern_shanghai": "近现代上海城市史",
+        "literary_shanghai": "上海文学文化",
+        "religious_culture": "中国宗教与民间信仰",
+        "sino_foreign_exchange": "中外文化交流",
+        "political_history": "中国近现代政治史",
+        "industrial_transformation": "工业空间转型",
+        "urban_renewal": "城市更新与再利用",
+        "garden_culture": "江南园林文化",
+        "public_life": "城市公共生活",
+        "music_culture": "上海音乐文化"
+      }
+    },
+    "design_notes": [
+      "Phase 1.5B: only walk_stop/full_visit; full_visit describes a main destination, not indoor access.",
+      "Visit times are product estimates, with confirmed overrides and pending alternatives recorded per POI.",
+      "Stable internal IDs are preserved; display_order follows this data file from 1 to 27.",
+      "Street/district coordinates represent approximate anchors, not complete area footprints or access gates.",
+      "Dynamic access information is unknown unless explicitly provided to the route request."
+    ]
+  },
+  "pois": [
+    {
+      "id": "p2",
+      "display_order": 1,
+      "name": {
+        "zh": "永康路与嘉善路口",
+        "en": "Yongkang Road × Jiashan Road",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "wukang_fuxing_xujiahui",
+        "name_zh": "武康—复兴—徐家汇",
+        "name_en": "Wukang–Fuxing–Xujiahui"
+      },
+      "poi_type": "street",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 10,
+            "standard": 20,
+            "deep": 35
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "徐汇区永康路嘉善路口",
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)",
+        "representative_lat": 31.2128,
+        "representative_lng": 121.4592,
+        "coordinate_note": "Legacy point reused as representative anchor; not the whole area's unique location or verified entry/exit."
+      }
+    },
+    {
+      "id": "p4",
+      "display_order": 2,
+      "name": {
+        "zh": "鲁迅故居",
+        "en": "Lu Xun Former Residence",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "鲁迅公园—四川北路",
+        "name_en": "Lu Xun Park–North Sichuan Road"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 45
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "虹口区山阴路132弄9号",
+        "lat": 31.2693,
+        "lng": 121.481,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      }
+    },
+    {
+      "id": "p5",
+      "display_order": 3,
+      "name": {
+        "zh": "龙美术馆（西岸馆）",
+        "en": "Long Museum (West Bund)",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸滨江",
+        "name_en": "West Bund Waterfront"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit",
+          "walk_stop"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 30,
+            "standard": 75,
+            "deep": 120
+          },
+          "walk_stop": {
+            "quick": 15,
+            "standard": 25,
+            "deep": 40
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "walk_stop"
+        ]
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        },
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道3398号",
+        "lat": 31.1848,
+        "lng": 121.465,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      }
+    },
+    {
+      "id": "p7",
+      "display_order": 4,
+      "name": {
+        "zh": "新天地北里（石库门街区）",
+        "en": "Xintiandi North Block (Shikumen)",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City–Xintiandi–Bund"
+      },
+      "poi_type": "district",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 60
+          },
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "full_visit"
+        ]
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "黄浦区太仓路181弄",
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)",
+        "representative_lat": 31.2212,
+        "representative_lng": 121.4679,
+        "coordinate_note": "Legacy point reused as representative anchor; not the whole area's unique location or verified entry/exit."
+      }
+    },
+    {
+      "id": "p9",
+      "display_order": 5,
+      "name": {
+        "zh": "张园",
+        "en": "Zhangyuan",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City–Xintiandi–Bund"
+      },
+      "poi_type": "district",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 20,
+            "standard": 40,
+            "deep": 60
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "静安区威海路588号",
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)",
+        "representative_lat": 31.2286,
+        "representative_lng": 121.4638,
+        "coordinate_note": "Legacy point reused as representative anchor; not the whole area's unique location or verified entry/exit."
+      }
+    },
+    {
+      "id": "p10",
+      "display_order": 6,
+      "name": {
+        "zh": "今潮8弄",
+        "en": "Jinchao 8 Lanes",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "鲁迅公园—四川北路",
+        "name_en": "Lu Xun Park–North Sichuan Road"
+      },
+      "poi_type": "district",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 60
+          },
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "full_visit"
+        ]
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "虹口区四川北路989弄",
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)",
+        "representative_lat": 31.2588,
+        "representative_lng": 121.4782,
+        "coordinate_note": "Legacy point reused as representative anchor; not the whole area's unique location or verified entry/exit."
+      }
+    },
+    {
+      "id": "p11",
+      "display_order": 7,
+      "name": {
+        "zh": "建业里",
+        "en": "Jianyeli",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "wukang_fuxing_xujiahui",
+        "name_zh": "武康—复兴—徐家汇",
+        "name_en": "Wukang–Fuxing–Xujiahui"
+      },
+      "poi_type": "district",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 10,
+            "standard": 15,
+            "deep": 25
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "徐汇区建国西路456弄",
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)",
+        "representative_lat": 31.2073,
+        "representative_lng": 121.4562,
+        "coordinate_note": "Legacy point reused as representative anchor; not the whole area's unique location or verified entry/exit."
+      }
+    },
+    {
+      "id": "p12",
+      "display_order": 8,
+      "name": {
+        "zh": "陕南邨",
+        "en": "Shannan Village",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "wukang_fuxing_xujiahui",
+        "name_zh": "武康—复兴—徐家汇",
+        "name_en": "Wukang–Fuxing–Xujiahui"
+      },
+      "poi_type": "district",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 5,
+            "standard": 10,
+            "deep": 20
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "黄浦区陕西南路151号",
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)",
+        "representative_lat": 31.2158,
+        "representative_lng": 121.4565,
+        "coordinate_note": "Legacy point reused as representative anchor; not the whole area's unique location or verified entry/exit."
+      }
+    },
+    {
+      "id": "p13",
+      "display_order": 9,
+      "name": {
+        "zh": "武康大楼",
+        "en": "Wukang Mansion",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "wukang_fuxing_xujiahui",
+        "name_zh": "武康—复兴—徐家汇",
+        "name_en": "Wukang–Fuxing–Xujiahui"
+      },
+      "poi_type": "landmark",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 5,
+            "standard": 15,
+            "deep": 25
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "徐汇区淮海中路1850号",
+        "lat": 31.2108,
+        "lng": 121.4472,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      }
+    },
+    {
+      "id": "p14",
+      "display_order": 10,
+      "name": {
+        "zh": "外滩·陈毅广场",
+        "en": "The Bund · Chen Yi Square",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City–Xintiandi–Bund"
+      },
+      "poi_type": "landmark",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 10,
+            "standard": 25,
+            "deep": 45
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "黄浦区中山东一路",
+        "lat": 31.2365,
+        "lng": 121.4915,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      }
+    },
+    {
+      "id": "p15",
+      "display_order": 11,
+      "name": {
+        "zh": "豫园",
+        "en": "Yu Garden",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City–Xintiandi–Bund"
+      },
+      "poi_type": "district",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 30,
+            "standard": 45,
+            "deep": 60
+          },
+          "full_visit": {
+            "quick": 60,
+            "standard": 90,
+            "deep": 120
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Yu Garden shopping area and surrounding streets; excludes ticketed garden entry."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": true,
+          "scope": "Ticketed Yu Garden garden visit plus surrounding shopping area and streets."
+        }
+      },
+      "location": {
+        "address_zh": "黄浦区方浜中路",
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)",
+        "representative_lat": 31.227,
+        "representative_lng": 121.4925,
+        "coordinate_note": "Legacy point reused as representative anchor; not the whole area's unique location or verified entry/exit."
+      }
+    },
+    {
+      "id": "p16",
+      "display_order": 12,
+      "name": {
+        "zh": "鲁迅公园",
+        "en": "Lu Xun Park",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "鲁迅公园—四川北路",
+        "name_en": "Lu Xun Park–North Sichuan Road"
+      },
+      "poi_type": "park",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 30,
+            "standard": 50,
+            "deep": 75
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "outdoor",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "虹口区四川北路2288号",
+        "lat": 31.2712,
+        "lng": 121.4844,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      }
+    },
+    {
+      "id": "p20",
+      "display_order": 13,
+      "name": {
+        "zh": "上海城隍庙",
+        "en": "Shanghai City God Temple",
+        "aliases": [
+          "城隍庙"
+        ]
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City–Xintiandi–Bund"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 20,
+            "standard": 40,
+            "deep": 60
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "黄浦区方浜中路249号",
+        "lat": 31.225879,
+        "lng": 121.492466,
+        "coordinate_system": "GCJ-02/Amap POI anchor",
+        "coordinate_previous_record": {
+          "lat": null,
+          "lng": null,
+          "coordinate_system": "pending exact GCJ-02 geocoding"
+        },
+        "coordinate_source": "https://ditu.amap.com/place/B00155FHOA",
+        "coordinate_note": "Published temple POI anchor matching Fangbang Middle Road 249; visitor entrance not verified.",
+        "coordinate_checked_on": "2026-10-03",
+        "coordinate_status": "map_anchor_not_verified_entrance"
+      }
+    },
+    {
+      "id": "p21",
+      "display_order": 14,
+      "name": {
+        "zh": "上海宋庆龄故居纪念馆",
+        "en": "Former Residence of Soong Ching-ling in Shanghai",
+        "aliases": [
+          "宋庆龄故居"
+        ]
+      },
+      "walk_zone": {
+        "id": "wukang_fuxing_xujiahui",
+        "name_zh": "武康—复兴—徐家汇",
+        "name_en": "Wukang–Fuxing–Xujiahui"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 25,
+            "standard": 45,
+            "deep": 70
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": true,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "徐汇区淮海中路1843号",
+        "lat": 31.204017,
+        "lng": 121.439062,
+        "coordinate_system": "GCJ-02 / Amap"
+      }
+    },
+    {
+      "id": "p23",
+      "display_order": 15,
+      "name": {
+        "zh": "思南公馆",
+        "en": "Sinan Mansions",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City–Xintiandi–Bund"
+      },
+      "poi_type": "district",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 50
+          },
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "full_visit"
+        ]
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "黄浦区复兴中路523号",
+        "coordinate_system": "GCJ-02/Amap representative anchor",
+        "coordinate_previous_record": {
+          "lat": null,
+          "lng": null,
+          "coordinate_system": "pending exact GCJ-02 geocoding"
+        },
+        "coordinate_source": "https://ditu.amap.com/place/B001574I9I",
+        "coordinate_note": "Published Sinan Mansions complex anchor (source address 509, existing catalog address 523 Fuxing Middle Road). Representative district point, not a verified gate or centroid.",
+        "coordinate_checked_on": "2026-10-03",
+        "coordinate_status": "map_anchor_not_verified_entrance",
+        "representative_lat": 31.214509,
+        "representative_lng": 121.468956
+      }
+    },
+    {
+      "id": "p24",
+      "display_order": 16,
+      "name": {
+        "zh": "中共一大纪念馆",
+        "en": "Memorial of the First National Congress of the CPC",
+        "aliases": [
+          "中共一大会址"
+        ]
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City–Xintiandi–Bund"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit",
+          "walk_stop"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          },
+          "walk_stop": {
+            "quick": 15,
+            "standard": 25,
+            "deep": 40
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "walk_stop"
+        ]
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "indoor",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        },
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "黄浦区黄陂南路374号",
+        "lat": 31.22206,
+        "lng": 121.47069,
+        "coordinate_system": "WGS84/OpenStreetMap approximation",
+        "coordinate_previous_record": {
+          "lat": null,
+          "lng": 121.47135,
+          "coordinate_system": "longitude verified; latitude pending exact GCJ-02 geocoding"
+        },
+        "coordinate_source": "https://mapcarta.com/W372180467",
+        "coordinate_note": "Historic First Congress site anchor (OSM way 372180467), not the new exhibition building entrance. Replaces the incomplete legacy pair as a whole; manual entrance/scope review remains needed.",
+        "coordinate_checked_on": "2026-10-03",
+        "coordinate_status": "map_anchor_not_verified_entrance"
+      }
+    },
+    {
+      "id": "p25",
+      "display_order": 17,
+      "name": {
+        "zh": "1927·鲁迅与内山纪念书局",
+        "en": "1927 Lu Xun & Uchiyama Memorial Bookstore",
+        "aliases": [
+          "内山书店旧址"
+        ]
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "鲁迅公园—四川北路",
+        "name_en": "Lu Xun Park–North Sichuan Road"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 10,
+            "standard": 25,
+            "deep": 40
+          },
+          "full_visit": {
+            "quick": 20,
+            "standard": 40,
+            "deep": 60
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "full_visit"
+        ]
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "indoor",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "虹口区四川北路2056号",
+        "lat": 31.26671,
+        "lng": 121.47922,
+        "coordinate_system": "WGS84/OpenStreetMap approximation"
+      }
+    },
+    {
+      "id": "p26",
+      "display_order": 18,
+      "name": {
+        "zh": "中国左翼作家联盟会址纪念馆",
+        "en": "Memorial Site of the League of Left-Wing Writers",
+        "aliases": [
+          "左联会址纪念馆"
+        ]
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "鲁迅公园—四川北路",
+        "name_en": "Lu Xun Park–North Sichuan Road"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 45
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "indoor",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "虹口区多伦路201弄2号",
+        "lat": 31.265534037082084,
+        "lng": 121.4765340501877,
+        "coordinate_system": "WGS84 planning approximation",
+        "coordinate_previous_record": {
+          "lat": null,
+          "lng": null,
+          "coordinate_system": "pending exact GCJ-02 geocoding"
+        },
+        "coordinate_source": "https://hkda.shhk.gov.cn/hkda/lswm/hk_protalSite/",
+        "coordinate_note": "Hongkou Archives public map record WM00377 matches Duolun Road Lane 201 No. 2. Map uses Tianditu; precise feature datum is unverified, provisionally treated as WGS84. Needs manual coordinate review; not a verified entrance.",
+        "coordinate_checked_on": "2026-10-03",
+        "coordinate_status": "map_anchor_not_verified_entrance",
+        "coordinate_source_record": "WM00377 in assets/index-AH2zv9w_.js"
+      }
+    },
+    {
+      "id": "p27",
+      "display_order": 19,
+      "name": {
+        "zh": "1933老场坊",
+        "en": "1933 Old Millfun",
+        "aliases": [
+          "1933 Shanghai"
+        ]
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "鲁迅公园—四川北路",
+        "name_en": "Lu Xun Park–North Sichuan Road"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 35,
+            "deep": 60
+          },
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "full_visit"
+        ]
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "虹口区沙泾路10号（官方文旅资料亦常标注溧阳路611号）",
+        "lat": 31.254559,
+        "lng": 121.491884,
+        "coordinate_system": "GCJ-02 / Amap"
+      }
+    },
+    {
+      "id": "p28",
+      "display_order": 20,
+      "name": {
+        "zh": "西岸美术馆",
+        "en": "West Bund Museum",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸滨江",
+        "name_en": "West Bund Waterfront"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit",
+          "walk_stop"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 30,
+            "standard": 75,
+            "deep": 120
+          },
+          "walk_stop": {
+            "quick": 10,
+            "standard": 20,
+            "deep": 30
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "walk_stop"
+        ]
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "indoor",
+          "ticket_required": true,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        },
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道2600号",
+        "lat": 31.167682,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ-02 / Amap"
+      }
+    },
+    {
+      "id": "p29",
+      "display_order": 21,
+      "name": {
+        "zh": "上海油罐艺术中心",
+        "en": "TANK Shanghai",
+        "aliases": [
+          "油罐艺术中心"
+        ]
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸滨江",
+        "name_en": "West Bund Waterfront"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 25,
+            "deep": 35
+          },
+          "full_visit": {
+            "quick": 45,
+            "standard": 75,
+            "deep": 120
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Exterior tanks, industrial heritage and waterfront public space; no exhibition entry."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": true,
+          "scope": "Enter the exhibition venue to view art."
+        }
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道2380号",
+        "lat": 31.164519,
+        "lng": 121.464321,
+        "coordinate_system": "GCJ-02 / Amap"
+      }
+    },
+    {
+      "id": "p30",
+      "display_order": 22,
+      "name": {
+        "zh": "Gate M 西岸梦中心",
+        "en": "Gate M West Bund Dream Center",
+        "aliases": [
+          "西岸梦中心"
+        ]
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸滨江",
+        "name_en": "West Bund Waterfront"
+      },
+      "poi_type": "district",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 60
+          },
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "full_visit"
+        ]
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道2266号",
+        "coordinate_system": "GCJ-02 / Amap",
+        "representative_lat": 31.16119,
+        "representative_lng": 121.465465,
+        "coordinate_note": "Legacy point reused as representative anchor; not the whole area's unique location or verified entry/exit."
+      }
+    },
+    {
+      "id": "p31",
+      "display_order": 23,
+      "name": {
+        "zh": "星美术馆",
+        "en": "START Museum",
+        "aliases": [
+          "START星美术馆"
+        ]
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸滨江",
+        "name_en": "West Bund Waterfront"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit",
+          "walk_stop"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 100
+          },
+          "walk_stop": {
+            "quick": 10,
+            "standard": 20,
+            "deep": 30
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "Phase 1.5A proposal, adopted by final Phase 1.5B where not overridden",
+        "pending_manual_calibration_modes": [
+          "walk_stop"
+        ]
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "indoor",
+          "ticket_required": true,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        },
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        }
+      },
+      "location": {
+        "address_zh": "徐汇区瑞宁路111号",
+        "lat": 31.18786,
+        "lng": 121.470412,
+        "coordinate_system": "GCJ-02/approximate conversion from official BD09 map anchor",
+        "coordinate_previous_record": {
+          "lat": null,
+          "lng": null,
+          "coordinate_system": "pending exact GCJ-02 geocoding"
+        },
+        "coordinate_source_original": {
+          "lat": 31.193849,
+          "lng": 121.476902,
+          "coordinate_system": "BD09"
+        },
+        "coordinate_source": "https://www.westbund.com/en/index/KEY-PROJECTS/detail_6f9E8.html",
+        "coordinate_note": "Official West Bund Start Museum BMap destination at 111 Ruining Road; static approximate BD09-to-GCJ02 conversion. Not a verified visitor entrance.",
+        "coordinate_checked_on": "2026-10-03",
+        "coordinate_status": "map_anchor_not_verified_entrance"
+      }
+    },
+    {
+      "id": "p32",
+      "display_order": 24,
+      "name": {
+        "zh": "徐家汇天主堂",
+        "en": "St. Ignatius Cathedral / Xujiahui Cathedral",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "wukang_fuxing_xujiahui",
+        "name_zh": "武康—复兴—徐家汇",
+        "name_en": "Wukang–Fuxing–Xujiahui"
+      },
+      "poi_type": "landmark",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 10,
+            "standard": 20,
+            "deep": 30
+          },
+          "full_visit": {
+            "quick": 20,
+            "standard": 35,
+            "deep": 50
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "上海市徐汇区蒲西路158号",
+        "lat": 31.19337,
+        "lng": 121.43258,
+        "coordinate_system": "WGS84/OpenStreetMap approximation",
+        "coordinate_source": "https://mapcarta.com/N11224212192",
+        "coordinate_source_feature": "OpenStreetMap node 11224212192",
+        "coordinate_note": "Approximate map anchor; not a verified visitor entrance."
+      }
+    },
+    {
+      "id": "p33",
+      "display_order": 25,
+      "name": {
+        "zh": "徐家汇书院",
+        "en": "Zikawei Library / Xujiahui Academy",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "wukang_fuxing_xujiahui",
+        "name_zh": "武康—复兴—徐家汇",
+        "name_en": "Wukang–Fuxing–Xujiahui"
+      },
+      "poi_type": "venue",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 40
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "user_confirmed_personal_visit_estimate_not_population_average",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "上海市徐汇区漕溪北路158号",
+        "lat": 31.1925,
+        "lng": 121.43252,
+        "coordinate_system": "WGS84/OpenStreetMap approximation",
+        "coordinate_source": "https://mapcarta.com/N10610507005",
+        "coordinate_source_feature": "OpenStreetMap node 10610507005",
+        "coordinate_note": "Contemporary academy anchor, not the separate historic Bibliotheca Zi-Ka-Wei; entrance not verified."
+      }
+    },
+    {
+      "id": "p34",
+      "display_order": 26,
+      "name": {
+        "zh": "南京路步行街",
+        "en": "Nanjing Road Pedestrian Street",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City–Xintiandi–Bund"
+      },
+      "poi_type": "street",
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "full_visit": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "location": {
+        "address_zh": "南京东路步行街核心路段：西藏中路—中山东一路",
+        "representative_lat": 31.2359,
+        "representative_lng": 121.4805,
+        "coordinate_system": "WGS84 planning approximation",
+        "coordinate_source": "https://opentravelguide.com/china/shanghai/shanghai/attractions/nanjing-road-pedestrian-street/",
+        "coordinate_note": "Provisional product anchor based on a published location; source datum unverified, provisionally interpreted as WGS84. Not a verified midpoint or street entrance. Needs manual coordinate review."
+      }
+    },
+    {
+      "id": "p35",
+      "display_order": 27,
+      "name": {
+        "zh": "徐家汇商圈",
+        "en": "Xujiahui Commercial District",
+        "aliases": []
+      },
+      "walk_zone": {
+        "id": "wukang_fuxing_xujiahui",
+        "name_zh": "武康—复兴—徐家汇",
+        "name_en": "Wukang–Fuxing–Xujiahui"
+      },
+      "poi_type": "district",
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 20,
+            "standard": 30,
+            "deep": 45
+          },
+          "full_visit": {
+            "quick": 60,
+            "standard": 90,
+            "deep": 150
+          }
+        }
+      },
+      "visit_profile_calibration": {
+        "time_basis": "product_planning_estimate",
+        "default_source": "User-confirmed Phase 1.5B final calibration V2",
+        "pending_manual_calibration_modes": []
+      },
+      "visit_mode_details": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Brief district observation, short mall stops and supplies."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Shopping, dining and exploration of Metro City, Grand Gateway and surrounding public spaces."
+        }
+      },
+      "location": {
+        "address_zh": "美罗城、港汇恒隆广场及徐家汇核心商业公共空间",
+        "representative_lat": 31.1954,
+        "representative_lng": 121.4338,
+        "coordinate_system": "WGS84 planning approximation",
+        "coordinate_source": "https://mapcarta.com/W225521733",
+        "coordinate_note": "Product-selected approximate public-space anchor northwest of the published Metro City anchor (31.1949, 121.4352), toward Grand Gateway. Not an entire-district centroid or verified entrance. Needs manual coordinate review."
+      }
+    }
+  ]
+}

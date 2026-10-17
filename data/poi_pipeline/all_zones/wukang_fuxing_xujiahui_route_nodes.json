@@ -1,0 +1,508 @@
+{
+  "existing": [
+    {
+      "poi_id": "p2",
+      "name": "永康路与嘉善路口",
+      "primary_role": "transition_stop",
+      "eligible_roles": [
+        "transition_stop"
+      ],
+      "role_confidence": "medium",
+      "role_reason": "街口的核心体验是街景与日常活动观察；现有访问范围仅短时公共空间观察，主要连接衡复街道节点，不足以独立承担目的地主题。",
+      "independent_destination_value": "low",
+      "citywalk_experiential_value": "medium",
+      "role_standard": {
+        "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+        "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+        "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+      },
+      "available_evidence": {
+        "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+        "summary": {
+          "summary_zh": "一条不需要赶路的街：梧桐、咖啡、五金店和水果摊共同组成上海的日常。"
+        },
+        "visit_profile": {
+          "default_mode": "walk_stop",
+          "supported_modes": [
+            "walk_stop"
+          ],
+          "modes": {
+            "walk_stop": {
+              "quick": 10,
+              "standard": 20,
+              "deep": 35
+            }
+          }
+        },
+        "visit_scope": {
+          "walk_stop": {
+            "environment": "outdoor",
+            "ticket_required": false,
+            "scope": "Key exterior/public-space observation."
+          }
+        },
+        "verification": {
+          "status": "verified_or_strongly_supported_existing_poi",
+          "source": "existing ShanghaiTrace project data",
+          "checked_on": "2026-10-02",
+          "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+        }
+      },
+      "decision": "audited_existing",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+    },
+    {
+      "poi_id": "p11",
+      "name": "建业里",
+      "primary_role": "supporting_stop",
+      "eligible_roles": [
+        "supporting_stop"
+      ],
+      "role_confidence": "medium",
+      "role_reason": "门、弄堂和天井构成明确的住宅空间观察体验，值得主动绕入；现有短时外观范围不支持作为整条路线核心，避免把酒店内部当作可自由参观空间。",
+      "independent_destination_value": "medium",
+      "citywalk_experiential_value": "medium",
+      "role_standard": {
+        "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+        "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+        "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+      },
+      "available_evidence": {
+        "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+        "summary": {
+          "summary_zh": "从建筑尺度看居住生活：门、弄堂、天井和邻里关系共同构成空间记忆。"
+        },
+        "visit_profile": {
+          "default_mode": "walk_stop",
+          "supported_modes": [
+            "walk_stop"
+          ],
+          "modes": {
+            "walk_stop": {
+              "quick": 10,
+              "standard": 15,
+              "deep": 25
+            }
+          }
+        },
+        "visit_scope": {
+          "walk_stop": {
+            "environment": "mixed",
+            "ticket_required": false,
+            "scope": "Key exterior/public-space observation."
+          }
+        },
+        "verification": {
+          "status": "verified_or_strongly_supported_existing_poi",
+          "source": "existing ShanghaiTrace project data",
+          "checked_on": "2026-10-02",
+          "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+        }
+      },
+      "decision": "audited_existing",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+    },
+    {
+      "poi_id": "p12",
+      "name": "陕南邨",
+      "primary_role": "transition_stop",
+      "eligible_roles": [
+        "transition_stop"
+      ],
+      "role_confidence": "medium",
+      "role_reason": "既有体验限定于入口与立面细节，短暂停留提供街道连续性；没有更大独立访问范围的证据，不承担核心目的地。",
+      "independent_destination_value": "low",
+      "citywalk_experiential_value": "medium",
+      "role_standard": {
+        "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+        "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+        "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+      },
+      "available_evidence": {
+        "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+        "summary": {
+          "summary_zh": "建筑本身是一份档案：入口、廊道与细部都在讲述上海近代居住方式。"
+        },
+        "visit_profile": {
+          "default_mode": "walk_stop",
+          "supported_modes": [
+            "walk_stop"
+          ],
+          "modes": {
+            "walk_stop": {
+              "quick": 5,
+              "standard": 10,
+              "deep": 20
+            }
+          }
+        },
+        "visit_scope": {
+          "walk_stop": {
+            "environment": "mixed",
+            "ticket_required": false,
+            "scope": "Key exterior/public-space observation."
+          }
+        },
+        "verification": {
+          "status": "verified_or_strongly_supported_existing_poi",
+          "source": "existing ShanghaiTrace project data",
+          "checked_on": "2026-10-02",
+          "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+        }
+      },
+      "decision": "audited_existing",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+    },
+    {
+      "poi_id": "p13",
+      "name": "武康大楼",
+      "primary_role": "supporting_stop",
+      "eligible_roles": [
+        "supporting_stop"
+      ],
+      "role_confidence": "medium",
+      "role_reason": "船形转角立面与路口形态提供独立建筑观察价值；既有范围是短时外观观察，没有把知名度转换为主题承担能力，故不列anchor。",
+      "independent_destination_value": "medium",
+      "citywalk_experiential_value": "medium",
+      "role_standard": {
+        "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+        "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+        "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+      },
+      "available_evidence": {
+        "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+        "summary": {
+          "summary_zh": "上海最著名的“船头楼”：站在淮海中路与武康路的交汇处，看老建筑如何成为一座城市的转角风景。"
+        },
+        "visit_profile": {
+          "default_mode": "walk_stop",
+          "supported_modes": [
+            "walk_stop"
+          ],
+          "modes": {
+            "walk_stop": {
+              "quick": 5,
+              "standard": 15,
+              "deep": 25
+            }
+          }
+        },
+        "visit_scope": {
+          "walk_stop": {
+            "environment": "outdoor",
+            "ticket_required": false,
+            "scope": "Key exterior/public-space observation."
+          }
+        },
+        "verification": {
+          "status": "verified_or_strongly_supported_existing_poi",
+          "source": "existing ShanghaiTrace project data",
+          "checked_on": "2026-10-02",
+          "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+        }
+      },
+      "decision": "audited_existing",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+    },
+    {
+      "poi_id": "p21",
+      "name": "上海宋庆龄故居纪念馆",
+      "primary_role": "anchor",
+      "eligible_roles": [
+        "anchor"
+      ],
+      "role_confidence": "high",
+      "role_reason": "既有来源支持人物长期生活及国务活动住所，完整参访可持续展开人物、近现代史与居住空间体验；适合作为明确目的地组织周边路线。",
+      "independent_destination_value": "high",
+      "citywalk_experiential_value": "high",
+      "role_standard": {
+        "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+        "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+        "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+      },
+      "available_evidence": {
+        "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+        "summary": {
+          "summary_zh": "宋庆龄在上海长期生活和从事国务活动的重要住所，适合连接近现代中国史、女性人物与国际交流。"
+        },
+        "visit_profile": {
+          "default_mode": "full_visit",
+          "supported_modes": [
+            "full_visit"
+          ],
+          "modes": {
+            "full_visit": {
+              "quick": 25,
+              "standard": 45,
+              "deep": 70
+            }
+          }
+        },
+        "visit_scope": {
+          "full_visit": {
+            "environment": "mixed",
+            "ticket_required": true,
+            "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+          }
+        },
+        "verification": {
+          "status": "verified",
+          "source": "official memorial website + Amap",
+          "checked_on": "2026-10-02"
+        }
+      },
+      "decision": "audited_existing",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+    },
+    {
+      "poi_id": "p32",
+      "name": "徐家汇天主堂",
+      "primary_role": "anchor",
+      "eligible_roles": [
+        "anchor"
+      ],
+      "role_confidence": "medium",
+      "role_reason": "用户确认的教堂建筑外观及可选深入参访，提供完整宗教建筑与徐家汇文化主题观察；即使入内未知仍有明确目的地体验，但不保证当前开放。",
+      "independent_destination_value": "high",
+      "citywalk_experiential_value": "high",
+      "role_standard": {
+        "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+        "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+        "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+      },
+      "available_evidence": {
+        "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+        "summary": {
+          "summary_zh": "以建筑外观观察为默认体验，可在允许入内时进一步参访教堂。"
+        },
+        "visit_profile": {
+          "default_mode": "walk_stop",
+          "supported_modes": [
+            "walk_stop",
+            "full_visit"
+          ],
+          "modes": {
+            "walk_stop": {
+              "quick": 10,
+              "standard": 20,
+              "deep": 30
+            },
+            "full_visit": {
+              "quick": 20,
+              "standard": 35,
+              "deep": 50
+            }
+          }
+        },
+        "visit_scope": {
+          "walk_stop": {
+            "environment": "outdoor",
+            "ticket_required": false,
+            "scope": "Key exterior/public-space observation."
+          },
+          "full_visit": {
+            "environment": "mixed",
+            "ticket_required": null,
+            "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+          }
+        },
+        "verification": {
+          "status": "user_confirmed_scope_with_approximate_map_anchor",
+          "source": "Phase 1.5B final calibration V2",
+          "checked_on": "2026-10-03",
+          "note": "Live access, precise entrances and representative anchors still require manual verification."
+        }
+      },
+      "decision": "audited_existing",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+    },
+    {
+      "poi_id": "p33",
+      "name": "徐家汇书院",
+      "primary_role": "supporting_stop",
+      "eligible_roles": [
+        "supporting_stop"
+      ],
+      "role_confidence": "medium",
+      "role_reason": "用户确认的短时入内与公共阅读空间观察有独立文化体验，可补充徐家汇建筑主题；当前证据不支持将其当作路线的主要目的地。",
+      "independent_destination_value": "medium",
+      "citywalk_experiential_value": "medium",
+      "role_standard": {
+        "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+        "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+        "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+      },
+      "available_evidence": {
+        "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+        "summary": {
+          "summary_zh": "以短时入内参访和公共阅读空间观察为核心体验。"
+        },
+        "visit_profile": {
+          "default_mode": "full_visit",
+          "supported_modes": [
+            "full_visit"
+          ],
+          "modes": {
+            "full_visit": {
+              "quick": 15,
+              "standard": 30,
+              "deep": 40
+            }
+          }
+        },
+        "visit_scope": {
+          "full_visit": {
+            "environment": "mixed",
+            "ticket_required": null,
+            "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+          }
+        },
+        "verification": {
+          "status": "user_confirmed_scope_with_approximate_map_anchor",
+          "source": "Phase 1.5B final calibration V2",
+          "checked_on": "2026-10-03",
+          "note": "Live access, precise entrances and representative anchors still require manual verification."
+        }
+      },
+      "decision": "audited_existing",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+    },
+    {
+      "poi_id": "p35",
+      "name": "徐家汇商圈",
+      "primary_role": "supporting_stop",
+      "eligible_roles": [
+        "supporting_stop"
+      ],
+      "role_confidence": "medium",
+      "role_reason": "既有范围明确是多栋商业空间及其间公共空间的区域观察，有整体城市生活体验；并非普通商铺，但默认短时商圈观察不承担文化路线核心。",
+      "independent_destination_value": "medium",
+      "citywalk_experiential_value": "medium",
+      "role_standard": {
+        "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+        "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+        "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+      },
+      "available_evidence": {
+        "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+        "summary": {
+          "summary_zh": "包含美罗城、港汇恒隆广场及其之间的核心公共空间；不是某一栋商场。"
+        },
+        "visit_profile": {
+          "default_mode": "walk_stop",
+          "supported_modes": [
+            "walk_stop",
+            "full_visit"
+          ],
+          "modes": {
+            "walk_stop": {
+              "quick": 20,
+              "standard": 30,
+              "deep": 45
+            },
+            "full_visit": {
+              "quick": 60,
+              "standard": 90,
+              "deep": 150
+            }
+          }
+        },
+        "visit_scope": {
+          "walk_stop": {
+            "environment": "mixed",
+            "ticket_required": false,
+            "scope": "Brief district observation, short mall stops and supplies."
+          },
+          "full_visit": {
+            "environment": "mixed",
+            "ticket_required": false,
+            "scope": "Shopping, dining and exploration of Metro City, Grand Gateway and surrounding public spaces."
+          }
+        },
+        "verification": {
+          "status": "user_confirmed_scope_with_approximate_map_anchor",
+          "source": "Phase 1.5B final calibration V2",
+          "checked_on": "2026-10-03",
+          "note": "Live access, precise entrances and representative anchors still require manual verification."
+        }
+      },
+      "decision": "audited_existing",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+    }
+  ],
+  "accepted": [
+    {
+      "poi_id": "pz_17d41390cac9",
+      "name": "上海工艺美术博物馆",
+      "primary_role": "anchor",
+      "eligible_roles": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "role_confidence": "medium",
+      "tags": {
+        "interest_tags": [
+          "art"
+        ],
+        "experience_tags": [
+          "museum_visit"
+        ],
+        "culture_tags": []
+      },
+      "source_provenance": [
+        {
+          "source_type": "amap",
+          "source_name": "Amap Web Service",
+          "url": "https://www.amap.com/detail/B00155LL5X",
+          "retrieved_at": "2026-10-04T15:03:29.901714+00:00",
+          "supports": [
+            "identity",
+            "address",
+            "coordinates",
+            "basic_category"
+          ],
+          "record_id": "amap:B00155LL5X"
+        },
+        {
+          "source_type": "osm",
+          "source_name": "OpenStreetMap contributors / Overpass",
+          "url": "https://www.openstreetmap.org/way/490345952",
+          "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+          "supports": [
+            "identity",
+            "coordinates",
+            "basic_category",
+            "opening"
+          ],
+          "record_id": "osm:way/490345952"
+        },
+        {
+          "source_type": "government",
+          "source_name": "Official indexed excerpt via web search",
+          "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+          "retrieved_at": "2026-10-04",
+          "supports": [
+            "identity"
+          ],
+          "record_id": "government:d6550cfa96b510987722"
+        }
+      ]
+    }
+  ]
+}

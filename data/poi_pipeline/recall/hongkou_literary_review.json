@@ -1,0 +1,152 @@
+{
+  "dispositions": [
+    {
+      "candidate_id": "hongkou_literary_002743ae47f52922",
+      "name": "山阴路274弄",
+      "decision": "accept",
+      "reason": "unchanged_validator_and_admission_passed",
+      "missing_evidence": null,
+      "route_selectable": true,
+      "role": {
+        "primary": "transition_stop",
+        "eligible": [
+          "transition_stop",
+          "supporting_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示其为一条小而精致的弄堂，且是通往鲁迅公园和虹口足球场地铁站的交通便道，主要价值在于连接更强节点，符合短时停留的过渡节点定位。",
+        "independent_destination_value": "low",
+        "route_connector_value": "high",
+        "alternatives_reason": {
+          "anchor": "证据仅描述为交通便道和小弄堂，缺乏独立目的地价值，不适合作为锚点。",
+          "supporting_stop": "虽有一定弄堂体验，但核心功能是通行连接，独立体验价值有限，作为支持性停留偏弱。",
+          "transition_stop": "作为通往鲁迅公园和地铁站的便道，短时经过观察弄堂风貌，最符合过渡节点定义。"
+        }
+      },
+      "poi_id": "pz_a446052910a0"
+    },
+    {
+      "candidate_id": "hongkou_literary_1b33161e4ad878ef",
+      "name": "李白烈士故居",
+      "decision": "defer",
+      "reason": "strict_semantic_validation_or_provider_failure",
+      "missing_evidence": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. art unsupported by cited evidence; remove or cite explicit matching description",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "hongkou_literary_783ce886a4d8323d",
+      "name": "沈尹默故居",
+      "decision": "defer",
+      "reason": "strict_semantic_validation_or_provider_failure",
+      "missing_evidence": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. architecture unsupported by cited evidence; remove or cite explicit matching description; architecture_detail unsupported by cited evidence; remove or cite explicit matching description; modern_shanghai unsupported by cited evidence; remove or cite explicit matching description",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "hongkou_literary_cd63adaf18fff2e2",
+      "name": "爱思儿童公园",
+      "decision": "accept",
+      "reason": "unchanged_validator_and_admission_passed",
+      "missing_evidence": null,
+      "route_selectable": true,
+      "role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "有明确公园属性与开放时段，可作为独立的小型绿地体验节点，但证据仅限名称与类别，缺乏足以承载路线主题的高独立目的地价值。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据仅表明其为儿童公园，无高独立目的地价值支撑，不宜作为锚点。",
+          "supporting_stop": "作为有明确开放时段的公园，可提供独立漫步体验，适合作为补充节点。",
+          "transition_stop": "虽可作短暂停留，但其公园属性使其体验价值高于纯连接性节点。"
+        }
+      },
+      "poi_id": "pz_f2fffcd2526c"
+    },
+    {
+      "candidate_id": "hongkou_literary_6ffd8b36b2afc5fb",
+      "name": "四川北路文化中心图书馆",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "current identity/public access",
+      "route_selectable": false,
+      "explanation": "两次定向查找未形成该地址的权威独立文化体验证据。"
+    },
+    {
+      "candidate_id": "hongkou_literary_e54fe9df0f6a4fcb",
+      "name": "上海多伦路地区海派文化馆(多伦生活广场店)",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "venue identity and independent visitor scope",
+      "route_selectable": false,
+      "explanation": "未找到能区分同名机构与商场内部文化设施的直接证据。"
+    },
+    {
+      "candidate_id": "hongkou_literary_8e3bdc64e471f900",
+      "name": "上海子兮艺术社非遗文化馆",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "stable venue/address/public access",
+      "route_selectable": false,
+      "explanation": "有工作坊索引线索，但未证明稳定开放的独立常设参访空间。"
+    },
+    {
+      "candidate_id": "hongkou_literary_aa45403fa488bac4",
+      "name": "日本海军特别陆战队司令部旧址",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "public exterior scope/access",
+      "route_selectable": false,
+      "explanation": "历史旧址 map 记录不证明现时公众可参访范围。"
+    }
+  ],
+  "human_review": [],
+  "high_potential_unrescued": [
+    {
+      "candidate_id": "hongkou_literary_1b33161e4ad878ef",
+      "name": "李白烈士故居",
+      "decision": "defer",
+      "reason": "strict_semantic_validation_or_provider_failure",
+      "missing_evidence": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. art unsupported by cited evidence; remove or cite explicit matching description",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "hongkou_literary_783ce886a4d8323d",
+      "name": "沈尹默故居",
+      "decision": "defer",
+      "reason": "strict_semantic_validation_or_provider_failure",
+      "missing_evidence": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. architecture unsupported by cited evidence; remove or cite explicit matching description; architecture_detail unsupported by cited evidence; remove or cite explicit matching description; modern_shanghai unsupported by cited evidence; remove or cite explicit matching description",
+      "route_selectable": false
+    },
+    {
+      "candidate_id": "hongkou_literary_aa45403fa488bac4",
+      "name": "日本海军特别陆战队司令部旧址",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "public exterior scope/access",
+      "route_selectable": false,
+      "explanation": "历史旧址 map 记录不证明现时公众可参访范围。"
+    },
+    {
+      "candidate_id": "hongkou_literary_6ffd8b36b2afc5fb",
+      "name": "四川北路文化中心图书馆",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "current identity/public access",
+      "route_selectable": false,
+      "explanation": "两次定向查找未形成该地址的权威独立文化体验证据。"
+    },
+    {
+      "candidate_id": "hongkou_literary_e54fe9df0f6a4fcb",
+      "name": "上海多伦路地区海派文化馆(多伦生活广场店)",
+      "decision": "defer",
+      "reason": "insufficient_evidence",
+      "missing_evidence": "venue identity and independent visitor scope",
+      "route_selectable": false,
+      "explanation": "未找到能区分同名机构与商场内部文化设施的直接证据。"
+    }
+  ]
+}

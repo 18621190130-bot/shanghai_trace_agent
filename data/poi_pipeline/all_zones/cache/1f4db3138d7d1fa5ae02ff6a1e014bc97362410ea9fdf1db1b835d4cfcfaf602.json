@@ -1,0 +1,45 @@
+{
+  "source": "official",
+  "url": "https://www.shanghai.gov.cn/gwk/search/content/cfa0770c-00d3-4733-ae5a-93ec852c1541",
+  "parameters": {},
+  "variant": "official-excerpts-v1:古城公园|人民公园",
+  "retrieved_at": "2026-10-04T15:12:28.134733+00:00",
+  "response": {
+    "excerpts": {
+      "古城公园": [
+        "人民公园、复兴公园、古城公园"
+      ],
+      "人民公园": [
+        "人民公园、复兴公园、古城公园",
+        "华新人民公园、民惠广场公园、夏阳湖公园、中建力诺公园、赵巷体育公园、万寿塔公园、海棠园、长岛公园"
+      ]
+    },
+    "links": [
+      {
+        "href": "/index.html",
+        "label": "首页"
+      },
+      {
+        "href": "/gwk/search/index",
+        "label": "主动公开公文库"
+      },
+      {
+        "href": "#",
+        "label": "大"
+      },
+      {
+        "href": "#",
+        "label": "中"
+      },
+      {
+        "href": "#",
+        "label": "小"
+      },
+      {
+        "href": "javascript:window.print()",
+        "label": "打印"
+      }
+    ]
+  },
+  "response_hash": "17fbd561a4338b3517a8c0ad89f5039dc244cdde47713ed2b2379baffb21c60a"
+}

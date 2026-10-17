@@ -1,0 +1,162 @@
+[
+  {
+    "candidate_id": "old_city_central_b6d5ce81307d6a31",
+    "name": "太平桥公园",
+    "checks": [
+      {
+        "url": "https://www.shhuangpu.gov.cn/BigFileUpLoadStorage/temp/2025-12-26/d54221cd-e39c-4bd5-98a1-3690138dbdd5/%E9%BB%84%E5%BA%9C%E5%8A%9E%E5%8F%91202112.pdf",
+        "excerpt": "重点推进人民公园、广场公园、太平桥公园、古城公园等公园绿地“四化”示范点建设。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:33.152117+00:00"
+      },
+      {
+        "url": "https://www.amap.com/detail/B00150C70A",
+        "provider_identity": {
+          "type": "风景名胜;公园广场;公园",
+          "id": "B00150C70A",
+          "address": "自忠路170号(一大会址·新天地地铁站1号口步行490米)",
+          "name": "太平桥公园",
+          "location": "121.476898,31.219676"
+        },
+        "source_type": "amap",
+        "method": "one bounded targeted map identity query; extras ignored",
+        "retrieved_at": "2026-10-04T16:21:30.100909+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "old_city_central_fd9f90a4d3e59ac7",
+    "name": "淮海公园",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/nw17239/20250904/94d9f1c5fb954a3fbb9941bb5a0621f6.html",
+        "excerpt": "广场公园（黄浦段）L1地块草坪、淮海公园大草坪、丽园公园草坪、南园滨江绿地大草坪，开放期均为每年5月16日至10月9日，以及12月1日至次年4月14日。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:35.671433+00:00"
+      },
+      {
+        "url": "https://www.amap.com/detail/B00155KIAS",
+        "provider_identity": {
+          "type": "风景名胜;公园广场;公园",
+          "id": "B00155KIAS",
+          "address": "太仓路56号",
+          "name": "淮海公园(暂停开放)",
+          "location": "121.477564,31.223054"
+        },
+        "source_type": "amap",
+        "method": "one bounded targeted map identity query; extras ignored",
+        "retrieved_at": "2026-10-04T16:21:31.145157+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "old_city_central_4099dce97a905559",
+    "name": "福州路",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "excerpt": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "old_city_central_70bbb635ef76cb0e",
+    "name": "复兴公园",
+    "checks": [
+      {
+        "url": "https://english.shanghai.gov.cn/en-Parks/20250220/636b3df5761e4055b731a92d2abddcb3.html",
+        "excerpt": "Fuxing Park",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:41.600789+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "old_city_central_04d3c9c6bca78389",
+    "name": "中国社会主义青年团中央机关旧址",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "excerpt": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "old_city_central_330641af97b370bc",
+    "name": "大韩民国临时政府旧址",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "excerpt": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "excerpt": "下午，总统夫妇一同访问大韩民国临时政府旧址。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "old_city_central_7e582e001a84968c",
+    "name": "延中公园",
+    "checks": [
+      {
+        "url": "https://www.amap.com/place/B00155ILXP",
+        "excerpt": "延中公园是一家公园，地址为上海市黄浦区巨鹿路成都南路口。地理坐标：31.222443,121.467051。",
+        "source_type": "amap",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:41.600389+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "old_city_central_7a7e1b84663beb98",
+    "name": "徐光启故居(九间楼)",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "excerpt": "徐光启故居———九间楼",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "old_city_central_dd18a6e82a853f20",
+    "name": "fudeli",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/jingan/index.html",
+        "excerpt": "辅德里公园原名广场公园（静安段），位于静安区大沽路379号",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:50.679034+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "old_city_central_a085d8c87e1380e7",
+    "name": "上海人民广场",
+    "checks": []
+  },
+  {
+    "candidate_id": "old_city_central_06591af3b6abd091",
+    "name": "东海大楼",
+    "checks": []
+  }
+]

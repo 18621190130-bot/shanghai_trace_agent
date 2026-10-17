@@ -1,0 +1,350 @@
+[
+  {
+    "poi_id": "p4",
+    "name": "鲁迅故居",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "medium",
+    "role_reason": "故居作为文学人物具体生活空间，结合既有完整参访范围可承担鲁迅文学主题；周边街巷作为理解背景，不将每个内部居所再拆站。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "表面安静的街巷背后，叠着文学、思想与普通居民共同留下的城市记忆。"
+      },
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 45
+          }
+        }
+      },
+      "visit_scope": {
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p10",
+    "name": "今潮8弄",
+    "primary_role": "supporting_stop",
+    "eligible_roles": [
+      "supporting_stop"
+    ],
+    "role_confidence": "medium",
+    "role_reason": "旧弄堂与新文化功能并置，提供独立再利用观察体验，可连接四川北路其他目的地；现有证据不足以将其设为全路线核心。",
+    "independent_destination_value": "medium",
+    "citywalk_experiential_value": "medium",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "老弄堂并没有停止变化，它也可以进入新的城市文化生活。"
+      },
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 60
+          },
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_scope": {
+        "walk_stop": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p16",
+    "name": "鲁迅公园",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "medium",
+    "role_reason": "既有完整公园参访范围支持持续公共生活观察、步行与文学背景体验，能独立承担社区公园主题；内部纪念设施不重复计站。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "上海的公园就是城市的客厅：下棋、唱歌、跳舞、遛鸟，普通人的日常比景点更耐看。"
+      },
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 30,
+            "standard": 50,
+            "deep": 75
+          }
+        }
+      },
+      "visit_scope": {
+        "full_visit": {
+          "environment": "outdoor",
+          "ticket_required": null,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p25",
+    "name": "1927·鲁迅与内山纪念书局",
+    "primary_role": "supporting_stop",
+    "eligible_roles": [
+      "supporting_stop"
+    ],
+    "role_confidence": "high",
+    "role_reason": "旧址阅读和文化交流网络有具体独立体验，可有目的地补充鲁迅主题；与故居和街区相辅，不凭书店类别或历史名气升级anchor。",
+    "independent_destination_value": "medium",
+    "citywalk_experiential_value": "medium",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "原内山书店旧址，鲁迅曾长期在此购书、会友，也是中日文化交流史的重要地点。"
+      },
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 10,
+            "standard": 25,
+            "deep": 40
+          },
+          "full_visit": {
+            "quick": 20,
+            "standard": 40,
+            "deep": 60
+          }
+        }
+      },
+      "visit_scope": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "indoor",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai municipal government + OSM-based map",
+        "checked_on": "2026-10-02"
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p26",
+    "name": "中国左翼作家联盟会址纪念馆",
+    "primary_role": "supporting_stop",
+    "eligible_roles": [
+      "supporting_stop"
+    ],
+    "role_confidence": "high",
+    "role_reason": "官方支持的文学组织旧址和完整短时参访能解释作家网络，适合文学路线重点补充；现有资料支持专题站而非一般路线核心。",
+    "independent_destination_value": "medium",
+    "citywalk_experiential_value": "medium",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "1930年中国左翼作家联盟成立大会相关旧址，适合串联鲁迅与上海左翼文化运动。"
+      },
+      "visit_profile": {
+        "default_mode": "full_visit",
+        "supported_modes": [
+          "full_visit"
+        ],
+        "modes": {
+          "full_visit": {
+            "quick": 15,
+            "standard": 30,
+            "deep": 45
+          }
+        }
+      },
+      "visit_scope": {
+        "full_visit": {
+          "environment": "indoor",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai municipal government / Hongkou official route",
+        "checked_on": "2026-10-02"
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  },
+  {
+    "poi_id": "p27",
+    "name": "1933老场坊",
+    "primary_role": "anchor",
+    "eligible_roles": [
+      "anchor"
+    ],
+    "role_confidence": "high",
+    "role_reason": "原工业建筑的坡道、廊桥与空间流线构成可持续独立探索的完整建筑体验，能承担工业空间再利用主题；内部商户和展厅不独立增站。",
+    "independent_destination_value": "high",
+    "citywalk_experiential_value": "high",
+    "role_standard": {
+      "anchor": "High independent destination value, deliberate standalone visit, can carry a route theme.",
+      "supporting_stop": "Independent worthwhile City Walk experience complementing a route destination.",
+      "transition_stop": "Short street/public-space observation whose main value is connecting stronger stops."
+    },
+    "available_evidence": {
+      "source": "preserved_existing_KB; product visit scope is not fresh external verification",
+      "summary": {
+        "summary_zh": "1933年建成的原宰牲场，现转型为创意文化空间，建筑本身具有非常强的空间辨识度。"
+      },
+      "visit_profile": {
+        "default_mode": "walk_stop",
+        "supported_modes": [
+          "walk_stop",
+          "full_visit"
+        ],
+        "modes": {
+          "walk_stop": {
+            "quick": 15,
+            "standard": 35,
+            "deep": 60
+          },
+          "full_visit": {
+            "quick": 30,
+            "standard": 60,
+            "deep": 90
+          }
+        }
+      },
+      "visit_scope": {
+        "walk_stop": {
+          "environment": "outdoor",
+          "ticket_required": false,
+          "scope": "Key exterior/public-space observation."
+        },
+        "full_visit": {
+          "environment": "mixed",
+          "ticket_required": false,
+          "scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access."
+        }
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai government English portal + Amap",
+        "checked_on": "2026-10-02"
+      }
+    },
+    "decision": "audited_existing",
+    "route_selectable": true,
+    "counts_as_route_stop": true,
+    "audit_method": "explicit evidence-grounded product assessment; no default anchor; no tag-count/fame/category rule"
+  }
+]

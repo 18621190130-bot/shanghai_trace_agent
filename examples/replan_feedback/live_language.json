@@ -1,0 +1,212 @@
+[
+  {
+    "request_text": "I'm tired. Cut the route for me.",
+    "interpreted_intent": {
+      "actions": [
+        {
+          "action_type": "SHORTEN_ROUTE",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false,
+          "requested_count": null,
+          "reduction_goal": "easier"
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    },
+    "execution_status": "APPLIED",
+    "reason_code": "verified_change",
+    "previous_route_version_id": "v1",
+    "current_route_version_id": "v2",
+    "before_metrics": {
+      "stops": 5,
+      "duration_minutes": 168.88,
+      "walking_km": 4.4157,
+      "walking_minutes": 58.88,
+      "basis": "common_planning_estimate"
+    },
+    "after_metrics": {
+      "stops": 4,
+      "duration_minutes": 137.26,
+      "walking_km": 4.2946,
+      "walking_minutes": 57.26,
+      "basis": "common_planning_estimate"
+    },
+    "added_ids": [],
+    "removed_ids": [
+      "p33"
+    ],
+    "kept_ids": [
+      "p12",
+      "p2",
+      "p11",
+      "p32"
+    ],
+    "reordered_ids": [],
+    "retained_stop_count": 4,
+    "removed_stop_count": 1,
+    "added_stop_count": 0,
+    "reordered_stop_count": 0,
+    "route_preservation_ratio": 0.8,
+    "visit_mode_changes": [],
+    "preserved_must_go_ids": [],
+    "requested_count": null,
+    "actual_added_count": 0,
+    "warnings": [],
+    "explanation": "Route updated",
+    "preference_only": false
+  },
+  {
+    "request_text": "Add another two places to the route.",
+    "interpreted_intent": {
+      "actions": [
+        {
+          "action_type": "ADD_MATCHING_STOPS",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": true,
+          "requested_count": 2,
+          "reduction_goal": null
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    },
+    "execution_status": "APPLIED",
+    "reason_code": "verified_change",
+    "previous_route_version_id": "v2",
+    "current_route_version_id": "v3",
+    "before_metrics": {
+      "stops": 4,
+      "duration_minutes": 137.26,
+      "walking_km": 4.2946,
+      "walking_minutes": 57.26,
+      "basis": "common_planning_estimate"
+    },
+    "after_metrics": {
+      "stops": 6,
+      "duration_minutes": 197.04,
+      "walking_km": 5.4034,
+      "walking_minutes": 72.04,
+      "basis": "common_planning_estimate"
+    },
+    "added_ids": [
+      "p13",
+      "p33"
+    ],
+    "removed_ids": [],
+    "kept_ids": [
+      "p12",
+      "p2",
+      "p11",
+      "p32"
+    ],
+    "reordered_ids": [],
+    "retained_stop_count": 4,
+    "removed_stop_count": 0,
+    "added_stop_count": 2,
+    "reordered_stop_count": 0,
+    "route_preservation_ratio": 1.0,
+    "visit_mode_changes": [],
+    "preserved_must_go_ids": [],
+    "requested_count": 2,
+    "actual_added_count": 2,
+    "warnings": [
+      {
+        "estimated_minutes": 197.04480393826748,
+        "target_minutes": 180,
+        "estimated_overrun_minutes": 17.044803938267478,
+        "severity": "warning"
+      }
+    ],
+    "explanation": "Route updated",
+    "preference_only": false
+  },
+  {
+    "request_text": "I want less walking.",
+    "interpreted_intent": {
+      "actions": [
+        {
+          "action_type": "SHORTEN_ROUTE",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false,
+          "requested_count": null,
+          "reduction_goal": "walking"
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    },
+    "execution_status": "APPLIED",
+    "reason_code": "verified_change",
+    "previous_route_version_id": "v3",
+    "current_route_version_id": "v4",
+    "before_metrics": {
+      "stops": 6,
+      "duration_minutes": 197.04,
+      "walking_km": 5.4034,
+      "walking_minutes": 72.04,
+      "basis": "common_planning_estimate"
+    },
+    "after_metrics": {
+      "stops": 5,
+      "duration_minutes": 168.88,
+      "walking_km": 4.4157,
+      "walking_minutes": 58.88,
+      "basis": "common_planning_estimate"
+    },
+    "added_ids": [],
+    "removed_ids": [
+      "p13"
+    ],
+    "kept_ids": [
+      "p12",
+      "p2",
+      "p11",
+      "p32",
+      "p33"
+    ],
+    "reordered_ids": [],
+    "retained_stop_count": 5,
+    "removed_stop_count": 1,
+    "added_stop_count": 0,
+    "reordered_stop_count": 0,
+    "route_preservation_ratio": 0.8333333333333334,
+    "visit_mode_changes": [],
+    "preserved_must_go_ids": [],
+    "requested_count": null,
+    "actual_added_count": 0,
+    "warnings": [],
+    "explanation": "Route updated",
+    "preference_only": false
+  }
+]

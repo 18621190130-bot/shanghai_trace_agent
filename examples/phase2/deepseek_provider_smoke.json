@@ -1,0 +1,255 @@
+{
+  "execution": "REAL DeepSeek CLI subprocess calls, no Mock client",
+  "cases": [
+    {
+      "input": "Shopping and modern Shanghai interest me; I've got 150 minutes around Nanjing Road.",
+      "clarification_answers": [
+        "2",
+        "strict"
+      ],
+      "returncode": 1,
+      "stdout": "Parsed Intent\nMode: plan_for_me\nTime: 150 min\nStart: Nanjing Road\nInterest: shopping_lifestyle, modern_city\nExperience: shopping_leisure\nCulture: modern_shanghai\nAvoid: -\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: standard\nPreferred Zone: -\nMax Walking Distance: -\nNeeds Clarification: True\n\nWhere would you like to start?\n  1. Wukang–Fuxing–Xujiahui\n  2. Old City–Xintiandi–Bund\n  3. Lu Xun Park–North Sichuan Road\n  4. West Bund Waterfront\n> Merged Intent\nMode: plan_for_me\nTime: 150 min\nStart: Old City–Xintiandi–Bund\nInterest: shopping_lifestyle, modern_city\nExperience: shopping_leisure\nCulture: modern_shanghai\nAvoid: -\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: standard\nPreferred Zone: -\nMax Walking Distance: -\nNeeds Clarification: False\nParsed Intent\nMode: plan_for_me\nTime: 150 min\nStart: Old City–Xintiandi–Bund\nInterest: shopping_lifestyle, modern_city\nExperience: shopping_leisure\nCulture: modern_shanghai\nAvoid: -\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: standard\nPreferred Zone: -\nMax Walking Distance: -\nNeeds Clarification: False\nStatus: needs_route_quality_clarification\nSemantic Expanded Tags:\n  Shopping: Primary: shopping_lifestyle; Secondary: shopping_leisure\n  modern Shanghai: Primary: modern_city; Secondary: modern_shanghai\nRoute Quality Check: clarification_required\nMinimum Viable City Walk: False\nMinimum Required Stops: 3\nActual Stops: 1\nReason: insufficient_viable_stops\nRoute Quality Clarification Applied: False\nWarning: zone_start_is_representative_anchor_not_actual_user_position\nProvisional Route\nStatus: success\nZone: Old City–Xintiandi–Bund\n  1. #26 南京路步行街 / Nanjing Road Pedestrian Street\n     full_visit / standard: estimated stay 60 min\n     Estimated previous leg: 2.245 km / 29.93 min\n     Score: 13.632; matched tags: interest_tags=modern_city,shopping_lifestyle; experience_tags=shopping_leisure; culture_tags=modern_shanghai\n     Selection Reason: core_match\n     Recommended because it matches: modern_city, shopping_lifestyle, shopping_leisure, modern_shanghai. Located in Old City–Xintiandi–Bund. Visit mode: full_visit; pace: standard.\n     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.\nPreferred Richness: 3–4 stops\nActual Stops: 1\nPreferred Richness Met: False\nEstimated total: 104.93 / 150 min; remaining 45.07 min\nEstimated distance: 2.245 km; walking 29.93 min; stays 60 min; buffer 15 min\nCross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: False\nBudget scope: Provided start to final stop's departure; approach walking included; no return journey.\nExplanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.\nWarning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.\nWarning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.\nWarning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.\nWarning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.\nWarning: representative_coordinate: Nanjing Road Pedestrian Street (#26); this anchor is not the whole area's unique location or entry/exit.\nWarning: coordinate_pending_manual_review: Nanjing Road Pedestrian Street (#26); Provisional product anchor based on a published location; source datum unverified, provisionally interpreted as WGS84. Not a verified midpoint or street entrance. Needs manual coordinate review.\nWarning: coordinate_conversion: Nanjing Road Pedestrian Street (#26) converted approximately from WGS84 to GCJ-02 in memory.\nWarning: crowd_level_unknown: Nanjing Road Pedestrian Street (#26); low crowd is not guaranteed.\nWarning: entry_requirements_unverified: Nanjing Road Pedestrian Street (#26); unknown does not mean free or reservation-free.\nWarning: richness_target_unmet: Preferred route richness was not reached because additional candidates failed the route-quality gate. Preferred 3-4 stops; actual 1. This is a soft preference, not a failure.\nWarning: Estimated geometry suggests a long walking leg; real street routing has not yet been verified. DEFERRED TO MAP API PHASE.\nTime Utilization: 0.700\nEstimated Max Single Leg: 2.245 km\nI found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?\n1. Add historic architecture\n2. Add history\n3. Keep my current preferences\n> Parsed Intent\nMode: plan_for_me\nTime: 150 min\nStart: Old City–Xintiandi–Bund\nInterest: shopping_lifestyle, modern_city\nExperience: shopping_leisure\nCulture: modern_shanghai\nAvoid: -\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: standard\nPreferred Zone: -\nMax Walking Distance: -\nNeeds Clarification: False\nStatus: insufficient_route\nSemantic Expanded Tags:\n  Shopping: Primary: shopping_lifestyle; Secondary: shopping_leisure\n  modern Shanghai: Primary: modern_city; Secondary: modern_shanghai\nRoute Quality Check: accepted_strict\nMinimum Viable City Walk: False\nMinimum Required Stops: 3\nActual Stops: 1\nInitial Quality Reason: insufficient_viable_stops\nRoute Quality Clarification Applied: True\nPreference Broadening: declined\nWarning: zone_start_is_representative_anchor_not_actual_user_position\nWarning: The route remains intentionally short because you chose to keep the preference profile narrow.\nSuggested Places — not a complete City Walk\nStatus: insufficient_route\nZone: Old City–Xintiandi–Bund\n  1. #26 南京路步行街 / Nanjing Road Pedestrian Street\n     full_visit / standard: estimated stay 60 min\n     Estimated previous leg: 2.245 km / 29.93 min\n     Score: 13.632; matched tags: interest_tags=modern_city,shopping_lifestyle; experience_tags=shopping_leisure; culture_tags=modern_shanghai\n     Selection Reason: core_match\n     Recommended because it matches: modern_city, shopping_lifestyle, shopping_leisure, modern_shanghai. Located in Old City–Xintiandi–Bund. Visit mode: full_visit; pace: standard.\n     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.\nPreferred Richness: 3–4 stops\nActual Stops: 1\nPreferred Richness Met: False\nEstimated total: 104.93 / 150 min; remaining 45.07 min\nEstimated distance: 2.245 km; walking 29.93 min; stays 60 min; buffer 15 min\nCross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: False\nBudget scope: Provided start to final stop's departure; approach walking included; no return journey.\nExplanation: I found only 1 suitable stops. A complete City Walk requires at least three route anchors.\nWarning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.\nWarning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.\nWarning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.\nWarning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.\nWarning: representative_coordinate: Nanjing Road Pedestrian Street (#26); this anchor is not the whole area's unique location or entry/exit.\nWarning: coordinate_pending_manual_review: Nanjing Road Pedestrian Street (#26); Provisional product anchor based on a published location; source datum unverified, provisionally interpreted as WGS84. Not a verified midpoint or street entrance. Needs manual coordinate review.\nWarning: coordinate_conversion: Nanjing Road Pedestrian Street (#26) converted approximately from WGS84 to GCJ-02 in memory.\nWarning: crowd_level_unknown: Nanjing Road Pedestrian Street (#26); low crowd is not guaranteed.\nWarning: entry_requirements_unverified: Nanjing Road Pedestrian Street (#26); unknown does not mean free or reservation-free.\nWarning: richness_target_unmet: Preferred route richness was not reached because additional candidates failed the route-quality gate. Preferred 3-4 stops; actual 1. This is a soft preference, not a failure.\nWarning: Estimated geometry suggests a long walking leg; real street routing has not yet been verified. DEFERRED TO MAP API PHASE.\nTime Utilization: 0.700\nEstimated Max Single Leg: 2.245 km\n",
+      "stderr": "{\"diagnostic\": \"deepseek\", \"stage\": \"request\", \"provider\": \"deepseek\", \"model\": \"deepseek-flash\", \"max_tokens\": 1200, \"thinking\": \"disabled\", \"required_fields\": [\"available_minutes\", \"start_location_text\", \"interest_tags\", \"experience_tags\", \"culture_tags\", \"travel_pace\", \"preferred_zone\", \"max_walking_km\", \"must_go_place_names\", \"avoid_tags\", \"avoid_place_names\", \"unresolved_negative_preferences\"]}\n{\"diagnostic\": \"deepseek\", \"stage\": \"api_response\", \"provider\": \"deepseek\", \"model\": \"deepseek-flash\", \"http_status\": 200, \"success\": true, \"finish_reason\": \"stop\", \"raw_message_content\": \"{\\\"available_minutes\\\":150,\\\"start_location_text\\\":\\\"Nanjing Road\\\",\\\"interest_tags\\\":[\\\"shopping_lifestyle\\\",\\\"modern_city\\\"],\\\"experience_tags\\\":[\\\"shopping_leisure\\\"],\\\"culture_tags\\\":[\\\"modern_shanghai\\\"],\\\"travel_pace\\\":\\\"standard\\\",\\\"preferred_zone\\\":null,\\\"max_walking_km\\\":null,\\\"must_go_place_names\\\":[],\\\"avoid_tags\\\":[],\\\"avoid_place_names\\\":[],\\\"unresolved_negative_preferences\\\":[],\\\"semantic_concepts\\\":[{\\\"concept\\\":\\\"Shopping\\\",\\\"primary\\\":\\\"shopping_lifestyle\\\",\\\"secondary\\\":[\\\"shopping_leisure\\\"]},{\\\"concept\\\":\\\"modern Shanghai\\\",\\\"primary\\\":\\\"modern_city\\\",\\\"secondary\\\":[\\\"modern_shanghai\\\"]}]}\", \"reasoning_content_characters\": 0, \"usage\": {\"prompt_tokens\": 2538, \"completion_tokens\": 151, \"total_tokens\": 2689, \"prompt_tokens_details\": {\"cached_tokens\": 2304}, \"prompt_cache_hit_tokens\": 2304, \"prompt_cache_miss_tokens\": 234}}\n{\"diagnostic\": \"deepseek\", \"stage\": \"content_extraction\", \"success\": true}\n{\"diagnostic\": \"deepseek\", \"stage\": \"json_parsing\", \"success\": true}\n{\"diagnostic\": \"deepseek\", \"stage\": \"candidate_schema\", \"missing_fields\": [], \"unknown_fields\": [], \"value_type\": \"dict\"}\n{\"diagnostic\": \"deepseek\", \"stage\": \"candidate_schema\", \"success\": true}\n{\"diagnostic\": \"deepseek\", \"stage\": \"route_intent_validation\", \"success\": true}\n",
+      "diagnostics": [
+        {
+          "diagnostic": "deepseek",
+          "stage": "request",
+          "provider": "deepseek",
+          "model": "deepseek-flash",
+          "max_tokens": 1200,
+          "thinking": "disabled",
+          "required_fields": [
+            "available_minutes",
+            "start_location_text",
+            "interest_tags",
+            "experience_tags",
+            "culture_tags",
+            "travel_pace",
+            "preferred_zone",
+            "max_walking_km",
+            "must_go_place_names",
+            "avoid_tags",
+            "avoid_place_names",
+            "unresolved_negative_preferences"
+          ]
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "api_response",
+          "provider": "deepseek",
+          "model": "deepseek-flash",
+          "http_status": 200,
+          "success": true,
+          "finish_reason": "stop",
+          "raw_message_content": "{\"available_minutes\":150,\"start_location_text\":\"Nanjing Road\",\"interest_tags\":[\"shopping_lifestyle\",\"modern_city\"],\"experience_tags\":[\"shopping_leisure\"],\"culture_tags\":[\"modern_shanghai\"],\"travel_pace\":\"standard\",\"preferred_zone\":null,\"max_walking_km\":null,\"must_go_place_names\":[],\"avoid_tags\":[],\"avoid_place_names\":[],\"unresolved_negative_preferences\":[],\"semantic_concepts\":[{\"concept\":\"Shopping\",\"primary\":\"shopping_lifestyle\",\"secondary\":[\"shopping_leisure\"]},{\"concept\":\"modern Shanghai\",\"primary\":\"modern_city\",\"secondary\":[\"modern_shanghai\"]}]}",
+          "reasoning_content_characters": 0,
+          "usage": {
+            "prompt_tokens": 2538,
+            "completion_tokens": 151,
+            "total_tokens": 2689,
+            "prompt_tokens_details": {
+              "cached_tokens": 2304
+            },
+            "prompt_cache_hit_tokens": 2304,
+            "prompt_cache_miss_tokens": 234
+          }
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "content_extraction",
+          "success": true
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "json_parsing",
+          "success": true
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "candidate_schema",
+          "missing_fields": [],
+          "unknown_fields": [],
+          "value_type": "dict"
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "candidate_schema",
+          "success": true
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "route_intent_validation",
+          "success": true
+        }
+      ],
+      "parsed_intent_reached": true,
+      "route_flow_reached": true
+    },
+    {
+      "input": "For three hours in the West Bund, I want to take my time with art exhibitions.",
+      "clarification_answers": [
+        "strict"
+      ],
+      "returncode": 1,
+      "stdout": "Parsed Intent\nMode: plan_for_me\nTime: 180 min\nStart: -\nInterest: art\nExperience: -\nCulture: -\nAvoid: -\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: deep\nPreferred Zone: West Bund Waterfront\nMax Walking Distance: -\nNeeds Clarification: False\nParsed Intent\nMode: plan_for_me\nTime: 180 min\nStart: -\nInterest: art\nExperience: -\nCulture: -\nAvoid: -\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: deep\nPreferred Zone: West Bund Waterfront\nMax Walking Distance: -\nNeeds Clarification: False\nStatus: needs_route_quality_clarification\nSemantic Expanded Tags:\n  art: Primary: art; Secondary: -\nRoute Quality Check: clarification_required\nMinimum Viable City Walk: False\nMinimum Required Stops: 3\nActual Stops: 2\nReason: insufficient_viable_stops\nRoute Quality Clarification Applied: False\nProvisional Route\nStatus: success\nZone: West Bund Waterfront\n  1. #20 西岸美术馆 / West Bund Museum\n     full_visit / deep: estimated stay 120 min\n     Estimated previous leg: 0.000 km / 0.00 min\n     Score: 9.000; matched tags: interest_tags=art; experience_tags=; culture_tags=\n     Selection Reason: core_match\n     Recommended because it matches: art. Located in West Bund Waterfront. Visit mode: full_visit; pace: deep.\n     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.\n  2. #21 上海油罐艺术中心 / TANK Shanghai\n     walk_stop / deep: estimated stay 35 min\n     Estimated previous leg: 0.443 km / 5.91 min\n     Score: 8.335; matched tags: interest_tags=art; experience_tags=; culture_tags=\n     Selection Reason: richness_expansion\n     Recommended because it matches: art. Located in West Bund Waterfront. Visit mode: walk_stop; pace: deep.\n     Scope: Exterior tanks, industrial heritage and waterfront public space; no exhibition entry.\nPreferred Richness: 4–5 stops\nActual Stops: 2\nPreferred Richness Met: False\nEstimated total: 175.91 / 180 min; remaining 4.09 min\nEstimated distance: 0.443 km; walking 5.91 min; stays 155 min; buffer 15 min\nCross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False\nBudget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.\nExplanation: Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.\nWarning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.\nWarning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.\nWarning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.\nWarning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.\nWarning: ticket_required: West Bund Museum (#20); ticket cost and availability are not checked.\nWarning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 4-5 stops; actual 2. This is a soft preference, not a failure.\nTime Utilization: 0.977\nEstimated Max Single Leg: 0.443 km\nI found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?\n1. Add waterfront scenery\n2. Add historic architecture\n3. Broaden beyond the selected area\n4. Keep my current preferences\n> Parsed Intent\nMode: plan_for_me\nTime: 180 min\nStart: -\nInterest: art\nExperience: -\nCulture: -\nAvoid: -\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: deep\nPreferred Zone: West Bund Waterfront\nMax Walking Distance: -\nNeeds Clarification: False\nStatus: insufficient_route\nSemantic Expanded Tags:\n  art: Primary: art; Secondary: -\nRoute Quality Check: accepted_strict\nMinimum Viable City Walk: False\nMinimum Required Stops: 3\nActual Stops: 2\nInitial Quality Reason: insufficient_viable_stops\nRoute Quality Clarification Applied: True\nPreference Broadening: declined\nWarning: The route remains intentionally short because you chose to keep the preference profile narrow.\nSuggested Places — not a complete City Walk\nStatus: insufficient_route\nZone: West Bund Waterfront\n  1. #20 西岸美术馆 / West Bund Museum\n     full_visit / deep: estimated stay 120 min\n     Estimated previous leg: 0.000 km / 0.00 min\n     Score: 9.000; matched tags: interest_tags=art; experience_tags=; culture_tags=\n     Selection Reason: core_match\n     Recommended because it matches: art. Located in West Bund Waterfront. Visit mode: full_visit; pace: deep.\n     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.\n  2. #21 上海油罐艺术中心 / TANK Shanghai\n     walk_stop / deep: estimated stay 35 min\n     Estimated previous leg: 0.443 km / 5.91 min\n     Score: 8.335; matched tags: interest_tags=art; experience_tags=; culture_tags=\n     Selection Reason: richness_expansion\n     Recommended because it matches: art. Located in West Bund Waterfront. Visit mode: walk_stop; pace: deep.\n     Scope: Exterior tanks, industrial heritage and waterfront public space; no exhibition entry.\nPreferred Richness: 4–5 stops\nActual Stops: 2\nPreferred Richness Met: False\nEstimated total: 175.91 / 180 min; remaining 4.09 min\nEstimated distance: 0.443 km; walking 5.91 min; stays 155 min; buffer 15 min\nCross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False\nBudget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.\nExplanation: I found only 2 suitable stops. A complete City Walk requires at least three route anchors.\nWarning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.\nWarning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.\nWarning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.\nWarning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.\nWarning: ticket_required: West Bund Museum (#20); ticket cost and availability are not checked.\nWarning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 4-5 stops; actual 2. This is a soft preference, not a failure.\nTime Utilization: 0.977\nEstimated Max Single Leg: 0.443 km\n",
+      "stderr": "{\"diagnostic\": \"deepseek\", \"stage\": \"request\", \"provider\": \"deepseek\", \"model\": \"deepseek-flash\", \"max_tokens\": 1200, \"thinking\": \"disabled\", \"required_fields\": [\"available_minutes\", \"start_location_text\", \"interest_tags\", \"experience_tags\", \"culture_tags\", \"travel_pace\", \"preferred_zone\", \"max_walking_km\", \"must_go_place_names\", \"avoid_tags\", \"avoid_place_names\", \"unresolved_negative_preferences\"]}\n{\"diagnostic\": \"deepseek\", \"stage\": \"api_response\", \"provider\": \"deepseek\", \"model\": \"deepseek-flash\", \"http_status\": 200, \"success\": true, \"finish_reason\": \"stop\", \"raw_message_content\": \"{\\\"available_minutes\\\":180,\\\"start_location_text\\\":null,\\\"interest_tags\\\":[\\\"art\\\"],\\\"experience_tags\\\":[],\\\"culture_tags\\\":[],\\\"travel_pace\\\":\\\"deep\\\",\\\"preferred_zone\\\":\\\"west_bund\\\",\\\"max_walking_km\\\":null,\\\"must_go_place_names\\\":[],\\\"avoid_tags\\\":[],\\\"avoid_place_names\\\":[],\\\"unresolved_negative_preferences\\\":[],\\\"semantic_concepts\\\":[{\\\"concept\\\":\\\"take my time with art exhibitions\\\",\\\"primary\\\":\\\"art\\\",\\\"secondary\\\":[]}]}\", \"reasoning_content_characters\": 0, \"usage\": {\"prompt_tokens\": 2539, \"completion_tokens\": 109, \"total_tokens\": 2648, \"prompt_tokens_details\": {\"cached_tokens\": 2304}, \"prompt_cache_hit_tokens\": 2304, \"prompt_cache_miss_tokens\": 235}}\n{\"diagnostic\": \"deepseek\", \"stage\": \"content_extraction\", \"success\": true}\n{\"diagnostic\": \"deepseek\", \"stage\": \"json_parsing\", \"success\": true}\n{\"diagnostic\": \"deepseek\", \"stage\": \"candidate_schema\", \"missing_fields\": [], \"unknown_fields\": [], \"value_type\": \"dict\"}\n{\"diagnostic\": \"deepseek\", \"stage\": \"candidate_schema\", \"success\": true}\n{\"diagnostic\": \"deepseek\", \"stage\": \"route_intent_validation\", \"success\": true}\n",
+      "diagnostics": [
+        {
+          "diagnostic": "deepseek",
+          "stage": "request",
+          "provider": "deepseek",
+          "model": "deepseek-flash",
+          "max_tokens": 1200,
+          "thinking": "disabled",
+          "required_fields": [
+            "available_minutes",
+            "start_location_text",
+            "interest_tags",
+            "experience_tags",
+            "culture_tags",
+            "travel_pace",
+            "preferred_zone",
+            "max_walking_km",
+            "must_go_place_names",
+            "avoid_tags",
+            "avoid_place_names",
+            "unresolved_negative_preferences"
+          ]
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "api_response",
+          "provider": "deepseek",
+          "model": "deepseek-flash",
+          "http_status": 200,
+          "success": true,
+          "finish_reason": "stop",
+          "raw_message_content": "{\"available_minutes\":180,\"start_location_text\":null,\"interest_tags\":[\"art\"],\"experience_tags\":[],\"culture_tags\":[],\"travel_pace\":\"deep\",\"preferred_zone\":\"west_bund\",\"max_walking_km\":null,\"must_go_place_names\":[],\"avoid_tags\":[],\"avoid_place_names\":[],\"unresolved_negative_preferences\":[],\"semantic_concepts\":[{\"concept\":\"take my time with art exhibitions\",\"primary\":\"art\",\"secondary\":[]}]}",
+          "reasoning_content_characters": 0,
+          "usage": {
+            "prompt_tokens": 2539,
+            "completion_tokens": 109,
+            "total_tokens": 2648,
+            "prompt_tokens_details": {
+              "cached_tokens": 2304
+            },
+            "prompt_cache_hit_tokens": 2304,
+            "prompt_cache_miss_tokens": 235
+          }
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "content_extraction",
+          "success": true
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "json_parsing",
+          "success": true
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "candidate_schema",
+          "missing_fields": [],
+          "unknown_fields": [],
+          "value_type": "dict"
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "candidate_schema",
+          "success": true
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "route_intent_validation",
+          "success": true
+        }
+      ],
+      "parsed_intent_reached": true,
+      "route_flow_reached": true
+    },
+    {
+      "input": "I have three hours in the West Bund and want ordinary local neighborhoods, not museums.",
+      "clarification_answers": [
+        "strict"
+      ],
+      "returncode": 1,
+      "stdout": "Parsed Intent\nMode: plan_for_me\nTime: 180 min\nStart: -\nInterest: local_life\nExperience: -\nCulture: -\nAvoid: museum_visit\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: standard\nPreferred Zone: West Bund Waterfront\nMax Walking Distance: -\nNeeds Clarification: False\nParsed Intent\nMode: plan_for_me\nTime: 180 min\nStart: -\nInterest: local_life\nExperience: -\nCulture: -\nAvoid: museum_visit\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: standard\nPreferred Zone: West Bund Waterfront\nMax Walking Distance: -\nNeeds Clarification: False\nStatus: needs_route_quality_clarification\nSemantic Expanded Tags:\n  ordinary local neighborhoods: Primary: local_life; Secondary: -\nRoute Quality Check: clarification_required\nMinimum Viable City Walk: False\nMinimum Required Stops: 3\nActual Stops: 0\nReason: no_eligible_candidates\nRoute Quality Clarification Applied: False\nProvisional Route\nStatus: infeasible\nZone: West Bund Waterfront\nBudget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.\nExplanation: No eligible POIs matched the current zone, interests and avoidance preferences.\nError: No eligible POIs matched the current zone, interests and avoidance preferences.\nSuggestion: Broaden one preference, allow a compatible theme, or broaden the selected area.\nWarning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.\nWarning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.\nWarning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.\nWarning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.\nTime Utilization: -\nEstimated Max Single Leg: -\nI found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?\n1. Add waterfront scenery\n2. Add industrial heritage\n3. Broaden beyond the selected area\n4. Keep my current preferences\n> Parsed Intent\nMode: plan_for_me\nTime: 180 min\nStart: -\nInterest: local_life\nExperience: -\nCulture: -\nAvoid: museum_visit\nAvoid Places: -\nUnresolved Avoid: -\nMust-go: -\nPace: standard\nPreferred Zone: West Bund Waterfront\nMax Walking Distance: -\nNeeds Clarification: False\nStatus: insufficient_route\nSemantic Expanded Tags:\n  ordinary local neighborhoods: Primary: local_life; Secondary: -\nRoute Quality Check: accepted_strict\nMinimum Viable City Walk: False\nMinimum Required Stops: 3\nActual Stops: 0\nInitial Quality Reason: no_eligible_candidates\nRoute Quality Clarification Applied: True\nPreference Broadening: declined\nWarning: The route remains intentionally short because you chose to keep the preference profile narrow.\nSuggested Places — not a complete City Walk\nStatus: insufficient_route\nZone: West Bund Waterfront\nBudget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.\nExplanation: No eligible POIs matched the current zone, interests and avoidance preferences.\nError: No eligible POIs matched the current zone, interests and avoidance preferences.\nSuggestion: Broaden one preference, allow a compatible theme, or broaden the selected area.\nWarning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.\nWarning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.\nWarning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.\nWarning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.\nTime Utilization: -\nEstimated Max Single Leg: -\n",
+      "stderr": "{\"diagnostic\": \"deepseek\", \"stage\": \"request\", \"provider\": \"deepseek\", \"model\": \"deepseek-flash\", \"max_tokens\": 1200, \"thinking\": \"disabled\", \"required_fields\": [\"available_minutes\", \"start_location_text\", \"interest_tags\", \"experience_tags\", \"culture_tags\", \"travel_pace\", \"preferred_zone\", \"max_walking_km\", \"must_go_place_names\", \"avoid_tags\", \"avoid_place_names\", \"unresolved_negative_preferences\"]}\n{\"diagnostic\": \"deepseek\", \"stage\": \"api_response\", \"provider\": \"deepseek\", \"model\": \"deepseek-flash\", \"http_status\": 200, \"success\": true, \"finish_reason\": \"stop\", \"raw_message_content\": \"{\\\"available_minutes\\\": 180, \\\"start_location_text\\\": null, \\\"interest_tags\\\": [\\\"local_life\\\"], \\\"experience_tags\\\": [], \\\"culture_tags\\\": [], \\\"travel_pace\\\": \\\"standard\\\", \\\"preferred_zone\\\": \\\"west_bund\\\", \\\"max_walking_km\\\": null, \\\"must_go_place_names\\\": [], \\\"avoid_tags\\\": [\\\"museum_visit\\\"], \\\"avoid_place_names\\\": [], \\\"unresolved_negative_preferences\\\": [], \\\"semantic_concepts\\\": [{\\\"concept\\\": \\\"ordinary local neighborhoods\\\", \\\"primary\\\": \\\"local_life\\\", \\\"secondary\\\": []}, {\\\"concept\\\": \\\"not museums\\\", \\\"primary\\\": \\\"museum_visit\\\", \\\"secondary\\\": []}]}\", \"reasoning_content_characters\": 0, \"usage\": {\"prompt_tokens\": 2538, \"completion_tokens\": 148, \"total_tokens\": 2686, \"prompt_tokens_details\": {\"cached_tokens\": 2304}, \"prompt_cache_hit_tokens\": 2304, \"prompt_cache_miss_tokens\": 234}}\n{\"diagnostic\": \"deepseek\", \"stage\": \"content_extraction\", \"success\": true}\n{\"diagnostic\": \"deepseek\", \"stage\": \"json_parsing\", \"success\": true}\n{\"diagnostic\": \"deepseek\", \"stage\": \"candidate_schema\", \"missing_fields\": [], \"unknown_fields\": [], \"value_type\": \"dict\"}\n{\"diagnostic\": \"deepseek\", \"stage\": \"candidate_schema\", \"success\": true}\n{\"diagnostic\": \"deepseek\", \"stage\": \"route_intent_validation\", \"success\": true}\n",
+      "diagnostics": [
+        {
+          "diagnostic": "deepseek",
+          "stage": "request",
+          "provider": "deepseek",
+          "model": "deepseek-flash",
+          "max_tokens": 1200,
+          "thinking": "disabled",
+          "required_fields": [
+            "available_minutes",
+            "start_location_text",
+            "interest_tags",
+            "experience_tags",
+            "culture_tags",
+            "travel_pace",
+            "preferred_zone",
+            "max_walking_km",
+            "must_go_place_names",
+            "avoid_tags",
+            "avoid_place_names",
+            "unresolved_negative_preferences"
+          ]
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "api_response",
+          "provider": "deepseek",
+          "model": "deepseek-flash",
+          "http_status": 200,
+          "success": true,
+          "finish_reason": "stop",
+          "raw_message_content": "{\"available_minutes\": 180, \"start_location_text\": null, \"interest_tags\": [\"local_life\"], \"experience_tags\": [], \"culture_tags\": [], \"travel_pace\": \"standard\", \"preferred_zone\": \"west_bund\", \"max_walking_km\": null, \"must_go_place_names\": [], \"avoid_tags\": [\"museum_visit\"], \"avoid_place_names\": [], \"unresolved_negative_preferences\": [], \"semantic_concepts\": [{\"concept\": \"ordinary local neighborhoods\", \"primary\": \"local_life\", \"secondary\": []}, {\"concept\": \"not museums\", \"primary\": \"museum_visit\", \"secondary\": []}]}",
+          "reasoning_content_characters": 0,
+          "usage": {
+            "prompt_tokens": 2538,
+            "completion_tokens": 148,
+            "total_tokens": 2686,
+            "prompt_tokens_details": {
+              "cached_tokens": 2304
+            },
+            "prompt_cache_hit_tokens": 2304,
+            "prompt_cache_miss_tokens": 234
+          }
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "content_extraction",
+          "success": true
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "json_parsing",
+          "success": true
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "candidate_schema",
+          "missing_fields": [],
+          "unknown_fields": [],
+          "value_type": "dict"
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "candidate_schema",
+          "success": true
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "route_intent_validation",
+          "success": true
+        }
+      ],
+      "parsed_intent_reached": true,
+      "route_flow_reached": true
+    }
+  ]
+}

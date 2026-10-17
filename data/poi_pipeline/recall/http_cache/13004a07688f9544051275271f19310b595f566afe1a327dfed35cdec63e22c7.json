@@ -1,0 +1,50 @@
+{
+  "source": "amap",
+  "url": "https://restapi.amap.com/v3/place/detail",
+  "parameters": {
+    "id": "B00156YMMX",
+    "extensions": "base",
+    "output": "JSON"
+  },
+  "variant": "json-v1",
+  "retrieved_at": "2026-10-04T16:14:01.431699+00:00",
+  "response": {
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "distance": [],
+        "keytag": "特色商业街",
+        "importance": [],
+        "biz_ext": [],
+        "type": "购物服务;特色商业街;特色商业街",
+        "photos": [],
+        "building": [],
+        "typecode": "061000",
+        "shopinfo": "0",
+        "poiweight": [],
+        "updateflag": "0",
+        "adname": "黄浦区",
+        "featured_reviews_remake": [],
+        "tel": "021-63112288",
+        "id": "B00156YMMX",
+        "address": "太仓路181弄1-25号",
+        "space_num": [],
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "childtype": [],
+        "atag": "特色商业街",
+        "name": "上海新天地北里",
+        "location": "121.474751,31.220692",
+        "shopid": [],
+        "favorite_num": [],
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  },
+  "response_hash": "da00a1ddea6a130d53c4d2d977a4870e66c9e67bb1d1fb32b1deaa968d7aa169"
+}

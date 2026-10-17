@@ -1,0 +1,4158 @@
+{
+  "before": [
+    {
+      "case": "core_1",
+      "label": "strongest core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_a74f9e58195a",
+          "name": "古城公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 156.75030265110252,
+      "time_utilization": 0.8708350147283473,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2,
+          "supporting_stop": 1
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.1559335235633192,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Commercial Pedestrian Street",
+          "Waterfront",
+          "park"
+        ],
+        "route_roles": [
+          "anchor",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 1,
+        "urban_texture_count": 2,
+        "route_category_diversity": 3,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "core_2",
+      "label": "second core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "p15",
+          "name": "豫园",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        }
+      ],
+      "total_estimated_time": 173.85082347684934,
+      "time_utilization": 0.9658379082047186,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 3
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.3134725854943317,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Waterfront",
+          "Commercial Pedestrian Street",
+          "Old City"
+        ],
+        "route_roles": [
+          "anchor",
+          "anchor",
+          "anchor"
+        ],
+        "park_count": 0,
+        "street_lane_count": 1,
+        "landmark_building_count": 1,
+        "urban_texture_count": 3,
+        "route_category_diversity": 3,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "non_museum",
+      "label": "outdoor/public-space walk; no museums",
+      "request": {
+        "available_minutes": 150,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "parks",
+          "history",
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "museum_visit"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "museum_visit"
+      ],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        }
+      ],
+      "total_estimated_time": 111.33785567025826,
+      "time_utilization": 0.742252371135055,
+      "minimum_viable_passed": false,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "insufficient_route",
+      "failure_reason": [
+        "fewer than three suitable stops"
+      ],
+      "failure_attribution": "scoring_or_budget_constraint",
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": false,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.8503391752693695,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": false,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Waterfront",
+          "Commercial Pedestrian Street"
+        ],
+        "route_roles": [
+          "anchor",
+          "anchor"
+        ],
+        "park_count": 0,
+        "street_lane_count": 1,
+        "landmark_building_count": 1,
+        "urban_texture_count": 2,
+        "route_category_diversity": 2,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "new_coverage",
+      "label": "new nodes thematic coverage",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "parks",
+          "history",
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "parks"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_a74f9e58195a",
+          "name": "古城公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history",
+              "parks"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 156.75030265110252,
+      "time_utilization": 0.8708350147283473,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2,
+          "supporting_stop": 1
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.1559335235633192,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Commercial Pedestrian Street",
+          "Waterfront",
+          "park"
+        ],
+        "route_roles": [
+          "anchor",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 1,
+        "urban_texture_count": 2,
+        "route_category_diversity": 3,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "general_180",
+      "label": "general three-hour walk",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_a74f9e58195a",
+          "name": "古城公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 156.75030265110252,
+      "time_utilization": 0.8708350147283473,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2,
+          "supporting_stop": 1
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.1559335235633192,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Commercial Pedestrian Street",
+          "Waterfront",
+          "park"
+        ],
+        "route_roles": [
+          "anchor",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 1,
+        "urban_texture_count": 2,
+        "route_category_diversity": 3,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "negative",
+      "label": "no shopping",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "shopping_lifestyle",
+          "shopping_leisure"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "shopping_lifestyle",
+        "shopping_leisure"
+      ],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "candidate_pool_after_filtering": [
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "relevant_candidate_pool": [
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_a74f9e58195a",
+          "name": "古城公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        },
+        {
+          "poi_id": "p15",
+          "name": "豫园",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p20",
+          "name": "上海城隍庙",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 40.0
+        }
+      ],
+      "total_estimated_time": 175.87833073984956,
+      "time_utilization": 0.9771018374436087,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 3,
+          "supporting_stop": 1
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.1559335235633192,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Waterfront",
+          "park",
+          "Old City",
+          "Taoist Cultural Site"
+        ],
+        "route_roles": [
+          "anchor",
+          "supporting_stop",
+          "anchor",
+          "anchor"
+        ],
+        "park_count": 1,
+        "street_lane_count": 0,
+        "landmark_building_count": 1,
+        "urban_texture_count": 3,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "history_street",
+      "label": "G urban texture theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [
+          "street_scene"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [
+          "street_scene"
+        ],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [
+              "street_scene"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [
+              "street_scene"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_a74f9e58195a",
+          "name": "古城公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 156.75030265110252,
+      "time_utilization": 0.8708350147283473,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2,
+          "supporting_stop": 1
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.1559335235633192,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Commercial Pedestrian Street",
+          "Waterfront",
+          "park"
+        ],
+        "route_roles": [
+          "anchor",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 1,
+        "urban_texture_count": 2,
+        "route_category_diversity": 3,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "old_city_life",
+      "label": "G urban texture theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "local_life"
+        ],
+        "experience_tags": [],
+        "culture_tags": [
+          "old_city"
+        ],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "local_life"
+        ],
+        "experience_tags": [],
+        "culture_tags": [
+          "old_city"
+        ]
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "relevant_candidate_pool": [
+        "p20",
+        "p23"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p20",
+          "name": "上海城隍庙",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": [
+              "old_city"
+            ]
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 40.0
+        }
+      ],
+      "total_estimated_time": 55.0,
+      "time_utilization": 0.3055555555555556,
+      "minimum_viable_passed": false,
+      "composition_passed": false,
+      "negative_preference_passed": true,
+      "route_status": "insufficient_route",
+      "failure_reason": [
+        "fewer than three suitable stops"
+      ],
+      "failure_attribution": "insufficient_high_quality_poi_supply",
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": false,
+        "route_composition_passed": false,
+        "primary_role_counts": {
+          "anchor": 1
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": "requires an anchor and at least two anchor/supporting stops"
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.0,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": false,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Taoist Cultural Site"
+        ],
+        "route_roles": [
+          "anchor"
+        ],
+        "park_count": 0,
+        "street_lane_count": 0,
+        "landmark_building_count": 0,
+        "urban_texture_count": 1,
+        "route_category_diversity": 1,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "architecture_neighborhood",
+      "label": "G urban texture theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [
+          "neighborhood_walk"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [
+          "neighborhood_walk"
+        ],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p15",
+          "name": "豫园",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p20",
+          "name": "上海城隍庙",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 40.0
+        },
+        {
+          "poi_id": "p7",
+          "name": "新天地北里（石库门街区）",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 161.75329007383763,
+      "time_utilization": 0.898629389299098,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 3
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 2.225632252637743,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Old City",
+          "Taoist Cultural Site",
+          "Shikumen"
+        ],
+        "route_roles": [
+          "anchor",
+          "anchor",
+          "anchor"
+        ],
+        "park_count": 0,
+        "street_lane_count": 1,
+        "landmark_building_count": 0,
+        "urban_texture_count": 3,
+        "route_category_diversity": 3,
+        "soft_diagnostic_only": true
+      }
+    }
+  ],
+  "after": [
+    {
+      "case": "core_1",
+      "label": "strongest core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "pz_463c9b82ac1e",
+          "name": "东海大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_a74f9e58195a",
+          "name": "古城公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 171.68096609366262,
+      "time_utilization": 0.9537831449647923,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 2,
+          "anchor": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.1559335235633192,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "architecture",
+          "Commercial Pedestrian Street",
+          "Waterfront",
+          "park"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "anchor",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 2,
+        "urban_texture_count": 3,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "core_2",
+      "label": "second core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_cc5300aee299",
+        "pz_463c9b82ac1e"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_463c9b82ac1e",
+          "name": "东海大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "pz_cc5300aee299",
+          "name": "福州路",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        }
+      ],
+      "total_estimated_time": 146.56980555626555,
+      "time_utilization": 0.8142766975348086,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2,
+          "supporting_stop": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.8792971937520473,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Waterfront",
+          "architecture",
+          "Commercial Pedestrian Street",
+          "public_space"
+        ],
+        "route_roles": [
+          "anchor",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 0,
+        "street_lane_count": 2,
+        "landmark_building_count": 2,
+        "urban_texture_count": 4,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "non_museum",
+      "label": "outdoor/public-space walk; no museums",
+      "request": {
+        "available_minutes": 150,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "parks",
+          "history",
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "museum_visit"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "museum_visit"
+      ],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_463c9b82ac1e"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_cc5300aee299",
+        "pz_463c9b82ac1e"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_463c9b82ac1e",
+          "name": "东海大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "pz_cc5300aee299",
+          "name": "福州路",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        }
+      ],
+      "total_estimated_time": 146.56980555626555,
+      "time_utilization": 0.9771320370417703,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2,
+          "supporting_stop": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.8792971937520473,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Waterfront",
+          "architecture",
+          "Commercial Pedestrian Street",
+          "public_space"
+        ],
+        "route_roles": [
+          "anchor",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 0,
+        "street_lane_count": 2,
+        "landmark_building_count": 2,
+        "urban_texture_count": 4,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "new_coverage",
+      "label": "new nodes thematic coverage",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "parks",
+          "history",
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "parks"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "pz_463c9b82ac1e",
+          "name": "东海大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_a74f9e58195a",
+          "name": "古城公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history",
+              "parks"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 171.68096609366262,
+      "time_utilization": 0.9537831449647923,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 2,
+          "anchor": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.1559335235633192,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "architecture",
+          "Commercial Pedestrian Street",
+          "Waterfront",
+          "park"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "anchor",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 2,
+        "urban_texture_count": 3,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "general_180",
+      "label": "general three-hour walk",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_463c9b82ac1e",
+          "name": "东海大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "pz_cc5300aee299",
+          "name": "福州路",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_0db17d82e9ec",
+          "name": "上海人民广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 18.0
+        }
+      ],
+      "total_estimated_time": 178.46178591390628,
+      "time_utilization": 0.9914543661883682,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 3,
+          "supporting_stop": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.0418985268230543,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Waterfront",
+          "architecture",
+          "Commercial Pedestrian Street",
+          "public_space",
+          "public_space"
+        ],
+        "route_roles": [
+          "anchor",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop",
+          "anchor"
+        ],
+        "park_count": 0,
+        "street_lane_count": 2,
+        "landmark_building_count": 3,
+        "urban_texture_count": 5,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "negative",
+      "label": "no shopping",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "shopping_lifestyle",
+          "shopping_leisure"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "shopping_lifestyle",
+        "shopping_leisure"
+      ],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "candidate_pool_after_filtering": [
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "relevant_candidate_pool": [
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_463c9b82ac1e",
+          "name": "东海大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "pz_cc5300aee299",
+          "name": "福州路",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_0db17d82e9ec",
+          "name": "上海人民广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 18.0
+        },
+        {
+          "poi_id": "pz_8919938b21f2",
+          "name": "淮海公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        }
+      ],
+      "total_estimated_time": 146.1390460708816,
+      "time_utilization": 0.8118835892826755,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2,
+          "supporting_stop": 3
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.0418985268230543,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Waterfront",
+          "architecture",
+          "public_space",
+          "public_space",
+          "park"
+        ],
+        "route_roles": [
+          "anchor",
+          "supporting_stop",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 3,
+        "urban_texture_count": 4,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "history_street",
+      "label": "G urban texture theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [
+          "street_scene"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [
+          "street_scene"
+        ],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "pz_463c9b82ac1e",
+          "name": "东海大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p34",
+          "name": "南京路步行街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [
+              "street_scene"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 60.0
+        },
+        {
+          "poi_id": "p14",
+          "name": "外滩·陈毅广场",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [
+              "street_scene"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "pz_a74f9e58195a",
+          "name": "古城公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 171.68096609366262,
+      "time_utilization": 0.9537831449647923,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 2,
+          "anchor": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.1559335235633192,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "architecture",
+          "Commercial Pedestrian Street",
+          "Waterfront",
+          "park"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "anchor",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 2,
+        "urban_texture_count": 3,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "old_city_life",
+      "label": "G urban texture theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "local_life"
+        ],
+        "experience_tags": [],
+        "culture_tags": [
+          "old_city"
+        ],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "local_life"
+        ],
+        "experience_tags": [],
+        "culture_tags": [
+          "old_city"
+        ]
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "relevant_candidate_pool": [
+        "p20",
+        "p23"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p20",
+          "name": "上海城隍庙",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": [
+              "old_city"
+            ]
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 40.0
+        }
+      ],
+      "total_estimated_time": 55.0,
+      "time_utilization": 0.3055555555555556,
+      "minimum_viable_passed": false,
+      "composition_passed": false,
+      "negative_preference_passed": true,
+      "route_status": "insufficient_route",
+      "failure_reason": [
+        "fewer than three suitable stops"
+      ],
+      "failure_attribution": "insufficient_high_quality_poi_supply",
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": false,
+        "route_composition_passed": false,
+        "primary_role_counts": {
+          "anchor": 1
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": "requires an anchor and at least two anchor/supporting stops"
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.0,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": false,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Taoist Cultural Site"
+        ],
+        "route_roles": [
+          "anchor"
+        ],
+        "park_count": 0,
+        "street_lane_count": 0,
+        "landmark_building_count": 0,
+        "urban_texture_count": 1,
+        "route_category_diversity": 1,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "architecture_neighborhood",
+      "label": "G urban texture theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [
+          "neighborhood_walk"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [
+          "neighborhood_walk"
+        ],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "candidate_pool_after_filtering": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_a74f9e58195a",
+        "pz_68957332b418",
+        "pz_8919938b21f2",
+        "pz_bd40d04c7f5d",
+        "pz_0db17d82e9ec",
+        "pz_cc5300aee299",
+        "pz_42efca09357d",
+        "pz_66452d5db8a1",
+        "pz_463c9b82ac1e"
+      ],
+      "relevant_candidate_pool": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34",
+        "pz_cc5300aee299",
+        "pz_463c9b82ac1e"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p15",
+          "name": "豫园",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p20",
+          "name": "上海城隍庙",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 40.0
+        },
+        {
+          "poi_id": "p7",
+          "name": "新天地北里（石库门街区）",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 161.75329007383763,
+      "time_utilization": 0.898629389299098,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 3
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 2.225632252637743,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Old City",
+          "Taoist Cultural Site",
+          "Shikumen"
+        ],
+        "route_roles": [
+          "anchor",
+          "anchor",
+          "anchor"
+        ],
+        "park_count": 0,
+        "street_lane_count": 1,
+        "landmark_building_count": 0,
+        "urban_texture_count": 3,
+        "route_category_diversity": 3,
+        "soft_diagnostic_only": true
+      }
+    }
+  ],
+  "duration_sweep": {
+    "before": [
+      {
+        "case": "120",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 120,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "old_city_central",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d"
+        ],
+        "candidate_pool_after_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d"
+        ],
+        "relevant_candidate_pool": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p14",
+            "name": "外滩·陈毅广场",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 25.0
+          },
+          {
+            "poi_id": "p34",
+            "name": "南京路步行街",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "full_visit",
+            "estimated_visit_minutes": 60.0
+          }
+        ],
+        "total_estimated_time": 111.33785567025826,
+        "time_utilization": 0.9278154639188189,
+        "minimum_viable_passed": false,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "insufficient_route",
+        "failure_reason": [
+          "fewer than three suitable stops"
+        ],
+        "failure_attribution": "scoring_or_budget_constraint",
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": false,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "anchor": 2
+          },
+          "longest_transition_run": 0,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.8503391752693695,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": false,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Waterfront",
+            "Commercial Pedestrian Street"
+          ],
+          "route_roles": [
+            "anchor",
+            "anchor"
+          ],
+          "park_count": 0,
+          "street_lane_count": 1,
+          "landmark_building_count": 1,
+          "urban_texture_count": 2,
+          "route_category_diversity": 2,
+          "soft_diagnostic_only": true
+        }
+      },
+      {
+        "case": "150",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 150,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "old_city_central",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d"
+        ],
+        "candidate_pool_after_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d"
+        ],
+        "relevant_candidate_pool": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p14",
+            "name": "外滩·陈毅广场",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 25.0
+          },
+          {
+            "poi_id": "p34",
+            "name": "南京路步行街",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "full_visit",
+            "estimated_visit_minutes": 60.0
+          }
+        ],
+        "total_estimated_time": 111.33785567025826,
+        "time_utilization": 0.742252371135055,
+        "minimum_viable_passed": false,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "insufficient_route",
+        "failure_reason": [
+          "fewer than three suitable stops"
+        ],
+        "failure_attribution": "scoring_or_budget_constraint",
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": false,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "anchor": 2
+          },
+          "longest_transition_run": 0,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.8503391752693695,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": false,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Waterfront",
+            "Commercial Pedestrian Street"
+          ],
+          "route_roles": [
+            "anchor",
+            "anchor"
+          ],
+          "park_count": 0,
+          "street_lane_count": 1,
+          "landmark_building_count": 1,
+          "urban_texture_count": 2,
+          "route_category_diversity": 2,
+          "soft_diagnostic_only": true
+        }
+      },
+      {
+        "case": "180",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 180,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "old_city_central",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d"
+        ],
+        "candidate_pool_after_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d"
+        ],
+        "relevant_candidate_pool": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p34",
+            "name": "南京路步行街",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "full_visit",
+            "estimated_visit_minutes": 60.0
+          },
+          {
+            "poi_id": "p14",
+            "name": "外滩·陈毅广场",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 25.0
+          },
+          {
+            "poi_id": "pz_a74f9e58195a",
+            "name": "古城公园",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 30.0
+          }
+        ],
+        "total_estimated_time": 156.75030265110252,
+        "time_utilization": 0.8708350147283473,
+        "minimum_viable_passed": true,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "success",
+        "failure_reason": [],
+        "failure_attribution": null,
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": true,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "anchor": 2,
+            "supporting_stop": 1
+          },
+          "longest_transition_run": 0,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 1.1559335235633192,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": true,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Commercial Pedestrian Street",
+            "Waterfront",
+            "park"
+          ],
+          "route_roles": [
+            "anchor",
+            "anchor",
+            "supporting_stop"
+          ],
+          "park_count": 1,
+          "street_lane_count": 1,
+          "landmark_building_count": 1,
+          "urban_texture_count": 2,
+          "route_category_diversity": 3,
+          "soft_diagnostic_only": true
+        }
+      }
+    ],
+    "after": [
+      {
+        "case": "120",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 120,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "old_city_central",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d",
+          "pz_0db17d82e9ec",
+          "pz_cc5300aee299",
+          "pz_42efca09357d",
+          "pz_66452d5db8a1",
+          "pz_463c9b82ac1e"
+        ],
+        "candidate_pool_after_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d",
+          "pz_0db17d82e9ec",
+          "pz_cc5300aee299",
+          "pz_42efca09357d",
+          "pz_66452d5db8a1",
+          "pz_463c9b82ac1e"
+        ],
+        "relevant_candidate_pool": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d",
+          "pz_0db17d82e9ec",
+          "pz_cc5300aee299",
+          "pz_42efca09357d",
+          "pz_66452d5db8a1",
+          "pz_463c9b82ac1e"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p14",
+            "name": "外滩·陈毅广场",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 25.0
+          },
+          {
+            "poi_id": "p34",
+            "name": "南京路步行街",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "full_visit",
+            "estimated_visit_minutes": 60.0
+          }
+        ],
+        "total_estimated_time": 111.33785567025826,
+        "time_utilization": 0.9278154639188189,
+        "minimum_viable_passed": false,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "insufficient_route",
+        "failure_reason": [
+          "fewer than three suitable stops"
+        ],
+        "failure_attribution": "scoring_or_budget_constraint",
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": false,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "anchor": 2
+          },
+          "longest_transition_run": 0,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.8503391752693695,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": false,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Waterfront",
+            "Commercial Pedestrian Street"
+          ],
+          "route_roles": [
+            "anchor",
+            "anchor"
+          ],
+          "park_count": 0,
+          "street_lane_count": 1,
+          "landmark_building_count": 1,
+          "urban_texture_count": 2,
+          "route_category_diversity": 2,
+          "soft_diagnostic_only": true
+        }
+      },
+      {
+        "case": "150",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 150,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "old_city_central",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d",
+          "pz_0db17d82e9ec",
+          "pz_cc5300aee299",
+          "pz_42efca09357d",
+          "pz_66452d5db8a1",
+          "pz_463c9b82ac1e"
+        ],
+        "candidate_pool_after_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d",
+          "pz_0db17d82e9ec",
+          "pz_cc5300aee299",
+          "pz_42efca09357d",
+          "pz_66452d5db8a1",
+          "pz_463c9b82ac1e"
+        ],
+        "relevant_candidate_pool": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d",
+          "pz_0db17d82e9ec",
+          "pz_cc5300aee299",
+          "pz_42efca09357d",
+          "pz_66452d5db8a1",
+          "pz_463c9b82ac1e"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p14",
+            "name": "外滩·陈毅广场",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 25.0
+          },
+          {
+            "poi_id": "pz_463c9b82ac1e",
+            "name": "东海大楼",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 10.0
+          },
+          {
+            "poi_id": "p34",
+            "name": "南京路步行街",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "full_visit",
+            "estimated_visit_minutes": 60.0
+          },
+          {
+            "poi_id": "pz_cc5300aee299",
+            "name": "福州路",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 15.0
+          }
+        ],
+        "total_estimated_time": 146.56980555626555,
+        "time_utilization": 0.9771320370417703,
+        "minimum_viable_passed": true,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "success",
+        "failure_reason": [],
+        "failure_attribution": null,
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": true,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "anchor": 2,
+            "supporting_stop": 2
+          },
+          "longest_transition_run": 0,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.8792971937520473,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": true,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Waterfront",
+            "architecture",
+            "Commercial Pedestrian Street",
+            "public_space"
+          ],
+          "route_roles": [
+            "anchor",
+            "supporting_stop",
+            "anchor",
+            "supporting_stop"
+          ],
+          "park_count": 0,
+          "street_lane_count": 2,
+          "landmark_building_count": 2,
+          "urban_texture_count": 4,
+          "route_category_diversity": 4,
+          "soft_diagnostic_only": true
+        }
+      },
+      {
+        "case": "180",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 180,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "old_city_central",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d",
+          "pz_0db17d82e9ec",
+          "pz_cc5300aee299",
+          "pz_42efca09357d",
+          "pz_66452d5db8a1",
+          "pz_463c9b82ac1e"
+        ],
+        "candidate_pool_after_filtering": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d",
+          "pz_0db17d82e9ec",
+          "pz_cc5300aee299",
+          "pz_42efca09357d",
+          "pz_66452d5db8a1",
+          "pz_463c9b82ac1e"
+        ],
+        "relevant_candidate_pool": [
+          "p7",
+          "p9",
+          "p14",
+          "p15",
+          "p20",
+          "p23",
+          "p24",
+          "p34",
+          "pz_a74f9e58195a",
+          "pz_68957332b418",
+          "pz_8919938b21f2",
+          "pz_bd40d04c7f5d",
+          "pz_0db17d82e9ec",
+          "pz_cc5300aee299",
+          "pz_42efca09357d",
+          "pz_66452d5db8a1",
+          "pz_463c9b82ac1e"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p14",
+            "name": "外滩·陈毅广场",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 25.0
+          },
+          {
+            "poi_id": "pz_463c9b82ac1e",
+            "name": "东海大楼",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 10.0
+          },
+          {
+            "poi_id": "p34",
+            "name": "南京路步行街",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "full_visit",
+            "estimated_visit_minutes": 60.0
+          },
+          {
+            "poi_id": "pz_cc5300aee299",
+            "name": "福州路",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 15.0
+          },
+          {
+            "poi_id": "pz_0db17d82e9ec",
+            "name": "上海人民广场",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 18.0
+          }
+        ],
+        "total_estimated_time": 178.46178591390628,
+        "time_utilization": 0.9914543661883682,
+        "minimum_viable_passed": true,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "success",
+        "failure_reason": [],
+        "failure_attribution": null,
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": true,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "anchor": 3,
+            "supporting_stop": 2
+          },
+          "longest_transition_run": 0,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 1.0418985268230543,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": true,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Waterfront",
+            "architecture",
+            "Commercial Pedestrian Street",
+            "public_space",
+            "public_space"
+          ],
+          "route_roles": [
+            "anchor",
+            "supporting_stop",
+            "anchor",
+            "supporting_stop",
+            "anchor"
+          ],
+          "park_count": 0,
+          "street_lane_count": 2,
+          "landmark_building_count": 3,
+          "urban_texture_count": 5,
+          "route_category_diversity": 4,
+          "soft_diagnostic_only": true
+        }
+      }
+    ]
+  }
+}

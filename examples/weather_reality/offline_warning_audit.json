@@ -1,0 +1,1112 @@
+{
+  "source": "deterministic_fixture",
+  "warning_codes": [
+    "LIVE_ROUTE_DATA_UNAVAILABLE",
+    "LIVE_ROUTE_EXCEEDS_BUDGET",
+    "OPENING_HOURS_UNKNOWN",
+    "POI_CLOSED",
+    "POI_MAY_CLOSE_BEFORE_ARRIVAL",
+    "WEATHER_DATA_UNAVAILABLE",
+    "WEATHER_RISK"
+  ],
+  "cases": [
+    {
+      "case": "healthy",
+      "result": {
+        "checked_at": "2026-10-06T12:00:00+08:00",
+        "route_version": "v1",
+        "status": "OK",
+        "warnings": [],
+        "weather": {
+          "provider": "amap",
+          "province": null,
+          "city": null,
+          "district": null,
+          "adcode": null,
+          "weather_text": "晴",
+          "temperature_c": 23,
+          "humidity_pct": null,
+          "wind_direction": null,
+          "wind_power": null,
+          "report_time": null,
+          "data_status": "AVAILABLE",
+          "fetched_at": null,
+          "cache_hit": false,
+          "error_code": null,
+          "resolved_location": null,
+          "origin_source": null,
+          "origin_core_poi_id": null
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p25"
+          ],
+          "remaining_budget_minutes": 180,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 15,
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            },
+            {
+              "poi_id": "p25",
+              "leg_index": 0,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 10.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 60,
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 10.0,
+          "remaining_reference_walking_minutes": 10.0,
+          "known_walking_minutes": 10.0,
+          "remaining_planned_visit_minutes": 75,
+          "reality_adjusted_remaining_minutes": 85.0,
+          "remaining_walking_distance_m": 800,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p25": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "snapshots_unchanged": true,
+      "snapshot_sha256": "e5ca595f3d84cf0840107bc2002fb19225abd22e9175a0153942d8dd0ba7a6fb"
+    },
+    {
+      "case": "budget",
+      "result": {
+        "checked_at": "2026-10-06T12:00:00+08:00",
+        "route_version": "v1",
+        "status": "WARNING",
+        "warnings": [
+          {
+            "code": "LIVE_ROUTE_EXCEEDS_BUDGET",
+            "severity": "MEDIUM",
+            "message": "剩余步行及计划参观可能超出时间预算。",
+            "details": {
+              "budget": 60,
+              "adjusted_duration": 85.0,
+              "excess_minutes": 25.0,
+              "tolerance_minutes": 5,
+              "budget_is_soft": true
+            },
+            "poi_id": null,
+            "leg_index": null,
+            "source": "route_version",
+            "confidence": "HIGH"
+          }
+        ],
+        "weather": {
+          "provider": "amap",
+          "province": null,
+          "city": null,
+          "district": null,
+          "adcode": null,
+          "weather_text": "晴",
+          "temperature_c": 23,
+          "humidity_pct": null,
+          "wind_direction": null,
+          "wind_power": null,
+          "report_time": null,
+          "data_status": "AVAILABLE",
+          "fetched_at": null,
+          "cache_hit": false,
+          "error_code": null,
+          "resolved_location": null,
+          "origin_source": null,
+          "origin_core_poi_id": null
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p25"
+          ],
+          "remaining_budget_minutes": 60,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 15,
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            },
+            {
+              "poi_id": "p25",
+              "leg_index": 0,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 10.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 60,
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 10.0,
+          "remaining_reference_walking_minutes": 10.0,
+          "known_walking_minutes": 10.0,
+          "remaining_planned_visit_minutes": 75,
+          "reality_adjusted_remaining_minutes": 85.0,
+          "remaining_walking_distance_m": 800,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p25": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "snapshots_unchanged": true,
+      "snapshot_sha256": "6d3d14f66275906a1d58c0e2324c16b9cd1f2ceff22680825babd1dcd76e25b3"
+    },
+    {
+      "case": "closed",
+      "result": {
+        "checked_at": "2026-10-06T12:00:00+08:00",
+        "route_version": "v1",
+        "status": "WARNING",
+        "warnings": [
+          {
+            "code": "POI_CLOSED",
+            "severity": "HIGH",
+            "message": "预计到达时营业时间已结束或尚未开放。",
+            "details": {
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "opening_hours": "09:00-10:00",
+              "provider_status": "AVAILABLE",
+              "current_open_status": "OPEN",
+              "planned_visit_minutes": 15
+            },
+            "poi_id": "p28",
+            "leg_index": null,
+            "source": "poi_live_info",
+            "confidence": "HIGH"
+          },
+          {
+            "code": "POI_CLOSED",
+            "severity": "HIGH",
+            "message": "预计到达时营业时间已结束或尚未开放。",
+            "details": {
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "opening_hours": "09:00-10:00",
+              "provider_status": "AVAILABLE",
+              "current_open_status": "OPEN",
+              "planned_visit_minutes": 60
+            },
+            "poi_id": "p25",
+            "leg_index": 0,
+            "source": "poi_live_info",
+            "confidence": "HIGH"
+          }
+        ],
+        "weather": {
+          "provider": "amap",
+          "province": null,
+          "city": null,
+          "district": null,
+          "adcode": null,
+          "weather_text": "晴",
+          "temperature_c": 23,
+          "humidity_pct": null,
+          "wind_direction": null,
+          "wind_power": null,
+          "report_time": null,
+          "data_status": "AVAILABLE",
+          "fetched_at": null,
+          "cache_hit": false,
+          "error_code": null,
+          "resolved_location": null,
+          "origin_source": null,
+          "origin_core_poi_id": null
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p25"
+          ],
+          "remaining_budget_minutes": 180,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 15,
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-10:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "CLOSED"
+            },
+            {
+              "poi_id": "p25",
+              "leg_index": 0,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 10.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 60,
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-10:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "CLOSED"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 10.0,
+          "remaining_reference_walking_minutes": 10.0,
+          "known_walking_minutes": 10.0,
+          "remaining_planned_visit_minutes": 75,
+          "reality_adjusted_remaining_minutes": 85.0,
+          "remaining_walking_distance_m": 800,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p25": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "snapshots_unchanged": true,
+      "snapshot_sha256": "e5ca595f3d84cf0840107bc2002fb19225abd22e9175a0153942d8dd0ba7a6fb"
+    },
+    {
+      "case": "may_close",
+      "result": {
+        "checked_at": "2026-10-06T12:00:00+08:00",
+        "route_version": "v1",
+        "status": "WARNING",
+        "warnings": [
+          {
+            "code": "POI_MAY_CLOSE_BEFORE_ARRIVAL",
+            "severity": "HIGH",
+            "message": "计划参观可能无法在关门前完成。",
+            "details": {
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "opening_hours": "09:00-13:00",
+              "provider_status": "AVAILABLE",
+              "current_open_status": "OPEN",
+              "planned_visit_minutes": 60,
+              "closes_at": "2026-10-06T13:00:00+08:00"
+            },
+            "poi_id": "p25",
+            "leg_index": 0,
+            "source": "poi_live_info",
+            "confidence": "HIGH"
+          }
+        ],
+        "weather": {
+          "provider": "amap",
+          "province": null,
+          "city": null,
+          "district": null,
+          "adcode": null,
+          "weather_text": "晴",
+          "temperature_c": 23,
+          "humidity_pct": null,
+          "wind_direction": null,
+          "wind_power": null,
+          "report_time": null,
+          "data_status": "AVAILABLE",
+          "fetched_at": null,
+          "cache_hit": false,
+          "error_code": null,
+          "resolved_location": null,
+          "origin_source": null,
+          "origin_core_poi_id": null
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p25"
+          ],
+          "remaining_budget_minutes": 180,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 15,
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-13:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T13:00:00+08:00"
+            },
+            {
+              "poi_id": "p25",
+              "leg_index": 0,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 10.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 60,
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-13:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T13:00:00+08:00"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 10.0,
+          "remaining_reference_walking_minutes": 10.0,
+          "known_walking_minutes": 10.0,
+          "remaining_planned_visit_minutes": 75,
+          "reality_adjusted_remaining_minutes": 85.0,
+          "remaining_walking_distance_m": 800,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p25": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "snapshots_unchanged": true,
+      "snapshot_sha256": "e5ca595f3d84cf0840107bc2002fb19225abd22e9175a0153942d8dd0ba7a6fb"
+    },
+    {
+      "case": "unknown",
+      "result": {
+        "checked_at": "2026-10-06T12:00:00+08:00",
+        "route_version": "v1",
+        "status": "PARTIAL",
+        "warnings": [
+          {
+            "code": "OPENING_HOURS_UNKNOWN",
+            "severity": "LOW",
+            "message": "缺少可可靠解析的到达日营业时间。",
+            "details": {
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "opening_hours": null,
+              "provider_status": "AVAILABLE",
+              "current_open_status": "OPEN",
+              "planned_visit_minutes": 15
+            },
+            "poi_id": "p28",
+            "leg_index": null,
+            "source": "poi_live_info",
+            "confidence": "LOW"
+          },
+          {
+            "code": "OPENING_HOURS_UNKNOWN",
+            "severity": "LOW",
+            "message": "缺少可可靠解析的到达日营业时间。",
+            "details": {
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "opening_hours": null,
+              "provider_status": "AVAILABLE",
+              "current_open_status": "OPEN",
+              "planned_visit_minutes": 60
+            },
+            "poi_id": "p25",
+            "leg_index": 0,
+            "source": "poi_live_info",
+            "confidence": "LOW"
+          }
+        ],
+        "weather": {
+          "provider": "amap",
+          "province": null,
+          "city": null,
+          "district": null,
+          "adcode": null,
+          "weather_text": "晴",
+          "temperature_c": 23,
+          "humidity_pct": null,
+          "wind_direction": null,
+          "wind_power": null,
+          "report_time": null,
+          "data_status": "AVAILABLE",
+          "fetched_at": null,
+          "cache_hit": false,
+          "error_code": null,
+          "resolved_location": null,
+          "origin_source": null,
+          "origin_core_poi_id": null
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p25"
+          ],
+          "remaining_budget_minutes": 180,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 15,
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": null,
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "UNKNOWN"
+            },
+            {
+              "poi_id": "p25",
+              "leg_index": 0,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 10.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 60,
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": null,
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "UNKNOWN"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 10.0,
+          "remaining_reference_walking_minutes": 10.0,
+          "known_walking_minutes": 10.0,
+          "remaining_planned_visit_minutes": 75,
+          "reality_adjusted_remaining_minutes": 85.0,
+          "remaining_walking_distance_m": 800,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p25": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "snapshots_unchanged": true,
+      "snapshot_sha256": "e5ca595f3d84cf0840107bc2002fb19225abd22e9175a0153942d8dd0ba7a6fb"
+    },
+    {
+      "case": "not_applicable",
+      "result": {
+        "checked_at": "2026-10-06T12:00:00+08:00",
+        "route_version": "v1",
+        "status": "OK",
+        "warnings": [],
+        "weather": {
+          "provider": "amap",
+          "province": null,
+          "city": null,
+          "district": null,
+          "adcode": null,
+          "weather_text": "晴",
+          "temperature_c": 23,
+          "humidity_pct": null,
+          "wind_direction": null,
+          "wind_power": null,
+          "report_time": null,
+          "data_status": "AVAILABLE",
+          "fetched_at": null,
+          "cache_hit": false,
+          "error_code": null,
+          "resolved_location": null,
+          "origin_source": null,
+          "origin_core_poi_id": null
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p25"
+          ],
+          "remaining_budget_minutes": 180,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 15,
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": null,
+              "live_info_applicability": "NOT_APPLICABLE",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "NOT_APPLICABLE"
+            },
+            {
+              "poi_id": "p25",
+              "leg_index": 0,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 10.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 60,
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": null,
+              "live_info_applicability": "NOT_APPLICABLE",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "NOT_APPLICABLE"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 10.0,
+          "remaining_reference_walking_minutes": 10.0,
+          "known_walking_minutes": 10.0,
+          "remaining_planned_visit_minutes": 75,
+          "reality_adjusted_remaining_minutes": 85.0,
+          "remaining_walking_distance_m": 800,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "AVAILABLE",
+              "applicability": "NOT_APPLICABLE",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p25": {
+              "data_status": "AVAILABLE",
+              "applicability": "NOT_APPLICABLE",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "snapshots_unchanged": true,
+      "snapshot_sha256": "e5ca595f3d84cf0840107bc2002fb19225abd22e9175a0153942d8dd0ba7a6fb"
+    },
+    {
+      "case": "rain",
+      "result": {
+        "checked_at": "2026-10-06T12:00:00+08:00",
+        "route_version": "v1",
+        "status": "WARNING",
+        "warnings": [
+          {
+            "code": "WEATHER_RISK",
+            "severity": "MEDIUM",
+            "message": "明显天气风险可能影响剩余户外步行。",
+            "details": {
+              "risk_type": [
+                "RAIN"
+              ],
+              "weather": "小雨",
+              "temperature": null,
+              "wind": null,
+              "remaining_walking_minutes": 10.0,
+              "affected_poi_ids": []
+            },
+            "poi_id": null,
+            "leg_index": null,
+            "source": "weather",
+            "confidence": "HIGH"
+          }
+        ],
+        "weather": {
+          "provider": "amap",
+          "province": null,
+          "city": null,
+          "district": null,
+          "adcode": null,
+          "weather_text": "小雨",
+          "temperature_c": null,
+          "humidity_pct": null,
+          "wind_direction": null,
+          "wind_power": null,
+          "report_time": null,
+          "data_status": "AVAILABLE",
+          "fetched_at": null,
+          "cache_hit": false,
+          "error_code": null,
+          "resolved_location": null,
+          "origin_source": null,
+          "origin_core_poi_id": null
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p25"
+          ],
+          "remaining_budget_minutes": 180,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 15,
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            },
+            {
+              "poi_id": "p25",
+              "leg_index": 0,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 10.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 60,
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 10.0,
+          "remaining_reference_walking_minutes": 10.0,
+          "known_walking_minutes": 10.0,
+          "remaining_planned_visit_minutes": 75,
+          "reality_adjusted_remaining_minutes": 85.0,
+          "remaining_walking_distance_m": 800,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p25": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "snapshots_unchanged": true,
+      "snapshot_sha256": "e5ca595f3d84cf0840107bc2002fb19225abd22e9175a0153942d8dd0ba7a6fb"
+    },
+    {
+      "case": "fallback",
+      "result": {
+        "checked_at": "2026-10-06T12:00:00+08:00",
+        "route_version": "v1",
+        "status": "PARTIAL",
+        "warnings": [
+          {
+            "code": "LIVE_ROUTE_DATA_UNAVAILABLE",
+            "severity": "LOW",
+            "message": "部分剩余步行段缺少真实步行数据。",
+            "details": {
+              "affected_legs": [
+                {
+                  "leg_index": 0,
+                  "from_poi_id": "p28",
+                  "to_poi_id": "p25",
+                  "walking_status": "FALLBACK_ESTIMATE"
+                }
+              ]
+            },
+            "poi_id": null,
+            "leg_index": null,
+            "source": "route_version",
+            "confidence": "LOW"
+          }
+        ],
+        "weather": {
+          "provider": "amap",
+          "province": null,
+          "city": null,
+          "district": null,
+          "adcode": null,
+          "weather_text": "晴",
+          "temperature_c": 23,
+          "humidity_pct": null,
+          "wind_direction": null,
+          "wind_power": null,
+          "report_time": null,
+          "data_status": "AVAILABLE",
+          "fetched_at": null,
+          "cache_hit": false,
+          "error_code": null,
+          "resolved_location": null,
+          "origin_source": null,
+          "origin_core_poi_id": null
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p25"
+          ],
+          "remaining_budget_minutes": 180,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 15,
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            },
+            {
+              "poi_id": "p25",
+              "leg_index": 0,
+              "walking_status": "FALLBACK_ESTIMATE",
+              "walking_minutes": 10.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 60,
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "eta_confidence": "MEDIUM",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 0.0,
+          "remaining_reference_walking_minutes": 10.0,
+          "known_walking_minutes": 10.0,
+          "remaining_planned_visit_minutes": 75,
+          "reality_adjusted_remaining_minutes": 85.0,
+          "remaining_walking_distance_m": 800,
+          "budget_confidence": "MEDIUM",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "FALLBACK_ESTIMATE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p25": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "snapshots_unchanged": true,
+      "snapshot_sha256": "7cc689c76fc8025405df580d723f9ad8d46387abc018fd18328bc7cdac337084"
+    },
+    {
+      "case": "weather_failure",
+      "result": {
+        "checked_at": "2026-10-06T12:00:00+08:00",
+        "route_version": "v1",
+        "status": "PARTIAL",
+        "warnings": [
+          {
+            "code": "WEATHER_DATA_UNAVAILABLE",
+            "severity": "LOW",
+            "message": "当前天气数据暂不可用；其他路线检查已继续。",
+            "details": {
+              "error_code": "provider_timeout"
+            },
+            "poi_id": null,
+            "leg_index": null,
+            "source": "weather",
+            "confidence": "LOW"
+          }
+        ],
+        "weather": {
+          "provider": "amap",
+          "province": null,
+          "city": null,
+          "district": null,
+          "adcode": null,
+          "weather_text": null,
+          "temperature_c": null,
+          "humidity_pct": null,
+          "wind_direction": null,
+          "wind_power": null,
+          "report_time": null,
+          "data_status": "UNAVAILABLE",
+          "fetched_at": null,
+          "cache_hit": false,
+          "error_code": "provider_timeout",
+          "resolved_location": null,
+          "origin_source": null,
+          "origin_core_poi_id": null
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p25"
+          ],
+          "remaining_budget_minutes": 180,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 15,
+              "estimated_arrival": "2026-10-06T12:00:00+08:00",
+              "estimated_departure": "2026-10-06T12:15:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            },
+            {
+              "poi_id": "p25",
+              "leg_index": 0,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 10.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "室内展厅参观",
+              "planned_visit_minutes": 60,
+              "estimated_arrival": "2026-10-06T12:25:00+08:00",
+              "estimated_departure": "2026-10-06T13:25:00+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "OPEN",
+              "opening_hours": "09:00-22:00",
+              "live_info_applicability": "FULL",
+              "provider_status": "AVAILABLE",
+              "opening_evaluation": "OPEN",
+              "closes_at": "2026-10-06T22:00:00+08:00"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 10.0,
+          "remaining_reference_walking_minutes": 10.0,
+          "known_walking_minutes": 10.0,
+          "remaining_planned_visit_minutes": 75,
+          "reality_adjusted_remaining_minutes": 85.0,
+          "remaining_walking_distance_m": 800,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "UNAVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p25": {
+              "data_status": "AVAILABLE",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "snapshots_unchanged": true,
+      "snapshot_sha256": "e5ca595f3d84cf0840107bc2002fb19225abd22e9175a0153942d8dd0ba7a6fb"
+    }
+  ]
+}

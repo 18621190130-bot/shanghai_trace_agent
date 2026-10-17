@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "runs": [
+    {
+      "command": "python route_entry_demo.py --kb production --list-places",
+      "exit_code": 0,
+      "poi_kb": "production",
+      "poi_count": 59,
+      "output": "production_cli_1.txt"
+    },
+    {
+      "command": "python route_entry_demo.py --list-places",
+      "exit_code": 0,
+      "poi_kb": "production",
+      "poi_count": 59,
+      "output": "production_cli_2.txt"
+    },
+    {
+      "command": "python chat_demo.py --list-places",
+      "exit_code": 0,
+      "poi_kb": "production",
+      "poi_count": 59,
+      "output": "production_cli_3.txt"
+    },
+    {
+      "command": "python route_entry_demo.py --mode surprise_me --start West Bund --minutes 180 --seed 42 --json",
+      "exit_code": 0,
+      "poi_kb": "production",
+      "poi_count": 59,
+      "output": "production_cli_4.txt"
+    },
+    {
+      "command": "python route_entry_demo.py --mode plan_for_me --text I have three hours and want to see old architecture and local neighborhoods. --json",
+      "exit_code": 0,
+      "poi_kb": "production",
+      "poi_count": 59,
+      "output": "production_cli_5.txt"
+    }
+  ],
+  "production_sha256": "6fe891c894995df9aaf9c1c8488d085178399e8cf6d22fe84a87c68e28018782"
+}

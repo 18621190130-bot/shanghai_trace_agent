@@ -1,0 +1,298 @@
+{
+  "candidate_id": "old_city_central_70bbb635ef76cb0e",
+  "node_identity": "amap:B00155KTVH",
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "gardens"
+    ],
+    "experience_tags": [
+      "photogenic",
+      "neighborhood_walk"
+    ],
+    "culture_tags": [
+      "garden_culture",
+      "public_life"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_35d1181896f6",
+          "e_749a16626f64"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "gardens",
+        "evidence_refs": [
+          "e_1cdc63b24c1e"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "photogenic",
+        "evidence_refs": [
+          "e_66df54498d5c"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "neighborhood_walk",
+        "evidence_refs": [
+          "e_3b87327eaf1c"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "garden_culture",
+        "evidence_refs": [
+          "e_1cdc63b24c1e"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "public_life",
+        "evidence_refs": [
+          "e_66df54498d5c"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_35d1181896f6",
+      "e_d49dbe3677d3",
+      "e_749a16626f64"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为具名的百年法式园林，含灯光装置、观光小火车与夜间活动，具备独立到访与承载主题的能力。",
+      "independent_destination_value": "high",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "有独立园林空间与多项园内体验，可作主题目的地。",
+        "supporting_stop": "若路线主题非园林，也可作为补充性体验节点。",
+        "transition_stop": "园内体验内容较多，不止短暂停留的连接点。"
+      }
+    },
+    "citywalk_value": {
+      "level": "high",
+      "reason": "园内光影装置、夜间活动与周边街区联动，构成可独立漫游的体验。",
+      "evidence_refs": [
+        "e_66df54498d5c",
+        "e_1cdc63b24c1e",
+        "e_3b87327eaf1c"
+      ]
+    },
+    "summary_draft": {
+      "text": "复兴公园",
+      "evidence_refs": [
+        "e_c116516836df"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "百年法式园林",
+      "evidence_refs": [
+        "e_1cdc63b24c1e"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 20,
+        "standard": 45,
+        "deep": 90
+      },
+      "full_visit": {
+        "quick": 45,
+        "standard": 90,
+        "deep": 150
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "园区内主要步行动线与园内体验点"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放时间",
+      "门票与预约要求",
+      "园内具体设施分布"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "gardens"
+    ],
+    "experience_tags": [
+      "photogenic",
+      "neighborhood_walk"
+    ],
+    "culture_tags": [
+      "garden_culture",
+      "public_life"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_35d1181896f6",
+          "e_749a16626f64"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "gardens",
+        "evidence_refs": [
+          "e_1cdc63b24c1e"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "photogenic",
+        "evidence_refs": [
+          "e_66df54498d5c"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "neighborhood_walk",
+        "evidence_refs": [
+          "e_3b87327eaf1c"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "garden_culture",
+        "evidence_refs": [
+          "e_1cdc63b24c1e"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "public_life",
+        "evidence_refs": [
+          "e_66df54498d5c"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_35d1181896f6",
+      "e_d49dbe3677d3",
+      "e_749a16626f64"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为具名的百年法式园林，含灯光装置、观光小火车与夜间活动，具备独立到访与承载主题的能力。",
+      "independent_destination_value": "high",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "有独立园林空间与多项园内体验，可作主题目的地。",
+        "supporting_stop": "若路线主题非园林，也可作为补充性体验节点。",
+        "transition_stop": "园内体验内容较多，不止短暂停留的连接点。"
+      }
+    },
+    "citywalk_value": {
+      "level": "high",
+      "reason": "园内光影装置、夜间活动与周边街区联动，构成可独立漫游的体验。",
+      "evidence_refs": [
+        "e_66df54498d5c",
+        "e_1cdc63b24c1e",
+        "e_3b87327eaf1c"
+      ]
+    },
+    "summary_draft": {
+      "text": "复兴公园",
+      "evidence_refs": [
+        "e_c116516836df"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "百年法式园林",
+      "evidence_refs": [
+        "e_1cdc63b24c1e"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 20,
+        "standard": 45,
+        "deep": 90
+      },
+      "full_visit": {
+        "quick": 45,
+        "standard": 90,
+        "deep": 150
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "园区内主要步行动线与园内体验点"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放时间",
+      "门票与预约要求",
+      "园内具体设施分布"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.21698,
+      121.469115
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 5190,
+      "completion_tokens": 773,
+      "total_tokens": 5963,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 4550
+    }
+  }
+}

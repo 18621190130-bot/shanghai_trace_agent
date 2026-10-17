@@ -1,0 +1,22 @@
+{
+  "successful": true,
+  "runs": [
+    {
+      "command": "python -m unittest discover -s tests -t . -q",
+      "exit_code": 0,
+      "tests_run": 372,
+      "elapsed_seconds": 12.594
+    },
+    {
+      "command": "python -m scripts.verify_all_zones",
+      "exit_code": 0,
+      "tests_run": 372,
+      "elapsed_seconds": 13.411,
+      "failures": 0,
+      "errors": 0,
+      "successful": true
+    }
+  ],
+  "completed_at": "2026-10-05T02:59:13.497162+00:00",
+  "validation_fingerprint": "aa706a5405385d390e108ab1c2f46b92d972de6eb4618a5d2d06266caf4b057b"
+}

@@ -1,0 +1,228 @@
+[
+  {
+    "entity_id": "old_city_central_a22b8171f9051d29",
+    "parent_node": "old_city_central_05de55d3f366a9fb",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_66de890f6476e9e2",
+    "parent_node": "old_city_central_6853477cee277cce",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_299fa3812f7e9019",
+    "parent_node": "old_city_central_0fa7a92e88de5fd7",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_df557256c594a06d",
+    "parent_node": "old_city_central_cd2f99d6b3a3b647",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_8fa3ecdba30647ce",
+    "parent_node": "old_city_central_a085d8c87e1380e7",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_708322821b30f7c9",
+    "parent_node": "old_city_central_a085d8c87e1380e7",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_e75a7c502b09a163",
+    "parent_node": "old_city_central_31392000c5501b04",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_ad0dbffb40f88a98",
+    "parent_node": "old_city_central_9bbc5f915f739386",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_9658bb77e472dfbb",
+    "parent_node": "old_city_central_1eef07de20f03cf8",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_d58d268f5a7ff203",
+    "parent_node": "old_city_central_1eef07de20f03cf8",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_e43cf252d37e39f1",
+    "parent_node": "old_city_central_1eef07de20f03cf8",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_b8e06482f6c42f1c",
+    "parent_node": "old_city_central_41af94b49b4d8316",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_c948a69ebb7166c4",
+    "parent_node": "old_city_central_9f486559ec39066b",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_5f430ebf60cff5c1",
+    "parent_node": "old_city_central_59213dcc45e6c287",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_8ea69dfac6608e78",
+    "parent_node": "old_city_central_59213dcc45e6c287",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_beedb84cb8267285",
+    "parent_node": "old_city_central_5dce9f73aac6ce6e",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_af90b1169ddb4bce",
+    "parent_node": "old_city_central_375031dc276bb8e6",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_7f4c0c4220145315",
+    "parent_node": "old_city_central_4c585d1876d3f66f",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_e48d5005ac03d658",
+    "parent_node": "old_city_central_4c585d1876d3f66f",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_f70a9cc9fd8b6011",
+    "parent_node": "old_city_central_611579dcd8f2999c",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_c72365eeab27497f",
+    "parent_node": "old_city_central_6b1234e6497633cb",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_c1bbf88e04e2a7e2",
+    "parent_node": "old_city_central_ab4ddbbd85044264",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_b2e83b78d483f1e3",
+    "parent_node": "old_city_central_1776f6c0edc2f723",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "old_city_central_4cc2fa2918991b72",
+    "name": "外滩",
+    "decision": "defer",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "reason": "authority_mention_geometry_ambiguous"
+  },
+  {
+    "entity_id": "old_city_central_ad3f884fb5c7a4c7",
+    "parent_node": "old_city_central_70bbb635ef76cb0e",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "old_city_central_2ca6fd69138f68ac",
+    "name": "老城厢",
+    "decision": "defer",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "reason": "authority_mention_geometry_ambiguous"
+  },
+  {
+    "entity_id": "old_city_central_ecab38422d522eff",
+    "parent_node": "old_city_central_475bee4c08af26be",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "old_city_central_7f113dc09ef14f12",
+    "parent_node": "old_city_central_f0e8568c2648a238",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "old_city_central_1fac90b398a0ee16",
+    "parent_node": "old_city_central_f0e8568c2648a238",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "old_city_central_c5fe5789cfd8f885",
+    "parent_node": "old_city_central_70bbb635ef76cb0e",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "old_city_central_03d610ae80724246",
+    "parent_node": "old_city_central_0fa7a92e88de5fd7",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "old_city_central_eafd17359bf90b79",
+    "parent_node": "old_city_central_f0e8568c2648a238",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  }
+]

@@ -1,0 +1,1374 @@
+{
+  "created_at": "2026-10-04T07:46:47.105060+00:00",
+  "walk_zone": "west_bund",
+  "stage": "Phase 2.5A; human review required",
+  "counts": {
+    "provider_records": 271,
+    "discovery_excluded": 145,
+    "raw": 126,
+    "boundary_excluded": 60,
+    "in_scope_raw": 66,
+    "canonical": 61
+  },
+  "raw_source_coverage": {
+    "amap": 67,
+    "osm": 47,
+    "official": 9,
+    "government": 3
+  },
+  "canonical_source_coverage": {
+    "osm": 23,
+    "amap": 31,
+    "government": 3,
+    "official": 9
+  },
+  "boundary_status_counts": {
+    "inside_pilot": 37,
+    "needs_review": 24
+  },
+  "discovery_exclusions": [
+    {
+      "record_id": "amap:B0H0BCYU5X",
+      "name": "西岸美术馆地下停车场",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0MUGCM8V7",
+      "name": "西岸巴士星美术馆站",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0H0BCZOTB",
+      "name": "西岸美术馆地下停车场(出入口)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0FFG7CN0E",
+      "name": "龙美术馆西岸馆西门地下停车场(出入口)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0LDA57MVO",
+      "name": "West Bund Museum Coffee西岸美术馆咖啡",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0FFFCQT9S",
+      "name": "龙美术馆西岸馆西门地下停车场",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0H0MZJF6T",
+      "name": "西岸美术馆地下停车场(出入口)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0HRCAKB8U",
+      "name": "龙美术馆西岸馆售票处",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0HRCAKJ8S",
+      "name": "龙美术馆西岸馆东门停车场",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M24AERKZ",
+      "name": "龙美术馆(西岸馆)-伟人雕塑(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M2M4C1IB",
+      "name": "龙美术馆(西岸馆)-黑色串珠(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M1FDAJMS",
+      "name": "龙美术馆(西岸馆)-柱子旁(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M1FDAEK9",
+      "name": "龙美术馆(西岸馆)-水晶手串(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M1FSABUX",
+      "name": "龙美术馆(西岸馆)-悬挂秋千装置(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M2MZDPG3",
+      "name": "龙美术馆(西岸馆)-与大型红色冰棒合影(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M1FD9UCU",
+      "name": "龙美术馆(西岸馆)-皮格马利翁雕塑(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M21XZAQW",
+      "name": "龙美术馆(西岸馆)-太阳花墙饰(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M219Z73N",
+      "name": "龙美术馆(西岸馆)-樱花与建筑同框(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0KGHPT0P5",
+      "name": "滴滴充电汽车充电站(徐汇西岸美术馆地面快充站)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M245GGRI",
+      "name": "龙美术馆(西岸馆)-新中国成立壁画(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M1FDAY13",
+      "name": "龙美术馆(西岸馆)-弧形玻璃窗与艺术画作(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M26P84G7",
+      "name": "龙美术馆(西岸馆)-文峰塔画作(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M1FDADU4",
+      "name": "龙美术馆(西岸馆)-磁力砖雕塑群(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M2BOBOSR",
+      "name": "龙美术馆(西岸馆)-与蓝砖墙窗户合影(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0L04SWXTC",
+      "name": "星星充电汽车充电站(徐汇西岸美术馆地下车库交流充电站)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0J6MLTLFF",
+      "name": "上海锦凯泽汽车充电站(锦充龙美术馆西岸馆地下充电站)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0L1RA9TEG",
+      "name": "蔚景云充电站(锦充龙美术馆西岸馆充电站)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0FFHWNYSC",
+      "name": "西岸艺术中心停车场",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M246C8S4",
+      "name": "西岸艺术中心-城市建筑夜景(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0H2G5TI94",
+      "name": "西岸艺术中心18号楼",
+      "reason": "generic_office"
+    },
+    {
+      "record_id": "amap:B0M2OPZRQ7",
+      "name": "西岸艺术中心-时钟粉色座椅(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M1FDAJBW",
+      "name": "西岸艺术中心-香水历史墙(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M1FDAEAL",
+      "name": "西岸艺术中心-粉色邮筒(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M2SG4KN0",
+      "name": "西岸艺术中心-粉色天空走廊(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0K0LRYQ2S",
+      "name": "GIANT-Liv(捷安特西岸体验中心)",
+      "reason": "generic_shop"
+    },
+    {
+      "record_id": "amap:B0M21DWQ2F",
+      "name": "西岸自然艺术公园-灰色牌坊白墙建筑和绿植(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0L2UZE9UB",
+      "name": "西岸自然艺术公园树篱学校",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0K1GHTHL0",
+      "name": "lululemon(上海西岸梦中心店)",
+      "reason": "generic_shop"
+    },
+    {
+      "record_id": "amap:B0K1GHZG34",
+      "name": "Patagonia(Gate M西岸梦中心)",
+      "reason": "generic_shop"
+    },
+    {
+      "record_id": "amap:B0LA7ALL0U",
+      "name": "Rest&Recreation(上海西岸梦中心店)",
+      "reason": "generic_shop"
+    },
+    {
+      "record_id": "amap:B0KRCU5JFU",
+      "name": "全季酒店(上海徐汇滨江绿地西岸艺术中心店)",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0LDLPLBGH",
+      "name": "AMODO爱魔都咖啡(西岸穹顶艺术中心店)",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0FFKTGH5N",
+      "name": "世博文化公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0IKJZ2X6P",
+      "name": "世博文化公园双子山",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0G295OTG0",
+      "name": "前滩体育公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0LGGMVYT0",
+      "name": "星光草坪",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0IB17DOMI",
+      "name": "申园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B00155R0GW",
+      "name": "后滩公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0KGTS6AD5",
+      "name": "粉色沙滩",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0H057IWK8",
+      "name": "世博园B片区",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MATCVORQ",
+      "name": "前滩中央花园-UNDEFEATED COURT",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFHVUP1A",
+      "name": "世博园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0HG6DE5NW",
+      "name": "前滩休闲公园-15KM",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0KUFCZAKM",
+      "name": "中央公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B00155KIQQ",
+      "name": "济阳公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0G3S9WCB0",
+      "name": "南园滨江绿地",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B001517E5A",
+      "name": "长青公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0LGR46M38",
+      "name": "前滩小黄浦江公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFKR1EON",
+      "name": "鳗鲡嘴滨江绿地",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFH15WZP",
+      "name": "世博公园-观江挑台",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0KKPSC9VP",
+      "name": "前滩中心公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0H057IP6M",
+      "name": "世博园A片区",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0015279B8",
+      "name": "上南公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0I16ZW6JX",
+      "name": "前滩休闲公园月季园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFK77SWL",
+      "name": "芦荻台",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0K229DJYC",
+      "name": "世博公园-塔吊",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0HK05HTKU",
+      "name": "世博文化公园北园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B00154DTC3",
+      "name": "蔓趣公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFL6YOZ7",
+      "name": "中华民族复兴主题公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B00156CU4L",
+      "name": "德州休闲绿地",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFK6U5IP",
+      "name": "掘出来的梦",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0KUBRNCAM",
+      "name": "云朵花园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFFGQ0HS",
+      "name": "亩中山水园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0J6ZZGPM3",
+      "name": "前滩小叶公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFMEM8J4",
+      "name": "三林滨江绿地",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0K1D7CYS1",
+      "name": "世博文化公园原法国馆",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0H3T1O98Q",
+      "name": "滨河华灯",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFI2C2FE",
+      "name": "海上花田(西岸中环店)",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0MA35ZFR6",
+      "name": "OLIVIO&CO(西岸梦中心)",
+      "reason": "generic_shop"
+    },
+    {
+      "record_id": "amap:B0K2FHL0LZ",
+      "name": "睐璞司眼镜.蔡司.豪雅(西岸传媒港花园里店)",
+      "reason": "generic_shop"
+    },
+    {
+      "record_id": "amap:B0J0KZ0GGK",
+      "name": "湘粤王府宴(徐汇滨江店)",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0LKRS69WQ",
+      "name": "聚达美妆(西岸梦中心店)",
+      "reason": "generic_shop"
+    },
+    {
+      "record_id": "amap:B0MRO4FE93",
+      "name": "世博L6码头",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B00155HSSE",
+      "name": "三林路渡口",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:BV10597572",
+      "name": "三林路渡口(轮渡站)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B00156TLE0",
+      "name": "白莲泾码头",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0KR0AGEK3",
+      "name": "何氏码头",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0K6GSS8OG",
+      "name": "世博公园-L4码头",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFH7VS0W",
+      "name": "上海轮渡",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MRO4F7IX",
+      "name": "世博L3码头",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFF00FSB",
+      "name": "世博码头",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B00157BS7B",
+      "name": "南码头路白莲泾桥",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFJGWFDS",
+      "name": "上海世博园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M6XSPBX2",
+      "name": "西岸大剧院-票务中心",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0LRFH6TIL",
+      "name": "上海西岸大剧院青少年芭蕾舞团",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0J13UO1SB",
+      "name": "TKR滑板(西岸凤巢店)",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0JDDNY417",
+      "name": "骑思妙象·平衡车·BMX小轮车·轮滑·滑板·滑板车(东方体育中心店)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFJFT8UV",
+      "name": "迪卡侬(世博源店)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0H0OSYZA6",
+      "name": "黄浦滨江滑板极限公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0L3AOZHON",
+      "name": "TKR滑板(徐汇滨江店)",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0I1BBL7GC",
+      "name": "TurnPro滑板培训中心",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0L1XSQPWC",
+      "name": "Simon滑板(滨江滑板公园店)",
+      "reason": "generic_service_category"
+    },
+    {
+      "record_id": "amap:B0MBZ7CWEG",
+      "name": "sofia滑板·陆冲教学(徐汇店)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0MAMS54Y3",
+      "name": "TKR*vans滑板(鑫耀·光环Live)",
+      "reason": "generic_shop"
+    },
+    {
+      "record_id": "amap:B0HGNLLUK1",
+      "name": "望止桥",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0FFHEM0R3",
+      "name": "梅亭",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0L3VAGW2Q",
+      "name": "禅境园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUFCHG5J",
+      "name": "徐汇滨江大道-拍摄花园铁轨与植物拱廊(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0MUF7HW56",
+      "name": "世博文化公园-假山石林(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M606KR3Y",
+      "name": "上海国际花卉节世博文化公园奇花艺境展",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUFCGW7R",
+      "name": "世博文化公园-向日葵花海(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0K1D7DE1Y",
+      "name": "世博文化公园世界花艺园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M1FSA7GK",
+      "name": "徐汇滨江绿地-疯狂动物城城市背景板(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M2YB4BQ5",
+      "name": "徐汇滨江绿地-market路牌(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M2648G1P",
+      "name": "徐汇滨江绿地-兔子狐狸雕塑文字草地装置(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0LKFYSYQO",
+      "name": "双子山文化公园",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M2Y57XN1",
+      "name": "世博文化公园-螺旋状展厅外彩绘马雕塑(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUDMHKMS",
+      "name": "三厢房",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7HUAQ",
+      "name": "世博文化公园-树木(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUUSVVZV",
+      "name": "世博文化公园-拍摄室内岩石与仙人掌植物(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M26P8KPU",
+      "name": "徐汇滨江绿地-北极熊雕塑(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0MUUSVVZS",
+      "name": "滨江西岸-字母装置与建筑(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M2Y790O4",
+      "name": "世博文化公园-岩石缝隙中的金属球体装置(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7HVK9",
+      "name": "世博文化公园-猴面包树与温室建筑(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M2Z61LU7",
+      "name": "世博文化公园-与弯曲树干绿植夜景合影(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0L3DL6GNA",
+      "name": "音乐之林",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUUSWOAZ",
+      "name": "世博文化公园-拍摄圆形天窗和植物(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M2RNLX4Y",
+      "name": "Plusone咖啡(西岸店)-与白鹅装置合影(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0M2RBMBAT",
+      "name": "世博文化公园-恐龙蛋彩绘墙(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M2O6ZJIQ",
+      "name": "徐汇滨江绿地-粉色冰淇淋座椅(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7H8GK",
+      "name": "世博文化公园-潘多拉星球展区雨林装置夜景(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7HGGY",
+      "name": "世博文化公园-2号馆巨型树木景观(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7HLTM",
+      "name": "世博文化公园-云上森林拍摄室内光影艺术装置(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUUSWHUK",
+      "name": "世博文化公园-拍摄室内彩绘树干植物(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7H8N1",
+      "name": "世博文化公园-拍摄室内生态雨林景观的彩色网格状结构(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M2YB3UQI",
+      "name": "上海市滨江滑板公园-闪电跑车玩偶(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    },
+    {
+      "record_id": "amap:B0MUF7H96J",
+      "name": "世博文化公园-云上森林彩色灯光装置(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7HM79",
+      "name": "世博文化公园-水底长廊(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7HI8N",
+      "name": "世博文化公园-拍摄木质栈道与植物拱门(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7HVGF",
+      "name": "世博文化公园-拍摄洞穴造型观景台木质栈道瀑布(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MG4UXOGX",
+      "name": "世博文化公园-水底森林打卡位",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUF7HGPY",
+      "name": "世博文化公园-拍摄玻璃窗与白色坐垫(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0MUFCHLPJ",
+      "name": "世博文化公园-室内雨林瀑布景观(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M2AO18ZC",
+      "name": "世博文化公园-阶梯花艺装置(打卡点)",
+      "reason": "provider_district_not_xuhui"
+    },
+    {
+      "record_id": "amap:B0M2MNBHSQ",
+      "name": "上海市滨江滑板公园-爪爪冰棍箱子(打卡点)",
+      "reason": "ancillary_service_or_temporary_photo_event"
+    }
+  ],
+  "boundary": {
+    "coordinate_system": "GCJ-02",
+    "discovery_bbox": [
+      31.157,
+      121.458,
+      31.192,
+      121.476
+    ],
+    "polygon": [
+      [
+        31.157,
+        121.458
+      ],
+      [
+        31.157,
+        121.467
+      ],
+      [
+        31.17,
+        121.467
+      ],
+      [
+        31.1775,
+        121.4648
+      ],
+      [
+        31.182,
+        121.4665
+      ],
+      [
+        31.1895,
+        121.473
+      ],
+      [
+        31.1895,
+        121.466
+      ],
+      [
+        31.18,
+        121.458
+      ]
+    ],
+    "review_margin_m": 150,
+    "rationale": "Conservative envelope around existing Star Museum to Gate M cluster; not entire official waterfront or an administrative polygon.",
+    "context_url": "https://www.westbund.com/cn/index/NEWS-CENTER/2022-0930.html"
+  },
+  "excluded_records": [
+    {
+      "record_id": "amap:B00155G2UQ",
+      "name": "西岸自然艺术公园",
+      "coordinates": [
+        31.121755,
+        121.452554
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0KAHA0UY9",
+      "name": "西岸自然艺术公园活力乐园",
+      "coordinates": [
+        31.120895,
+        121.453263
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0MDUZ0B5K",
+      "name": "西岸自然艺术公园儿童乐园",
+      "coordinates": [
+        31.12242,
+        121.453553
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0LGJLN8OD",
+      "name": "西岸自然艺术公园1期",
+      "coordinates": [
+        31.122655,
+        121.455975
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0KAHMX4Y8",
+      "name": "西岸自然艺术公园篮球场",
+      "coordinates": [
+        31.120577,
+        121.453488
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0J06CECKY",
+      "name": "西岸自然艺术公园-露营地",
+      "coordinates": [
+        31.122316,
+        121.45251
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00156R4X5",
+      "name": "西岸自然艺术公园-刘三故居",
+      "coordinates": [
+        31.119819,
+        121.450721
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFG9607X",
+      "name": "上海西岸艺术品保税仓库",
+      "coordinates": [
+        31.111395,
+        121.45842
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFHKDU6C",
+      "name": "徐家汇体育公园",
+      "coordinates": [
+        31.181297,
+        121.440734
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00152A03C",
+      "name": "东安公园",
+      "coordinates": [
+        31.185207,
+        121.454354
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00155ILI8",
+      "name": "徐家汇公园",
+      "coordinates": [
+        31.197401,
+        121.442461
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00155MF66",
+      "name": "漕溪公园",
+      "coordinates": [
+        31.171985,
+        121.436035
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00155L0UC",
+      "name": "桂林公园",
+      "coordinates": [
+        31.16532,
+        121.417929
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00154GF8J",
+      "name": "光启公园",
+      "coordinates": [
+        31.18957,
+        121.43463
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00155HO9J",
+      "name": "日晖绿地",
+      "coordinates": [
+        31.196892,
+        121.460005
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0J647JYMM",
+      "name": "乐汇小游园",
+      "coordinates": [
+        31.179879,
+        121.435575
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00156NS4T",
+      "name": "康健园",
+      "coordinates": [
+        31.16398,
+        121.422053
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0JA2CLQZ0",
+      "name": "有氧公园",
+      "coordinates": [
+        31.183265,
+        121.440798
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0J6AAVULU",
+      "name": "foo'mart 東西公园(徐家汇书院店)",
+      "coordinates": [
+        31.190344,
+        121.437148
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00155L3PY",
+      "name": "田林公园",
+      "coordinates": [
+        31.174902,
+        121.425999
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0KUBRQ399",
+      "name": "躺床花园",
+      "coordinates": [
+        31.146626,
+        121.455435
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00155IQRX",
+      "name": "衡山公园",
+      "coordinates": [
+        31.20056,
+        121.442123
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFILFL30",
+      "name": "CBD中央公园",
+      "coordinates": [
+        31.157318,
+        121.431948
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0J1OUD0JW",
+      "name": "吴兴公园",
+      "coordinates": [
+        31.20233,
+        121.444516
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFFWPZWH",
+      "name": "老鹰公园",
+      "coordinates": [
+        31.173687,
+        121.430432
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFMCC2IW",
+      "name": "康健社区体育公园",
+      "coordinates": [
+        31.152215,
+        121.418177
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B001559DZU",
+      "name": "番禺公园",
+      "coordinates": [
+        31.19451,
+        121.426806
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0HB6RMUZN",
+      "name": "徐汇中城绿谷",
+      "coordinates": [
+        31.158993,
+        121.433847
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFG6T9ZT",
+      "name": "汇龙3号码头",
+      "coordinates": [
+        31.153911,
+        121.461893
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:BV10597573",
+      "name": "港口渡口(轮渡站)",
+      "coordinates": [
+        31.133217,
+        121.459389
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFGMBRFV",
+      "name": "游船码头",
+      "coordinates": [
+        31.144587,
+        121.440502
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFHOKM7Z",
+      "name": "宏安建设龙吴路码头",
+      "coordinates": [
+        31.129258,
+        121.455802
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B00156ZM9O",
+      "name": "康健游乐园码头",
+      "coordinates": [
+        31.163817,
+        121.422833
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFHJS9WX",
+      "name": "城市轮滑(绿地缤纷城店)",
+      "coordinates": [
+        31.183858,
+        121.456193
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0I27SLYC6",
+      "name": "悠吖轮滑馆(田林店)",
+      "coordinates": [
+        31.171226,
+        121.416989
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "amap:B0FFJ2B6O7",
+      "name": "悠吖轮滑馆(汇京国际广场店)",
+      "coordinates": [
+        31.196005,
+        121.423415
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:node/8542957518",
+      "name": "后滩滨江",
+      "coordinates": [
+        31.18086078000004,
+        121.46949508371499
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:node/11204366617",
+      "name": "斜土社区文化活动中心",
+      "coordinates": [
+        31.19575574704798,
+        121.46341822778825
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:node/12802472267",
+      "name": "上海温室花园",
+      "coordinates": [
+        31.178302310440717,
+        121.4749321281912
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:node/12850656766",
+      "name": "海宝",
+      "coordinates": [
+        31.18133233389706,
+        121.47889109081446
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:node/12850656767",
+      "name": "圆梦",
+      "coordinates": [
+        31.18062694405102,
+        121.47651506205783
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:node/12850656807",
+      "name": "舞动广场",
+      "coordinates": [
+        31.182472151007875,
+        121.48239861773413
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:node/13100182892",
+      "name": "罗丹艺术文化发展中心",
+      "coordinates": [
+        31.184649435062557,
+        121.47905832631282
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:node/14026973901",
+      "name": "оранжерея",
+      "coordinates": [
+        31.17893257857225,
+        121.47581267289907
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/299012534",
+      "name": "南园公园",
+      "coordinates": [
+        31.192588361571598,
+        121.47552247700501
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/304754415",
+      "name": "徐汇游泳馆",
+      "coordinates": [
+        31.19344133654927,
+        121.45770925834643
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/350242039",
+      "name": "南园滨江绿地-东区",
+      "coordinates": [
+        31.191059199113067,
+        121.47451026510313
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/404677930",
+      "name": "上海世博公园",
+      "coordinates": [
+        31.187322122920417,
+        121.48446353328512
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/404680079",
+      "name": "东方体育中心",
+      "coordinates": [
+        31.15606696970437,
+        121.47703606734463
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/450545076",
+      "name": "前滩公园",
+      "coordinates": [
+        31.156634585502356,
+        121.4724676056555
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/450546969",
+      "name": "前滩休闲公园",
+      "coordinates": [
+        31.15009223665432,
+        121.46519645363946
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/490656166",
+      "name": "世博会博物馆",
+      "coordinates": [
+        31.194422666878136,
+        121.4820840028651
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/871722895",
+      "name": "济阳公园",
+      "coordinates": [
+        31.168702824636192,
+        121.47987396481946
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/985832361",
+      "name": "中国乒乓球博物馆",
+      "coordinates": [
+        31.19320421930959,
+        121.48117265218809
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/985832362",
+      "name": "卢湾城市规划展览馆",
+      "coordinates": [
+        31.19161764456284,
+        121.47646855788356
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/1316877732",
+      "name": "时光印记大道",
+      "coordinates": [
+        31.181361734747053,
+        121.47911445896179
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/1316877742",
+      "name": "上海大歌剧院",
+      "coordinates": [
+        31.17871205120943,
+        121.47093223813343
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/1388253664",
+      "name": "十一孔桥",
+      "coordinates": [
+        31.179033141101854,
+        121.47758695527256
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:way/1425238001",
+      "name": "观江挑台",
+      "coordinates": [
+        31.186636472374722,
+        121.4789685922421
+      ],
+      "reason": "outside_pilot"
+    },
+    {
+      "record_id": "osm:relation/18069663",
+      "name": "世博文化公园",
+      "coordinates": [
+        31.17959481214819,
+        121.47581263003472
+      ],
+      "reason": "outside_pilot"
+    }
+  ],
+  "errors": [
+    {
+      "source": "amap",
+      "status": "discovery_truncated",
+      "request": {
+        "keywords": "西岸 公园",
+        "city": "上海",
+        "citylimit": "true"
+      }
+    },
+    {
+      "source": "amap",
+      "status": "discovery_truncated",
+      "request": {
+        "location": "121.466,31.175",
+        "radius": "2200",
+        "types": "110000|140100",
+        "sortrule": "distance"
+      }
+    },
+    {
+      "source": "official",
+      "request": "https://www.shanghai.gov.cn/xuhui/index.html",
+      "error_type": "SourceError",
+      "status": "partial_source_failure"
+    }
+  ],
+  "partial_source_failure": true,
+  "production_unchanged": true,
+  "production_sha256": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513"
+}

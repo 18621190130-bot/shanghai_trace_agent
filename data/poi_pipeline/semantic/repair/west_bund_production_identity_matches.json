@@ -1,0 +1,586 @@
+{
+  "wb_4d10e8e089d4b29b": {
+    "identity_status": "existing_production",
+    "production_match": "p5",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 96.8,
+      "address_match": true,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_fedf89c7dfde83a8": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_e3c7d189b1207ada": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_72b583ec31ffce20": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_325c03999db02641": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_391963dbf79f7d2a": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 0.0,
+      "address_match": true,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_8dc5274ef73e2eb1": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_c75021545eb8ab4b": {
+    "identity_status": "existing_production",
+    "production_match": "p28",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 0.0,
+      "address_match": true,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_098e8fdb22e5f74b": {
+    "identity_status": "possible_duplicate",
+    "production_match": "p30",
+    "confidence": "low",
+    "evidence": {
+      "reason": "shared brand or parent name, distinct entity/scope needs review"
+    }
+  },
+  "wb_cec508b088058505": {
+    "identity_status": "existing_production",
+    "production_match": "p30",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 0.0,
+      "address_match": true,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_fd436a54b9d249a2": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_d424a21f3c8820bd": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_6873dc4313fa88b8": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_1fd82b5f4e3d90ae": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_11d08a44ff039d07": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_ba2eec22214beb0a": {
+    "identity_status": "possible_duplicate",
+    "production_match": "p30",
+    "confidence": "low",
+    "evidence": {
+      "reason": "shared brand or parent name, distinct entity/scope needs review"
+    }
+  },
+  "wb_de8ce749c2f780de": {
+    "identity_status": "possible_duplicate",
+    "production_match": "p30",
+    "confidence": "low",
+    "evidence": {
+      "reason": "shared brand or parent name, distinct entity/scope needs review"
+    }
+  },
+  "wb_465b2113a30709f5": {
+    "identity_status": "possible_duplicate",
+    "production_match": "p30",
+    "confidence": "low",
+    "evidence": {
+      "reason": "shared brand or parent name, distinct entity/scope needs review"
+    }
+  },
+  "wb_e4c848a74b49e650": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_7ca7f91efb488c29": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_aa87d61112f0c493": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_d34dcd08daf7ae26": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_0114b03136d07772": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_e46dff9d9d460e1c": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_c412dd6d5286929f": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_17ae682bcceb4b2f": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_131d04df1342ff37": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_bfd5b11fdae241d1": {
+    "identity_status": "unresolved",
+    "production_match": null,
+    "confidence": "low",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_8a0a2e8f5c9d990d": {
+    "identity_status": "unresolved",
+    "production_match": null,
+    "confidence": "low",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_263208ca89540fe4": {
+    "identity_status": "unresolved",
+    "production_match": null,
+    "confidence": "low",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_24d09c49daee9643": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": null,
+      "address_match": false,
+      "known_official_url": true,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_1513bbed3e98d1c1": {
+    "identity_status": "existing_production",
+    "production_match": "p31",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": null,
+      "address_match": false,
+      "known_official_url": true,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_b55918e554af9f49": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": null,
+      "address_match": false,
+      "known_official_url": true,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_09e14b6984571554": {
+    "identity_status": "existing_production",
+    "production_match": "p5",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": null,
+      "address_match": false,
+      "known_official_url": true,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_cb6512c707e6874f": {
+    "identity_status": "unresolved",
+    "production_match": null,
+    "confidence": "low",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_f8d96fe2dc06395c": {
+    "identity_status": "unresolved",
+    "production_match": null,
+    "confidence": "low",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_2433e40493d7a35f": {
+    "identity_status": "unresolved",
+    "production_match": null,
+    "confidence": "low",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_42f4dab0502f1db0": {
+    "identity_status": "existing_production",
+    "production_match": "p28",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": null,
+      "address_match": false,
+      "known_official_url": true,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_55448e07971192c1": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_d7d1677306fa4d92": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_f6850b69ebbff1fc": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_76c98afb023ffbb7": {
+    "identity_status": "existing_production",
+    "production_match": "p5",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 93.0,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_db3464f87fd37a75": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_f4e1599573e2323c": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 36.4,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_b760ec28e10728b8": {
+    "identity_status": "existing_production",
+    "production_match": "p31",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 18.2,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_3855808c00edb19b": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_8aa8de7afb4ce33b": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_18cc67266d23c204": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_a270c8e06c4fca4f": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 18.5,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_5ba4c6c8d9b9c96f": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 50.6,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_c0cfde5ddc620f30": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 131.3,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_070917959644a8c5": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 69.2,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_4789cc03901bec9e": {
+    "identity_status": "existing_production",
+    "production_match": "p28",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 1.6,
+      "address_match": true,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_b21a54412dc79736": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 38.4,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_f13a79c1c0f72683": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 55.4,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_8ba492670ebf81c0": {
+    "identity_status": "existing_production",
+    "production_match": "p29",
+    "confidence": "high",
+    "evidence": {
+      "name_match": true,
+      "distance_m": 58.4,
+      "address_match": false,
+      "known_official_url": false,
+      "known_source_identity": false,
+      "explicit_production_id": false
+    },
+    "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+  },
+  "wb_group_a183ff3db609": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  },
+  "wb_group_dae6c03fe1f9": {
+    "identity_status": "new_candidate",
+    "production_match": null,
+    "confidence": "medium",
+    "evidence": {
+      "reason": "no production identity match"
+    }
+  }
+}

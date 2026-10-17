@@ -1,0 +1,59 @@
+{
+  "source": "official",
+  "url": "https://www.shhk.gov.cn/xwzx/002006/20210303/1af66a88-d678-4800-9550-b9dc471ca58d.html",
+  "parameters": {},
+  "variant": "official-excerpts-v1:四川北路公园",
+  "retrieved_at": "2026-10-04T15:13:46.693241+00:00",
+  "response": {
+    "excerpts": {
+      "四川北路公园": [
+        "新民网:使整体格局更优化、更美观!四川北路公园将启动“微改造”-上海市虹口区人民政府",
+        "新民网:使整体格局更优化、更美观!四川北路公园将启动“微改造”",
+        "记者今天从虹口区有关部门获悉,为迎接建党100周年,四川北路公园,也就是中共四大纪念馆室外广场即将启动“微改造”,使公园整体格局更优化、更美观。"
+      ]
+    },
+    "links": [
+      {
+        "href": "/",
+        "label": "首页"
+      },
+      {
+        "href": "/xwzx/xwzxdefault.html",
+        "label": "新闻中心"
+      },
+      {
+        "href": "/xwzx/002006/xwzxMtbd.html",
+        "label": "媒体报道"
+      },
+      {
+        "href": "javascript:void(0)",
+        "label": "大"
+      },
+      {
+        "href": "javascript:void(0)",
+        "label": "中"
+      },
+      {
+        "href": "javascript:void(0)",
+        "label": "小"
+      },
+      {
+        "href": "javascript:window.print();",
+        "label": "打印"
+      },
+      {
+        "href": "javascript:window.close();",
+        "label": "关闭"
+      },
+      {
+        "href": "/xwzx/002006/20210304/e9387487-098f-4ccf-bc57-02e02675bdc4.html",
+        "label": "新民网:爱心涌动春风暖 虹口第六离休所开展军民学雷锋志愿服务活动"
+      },
+      {
+        "href": "/xwzx/002006/20210302/9acb7a49-5ffb-484d-92ae-cb9533a10424.html",
+        "label": "新华网:张心亚:让更多社区残障人士走进“阳光”里"
+      }
+    ]
+  },
+  "response_hash": "43c912ab0701fb1171c76a77fdb350e5d3cb7c7848769ebbd796d1b0671f4b98"
+}

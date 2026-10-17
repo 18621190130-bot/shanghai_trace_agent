@@ -1,0 +1,2410 @@
+{
+  "phase": "3B_4",
+  "source": "live_amap",
+  "checked_at": "2026-10-06T01:27:46.680177+08:00",
+  "cases": [
+    {
+      "case": "A_CURRENT_WEATHER",
+      "input": {
+        "lat": 31.16,
+        "lng": 121.46,
+        "coordinate_system": "WGS84"
+      },
+      "current_weather": {
+        "provider": "amap",
+        "province": "上海",
+        "city": "徐汇区",
+        "district": null,
+        "adcode": "310104",
+        "weather_text": "晴",
+        "temperature_c": 17.0,
+        "humidity_pct": 56.0,
+        "wind_direction": "南",
+        "wind_power": "≤3",
+        "report_time": "2026-10-06T01:01:15+08:00",
+        "data_status": "AVAILABLE",
+        "fetched_at": "2026-10-06T01:27:43.634302+08:00",
+        "cache_hit": false,
+        "error_code": null,
+        "resolved_location": {
+          "location": {
+            "lat": 31.15805826823,
+            "lng": 121.464558919271,
+            "coordinate_system": "GCJ02"
+          },
+          "formatted_address": "上海市徐汇区龙华街道徐汇滨江绿道Gate M西岸梦中心",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "徐汇区",
+          "township": "龙华街道",
+          "adcode": "310104",
+          "street": "龙腾大道",
+          "street_number": "2121号",
+          "provider": "amap",
+          "fetched_at": "2026-10-05T17:27:43.103269+00:00",
+          "live_data_status": "AVAILABLE",
+          "cache_hit": false,
+          "error_code": null
+        },
+        "origin_source": "CURRENT_LOCATION",
+        "origin_core_poi_id": null
+      },
+      "forecast": {
+        "provider": "amap",
+        "province": "上海",
+        "city": "徐汇区",
+        "district": null,
+        "adcode": "310104",
+        "report_time": "2026-10-06T01:01:15+08:00",
+        "days": [
+          {
+            "date": "2026-10-06",
+            "day_weather": "晴",
+            "night_weather": "晴",
+            "day_temperature_c": 23.0,
+            "night_temperature_c": 15.0,
+            "day_wind_direction": "西北",
+            "night_wind_direction": "西北",
+            "day_wind_power": "1-3",
+            "night_wind_power": "1-3"
+          },
+          {
+            "date": "2026-10-07",
+            "day_weather": "晴",
+            "night_weather": "晴",
+            "day_temperature_c": 25.0,
+            "night_temperature_c": 17.0,
+            "day_wind_direction": "北",
+            "night_wind_direction": "北",
+            "day_wind_power": "1-3",
+            "night_wind_power": "1-3"
+          },
+          {
+            "date": "2026-10-08",
+            "day_weather": "晴",
+            "night_weather": "多云",
+            "day_temperature_c": 25.0,
+            "night_temperature_c": 17.0,
+            "day_wind_direction": "东",
+            "night_wind_direction": "东",
+            "day_wind_power": "1-3",
+            "night_wind_power": "1-3"
+          },
+          {
+            "date": "2026-10-09",
+            "day_weather": "多云",
+            "night_weather": "晴",
+            "day_temperature_c": 26.0,
+            "night_temperature_c": 18.0,
+            "day_wind_direction": "东北",
+            "night_wind_direction": "东北",
+            "day_wind_power": "1-3",
+            "night_wind_power": "1-3"
+          }
+        ],
+        "precision": "DAILY",
+        "data_status": "AVAILABLE",
+        "fetched_at": "2026-10-06T01:27:44.138418+08:00",
+        "cache_hit": false,
+        "error_code": null,
+        "resolved_location": {
+          "location": {
+            "lat": 31.15805826823,
+            "lng": 121.464558919271,
+            "coordinate_system": "GCJ02"
+          },
+          "formatted_address": "上海市徐汇区龙华街道徐汇滨江绿道Gate M西岸梦中心",
+          "province": "上海市",
+          "city": "上海市",
+          "district": "徐汇区",
+          "township": "龙华街道",
+          "adcode": "310104",
+          "street": "龙腾大道",
+          "street_number": "2121号",
+          "provider": "amap",
+          "fetched_at": "2026-10-05T17:27:43.103269+00:00",
+          "live_data_status": "AVAILABLE",
+          "cache_hit": true,
+          "error_code": null
+        },
+        "origin_source": "CURRENT_LOCATION",
+        "origin_core_poi_id": null
+      }
+    },
+    {
+      "case": "B_EXISTING_REAL_ROUTE",
+      "route_poi_ids": [
+        "p28",
+        "p5"
+      ],
+      "walking_status": "AVAILABLE",
+      "geometry_point_count": 55,
+      "walking_distance_m": 2057.0,
+      "walking_duration_s": 1646.0,
+      "route_version": {
+        "version_id": "v1",
+        "route_snapshot": {
+          "status": "success",
+          "request": {
+            "available_minutes": 240,
+            "start_lat": null,
+            "start_lng": null,
+            "start_coordinate_system": "GCJ-02",
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": [],
+            "must_go_poi_ids": [
+              "p28",
+              "p5"
+            ],
+            "preferred_zone": "west_bund",
+            "max_walking_km": null,
+            "avoid_crowds": false,
+            "environment_preference": null,
+            "travel_pace": "standard",
+            "visit_mode_overrides": {},
+            "full_visit_unavailable_poi_ids": [],
+            "willing_to_buy_tickets": true,
+            "allow_mode_downgrade": true,
+            "avoid_tags": [],
+            "avoid_poi_ids": [],
+            "route_mode": "places_in_mind"
+          },
+          "selected_zone": "west_bund",
+          "ordered_pois": [
+            {
+              "poi_id": "p28",
+              "display_order": 20,
+              "poi_type": "venue",
+              "name_zh": "西岸美术馆",
+              "name_en": "West Bund Museum",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 75.0,
+              "estimated_distance_from_previous_stop_km": 0.0,
+              "estimated_walking_minutes": 0.0,
+              "recommendation_score": 4.0,
+              "matched_tags": {
+                "interest_tags": [],
+                "experience_tags": [],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Included because you marked it as must-go. Recommended as a nearby stop; no requested tag matches. Located in West Bund Waterfront. Visit mode: full_visit; pace: standard.",
+              "must_go": true,
+              "selected_visit_mode": "full_visit",
+              "travel_pace": "standard",
+              "requested_visit_mode": "full_visit",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": "Tue-Sun 11:00-18:00; last entry 17:00; Monday closed",
+              "ticket_required": true,
+              "reservation_required": false,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.167682,
+                121.463841
+              ],
+              "original_coordinates": [
+                31.167682,
+                121.463841
+              ],
+              "original_coordinate_system": "GCJ-02 / Amap",
+              "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+              "selection_reason": "must_go",
+              "effective_primary_role": "anchor",
+              "estimated_distance_from_previous": 0.0,
+              "estimated_walking_minutes_from_previous": 0.0
+            },
+            {
+              "poi_id": "p5",
+              "display_order": 3,
+              "poi_type": "venue",
+              "name_zh": "龙美术馆（西岸馆）",
+              "name_en": "Long Museum (West Bund)",
+              "walk_zone": "west_bund",
+              "estimated_stay_minutes": 75.0,
+              "estimated_distance_from_previous_stop_km": 2.383285469796842,
+              "estimated_walking_minutes": 31.77713959729123,
+              "recommendation_score": 0.4250717953047367,
+              "matched_tags": {
+                "interest_tags": [],
+                "experience_tags": [],
+                "culture_tags": []
+              },
+              "reason_for_recommendation": "Included because you marked it as must-go. Recommended as a nearby stop; no requested tag matches. Located in West Bund Waterfront. Visit mode: full_visit; pace: standard.",
+              "must_go": true,
+              "selected_visit_mode": "full_visit",
+              "travel_pace": "standard",
+              "requested_visit_mode": "full_visit",
+              "downgrade_reason": null,
+              "opening_status": "opening_status_unverified",
+              "original_opening_hours": null,
+              "ticket_required": null,
+              "reservation_required": null,
+              "coordinate_system": "GCJ-02",
+              "estimated_coordinates": [
+                31.1848,
+                121.465
+              ],
+              "original_coordinates": [
+                31.1848,
+                121.465
+              ],
+              "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+              "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+              "selection_reason": "must_go",
+              "effective_primary_role": "anchor",
+              "estimated_distance_from_previous": 2.383285469796842,
+              "estimated_walking_minutes_from_previous": 31.77713959729123
+            }
+          ],
+          "cross_zone_required": false,
+          "total_estimated_distance_km": 2.383285469796842,
+          "total_estimated_walking_minutes": 31.77713959729123,
+          "total_stay_minutes": 150.0,
+          "buffer_minutes": 15,
+          "total_estimated_minutes": 196.77713959729124,
+          "remaining_minutes": 43.22286040270876,
+          "warnings": [
+            "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+            "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+            "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+            "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+            "ticket_required: p28; ticket cost and availability are not checked.",
+            "crowd_level_unknown: p5; low crowd is not guaranteed.",
+            "entry_requirements_unverified: p5; unknown does not mean free or reservation-free.",
+            "richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 4-5 stops; actual 2. This is a soft preference, not a failure.",
+            "Estimated geometry suggests a long walking leg; real street routing has not yet been verified. DEFERRED TO MAP API PHASE."
+          ],
+          "explanation": "Primary zone follows your preference within the must-go zones. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+          "errors": [],
+          "relaxation_suggestions": [],
+          "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+          "distance_method": "estimated: Haversine × configured walking_distance_factor",
+          "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+          "richness_target": {
+            "min_stops": 4,
+            "max_stops": 5
+          },
+          "richness_target_met": false,
+          "time_utilization_ratio": 0.8199047483220469,
+          "estimated_max_single_leg_km": 2.383285469796842,
+          "long_estimated_leg_warning": true,
+          "composition_diagnostics": {
+            "enabled": false,
+            "minimum_stop_count_passed": false,
+            "route_composition_passed": null,
+            "primary_role_counts": {
+              "anchor": 2
+            },
+            "longest_transition_run": 0,
+            "transition_soft_preference_passed": true,
+            "basis": "primary roles only; visit modes never promote roles",
+            "failure_reason": null
+          },
+          "planning_distance_m": 2383.2854697968423,
+          "planning_duration_min": 31.77713959729123,
+          "walking_distance_m": 2057.0,
+          "walking_duration_s": 1646.0,
+          "walking_legs": [
+            {
+              "from_poi_id": "p28",
+              "to_poi_id": "p5",
+              "from_name": "West Bund Museum",
+              "to_name": "Long Museum (West Bund)",
+              "origin": {
+                "lat": 31.167682,
+                "lng": 121.463841,
+                "coordinate_system": "GCJ02"
+              },
+              "destination": {
+                "lat": 31.1848,
+                "lng": 121.465,
+                "coordinate_system": "GCJ02"
+              },
+              "distance_m": 2057.0,
+              "duration_s": 1646.0,
+              "steps": [
+                {
+                  "instruction": "沿龙腾大道向北步行1544米右转",
+                  "road": "龙腾大道",
+                  "distance_m": 1544.0,
+                  "duration_s": 1235.0,
+                  "polyline": [
+                    [
+                      121.463368,
+                      31.167799
+                    ],
+                    [
+                      121.463481,
+                      31.168125
+                    ],
+                    [
+                      121.463494,
+                      31.168212
+                    ],
+                    [
+                      121.463533,
+                      31.168442
+                    ],
+                    [
+                      121.463555,
+                      31.168763
+                    ],
+                    [
+                      121.463511,
+                      31.16921
+                    ],
+                    [
+                      121.463364,
+                      31.169696
+                    ],
+                    [
+                      121.462973,
+                      31.170803
+                    ],
+                    [
+                      121.462886,
+                      31.17102
+                    ],
+                    [
+                      121.462856,
+                      31.171098
+                    ],
+                    [
+                      121.462839,
+                      31.171128
+                    ],
+                    [
+                      121.46247,
+                      31.172096
+                    ],
+                    [
+                      121.46227,
+                      31.172739
+                    ],
+                    [
+                      121.462044,
+                      31.173893
+                    ],
+                    [
+                      121.462031,
+                      31.174167
+                    ],
+                    [
+                      121.461997,
+                      31.174379
+                    ],
+                    [
+                      121.461884,
+                      31.174826
+                    ],
+                    [
+                      121.46181,
+                      31.175317
+                    ],
+                    [
+                      121.461784,
+                      31.175469
+                    ],
+                    [
+                      121.46178,
+                      31.175508
+                    ],
+                    [
+                      121.461727,
+                      31.175569
+                    ],
+                    [
+                      121.461693,
+                      31.175846
+                    ],
+                    [
+                      121.461684,
+                      31.176172
+                    ],
+                    [
+                      121.461697,
+                      31.176463
+                    ],
+                    [
+                      121.461736,
+                      31.176727
+                    ],
+                    [
+                      121.461806,
+                      31.17704
+                    ],
+                    [
+                      121.461914,
+                      31.177387
+                    ],
+                    [
+                      121.462648,
+                      31.179197
+                    ],
+                    [
+                      121.462856,
+                      31.179705
+                    ],
+                    [
+                      121.463095,
+                      31.180282
+                    ],
+                    [
+                      121.463511,
+                      31.181298
+                    ]
+                  ]
+                },
+                {
+                  "instruction": "沿徐汇滨江绿道向东步行23米左转",
+                  "road": "徐汇滨江绿道",
+                  "distance_m": 23.0,
+                  "duration_s": 18.0,
+                  "polyline": [
+                    [
+                      121.463511,
+                      31.181298
+                    ],
+                    [
+                      121.463607,
+                      31.181293
+                    ],
+                    [
+                      121.463759,
+                      31.181276
+                    ]
+                  ]
+                },
+                {
+                  "instruction": "向东北步行359米左转",
+                  "road": null,
+                  "distance_m": 359.0,
+                  "duration_s": 287.0,
+                  "polyline": [
+                    [
+                      121.463759,
+                      31.181276
+                    ],
+                    [
+                      121.463819,
+                      31.181419
+                    ],
+                    [
+                      121.463915,
+                      31.181619
+                    ],
+                    [
+                      121.464076,
+                      31.181914
+                    ],
+                    [
+                      121.464436,
+                      31.182374
+                    ],
+                    [
+                      121.464544,
+                      31.182569
+                    ],
+                    [
+                      121.464562,
+                      31.182595
+                    ],
+                    [
+                      121.464744,
+                      31.183116
+                    ],
+                    [
+                      121.464761,
+                      31.183155
+                    ],
+                    [
+                      121.464918,
+                      31.183377
+                    ],
+                    [
+                      121.465017,
+                      31.183477
+                    ],
+                    [
+                      121.465056,
+                      31.183494
+                    ],
+                    [
+                      121.465143,
+                      31.183524
+                    ],
+                    [
+                      121.465278,
+                      31.183646
+                    ],
+                    [
+                      121.46566,
+                      31.184023
+                    ]
+                  ]
+                },
+                {
+                  "instruction": "向西北步行23米右转",
+                  "road": null,
+                  "distance_m": 23.0,
+                  "duration_s": 18.0,
+                  "polyline": [
+                    [
+                      121.46566,
+                      31.184023
+                    ],
+                    [
+                      121.465486,
+                      31.184162
+                    ]
+                  ]
+                },
+                {
+                  "instruction": "向东北步行35米左转",
+                  "road": null,
+                  "distance_m": 35.0,
+                  "duration_s": 28.0,
+                  "polyline": [
+                    [
+                      121.465482,
+                      31.184167
+                    ],
+                    [
+                      121.465521,
+                      31.184219
+                    ],
+                    [
+                      121.465577,
+                      31.184345
+                    ],
+                    [
+                      121.465655,
+                      31.184449
+                    ]
+                  ]
+                },
+                {
+                  "instruction": "向西北步行73米到达目的地",
+                  "road": null,
+                  "distance_m": 73.0,
+                  "duration_s": 58.0,
+                  "polyline": [
+                    [
+                      121.465655,
+                      31.184449
+                    ],
+                    [
+                      121.465304,
+                      31.184622
+                    ],
+                    [
+                      121.465208,
+                      31.184661
+                    ],
+                    [
+                      121.464996,
+                      31.184787
+                    ]
+                  ]
+                }
+              ],
+              "polyline": [
+                [
+                  121.463368,
+                  31.167799
+                ],
+                [
+                  121.463481,
+                  31.168125
+                ],
+                [
+                  121.463494,
+                  31.168212
+                ],
+                [
+                  121.463533,
+                  31.168442
+                ],
+                [
+                  121.463555,
+                  31.168763
+                ],
+                [
+                  121.463511,
+                  31.16921
+                ],
+                [
+                  121.463364,
+                  31.169696
+                ],
+                [
+                  121.462973,
+                  31.170803
+                ],
+                [
+                  121.462886,
+                  31.17102
+                ],
+                [
+                  121.462856,
+                  31.171098
+                ],
+                [
+                  121.462839,
+                  31.171128
+                ],
+                [
+                  121.46247,
+                  31.172096
+                ],
+                [
+                  121.46227,
+                  31.172739
+                ],
+                [
+                  121.462044,
+                  31.173893
+                ],
+                [
+                  121.462031,
+                  31.174167
+                ],
+                [
+                  121.461997,
+                  31.174379
+                ],
+                [
+                  121.461884,
+                  31.174826
+                ],
+                [
+                  121.46181,
+                  31.175317
+                ],
+                [
+                  121.461784,
+                  31.175469
+                ],
+                [
+                  121.46178,
+                  31.175508
+                ],
+                [
+                  121.461727,
+                  31.175569
+                ],
+                [
+                  121.461693,
+                  31.175846
+                ],
+                [
+                  121.461684,
+                  31.176172
+                ],
+                [
+                  121.461697,
+                  31.176463
+                ],
+                [
+                  121.461736,
+                  31.176727
+                ],
+                [
+                  121.461806,
+                  31.17704
+                ],
+                [
+                  121.461914,
+                  31.177387
+                ],
+                [
+                  121.462648,
+                  31.179197
+                ],
+                [
+                  121.462856,
+                  31.179705
+                ],
+                [
+                  121.463095,
+                  31.180282
+                ],
+                [
+                  121.463511,
+                  31.181298
+                ],
+                [
+                  121.463607,
+                  31.181293
+                ],
+                [
+                  121.463759,
+                  31.181276
+                ],
+                [
+                  121.463819,
+                  31.181419
+                ],
+                [
+                  121.463915,
+                  31.181619
+                ],
+                [
+                  121.464076,
+                  31.181914
+                ],
+                [
+                  121.464436,
+                  31.182374
+                ],
+                [
+                  121.464544,
+                  31.182569
+                ],
+                [
+                  121.464562,
+                  31.182595
+                ],
+                [
+                  121.464744,
+                  31.183116
+                ],
+                [
+                  121.464761,
+                  31.183155
+                ],
+                [
+                  121.464918,
+                  31.183377
+                ],
+                [
+                  121.465017,
+                  31.183477
+                ],
+                [
+                  121.465056,
+                  31.183494
+                ],
+                [
+                  121.465143,
+                  31.183524
+                ],
+                [
+                  121.465278,
+                  31.183646
+                ],
+                [
+                  121.46566,
+                  31.184023
+                ],
+                [
+                  121.465486,
+                  31.184162
+                ],
+                [
+                  121.465482,
+                  31.184167
+                ],
+                [
+                  121.465521,
+                  31.184219
+                ],
+                [
+                  121.465577,
+                  31.184345
+                ],
+                [
+                  121.465655,
+                  31.184449
+                ],
+                [
+                  121.465304,
+                  31.184622
+                ],
+                [
+                  121.465208,
+                  31.184661
+                ],
+                [
+                  121.464996,
+                  31.184787
+                ]
+              ],
+              "data_source": "amap",
+              "status": "AVAILABLE",
+              "fetched_at": "2026-10-05T17:27:44.624264+00:00",
+              "cache_hit": false,
+              "fallback_used": false,
+              "error_code": null
+            }
+          ],
+          "route_geometry": [
+            [
+              121.463368,
+              31.167799
+            ],
+            [
+              121.463481,
+              31.168125
+            ],
+            [
+              121.463494,
+              31.168212
+            ],
+            [
+              121.463533,
+              31.168442
+            ],
+            [
+              121.463555,
+              31.168763
+            ],
+            [
+              121.463511,
+              31.16921
+            ],
+            [
+              121.463364,
+              31.169696
+            ],
+            [
+              121.462973,
+              31.170803
+            ],
+            [
+              121.462886,
+              31.17102
+            ],
+            [
+              121.462856,
+              31.171098
+            ],
+            [
+              121.462839,
+              31.171128
+            ],
+            [
+              121.46247,
+              31.172096
+            ],
+            [
+              121.46227,
+              31.172739
+            ],
+            [
+              121.462044,
+              31.173893
+            ],
+            [
+              121.462031,
+              31.174167
+            ],
+            [
+              121.461997,
+              31.174379
+            ],
+            [
+              121.461884,
+              31.174826
+            ],
+            [
+              121.46181,
+              31.175317
+            ],
+            [
+              121.461784,
+              31.175469
+            ],
+            [
+              121.46178,
+              31.175508
+            ],
+            [
+              121.461727,
+              31.175569
+            ],
+            [
+              121.461693,
+              31.175846
+            ],
+            [
+              121.461684,
+              31.176172
+            ],
+            [
+              121.461697,
+              31.176463
+            ],
+            [
+              121.461736,
+              31.176727
+            ],
+            [
+              121.461806,
+              31.17704
+            ],
+            [
+              121.461914,
+              31.177387
+            ],
+            [
+              121.462648,
+              31.179197
+            ],
+            [
+              121.462856,
+              31.179705
+            ],
+            [
+              121.463095,
+              31.180282
+            ],
+            [
+              121.463511,
+              31.181298
+            ],
+            [
+              121.463607,
+              31.181293
+            ],
+            [
+              121.463759,
+              31.181276
+            ],
+            [
+              121.463819,
+              31.181419
+            ],
+            [
+              121.463915,
+              31.181619
+            ],
+            [
+              121.464076,
+              31.181914
+            ],
+            [
+              121.464436,
+              31.182374
+            ],
+            [
+              121.464544,
+              31.182569
+            ],
+            [
+              121.464562,
+              31.182595
+            ],
+            [
+              121.464744,
+              31.183116
+            ],
+            [
+              121.464761,
+              31.183155
+            ],
+            [
+              121.464918,
+              31.183377
+            ],
+            [
+              121.465017,
+              31.183477
+            ],
+            [
+              121.465056,
+              31.183494
+            ],
+            [
+              121.465143,
+              31.183524
+            ],
+            [
+              121.465278,
+              31.183646
+            ],
+            [
+              121.46566,
+              31.184023
+            ],
+            [
+              121.465486,
+              31.184162
+            ],
+            [
+              121.465482,
+              31.184167
+            ],
+            [
+              121.465521,
+              31.184219
+            ],
+            [
+              121.465577,
+              31.184345
+            ],
+            [
+              121.465655,
+              31.184449
+            ],
+            [
+              121.465304,
+              31.184622
+            ],
+            [
+              121.465208,
+              31.184661
+            ],
+            [
+              121.464996,
+              31.184787
+            ]
+          ],
+          "walking_data_status": "AVAILABLE",
+          "walking": {
+            "status": "AVAILABLE",
+            "total_distance_m": 2057.0,
+            "total_duration_s": 1646.0,
+            "legs": [
+              {
+                "from_poi_id": "p28",
+                "to_poi_id": "p5",
+                "from_name": "West Bund Museum",
+                "to_name": "Long Museum (West Bund)",
+                "origin": {
+                  "lat": 31.167682,
+                  "lng": 121.463841,
+                  "coordinate_system": "GCJ02"
+                },
+                "destination": {
+                  "lat": 31.1848,
+                  "lng": 121.465,
+                  "coordinate_system": "GCJ02"
+                },
+                "distance_m": 2057.0,
+                "duration_s": 1646.0,
+                "steps": [
+                  {
+                    "instruction": "沿龙腾大道向北步行1544米右转",
+                    "road": "龙腾大道",
+                    "distance_m": 1544.0,
+                    "duration_s": 1235.0,
+                    "polyline": [
+                      [
+                        121.463368,
+                        31.167799
+                      ],
+                      [
+                        121.463481,
+                        31.168125
+                      ],
+                      [
+                        121.463494,
+                        31.168212
+                      ],
+                      [
+                        121.463533,
+                        31.168442
+                      ],
+                      [
+                        121.463555,
+                        31.168763
+                      ],
+                      [
+                        121.463511,
+                        31.16921
+                      ],
+                      [
+                        121.463364,
+                        31.169696
+                      ],
+                      [
+                        121.462973,
+                        31.170803
+                      ],
+                      [
+                        121.462886,
+                        31.17102
+                      ],
+                      [
+                        121.462856,
+                        31.171098
+                      ],
+                      [
+                        121.462839,
+                        31.171128
+                      ],
+                      [
+                        121.46247,
+                        31.172096
+                      ],
+                      [
+                        121.46227,
+                        31.172739
+                      ],
+                      [
+                        121.462044,
+                        31.173893
+                      ],
+                      [
+                        121.462031,
+                        31.174167
+                      ],
+                      [
+                        121.461997,
+                        31.174379
+                      ],
+                      [
+                        121.461884,
+                        31.174826
+                      ],
+                      [
+                        121.46181,
+                        31.175317
+                      ],
+                      [
+                        121.461784,
+                        31.175469
+                      ],
+                      [
+                        121.46178,
+                        31.175508
+                      ],
+                      [
+                        121.461727,
+                        31.175569
+                      ],
+                      [
+                        121.461693,
+                        31.175846
+                      ],
+                      [
+                        121.461684,
+                        31.176172
+                      ],
+                      [
+                        121.461697,
+                        31.176463
+                      ],
+                      [
+                        121.461736,
+                        31.176727
+                      ],
+                      [
+                        121.461806,
+                        31.17704
+                      ],
+                      [
+                        121.461914,
+                        31.177387
+                      ],
+                      [
+                        121.462648,
+                        31.179197
+                      ],
+                      [
+                        121.462856,
+                        31.179705
+                      ],
+                      [
+                        121.463095,
+                        31.180282
+                      ],
+                      [
+                        121.463511,
+                        31.181298
+                      ]
+                    ]
+                  },
+                  {
+                    "instruction": "沿徐汇滨江绿道向东步行23米左转",
+                    "road": "徐汇滨江绿道",
+                    "distance_m": 23.0,
+                    "duration_s": 18.0,
+                    "polyline": [
+                      [
+                        121.463511,
+                        31.181298
+                      ],
+                      [
+                        121.463607,
+                        31.181293
+                      ],
+                      [
+                        121.463759,
+                        31.181276
+                      ]
+                    ]
+                  },
+                  {
+                    "instruction": "向东北步行359米左转",
+                    "road": null,
+                    "distance_m": 359.0,
+                    "duration_s": 287.0,
+                    "polyline": [
+                      [
+                        121.463759,
+                        31.181276
+                      ],
+                      [
+                        121.463819,
+                        31.181419
+                      ],
+                      [
+                        121.463915,
+                        31.181619
+                      ],
+                      [
+                        121.464076,
+                        31.181914
+                      ],
+                      [
+                        121.464436,
+                        31.182374
+                      ],
+                      [
+                        121.464544,
+                        31.182569
+                      ],
+                      [
+                        121.464562,
+                        31.182595
+                      ],
+                      [
+                        121.464744,
+                        31.183116
+                      ],
+                      [
+                        121.464761,
+                        31.183155
+                      ],
+                      [
+                        121.464918,
+                        31.183377
+                      ],
+                      [
+                        121.465017,
+                        31.183477
+                      ],
+                      [
+                        121.465056,
+                        31.183494
+                      ],
+                      [
+                        121.465143,
+                        31.183524
+                      ],
+                      [
+                        121.465278,
+                        31.183646
+                      ],
+                      [
+                        121.46566,
+                        31.184023
+                      ]
+                    ]
+                  },
+                  {
+                    "instruction": "向西北步行23米右转",
+                    "road": null,
+                    "distance_m": 23.0,
+                    "duration_s": 18.0,
+                    "polyline": [
+                      [
+                        121.46566,
+                        31.184023
+                      ],
+                      [
+                        121.465486,
+                        31.184162
+                      ]
+                    ]
+                  },
+                  {
+                    "instruction": "向东北步行35米左转",
+                    "road": null,
+                    "distance_m": 35.0,
+                    "duration_s": 28.0,
+                    "polyline": [
+                      [
+                        121.465482,
+                        31.184167
+                      ],
+                      [
+                        121.465521,
+                        31.184219
+                      ],
+                      [
+                        121.465577,
+                        31.184345
+                      ],
+                      [
+                        121.465655,
+                        31.184449
+                      ]
+                    ]
+                  },
+                  {
+                    "instruction": "向西北步行73米到达目的地",
+                    "road": null,
+                    "distance_m": 73.0,
+                    "duration_s": 58.0,
+                    "polyline": [
+                      [
+                        121.465655,
+                        31.184449
+                      ],
+                      [
+                        121.465304,
+                        31.184622
+                      ],
+                      [
+                        121.465208,
+                        31.184661
+                      ],
+                      [
+                        121.464996,
+                        31.184787
+                      ]
+                    ]
+                  }
+                ],
+                "polyline": [
+                  [
+                    121.463368,
+                    31.167799
+                  ],
+                  [
+                    121.463481,
+                    31.168125
+                  ],
+                  [
+                    121.463494,
+                    31.168212
+                  ],
+                  [
+                    121.463533,
+                    31.168442
+                  ],
+                  [
+                    121.463555,
+                    31.168763
+                  ],
+                  [
+                    121.463511,
+                    31.16921
+                  ],
+                  [
+                    121.463364,
+                    31.169696
+                  ],
+                  [
+                    121.462973,
+                    31.170803
+                  ],
+                  [
+                    121.462886,
+                    31.17102
+                  ],
+                  [
+                    121.462856,
+                    31.171098
+                  ],
+                  [
+                    121.462839,
+                    31.171128
+                  ],
+                  [
+                    121.46247,
+                    31.172096
+                  ],
+                  [
+                    121.46227,
+                    31.172739
+                  ],
+                  [
+                    121.462044,
+                    31.173893
+                  ],
+                  [
+                    121.462031,
+                    31.174167
+                  ],
+                  [
+                    121.461997,
+                    31.174379
+                  ],
+                  [
+                    121.461884,
+                    31.174826
+                  ],
+                  [
+                    121.46181,
+                    31.175317
+                  ],
+                  [
+                    121.461784,
+                    31.175469
+                  ],
+                  [
+                    121.46178,
+                    31.175508
+                  ],
+                  [
+                    121.461727,
+                    31.175569
+                  ],
+                  [
+                    121.461693,
+                    31.175846
+                  ],
+                  [
+                    121.461684,
+                    31.176172
+                  ],
+                  [
+                    121.461697,
+                    31.176463
+                  ],
+                  [
+                    121.461736,
+                    31.176727
+                  ],
+                  [
+                    121.461806,
+                    31.17704
+                  ],
+                  [
+                    121.461914,
+                    31.177387
+                  ],
+                  [
+                    121.462648,
+                    31.179197
+                  ],
+                  [
+                    121.462856,
+                    31.179705
+                  ],
+                  [
+                    121.463095,
+                    31.180282
+                  ],
+                  [
+                    121.463511,
+                    31.181298
+                  ],
+                  [
+                    121.463607,
+                    31.181293
+                  ],
+                  [
+                    121.463759,
+                    31.181276
+                  ],
+                  [
+                    121.463819,
+                    31.181419
+                  ],
+                  [
+                    121.463915,
+                    31.181619
+                  ],
+                  [
+                    121.464076,
+                    31.181914
+                  ],
+                  [
+                    121.464436,
+                    31.182374
+                  ],
+                  [
+                    121.464544,
+                    31.182569
+                  ],
+                  [
+                    121.464562,
+                    31.182595
+                  ],
+                  [
+                    121.464744,
+                    31.183116
+                  ],
+                  [
+                    121.464761,
+                    31.183155
+                  ],
+                  [
+                    121.464918,
+                    31.183377
+                  ],
+                  [
+                    121.465017,
+                    31.183477
+                  ],
+                  [
+                    121.465056,
+                    31.183494
+                  ],
+                  [
+                    121.465143,
+                    31.183524
+                  ],
+                  [
+                    121.465278,
+                    31.183646
+                  ],
+                  [
+                    121.46566,
+                    31.184023
+                  ],
+                  [
+                    121.465486,
+                    31.184162
+                  ],
+                  [
+                    121.465482,
+                    31.184167
+                  ],
+                  [
+                    121.465521,
+                    31.184219
+                  ],
+                  [
+                    121.465577,
+                    31.184345
+                  ],
+                  [
+                    121.465655,
+                    31.184449
+                  ],
+                  [
+                    121.465304,
+                    31.184622
+                  ],
+                  [
+                    121.465208,
+                    31.184661
+                  ],
+                  [
+                    121.464996,
+                    31.184787
+                  ]
+                ],
+                "data_source": "amap",
+                "status": "AVAILABLE",
+                "fetched_at": "2026-10-05T17:27:44.624264+00:00",
+                "cache_hit": false,
+                "fallback_used": false,
+                "error_code": null
+              }
+            ],
+            "geometry": [
+              [
+                121.463368,
+                31.167799
+              ],
+              [
+                121.463481,
+                31.168125
+              ],
+              [
+                121.463494,
+                31.168212
+              ],
+              [
+                121.463533,
+                31.168442
+              ],
+              [
+                121.463555,
+                31.168763
+              ],
+              [
+                121.463511,
+                31.16921
+              ],
+              [
+                121.463364,
+                31.169696
+              ],
+              [
+                121.462973,
+                31.170803
+              ],
+              [
+                121.462886,
+                31.17102
+              ],
+              [
+                121.462856,
+                31.171098
+              ],
+              [
+                121.462839,
+                31.171128
+              ],
+              [
+                121.46247,
+                31.172096
+              ],
+              [
+                121.46227,
+                31.172739
+              ],
+              [
+                121.462044,
+                31.173893
+              ],
+              [
+                121.462031,
+                31.174167
+              ],
+              [
+                121.461997,
+                31.174379
+              ],
+              [
+                121.461884,
+                31.174826
+              ],
+              [
+                121.46181,
+                31.175317
+              ],
+              [
+                121.461784,
+                31.175469
+              ],
+              [
+                121.46178,
+                31.175508
+              ],
+              [
+                121.461727,
+                31.175569
+              ],
+              [
+                121.461693,
+                31.175846
+              ],
+              [
+                121.461684,
+                31.176172
+              ],
+              [
+                121.461697,
+                31.176463
+              ],
+              [
+                121.461736,
+                31.176727
+              ],
+              [
+                121.461806,
+                31.17704
+              ],
+              [
+                121.461914,
+                31.177387
+              ],
+              [
+                121.462648,
+                31.179197
+              ],
+              [
+                121.462856,
+                31.179705
+              ],
+              [
+                121.463095,
+                31.180282
+              ],
+              [
+                121.463511,
+                31.181298
+              ],
+              [
+                121.463607,
+                31.181293
+              ],
+              [
+                121.463759,
+                31.181276
+              ],
+              [
+                121.463819,
+                31.181419
+              ],
+              [
+                121.463915,
+                31.181619
+              ],
+              [
+                121.464076,
+                31.181914
+              ],
+              [
+                121.464436,
+                31.182374
+              ],
+              [
+                121.464544,
+                31.182569
+              ],
+              [
+                121.464562,
+                31.182595
+              ],
+              [
+                121.464744,
+                31.183116
+              ],
+              [
+                121.464761,
+                31.183155
+              ],
+              [
+                121.464918,
+                31.183377
+              ],
+              [
+                121.465017,
+                31.183477
+              ],
+              [
+                121.465056,
+                31.183494
+              ],
+              [
+                121.465143,
+                31.183524
+              ],
+              [
+                121.465278,
+                31.183646
+              ],
+              [
+                121.46566,
+                31.184023
+              ],
+              [
+                121.465486,
+                31.184162
+              ],
+              [
+                121.465482,
+                31.184167
+              ],
+              [
+                121.465521,
+                31.184219
+              ],
+              [
+                121.465577,
+                31.184345
+              ],
+              [
+                121.465655,
+                31.184449
+              ],
+              [
+                121.465304,
+                31.184622
+              ],
+              [
+                121.465208,
+                31.184661
+              ],
+              [
+                121.464996,
+                31.184787
+              ]
+            ],
+            "coordinate_system": "GCJ02",
+            "geometry_complete": true,
+            "geometry_segments": [
+              [
+                [
+                  121.463368,
+                  31.167799
+                ],
+                [
+                  121.463481,
+                  31.168125
+                ],
+                [
+                  121.463494,
+                  31.168212
+                ],
+                [
+                  121.463533,
+                  31.168442
+                ],
+                [
+                  121.463555,
+                  31.168763
+                ],
+                [
+                  121.463511,
+                  31.16921
+                ],
+                [
+                  121.463364,
+                  31.169696
+                ],
+                [
+                  121.462973,
+                  31.170803
+                ],
+                [
+                  121.462886,
+                  31.17102
+                ],
+                [
+                  121.462856,
+                  31.171098
+                ],
+                [
+                  121.462839,
+                  31.171128
+                ],
+                [
+                  121.46247,
+                  31.172096
+                ],
+                [
+                  121.46227,
+                  31.172739
+                ],
+                [
+                  121.462044,
+                  31.173893
+                ],
+                [
+                  121.462031,
+                  31.174167
+                ],
+                [
+                  121.461997,
+                  31.174379
+                ],
+                [
+                  121.461884,
+                  31.174826
+                ],
+                [
+                  121.46181,
+                  31.175317
+                ],
+                [
+                  121.461784,
+                  31.175469
+                ],
+                [
+                  121.46178,
+                  31.175508
+                ],
+                [
+                  121.461727,
+                  31.175569
+                ],
+                [
+                  121.461693,
+                  31.175846
+                ],
+                [
+                  121.461684,
+                  31.176172
+                ],
+                [
+                  121.461697,
+                  31.176463
+                ],
+                [
+                  121.461736,
+                  31.176727
+                ],
+                [
+                  121.461806,
+                  31.17704
+                ],
+                [
+                  121.461914,
+                  31.177387
+                ],
+                [
+                  121.462648,
+                  31.179197
+                ],
+                [
+                  121.462856,
+                  31.179705
+                ],
+                [
+                  121.463095,
+                  31.180282
+                ],
+                [
+                  121.463511,
+                  31.181298
+                ],
+                [
+                  121.463607,
+                  31.181293
+                ],
+                [
+                  121.463759,
+                  31.181276
+                ],
+                [
+                  121.463819,
+                  31.181419
+                ],
+                [
+                  121.463915,
+                  31.181619
+                ],
+                [
+                  121.464076,
+                  31.181914
+                ],
+                [
+                  121.464436,
+                  31.182374
+                ],
+                [
+                  121.464544,
+                  31.182569
+                ],
+                [
+                  121.464562,
+                  31.182595
+                ],
+                [
+                  121.464744,
+                  31.183116
+                ],
+                [
+                  121.464761,
+                  31.183155
+                ],
+                [
+                  121.464918,
+                  31.183377
+                ],
+                [
+                  121.465017,
+                  31.183477
+                ],
+                [
+                  121.465056,
+                  31.183494
+                ],
+                [
+                  121.465143,
+                  31.183524
+                ],
+                [
+                  121.465278,
+                  31.183646
+                ],
+                [
+                  121.46566,
+                  31.184023
+                ],
+                [
+                  121.465486,
+                  31.184162
+                ],
+                [
+                  121.465482,
+                  31.184167
+                ],
+                [
+                  121.465521,
+                  31.184219
+                ],
+                [
+                  121.465577,
+                  31.184345
+                ],
+                [
+                  121.465655,
+                  31.184449
+                ],
+                [
+                  121.465304,
+                  31.184622
+                ],
+                [
+                  121.465208,
+                  31.184661
+                ],
+                [
+                  121.464996,
+                  31.184787
+                ]
+              ]
+            ]
+          }
+        },
+        "created_at": "2026-10-05T17:27:44.626819+00:00",
+        "reason": "initial_plan",
+        "parent_version_id": null,
+        "effective_remaining_minutes": null
+      },
+      "result": {
+        "checked_at": "2026-10-06T01:27:44.657936+08:00",
+        "route_version": "v1",
+        "status": "PARTIAL",
+        "warnings": [
+          {
+            "code": "OPENING_HOURS_UNKNOWN",
+            "severity": "LOW",
+            "message": "缺少可可靠解析的到达日营业时间。",
+            "details": {
+              "estimated_arrival": "2026-10-06T01:27:44.657936+08:00",
+              "estimated_departure": "2026-10-06T02:42:44.657936+08:00",
+              "opening_hours": null,
+              "provider_status": "PARTIAL",
+              "current_open_status": "UNKNOWN",
+              "planned_visit_minutes": 75.0
+            },
+            "poi_id": "p28",
+            "leg_index": null,
+            "source": "poi_live_info",
+            "confidence": "LOW"
+          },
+          {
+            "code": "OPENING_HOURS_UNKNOWN",
+            "severity": "LOW",
+            "message": "缺少可可靠解析的到达日营业时间。",
+            "details": {
+              "estimated_arrival": "2026-10-06T03:10:10.657936+08:00",
+              "estimated_departure": "2026-10-06T04:25:10.657936+08:00",
+              "opening_hours": null,
+              "provider_status": "PARTIAL",
+              "current_open_status": "UNKNOWN",
+              "planned_visit_minutes": 75.0
+            },
+            "poi_id": "p5",
+            "leg_index": 0,
+            "source": "poi_live_info",
+            "confidence": "LOW"
+          }
+        ],
+        "weather": {
+          "provider": "amap",
+          "province": "上海",
+          "city": "徐汇区",
+          "district": null,
+          "adcode": "310104",
+          "weather_text": "晴",
+          "temperature_c": 17.0,
+          "humidity_pct": 56.0,
+          "wind_direction": "南",
+          "wind_power": "≤3",
+          "report_time": "2026-10-06T01:01:15+08:00",
+          "data_status": "AVAILABLE",
+          "fetched_at": "2026-10-06T01:27:43.634302+08:00",
+          "cache_hit": true,
+          "error_code": null,
+          "resolved_location": {
+            "location": {
+              "lat": 31.167682,
+              "lng": 121.463841,
+              "coordinate_system": "GCJ02"
+            },
+            "formatted_address": "上海市徐汇区龙华街道龙耀滨江广场西岸美术馆",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "徐汇区",
+            "township": "龙华街道",
+            "adcode": "310104",
+            "street": "龙腾大道",
+            "street_number": "2600号",
+            "provider": "amap",
+            "fetched_at": "2026-10-05T17:27:46.149605+00:00",
+            "live_data_status": "AVAILABLE",
+            "cache_hit": false,
+            "error_code": null
+          },
+          "origin_source": "CURRENT_CORE",
+          "origin_core_poi_id": "p28"
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p28",
+            "p5"
+          ],
+          "remaining_budget_minutes": 240,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p28",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+              "planned_visit_minutes": 75.0,
+              "estimated_arrival": "2026-10-06T01:27:44.657936+08:00",
+              "estimated_departure": "2026-10-06T02:42:44.657936+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "UNKNOWN",
+              "opening_hours": null,
+              "live_info_applicability": "FULL",
+              "provider_status": "PARTIAL",
+              "opening_evaluation": "UNKNOWN"
+            },
+            {
+              "poi_id": "p5",
+              "leg_index": 0,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 27.433333333333334,
+              "selected_visit_mode": "full_visit",
+              "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+              "planned_visit_minutes": 75.0,
+              "estimated_arrival": "2026-10-06T03:10:10.657936+08:00",
+              "estimated_departure": "2026-10-06T04:25:10.657936+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "UNKNOWN",
+              "opening_hours": null,
+              "live_info_applicability": "FULL",
+              "provider_status": "PARTIAL",
+              "opening_evaluation": "UNKNOWN"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 27.433333333333334,
+          "remaining_reference_walking_minutes": 27.433333333333334,
+          "known_walking_minutes": 27.433333333333334,
+          "remaining_planned_visit_minutes": 150.0,
+          "reality_adjusted_remaining_minutes": 177.43333333333334,
+          "remaining_walking_distance_m": 2057.0,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p28": {
+              "data_status": "PARTIAL",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            },
+            "p5": {
+              "data_status": "PARTIAL",
+              "applicability": "FULL",
+              "error_code": null,
+              "cache_hit": false
+            }
+          }
+        }
+      },
+      "requests_during_check": [
+        {
+          "path": "/v5/place/detail",
+          "parameters": {
+            "id": "B0FFJGOAFY",
+            "show_fields": "business"
+          }
+        },
+        {
+          "path": "/v5/place/detail",
+          "parameters": {
+            "id": "B0FFF2YL75",
+            "show_fields": "business"
+          }
+        },
+        {
+          "path": "/v3/geocode/regeo",
+          "parameters": {
+            "location": "121.463841,31.167682",
+            "extensions": "base"
+          }
+        }
+      ],
+      "cached_repeat_caused_requests": 0,
+      "trip_snapshot_sha256": "b5a9b07a2b533d8afc9dd40813e7ec89fb5df9a9c2f977f226f0b72ad83d5fea"
+    },
+    {
+      "case": "C_NOT_APPLICABLE_AREA",
+      "poi_id": "p35",
+      "result": {
+        "checked_at": "2026-10-06T01:27:46.196603+08:00",
+        "route_version": "v1",
+        "status": "OK",
+        "warnings": [],
+        "weather": {
+          "provider": "amap",
+          "province": "上海",
+          "city": "徐汇区",
+          "district": null,
+          "adcode": "310104",
+          "weather_text": "晴",
+          "temperature_c": 17.0,
+          "humidity_pct": 56.0,
+          "wind_direction": "南",
+          "wind_power": "≤3",
+          "report_time": "2026-10-06T01:01:15+08:00",
+          "data_status": "AVAILABLE",
+          "fetched_at": "2026-10-06T01:27:43.634302+08:00",
+          "cache_hit": true,
+          "error_code": null,
+          "resolved_location": {
+            "location": {
+              "lat": 31.193781,
+              "lng": 121.438463,
+              "coordinate_system": "GCJ02"
+            },
+            "formatted_address": "上海市徐汇区徐家汇街道漕溪北路辅路上海徐家汇源",
+            "province": "上海市",
+            "city": "上海市",
+            "district": "徐汇区",
+            "township": "徐家汇街道",
+            "adcode": "310104",
+            "street": "蒲西路",
+            "street_number": "164号",
+            "provider": "amap",
+            "fetched_at": "2026-10-05T17:27:46.668171+00:00",
+            "live_data_status": "AVAILABLE",
+            "cache_hit": false,
+            "error_code": null
+          },
+          "origin_source": "CURRENT_CORE",
+          "origin_core_poi_id": "p35"
+        },
+        "metrics": {
+          "remaining_poi_ids": [
+            "p35"
+          ],
+          "remaining_budget_minutes": 120,
+          "budget_tolerance_minutes": 5,
+          "stops": [
+            {
+              "poi_id": "p35",
+              "leg_index": null,
+              "walking_status": "AVAILABLE",
+              "walking_minutes": 0.0,
+              "selected_visit_mode": "walk_stop",
+              "visit_scope": "Brief district observation, short mall stops and supplies.",
+              "planned_visit_minutes": 30.0,
+              "estimated_arrival": "2026-10-06T01:27:46.196603+08:00",
+              "estimated_departure": "2026-10-06T01:57:46.196603+08:00",
+              "eta_confidence": "HIGH",
+              "provider_open_status": "NOT_APPLICABLE",
+              "opening_hours": null,
+              "live_info_applicability": "NOT_APPLICABLE",
+              "provider_status": "UNAVAILABLE",
+              "opening_evaluation": "NOT_APPLICABLE"
+            }
+          ],
+          "eta_basis": "Existing RouteVersion walking legs; no GPS rerouting",
+          "budget_is_soft": true,
+          "remaining_live_walking_minutes": 0.0,
+          "remaining_reference_walking_minutes": 0.0,
+          "known_walking_minutes": 0.0,
+          "remaining_planned_visit_minutes": 30.0,
+          "reality_adjusted_remaining_minutes": 30.0,
+          "remaining_walking_distance_m": 0,
+          "budget_confidence": "HIGH",
+          "timing_complete": true
+        },
+        "data_quality": {
+          "walking": "AVAILABLE",
+          "weather": "AVAILABLE",
+          "poi_live_info": {
+            "p35": {
+              "data_status": "UNAVAILABLE",
+              "applicability": "NOT_APPLICABLE",
+              "error_code": "mapping_not_found",
+              "cache_hit": false
+            }
+          }
+        }
+      }
+    }
+  ],
+  "provider_calls": [
+    {
+      "path": "/v3/assistant/coordinate/convert",
+      "parameters": {
+        "locations": "121.460000,31.160000",
+        "coordsys": "gps"
+      }
+    },
+    {
+      "path": "/v3/geocode/regeo",
+      "parameters": {
+        "location": "121.464559,31.158058",
+        "extensions": "base"
+      }
+    },
+    {
+      "path": "/v3/weather/weatherInfo",
+      "parameters": {
+        "city": "310104",
+        "extensions": "base"
+      }
+    },
+    {
+      "path": "/v3/weather/weatherInfo",
+      "parameters": {
+        "city": "310104",
+        "extensions": "all"
+      }
+    },
+    {
+      "path": "/v3/direction/walking",
+      "parameters": {
+        "origin": "121.463841,31.167682",
+        "destination": "121.465000,31.184800"
+      }
+    },
+    {
+      "path": "/v5/place/detail",
+      "parameters": {
+        "id": "B0FFJGOAFY",
+        "show_fields": "business"
+      }
+    },
+    {
+      "path": "/v5/place/detail",
+      "parameters": {
+        "id": "B0FFF2YL75",
+        "show_fields": "business"
+      }
+    },
+    {
+      "path": "/v3/geocode/regeo",
+      "parameters": {
+        "location": "121.463841,31.167682",
+        "extensions": "base"
+      }
+    },
+    {
+      "path": "/v3/geocode/regeo",
+      "parameters": {
+        "location": "121.438463,31.193781",
+        "extensions": "base"
+      }
+    }
+  ],
+  "trip_state_unchanged": true,
+  "route_versions_unchanged": true,
+  "route_history_unchanged": true,
+  "core_repository_unchanged": true,
+  "core_count": 58,
+  "protected_data_sha256": {
+    "data/pois.json": "e580f86656255fac52b459b499570c5df1d89e8c12e897026d623b62cea7bcea",
+    "data/core_spatial_profiles.json": "26b7224747d81af58224c9e11bc5602893ff52158e90873ce546afb2df220841",
+    "data/amap_poi_mappings.json": "4de6ac81f1a543b69ab83cb10f201b5b7cd2dc6b21fb829954cb251cdc2d79db"
+  },
+  "walking_requests_during_reality_check": 0
+}

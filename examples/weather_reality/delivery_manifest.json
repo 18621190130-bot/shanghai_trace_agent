@@ -1,0 +1,47 @@
+{
+  "phase": "3B_4",
+  "status": "READY_PENDING_HUMAN_ACCEPTANCE",
+  "artifact_sha256": {
+    "examples/weather_reality/delivery_audit.json": "60c9c7e9b8301a66c8a050e8456058d630a88a17b0e39218c90d4528157a1695",
+    "examples/weather_reality/live_acceptance.json": "d7550d2e6d44169f4d4cd71516169c0f40b4e319ada89bceed0c9d056b21f692",
+    "examples/weather_reality/offline_warning_audit.json": "fd96551618b54930ac0173fd4c5c969417784a941c2882060f9f53242369d8df",
+    "examples/weather_reality/phase3b_3_baseline_manifest.json": "8ca49edbbd01dd56634fdc72f03ae30f8cfe0b12e5efc12b0daf937be02d9c88",
+    "examples/weather_reality/test_results.json": "7efa54e4cd871c17dd351d0fd328b76e3d668d4e25b275955b911fa70fdad457",
+    "PHASE3B_4_REPORT.md": "ec89fddfa590a7968159d03d1fc83d619c65297595433a37f6948ddcd700dac5",
+    "docs/PHASE3B_4_API_CONTRACTS.md": "ffff60e33814a246940fd1620550c9b81fa84eed306f46dca21972f865e3703e"
+  },
+  "tests": {
+    "phase": "3B_4",
+    "status": "READY_PENDING_HUMAN_ACCEPTANCE",
+    "targeted": {
+      "tests": 202,
+      "passed": 202,
+      "new_tests": 76,
+      "related_tests": 126,
+      "seconds": 4.874
+    },
+    "final_offline": {
+      "command": "python -m scripts.run_offline_tests",
+      "runs": 1,
+      "tests": 898,
+      "passed": 892,
+      "skipped": 6,
+      "seconds": 72.313
+    },
+    "final_live": {
+      "command": "python -m unittest tests.test_weather_reality_live -v",
+      "runs": 1,
+      "tests": 1,
+      "passed": 1,
+      "cases": [
+        "A",
+        "B",
+        "C"
+      ],
+      "seconds": 4.186
+    },
+    "phase4a_started": false
+  },
+  "credentials_absent": true,
+  "phase4a_started": false
+}

@@ -1,0 +1,40 @@
+{
+  "reused_cached_records": 1147,
+  "targeted_coordinate_provider_checks": 3,
+  "targeted_retained_source_checks": 31,
+  "first_calls": 19,
+  "retry_calls": 5,
+  "total_semantic_calls": 24,
+  "accepted": 8,
+  "deferred": 21,
+  "rejected": 0,
+  "no_mass_collection": true,
+  "west_bund_frozen": true,
+  "protected_sha256": {
+    "data\\pois.json": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513",
+    "data\\pois_phase2_5_candidate.json": "dc30a2933786b2c339a1b1f10ddfbf5f0025b502894f1e376232287799c00d2c",
+    "data\\pois_phase2_5_all_zones_candidate.json": "7d773867802236dcffdc0e307bd7fbda1e312f45d7cdf307c055957bc1e0e14c",
+    "data\\poi_pipeline\\zone_configs.json": "0c55ae63d737ec5fe6c8ec046567be5c2410c997897a15f08deb32e157555686"
+  },
+  "cache_hits_last_offline_pass": 18,
+  "provider_usage_records": 24,
+  "total_tokens": 108696,
+  "first_calls_per_zone": {
+    "old_city_central": 7,
+    "wukang_fuxing_xujiahui": 8,
+    "hongkou_literary": 4
+  },
+  "retry_calls_per_zone": {
+    "old_city_central": 1,
+    "wukang_fuxing_xujiahui": 2,
+    "hongkou_literary": 2
+  },
+  "distinct_first_enriched_nodes": 18,
+  "duplicate_successful_call_deviation": 1,
+  "deviation": "One already successful Taipingqiao Park candidate was accidentally called again when Amap identity changed its cache key. Both calls retained/accounted; original successful output reused. Cache now resolves candidate_id before provider identity. No other successful node re-enriched.",
+  "targeted_historical_child_triage_checks": 3,
+  "targeted_source_checks_lifetime": 34,
+  "rejected_before_shortlist": 554,
+  "cost_currency_amount": "not computed; no verified unit price applied",
+  "semantic_hard_cap": 30
+}

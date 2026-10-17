@@ -1,0 +1,545 @@
+[
+  {
+    "zone": "old_city_central",
+    "name": "上海人民广场",
+    "candidate_id": "old_city_central_a085d8c87e1380e7",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "identity_verified",
+      "provider_id": "B00157917M",
+      "provider_name": "上海人民广场",
+      "address": "人民大道185号",
+      "old_coordinate": [
+        31.228827,
+        121.475213
+      ],
+      "new_coordinate": [
+        31.228827,
+        121.475213
+      ],
+      "coordinate_system": "GCJ-02",
+      "offset_m": 0.0,
+      "basis": "Explicitly reviewed named parent identity/address; subobjects/entrances and unrelated names excluded.",
+      "representative_coordinate_not_entire_entity_boundary": true
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor"
+      ],
+      "confidence": "medium",
+      "reason": "城市中心公共广场的独立城市空间体验，可承载上海城市中心主题；不含博物馆、人民公园或地铁内部。",
+      "independent_destination_value": "high",
+      "route_connector_value": "high",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_0db17d82e9ec"
+  },
+  {
+    "zone": "old_city_central",
+    "name": "福州路",
+    "candidate_id": "old_city_central_4099dce97a905559",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有明确文化街身份与连接价值；只观察代表点附近公共街段，不包含沿线书店或场馆内部，不把全路反复计数。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "high",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_cc5300aee299"
+  },
+  {
+    "zone": "old_city_central",
+    "name": "中国社会主义青年团中央机关旧址",
+    "candidate_id": "old_city_central_04d3c9c6bca78389",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "identity_verified",
+      "provider_id": "B0FFFV4AU5",
+      "provider_name": "中国社会主义青年团中央机关旧址纪念馆",
+      "address": "淮海中路567弄1-6号(淮海中路地铁站1号口步行370米)",
+      "old_coordinate": [
+        31.22006096383807,
+        121.46836893800516
+      ],
+      "new_coordinate": [
+        31.220489,
+        121.468151
+      ],
+      "coordinate_system": "GCJ-02",
+      "offset_m": 51.9,
+      "basis": "Explicitly reviewed named parent identity/address; subobjects/entrances and unrelated names excluded.",
+      "representative_coordinate_not_entire_entity_boundary": true
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "可主动参访的独立旧址与纪念馆体验，补充老城历史路线；不因红色旧址类别自动认定核心目的地。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_42efca09357d"
+  },
+  {
+    "zone": "old_city_central",
+    "name": "大韩民国临时政府旧址",
+    "candidate_id": "old_city_central_330641af97b370bc",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "identity_verified",
+      "provider_id": "B001556HRR",
+      "provider_name": "大韩民国临时政府旧址",
+      "address": "马当路306弄4号",
+      "old_coordinate": [
+        31.217283290774702,
+        121.47469284661551
+      ],
+      "new_coordinate": [
+        31.217351,
+        121.474625
+      ],
+      "coordinate_system": "GCJ-02",
+      "offset_m": 9.9,
+      "basis": "Explicitly reviewed named parent identity/address; subobjects/entrances and unrelated names excluded.",
+      "representative_coordinate_not_entire_entity_boundary": true
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "官方确认原址保留及近期访问；限定街面旧址观察，内部开放安排未知，不默认为入馆。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_66452d5db8a1"
+  },
+  {
+    "zone": "old_city_central",
+    "name": "徐光启故居(九间楼)",
+    "candidate_id": "old_city_central_7a7e1b84663beb98",
+    "decision": "defer",
+    "route_selectable": false,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "conservative_skeleton_validation_failed",
+    "missing_evidence": "No direct subject authority citation for history"
+  },
+  {
+    "zone": "old_city_central",
+    "name": "东海大楼",
+    "candidate_id": "old_city_central_06591af3b6abd091",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "独立历史建筑立面的观察节点；与南京路总体步行体验区分，不包含商场内部购物。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_463c9b82ac1e"
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "name": "优秀历史建筑乌鲁木齐南路176号",
+    "candidate_id": "wukang_fuxing_xujiahui_376c57989e6ecafa",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "具体门牌的优秀历史建筑外观短观察；不进入居民住宅，不以建筑名气认定anchor。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_54f53d30c0dc"
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "name": "中南新邨",
+    "candidate_id": "wukang_fuxing_xujiahui_a820e639b44f621e",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "里弄入口、临街建筑与门上铁艺提供独立建筑阅读；住宅内部及院落均不纳入访问承诺。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_de47b0cf3e98"
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "name": "盛宣怀住宅",
+    "candidate_id": "wukang_fuxing_xujiahui_c17d7311ad244c39",
+    "decision": "defer",
+    "route_selectable": false,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "independent_public_observation_unresolved",
+    "missing_evidence": "权威名单证明住宅稳定存在，但街面可见范围及领事住宅围墙遮挡未核实；保留供人工选择，不凭住宅名气凑数。"
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "name": "张乐平",
+    "candidate_id": "wukang_fuxing_xujiahui_d90241aa789950f0",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "已有近期公众展厅参访证据的故居与漫画创作观察，补充街区文化主题。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_437ddd34f2c1"
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "name": "上海交响乐团音乐厅",
+    "candidate_id": "wukang_fuxing_xujiahui_0a44d3d9e723b88b",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有直接官方建筑描述的音乐厅外观观察；不包含购票音乐会或未经证明的内部参观。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_7e40d824dbee"
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "name": "徐家汇公园",
+    "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "工业及唱片厂址再利用的公共空间观察，补充徐家汇城市文化路线；内部设施不另拆stop。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_09b5938601ee"
+  },
+  {
+    "zone": "hongkou_literary",
+    "name": "李白烈士故居",
+    "candidate_id": "hongkou_literary_1b33161e4ad878ef",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "identity_verified",
+      "provider_id": "B00155L3BC",
+      "provider_name": "李白烈士故居",
+      "address": "黄渡路107弄15号(虹口足球场地铁站6号口步行280米)",
+      "old_coordinate": [
+        31.268021,
+        121.481397
+      ],
+      "new_coordinate": [
+        31.268021,
+        121.481397
+      ],
+      "coordinate_system": "GCJ-02",
+      "offset_m": 0.0,
+      "basis": "Explicitly reviewed named parent identity/address; subobjects/entrances and unrelated names excluded.",
+      "representative_coordinate_not_entire_entity_boundary": true
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "独立旧址展陈与电台体验证据充分，作为历史路线的参访补充；不以革命人物知名度直接判anchor。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_8b1bb0928e7e"
+  },
+  {
+    "zone": "hongkou_literary",
+    "name": "沈尹默故居",
+    "candidate_id": "hongkou_literary_783ce886a4d8323d",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "identity_verified",
+      "provider_id": "B00155L3B4",
+      "provider_name": "沈尹默故居",
+      "address": "海伦路504号(海伦路地铁站5号口步行210米)",
+      "old_coordinate": [
+        31.258529840932688,
+        121.48738947950744
+      ],
+      "new_coordinate": [
+        31.258552,
+        121.487422
+      ],
+      "coordinate_system": "GCJ-02",
+      "offset_m": 4.0,
+      "basis": "Explicitly reviewed named parent identity/address; subobjects/entrances and unrelated names excluded.",
+      "representative_coordinate_not_entire_entity_boundary": true
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "独立故居陈列与书法体验，补充文学历史街区；不因标签多少提高角色。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_c862ec0d6ddd"
+  },
+  {
+    "zone": "hongkou_literary",
+    "name": "日本海军特别陆战队司令部旧址",
+    "candidate_id": "hongkou_literary_aa45403fa488bac4",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "identity_verified",
+      "provider_id": "B00155MRU8",
+      "provider_name": "日本海军特别陆战队司令部旧址",
+      "address": "黄渡路8-6号",
+      "old_coordinate": [
+        31.265815631609563,
+        121.48161442252052
+      ],
+      "new_coordinate": [
+        31.265862,
+        121.481639
+      ],
+      "coordinate_system": "GCJ-02",
+      "offset_m": 5.7,
+      "basis": "Explicitly reviewed named parent identity/address; subobjects/entrances and unrelated names excluded.",
+      "representative_coordinate_not_entire_entity_boundary": true
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "官方走读证据支持道路侧旧址观察；军事设施内部完全排除，不提供进入承诺或内部观察位置。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_c4f63095cb01"
+  },
+  {
+    "zone": "hongkou_literary",
+    "name": "四川北路文化中心图书馆",
+    "candidate_id": "hongkou_literary_6ffd8b36b2afc5fb",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "地址对齐的社区图书馆阅读空间提供主动休憩与文化体验；不把活动临时安排当作常设节目。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_bc5155c245b0"
+  },
+  {
+    "zone": "hongkou_literary",
+    "name": "上海多伦路地区海派文化馆(多伦生活广场店)",
+    "candidate_id": "hongkou_literary_e54fe9df0f6a4fcb",
+    "decision": "defer",
+    "route_selectable": false,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "unresolved_venue_identity",
+    "missing_evidence": "多伦路179号存在报纸/地图博物馆名称，不能与今潮海派文化中心混同；未验证该文化馆独立常设展陈。"
+  },
+  {
+    "zone": "hongkou_literary",
+    "name": "上海多伦现代美术馆",
+    "candidate_id": "hongkou_literary_7f17e20d7ae38341",
+    "decision": "accept",
+    "route_selectable": true,
+    "map_identity": {
+      "status": "cached_geometry_retained",
+      "reason": "new map query unavailable or intentionally skipped; authority/address and cached coordinate reviewed separately"
+    },
+    "reason": "fresh_conservative_skeleton_strict_validator_passed",
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "公立美术馆的独立看展体验；与多伦路公共街段不重复计算，不单拆馆内书房。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "poi_id": "pz_f8277d15786a"
+  }
+]

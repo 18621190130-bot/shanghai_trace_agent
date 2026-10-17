@@ -1,0 +1,23 @@
+[
+  {
+    "merged_id": "wb_group_a183ff3db609",
+    "name": "西岸艺术中心（含A馆）",
+    "member_ids": [
+      "wb_464c18668419c201",
+      "wb_af183561882c9264",
+      "wb_fffb4fce772125fc"
+    ],
+    "coordinate_source_candidate": "wb_fffb4fce772125fc",
+    "basis": "explicit_user_instruction_2026-10-04; route-node grouping, not assertion that plaza and venue are identical"
+  },
+  {
+    "merged_id": "wb_group_dae6c03fe1f9",
+    "name": "西岸穹顶艺术中心（含北广场）",
+    "member_ids": [
+      "wb_6711fedf4e2dbb17",
+      "wb_cc94250299ef60fc"
+    ],
+    "coordinate_source_candidate": "wb_6711fedf4e2dbb17",
+    "basis": "explicit_user_instruction_2026-10-04; route-node grouping, not assertion that plaza and venue are identical"
+  }
+]

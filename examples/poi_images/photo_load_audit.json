@@ -1,0 +1,221 @@
+{
+  "note": "Technical loading check only; no visual or human acceptance",
+  "rows": [
+    {
+      "poi_id": "p2",
+      "loaded": false,
+      "failed": false,
+      "hasCandidate": false
+    },
+    {
+      "poi_id": "p10",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p11",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p12",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p13",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p23",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p25",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p26",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p33",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p35",
+      "loaded": false,
+      "failed": false,
+      "hasCandidate": false
+    },
+    {
+      "poi_id": "p36",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p37",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p38",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p39",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p42",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p43",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "p41",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_a74f9e58195a",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_0b545bb1cf2a",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_b4acff8f32fc",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_68957332b418",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_8919938b21f2",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_553cfd36707c",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_a27dbbc6cab8",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_a446052910a0",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_cc5300aee299",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_66452d5db8a1",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_54f53d30c0dc",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_de47b0cf3e98",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_437ddd34f2c1",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_7e40d824dbee",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_09b5938601ee",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_8b1bb0928e7e",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_c862ec0d6ddd",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_c4f63095cb01",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    },
+    {
+      "poi_id": "pz_f8277d15786a",
+      "loaded": true,
+      "failed": false,
+      "hasCandidate": true
+    }
+  ]
+}

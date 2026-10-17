@@ -1,0 +1,266 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_56500741faabe13a",
+  "node_identity": "amap:B0FFIK0Z21",
+  "output": {
+    "category": "heritage",
+    "interest_tags": [
+      "history"
+    ],
+    "experience_tags": [
+      "neighborhood_walk",
+      "street_scene"
+    ],
+    "culture_tags": [
+      "modern_shanghai"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_f7089cfec9b2",
+          "e_10311e2495a7"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "neighborhood_walk",
+        "evidence_refs": [
+          "e_10311e2495a7"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "street_scene",
+        "evidence_refs": [
+          "e_fa47b5ee0d05"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_f7089cfec9b2",
+          "e_10311e2495a7"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_f7089cfec9b2",
+      "e_10311e2495a7"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为历史文化名街并位于衡复历史文化风貌区内的街区，具备独立目的地价值，可承载街区漫步主题。",
+      "independent_destination_value": "high",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "名称与政府片段均指向成片历史文化街区，适合作为独立到访的路线主题锚点。",
+        "supporting_stop": "若路线主题为其他风貌区，其街区漫步价值也可作为补充节点，但证据更支持锚点。",
+        "transition_stop": "其成片街区属性超出短暂连接性停留，故不作为首选。"
+      }
+    },
+    "citywalk_value": {
+      "level": "high",
+      "reason": "历史文化名街与风貌区街区片段支持成片步行体验，适合作为城市漫步核心节点。",
+      "evidence_refs": [
+        "e_f7089cfec9b2",
+        "e_10311e2495a7"
+      ]
+    },
+    "summary_draft": {
+      "text": "武康路历史文化名街",
+      "evidence_refs": [
+        "e_f7089cfec9b2"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "武康路-安福路街区位于徐汇区衡复历史文化风貌区内",
+      "evidence_refs": [
+        "e_10311e2495a7"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 20,
+        "standard": 45,
+        "deep": 90
+      },
+      "full_visit": {
+        "quick": 45,
+        "standard": 90,
+        "deep": 180
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "沿武康路历史文化名街及衡复风貌区相关街段的步行体验"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "具体开放路段与可进入范围",
+      "当前运营或管理状态",
+      "沿线可独立参观的具体节点信息"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "heritage",
+    "interest_tags": [
+      "history"
+    ],
+    "experience_tags": [
+      "neighborhood_walk",
+      "street_scene"
+    ],
+    "culture_tags": [
+      "modern_shanghai"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_f7089cfec9b2",
+          "e_10311e2495a7"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "neighborhood_walk",
+        "evidence_refs": [
+          "e_10311e2495a7"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "street_scene",
+        "evidence_refs": [
+          "e_fa47b5ee0d05"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_f7089cfec9b2",
+          "e_10311e2495a7"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_f7089cfec9b2",
+      "e_10311e2495a7"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为历史文化名街并位于衡复历史文化风貌区内的街区，具备独立目的地价值，可承载街区漫步主题。",
+      "independent_destination_value": "high",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "名称与政府片段均指向成片历史文化街区，适合作为独立到访的路线主题锚点。",
+        "supporting_stop": "若路线主题为其他风貌区，其街区漫步价值也可作为补充节点，但证据更支持锚点。",
+        "transition_stop": "其成片街区属性超出短暂连接性停留，故不作为首选。"
+      }
+    },
+    "citywalk_value": {
+      "level": "high",
+      "reason": "历史文化名街与风貌区街区片段支持成片步行体验，适合作为城市漫步核心节点。",
+      "evidence_refs": [
+        "e_f7089cfec9b2",
+        "e_10311e2495a7"
+      ]
+    },
+    "summary_draft": {
+      "text": "武康路历史文化名街",
+      "evidence_refs": [
+        "e_f7089cfec9b2"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "武康路-安福路街区位于徐汇区衡复历史文化风貌区内",
+      "evidence_refs": [
+        "e_10311e2495a7"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 20,
+        "standard": 45,
+        "deep": 90
+      },
+      "full_visit": {
+        "quick": 45,
+        "standard": 90,
+        "deep": 180
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "沿武康路历史文化名街及衡复风貌区相关街段的步行体验"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "具体开放路段与可进入范围",
+      "当前运营或管理状态",
+      "沿线可独立参观的具体节点信息"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.207255,
+      121.43993
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3456,
+      "completion_tokens": 742,
+      "total_tokens": 4198,
+      "prompt_tokens_details": {
+        "cached_tokens": 2688
+      },
+      "prompt_cache_hit_tokens": 2688,
+      "prompt_cache_miss_tokens": 768
+    }
+  }
+}

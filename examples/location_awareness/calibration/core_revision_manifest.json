@@ -1,0 +1,11 @@
+{
+  "phase": "3B_2.1",
+  "before_sha256": "6fe891c894995df9aaf9c1c8488d085178399e8cf6d22fe84a87c68e28018782",
+  "after_sha256": "954e3a1084565ae861e474acf4cfbdeb17543c1502aec686b4deaeec2274a966",
+  "authorized_changes": [
+    "p40 deletion and related references",
+    "p4/p11 coordinate pair",
+    "continuous display numbering and counts"
+  ],
+  "core_count": 58
+}

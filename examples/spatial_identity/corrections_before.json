@@ -1,0 +1,42 @@
+{
+  "corrections": [
+    {
+      "core_id": "p4",
+      "name": "鲁迅故居",
+      "old_coordinate": {
+        "lat": 31.2693,
+        "lng": 121.481,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "new_coordinate": {
+        "lat": 31.266045,
+        "lng": 121.484647,
+        "coordinate_system": "GCJ02"
+      },
+      "amap_poi_id": "B0015474E7",
+      "old_to_new_distance_m": 501.1489464815557,
+      "reason": "Project owner confirmed same-name same-district provider parent as the more reliable real-world coordinate.",
+      "reviewed": true,
+      "fetched_at": "2026-10-05T13:30:20.493633+00:00"
+    },
+    {
+      "core_id": "p11",
+      "name": "建业里",
+      "old_coordinate": {
+        "lat": 31.2073,
+        "lng": 121.4562,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "new_coordinate": {
+        "lat": 31.203688,
+        "lng": 121.451802,
+        "coordinate_system": "GCJ02"
+      },
+      "amap_poi_id": "B00156O2YR",
+      "old_to_new_distance_m": 579.8877463749244,
+      "reason": "Project owner confirmed same-name same-district provider parent as the more reliable real-world coordinate.",
+      "reviewed": true,
+      "fetched_at": "2026-10-05T13:30:20.982849+00:00"
+    }
+  ]
+}

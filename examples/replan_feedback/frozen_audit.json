@@ -1,0 +1,21 @@
+{
+  "changed_existing_files": [
+    "src\\clarification.py",
+    "src\\intent_adapter.py",
+    "src\\intent_models.py",
+    "src\\intent_schema.py",
+    "src\\models.py",
+    "src\\route_engine.py",
+    "src\\route_mutation.py",
+    "src\\trip_actions.py",
+    "src\\trip_action_executor.py",
+    "src\\trip_replanning.py",
+    "src\\web_app.py",
+    "src\\web_trip_actions.py"
+  ],
+  "unchanged_existing_files": 755,
+  "core_pois_unchanged": true,
+  "identity_mapping_unchanged": true,
+  "spatial_data_unchanged": true,
+  "trip_state_unchanged": true
+}

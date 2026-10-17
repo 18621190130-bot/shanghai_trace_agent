@@ -1,0 +1,13 @@
+{
+  "source": "osm",
+  "url": "https://overpass-api.de/api/interpreter",
+  "parameters": {
+    "data": "[out:json][timeout:25];(nwr[tourism~\"^(museum|gallery|artwork|attraction|viewpoint)$\"](31.2038,121.4505,31.2501,121.508);nwr[historic](31.2038,121.4505,31.2501,121.508);nwr[leisure~\"^(park|garden|pitch|sports_centre)$\"](31.2038,121.4505,31.2501,121.508);nwr[amenity~\"^(theatre|arts_centre|community_centre)$\"](31.2038,121.4505,31.2501,121.508);nwr[man_made~\"^(pier|crane|works)$\"](31.2038,121.4505,31.2501,121.508);nwr[industrial](31.2038,121.4505,31.2501,121.508);nwr[place=square](31.2038,121.4505,31.2501,121.508);nwr[highway=pedestrian][name](31.2038,121.4505,31.2501,121.508););out center tags;"
+  },
+  "variant": "json-v1",
+  "retrieved_at": "2026-10-04T15:18:58.029159+00:00",
+  "status": "request_failed",
+  "error_type": "HTTPError",
+  "http_status": 504,
+  "attempts": 1
+}

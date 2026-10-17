@@ -1,0 +1,290 @@
+[
+  {
+    "zone": "old_city_central",
+    "candidate_name": "上海人民广场",
+    "query": "上海人民广场",
+    "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+    "status": "success",
+    "results": [
+      {
+        "id": "B00157917M",
+        "name": "上海人民广场",
+        "location": "121.475213,31.228827",
+        "address": "人民大道185号",
+        "type": "风景名胜;公园广场;城市广场",
+        "typecode": "110105",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "黄浦区"
+      },
+      {
+        "id": "BV10024678",
+        "name": "人民广场(地铁站)",
+        "location": "121.475108,31.232687",
+        "address": "1号线;2号线;8号线",
+        "type": "交通设施服务;地铁站;地铁站",
+        "typecode": "150500",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "黄浦区"
+      },
+      {
+        "id": "B0KUNUNG7Y",
+        "name": "人民广场",
+        "location": "121.475233,31.228818",
+        "address": "黄浦区",
+        "type": "地名地址信息;热点地名;热点地名",
+        "typecode": "190700",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "黄浦区"
+      }
+    ]
+  },
+  {
+    "zone": "old_city_central",
+    "candidate_name": "中国社会主义青年团中央机关旧址",
+    "query": "中国社会主义青年团中央机关旧址",
+    "retrieved_at": "2026-10-05T02:25:22.375410+00:00",
+    "status": "success",
+    "results": [
+      {
+        "id": "B0FFFV4AU5",
+        "name": "中国社会主义青年团中央机关旧址纪念馆",
+        "location": "121.468151,31.220489",
+        "address": "淮海中路567弄1-6号(淮海中路地铁站1号口步行370米)",
+        "type": "风景名胜;风景名胜;风景名胜",
+        "typecode": "110200",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "黄浦区"
+      },
+      {
+        "id": "B0MRHABYEI",
+        "name": "中国社会主义青年团中央机关遗址",
+        "location": "121.467418,31.225728",
+        "address": "大沽路400-402号",
+        "type": "风景名胜;风景名胜;风景名胜",
+        "typecode": "110200",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "静安区"
+      }
+    ]
+  },
+  {
+    "zone": "old_city_central",
+    "candidate_name": "大韩民国临时政府旧址",
+    "query": "大韩民国临时政府旧址",
+    "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+    "status": "success",
+    "results": [
+      {
+        "id": "B001556HRR",
+        "name": "大韩民国临时政府旧址",
+        "location": "121.474625,31.217351",
+        "address": "马当路306弄4号",
+        "type": "风景名胜;风景名胜;风景名胜",
+        "typecode": "110200",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "黄浦区"
+      },
+      {
+        "id": "B0FFK6UZXU",
+        "name": "大韩民国临时政府旧址售票处",
+        "location": "121.474663,31.217329",
+        "address": "马当路304号(一大会址·新天地地铁站6号口步行110米)",
+        "type": "生活服务;售票处;公园景点售票处",
+        "typecode": "070306",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "黄浦区"
+      },
+      {
+        "id": "B0FFG96536",
+        "name": "大韩民国临时政府旧址管理处",
+        "location": "121.474625,31.217351",
+        "address": "马当路302-304",
+        "type": "政府机构及社会团体;社会团体;社会团体相关",
+        "typecode": "130400",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "黄浦区"
+      }
+    ]
+  },
+  {
+    "zone": "old_city_central",
+    "candidate_name": "徐光启故居(九间楼)",
+    "query": "徐光启故居 九间楼",
+    "retrieved_at": "2026-10-05T02:25:22.626712+00:00",
+    "status": "provider_error",
+    "results": []
+  },
+  {
+    "zone": "old_city_central",
+    "candidate_name": "东海大楼",
+    "query": "东海大楼",
+    "retrieved_at": "2026-10-05T02:25:22.696648+00:00",
+    "status": "provider_error",
+    "results": []
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "candidate_name": "优秀历史建筑乌鲁木齐南路176号",
+    "query": "乌鲁木齐南路176号",
+    "retrieved_at": "2026-10-05T02:25:22.764342+00:00",
+    "status": "provider_error",
+    "results": []
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "candidate_name": "中南新邨",
+    "query": "中南新邨",
+    "retrieved_at": "2026-10-05T02:25:22.835413+00:00",
+    "status": "provider_error",
+    "results": []
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "candidate_name": "盛宣怀住宅",
+    "query": "盛宣怀住宅",
+    "retrieved_at": "2026-10-05T02:25:22.921432+00:00",
+    "status": "provider_error",
+    "results": []
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "candidate_name": "张乐平",
+    "query": "张乐平故居",
+    "retrieved_at": "2026-10-05T02:25:23.007696+00:00",
+    "status": "provider_error",
+    "results": []
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "candidate_name": "上海交响乐团音乐厅",
+    "query": "上海交响音乐厅",
+    "retrieved_at": "2026-10-05T02:25:23.080008+00:00",
+    "status": "provider_error",
+    "results": []
+  },
+  {
+    "zone": "hongkou_literary",
+    "candidate_name": "李白烈士故居",
+    "query": "李白烈士故居",
+    "retrieved_at": "2026-10-05T02:25:23.150300+00:00",
+    "status": "success",
+    "results": [
+      {
+        "id": "B00155L3BC",
+        "name": "李白烈士故居",
+        "location": "121.481397,31.268021",
+        "address": "黄渡路107弄15号(虹口足球场地铁站6号口步行280米)",
+        "type": "风景名胜;风景名胜;风景名胜",
+        "typecode": "110200",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "虹口区"
+      },
+      {
+        "id": "B0FFG2057P",
+        "name": "李白等十二烈士就义纪念地",
+        "location": "121.550526,31.218087",
+        "address": "花木街道花木街道锦绣路1001号世纪公园内",
+        "type": "风景名胜;风景名胜;纪念馆",
+        "typecode": "110204",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "浦东新区"
+      }
+    ]
+  },
+  {
+    "zone": "hongkou_literary",
+    "candidate_name": "沈尹默故居",
+    "query": "沈尹默故居",
+    "retrieved_at": "2026-10-05T02:25:23.254479+00:00",
+    "status": "success",
+    "results": [
+      {
+        "id": "B00155L3B4",
+        "name": "沈尹默故居",
+        "location": "121.487422,31.258552",
+        "address": "海伦路504号(海伦路地铁站5号口步行210米)",
+        "type": "风景名胜;风景名胜;纪念馆",
+        "typecode": "110204",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "虹口区"
+      },
+      {
+        "id": "B0FFKIZ5CQ",
+        "name": "沈尹默雕像",
+        "location": "121.481955,31.262257",
+        "address": "多伦路文化名人街与多伦路交叉口东20米",
+        "type": "风景名胜;风景名胜;风景名胜",
+        "typecode": "110200",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "虹口区"
+      },
+      {
+        "id": "B0L2RHM7QC",
+        "name": "沈尹默书法艺术馆",
+        "location": "121.439825,31.247325",
+        "address": "江宁路1415弄15号",
+        "type": "科教文化服务;培训机构;培训机构",
+        "typecode": "141400",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "普陀区"
+      }
+    ]
+  },
+  {
+    "zone": "hongkou_literary",
+    "candidate_name": "日本海军特别陆战队司令部旧址",
+    "query": "日本海军特别陆战队司令部旧址",
+    "retrieved_at": "2026-10-05T02:25:23.366505+00:00",
+    "status": "success",
+    "results": [
+      {
+        "id": "B00155MRU8",
+        "name": "日本海军特别陆战队司令部旧址",
+        "location": "121.481639,31.265862",
+        "address": "黄渡路8-6号",
+        "type": "风景名胜;风景名胜;风景名胜",
+        "typecode": "110200",
+        "pname": "上海市",
+        "cityname": "上海市",
+        "adname": "虹口区"
+      }
+    ]
+  },
+  {
+    "zone": "hongkou_literary",
+    "candidate_name": "四川北路文化中心图书馆",
+    "query": "四川北路街道图书馆",
+    "retrieved_at": "2026-10-05T02:25:23.484090+00:00",
+    "status": "provider_error",
+    "results": []
+  },
+  {
+    "zone": "hongkou_literary",
+    "candidate_name": "上海多伦路地区海派文化馆(多伦生活广场店)",
+    "query": "上海多伦路地区海派文化馆(多伦生活广场店)",
+    "retrieved_at": "2026-10-05T02:25:23.565277+00:00",
+    "status": "provider_error",
+    "results": []
+  },
+  {
+    "zone": "hongkou_literary",
+    "candidate_name": "上海多伦现代美术馆",
+    "query": "上海多伦现代美术馆",
+    "retrieved_at": "2026-10-05T02:25:23.632946+00:00",
+    "status": "provider_error",
+    "results": []
+  }
+]

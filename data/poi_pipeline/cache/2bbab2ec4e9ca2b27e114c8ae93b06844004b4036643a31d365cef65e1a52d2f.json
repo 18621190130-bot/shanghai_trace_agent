@@ -1,0 +1,1395 @@
+{
+  "source": "osm",
+  "url": "https://overpass-api.de/api/interpreter",
+  "parameters": {
+    "data": "[out:json][timeout:25];(nwr[tourism~\"^(museum|gallery|artwork|attraction|viewpoint)$\"](31.155,121.452,31.198,121.478);nwr[historic](31.155,121.452,31.198,121.478);nwr[leisure~\"^(park|garden|pitch|sports_centre)$\"](31.155,121.452,31.198,121.478);nwr[amenity~\"^(theatre|arts_centre|community_centre)$\"](31.155,121.452,31.198,121.478);nwr[man_made~\"^(pier|crane|works)$\"](31.155,121.452,31.198,121.478);nwr[industrial](31.155,121.452,31.198,121.478);nwr[place=square](31.155,121.452,31.198,121.478);nwr[highway=pedestrian][name](31.155,121.452,31.198,121.478););out center tags;"
+  },
+  "variant": "json-v1",
+  "retrieved_at": "2026-10-04T07:39:00.888076+00:00",
+  "response": {
+    "version": 0.6,
+    "generator": "Overpass API 0.7.62.11 87bfad18",
+    "osm3s": {
+      "timestamp_osm_base": "2026-10-04T07:37:25Z",
+      "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+    },
+    "elements": [
+      {
+        "type": "node",
+        "id": 3126004579,
+        "lat": 31.1859164,
+        "lon": 121.4601929,
+        "tags": {
+          "addr:city": "上海",
+          "addr:housenumber": "3398",
+          "addr:street": "龙腾大道",
+          "name": "龙美术馆（西岸馆）",
+          "name:en": "Long Museum West Bund",
+          "phone": "+86 21 6877 8787",
+          "tourism": "museum",
+          "website": "http://thelongmuseum.org/",
+          "wheelchair": "yes",
+          "wikidata": "Q111896175"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4397142594,
+        "lat": 31.1838797,
+        "lon": 121.4601825,
+        "tags": {
+          "man_made": "crane"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4397142598,
+        "lat": 31.1861971,
+        "lon": 121.4617806,
+        "tags": {
+          "man_made": "crane"
+        }
+      },
+      {
+        "type": "node",
+        "id": 4607327691,
+        "lat": 31.183756,
+        "lon": 121.4598266,
+        "tags": {
+          "climbing:boulder": "yes",
+          "description": "Climbing wall",
+          "leisure": "pitch",
+          "sport": "climbing"
+        }
+      },
+      {
+        "type": "node",
+        "id": 6796216885,
+        "lat": 31.1665266,
+        "lon": 121.4594047,
+        "tags": {
+          "addr:housenumber": "2350",
+          "addr:postcode": "200235",
+          "addr:street": "龙腾大道",
+          "name": "油罐艺术中心",
+          "name:en": "Tank Shanghai",
+          "tourism": "museum"
+        }
+      },
+      {
+        "type": "node",
+        "id": 7417144821,
+        "lat": 31.1864536,
+        "lon": 121.4618899,
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        }
+      },
+      {
+        "type": "node",
+        "id": 8542957518,
+        "lat": 31.1828031,
+        "lon": 121.4649486,
+        "tags": {
+          "addr:housenumber": "2200号",
+          "addr:street": "世博大道",
+          "name": "后滩滨江",
+          "name:en": "Houtan Riverside",
+          "name:ru": "Хоутан Биньцзян",
+          "old_name": "后滩公园",
+          "tourism": "attraction"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10234994516,
+        "lat": 31.1892413,
+        "lon": 121.465387,
+        "tags": {
+          "man_made": "crane"
+        }
+      },
+      {
+        "type": "node",
+        "id": 10235009517,
+        "lat": 31.1896316,
+        "lon": 121.4660337,
+        "tags": {
+          "man_made": "crane"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11189878484,
+        "lat": 31.1973816,
+        "lon": 121.4598303,
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11204366617,
+        "lat": 31.1976759,
+        "lon": 121.4588528,
+        "tags": {
+          "amenity": "community_centre",
+          "name": "斜土社区文化活动中心"
+        }
+      },
+      {
+        "type": "node",
+        "id": 11204388844,
+        "lat": 31.1897482,
+        "lon": 121.4657123,
+        "tags": {
+          "historic": "monument",
+          "name": "南浦站",
+          "name:en": "Nampo Station"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12802472267,
+        "lat": 31.18026,
+        "lon": 121.4704027,
+        "tags": {
+          "name": "上海温室花园",
+          "name:en": "Shanghai Greenhouse Garden",
+          "name:ru": "Шанхайский тепличный сад",
+          "tourism": "attraction"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12850656766,
+        "lat": 31.1832992,
+        "lon": 121.4743742,
+        "tags": {
+          "artwork_type": "statue",
+          "material": "plastic",
+          "name": "海宝",
+          "tourism": "artwork"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12850656767,
+        "lat": 31.1825877,
+        "lon": 121.4719905,
+        "tags": {
+          "artwork_type": "statue",
+          "material": "metal",
+          "name": "圆梦",
+          "name:en": "Dream come true",
+          "tourism": "artwork"
+        }
+      },
+      {
+        "type": "node",
+        "id": 12850656807,
+        "lat": 31.1844482,
+        "lon": 121.4778933,
+        "tags": {
+          "name": "舞动广场",
+          "name:en": "Dancing Square",
+          "place": "plaza",
+          "tourism": "attraction"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13077641178,
+        "lat": 31.1703504,
+        "lon": 121.4598014,
+        "tags": {
+          "artist_name": "郭熙",
+          "artwork_type": "installation",
+          "name": "无尽影院",
+          "name:en": "A Film Endless",
+          "tourism": "artwork"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13077782880,
+        "lat": 31.1864547,
+        "lon": 121.4525679,
+        "tags": {
+          "artist_name": "Romero Britto",
+          "tourism": "artwork"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13092021311,
+        "lat": 31.1633666,
+        "lon": 121.4607221,
+        "tags": {
+          "addr:city": "上海市",
+          "addr:district": "徐汇区",
+          "addr:housenumber": "2266",
+          "addr:postcode": "200000",
+          "addr:province": "上海市",
+          "addr:street": "龙腾大道",
+          "amenity": "theatre",
+          "level": "3",
+          "mobile": "+86 19117373734",
+          "name": "瓦肆 VAS est",
+          "official_name": "瓦肆 VAS est",
+          "official_name:en": "VAS est",
+          "website": "https://www.instagram.com/vasculture_official/"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13100182892,
+        "lat": 31.1866151,
+        "lon": 121.4745417,
+        "tags": {
+          "alt_name": "罗丹艺术中心",
+          "name": "罗丹艺术文化发展中心",
+          "name:en": "Centre d'Art Rodin",
+          "tourism": "gallery",
+          "wikidata": "Q22100461",
+          "wikipedia": "zh:罗丹艺术文化发展中心"
+        }
+      },
+      {
+        "type": "node",
+        "id": 13937614319,
+        "lat": 31.1895936,
+        "lon": 121.4652257,
+        "tags": {
+          "historic": "locomotive"
+        }
+      },
+      {
+        "type": "node",
+        "id": 14026973901,
+        "lat": 31.1808923,
+        "lon": 121.471286,
+        "tags": {
+          "leisure": "park",
+          "name": "оранжерея"
+        }
+      },
+      {
+        "type": "way",
+        "id": 296002085,
+        "center": {
+          "lat": 31.1961518,
+          "lon": 121.452335
+        },
+        "tags": {
+          "leisure": "pitch"
+        }
+      },
+      {
+        "type": "way",
+        "id": 298135192,
+        "center": {
+          "lat": 31.1693531,
+          "lon": 121.4671922
+        },
+        "tags": {
+          "access": "no",
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 298701344,
+        "center": {
+          "lat": 31.1972777,
+          "lon": 121.4605164
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 298742813,
+        "center": {
+          "lat": 31.1933028,
+          "lon": 121.4561093
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 298742825,
+        "center": {
+          "lat": 31.1925321,
+          "lon": 121.4604327
+        },
+        "tags": {
+          "leisure": "pitch"
+        }
+      },
+      {
+        "type": "way",
+        "id": 298768212,
+        "center": {
+          "lat": 31.1942998,
+          "lon": 121.4559845
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        }
+      },
+      {
+        "type": "way",
+        "id": 298960783,
+        "center": {
+          "lat": 31.1913746,
+          "lon": 121.4578604
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 299012534,
+        "center": {
+          "lat": 31.1945405,
+          "lon": 121.4709937
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "南园公园",
+          "name:en": "Nanyuan Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 304754415,
+        "center": {
+          "lat": 31.1953498,
+          "lon": 121.4531287
+        },
+        "tags": {
+          "leisure": "sports_centre",
+          "name": "徐汇游泳馆",
+          "sport": "swimming"
+        }
+      },
+      {
+        "type": "way",
+        "id": 307455604,
+        "center": {
+          "lat": 31.1693193,
+          "lon": 121.457005
+        },
+        "tags": {
+          "addr:city": "上海",
+          "addr:housenumber": "2555",
+          "addr:postcode": "20032",
+          "addr:street": "龙腾大道",
+          "building": "yes",
+          "name": "西岸艺术中心",
+          "name:en": "West Bund Art Center",
+          "tourism": "museum"
+        }
+      },
+      {
+        "type": "way",
+        "id": 321093879,
+        "center": {
+          "lat": 31.1651353,
+          "lon": 121.4600004
+        },
+        "tags": {
+          "amenity": "theatre",
+          "building": "yes",
+          "name": "西岸穹顶艺术中心",
+          "name:en": "West Bund Dome"
+        }
+      },
+      {
+        "type": "way",
+        "id": 350242039,
+        "center": {
+          "lat": 31.1930094,
+          "lon": 121.4699784
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "南园滨江绿地-东区",
+          "name:en": "Nanyuan Binjiang Park-East District"
+        }
+      },
+      {
+        "type": "way",
+        "id": 404677930,
+        "center": {
+          "lat": 31.1893016,
+          "lon": 121.4799648
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "上海世博公园",
+          "name:en": "Shanghai Expo Park",
+          "name:zh": "上海世博公园",
+          "phone": "+86 21 6333 6207",
+          "wikidata": "Q7488439",
+          "wikimedia_commons": "Category:Shanghai Expo Park",
+          "wikipedia": "en:Shanghai Expo Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 404680079,
+        "center": {
+          "lat": 31.1580417,
+          "lon": 121.4725153
+        },
+        "tags": {
+          "addr:city": "shanghai",
+          "addr:street": "耀体路",
+          "leisure": "sports_centre",
+          "name": "上海东方体育中心",
+          "name:en": "Shanghai Oriental Sports Centre",
+          "name:zh": "东方体育中心",
+          "source": "bing map and local knowledge"
+        }
+      },
+      {
+        "type": "way",
+        "id": 447994728,
+        "center": {
+          "lat": 31.1565062,
+          "lon": 121.472008
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        }
+      },
+      {
+        "type": "way",
+        "id": 447994729,
+        "center": {
+          "lat": 31.1569372,
+          "lon": 121.4704858
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        }
+      },
+      {
+        "type": "way",
+        "id": 447994731,
+        "center": {
+          "lat": 31.1574737,
+          "lon": 121.4685622
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        }
+      },
+      {
+        "type": "way",
+        "id": 447994732,
+        "center": {
+          "lat": 31.1571965,
+          "lon": 121.4695615
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "tennis"
+        }
+      },
+      {
+        "type": "way",
+        "id": 450545076,
+        "center": {
+          "lat": 31.1585969,
+          "lon": 121.4679323
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "前滩公园",
+          "name:en": "Qiantan Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 450546969,
+        "center": {
+          "lat": 31.1520398,
+          "lon": 121.46064
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "前滩休闲公园",
+          "name:en": "Qiantan Leisure Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 488984509,
+        "center": {
+          "lat": 31.1698764,
+          "lon": 121.4583984
+        },
+        "tags": {
+          "addr:housenumber": "2555",
+          "addr:street": "龙腾大道",
+          "alt_name": "SCôP",
+          "building": "yes",
+          "name": "Shanghai Center of Photography",
+          "opening_hours": "Tu-Su 10:30-17:30",
+          "tourism": "museum"
+        }
+      },
+      {
+        "type": "way",
+        "id": 490656166,
+        "center": {
+          "lat": 31.1963919,
+          "lon": 121.4775766
+        },
+        "tags": {
+          "addr:city": "上海市",
+          "addr:housenumber": "818",
+          "addr:postcode": "200023",
+          "addr:street": "蒙自路",
+          "name": "世博会博物馆",
+          "name:en": "World Expo Museum",
+          "name:zh": "世博会博物馆",
+          "name:zh-Hans": "世博会博物馆",
+          "name:zh-Hant": "世博會博物館",
+          "opening_hours": "Tu-Su 09:00-17:00",
+          "phone": "+86 21 2313 2818",
+          "start_date": "2017-05-01",
+          "tourism": "museum",
+          "website": "http://www.expo-museum.cn/sbbwg/n55/index.html",
+          "wikidata": "Q16858547"
+        }
+      },
+      {
+        "type": "way",
+        "id": 543033477,
+        "center": {
+          "lat": 31.1724998,
+          "lon": 121.4574083
+        },
+        "tags": {
+          "building": "yes",
+          "check_date": "2026-04-19",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 694647240,
+        "center": {
+          "lat": 31.1864064,
+          "lon": 121.4638973
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "上海市滨江滑板公园",
+          "name:en": "Shanghai Riverside Skateboard Park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 694651521,
+        "center": {
+          "lat": 31.1847328,
+          "lon": 121.453935
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 694651536,
+        "center": {
+          "lat": 31.1842995,
+          "lon": 121.4545714
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 694651537,
+        "center": {
+          "lat": 31.1852616,
+          "lon": 121.4544729
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 694651538,
+        "center": {
+          "lat": 31.1852167,
+          "lon": 121.4539473
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 694651539,
+        "center": {
+          "lat": 31.1847563,
+          "lon": 121.4534611
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 694651540,
+        "center": {
+          "lat": 31.1849391,
+          "lon": 121.4536948
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 694651541,
+        "center": {
+          "lat": 31.1850646,
+          "lon": 121.4549063
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 694651544,
+        "center": {
+          "lat": 31.183926,
+          "lon": 121.4528646
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 700036316,
+        "center": {
+          "lat": 31.1767627,
+          "lon": 121.4636769
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        }
+      },
+      {
+        "type": "way",
+        "id": 725029867,
+        "center": {
+          "lat": 31.1664591,
+          "lon": 121.4599554
+        },
+        "tags": {
+          "building": "yes",
+          "name": "油罐艺术中心",
+          "name:en": "TANK Shanghai",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 725029868,
+        "center": {
+          "lat": 31.1669023,
+          "lon": 121.4598688
+        },
+        "tags": {
+          "building": "yes",
+          "name": "油罐艺术中心",
+          "name:en": "TANK Shanghai",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 725029869,
+        "center": {
+          "lat": 31.1672176,
+          "lon": 121.4587055
+        },
+        "tags": {
+          "building": "yes",
+          "name": "油罐艺术中心",
+          "name:en": "TANK Shanghai",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 725029870,
+        "center": {
+          "lat": 31.1668825,
+          "lon": 121.4592299
+        },
+        "tags": {
+          "building": "yes",
+          "name": "油罐艺术中心",
+          "name:en": "TANK Shanghai",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 745277161,
+        "center": {
+          "lat": 31.1699264,
+          "lon": 121.4575086
+        },
+        "tags": {
+          "building": "yes",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 745277168,
+        "center": {
+          "lat": 31.1696238,
+          "lon": 121.4592939
+        },
+        "tags": {
+          "addr:housenumber": "2600",
+          "addr:street": "龙腾大道",
+          "building": "yes",
+          "name": "西岸美术馆x蓬皮杜中心",
+          "name:en": "West Bund Museum",
+          "name:ru": "мультимедийное шоу планета динозавров",
+          "opening_hours": "Tu-Su 10:00-17:00",
+          "phone": "+862131011011",
+          "tourism": "museum",
+          "website": "http://www.westbund.com/en"
+        }
+      },
+      {
+        "type": "way",
+        "id": 745536118,
+        "center": {
+          "lat": 31.1665646,
+          "lon": 121.4593761
+        },
+        "tags": {
+          "building": "yes",
+          "name": "油罐艺术中心",
+          "name:en": "TANK Shanghai",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 745536121,
+        "center": {
+          "lat": 31.1668175,
+          "lon": 121.4593589
+        },
+        "tags": {
+          "building": "yes",
+          "name": "油罐艺术中心",
+          "name:en": "TANK Shanghai",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 793718848,
+        "center": {
+          "lat": 31.1870414,
+          "lon": 121.4621964
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "skateboard"
+        }
+      },
+      {
+        "type": "way",
+        "id": 841717351,
+        "center": {
+          "lat": 31.1674485,
+          "lon": 121.4611034
+        },
+        "tags": {
+          "area": "yes",
+          "man_made": "pier"
+        }
+      },
+      {
+        "type": "way",
+        "id": 863990755,
+        "center": {
+          "lat": 31.1632281,
+          "lon": 121.4621879
+        },
+        "tags": {
+          "official_name": "西岸梦中心",
+          "official_name:en": "GATE M West Bund Dream Center",
+          "tourism": "viewpoint"
+        }
+      },
+      {
+        "type": "way",
+        "id": 863990759,
+        "center": {
+          "lat": 31.1654067,
+          "lon": 121.4612121
+        },
+        "tags": {
+          "amenity": "theatre",
+          "building": "yes",
+          "name": "西岸大剧院",
+          "name:en": "West Bund Theatre",
+          "website": "https://www.shwbtheatre.com/",
+          "wikidata": "Q137653487",
+          "wikipedia": "zh:上海西岸大剧院"
+        }
+      },
+      {
+        "type": "way",
+        "id": 863990763,
+        "center": {
+          "lat": 31.1660897,
+          "lon": 121.4593202
+        },
+        "tags": {
+          "building": "yes",
+          "name": "油罐艺术中心",
+          "name:en": "TANK Shanghai",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 870546902,
+        "center": {
+          "lat": 31.1749988,
+          "lon": 121.4578742
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 870546903,
+        "center": {
+          "lat": 31.1659562,
+          "lon": 121.460201
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 871722895,
+        "center": {
+          "lat": 31.1706788,
+          "lon": 121.4753614
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "济阳公园"
+        }
+      },
+      {
+        "type": "way",
+        "id": 871722896,
+        "center": {
+          "lat": 31.1646629,
+          "lon": 121.4768112
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 916084381,
+        "center": {
+          "lat": 31.1969442,
+          "lon": 121.4600047
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "soccer"
+        }
+      },
+      {
+        "type": "way",
+        "id": 985832361,
+        "center": {
+          "lat": 31.1951715,
+          "lon": 121.4766623
+        },
+        "tags": {
+          "building": "yes",
+          "name": "中国乒乓球博物馆",
+          "name:zh": "中国乒乓球博物馆",
+          "name:zh-Hans": "中国乒乓球博物馆",
+          "name:zh-Hant": "中國乒乓球博物館",
+          "tourism": "museum"
+        }
+      },
+      {
+        "type": "way",
+        "id": 985832362,
+        "center": {
+          "lat": 31.1935728,
+          "lon": 121.4719429
+        },
+        "tags": {
+          "building": "yes",
+          "name": "卢湾城市规划展览馆",
+          "name:ru": "Луван градостроительный выставочный зал",
+          "tourism": "museum"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1064372325,
+        "center": {
+          "lat": 31.1955046,
+          "lon": 121.4747618
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1064372326,
+        "center": {
+          "lat": 31.1958711,
+          "lon": 121.4746365
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1064372327,
+        "center": {
+          "lat": 31.1962732,
+          "lon": 121.4744554
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1064372328,
+        "center": {
+          "lat": 31.19679,
+          "lon": 121.4742241
+        },
+        "tags": {
+          "leisure": "garden"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1211499394,
+        "center": {
+          "lat": 31.1711051,
+          "lon": 121.4531086
+        },
+        "tags": {
+          "leisure": "park",
+          "name": "徐汇跑道公园"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1271909272,
+        "center": {
+          "lat": 31.1663258,
+          "lon": 121.4594095
+        },
+        "tags": {
+          "building": "yes",
+          "name": "油罐艺术中心",
+          "name:en": "TANK Shanghai",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1271909276,
+        "center": {
+          "lat": 31.1897078,
+          "lon": 121.4657097
+        },
+        "tags": {
+          "building": "yes",
+          "name": "星美术馆",
+          "name:en": "Start Art Gallery",
+          "tourism": "gallery"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1316877732,
+        "center": {
+          "lat": 31.1833292,
+          "lon": 121.4745983
+        },
+        "tags": {
+          "highway": "pedestrian",
+          "name": "时光印记大道"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1316877742,
+        "center": {
+          "lat": 31.1806591,
+          "lon": 121.4663903
+        },
+        "tags": {
+          "amenity": "theatre",
+          "building": "yes",
+          "name": "上海大歌剧院",
+          "name:en": "Shanghai Grand Opera House"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1332568024,
+        "center": {
+          "lat": 31.1629392,
+          "lon": 121.4728472
+        },
+        "tags": {
+          "leisure": "pitch"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1332568075,
+        "center": {
+          "lat": 31.163228,
+          "lon": 121.4753362
+        },
+        "tags": {
+          "leisure": "park"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1341493660,
+        "center": {
+          "lat": 31.1783867,
+          "lon": 121.4661076
+        },
+        "tags": {
+          "amenity": "theatre",
+          "theatre:type": "amphi"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1341493697,
+        "center": {
+          "lat": 31.1819305,
+          "lon": 121.4695708
+        },
+        "tags": {
+          "amenity": "theatre",
+          "theatre:type": "amphi"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1375762975,
+        "center": {
+          "lat": 31.1618012,
+          "lon": 121.4696785
+        },
+        "tags": {
+          "amenity": "arts_centre",
+          "building": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1375762976,
+        "center": {
+          "lat": 31.1616289,
+          "lon": 121.4704486
+        },
+        "tags": {
+          "amenity": "arts_centre",
+          "building": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1375762977,
+        "center": {
+          "lat": 31.1616531,
+          "lon": 121.470113
+        },
+        "tags": {
+          "amenity": "arts_centre",
+          "building": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1375762982,
+        "center": {
+          "lat": 31.1609101,
+          "lon": 121.472522
+        },
+        "tags": {
+          "amenity": "arts_centre",
+          "building": "yes"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1376876640,
+        "center": {
+          "lat": 31.1848817,
+          "lon": 121.4590833
+        },
+        "tags": {
+          "building": "yes",
+          "name": "西岸漩心",
+          "name:en": "West Bund Orbit",
+          "tourism": "museum"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1382603242,
+        "center": {
+          "lat": 31.1741656,
+          "lon": 121.463996
+        },
+        "tags": {
+          "area": "yes",
+          "man_made": "pier"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1382603243,
+        "center": {
+          "lat": 31.1718494,
+          "lon": 121.4650117
+        },
+        "tags": {
+          "area": "yes",
+          "man_made": "pier"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1382603244,
+        "center": {
+          "lat": 31.1715114,
+          "lon": 121.4651503
+        },
+        "tags": {
+          "area": "yes",
+          "man_made": "pier"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1382603247,
+        "center": {
+          "lat": 31.1666358,
+          "lon": 121.4669131
+        },
+        "tags": {
+          "area": "yes",
+          "man_made": "pier"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1388253664,
+        "center": {
+          "lat": 31.1809976,
+          "lon": 121.473066
+        },
+        "tags": {
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "十一孔桥",
+          "name:en": "Eleven Holes Bridge",
+          "tourism": "attraction"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1424561266,
+        "center": {
+          "lat": 31.17606,
+          "lon": 121.4531909
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1424561267,
+        "center": {
+          "lat": 31.176084,
+          "lon": 121.4533816
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "basketball"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1424561268,
+        "center": {
+          "lat": 31.1761069,
+          "lon": 121.4535638
+        },
+        "tags": {
+          "leisure": "pitch",
+          "sport": "tennis"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1425238001,
+        "center": {
+          "lat": 31.1886009,
+          "lon": 121.4744515
+        },
+        "tags": {
+          "layer": "1",
+          "man_made": "bridge",
+          "name": "观江挑台",
+          "name:ru": "Посмотрите на реку и выберите платформу",
+          "tourism": "attraction"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1497058203,
+        "center": {
+          "lat": 31.182974,
+          "lon": 121.4531263
+        },
+        "tags": {
+          "access": "permissive",
+          "leisure": "pitch",
+          "lit": "yes",
+          "sport": "soccer",
+          "surface": "artificial_turf"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1497058204,
+        "center": {
+          "lat": 31.18278,
+          "lon": 121.4533687
+        },
+        "tags": {
+          "access": "permissive",
+          "leisure": "pitch",
+          "lit": "yes",
+          "sport": "basketball",
+          "surface": "tartan"
+        }
+      },
+      {
+        "type": "way",
+        "id": 1497058205,
+        "center": {
+          "lat": 31.1828147,
+          "lon": 121.4533818
+        },
+        "tags": {
+          "access": "permissive",
+          "leisure": "pitch",
+          "lit": "yes",
+          "sport": "basketball",
+          "surface": "tartan"
+        }
+      },
+      {
+        "type": "relation",
+        "id": 9653742,
+        "center": {
+          "lat": 31.1859148,
+          "lon": 121.4602152
+        },
+        "tags": {
+          "building": "yes",
+          "layer": "1",
+          "name": "龙美术馆",
+          "name:en": "Long Museum",
+          "tourism": "museum",
+          "type": "multipolygon"
+        }
+      },
+      {
+        "type": "relation",
+        "id": 18069663,
+        "center": {
+          "lat": 31.1815542,
+          "lon": 121.4712859
+        },
+        "tags": {
+          "addr:city": "上海市",
+          "addr:district": "浦东新区",
+          "addr:housenumber": "100",
+          "addr:province": "上海",
+          "addr:street": "济坤路",
+          "leisure": "park",
+          "name": "世博文化公园",
+          "name:en": "Shanghai Expo Cultural Park",
+          "name:zh": "世博文化公园",
+          "type": "multipolygon",
+          "wikidata": "Q125245263",
+          "wikipedia": "zh:上海世博文化公园"
+        }
+      }
+    ]
+  },
+  "response_hash": "a3919631fb67faa5c2468ad3af2ee0f3a12fd7d74d8aa51976ba7b30957e4b73"
+}

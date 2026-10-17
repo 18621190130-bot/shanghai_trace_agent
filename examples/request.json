@@ -1,0 +1,12 @@
+{
+  "available_minutes": 180,
+  "travel_pace": "standard",
+  "preferred_zone": "wukang_fuxing_xujiahui",
+  "interest_tags": ["architecture", "local_life"],
+  "experience_tags": ["neighborhood_walk"],
+  "must_go_poi_ids": ["p13"],
+  "visit_mode_overrides": {"p13": "walk_stop"},
+  "max_walking_km": 3,
+  "avoid_crowds": true,
+  "environment_preference": "outdoor"
+}

@@ -1,0 +1,107 @@
+[
+  {
+    "entity_id": "wukang_fuxing_xujiahui_320960b28417ae2d",
+    "parent_node": "wukang_fuxing_xujiahui_3fc25cc02c92902b",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_909c823e7acf0fbb",
+    "parent_node": "wukang_fuxing_xujiahui_3e8dba2a3d5e8079",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_b8e06482f6c42f1c",
+    "parent_node": "wukang_fuxing_xujiahui_41af94b49b4d8316",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_9c239951cc50bb25",
+    "parent_node": "wukang_fuxing_xujiahui_88f103a68fc85401",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_c948a69ebb7166c4",
+    "parent_node": "wukang_fuxing_xujiahui_9f486559ec39066b",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_5f430ebf60cff5c1",
+    "parent_node": "wukang_fuxing_xujiahui_59213dcc45e6c287",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_8ea69dfac6608e78",
+    "parent_node": "wukang_fuxing_xujiahui_59213dcc45e6c287",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_f70a9cc9fd8b6011",
+    "parent_node": "wukang_fuxing_xujiahui_611579dcd8f2999c",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_a5350fd9de32e306",
+    "parent_node": "wukang_fuxing_xujiahui_4ab7f5eeada81157",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_b2e83b78d483f1e3",
+    "parent_node": "wukang_fuxing_xujiahui_1776f6c0edc2f723",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_06056ba393e3d543",
+    "parent_node": "wukang_fuxing_xujiahui_6813e50b550d36b6",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_a8ee6013be2c6e1b",
+    "parent_node": "wukang_fuxing_xujiahui_6813e50b550d36b6",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_cb06179c0ad22a5a",
+    "parent_node": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_471363e1c51d85bb",
+    "parent_node": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "wukang_fuxing_xujiahui_f3d87fbdeeca525c",
+    "parent_node": "wukang_fuxing_xujiahui_836f6bfc01af319b",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  }
+]

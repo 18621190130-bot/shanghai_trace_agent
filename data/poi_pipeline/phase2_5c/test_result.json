@@ -1,0 +1,8 @@
+{
+  "command": "python -m unittest discover -s tests -t . -q",
+  "status": "passed",
+  "exit_code": 0,
+  "tests_run": 317,
+  "elapsed_seconds": 10.645,
+  "input_digest": "934dad51c101246d5138e89177527f76513d52af02be6bc12d2be71f08be8211"
+}

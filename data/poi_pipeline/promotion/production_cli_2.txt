@@ -1,0 +1,72 @@
+POI KB: production
+POI Count: 59
+West Bund Route Nodes: 13
+
+Wukang–Fuxing–Xujiahui / 武康—复兴—徐家汇
+  #1 Yongkang Road × Jiashan Road / 永康路与嘉善路口
+  #7 Jianyeli / 建业里
+  #8 Shannan Village / 陕南邨
+  #9 Wukang Mansion / 武康大楼
+  #14 Former Residence of Soong Ching-ling in Shanghai / 上海宋庆龄故居纪念馆
+  #24 St. Ignatius Cathedral / Xujiahui Cathedral / 徐家汇天主堂
+  #25 Zikawei Library / Xujiahui Academy / 徐家汇书院
+  #27 Xujiahui Commercial District / 徐家汇商圈
+  #36 Shanghai Museum of Arts And Crafts / 上海工艺美术博物馆
+  #44 武康路历史文化名街 / 武康路历史文化名街
+  #45 Hengshan Park / 衡山公园
+  #46 Xiangyang Park / 襄阳公园
+  #51 安康公寓（乌鲁木齐南路176号） / 安康公寓（乌鲁木齐南路176号）
+  #52 中南新邨 / 中南新邨
+  #53 Zhang Leping Former Residence / 张乐平故居
+  #54 Shanghai Symphony Hall / 上海交响乐团音乐厅
+  #55 Xujiahui Park / 徐家汇公园
+
+Old City–Xintiandi–Bund / 老城厢—新天地—外滩
+  #4 Xintiandi North Block (Shikumen) / 新天地北里（石库门街区）
+  #5 Zhangyuan / 张园
+  #10 The Bund · Chen Yi Square / 外滩·陈毅广场
+  #11 Yu Garden / 豫园
+  #13 Shanghai City God Temple / 上海城隍庙
+  #15 Sinan Mansions / 思南公馆
+  #16 Memorial of the First National Congress of the CPC / 中共一大纪念馆
+  #26 Nanjing Road Pedestrian Street / 南京路步行街
+  #37 Gucheng Park / 古城公园
+  #41 Taipingqiao Park / 太平桥公园
+  #42 Huaihai Park / 淮海公园
+  #43 Fuxing Park / 复兴公园
+  #48 People's Square / 上海人民广场
+  #49 福州路 / 福州路
+  #50 Former site of the Provisional Government of the Republic of Korea / 大韩民国临时政府旧址
+
+Lu Xun Park–North Sichuan Road / 鲁迅公园—四川北路
+  #2 Lu Xun Former Residence / 鲁迅故居
+  #6 Jinchao 8 Lanes / 今潮8弄
+  #12 Lu Xun Park / 鲁迅公园
+  #17 1927 Lu Xun & Uchiyama Memorial Bookstore / 1927·鲁迅与内山纪念书局
+  #18 Memorial Site of the League of Left-Wing Writers / 中国左翼作家联盟会址纪念馆
+  #19 1933 Old Millfun / 1933老场坊
+  #38 North Sichuan Road Park / 四川北路公园
+  #39 多伦路文化名人街 / 多伦路文化名人街
+  #40 甜爱路 / 甜爱路
+  #47 山阴路274弄 / 山阴路274弄
+  #56 李白烈士故居 / 李白烈士故居
+  #57 Shen Yinmo's Former Residence / 沈尹默故居
+  #58 日本海军特别陆战队司令部旧址 / 日本海军特别陆战队司令部旧址
+  #59 上海多伦现代美术馆 / 上海多伦现代美术馆
+
+West Bund Waterfront / 徐汇西岸滨江
+  #3 Long Museum (West Bund) / 龙美术馆（西岸馆）
+  #20 West Bund Museum / 西岸美术馆
+  #21 TANK Shanghai / 上海油罐艺术中心
+  #22 Gate M West Bund Dream Center / Gate M 西岸梦中心
+  #23 START Museum / 星美术馆
+  #28 West Bund Art Center / 西岸艺术中心
+  #29 West Bund Dome Art Center (including North Plaza) / 西岸穹顶艺术中心（含北广场）
+  #30 Riverside Skateboard Park / 滨江滑板公园
+  #31 Xuhui Runway Park / 徐汇跑道公园
+  #32 Shanghai Center of Photography / 上海摄影艺术中心
+  #33 Xuhui Riverside Maritime Tower Square / 徐汇滨江海事塔广场
+  #34 Beipiao Wharf Crane / 北票码头塔吊
+  #35 West Bund Theatre / 西岸大剧院
+
+Choose across any areas. Separate names or display numbers with semicolons.

@@ -1,0 +1,75 @@
+{
+  "status": "READY_FOR_PRODUCTION_PROMOTION",
+  "nodes": 62,
+  "new_nodes": 15,
+  "removed": [
+    "pz_f2fffcd2526c"
+  ],
+  "checks": {
+    "protected_files": true,
+    "frozen_remaining_nodes": true,
+    "only_explicit_removal": true,
+    "west_bund_13": true,
+    "existing_core_regression": true,
+    "no_previously_successful_request_regressed": true,
+    "cross_modes": true,
+    "parks_not_dominant": true,
+    "texture_increased_all_three": true,
+    "square_human_approved": true,
+    "no_fake_richness": true,
+    "full_tests": true
+  },
+  "remaining_blockers": [],
+  "known_coverage_limitations": [
+    {
+      "zone": "old_city_central",
+      "kind": "theme",
+      "case": "old_city_life",
+      "status": "insufficient_route",
+      "stops": 1,
+      "reason": [
+        "fewer than three suitable stops"
+      ]
+    },
+    {
+      "zone": "old_city_central",
+      "kind": "duration",
+      "case": 120,
+      "status": "insufficient_route",
+      "stops": 2,
+      "reason": [
+        "fewer than three suitable stops"
+      ]
+    }
+  ],
+  "zone_counts": {
+    "wukang_fuxing_xujiahui": 17,
+    "hongkou_literary": 15,
+    "west_bund": 13,
+    "old_city_central": 17
+  },
+  "candidate_sha256": "8ff0bcac4bed8d023661f6a22dfdcb6e9dc86c4f008caa0412bf4d3453a000bb",
+  "full_tests": {
+    "successful": true,
+    "runs": [
+      {
+        "command": "python -m unittest discover -s tests -t . -q",
+        "exit_code": 0,
+        "tests_run": 372,
+        "elapsed_seconds": 12.594
+      },
+      {
+        "command": "python -m scripts.verify_all_zones",
+        "exit_code": 0,
+        "tests_run": 372,
+        "elapsed_seconds": 13.411,
+        "failures": 0,
+        "errors": 0,
+        "successful": true
+      }
+    ],
+    "completed_at": "2026-10-05T02:59:13.497162+00:00",
+    "validation_fingerprint": "aa706a5405385d390e108ab1c2f46b92d972de6eb4618a5d2d06266caf4b057b"
+  },
+  "completed_at": "2026-10-05T02:59:42.025819+00:00"
+}

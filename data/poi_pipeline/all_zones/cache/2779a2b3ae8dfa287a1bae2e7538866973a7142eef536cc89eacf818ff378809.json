@@ -1,0 +1,41 @@
+{
+  "source": "official",
+  "url": "https://www.shanghai.gov.cn/gwk/search/content/cfa0770c-00d3-4733-ae5a-93ec852c1541",
+  "parameters": {},
+  "variant": "official-substantive-v2:襄阳公园",
+  "retrieved_at": "2026-10-04T15:17:50.847616+00:00",
+  "response": {
+    "excerpts": {
+      "襄阳公园": [
+        "衡山公园、襄阳公园、康健园、光启公园、东安公园、跑道公园"
+      ]
+    },
+    "links": [
+      {
+        "href": "/index.html",
+        "label": "首页"
+      },
+      {
+        "href": "/gwk/search/index",
+        "label": "主动公开公文库"
+      },
+      {
+        "href": "#",
+        "label": "大"
+      },
+      {
+        "href": "#",
+        "label": "中"
+      },
+      {
+        "href": "#",
+        "label": "小"
+      },
+      {
+        "href": "javascript:window.print()",
+        "label": "打印"
+      }
+    ]
+  },
+  "response_hash": "48f977c0c72ccd55c5f332e3e1f624b2b8c3c4d80395f6affd670252347e608a"
+}

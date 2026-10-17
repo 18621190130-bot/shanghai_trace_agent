@@ -1,0 +1,8 @@
+{
+  "baseline_files": 747,
+  "expected_adapter_changes": [
+    "src/web_app.py"
+  ],
+  "frozen_files_unchanged": 746,
+  "unexpected_changes": []
+}

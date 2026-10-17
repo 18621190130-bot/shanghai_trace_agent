@@ -1,0 +1,160 @@
+Provider: MOCK | Initial route: RouteEntryService + RouteEngine
+You: I have three hours and want architecture, industrial heritage and river views around West Bund.
+Assistant: Your route is ready. Type start when you are ready.
+Phase: ROUTE_READY
+Route: TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+Current planned stop: none | remaining: 3 | minutes: 180 | version: v1
+You: start
+Assistant: Trip started.
+Phase: ACTIVE_TRIP
+Current planned stop: TANK Shanghai | remaining: 3 | minutes: 180 | version: v1
+You: I've finished this stop.
+Assistant: Stop completed.
+Phase: ACTIVE_TRIP
+Completed: TANK Shanghai
+Current planned stop: Beipiao Wharf Crane | remaining: 2 | minutes: 180 | version: v1
+[1] User text: "I've finished this stop."
+[2] Raw provider proposal: [{"actions": [{"action_type": "COMPLETE_STOP", "target_mentions": ["this stop"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}]
+[3] Parsed actions: {"actions": [{"action_type": "COMPLETE_STOP", "target_mentions": ["this stop"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[4] Normalized actions: {"actions": [{"action_type": "COMPLETE_STOP", "target_mentions": ["this stop"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[5] POI resolution: [{"mention": "this stop", "result": {"status": "resolved", "poi_id": "p29", "options": [{"label": "TANK Shanghai / 上海油罐艺术中心", "poi_id": "p29", "name": "TANK Shanghai"}]}}]
+[6] Semantic validation: "passed"
+[7] Domain validation: "passed"
+[8] Mutation scope: ["CORE_PROGRESS"]
+[9] Execution result: "success_core_action"
+[10] Route diff / warnings: {"diff": null, "warnings": [], "failure_stage": null}
+You: Skip this place.
+Assistant: Route updated
+Phase: ACTIVE_TRIP
+  skip place
+Route: Long Museum (West Bund)
+Current planned stop: Long Museum (West Bund) | remaining: 1 | minutes: 180 | version: v2
+Route updated: v1 → v2
+removed stops : Beipiao Wharf Crane
+added stops : 
+kept stops : Long Museum (West Bund)
+Change: REMOVE_ONLY
+Removed stops: Beipiao Wharf Crane
+Added stops: none
+Kept stops: Long Museum (West Bund)
+Reordered stops: none
+Estimated duration: about 128 minutes | Target: 180 minutes
+Time target is soft.
+[1] User text: "Skip this place."
+[2] Raw provider proposal: [{"actions": [{"action_type": "SKIP_PLACE", "target_mentions": ["this place"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}]
+[3] Parsed actions: {"actions": [{"action_type": "SKIP_PLACE", "target_mentions": ["this place"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[4] Normalized actions: {"actions": [{"action_type": "SKIP_PLACE", "target_mentions": ["this place"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[5] POI resolution: [{"mention": "this place", "result": {"status": "resolved", "poi_id": "p43", "options": [{"label": "Beipiao Wharf Crane / 北票码头塔吊", "poi_id": "p43", "name": "Beipiao Wharf Crane"}]}}]
+[6] Semantic validation: "passed"
+[7] Domain validation: "passed"
+[8] Mutation scope: ["REMOVE_ONLY"]
+[9] Execution result: "success_mutated"
+[10] Route diff / warnings: {"diff": {"mutation_scope": "REMOVE_ONLY", "action_scopes": ["REMOVE_ONLY"], "estimated_minutes": 127.60120738106376, "target_minutes": 180, "time_constraint_mode": "soft", "time_warning": null, "hard_limit_minutes": null, "actions": ["SKIP_PLACE"], "added_ids": [], "removed_ids": ["p43"], "kept_ids": ["p5"], "reordered_ids": [], "retained_stop_count": 1, "removed_stop_count": 1, "added_stop_count": 0, "reordered_stop_count": 0, "route_preservation_ratio": 0.5, "added_stops": [], "removed_stops": [{"poi_id": "p43", "name": "Beipiao Wharf Crane", "name_zh": "北票码头塔吊"}], "kept_stops": [{"poi_id": "p5", "name": "Long Museum (West Bund)", "name_zh": "龙美术馆（西岸馆）"}], "reordered_stops": [], "old_version": "v1", "new_version": "v2"}, "warnings": [], "failure_stage": null}
+You: I only have one hour left.
+Assistant: Route updated
+Phase: ACTIVE_TRIP
+  set time target
+Route: Long Museum (West Bund)
+Current planned stop: Long Museum (West Bund) | remaining: 1 | minutes: 60 | version: v3
+Route updated: v2 → v3
+removed stops : 
+added stops : 
+kept stops : Long Museum (West Bund)
+Change: PREFERENCE_ADJUST
+Removed stops: none
+Added stops: none
+Kept stops: Long Museum (West Bund)
+Reordered stops: none
+Estimated duration: about 128 minutes | Target: 60 minutes
+Time target is soft.
+Warning: this may take about 68 minutes longer than the target.
+[1] User text: "I only have one hour left."
+[2] Raw provider proposal: [{"actions": [{"action_type": "SET_TIME_TARGET", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": 60, "time_constraint_mode": "soft", "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}]
+[3] Parsed actions: {"actions": [{"action_type": "SET_TIME_TARGET", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": 60, "time_constraint_mode": "soft", "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[4] Normalized actions: {"actions": [{"action_type": "SET_TIME_TARGET", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": 60, "time_constraint_mode": "soft", "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[5] POI resolution: []
+[6] Semantic validation: "passed"
+[7] Domain validation: "passed"
+[8] Mutation scope: ["PREFERENCE_ADJUST"]
+[9] Execution result: "success_mutated"
+[10] Route diff / warnings: {"diff": {"mutation_scope": "PREFERENCE_ADJUST", "action_scopes": ["PREFERENCE_ADJUST"], "estimated_minutes": 127.60120738106376, "target_minutes": 60, "time_constraint_mode": "soft", "time_warning": {"estimated_minutes": 127.60120738106376, "target_minutes": 60, "estimated_overrun_minutes": 67.60120738106376, "severity": "warning"}, "hard_limit_minutes": null, "actions": ["SET_TIME_TARGET"], "added_ids": [], "removed_ids": [], "kept_ids": ["p5"], "reordered_ids": [], "retained_stop_count": 1, "removed_stop_count": 0, "added_stop_count": 0, "reordered_stop_count": 0, "route_preservation_ratio": 1.0, "added_stops": [], "removed_stops": [], "kept_stops": [{"poi_id": "p5", "name": "Long Museum (West Bund)", "name_zh": "龙美术馆（西岸馆）"}], "reordered_stops": [], "old_version": "v2", "new_version": "v3"}, "warnings": [{"estimated_minutes": 127.60120738106376, "target_minutes": 60, "estimated_overrun_minutes": 67.60120738106376, "severity": "warning"}], "failure_stage": null}
+You: Why did you change my route?
+Assistant: Latest route change
+Phase: ACTIVE_TRIP
+  Requested changes: set time target.
+Current planned stop: Long Museum (West Bund) | remaining: 1 | minutes: 60 | version: v3
+removed stops : 
+added stops : 
+kept stops : Long Museum (West Bund)
+[1] User text: "Why did you change my route?"
+[2] Raw provider proposal: [{"actions": [{"action_type": "WHY_LATEST_REPLAN", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}]
+[3] Parsed actions: {"actions": [{"action_type": "WHY_LATEST_REPLAN", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[4] Normalized actions: {"actions": [{"action_type": "WHY_LATEST_REPLAN", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[5] POI resolution: []
+[6] Semantic validation: "passed"
+[7] Domain validation: "passed"
+[8] Mutation scope: ["READ_ONLY"]
+[9] Execution result: "success_query"
+[10] Route diff / warnings: {"diff": null, "warnings": [], "failure_stage": null}
+You: What changes have been made to my route?
+Assistant: show route history
+Phase: ACTIVE_TRIP
+Current planned stop: Long Museum (West Bund) | remaining: 1 | minutes: 60 | version: v3
+v1 | initial plan | remaining budget: 180
+   TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+v2 | REMOVE ONLY | remaining budget: 180
+   Long Museum (West Bund)
+v3 | PREFERENCE ADJUST | remaining budget: 60
+   Long Museum (West Bund)
+[1] User text: "What changes have been made to my route?"
+[2] Raw provider proposal: [{"actions": [{"action_type": "SHOW_ROUTE_HISTORY", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}]
+[3] Parsed actions: {"actions": [{"action_type": "SHOW_ROUTE_HISTORY", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[4] Normalized actions: {"actions": [{"action_type": "SHOW_ROUTE_HISTORY", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[5] POI resolution: []
+[6] Semantic validation: "passed"
+[7] Domain validation: "passed"
+[8] Mutation scope: ["READ_ONLY"]
+[9] Execution result: "success_query"
+[10] Route diff / warnings: {"diff": null, "warnings": [], "failure_stage": null}
+You: Show me my original route.
+Assistant: show original route
+Phase: ACTIVE_TRIP
+Route: TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+Current planned stop: Long Museum (West Bund) | remaining: 1 | minutes: 60 | version: v3
+[1] User text: "Show me my original route."
+[2] Raw provider proposal: [{"actions": [{"action_type": "SHOW_ORIGINAL_ROUTE", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}]
+[3] Parsed actions: {"actions": [{"action_type": "SHOW_ORIGINAL_ROUTE", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[4] Normalized actions: {"actions": [{"action_type": "SHOW_ORIGINAL_ROUTE", "target_mentions": [], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[5] POI resolution: []
+[6] Semantic validation: "passed"
+[7] Domain validation: "passed"
+[8] Mutation scope: ["READ_ONLY"]
+[9] Execution result: "success_query"
+[10] Route diff / warnings: {"diff": null, "warnings": [], "failure_stage": null}
+You: I've finished this stop.
+Assistant: Trip completed.
+Phase: COMPLETED
+Completed: Long Museum (West Bund)
+Current planned stop: none | remaining: 0 | minutes: 60 | version: v3
+Trip: COMPLETED | visited: TANK Shanghai, Long Museum (West Bund) | skipped: Beipiao Wharf Crane | replans: 2
+Original route: TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+Final route: Long Museum (West Bund)
+Minutes: original 180 | elapsed 0 | remaining 60
+[1] User text: "I've finished this stop."
+[2] Raw provider proposal: [{"actions": [{"action_type": "COMPLETE_STOP", "target_mentions": ["this stop"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}]
+[3] Parsed actions: {"actions": [{"action_type": "COMPLETE_STOP", "target_mentions": ["this stop"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[4] Normalized actions: {"actions": [{"action_type": "COMPLETE_STOP", "target_mentions": ["this stop"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[5] POI resolution: [{"mention": "this stop", "result": {"status": "resolved", "poi_id": "p5", "options": [{"label": "Long Museum (West Bund) / 龙美术馆（西岸馆）", "poi_id": "p5", "name": "Long Museum (West Bund)"}]}}]
+[6] Semantic validation: "passed"
+[7] Domain validation: "passed"
+[8] Mutation scope: ["CORE_PROGRESS"]
+[9] Execution result: "success_core_action"
+[10] Route diff / warnings: {"diff": null, "warnings": [], "failure_stage": null}
+You: summary
+Assistant: success query
+Phase: COMPLETED
+Current planned stop: none | remaining: 0 | minutes: 60 | version: v3
+Trip: COMPLETED | visited: TANK Shanghai, Long Museum (West Bund) | skipped: Beipiao Wharf Crane | replans: 2
+Original route: TANK Shanghai → Beipiao Wharf Crane → Long Museum (West Bund)
+Final route: Long Museum (West Bund)
+Minutes: original 180 | elapsed 0 | remaining 60

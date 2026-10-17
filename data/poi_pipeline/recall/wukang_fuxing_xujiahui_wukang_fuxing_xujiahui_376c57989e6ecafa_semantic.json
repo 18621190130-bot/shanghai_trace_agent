@@ -1,0 +1,250 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_376c57989e6ecafa",
+  "node_identity": "amap:B0KUFC7BAU",
+  "output": {
+    "category": "heritage",
+    "interest_tags": [
+      "architecture",
+      "history"
+    ],
+    "experience_tags": [
+      "architecture_detail"
+    ],
+    "culture_tags": [
+      "modern_shanghai"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_5012e7109956",
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_5012e7109956",
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_5012e7109956",
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_5012e7109956",
+          "e_5fd98fbaa4b4"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_5012e7109956",
+      "e_5fd98fbaa4b4"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据仅表明其为优秀历史建筑并涉及保护性修缮，缺乏可进入性、开放状态或独立体验内容，作为街边建筑外观观察点更适合短时停留并连接周边更强节点。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "无独立目的地价值证据，缺少开放参观、展览或可体验内容，不适合作为锚点。",
+        "supporting_stop": "若未来补充可进入或可体验信息，可升级为补充性停留；当前证据不足。",
+        "transition_stop": "有明确地址与建筑身份，可作为短时街边观察点连接周边，符合过渡停留标准。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "仅能确认其为优秀历史建筑且涉及修缮，缺少开放状态、可进入性和具体体验内容，城市漫步价值有限。",
+      "evidence_refs": [
+        "e_5012e7109956",
+        "e_5fd98fbaa4b4"
+      ]
+    },
+    "summary_draft": {
+      "text": "优秀历史建筑乌鲁木齐南路176号",
+      "evidence_refs": [
+        "e_5012e7109956"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅限街边建筑外观观察，不含入内参观。"
+    },
+    "semantic_confidence": "low",
+    "stability": "unknown",
+    "missing_information": [
+      "开放状态与可进入性",
+      "具体建筑年代与设计者",
+      "当前是否可参观或仅限外观"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "heritage",
+    "interest_tags": [
+      "architecture",
+      "history"
+    ],
+    "experience_tags": [
+      "architecture_detail"
+    ],
+    "culture_tags": [
+      "modern_shanghai"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_5012e7109956",
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_5012e7109956",
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_5012e7109956",
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_5012e7109956",
+          "e_5fd98fbaa4b4"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_5012e7109956",
+      "e_5fd98fbaa4b4"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据仅表明其为优秀历史建筑并涉及保护性修缮，缺乏可进入性、开放状态或独立体验内容，作为街边建筑外观观察点更适合短时停留并连接周边更强节点。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "无独立目的地价值证据，缺少开放参观、展览或可体验内容，不适合作为锚点。",
+        "supporting_stop": "若未来补充可进入或可体验信息，可升级为补充性停留；当前证据不足。",
+        "transition_stop": "有明确地址与建筑身份，可作为短时街边观察点连接周边，符合过渡停留标准。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "仅能确认其为优秀历史建筑且涉及修缮，缺少开放状态、可进入性和具体体验内容，城市漫步价值有限。",
+      "evidence_refs": [
+        "e_5012e7109956",
+        "e_5fd98fbaa4b4"
+      ]
+    },
+    "summary_draft": {
+      "text": "优秀历史建筑乌鲁木齐南路176号",
+      "evidence_refs": [
+        "e_5012e7109956"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅限街边建筑外观观察，不含入内参观。"
+    },
+    "semantic_confidence": "low",
+    "stability": "unknown",
+    "missing_information": [
+      "开放状态与可进入性",
+      "具体建筑年代与设计者",
+      "当前是否可参观或仅限外观"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.203534,
+      121.449089
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3478,
+      "completion_tokens": 792,
+      "total_tokens": 4270,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 2838
+    }
+  }
+}

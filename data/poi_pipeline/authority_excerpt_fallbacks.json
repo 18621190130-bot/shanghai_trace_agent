@@ -1,0 +1,20 @@
+[
+  {
+    "zone_id": "wukang_fuxing_xujiahui",
+    "name": "徐家汇公园",
+    "entity_kind": "public_space",
+    "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+    "retrieved_at": "2026-10-04",
+    "retrieval_method": "web search returned indexed official-page excerpt; direct page exceeded bounded HTTP body limit; not a fresh direct fetch",
+    "text": "该园原系大中华橡胶厂、中国唱片上海公司及周边部分单位和居民住宅的建筑区域。"
+  },
+  {
+    "zone_id": "wukang_fuxing_xujiahui",
+    "name": "上海工艺美术博物馆",
+    "entity_kind": "venue",
+    "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+    "retrieved_at": "2026-10-04",
+    "retrieval_method": "web search returned indexed official-page excerpt; direct page exceeded bounded HTTP body limit; not a fresh direct fetch",
+    "text": "上海工艺美术博物馆，位于上海市徐汇区汾阳路79号，于2002年10月正式开馆，在馆内设立民间工艺（一楼）、雕刻（二楼）、织绣（三楼）三大展示厅及专业工作室。"
+  }
+]

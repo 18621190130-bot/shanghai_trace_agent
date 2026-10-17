@@ -1,0 +1,337 @@
+OFFLINE MOCK PARSING — actual route engine outputs
+
+CASE 1
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: local_life
+Experience: -
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: success
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 9.000; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 8.211; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 7.735; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  4. #25 徐家汇书院 / Zikawei Library / Xujiahui Academy
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 3.241 km / 43.21 min
+     Score: 4.138; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 151.48 / 180 min; remaining 28.52 min
+Estimated distance: 4.611 km; walking 61.48 min; stays 75 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: Zikawei Library / Xujiahui Academy (#25) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Zikawei Library / Xujiahui Academy (#25); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Zikawei Library / Xujiahui Academy (#25); unknown does not mean free or reservation-free.
+Warning: Estimated geometry suggests a long walking leg; real street routing has not yet been verified. DEFERRED TO MAP API PHASE.
+Time Utilization: 0.842
+Estimated Max Single Leg: 3.241 km
+
+CASE 2
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: parks, local_life
+Experience: -
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: success
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 9.000; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 8.211; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 7.735; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  4. #25 徐家汇书院 / Zikawei Library / Xujiahui Academy
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 3.241 km / 43.21 min
+     Score: 4.138; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 151.48 / 180 min; remaining 28.52 min
+Estimated distance: 4.611 km; walking 61.48 min; stays 75 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: Zikawei Library / Xujiahui Academy (#25) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Zikawei Library / Xujiahui Academy (#25); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Zikawei Library / Xujiahui Academy (#25); unknown does not mean free or reservation-free.
+Warning: Estimated geometry suggests a long walking leg; real street routing has not yet been verified. DEFERRED TO MAP API PHASE.
+Time Utilization: 0.842
+Estimated Max Single Leg: 3.241 km
+
+CASE 3
+Parsed Intent
+Mode: plan_for_me
+Time: 150 min
+Start: -
+Interest: local_life
+Experience: neighborhood_walk
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: success
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 9.735; matched tags: interest_tags=local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #25 徐家汇书院 / Zikawei Library / Xujiahui Academy
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 3.241 km / 43.21 min
+     Score: 4.138; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 134.46 / 150 min; remaining 15.54 min
+Estimated distance: 4.085 km; walking 54.46 min; stays 65 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: Zikawei Library / Xujiahui Academy (#25) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Zikawei Library / Xujiahui Academy (#25); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Zikawei Library / Xujiahui Academy (#25); unknown does not mean free or reservation-free.
+Warning: Estimated geometry suggests a long walking leg; real street routing has not yet been verified. DEFERRED TO MAP API PHASE.
+Time Utilization: 0.896
+Estimated Max Single Leg: 3.241 km
+
+CASE 4
+Parsed Intent
+Mode: plan_for_me
+Time: 150 min
+Start: -
+Interest: local_life
+Experience: -
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: success
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 9.000; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 7.735; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #25 徐家汇书院 / Zikawei Library / Xujiahui Academy
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 3.241 km / 43.21 min
+     Score: 4.138; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 134.46 / 150 min; remaining 15.54 min
+Estimated distance: 4.085 km; walking 54.46 min; stays 65 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: Zikawei Library / Xujiahui Academy (#25) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Zikawei Library / Xujiahui Academy (#25); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Zikawei Library / Xujiahui Academy (#25); unknown does not mean free or reservation-free.
+Warning: Estimated geometry suggests a long walking leg; real street routing has not yet been verified. DEFERRED TO MAP API PHASE.
+Time Utilization: 0.896
+Estimated Max Single Leg: 3.241 km
+
+CASE 5
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: architecture, local_life
+Experience: neighborhood_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: success
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 16.000; matched tags: interest_tags=architecture,local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 15.211; matched tags: interest_tags=architecture,local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 14.735; matched tags: interest_tags=architecture,local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  4. #24 徐家汇天主堂 / St. Ignatius Cathedral / Xujiahui Cathedral
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 3.151 km / 42.01 min
+     Score: 4.274; matched tags: interest_tags=architecture; experience_tags=; culture_tags=
+     Recommended because it matches: architecture. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  5. #25 徐家汇书院 / Zikawei Library / Xujiahui Academy
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 0.121 km / 1.62 min
+     Score: 13.818; matched tags: interest_tags=architecture,local_life; experience_tags=; culture_tags=
+     Recommended because it matches: architecture, local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 171.89 / 180 min; remaining 8.11 min
+Estimated distance: 4.641 km; walking 61.89 min; stays 95 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: St. Ignatius Cathedral / Xujiahui Cathedral (#24) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: St. Ignatius Cathedral / Xujiahui Cathedral (#24); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: St. Ignatius Cathedral / Xujiahui Cathedral (#24); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: Zikawei Library / Xujiahui Academy (#25) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Zikawei Library / Xujiahui Academy (#25); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Zikawei Library / Xujiahui Academy (#25); unknown does not mean free or reservation-free.
+Warning: Estimated geometry suggests a long walking leg; real street routing has not yet been verified. DEFERRED TO MAP API PHASE.
+Time Utilization: 0.955
+Estimated Max Single Leg: 3.151 km

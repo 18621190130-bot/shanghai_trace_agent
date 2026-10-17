@@ -1,0 +1,202 @@
+{
+  "candidate_id": "hongkou_literary_cd63adaf18fff2e2",
+  "node_identity": "hongkou_literary_cd63adaf18fff2e2",
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_7f284b8b9226",
+          "e_5bccb27a01b4"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_7f284b8b9226",
+      "e_5bccb27a01b4"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有明确公园属性与开放时段，可作为独立的小型绿地体验节点，但证据仅限名称与类别，缺乏足以承载路线主题的高独立目的地价值。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据仅表明其为儿童公园，无高独立目的地价值支撑，不宜作为锚点。",
+        "supporting_stop": "作为有明确开放时段的公园，可提供独立漫步体验，适合作为补充节点。",
+        "transition_stop": "虽可作短暂停留，但其公园属性使其体验价值高于纯连接性节点。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为有明确开放时段的城市公园，可为步行路线提供绿地休憩体验，但证据有限，价值中等。",
+      "evidence_refs": [
+        "e_7f284b8b9226",
+        "e_362263d7178d"
+      ]
+    },
+    "summary_draft": {
+      "text": "爱思儿童公园",
+      "evidence_refs": [
+        "e_7575259fa24c"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅覆盖公园内步行停留，不含周边街区。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "公园具体规模与设施",
+      "当前实际运营状态",
+      "内部步道与出入口信息"
+    ],
+    "factual_fields": {
+      "opening_hours": {
+        "text": "Mo-Su 05:00-21:00",
+        "evidence_refs": [
+          "e_362263d7178d"
+        ]
+      },
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_7f284b8b9226",
+          "e_5bccb27a01b4"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_7f284b8b9226",
+      "e_5bccb27a01b4"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有明确公园属性与开放时段，可作为独立的小型绿地体验节点，但证据仅限名称与类别，缺乏足以承载路线主题的高独立目的地价值。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据仅表明其为儿童公园，无高独立目的地价值支撑，不宜作为锚点。",
+        "supporting_stop": "作为有明确开放时段的公园，可提供独立漫步体验，适合作为补充节点。",
+        "transition_stop": "虽可作短暂停留，但其公园属性使其体验价值高于纯连接性节点。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为有明确开放时段的城市公园，可为步行路线提供绿地休憩体验，但证据有限，价值中等。",
+      "evidence_refs": [
+        "e_7f284b8b9226",
+        "e_362263d7178d"
+      ]
+    },
+    "summary_draft": {
+      "text": "爱思儿童公园",
+      "evidence_refs": [
+        "e_7575259fa24c"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅覆盖公园内步行停留，不含周边街区。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "公园具体规模与设施",
+      "当前实际运营状态",
+      "内部步道与出入口信息"
+    ],
+    "factual_fields": {
+      "opening_hours": {
+        "text": "Mo-Su 05:00-21:00",
+        "evidence_refs": [
+          "e_362263d7178d"
+        ]
+      },
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.257469979506286,
+      121.48669788377967
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3653,
+      "completion_tokens": 594,
+      "total_tokens": 4247,
+      "prompt_tokens_details": {
+        "cached_tokens": 2688
+      },
+      "prompt_cache_hit_tokens": 2688,
+      "prompt_cache_miss_tokens": 965
+    }
+  }
+}

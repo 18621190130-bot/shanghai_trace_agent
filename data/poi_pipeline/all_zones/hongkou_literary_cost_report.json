@@ -1,0 +1,21 @@
+{
+  "raw_candidates": 320,
+  "prefilter_survivors": 3,
+  "llm_enriched_count": 3,
+  "deepseek_calls_this_run": 0,
+  "deepseek_calls_total": 4,
+  "retry_count": 1,
+  "cache_hits": 3,
+  "semantic_validation_failures": 0,
+  "accepted": 3,
+  "deferred": 114,
+  "rejected": 182,
+  "existing_role_audited": 6,
+  "existing_role_audit_deepseek_calls": 0,
+  "attempts_by_node": {
+    "amap:B00155FLFD": 1,
+    "amap:B00152B056": 2,
+    "amap:B00155P1VL": 1
+  },
+  "counting_note": "Raw provider objects; disposition counts are normalized route candidates plus raw early rejects, not an additive raw partition."
+}

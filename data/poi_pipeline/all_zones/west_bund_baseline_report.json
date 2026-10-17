@@ -1,0 +1,306 @@
+{
+  "walk_zone": "west_bund",
+  "poi_count": 13,
+  "coverage": {
+    "interest_tags": {
+      "frequency": {
+        "history": 1,
+        "architecture": 6,
+        "local_life": 0,
+        "literature": 0,
+        "art": 8,
+        "industrial_heritage": 6,
+        "waterfront": 7,
+        "religion": 0,
+        "parks": 2,
+        "modern_city": 1,
+        "modern_china_history": 0,
+        "music": 0,
+        "gardens": 0,
+        "shopping_lifestyle": 1
+      },
+      "zero_coverage": [
+        "local_life",
+        "literature",
+        "religion",
+        "modern_china_history",
+        "music",
+        "gardens"
+      ],
+      "low_coverage": [
+        "history",
+        "modern_city",
+        "shopping_lifestyle"
+      ]
+    },
+    "experience_tags": {
+      "frequency": {
+        "iconic_landmark": 0,
+        "neighborhood_walk": 0,
+        "street_scene": 1,
+        "local_atmosphere": 0,
+        "museum_visit": 5,
+        "photogenic": 4,
+        "quiet_walk": 0,
+        "adaptive_reuse": 6,
+        "riverside_walk": 7,
+        "bookish": 0,
+        "social_observation": 1,
+        "architecture_detail": 2,
+        "shopping_leisure": 1
+      },
+      "zero_coverage": [
+        "iconic_landmark",
+        "neighborhood_walk",
+        "local_atmosphere",
+        "quiet_walk",
+        "bookish"
+      ],
+      "low_coverage": [
+        "street_scene",
+        "social_observation",
+        "shopping_leisure"
+      ]
+    },
+    "culture_tags": {
+      "frequency": {
+        "old_city": 0,
+        "shikumen": 0,
+        "lane_life": 0,
+        "modern_shanghai": 5,
+        "literary_shanghai": 0,
+        "religious_culture": 0,
+        "sino_foreign_exchange": 0,
+        "political_history": 0,
+        "industrial_transformation": 6,
+        "urban_renewal": 6,
+        "garden_culture": 0,
+        "public_life": 1,
+        "music_culture": 0
+      },
+      "zero_coverage": [
+        "old_city",
+        "shikumen",
+        "lane_life",
+        "literary_shanghai",
+        "religious_culture",
+        "sino_foreign_exchange",
+        "political_history",
+        "garden_culture",
+        "music_culture"
+      ],
+      "low_coverage": [
+        "public_life"
+      ]
+    }
+  },
+  "route_role_coverage": {
+    "anchor": 5,
+    "supporting_stop": 6,
+    "transition_stop": 2
+  },
+  "category_distribution": {
+    "Industrial Heritage": 1,
+    "Contemporary Art": 1,
+    "Industrial Heritage / Contemporary Art": 2,
+    "Industrial Renewal / Waterfront Lifestyle": 1,
+    "cultural_venue": 2,
+    "performance_venue": 2,
+    "park": 2,
+    "public_space": 1,
+    "heritage": 1
+  },
+  "largest_category_fraction": 0.15384615384615385,
+  "strong_themes": {
+    "interest_tags": [
+      "art",
+      "waterfront",
+      "architecture",
+      "industrial_heritage",
+      "parks"
+    ],
+    "experience_tags": [
+      "riverside_walk",
+      "adaptive_reuse",
+      "museum_visit",
+      "photogenic",
+      "architecture_detail"
+    ],
+    "culture_tags": [
+      "industrial_transformation",
+      "urban_renewal",
+      "modern_shanghai"
+    ]
+  },
+  "highly_correlated_tags": [
+    {
+      "tags": [
+        "interest_tags.architecture",
+        "experience_tags.museum_visit"
+      ],
+      "jaccard": 0.8333333333333334,
+      "shared_poi_count": 5
+    },
+    {
+      "tags": [
+        "interest_tags.waterfront",
+        "experience_tags.riverside_walk"
+      ],
+      "jaccard": 1.0,
+      "shared_poi_count": 7
+    },
+    {
+      "tags": [
+        "experience_tags.photogenic",
+        "culture_tags.modern_shanghai"
+      ],
+      "jaccard": 0.8,
+      "shared_poi_count": 4
+    },
+    {
+      "tags": [
+        "culture_tags.modern_shanghai",
+        "culture_tags.industrial_transformation"
+      ],
+      "jaccard": 0.8333333333333334,
+      "shared_poi_count": 5
+    },
+    {
+      "tags": [
+        "culture_tags.modern_shanghai",
+        "culture_tags.urban_renewal"
+      ],
+      "jaccard": 0.8333333333333334,
+      "shared_poi_count": 5
+    }
+  ],
+  "definitions": {
+    "low_coverage": "count = 1",
+    "highly_correlated": "Jaccard >= 0.8, joint count >= 2; descriptive co-occurrence, not causal or Pearson correlation"
+  },
+  "production_sha256": "dc30a2933786b2c339a1b1f10ddfbf5f0025b502894f1e376232287799c00d2c",
+  "museum_dependency": {
+    "definition": "museum_visit tag; does not imply indoor-only or required admission",
+    "count": 5,
+    "fraction": 0.38461538461538464,
+    "non_museum_count": 8,
+    "museum_pois_supporting_walk_stop": 5
+  },
+  "geography": {
+    "coordinate_system": "GCJ-02",
+    "missing_count": 0,
+    "bbox": [
+      31.16119,
+      121.45773,
+      31.18786,
+      121.470412
+    ],
+    "pois": [
+      {
+        "id": "p5",
+        "name": "龙美术馆（西岸馆）",
+        "coordinates": [
+          31.1848,
+          121.465
+        ]
+      },
+      {
+        "id": "p28",
+        "name": "西岸美术馆",
+        "coordinates": [
+          31.167682,
+          121.463841
+        ]
+      },
+      {
+        "id": "p29",
+        "name": "上海油罐艺术中心",
+        "coordinates": [
+          31.164519,
+          121.464321
+        ]
+      },
+      {
+        "id": "p30",
+        "name": "Gate M 西岸梦中心",
+        "coordinates": [
+          31.16119,
+          121.465465
+        ]
+      },
+      {
+        "id": "p31",
+        "name": "星美术馆",
+        "coordinates": [
+          31.18786,
+          121.470412
+        ]
+      },
+      {
+        "id": "p36",
+        "name": "西岸艺术中心",
+        "coordinates": [
+          31.167719,
+          121.461939
+        ]
+      },
+      {
+        "id": "p37",
+        "name": "西岸穹顶艺术中心（含北广场）",
+        "coordinates": [
+          31.163167,
+          121.464561
+        ]
+      },
+      {
+        "id": "p38",
+        "name": "滨江滑板公园",
+        "coordinates": [
+          31.185976,
+          121.467781
+        ]
+      },
+      {
+        "id": "p39",
+        "name": "徐汇跑道公园",
+        "coordinates": [
+          31.168592,
+          121.45773
+        ]
+      },
+      {
+        "id": "p40",
+        "name": "上海摄影艺术中心",
+        "coordinates": [
+          31.167943363813837,
+          121.46296269374524
+        ]
+      },
+      {
+        "id": "p42",
+        "name": "徐汇滨江海事塔广场",
+        "coordinates": [
+          31.177546,
+          121.4624
+        ]
+      },
+      {
+        "id": "p43",
+        "name": "北票码头塔吊",
+        "coordinates": [
+          31.1819,
+          121.464763
+        ]
+      },
+      {
+        "id": "p41",
+        "name": "西岸大剧院",
+        "coordinates": [
+          31.163461,
+          121.465695
+        ]
+      }
+    ]
+  },
+  "audit_input": "data\\pois_phase2_5_candidate.json"
+}

@@ -1,0 +1,211 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_6813e50b550d36b6",
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_7bc85f2979a2",
+          "e_481184fc32d1",
+          "e_b1ec63a4a117",
+          "e_2c2d546d95f5"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_7bc85f2979a2",
+      "e_481184fc32d1",
+      "e_b1ec63a4a117"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "low",
+      "reason": "现有证据仅能确认其为公园及地址，缺少园内体验、规模、开放状态等描述，难以支撑独立目的地价值；作为淮海中路沿线的一处绿地，更适合作为连接性短暂停留。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据仅有公园类别与地址，无独立体验或主题承载信息，不满足高独立目的地价值，故不适合。",
+        "supporting_stop": "虽为公园，但缺少园内可体验内容与特色描述，无法确认其独立值得专程体验，故暂不采用。",
+        "transition_stop": "作为淮海中路近襄阳北路的公园绿地，可提供短时停留与路线衔接，与现有证据相符，故为主选。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "证据仅支持其为公园及所在地址，缺少园内景观、活动或氛围描述，城市漫步价值信息不足。",
+      "evidence_refs": [
+        "e_7bc85f2979a2",
+        "e_481184fc32d1",
+        "e_3c11720388e5"
+      ]
+    },
+    "summary_draft": {
+      "text": "风景名胜;公园广场;公园",
+      "evidence_refs": [
+        "e_7bc85f2979a2"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 15,
+        "deep": 30
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅作为路线中的短暂停留点估算，不含园内深度游览。"
+    },
+    "semantic_confidence": "low",
+    "stability": "unknown",
+    "missing_information": [
+      "园内具体景观与设施",
+      "开放时间",
+      "是否免费及入园要求",
+      "公园规模与游览时长依据",
+      "当前运营状态"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.216991,
+      121.456737
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_7bc85f2979a2",
+          "e_481184fc32d1",
+          "e_b1ec63a4a117",
+          "e_2c2d546d95f5"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_7bc85f2979a2",
+      "e_481184fc32d1",
+      "e_b1ec63a4a117"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "low",
+      "reason": "现有证据仅能确认其为公园及地址，缺少园内体验、规模、开放状态等描述，难以支撑独立目的地价值；作为淮海中路沿线的一处绿地，更适合作为连接性短暂停留。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据仅有公园类别与地址，无独立体验或主题承载信息，不满足高独立目的地价值，故不适合。",
+        "supporting_stop": "虽为公园，但缺少园内可体验内容与特色描述，无法确认其独立值得专程体验，故暂不采用。",
+        "transition_stop": "作为淮海中路近襄阳北路的公园绿地，可提供短时停留与路线衔接，与现有证据相符，故为主选。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "证据仅支持其为公园及所在地址，缺少园内景观、活动或氛围描述，城市漫步价值信息不足。",
+      "evidence_refs": [
+        "e_7bc85f2979a2",
+        "e_481184fc32d1",
+        "e_3c11720388e5"
+      ]
+    },
+    "summary_draft": {
+      "text": "风景名胜;公园广场;公园",
+      "evidence_refs": [
+        "e_7bc85f2979a2"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 15,
+        "deep": 30
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅作为路线中的短暂停留点估算，不含园内深度游览。"
+    },
+    "semantic_confidence": "low",
+    "stability": "unknown",
+    "missing_information": [
+      "园内具体景观与设施",
+      "开放时间",
+      "是否免费及入园要求",
+      "公园规模与游览时长依据",
+      "当前运营状态"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "attempts": [
+    {
+      "status": "success",
+      "provider": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 4473,
+          "completion_tokens": 592,
+          "total_tokens": 5065,
+          "prompt_tokens_details": {
+            "cached_tokens": 384
+          },
+          "prompt_cache_hit_tokens": 384,
+          "prompt_cache_miss_tokens": 4089
+        }
+      }
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "c06396fa3fa0314e0e823dd2694399647eeb948a6576557b067f5f323582b720",
+  "node_identity": "amap:B0015581AB",
+  "evidence_hash": "caaf5ee786ec900063ca6885a10a5ddb1c44fc59ef5372b1358f239787eeaa59"
+}

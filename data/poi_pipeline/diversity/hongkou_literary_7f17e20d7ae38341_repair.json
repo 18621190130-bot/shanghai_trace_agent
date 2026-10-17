@@ -1,0 +1,423 @@
+{
+  "candidate": {
+    "candidate_id": "hongkou_literary_7f17e20d7ae38341",
+    "name_zh": "上海多伦现代美术馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "多伦路 27",
+    "coordinates": [
+      31.261837889040287,
+      121.48301456308863
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/4724337190",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/4724337190",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "name_zh": "上海多伦现代美术馆",
+        "name_en": "",
+        "aliases": [],
+        "address": "多伦路 27",
+        "coordinates": [
+          31.2637786,
+          121.4785045
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=gallery",
+        "raw_provider_tags": {
+          "addr:housenumber": "27",
+          "addr:street": "多伦路",
+          "name": "上海多伦现代美术馆",
+          "tourism": "gallery",
+          "wheelchair": "yes"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "diversity_ed0cf4963806",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shhk.gov.cn/bmff/004001/004001006/004001006002/20260428/fb47bcab-fc58-4d6d-9faf-5fe6b0892b92.html",
+        "retrieved_at": "2026-10-05T02:33:01.455131+00:00",
+        "name_zh": "上海多伦现代美术馆",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海多伦现代美术馆 地址：多伦路27号 开放时间：周二至周日 10:00-18:00（17:30停止入场）",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4724337190",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/4724337190"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_ed0cf4963806",
+        "url": "https://www.shhk.gov.cn/bmff/004001/004001006/004001006002/20260428/fb47bcab-fc58-4d6d-9faf-5fe6b0892b92.html",
+        "retrieved_at": "2026-10-05T02:33:01.455131+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/4724337190",
+      "name_en": null,
+      "address": "osm:node/4724337190",
+      "coordinates": "osm:node/4724337190"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_96d22d3e2835": {
+        "record_id": "osm:node/4724337190",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4724337190",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海多伦现代美术馆"
+      },
+      "e_b78885d824f5": {
+        "record_id": "osm:node/4724337190",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4724337190",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "多伦路 27"
+      },
+      "e_f7f4ba0e3b59": {
+        "record_id": "government:diversity_ed0cf4963806",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/bmff/004001/004001006/004001006002/20260428/fb47bcab-fc58-4d6d-9faf-5fe6b0892b92.html",
+        "retrieved_at": "2026-10-05T02:33:01.455131+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海多伦现代美术馆"
+      },
+      "e_24755393961e": {
+        "record_id": "osm:node/4724337190",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4724337190",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2637786,
+            121.4785045
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_8dbdb43f5eb2": {
+        "record_id": "osm:node/4724337190",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4724337190",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=gallery"
+      },
+      "e_1de089d711cb": {
+        "record_id": "osm:node/4724337190",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4724337190",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "上海多伦现代美术馆"
+      },
+      "e_3c60f770d4b5": {
+        "record_id": "osm:node/4724337190",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4724337190",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "gallery"
+      },
+      "e_ed79637c36e0": {
+        "record_id": "government:diversity_ed0cf4963806",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/bmff/004001/004001006/004001006002/20260428/fb47bcab-fc58-4d6d-9faf-5fe6b0892b92.html",
+        "retrieved_at": "2026-10-05T02:33:01.455131+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_05ded3144002": {
+        "record_id": "government:diversity_ed0cf4963806",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/bmff/004001/004001006/004001006002/20260428/fb47bcab-fc58-4d6d-9faf-5fe6b0892b92.html",
+        "retrieved_at": "2026-10-05T02:33:01.455131+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海多伦现代美术馆 地址：多伦路27号 开放时间：周二至周日 10:00-18:00（17:30停止入场）"
+      },
+      "e_8d732d565247": {
+        "record_id": "government:diversity_ed0cf4963806",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/bmff/004001/004001006/004001006002/20260428/fb47bcab-fc58-4d6d-9faf-5fe6b0892b92.html",
+        "retrieved_at": "2026-10-05T02:33:01.455131+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海多伦现代美术馆 地址：多伦路27号 开放时间：周二至周日 10:00-18:00（17:30停止入场）"
+      },
+      "e_6232a023c26e": {
+        "record_id": "government:diversity_ed0cf4963806",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shhk.gov.cn/bmff/004001/004001006/004001006002/20260428/fb47bcab-fc58-4d6d-9faf-5fe6b0892b92.html",
+        "retrieved_at": "2026-10-05T02:33:01.455131+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海多伦现代美术馆 地址：多伦路27号 开放时间：周二至周日 10:00-18:00（17:30停止入场）"
+      }
+    },
+    "original_cached_name": "上海多伦现代美术馆",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "cultural_venue",
+    "interest_tags": [
+      "art"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_05ded3144002"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_05ded3144002"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_6232a023c26e"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "公立美术馆的独立看展体验；与多伦路公共街段不重复计算，不单拆馆内书房。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "公立美术馆的独立看展体验；与多伦路公共街段不重复计算，不单拆馆内书房。",
+      "evidence_refs": [
+        "e_6232a023c26e"
+      ]
+    },
+    "summary_draft": {
+      "text": "上海多伦现代美术馆 地址：多伦路27号 开放时间：周二至周日 10:00-18:00（17:30停止入场）",
+      "evidence_refs": [
+        "e_6232a023c26e"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 28
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "公立美术馆的独立看展体验；与多伦路公共街段不重复计算，不单拆馆内书房。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "cultural_venue",
+    "interest_tags": [
+      "art"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_05ded3144002"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_05ded3144002"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_6232a023c26e"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "公立美术馆的独立看展体验；与多伦路公共街段不重复计算，不单拆馆内书房。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "公立美术馆的独立看展体验；与多伦路公共街段不重复计算，不单拆馆内书房。",
+      "evidence_refs": [
+        "e_6232a023c26e"
+      ]
+    },
+    "summary_draft": {
+      "text": "上海多伦现代美术馆 地址：多伦路27号 开放时间：周二至周日 10:00-18:00（17:30停止入场）",
+      "evidence_refs": [
+        "e_6232a023c26e"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 28
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "公立美术馆的独立看展体验；与多伦路公共街段不重复计算，不单拆馆内书房。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.261837889040287,
+      121.48301456308863
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "cultural_space"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

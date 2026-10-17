@@ -1,0 +1,192 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_53ae8b1a1f19b458",
+  "node_identity": "amap:B0J23A33H7",
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_73da87393f01",
+          "e_0c6e77662011"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_73da87393f01",
+      "e_0c6e77662011"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "low",
+      "reason": "证据仅显示为口袋公园及地址，缺乏独立体验内容，规模小，更适合作为连接性短暂停留。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "无独立目的地价值证据，不适合作为锚点。",
+        "supporting_stop": "缺乏独立体验描述，难以支撑作为补充性停留。",
+        "transition_stop": "作为小型口袋公园，适合短时停留并连接周边节点。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "仅证实为口袋公园，无更多体验或文化信息，城市漫步价值有限。",
+      "evidence_refs": [
+        "e_73da87393f01",
+        "e_0f57f7fd2fa9"
+      ]
+    },
+    "summary_draft": {
+      "text": "天钥桥路口袋公园",
+      "evidence_refs": [
+        "e_6f67e9433d3a"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 15
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅限公园公共空间短暂停留"
+    },
+    "semantic_confidence": "low",
+    "stability": "unknown",
+    "missing_information": [
+      "开放时间",
+      "具体设施与体验内容",
+      "是否永久保留"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_73da87393f01",
+          "e_0c6e77662011"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_73da87393f01",
+      "e_0c6e77662011"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "low",
+      "reason": "证据仅显示为口袋公园及地址，缺乏独立体验内容，规模小，更适合作为连接性短暂停留。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "无独立目的地价值证据，不适合作为锚点。",
+        "supporting_stop": "缺乏独立体验描述，难以支撑作为补充性停留。",
+        "transition_stop": "作为小型口袋公园，适合短时停留并连接周边节点。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "仅证实为口袋公园，无更多体验或文化信息，城市漫步价值有限。",
+      "evidence_refs": [
+        "e_73da87393f01",
+        "e_0f57f7fd2fa9"
+      ]
+    },
+    "summary_draft": {
+      "text": "天钥桥路口袋公园",
+      "evidence_refs": [
+        "e_6f67e9433d3a"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 15
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅限公园公共空间短暂停留"
+    },
+    "semantic_confidence": "low",
+    "stability": "unknown",
+    "missing_information": [
+      "开放时间",
+      "具体设施与体验内容",
+      "是否永久保留"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.192395,
+      121.441475
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3388,
+      "completion_tokens": 516,
+      "total_tokens": 3904,
+      "prompt_tokens_details": {
+        "cached_tokens": 2688
+      },
+      "prompt_cache_hit_tokens": 2688,
+      "prompt_cache_miss_tokens": 700
+    }
+  }
+}

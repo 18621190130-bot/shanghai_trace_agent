@@ -1,0 +1,435 @@
+{
+  "candidate": {
+    "candidate_id": "wukang_fuxing_xujiahui_0a44d3d9e723b88b",
+    "name_zh": "上海交响乐团音乐厅",
+    "name_en": "Shanghai Symphony Hall",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.211562009435305,
+      121.45169572057236
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "name_zh": "上海交响乐团音乐厅",
+        "name_en": "Shanghai Symphony Hall",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2134494,
+          121.4470989
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "amenity=theatre",
+        "raw_provider_tags": {
+          "amenity": "theatre",
+          "name": "上海交响乐团音乐厅",
+          "name:en": "Shanghai Symphony Hall",
+          "source": "bing map of 2016 and local knowledge",
+          "theatre": "concert_hall",
+          "wheelchair": "yes"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "name_zh": "上海交响乐团音乐厅",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/404687050"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_5468a1429596",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:way/404687050",
+      "name_en": "osm:way/404687050",
+      "address": null,
+      "coordinates": "osm:way/404687050"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_a0f96de1ab6c": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海交响乐团音乐厅"
+      },
+      "e_6db8a54278cc": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Shanghai Symphony Hall"
+      },
+      "e_e497d33dd796": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海交响乐团音乐厅"
+      },
+      "e_4ded9c82e77e": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2134494,
+            121.4470989
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_e571e5f4ce56": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "amenity=theatre"
+      },
+      "e_658c2e9814fa": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "amenity",
+        "value": "theatre"
+      },
+      "e_10263c10dcf8": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "上海交响乐团音乐厅"
+      },
+      "e_ea2433fd8b03": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Shanghai Symphony Hall"
+      },
+      "e_ab9761ad69a8": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_61bf2665a477": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。"
+      },
+      "e_4a8a54100ba0": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。"
+      },
+      "e_873abc741516": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。"
+      }
+    },
+    "original_cached_name": "上海交响乐团音乐厅",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "architecture",
+    "interest_tags": [
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_61bf2665a477"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_61bf2665a477"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_873abc741516"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有直接官方建筑描述的音乐厅外观观察；不包含购票音乐会或未经证明的内部参观。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "有直接官方建筑描述的音乐厅外观观察；不包含购票音乐会或未经证明的内部参观。",
+      "evidence_refs": [
+        "e_873abc741516"
+      ]
+    },
+    "summary_draft": {
+      "text": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。",
+      "evidence_refs": [
+        "e_873abc741516"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 6,
+        "standard": 12,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "有直接官方建筑描述的音乐厅外观观察；不包含购票音乐会或未经证明的内部参观。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "architecture",
+    "interest_tags": [
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_61bf2665a477"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_61bf2665a477"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_873abc741516"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "有直接官方建筑描述的音乐厅外观观察；不包含购票音乐会或未经证明的内部参观。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "有直接官方建筑描述的音乐厅外观观察；不包含购票音乐会或未经证明的内部参观。",
+      "evidence_refs": [
+        "e_873abc741516"
+      ]
+    },
+    "summary_draft": {
+      "text": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。",
+      "evidence_refs": [
+        "e_873abc741516"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 6,
+        "standard": 12,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "有直接官方建筑描述的音乐厅外观观察；不包含购票音乐会或未经证明的内部参观。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.211562009435305,
+      121.45169572057236
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "landmark",
+    "cultural_space"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

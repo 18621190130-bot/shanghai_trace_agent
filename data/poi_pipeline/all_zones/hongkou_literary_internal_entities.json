@@ -1,0 +1,122 @@
+[
+  {
+    "entity_id": "hongkou_literary_633391eda97e6915",
+    "parent_node": "hongkou_literary_0f40c36884fb10bc",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_2b9007f257367796",
+    "parent_node": "hongkou_literary_0f40c36884fb10bc",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_9080dd9b138ddab5",
+    "parent_node": "hongkou_literary_1b33161e4ad878ef",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_e07bfe71fe048851",
+    "parent_node": "hongkou_literary_d459b1fbdf9d157b",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_da56a07b4065560c",
+    "parent_node": "hongkou_literary_b94c9ddfaeca330f",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_02ba7c7e5246fd62",
+    "parent_node": "hongkou_literary_4c4a96f0b84258d4",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_f7580c9e66eeba91",
+    "parent_node": "hongkou_literary_3a240e4e056edbc3",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_5d7fe1a1ffd24ede",
+    "parent_node": "hongkou_literary_df36502099997064",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_ad0dbffb40f88a98",
+    "parent_node": "hongkou_literary_9bbc5f915f739386",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_7f4c0c4220145315",
+    "parent_node": "hongkou_literary_4c585d1876d3f66f",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_e48d5005ac03d658",
+    "parent_node": "hongkou_literary_4c585d1876d3f66f",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_named_route_experience"
+  },
+  {
+    "entity_id": "hongkou_literary_2a0d5026aab05153",
+    "parent_node": "hongkou_literary_0f40c36884fb10bc",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "hongkou_literary_fcf56d1dc93fab97",
+    "parent_node": "hongkou_literary_3a32b15716e989ac",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "hongkou_literary_a9c31a70eb66f3f0",
+    "parent_node": "hongkou_literary_d459b1fbdf9d157b",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "hongkou_literary_98959f84f1dc2bfe",
+    "parent_node": "hongkou_literary_085cab001e5e5f1e",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "hongkou_literary_2c9be638490fb21e",
+    "parent_node": "hongkou_literary_df36502099997064",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "relationship": "same_name_authority_evidence_link"
+  },
+  {
+    "entity_id": "hongkou_literary_66af89baca69bfe1",
+    "name": "左联会址纪念馆",
+    "decision": "defer",
+    "route_selectable": false,
+    "counts_as_route_stop": false,
+    "reason": "authority_mention_geometry_ambiguous"
+  }
+]

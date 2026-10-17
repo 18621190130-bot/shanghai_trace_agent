@@ -1,0 +1,242 @@
+{
+  "schema_version": 2,
+  "reference": "https://lbs.amap.com/api/webservice/download",
+  "taxonomy_source": "https://a.amap.com/lbs/static/code_resource/Amap_poicode.zip",
+  "primary_priority": [
+    "CAFE",
+    "TEA_DRINK",
+    "DESSERT_ICE_CREAM",
+    "RESTAURANT",
+    "CONVENIENCE_STORE",
+    "RESTROOM",
+    "MALL"
+  ],
+  "categories": {
+    "CAFE": {
+      "query_types": [
+        "050500"
+      ],
+      "type_prefixes": [
+        "0505"
+      ],
+      "exact_types": [],
+      "type_labels": [
+        "咖啡厅"
+      ]
+    },
+    "RESTAURANT": {
+      "query_types": [
+        "050100",
+        "050200",
+        "050300",
+        "050400"
+      ],
+      "type_prefixes": [
+        "0501",
+        "0502",
+        "0503",
+        "0504"
+      ],
+      "exact_types": [
+        "050000"
+      ],
+      "type_labels": [
+        "中餐厅",
+        "外国餐厅",
+        "西餐厅",
+        "快餐厅",
+        "小吃店",
+        "休闲餐饮场所",
+        "餐饮相关"
+      ]
+    },
+    "RESTROOM": {
+      "query_types": [
+        "200300"
+      ],
+      "type_prefixes": [],
+      "exact_types": [
+        "200300",
+        "200301",
+        "200302",
+        "200303"
+      ],
+      "type_labels": [
+        "公共厕所",
+        "男洗手间",
+        "女洗手间",
+        "残障洗手间/无障碍洗手间",
+        "无障碍洗手间",
+        "第三卫生间"
+      ]
+    },
+    "CONVENIENCE_STORE": {
+      "query_types": [
+        "060200"
+      ],
+      "type_prefixes": [
+        "0602"
+      ],
+      "exact_types": [],
+      "type_labels": [
+        "便民商店/便利店",
+        "便利店"
+      ]
+    },
+    "TEA_DRINK": {
+      "query_types": [
+        "050600",
+        "050700",
+        "050900"
+      ],
+      "type_prefixes": [],
+      "exact_types": [],
+      "type_labels": [
+        "奶茶店",
+        "茶饮店",
+        "新式茶饮",
+        "Bubble Tea",
+        "Milk Tea"
+      ]
+    },
+    "DESSERT_ICE_CREAM": {
+      "query_types": [
+        "050700",
+        "050800",
+        "050900"
+      ],
+      "type_prefixes": [
+        "0507",
+        "0508",
+        "0509"
+      ],
+      "exact_types": [],
+      "type_labels": [
+        "冷饮店",
+        "糕饼店",
+        "甜品店",
+        "冰激凌店",
+        "冰淇淋店",
+        "Ice Cream",
+        "Gelato",
+        "Dessert Shop"
+      ]
+    },
+    "MALL": {
+      "query_types": [
+        "060101",
+        "060100"
+      ],
+      "type_prefixes": [],
+      "exact_types": [
+        "060101"
+      ],
+      "type_labels": [
+        "购物中心",
+        "商业综合体",
+        "大型商场",
+        "Shopping Mall",
+        "Shopping Center",
+        "Shopping Centre"
+      ]
+    }
+  },
+  "query_groups": {
+    "MEALS": [
+      "RESTAURANT"
+    ],
+    "DRINKS_AND_DESSERT": [
+      "CAFE",
+      "TEA_DRINK",
+      "DESSERT_ICE_CREAM"
+    ],
+    "ESSENTIALS": [
+      "CONVENIENCE_STORE",
+      "RESTROOM"
+    ],
+    "MALLS": [
+      "MALL"
+    ]
+  },
+  "tea_disambiguation": {
+    "eligible_prefixes": [
+      "0506",
+      "0507",
+      "0508",
+      "0509"
+    ],
+    "eligible_exact_types": [
+      "050000"
+    ],
+    "eligible_type_labels": [
+      "茶艺馆",
+      "茶馆",
+      "冷饮店",
+      "甜品店",
+      "餐饮相关",
+      "饮品店",
+      "奶茶店",
+      "茶饮店"
+    ],
+    "structured_keywords": [
+      "奶茶",
+      "茶饮",
+      "果茶",
+      "新式茶",
+      "bubble tea",
+      "milk tea"
+    ],
+    "name_keywords": [
+      "奶茶",
+      "茶饮",
+      "果茶",
+      "bubble tea",
+      "milk tea",
+      "喜茶",
+      "奈雪的茶",
+      "茶百道",
+      "沪上阿姨",
+      "蜜雪冰城",
+      "古茗",
+      "霸王茶姬",
+      "书亦烧仙草",
+      "coco都可"
+    ],
+    "dessert_structured_keywords": [
+      "甜品",
+      "冰激凌",
+      "冰淇淋",
+      "gelato",
+      "ice cream",
+      "dessert"
+    ]
+  },
+  "excluded_restroom_types": [
+    "200304"
+  ],
+  "mall_exclusions": {
+    "type_labels": [
+      "普通商场",
+      "百货店",
+      "百货商店",
+      "免税品店",
+      "商务写字楼",
+      "办公楼",
+      "商铺"
+    ],
+    "name_keywords": [
+      "百货",
+      "department store",
+      "商厦",
+      "写字楼",
+      "办公楼",
+      "免税店"
+    ]
+  },
+  "excluded_restroom_type_labels": [
+    "婴儿换洗间/哺乳室/母婴室",
+    "母婴室",
+    "婴儿换洗间",
+    "哺乳室"
+  ]
+}

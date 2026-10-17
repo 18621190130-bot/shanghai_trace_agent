@@ -1,0 +1,551 @@
+{
+  "before": {
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "poi_count": 8,
+    "coverage": {
+      "interest_tags": {
+        "frequency": {
+          "history": 6,
+          "architecture": 8,
+          "local_life": 4,
+          "literature": 0,
+          "art": 0,
+          "industrial_heritage": 0,
+          "waterfront": 0,
+          "religion": 1,
+          "parks": 0,
+          "modern_city": 1,
+          "modern_china_history": 1,
+          "music": 0,
+          "gardens": 0,
+          "shopping_lifestyle": 2
+        },
+        "zero_coverage": [
+          "literature",
+          "art",
+          "industrial_heritage",
+          "waterfront",
+          "parks",
+          "music",
+          "gardens"
+        ],
+        "low_coverage": [
+          "religion",
+          "modern_city",
+          "modern_china_history"
+        ]
+      },
+      "experience_tags": {
+        "frequency": {
+          "iconic_landmark": 2,
+          "neighborhood_walk": 3,
+          "street_scene": 3,
+          "local_atmosphere": 2,
+          "museum_visit": 1,
+          "photogenic": 2,
+          "quiet_walk": 5,
+          "adaptive_reuse": 0,
+          "riverside_walk": 0,
+          "bookish": 0,
+          "social_observation": 0,
+          "architecture_detail": 6,
+          "shopping_leisure": 1
+        },
+        "zero_coverage": [
+          "adaptive_reuse",
+          "riverside_walk",
+          "bookish",
+          "social_observation"
+        ],
+        "low_coverage": [
+          "museum_visit",
+          "shopping_leisure"
+        ]
+      },
+      "culture_tags": {
+        "frequency": {
+          "old_city": 0,
+          "shikumen": 1,
+          "lane_life": 3,
+          "modern_shanghai": 8,
+          "literary_shanghai": 0,
+          "religious_culture": 1,
+          "sino_foreign_exchange": 4,
+          "political_history": 1,
+          "industrial_transformation": 0,
+          "urban_renewal": 0,
+          "garden_culture": 0,
+          "public_life": 3,
+          "music_culture": 0
+        },
+        "zero_coverage": [
+          "old_city",
+          "literary_shanghai",
+          "industrial_transformation",
+          "urban_renewal",
+          "garden_culture",
+          "music_culture"
+        ],
+        "low_coverage": [
+          "shikumen",
+          "religious_culture",
+          "political_history"
+        ]
+      }
+    },
+    "route_role_coverage": {
+      "unaudited": 8
+    },
+    "category_distribution": {
+      "Plane-tree Neighborhood": 2,
+      "Shikumen": 1,
+      "Historic Residential Architecture": 1,
+      "Historic Residence": 1,
+      "Historic Religious Architecture": 1,
+      "Contemporary Public Cultural Space": 1,
+      "Commercial District": 1
+    },
+    "largest_category_fraction": 0.25,
+    "strong_themes": {
+      "interest_tags": [
+        "architecture",
+        "history",
+        "local_life",
+        "shopping_lifestyle"
+      ],
+      "experience_tags": [
+        "architecture_detail",
+        "quiet_walk",
+        "neighborhood_walk",
+        "street_scene",
+        "iconic_landmark",
+        "local_atmosphere",
+        "photogenic"
+      ],
+      "culture_tags": [
+        "modern_shanghai",
+        "sino_foreign_exchange",
+        "lane_life",
+        "public_life"
+      ]
+    },
+    "highly_correlated_tags": [
+      {
+        "tags": [
+          "interest_tags.history",
+          "experience_tags.architecture_detail"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 6
+      },
+      {
+        "tags": [
+          "interest_tags.architecture",
+          "culture_tags.modern_shanghai"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 8
+      },
+      {
+        "tags": [
+          "interest_tags.local_life",
+          "experience_tags.quiet_walk"
+        ],
+        "jaccard": 0.8,
+        "shared_poi_count": 4
+      },
+      {
+        "tags": [
+          "interest_tags.shopping_lifestyle",
+          "experience_tags.local_atmosphere"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 2
+      },
+      {
+        "tags": [
+          "experience_tags.iconic_landmark",
+          "experience_tags.photogenic"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 2
+      },
+      {
+        "tags": [
+          "experience_tags.neighborhood_walk",
+          "culture_tags.lane_life"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 3
+      }
+    ],
+    "definitions": {
+      "low_coverage": "count = 1",
+      "highly_correlated": "Jaccard >= 0.8, joint count >= 2; descriptive co-occurrence, not causal or Pearson correlation"
+    },
+    "production_sha256": "dc30a2933786b2c339a1b1f10ddfbf5f0025b502894f1e376232287799c00d2c",
+    "museum_dependency": {
+      "definition": "museum_visit tag; does not imply indoor-only or required admission",
+      "count": 1,
+      "fraction": 0.125,
+      "non_museum_count": 7,
+      "museum_pois_supporting_walk_stop": 0
+    },
+    "geography": {
+      "coordinate_system": "GCJ-02",
+      "missing_count": 0,
+      "bbox": [
+        31.190626365374555,
+        121.4371436403768,
+        31.2158,
+        121.4592
+      ],
+      "pois": [
+        {
+          "id": "p2",
+          "name": "永康路与嘉善路口",
+          "coordinates": [
+            31.2128,
+            121.4592
+          ]
+        },
+        {
+          "id": "p11",
+          "name": "建业里",
+          "coordinates": [
+            31.2073,
+            121.4562
+          ]
+        },
+        {
+          "id": "p12",
+          "name": "陕南邨",
+          "coordinates": [
+            31.2158,
+            121.4565
+          ]
+        },
+        {
+          "id": "p13",
+          "name": "武康大楼",
+          "coordinates": [
+            31.2108,
+            121.4472
+          ]
+        },
+        {
+          "id": "p21",
+          "name": "上海宋庆龄故居纪念馆",
+          "coordinates": [
+            31.204017,
+            121.439062
+          ]
+        },
+        {
+          "id": "p32",
+          "name": "徐家汇天主堂",
+          "coordinates": [
+            31.19149671484055,
+            121.4372036194208
+          ]
+        },
+        {
+          "id": "p33",
+          "name": "徐家汇书院",
+          "coordinates": [
+            31.190626365374555,
+            121.4371436403768
+          ]
+        },
+        {
+          "id": "p35",
+          "name": "徐家汇商圈",
+          "coordinates": [
+            31.193526044665383,
+            121.43842179377025
+          ]
+        }
+      ]
+    }
+  },
+  "after": {
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "poi_count": 9,
+    "coverage": {
+      "interest_tags": {
+        "frequency": {
+          "history": 6,
+          "architecture": 8,
+          "local_life": 4,
+          "literature": 0,
+          "art": 1,
+          "industrial_heritage": 0,
+          "waterfront": 0,
+          "religion": 1,
+          "parks": 0,
+          "modern_city": 1,
+          "modern_china_history": 1,
+          "music": 0,
+          "gardens": 0,
+          "shopping_lifestyle": 2
+        },
+        "zero_coverage": [
+          "literature",
+          "industrial_heritage",
+          "waterfront",
+          "parks",
+          "music",
+          "gardens"
+        ],
+        "low_coverage": [
+          "art",
+          "religion",
+          "modern_city",
+          "modern_china_history"
+        ]
+      },
+      "experience_tags": {
+        "frequency": {
+          "iconic_landmark": 2,
+          "neighborhood_walk": 3,
+          "street_scene": 3,
+          "local_atmosphere": 2,
+          "museum_visit": 2,
+          "photogenic": 2,
+          "quiet_walk": 5,
+          "adaptive_reuse": 0,
+          "riverside_walk": 0,
+          "bookish": 0,
+          "social_observation": 0,
+          "architecture_detail": 6,
+          "shopping_leisure": 1
+        },
+        "zero_coverage": [
+          "adaptive_reuse",
+          "riverside_walk",
+          "bookish",
+          "social_observation"
+        ],
+        "low_coverage": [
+          "shopping_leisure"
+        ]
+      },
+      "culture_tags": {
+        "frequency": {
+          "old_city": 0,
+          "shikumen": 1,
+          "lane_life": 3,
+          "modern_shanghai": 8,
+          "literary_shanghai": 0,
+          "religious_culture": 1,
+          "sino_foreign_exchange": 4,
+          "political_history": 1,
+          "industrial_transformation": 0,
+          "urban_renewal": 0,
+          "garden_culture": 0,
+          "public_life": 3,
+          "music_culture": 0
+        },
+        "zero_coverage": [
+          "old_city",
+          "literary_shanghai",
+          "industrial_transformation",
+          "urban_renewal",
+          "garden_culture",
+          "music_culture"
+        ],
+        "low_coverage": [
+          "shikumen",
+          "religious_culture",
+          "political_history"
+        ]
+      }
+    },
+    "route_role_coverage": {
+      "transition_stop": 2,
+      "supporting_stop": 4,
+      "anchor": 3
+    },
+    "category_distribution": {
+      "Plane-tree Neighborhood": 2,
+      "Shikumen": 1,
+      "Historic Residential Architecture": 1,
+      "Historic Residence": 1,
+      "Historic Religious Architecture": 1,
+      "Contemporary Public Cultural Space": 1,
+      "Commercial District": 1,
+      "museum": 1
+    },
+    "largest_category_fraction": 0.2222222222222222,
+    "strong_themes": {
+      "interest_tags": [
+        "architecture",
+        "history",
+        "local_life",
+        "shopping_lifestyle"
+      ],
+      "experience_tags": [
+        "architecture_detail",
+        "quiet_walk",
+        "neighborhood_walk",
+        "street_scene",
+        "iconic_landmark",
+        "local_atmosphere",
+        "museum_visit",
+        "photogenic"
+      ],
+      "culture_tags": [
+        "modern_shanghai",
+        "sino_foreign_exchange",
+        "lane_life",
+        "public_life"
+      ]
+    },
+    "highly_correlated_tags": [
+      {
+        "tags": [
+          "interest_tags.history",
+          "experience_tags.architecture_detail"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 6
+      },
+      {
+        "tags": [
+          "interest_tags.architecture",
+          "culture_tags.modern_shanghai"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 8
+      },
+      {
+        "tags": [
+          "interest_tags.local_life",
+          "experience_tags.quiet_walk"
+        ],
+        "jaccard": 0.8,
+        "shared_poi_count": 4
+      },
+      {
+        "tags": [
+          "interest_tags.shopping_lifestyle",
+          "experience_tags.local_atmosphere"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 2
+      },
+      {
+        "tags": [
+          "experience_tags.iconic_landmark",
+          "experience_tags.photogenic"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 2
+      },
+      {
+        "tags": [
+          "experience_tags.neighborhood_walk",
+          "culture_tags.lane_life"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 3
+      }
+    ],
+    "definitions": {
+      "low_coverage": "count = 1",
+      "highly_correlated": "Jaccard >= 0.8, joint count >= 2; descriptive co-occurrence, not causal or Pearson correlation"
+    },
+    "production_sha256": "c8908d2955b0981740e40ce50316f56b6e0b4bacafbd1f7550661ddfb5348dea",
+    "museum_dependency": {
+      "definition": "museum_visit tag; does not imply indoor-only or required admission",
+      "count": 2,
+      "fraction": 0.2222222222222222,
+      "non_museum_count": 7,
+      "museum_pois_supporting_walk_stop": 1
+    },
+    "geography": {
+      "coordinate_system": "GCJ-02",
+      "missing_count": 0,
+      "bbox": [
+        31.190626365374555,
+        121.4371436403768,
+        31.2158,
+        121.4592
+      ],
+      "pois": [
+        {
+          "id": "p2",
+          "name": "永康路与嘉善路口",
+          "coordinates": [
+            31.2128,
+            121.4592
+          ]
+        },
+        {
+          "id": "p11",
+          "name": "建业里",
+          "coordinates": [
+            31.2073,
+            121.4562
+          ]
+        },
+        {
+          "id": "p12",
+          "name": "陕南邨",
+          "coordinates": [
+            31.2158,
+            121.4565
+          ]
+        },
+        {
+          "id": "p13",
+          "name": "武康大楼",
+          "coordinates": [
+            31.2108,
+            121.4472
+          ]
+        },
+        {
+          "id": "p21",
+          "name": "上海宋庆龄故居纪念馆",
+          "coordinates": [
+            31.204017,
+            121.439062
+          ]
+        },
+        {
+          "id": "p32",
+          "name": "徐家汇天主堂",
+          "coordinates": [
+            31.19149671484055,
+            121.4372036194208
+          ]
+        },
+        {
+          "id": "p33",
+          "name": "徐家汇书院",
+          "coordinates": [
+            31.190626365374555,
+            121.4371436403768
+          ]
+        },
+        {
+          "id": "p35",
+          "name": "徐家汇商圈",
+          "coordinates": [
+            31.193526044665383,
+            121.43842179377025
+          ]
+        },
+        {
+          "id": "pz_17d41390cac9",
+          "name": "上海工艺美术博物馆",
+          "coordinates": [
+            31.210087,
+            121.454495
+          ]
+        }
+      ]
+    }
+  }
+}

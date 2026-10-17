@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-08",
+  "core_total": 58,
+  "available_by_source": {
+    "MANUAL_WEB": 2,
+    "AMAP": 34
+  },
+  "real_images": 36,
+  "anchor_reserved": 22,
+  "remaining_non_anchor": [],
+  "frozen_files_unchanged": 746
+}

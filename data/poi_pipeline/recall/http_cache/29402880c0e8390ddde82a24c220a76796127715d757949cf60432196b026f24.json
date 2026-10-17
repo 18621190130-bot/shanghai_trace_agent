@@ -1,0 +1,57 @@
+{
+  "source": "amap",
+  "url": "https://restapi.amap.com/v3/place/text",
+  "parameters": {
+    "keywords": "爱思儿童公园",
+    "city": "上海",
+    "citylimit": "true",
+    "offset": "3",
+    "page": "1",
+    "extensions": "base",
+    "output": "JSON"
+  },
+  "variant": "json-v1",
+  "retrieved_at": "2026-10-04T16:21:34.399985+00:00",
+  "response": {
+    "suggestion": {
+      "keywords": [],
+      "cities": []
+    },
+    "count": "5",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "distance": [],
+        "keytag": "公园",
+        "importance": [],
+        "biz_ext": [],
+        "type": "体育休闲服务;休闲场所;游乐场",
+        "photos": [],
+        "building": [],
+        "typecode": "080501",
+        "shopinfo": "0",
+        "poiweight": [],
+        "adname": "虹口区",
+        "featured_reviews_remake": [],
+        "tel": [],
+        "id": "B0FFGVI51N",
+        "address": "海伦公园海伦路499号",
+        "space_num": [],
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "childtype": [],
+        "atag": [],
+        "name": "爱思儿童公园",
+        "location": "121.486569,31.257395",
+        "shopid": [],
+        "favorite_num": [],
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  },
+  "response_hash": "fd437154f1f113686af50b200341253baabd4dea027c46cc60afca0f9cb385ac"
+}

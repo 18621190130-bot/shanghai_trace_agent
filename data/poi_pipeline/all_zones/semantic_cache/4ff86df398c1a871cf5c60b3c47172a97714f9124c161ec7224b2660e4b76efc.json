@@ -1,0 +1,32 @@
+{
+  "candidate_id": "old_city_central_6da58f48e67a81a7",
+  "node_identity": "amap:B00155KTVH",
+  "semantic": null,
+  "output": null,
+  "attempts": [
+    {
+      "status": "validation_failure",
+      "kind": "unsupported_tag_evidence_or_over_generation",
+      "feedback": "quiet_walk unsupported by cited evidence; remove or cite explicit matching description",
+      "provider": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 5125,
+          "completion_tokens": 802,
+          "total_tokens": 5927,
+          "prompt_tokens_details": {
+            "cached_tokens": 2944
+          },
+          "prompt_cache_hit_tokens": 2944,
+          "prompt_cache_miss_tokens": 2181
+        }
+      }
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "4ff86df398c1a871cf5c60b3c47172a97714f9124c161ec7224b2660e4b76efc",
+  "evidence_hash": "01ad1a752fdc710f65d33a7544b44fbd3bc7abe3da1c099a59c7792a21ed1daf",
+  "retry_reason": "evidence_materially_improved"
+}

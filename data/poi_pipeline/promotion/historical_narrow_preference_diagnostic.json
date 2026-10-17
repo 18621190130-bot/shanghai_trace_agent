@@ -1,0 +1,64 @@
+[
+  {
+    "kb": "data\\pois_phase2_5_diversity_candidate.json",
+    "status": "composition_failure",
+    "intent": {
+      "route_mode": "plan_for_me",
+      "start_location_text": null,
+      "start_lat": null,
+      "start_lng": null,
+      "start_coordinate_system": "GCJ-02",
+      "available_minutes": 180,
+      "interest_tags": [
+        "local_life"
+      ],
+      "experience_tags": [],
+      "culture_tags": [],
+      "avoid_tags": [],
+      "avoid_poi_ids": [],
+      "unresolved_negative_preferences": [],
+      "travel_pace": "standard",
+      "must_go_poi_ids": [],
+      "preferred_zone": null,
+      "max_walking_km": null,
+      "visit_mode_overrides": {},
+      "surprise_seed": 0,
+      "needs_clarification": false,
+      "missing_fields": [],
+      "clarification_requests": [],
+      "warnings": [],
+      "semantic_concepts": []
+    }
+  },
+  {
+    "kb": "data\\pois_phase2_5_final_candidate.json",
+    "status": "composition_failure",
+    "intent": {
+      "route_mode": "plan_for_me",
+      "start_location_text": null,
+      "start_lat": null,
+      "start_lng": null,
+      "start_coordinate_system": "GCJ-02",
+      "available_minutes": 180,
+      "interest_tags": [
+        "local_life"
+      ],
+      "experience_tags": [],
+      "culture_tags": [],
+      "avoid_tags": [],
+      "avoid_poi_ids": [],
+      "unresolved_negative_preferences": [],
+      "travel_pace": "standard",
+      "must_go_poi_ids": [],
+      "preferred_zone": null,
+      "max_walking_km": null,
+      "visit_mode_overrides": {},
+      "surprise_seed": 0,
+      "needs_clarification": false,
+      "missing_fields": [],
+      "clarification_requests": [],
+      "warnings": [],
+      "semantic_concepts": []
+    }
+  }
+]

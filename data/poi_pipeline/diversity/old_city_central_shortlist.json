@@ -1,0 +1,3241 @@
+[
+  {
+    "candidate_id": "old_city_central_a085d8c87e1380e7",
+    "name_zh": "上海人民广场",
+    "name_en": "People's Square",
+    "aliases": [
+      "People's Square",
+      "人民广场"
+    ],
+    "address": "人民大道185号",
+    "coordinates": [
+      31.228827,
+      121.475213
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "人民广场",
+        "name_en": "People's Square",
+        "aliases": [],
+        "address": "上海 人民大道 120",
+        "coordinates": [
+          31.2310837,
+          121.4703964
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction;leisure=park",
+        "raw_provider_tags": {
+          "addr:city": "上海",
+          "addr:housenumber": "120",
+          "addr:street": "人民大道",
+          "leisure": "park",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:fr": "people square",
+          "name:ko": "인민광장",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "wikidata": "Q10883549",
+          "wikipedia": "zh:人民广场"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "name_zh": "人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄浦区",
+        "coordinates": [
+          31.228818,
+          121.475233
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "地名地址信息;热点地名;热点地名",
+        "raw_provider_tags": {
+          "type": "地名地址信息;热点地名;热点地名",
+          "typecode": "190700",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "人民广场",
+        "name_en": "People's Square",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2314722,
+          121.4701315
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction;highway=pedestrian",
+        "raw_provider_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "street"
+      },
+      {
+        "source_candidate_id": "diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "name_zh": "上海人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "东起西藏中路西侧人行道，西至黄陂北路东侧人行道，南起延安东路北侧人行道，北至上海大剧院和人民大道200号外墙沿线范围内的公共区域。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "name_zh": "上海人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "name_zh": "上海人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "人民大道185号",
+        "coordinates": [
+          31.228827,
+          121.475213
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;公园广场;城市广场",
+        "raw_provider_tags": {
+          "type": "风景名胜;公园广场;城市广场",
+          "typecode": "110105",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B00157917M"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/404709025"
+      },
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B0KUNUNG7Y"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:relation/2153738"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_18310ab607f9",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_84aa77dfe9fb",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B00157917M",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B00157917M",
+      "name_en": "osm:way/404709025",
+      "address": "amap:B00157917M",
+      "coordinates": "amap:B00157917M"
+    },
+    "issues": [
+      "address_variants_preserved"
+    ],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_d1dbc6896e41": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "人民广场"
+      },
+      "e_27227b07d146": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "People's Square"
+      },
+      "e_80b7c25ebcdd": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "上海 人民大道 120"
+      },
+      "e_64e2fecd9fa0": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "人民广场"
+      },
+      "e_c694f3971897": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄浦区"
+      },
+      "e_cec466967b77": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "人民广场"
+      },
+      "e_7278962ebe9b": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "People's Square"
+      },
+      "e_4420ec1b6f94": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海人民广场"
+      },
+      "e_8d0578c9c84d": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海人民广场"
+      },
+      "e_30dca6a932b7": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海人民广场"
+      },
+      "e_7b452bdc2e4b": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "人民大道185号"
+      },
+      "e_0c127ec91bc5": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2310837,
+            121.4703964
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_2d5e24cfcea6": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.228818,
+            121.475233
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_2c3b4bee276c": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2314722,
+            121.4701315
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_01a955973f9c": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.228827,
+            121.475213
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_b1e160e5936e": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "地名地址信息;热点地名;热点地名"
+      },
+      "e_313cdb4ba0d0": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "地名地址信息;热点地名;热点地名"
+      },
+      "e_e3da628a0e43": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "190700"
+      },
+      "e_b6d62b398079": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;公园广场;城市广场"
+      },
+      "e_65a5a3085b93": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;公园广场;城市广场"
+      },
+      "e_da844bb655c1": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-05T02:25:22.153899+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110105"
+      },
+      "e_9dc7d6815961": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction;leisure=park"
+      },
+      "e_45f24e52cb54": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_0aa083ef1d8e": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "人民广场"
+      },
+      "e_8265db01bb86": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "People's Square"
+      },
+      "e_8330ae01a4d3": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "人民广场"
+      },
+      "e_8750894cd419": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_b41f432c3f01": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction;highway=pedestrian"
+      },
+      "e_fec7a3670e5f": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "人民广场"
+      },
+      "e_b1e05e4a9985": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "People's Square"
+      },
+      "e_a4dbdae81224": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "人民广场"
+      },
+      "e_ae71aa27fc44": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_9126a5be2c2b": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "type",
+        "value": "multipolygon"
+      },
+      "e_ce17ceeba934": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d874677dbadb": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "东起西藏中路西侧人行道，西至黄陂北路东侧人行道，南起延安东路北侧人行道，北至上海大剧院和人民大道200号外墙沿线范围内的公共区域。"
+      },
+      "e_6a2f5c9ba667": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_5994271ed4ed": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。"
+      },
+      "e_2bf380377a4d": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "东起西藏中路西侧人行道，西至黄陂北路东侧人行道，南起延安东路北侧人行道，北至上海大剧院和人民大道200号外墙沿线范围内的公共区域。"
+      },
+      "e_9e6f485147ca": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。"
+      },
+      "e_f30c021c408f": {
+        "record_id": "government:diversity_18310ab607f9",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://cgzf.sh.gov.cn/cmsres/93/93019f9cb5d44c08933f17508a226ea6/6db9509e42251bc6063c5b003b6e8ff2.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.163569+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "东起西藏中路西侧人行道，西至黄陂北路东侧人行道，南起延安东路北侧人行道，北至上海大剧院和人民大道200号外墙沿线范围内的公共区域。"
+      },
+      "e_2e8c4a018b89": {
+        "record_id": "government:diversity_84aa77dfe9fb",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw18454/20260602/40dbded48d5747bdb76023efebc0cc60.html",
+        "retrieved_at": "2026-10-05T02:33:01.163639+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "人民广场是上海的城市核心地标，更是见证百年城市变迁、镌刻红色发展记忆的重要载体。人民广场从旧时风貌蝶变为现代化城市客厅的百年历程。"
+      }
+    },
+    "recall_screen": {
+      "rank": 11,
+      "reason": null,
+      "review_note": [
+        "weak_location",
+        "多个面/点代表对象，范围宽且与周边节点独立访问范围未分清。",
+        "bounded visitor scope"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "上海人民广场",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "old_city_central_4099dce97a905559",
+    "name_zh": "福州路",
+    "name_en": "",
+    "aliases": [],
+    "address": "黄浦区",
+    "coordinates": [
+      31.233657,
+      121.481917
+    ],
+    "entity_kind": "street",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "name_zh": "福州路",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄浦区",
+        "coordinates": [
+          31.233657,
+          121.481917
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "地名地址信息;交通地名;道路名",
+        "raw_provider_tags": {
+          "type": "地名地址信息;交通地名;道路名",
+          "typecode": "190301",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "name_zh": "福州路",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "name_zh": "福州路",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市主要道路（河道）和景观区域范围界定。福州路 | 中山东一路-西藏中路",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "name_zh": "福州路",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "建设福州路文化街等“阅读+”街区，构建“城市书房”体系，形成建筑可阅读、街区可漫步、书店可品味的书香氛围。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:BZAFR002HH"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_c175efcbb039",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_5ceae444727b",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_c3ee2e546e1f",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:BZAFR002HH",
+      "name_en": null,
+      "address": "amap:BZAFR002HH",
+      "coordinates": "amap:BZAFR002HH"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_55c5d5d2b929": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "福州路"
+      },
+      "e_0e4d72f25b2f": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄浦区"
+      },
+      "e_72318069013f": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "福州路"
+      },
+      "e_c734d781ca25": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "福州路"
+      },
+      "e_58860d7f9c76": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "福州路"
+      },
+      "e_fc325e08fdcf": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.233657,
+            121.481917
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_b96327f802f3": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "地名地址信息;交通地名;道路名"
+      },
+      "e_3af5b49b2bda": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "地名地址信息;交通地名;道路名"
+      },
+      "e_fd92e8fab844": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "190301"
+      },
+      "e_0377a3ed5a80": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_4b133dc98865": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街"
+      },
+      "e_1425dfbd0513": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_88512e768132": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市主要道路（河道）和景观区域范围界定。福州路 | 中山东一路-西藏中路"
+      },
+      "e_079eb2a0fa3a": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_54bfc7d07894": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "建设福州路文化街等“阅读+”街区，构建“城市书房”体系，形成建筑可阅读、街区可漫步、书店可品味的书香氛围。"
+      },
+      "e_f65395580122": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街"
+      },
+      "e_b5b67f00dcab": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海市主要道路（河道）和景观区域范围界定。福州路 | 中山东一路-西藏中路"
+      },
+      "e_e1c34f591a5b": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "建设福州路文化街等“阅读+”街区，构建“城市书房”体系，形成建筑可阅读、街区可漫步、书店可品味的书香氛围。"
+      },
+      "e_118ca3432ccb": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街"
+      },
+      "e_8c8e3cdbfca5": {
+        "record_id": "government:diversity_5ceae444727b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cf46474f-4259-4087-ada5-105e2ec94971",
+        "retrieved_at": "2026-10-05T02:33:01.169643+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市主要道路（河道）和景观区域范围界定。福州路 | 中山东一路-西藏中路"
+      },
+      "e_3dad5230fc36": {
+        "record_id": "government:diversity_c3ee2e546e1f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw12344/20260228/2bd94b73f5d74b28bf38d392cebd8ab6.html",
+        "retrieved_at": "2026-10-05T02:33:01.169698+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "建设福州路文化街等“阅读+”街区，构建“城市书房”体系，形成建筑可阅读、街区可漫步、书店可品味的书香氛围。"
+      },
+      "e_0a59e66addd6": {
+        "record_id": "government:recall_c175efcbb039",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20240919/8eba22ff0b934017abc1f962eae7c529.html?siteId=1",
+        "retrieved_at": "2026-10-04T16:17:38.637785+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "“外滩·新闻历史文化街区”北接南京路步行街，南临福州路文化一条街"
+      }
+    },
+    "recall_screen": {
+      "rank": 3,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "福州路",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "old_city_central_04d3c9c6bca78389",
+    "name_zh": "中国社会主义青年团中央机关旧址",
+    "name_en": "Site of the Socialist Youth League of China",
+    "aliases": [],
+    "address": "淮海中路567弄1-6号(淮海中路地铁站1号口步行370米)",
+    "coordinates": [
+      31.220489,
+      121.468151
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "中国社会主义青年团中央机关旧址",
+        "name_en": "Site of the Socialist Youth League of China",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2219814,
+          121.4638157
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=museum",
+        "raw_provider_tags": {
+          "heritage": "2",
+          "heritage:operator": "上海全国重点文物保护单位列表",
+          "heritage:ref": "1-10",
+          "name": "中国社会主义青年团中央机关旧址",
+          "name:en": "Site of the Socialist Youth League of China",
+          "name:zh": "中国社会主义青年团中央机关旧址",
+          "name:zh-Hans": "中国社会主义青年团中央机关旧址",
+          "name:zh-Hant": "中國社會主義青年團中央機關舊址",
+          "start_date": "1921",
+          "tourism": "museum",
+          "wheelchair": "yes"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "recall_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "name_zh": "中国社会主义青年团中央机关旧址",
+        "name_en": "Site of the Socialist Youth League of China",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "name_zh": "中国社会主义青年团中央机关旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_f6941cbe6370",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.348199+00:00",
+        "name_zh": "中国社会主义青年团中央机关旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市博物馆名单（2024年度）。中国社会主义青年团中央机关旧址纪念馆 | 淮海中路567弄1-6号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B0FFFV4AU5",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0FFFV4AU5",
+        "retrieved_at": "2026-10-05T02:25:22.375410+00:00",
+        "name_zh": "中国社会主义青年团中央机关旧址纪念馆",
+        "name_en": "",
+        "aliases": [],
+        "address": "淮海中路567弄1-6号(淮海中路地铁站1号口步行370米)",
+        "coordinates": [
+          31.220489,
+          121.468151
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;风景名胜;风景名胜",
+        "raw_provider_tags": {
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/4823869418"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_e727c3770021",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_e727c3770021",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_f6941cbe6370",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.348199+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B0FFFV4AU5",
+        "url": "https://www.amap.com/detail/B0FFFV4AU5",
+        "retrieved_at": "2026-10-05T02:25:22.375410+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/4823869418",
+      "name_en": "osm:node/4823869418",
+      "address": "amap:B0FFFV4AU5",
+      "coordinates": "amap:B0FFFV4AU5"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_fed9c3287398": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "中国社会主义青年团中央机关旧址"
+      },
+      "e_902029246bca": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Site of the Socialist Youth League of China"
+      },
+      "e_bb175c130533": {
+        "record_id": "government:recall_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "中国社会主义青年团中央机关旧址"
+      },
+      "e_38fe3ae5e880": {
+        "record_id": "government:recall_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Site of the Socialist Youth League of China"
+      },
+      "e_a98bc3c9a2d7": {
+        "record_id": "government:diversity_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "中国社会主义青年团中央机关旧址"
+      },
+      "e_483e734abda6": {
+        "record_id": "government:diversity_f6941cbe6370",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.348199+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "中国社会主义青年团中央机关旧址"
+      },
+      "e_042f0152bbbc": {
+        "record_id": "amap:B0FFFV4AU5",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFFV4AU5",
+        "retrieved_at": "2026-10-05T02:25:22.375410+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "中国社会主义青年团中央机关旧址纪念馆"
+      },
+      "e_5431183a95cc": {
+        "record_id": "amap:B0FFFV4AU5",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFFV4AU5",
+        "retrieved_at": "2026-10-05T02:25:22.375410+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "淮海中路567弄1-6号(淮海中路地铁站1号口步行370米)"
+      },
+      "e_38d0009a0145": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2219814,
+            121.4638157
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_8396188ac74e": {
+        "record_id": "amap:B0FFFV4AU5",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFFV4AU5",
+        "retrieved_at": "2026-10-05T02:25:22.375410+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.220489,
+            121.468151
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_5a1463e0adcb": {
+        "record_id": "amap:B0FFFV4AU5",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFFV4AU5",
+        "retrieved_at": "2026-10-05T02:25:22.375410+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_99917cab082a": {
+        "record_id": "amap:B0FFFV4AU5",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFFV4AU5",
+        "retrieved_at": "2026-10-05T02:25:22.375410+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_7102ee0a88bd": {
+        "record_id": "amap:B0FFFV4AU5",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFFV4AU5",
+        "retrieved_at": "2026-10-05T02:25:22.375410+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110200"
+      },
+      "e_f57349a98efa": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=museum"
+      },
+      "e_4c2b53af1db3": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "中国社会主义青年团中央机关旧址"
+      },
+      "e_3a19285061d8": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Site of the Socialist Youth League of China"
+      },
+      "e_0ce5637acbf1": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "中国社会主义青年团中央机关旧址"
+      },
+      "e_1efc6c2dc076": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "start_date",
+        "value": "1921"
+      },
+      "e_d7eb704d1fdf": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "museum"
+      },
+      "e_2e845354bd11": {
+        "record_id": "government:recall_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_933de41584ed": {
+        "record_id": "government:recall_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。"
+      },
+      "e_553d6d229b40": {
+        "record_id": "government:diversity_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_8381d8488a3f": {
+        "record_id": "government:diversity_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。"
+      },
+      "e_ddba9366c12b": {
+        "record_id": "government:diversity_f6941cbe6370",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.348199+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_8c1308b19f32": {
+        "record_id": "government:diversity_f6941cbe6370",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.348199+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。中国社会主义青年团中央机关旧址纪念馆 | 淮海中路567弄1-6号"
+      },
+      "e_db5942dbb502": {
+        "record_id": "government:recall_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。"
+      },
+      "e_f1afd8154f14": {
+        "record_id": "government:diversity_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。"
+      },
+      "e_b1fd3f158c92": {
+        "record_id": "government:diversity_f6941cbe6370",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.348199+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。中国社会主义青年团中央机关旧址纪念馆 | 淮海中路567弄1-6号"
+      },
+      "e_274358214a24": {
+        "record_id": "government:recall_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。"
+      },
+      "e_e5a3d7dd6161": {
+        "record_id": "government:diversity_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。"
+      },
+      "e_087d15038b4e": {
+        "record_id": "government:diversity_f6941cbe6370",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.348199+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。中国社会主义青年团中央机关旧址纪念馆 | 淮海中路567弄1-6号"
+      },
+      "e_5f357ab331c7": {
+        "record_id": "government:recall_e727c3770021",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260924/6d8d89744aef4043b941cbf78fede58b.html",
+        "retrieved_at": "2026-10-04T16:17:44.582021+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "中国社会主义青年团中央机关旧址纪念馆\n地址：淮海中路567弄1-6号\n该7处场馆均向公众（含未成年人）免费开放，无需预约。"
+      }
+    },
+    "recall_screen": {
+      "rank": 6,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "recall_material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+    "original_cached_name": "中国社会主义青年团中央机关旧址",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "old_city_central_330641af97b370bc",
+    "name_zh": "大韩民国临时政府旧址",
+    "name_en": "Former site of the Provisional Government of the Republic of Korea",
+    "aliases": [],
+    "address": "马当路306弄4号",
+    "coordinates": [
+      31.217351,
+      121.474625
+    ],
+    "entity_kind": "building",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "Former site of the Provisional Government of the Republic of Korea",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2192213,
+          121.4701593
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "historic=memorial",
+        "raw_provider_tags": {
+          "historic": "memorial",
+          "name": "大韩民国临时政府旧址",
+          "name:en": "Former site of the Provisional Government of the Republic of Korea",
+          "name:ko": "대한민국임시정부"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "building"
+      },
+      {
+        "source_candidate_id": "recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "Former site of the Provisional Government of the Republic of Korea",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "Former site of the Provisional Government of the Republic of Korea",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "下午，总统夫妇一同访问大韩民国临时政府旧址。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "下午，总统夫妇一同访问大韩民国临时政府旧址。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市博物馆名单（2024年度）。大韩民国临时政府旧址管理处 | 马当路306弄4号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "马当路306弄4号",
+        "coordinates": [
+          31.217351,
+          121.474625
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;风景名胜;风景名胜",
+        "raw_provider_tags": {
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/5530017323"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_e0f192eb12a3",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_854b04a49b67",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_e0f192eb12a3",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_854b04a49b67",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_f57c777ae6c3",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B001556HRR",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/5530017323",
+      "name_en": "osm:node/5530017323",
+      "address": "amap:B001556HRR",
+      "coordinates": "amap:B001556HRR"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_28dd4eb2a27b": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_d0e8bfba6e20": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      },
+      "e_2ce78f53ab7a": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_a83546d017db": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      },
+      "e_90f97b756a85": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_e700d432c2b1": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      },
+      "e_b4f9bc518916": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_2eb017ce07c9": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_661be102b4cc": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_1f880092bc1e": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_afc61a1795b8": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "马当路306弄4号"
+      },
+      "e_dd1e29c8b87e": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2192213,
+            121.4701593
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_95d97c07c3aa": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.217351,
+            121.474625
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_57558d8ca771": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_e7af382abc66": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_e278d79e032e": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110200"
+      },
+      "e_95ec9d5667aa": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "historic=memorial"
+      },
+      "e_f97b194f5160": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "historic",
+        "value": "memorial"
+      },
+      "e_da106a1b3680": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_c88ab75e1824": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      },
+      "e_3de81a122f25": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_57dbf33d9ef0": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_a20a275cf058": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_5eb92c8ddcfc": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_f16e66e10f76": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_4b4e4b29ca20": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_7787f952857d": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d35217d68560": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_306b86f32ec2": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_e0719bb0a654": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。大韩民国临时政府旧址管理处 | 马当路306弄4号"
+      },
+      "e_d3325375ce18": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_5ebb30d59bb6": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_689895289074": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_fe3a145a9f37": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_403f6e09fa14": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。大韩民国临时政府旧址管理处 | 马当路306弄4号"
+      },
+      "e_300c0d94152d": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_89f66fa0d570": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_a8da8c4bf8e6": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_6e527fd0ec27": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_3aedc678fdff": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。大韩民国临时政府旧址管理处 | 马当路306弄4号"
+      },
+      "e_75fc5037a563": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_55e92972d8fb": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      }
+    },
+    "recall_screen": {
+      "rank": 7,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "大韩民国临时政府旧址",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "old_city_central_7a7e1b84663beb98",
+    "name_zh": "徐光启故居(九间楼)",
+    "name_en": "Former Residence of Xu Guangqi",
+    "aliases": [],
+    "address": "Shanghai Qiaojia Lu 239",
+    "coordinates": [
+      31.217599579659208,
+      121.49453987306539
+    ],
+    "entity_kind": "building",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "徐光启故居（九间楼）",
+        "name_en": "Former Residence of Xu Guangqi",
+        "aliases": [],
+        "address": "Shanghai Qiaojia Lu 239",
+        "coordinates": [
+          31.2195938,
+          121.4900738
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction;historic=yes",
+        "raw_provider_tags": {
+          "addr:city": "Shanghai",
+          "addr:district": "Huangpu District",
+          "addr:housenumber": "239",
+          "addr:street": "Qiaojia Lu",
+          "building": "historic",
+          "heritage": "2",
+          "heritage:levels": "municipal",
+          "historic": "yes",
+          "name": "徐光启故居（九间楼）",
+          "name:en": "Former Residence of Xu Guangqi",
+          "name:zh": "徐光启故居（九间楼）",
+          "tourism": "attraction"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "building"
+      },
+      {
+        "source_candidate_id": "recall_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00",
+        "name_zh": "徐光启故居(九间楼)",
+        "name_en": "Former Residence of Xu Guangqi",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "徐光启故居———九间楼",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.181997+00:00",
+        "name_zh": "徐光启故居(九间楼)",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "徐光启故居——九间楼 黄浦区乔家路234－244号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_7e0d6f7cfcfd",
+        "source_type": "official",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://m.thepaper.cn/newsDetail_forward_16433163",
+        "retrieved_at": "2026-10-05T02:33:01.182053+00:00",
+        "name_zh": "徐光启故居(九间楼)",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海黄浦上海市黄浦区新闻中心官方澎湃号。在黄浦的街头巷尾，有许多像这样有故事的建筑。徐光启出生在上海县城南乔家浜南岸太卿坊，在此后相当一段岁月里，他都生活在乔家路234号至244号的这幢建筑里，这是徐光启故居，人们习惯称呼他的故居为“九间楼”，或者“九间头”。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/1556578807"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_ef535af245c5",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_ef535af245c5",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.181997+00:00"
+      },
+      {
+        "source_type": "official",
+        "source_candidate_id": "diversity_7e0d6f7cfcfd",
+        "url": "https://m.thepaper.cn/newsDetail_forward_16433163",
+        "retrieved_at": "2026-10-05T02:33:01.182053+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:way/1556578807",
+      "name_en": "osm:way/1556578807",
+      "address": "osm:way/1556578807",
+      "coordinates": "osm:way/1556578807"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_b1623c94714c": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐光启故居（九间楼）"
+      },
+      "e_fc013976c27e": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former Residence of Xu Guangqi"
+      },
+      "e_932805bba92b": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "Shanghai Qiaojia Lu 239"
+      },
+      "e_4ac64c7b83b0": {
+        "record_id": "government:recall_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐光启故居(九间楼)"
+      },
+      "e_28e57cd2531a": {
+        "record_id": "government:recall_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former Residence of Xu Guangqi"
+      },
+      "e_0a7c734871ea": {
+        "record_id": "government:diversity_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.181997+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐光启故居(九间楼)"
+      },
+      "e_3ba135e86a4c": {
+        "record_id": "official:diversity_7e0d6f7cfcfd",
+        "source_type": "official",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://m.thepaper.cn/newsDetail_forward_16433163",
+        "retrieved_at": "2026-10-05T02:33:01.182053+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐光启故居(九间楼)"
+      },
+      "e_814a2e3ff877": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2195938,
+            121.4900738
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_2d2211d3a73e": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction;historic=yes"
+      },
+      "e_d0ed0958c621": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "building",
+        "value": "historic"
+      },
+      "e_b1ce8b9cfb8f": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "historic",
+        "value": "yes"
+      },
+      "e_8a3290e47b61": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "徐光启故居（九间楼）"
+      },
+      "e_a08369319b2e": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Former Residence of Xu Guangqi"
+      },
+      "e_b4c4436e5f7d": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "徐光启故居（九间楼）"
+      },
+      "e_5aa83c7cdfbb": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_df61fbc7e901": {
+        "record_id": "government:recall_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_20487707043b": {
+        "record_id": "government:recall_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "徐光启故居———九间楼"
+      },
+      "e_2a1a5d71217e": {
+        "record_id": "government:diversity_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.181997+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d66c10d0f958": {
+        "record_id": "government:diversity_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.181997+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "徐光启故居——九间楼 黄浦区乔家路234－244号"
+      },
+      "e_01d0b3e19094": {
+        "record_id": "official:diversity_7e0d6f7cfcfd",
+        "source_type": "official",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://m.thepaper.cn/newsDetail_forward_16433163",
+        "retrieved_at": "2026-10-05T02:33:01.182053+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_a008b0f3fef2": {
+        "record_id": "official:diversity_7e0d6f7cfcfd",
+        "source_type": "official",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://m.thepaper.cn/newsDetail_forward_16433163",
+        "retrieved_at": "2026-10-05T02:33:01.182053+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海黄浦上海市黄浦区新闻中心官方澎湃号。在黄浦的街头巷尾，有许多像这样有故事的建筑。徐光启出生在上海县城南乔家浜南岸太卿坊，在此后相当一段岁月里，他都生活在乔家路234号至244号的这幢建筑里，这是徐光启故居，人们习惯称呼他的故居为“九间楼”，或者“九间头”。"
+      },
+      "e_70e8a012e01b": {
+        "record_id": "government:recall_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "徐光启故居———九间楼"
+      },
+      "e_508a57a587ed": {
+        "record_id": "government:diversity_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.181997+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "徐光启故居——九间楼 黄浦区乔家路234－244号"
+      },
+      "e_1c4500d8ed34": {
+        "record_id": "official:diversity_7e0d6f7cfcfd",
+        "source_type": "official",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://m.thepaper.cn/newsDetail_forward_16433163",
+        "retrieved_at": "2026-10-05T02:33:01.182053+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海黄浦上海市黄浦区新闻中心官方澎湃号。在黄浦的街头巷尾，有许多像这样有故事的建筑。徐光启出生在上海县城南乔家浜南岸太卿坊，在此后相当一段岁月里，他都生活在乔家路234号至244号的这幢建筑里，这是徐光启故居，人们习惯称呼他的故居为“九间楼”，或者“九间头”。"
+      },
+      "e_0c06b80af19b": {
+        "record_id": "government:recall_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "徐光启故居———九间楼"
+      },
+      "e_ad0929b95dda": {
+        "record_id": "government:diversity_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-05T02:33:01.181997+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "徐光启故居——九间楼 黄浦区乔家路234－244号"
+      },
+      "e_6b77eb461c6a": {
+        "record_id": "official:diversity_7e0d6f7cfcfd",
+        "source_type": "official",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://m.thepaper.cn/newsDetail_forward_16433163",
+        "retrieved_at": "2026-10-05T02:33:01.182053+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海黄浦上海市黄浦区新闻中心官方澎湃号。在黄浦的街头巷尾，有许多像这样有故事的建筑。徐光启出生在上海县城南乔家浜南岸太卿坊，在此后相当一段岁月里，他都生活在乔家路234号至244号的这幢建筑里，这是徐光启故居，人们习惯称呼他的故居为“九间楼”，或者“九间头”。"
+      },
+      "e_f036a08a42b7": {
+        "record_id": "government:recall_ef535af245c5",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/shanghai/download/gongkai/hff1429.pdf",
+        "retrieved_at": "2026-10-04T16:17:50.678244+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "徐光启故居———九间楼"
+      }
+    },
+    "recall_screen": {
+      "rank": 8,
+      "reason": null,
+      "review_note": [
+        "insufficient_evidence",
+        "保护名单支持稳定身份；缺的是独立街面观察/展陈体验证据，不是此刻是否开门。",
+        "independent public observation or exhibition scope"
+      ],
+      "evidence_score": 9,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "徐光启故居(九间楼)",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "old_city_central_06591af3b6abd091",
+    "name_zh": "东海大楼",
+    "name_en": "Dunhai building",
+    "aliases": [
+      "慈淑大楼",
+      "东海商都"
+    ],
+    "address": "南京东路353号",
+    "coordinates": [
+      31.236488185005573,
+      121.4841012919283
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "东海大楼",
+        "name_en": "Dunhai building",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2384432,
+          121.4795971
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction",
+        "raw_provider_tags": {
+          "name": "东海大楼",
+          "name:en": "Dunhai building",
+          "name:ru": "Здание Дунхай",
+          "tourism": "attraction"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "name_zh": "东海大楼",
+        "name_en": "",
+        "aliases": [],
+        "address": "南京东路353号",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/10738317085"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_7b1840858e0f",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/10738317085",
+      "name_en": "osm:node/10738317085",
+      "address": "government:diversity_7b1840858e0f",
+      "coordinates": "osm:node/10738317085"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_e45ccb5d215a": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "东海大楼"
+      },
+      "e_8d487dad92da": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Dunhai building"
+      },
+      "e_59876e8ab4e0": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "东海大楼"
+      },
+      "e_0094f79ccfdf": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "南京东路353号"
+      },
+      "e_7239f95ef2cd": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2384432,
+            121.4795971
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_35496efc454b": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction"
+      },
+      "e_c04a8eb886ff": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "东海大楼"
+      },
+      "e_9ff4f325e651": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Dunhai building"
+      },
+      "e_a830322f0da3": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_60c16c31bd56": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_a933737a8adb": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号"
+      },
+      "e_965a1d477fbf": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号"
+      },
+      "e_e4b3a35c5733": {
+        "record_id": "government:diversity_7b1840858e0f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20210922/8f72fa07617c4828a25ef948cd1c5da7.html",
+        "retrieved_at": "2026-10-05T02:33:01.183336+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "优秀历史建筑。2A027 | 慈淑大楼 | 东海商都 | 南京东路353号"
+      }
+    },
+    "recall_screen": {
+      "rank": 12,
+      "reason": "weak_semantic_signal",
+      "review_note": [
+        "insufficient_evidence",
+        "历史建筑线索保留，未以名气推断值得独立停靠。",
+        "facade public observation scope and architectural evidence"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "东海大楼",
+    "recall_parent": null
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "poi_ids": [
+      "pz_68957332b418",
+      "pz_8919938b21f2"
+    ],
+    "names": [
+      "太平桥公园",
+      "淮海公园"
+    ],
+    "distance_km": 0.387,
+    "tag_jaccard": 1.0,
+    "same_primary_role": true,
+    "recommendation": "review_keep_or_remove; proximity/tag similarity alone does not prove spatial or experiential duplication",
+    "automatic_removal": false
+  },
+  {
+    "poi_ids": [
+      "pz_68957332b418",
+      "pz_bd40d04c7f5d"
+    ],
+    "names": [
+      "太平桥公园",
+      "复兴公园"
+    ],
+    "distance_km": 0.885,
+    "tag_jaccard": 0.167,
+    "same_primary_role": false,
+    "recommendation": "review_keep_or_remove; proximity/tag similarity alone does not prove spatial or experiential duplication",
+    "automatic_removal": false
+  },
+  {
+    "poi_ids": [
+      "pz_553cfd36707c",
+      "pz_09b5938601ee"
+    ],
+    "names": [
+      "衡山公园",
+      "徐家汇公园"
+    ],
+    "distance_km": 0.358,
+    "tag_jaccard": 0.333,
+    "same_primary_role": true,
+    "recommendation": "review_keep_or_remove; proximity/tag similarity alone does not prove spatial or experiential duplication",
+    "automatic_removal": false
+  }
+]

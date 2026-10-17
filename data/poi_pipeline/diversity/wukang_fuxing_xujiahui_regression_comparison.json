@@ -1,0 +1,3911 @@
+{
+  "before": [
+    {
+      "case": "core_1",
+      "label": "strongest core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p2",
+          "name": "永康路与嘉善路口",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        },
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p21",
+          "name": "上海宋庆龄故居纪念馆",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p13",
+          "name": "武康大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        }
+      ],
+      "total_estimated_time": 167.56163087791205,
+      "time_utilization": 0.9308979493217336,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "transition_stop": 2,
+          "supporting_stop": 2,
+          "anchor": 1
+        },
+        "longest_transition_run": 2,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 2.087896224257047,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Historic Residential Architecture",
+          "Plane-tree Neighborhood",
+          "Shikumen",
+          "Historic Residence",
+          "Plane-tree Neighborhood"
+        ],
+        "route_roles": [
+          "transition_stop",
+          "transition_stop",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 0,
+        "street_lane_count": 3,
+        "landmark_building_count": 3,
+        "urban_texture_count": 5,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "core_2",
+      "label": "second core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "relevant_candidate_pool": [
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "pz_a87eb2b5b5da"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_a87eb2b5b5da",
+          "name": "武康路历史文化名街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p13",
+          "name": "武康大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        }
+      ],
+      "total_estimated_time": 147.40303436069627,
+      "time_utilization": 0.8189057464483126,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "transition_stop": 1,
+          "supporting_stop": 2,
+          "anchor": 1
+        },
+        "longest_transition_run": 1,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.9342076495923346,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Historic Residential Architecture",
+          "Shikumen",
+          "heritage",
+          "Plane-tree Neighborhood"
+        ],
+        "route_roles": [
+          "transition_stop",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 0,
+        "street_lane_count": 3,
+        "landmark_building_count": 2,
+        "urban_texture_count": 4,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "non_museum",
+      "label": "outdoor/public-space walk; no museums",
+      "request": {
+        "available_minutes": 150,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "parks",
+          "architecture",
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "museum_visit"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "museum_visit"
+      ],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p32",
+        "p33",
+        "p35",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p32",
+        "p33",
+        "p35",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p13",
+          "name": "武康大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p32",
+          "name": "徐家汇天主堂",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        }
+      ],
+      "total_estimated_time": 143.690784753539,
+      "time_utilization": 0.9579385650235933,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "transition_stop": 1,
+          "supporting_stop": 2,
+          "anchor": 1
+        },
+        "longest_transition_run": 1,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 2.167643305419517,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Historic Residential Architecture",
+          "Shikumen",
+          "Plane-tree Neighborhood",
+          "Historic Religious Architecture"
+        ],
+        "route_roles": [
+          "transition_stop",
+          "supporting_stop",
+          "supporting_stop",
+          "anchor"
+        ],
+        "park_count": 0,
+        "street_lane_count": 2,
+        "landmark_building_count": 3,
+        "urban_texture_count": 4,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "new_coverage",
+      "label": "new nodes thematic coverage",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "parks",
+          "art",
+          "architecture",
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "parks"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p13",
+          "name": "武康大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p21",
+          "name": "上海宋庆龄故居纪念馆",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "pz_a27dbbc6cab8",
+          "name": "襄阳公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "parks"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        }
+      ],
+      "total_estimated_time": 167.2969192474799,
+      "time_utilization": 0.9294273291526661,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 3,
+          "anchor": 1,
+          "transition_stop": 1
+        },
+        "longest_transition_run": 1,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 2.087896224257047,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Plane-tree Neighborhood",
+          "Historic Residence",
+          "Shikumen",
+          "Historic Residential Architecture",
+          "park"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "anchor",
+          "supporting_stop",
+          "transition_stop",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 2,
+        "landmark_building_count": 3,
+        "urban_texture_count": 4,
+        "route_category_diversity": 5,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "general_180",
+      "label": "general three-hour walk",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_17d41390cac9",
+          "name": "上海工艺美术博物馆",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p2",
+          "name": "永康路与嘉善路口",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        },
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "pz_a27dbbc6cab8",
+          "name": "襄阳公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        }
+      ],
+      "total_estimated_time": 149.07836000596882,
+      "time_utilization": 0.8282131111442712,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 2,
+          "anchor": 1,
+          "transition_stop": 2
+        },
+        "longest_transition_run": 2,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.6745565137486915,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Shikumen",
+          "museum",
+          "Plane-tree Neighborhood",
+          "Historic Residential Architecture",
+          "park"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "anchor",
+          "transition_stop",
+          "transition_stop",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 3,
+        "landmark_building_count": 1,
+        "urban_texture_count": 3,
+        "route_category_diversity": 5,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "negative",
+      "label": "no shopping",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "shopping_lifestyle",
+          "shopping_leisure"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "shopping_lifestyle",
+        "shopping_leisure"
+      ],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "candidate_pool_after_filtering": [
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "relevant_candidate_pool": [
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "pz_553cfd36707c",
+          "name": "衡山公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        },
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_17d41390cac9",
+          "name": "上海工艺美术博物馆",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "pz_a27dbbc6cab8",
+          "name": "襄阳公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        }
+      ],
+      "total_estimated_time": 169.63020919934633,
+      "time_utilization": 0.9423900511074795,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 3,
+          "anchor": 1,
+          "transition_stop": 1
+        },
+        "longest_transition_run": 1,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.9130746637341378,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "park",
+          "Shikumen",
+          "museum",
+          "Historic Residential Architecture",
+          "park"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "supporting_stop",
+          "anchor",
+          "transition_stop",
+          "supporting_stop"
+        ],
+        "park_count": 2,
+        "street_lane_count": 2,
+        "landmark_building_count": 1,
+        "urban_texture_count": 2,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "architecture_life",
+      "label": "G urban texture theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture",
+          "local_life"
+        ],
+        "experience_tags": [
+          "street_scene"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "local_life"
+        ],
+        "experience_tags": [
+          "street_scene"
+        ],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p2",
+          "name": "永康路与嘉善路口",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [
+              "street_scene"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        },
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p32",
+          "name": "徐家汇天主堂",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        },
+        {
+          "poi_id": "p33",
+          "name": "徐家汇书院",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 171.88602973768297,
+      "time_utilization": 0.9549223874315721,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "transition_stop": 2,
+          "supporting_stop": 2,
+          "anchor": 1
+        },
+        "longest_transition_run": 2,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 3.1505079954221054,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Historic Residential Architecture",
+          "Plane-tree Neighborhood",
+          "Shikumen",
+          "Historic Religious Architecture",
+          "Contemporary Public Cultural Space"
+        ],
+        "route_roles": [
+          "transition_stop",
+          "transition_stop",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 0,
+        "street_lane_count": 3,
+        "landmark_building_count": 2,
+        "urban_texture_count": 4,
+        "route_category_diversity": 5,
+        "soft_diagnostic_only": true
+      }
+    }
+  ],
+  "after": [
+    {
+      "case": "core_1",
+      "label": "strongest core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_7e40d824dbee"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p2",
+          "name": "永康路与嘉善路口",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        },
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_54f53d30c0dc",
+          "name": "安康公寓（乌鲁木齐南路176号）",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 7.0
+        },
+        {
+          "poi_id": "p21",
+          "name": "上海宋庆龄故居纪念馆",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 45.0
+        }
+      ],
+      "total_estimated_time": 159.4404648562769,
+      "time_utilization": 0.8857803603126494,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "transition_stop": 3,
+          "supporting_stop": 1,
+          "anchor": 1
+        },
+        "longest_transition_run": 2,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.1939550914969734,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Historic Residential Architecture",
+          "Plane-tree Neighborhood",
+          "Shikumen",
+          "architecture",
+          "Historic Residence"
+        ],
+        "route_roles": [
+          "transition_stop",
+          "transition_stop",
+          "supporting_stop",
+          "transition_stop",
+          "anchor"
+        ],
+        "park_count": 0,
+        "street_lane_count": 3,
+        "landmark_building_count": 3,
+        "urban_texture_count": 5,
+        "route_category_diversity": 5,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "core_2",
+      "label": "second core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "relevant_candidate_pool": [
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "pz_a87eb2b5b5da",
+        "pz_54f53d30c0dc",
+        "pz_09b5938601ee"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_54f53d30c0dc",
+          "name": "安康公寓（乌鲁木齐南路176号）",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 7.0
+        },
+        {
+          "poi_id": "pz_09b5938601ee",
+          "name": "徐家汇公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p21",
+          "name": "上海宋庆龄故居纪念馆",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p13",
+          "name": "武康大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        }
+      ],
+      "total_estimated_time": 155.5881328128988,
+      "time_utilization": 0.8643785156272156,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 3,
+          "transition_stop": 1,
+          "anchor": 1
+        },
+        "longest_transition_run": 1,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.160868696327305,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Shikumen",
+          "architecture",
+          "park",
+          "Historic Residence",
+          "Plane-tree Neighborhood"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "transition_stop",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 3,
+        "urban_texture_count": 4,
+        "route_category_diversity": 5,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "non_museum",
+      "label": "outdoor/public-space walk; no museums",
+      "request": {
+        "available_minutes": 150,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "parks",
+          "architecture",
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "museum_visit"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "museum_visit"
+      ],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "parks"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p32",
+        "p33",
+        "p35",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p32",
+        "p33",
+        "p35",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_54f53d30c0dc",
+          "name": "安康公寓（乌鲁木齐南路176号）",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 7.0
+        },
+        {
+          "poi_id": "pz_09b5938601ee",
+          "name": "徐家汇公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history",
+              "parks"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p32",
+          "name": "徐家汇天主堂",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        }
+      ],
+      "total_estimated_time": 114.49062218239536,
+      "time_utilization": 0.7632708145493023,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 2,
+          "transition_stop": 1,
+          "anchor": 1
+        },
+        "longest_transition_run": 1,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.160868696327305,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Shikumen",
+          "architecture",
+          "park",
+          "Historic Religious Architecture"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "transition_stop",
+          "supporting_stop",
+          "anchor"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 2,
+        "urban_texture_count": 3,
+        "route_category_diversity": 4,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "new_coverage",
+      "label": "new nodes thematic coverage",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "parks",
+          "art",
+          "architecture",
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "parks"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_54f53d30c0dc",
+          "name": "安康公寓（乌鲁木齐南路176号）",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 7.0
+        },
+        {
+          "poi_id": "pz_09b5938601ee",
+          "name": "徐家汇公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history",
+              "parks"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p21",
+          "name": "上海宋庆龄故居纪念馆",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p13",
+          "name": "武康大楼",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        }
+      ],
+      "total_estimated_time": 155.5881328128988,
+      "time_utilization": 0.8643785156272156,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 3,
+          "transition_stop": 1,
+          "anchor": 1
+        },
+        "longest_transition_run": 1,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.160868696327305,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Shikumen",
+          "architecture",
+          "park",
+          "Historic Residence",
+          "Plane-tree Neighborhood"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "transition_stop",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 1,
+        "landmark_building_count": 3,
+        "urban_texture_count": 4,
+        "route_category_diversity": 5,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "general_180",
+      "label": "general three-hour walk",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_17d41390cac9",
+          "name": "上海工艺美术博物馆",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "pz_7e40d824dbee",
+          "name": "上海交响乐团音乐厅",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 12.0
+        },
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "pz_a27dbbc6cab8",
+          "name": "襄阳公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        }
+      ],
+      "total_estimated_time": 141.21902764333777,
+      "time_utilization": 0.7845501535740987,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 3,
+          "anchor": 1,
+          "transition_stop": 1
+        },
+        "longest_transition_run": 1,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.8204514055088772,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Shikumen",
+          "museum",
+          "architecture",
+          "Historic Residential Architecture",
+          "park"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "anchor",
+          "supporting_stop",
+          "transition_stop",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 2,
+        "landmark_building_count": 2,
+        "urban_texture_count": 3,
+        "route_category_diversity": 5,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "negative",
+      "label": "no shopping",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "shopping_lifestyle",
+          "shopping_leisure"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "shopping_lifestyle",
+        "shopping_leisure"
+      ],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "candidate_pool_after_filtering": [
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "relevant_candidate_pool": [
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "pz_17d41390cac9",
+          "name": "上海工艺美术博物馆",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "pz_7e40d824dbee",
+          "name": "上海交响乐团音乐厅",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 12.0
+        },
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "pz_a27dbbc6cab8",
+          "name": "襄阳公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        }
+      ],
+      "total_estimated_time": 141.21902764333777,
+      "time_utilization": 0.7845501535740987,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 3,
+          "anchor": 1,
+          "transition_stop": 1
+        },
+        "longest_transition_run": 1,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.8204514055088772,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Shikumen",
+          "museum",
+          "architecture",
+          "Historic Residential Architecture",
+          "park"
+        ],
+        "route_roles": [
+          "supporting_stop",
+          "anchor",
+          "supporting_stop",
+          "transition_stop",
+          "supporting_stop"
+        ],
+        "park_count": 1,
+        "street_lane_count": 2,
+        "landmark_building_count": 2,
+        "urban_texture_count": 3,
+        "route_category_diversity": 5,
+        "soft_diagnostic_only": true
+      }
+    },
+    {
+      "case": "architecture_life",
+      "label": "G urban texture theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture",
+          "local_life"
+        ],
+        "experience_tags": [
+          "street_scene"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "architecture",
+          "local_life"
+        ],
+        "experience_tags": [
+          "street_scene"
+        ],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "candidate_pool_after_filtering": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_17d41390cac9",
+        "pz_a87eb2b5b5da",
+        "pz_553cfd36707c",
+        "pz_a27dbbc6cab8",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_437ddd34f2c1",
+        "pz_7e40d824dbee",
+        "pz_09b5938601ee"
+      ],
+      "relevant_candidate_pool": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35",
+        "pz_54f53d30c0dc",
+        "pz_de47b0cf3e98",
+        "pz_7e40d824dbee"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p12",
+          "name": "陕南邨",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 10.0
+        },
+        {
+          "poi_id": "p2",
+          "name": "永康路与嘉善路口",
+          "primary_role": "transition_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [
+              "street_scene"
+            ],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        },
+        {
+          "poi_id": "p11",
+          "name": "建业里",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 15.0
+        },
+        {
+          "poi_id": "p32",
+          "name": "徐家汇天主堂",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        },
+        {
+          "poi_id": "p33",
+          "name": "徐家汇书院",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 171.88602973768297,
+      "time_utilization": 0.9549223874315721,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "transition_stop": 2,
+          "supporting_stop": 2,
+          "anchor": 1
+        },
+        "longest_transition_run": 2,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 3.1505079954221054,
+      "zone_isolation_passed": true,
+      "relevance_passed": true,
+      "passed": true,
+      "diversity_diagnostics": {
+        "poi_categories": [
+          "Historic Residential Architecture",
+          "Plane-tree Neighborhood",
+          "Shikumen",
+          "Historic Religious Architecture",
+          "Contemporary Public Cultural Space"
+        ],
+        "route_roles": [
+          "transition_stop",
+          "transition_stop",
+          "supporting_stop",
+          "anchor",
+          "supporting_stop"
+        ],
+        "park_count": 0,
+        "street_lane_count": 3,
+        "landmark_building_count": 2,
+        "urban_texture_count": 4,
+        "route_category_diversity": 5,
+        "soft_diagnostic_only": true
+      }
+    }
+  ],
+  "duration_sweep": {
+    "before": [
+      {
+        "case": "120",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 120,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "wukang_fuxing_xujiahui",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8"
+        ],
+        "candidate_pool_after_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8"
+        ],
+        "relevant_candidate_pool": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p11",
+            "name": "建业里",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 15.0
+          },
+          {
+            "poi_id": "pz_17d41390cac9",
+            "name": "上海工艺美术博物馆",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 45.0
+          },
+          {
+            "poi_id": "p2",
+            "name": "永康路与嘉善路口",
+            "primary_role": "transition_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 20.0
+          }
+        ],
+        "total_estimated_time": 109.8234084806926,
+        "time_utilization": 0.9151950706724384,
+        "minimum_viable_passed": true,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "success",
+        "failure_reason": [],
+        "failure_attribution": null,
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": true,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "supporting_stop": 1,
+            "anchor": 1,
+            "transition_stop": 1
+          },
+          "longest_transition_run": 1,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.6745565137486915,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": true,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Shikumen",
+            "museum",
+            "Plane-tree Neighborhood"
+          ],
+          "route_roles": [
+            "supporting_stop",
+            "anchor",
+            "transition_stop"
+          ],
+          "park_count": 0,
+          "street_lane_count": 2,
+          "landmark_building_count": 0,
+          "urban_texture_count": 2,
+          "route_category_diversity": 3,
+          "soft_diagnostic_only": true
+        }
+      },
+      {
+        "case": "150",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 150,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "wukang_fuxing_xujiahui",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8"
+        ],
+        "candidate_pool_after_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8"
+        ],
+        "relevant_candidate_pool": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p11",
+            "name": "建业里",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 15.0
+          },
+          {
+            "poi_id": "pz_17d41390cac9",
+            "name": "上海工艺美术博物馆",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 45.0
+          },
+          {
+            "poi_id": "p2",
+            "name": "永康路与嘉善路口",
+            "primary_role": "transition_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 20.0
+          },
+          {
+            "poi_id": "p12",
+            "name": "陕南邨",
+            "primary_role": "transition_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 10.0
+          }
+        ],
+        "total_estimated_time": 126.83940328387823,
+        "time_utilization": 0.8455960218925215,
+        "minimum_viable_passed": true,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "success",
+        "failure_reason": [],
+        "failure_attribution": null,
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": true,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "supporting_stop": 1,
+            "anchor": 1,
+            "transition_stop": 2
+          },
+          "longest_transition_run": 2,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.6745565137486915,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": true,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Shikumen",
+            "museum",
+            "Plane-tree Neighborhood",
+            "Historic Residential Architecture"
+          ],
+          "route_roles": [
+            "supporting_stop",
+            "anchor",
+            "transition_stop",
+            "transition_stop"
+          ],
+          "park_count": 0,
+          "street_lane_count": 3,
+          "landmark_building_count": 1,
+          "urban_texture_count": 3,
+          "route_category_diversity": 4,
+          "soft_diagnostic_only": true
+        }
+      },
+      {
+        "case": "180",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 180,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "wukang_fuxing_xujiahui",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8"
+        ],
+        "candidate_pool_after_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8"
+        ],
+        "relevant_candidate_pool": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p11",
+            "name": "建业里",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 15.0
+          },
+          {
+            "poi_id": "pz_17d41390cac9",
+            "name": "上海工艺美术博物馆",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 45.0
+          },
+          {
+            "poi_id": "p2",
+            "name": "永康路与嘉善路口",
+            "primary_role": "transition_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 20.0
+          },
+          {
+            "poi_id": "p12",
+            "name": "陕南邨",
+            "primary_role": "transition_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 10.0
+          },
+          {
+            "poi_id": "pz_a27dbbc6cab8",
+            "name": "襄阳公园",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 20.0
+          }
+        ],
+        "total_estimated_time": 149.07836000596882,
+        "time_utilization": 0.8282131111442712,
+        "minimum_viable_passed": true,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "success",
+        "failure_reason": [],
+        "failure_attribution": null,
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": true,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "supporting_stop": 2,
+            "anchor": 1,
+            "transition_stop": 2
+          },
+          "longest_transition_run": 2,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.6745565137486915,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": true,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Shikumen",
+            "museum",
+            "Plane-tree Neighborhood",
+            "Historic Residential Architecture",
+            "park"
+          ],
+          "route_roles": [
+            "supporting_stop",
+            "anchor",
+            "transition_stop",
+            "transition_stop",
+            "supporting_stop"
+          ],
+          "park_count": 1,
+          "street_lane_count": 3,
+          "landmark_building_count": 1,
+          "urban_texture_count": 3,
+          "route_category_diversity": 5,
+          "soft_diagnostic_only": true
+        }
+      }
+    ],
+    "after": [
+      {
+        "case": "120",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 120,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "wukang_fuxing_xujiahui",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8",
+          "pz_54f53d30c0dc",
+          "pz_de47b0cf3e98",
+          "pz_437ddd34f2c1",
+          "pz_7e40d824dbee",
+          "pz_09b5938601ee"
+        ],
+        "candidate_pool_after_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8",
+          "pz_54f53d30c0dc",
+          "pz_de47b0cf3e98",
+          "pz_437ddd34f2c1",
+          "pz_7e40d824dbee",
+          "pz_09b5938601ee"
+        ],
+        "relevant_candidate_pool": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8",
+          "pz_54f53d30c0dc",
+          "pz_de47b0cf3e98",
+          "pz_437ddd34f2c1",
+          "pz_7e40d824dbee",
+          "pz_09b5938601ee"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p11",
+            "name": "建业里",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 15.0
+          },
+          {
+            "poi_id": "pz_17d41390cac9",
+            "name": "上海工艺美术博物馆",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 45.0
+          },
+          {
+            "poi_id": "pz_7e40d824dbee",
+            "name": "上海交响乐团音乐厅",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 12.0
+          },
+          {
+            "poi_id": "p12",
+            "name": "陕南邨",
+            "primary_role": "transition_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 10.0
+          }
+        ],
+        "total_estimated_time": 118.98007092124718,
+        "time_utilization": 0.9915005910103931,
+        "minimum_viable_passed": true,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "success",
+        "failure_reason": [],
+        "failure_attribution": null,
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": true,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "supporting_stop": 2,
+            "anchor": 1,
+            "transition_stop": 1
+          },
+          "longest_transition_run": 1,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.8204514055088772,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": true,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Shikumen",
+            "museum",
+            "architecture",
+            "Historic Residential Architecture"
+          ],
+          "route_roles": [
+            "supporting_stop",
+            "anchor",
+            "supporting_stop",
+            "transition_stop"
+          ],
+          "park_count": 0,
+          "street_lane_count": 2,
+          "landmark_building_count": 2,
+          "urban_texture_count": 3,
+          "route_category_diversity": 4,
+          "soft_diagnostic_only": true
+        }
+      },
+      {
+        "case": "150",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 150,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "wukang_fuxing_xujiahui",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8",
+          "pz_54f53d30c0dc",
+          "pz_de47b0cf3e98",
+          "pz_437ddd34f2c1",
+          "pz_7e40d824dbee",
+          "pz_09b5938601ee"
+        ],
+        "candidate_pool_after_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8",
+          "pz_54f53d30c0dc",
+          "pz_de47b0cf3e98",
+          "pz_437ddd34f2c1",
+          "pz_7e40d824dbee",
+          "pz_09b5938601ee"
+        ],
+        "relevant_candidate_pool": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8",
+          "pz_54f53d30c0dc",
+          "pz_de47b0cf3e98",
+          "pz_437ddd34f2c1",
+          "pz_7e40d824dbee",
+          "pz_09b5938601ee"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p11",
+            "name": "建业里",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 15.0
+          },
+          {
+            "poi_id": "pz_17d41390cac9",
+            "name": "上海工艺美术博物馆",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 45.0
+          },
+          {
+            "poi_id": "pz_7e40d824dbee",
+            "name": "上海交响乐团音乐厅",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 12.0
+          },
+          {
+            "poi_id": "p12",
+            "name": "陕南邨",
+            "primary_role": "transition_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 10.0
+          }
+        ],
+        "total_estimated_time": 118.98007092124718,
+        "time_utilization": 0.7932004728083145,
+        "minimum_viable_passed": true,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "success",
+        "failure_reason": [],
+        "failure_attribution": null,
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": true,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "supporting_stop": 2,
+            "anchor": 1,
+            "transition_stop": 1
+          },
+          "longest_transition_run": 1,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.8204514055088772,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": true,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Shikumen",
+            "museum",
+            "architecture",
+            "Historic Residential Architecture"
+          ],
+          "route_roles": [
+            "supporting_stop",
+            "anchor",
+            "supporting_stop",
+            "transition_stop"
+          ],
+          "park_count": 0,
+          "street_lane_count": 2,
+          "landmark_building_count": 2,
+          "urban_texture_count": 3,
+          "route_category_diversity": 4,
+          "soft_diagnostic_only": true
+        }
+      },
+      {
+        "case": "180",
+        "label": "no preferences",
+        "request": {
+          "available_minutes": 180,
+          "start_lat": null,
+          "start_lng": null,
+          "start_coordinate_system": "GCJ-02",
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": [],
+          "must_go_poi_ids": [],
+          "preferred_zone": "wukang_fuxing_xujiahui",
+          "max_walking_km": null,
+          "avoid_crowds": false,
+          "environment_preference": null,
+          "travel_pace": "standard",
+          "visit_mode_overrides": {},
+          "full_visit_unavailable_poi_ids": [],
+          "willing_to_buy_tickets": true,
+          "allow_mode_downgrade": true,
+          "avoid_tags": [],
+          "avoid_poi_ids": [],
+          "route_mode": "plan_for_me"
+        },
+        "avoid_tags": [],
+        "matched_tags": {
+          "interest_tags": [],
+          "experience_tags": [],
+          "culture_tags": []
+        },
+        "candidate_pool_before_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8",
+          "pz_54f53d30c0dc",
+          "pz_de47b0cf3e98",
+          "pz_437ddd34f2c1",
+          "pz_7e40d824dbee",
+          "pz_09b5938601ee"
+        ],
+        "candidate_pool_after_filtering": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8",
+          "pz_54f53d30c0dc",
+          "pz_de47b0cf3e98",
+          "pz_437ddd34f2c1",
+          "pz_7e40d824dbee",
+          "pz_09b5938601ee"
+        ],
+        "relevant_candidate_pool": [
+          "p2",
+          "p11",
+          "p12",
+          "p13",
+          "p21",
+          "p32",
+          "p33",
+          "p35",
+          "pz_17d41390cac9",
+          "pz_a87eb2b5b5da",
+          "pz_553cfd36707c",
+          "pz_a27dbbc6cab8",
+          "pz_54f53d30c0dc",
+          "pz_de47b0cf3e98",
+          "pz_437ddd34f2c1",
+          "pz_7e40d824dbee",
+          "pz_09b5938601ee"
+        ],
+        "selected_stops": [
+          {
+            "poi_id": "p11",
+            "name": "建业里",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 15.0
+          },
+          {
+            "poi_id": "pz_17d41390cac9",
+            "name": "上海工艺美术博物馆",
+            "primary_role": "anchor",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 45.0
+          },
+          {
+            "poi_id": "pz_7e40d824dbee",
+            "name": "上海交响乐团音乐厅",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 12.0
+          },
+          {
+            "poi_id": "p12",
+            "name": "陕南邨",
+            "primary_role": "transition_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 10.0
+          },
+          {
+            "poi_id": "pz_a27dbbc6cab8",
+            "name": "襄阳公园",
+            "primary_role": "supporting_stop",
+            "matched_tags": {
+              "interest_tags": [],
+              "experience_tags": [],
+              "culture_tags": []
+            },
+            "visit_mode": "walk_stop",
+            "estimated_visit_minutes": 20.0
+          }
+        ],
+        "total_estimated_time": 141.21902764333777,
+        "time_utilization": 0.7845501535740987,
+        "minimum_viable_passed": true,
+        "composition_passed": true,
+        "negative_preference_passed": true,
+        "route_status": "success",
+        "failure_reason": [],
+        "failure_attribution": null,
+        "composition_diagnostics": {
+          "enabled": true,
+          "minimum_stop_count_passed": true,
+          "route_composition_passed": true,
+          "primary_role_counts": {
+            "supporting_stop": 3,
+            "anchor": 1,
+            "transition_stop": 1
+          },
+          "longest_transition_run": 1,
+          "transition_soft_preference_passed": true,
+          "basis": "primary roles only; visit modes never promote roles",
+          "failure_reason": null
+        },
+        "distance_method": "estimated: Haversine × configured walking_distance_factor",
+        "estimated_max_single_leg_km": 0.8204514055088772,
+        "zone_isolation_passed": true,
+        "relevance_passed": true,
+        "passed": true,
+        "diversity_diagnostics": {
+          "poi_categories": [
+            "Shikumen",
+            "museum",
+            "architecture",
+            "Historic Residential Architecture",
+            "park"
+          ],
+          "route_roles": [
+            "supporting_stop",
+            "anchor",
+            "supporting_stop",
+            "transition_stop",
+            "supporting_stop"
+          ],
+          "park_count": 1,
+          "street_lane_count": 2,
+          "landmark_building_count": 2,
+          "urban_texture_count": 3,
+          "route_category_diversity": 5,
+          "soft_diagnostic_only": true
+        }
+      }
+    ]
+  }
+}

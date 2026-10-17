@@ -1,0 +1,297 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+  "node_identity": "amap:B00155ILI8",
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "local_life"
+    ],
+    "experience_tags": [
+      "local_atmosphere",
+      "photogenic"
+    ],
+    "culture_tags": [
+      "public_life"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_cbbb027f51ba",
+          "e_97ebbb0c816d",
+          "e_2b863174bbd0"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "local_life",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "local_atmosphere",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "photogenic",
+        "evidence_refs": [
+          "e_60ff270fcc5a"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "public_life",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_cbbb027f51ba",
+      "e_97ebbb0c816d",
+      "e_2b863174bbd0"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示公园兼具健身步道、室外篮球场、樱花景观与百代唱片公司旧址等多元体验，具备独立目的地价值，可承载路线主题。",
+      "independent_destination_value": "high",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "多元体验与独立目的地价值支持作为锚点。",
+        "supporting_stop": "若路线主题更偏商业或历史，也可作为补充性停留。",
+        "transition_stop": "证据显示其体验丰富，不适合仅作为连接性短暂停留。"
+      }
+    },
+    "citywalk_value": {
+      "level": "high",
+      "reason": "公园融合健身、樱花景观、历史旧址与商圈邻近性，体验层次丰富，适合作为城市漫步核心节点。",
+      "evidence_refs": [
+        "e_cbe19e00ad85",
+        "e_60ff270fcc5a",
+        "e_23b326bcc3b9"
+      ]
+    },
+    "summary_draft": {
+      "text": "徐家汇公园",
+      "evidence_refs": [
+        "e_35fcdd0b42b3"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "城市绿肺",
+      "evidence_refs": [
+        "e_cbe19e00ad85"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 15,
+        "standard": 30,
+        "deep": 60
+      },
+      "full_visit": {
+        "quick": 30,
+        "standard": 60,
+        "deep": 120
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "公园内部步道、樱花区域、健身设施及旧址外观"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "开放时间",
+      "门票信息",
+      "旧址当前开放状态"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": null,
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "evidence_hash": "35a27733ada6a1feb5ae63156c46a0283e70c2bf8512dd6d57ba855706ee46be",
+  "prior_attempt": {
+    "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+    "node_identity": "amap:B00155ILI8",
+    "output": {
+      "category": "park",
+      "interest_tags": [
+        "parks",
+        "local_life"
+      ],
+      "experience_tags": [
+        "local_atmosphere",
+        "photogenic"
+      ],
+      "culture_tags": [
+        "public_life"
+      ],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "parks",
+          "evidence_refs": [
+            "e_cbbb027f51ba",
+            "e_97ebbb0c816d",
+            "e_2b863174bbd0"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "local_life",
+          "evidence_refs": [
+            "e_cbe19e00ad85"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "local_atmosphere",
+          "evidence_refs": [
+            "e_cbe19e00ad85"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "photogenic",
+          "evidence_refs": [
+            "e_60ff270fcc5a"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "public_life",
+          "evidence_refs": [
+            "e_cbe19e00ad85"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_cbbb027f51ba",
+        "e_97ebbb0c816d",
+        "e_2b863174bbd0"
+      ],
+      "route_role": {
+        "primary": "anchor",
+        "eligible": [
+          "anchor",
+          "supporting_stop"
+        ],
+        "confidence": "medium",
+        "reason": "有明确公园身份、健身步道与室外篮球场等独立体验内容，可作为独立目的地承载路线主题。",
+        "independent_destination_value": "high",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据显示公园具备健身步道、室外篮球场及樱花景观等独立体验，适合作为独立目的地。",
+          "supporting_stop": "也可作为徐家汇商圈路线的补充体验点，但独立目的地价值较高，支持性定位偏弱。",
+          "transition_stop": "公园面积与体验内容超出短暂停留的连接节点，不适合仅作过渡。"
+        }
+      },
+      "citywalk_value": {
+        "level": "high",
+        "reason": "公园兼具绿地、健身设施、樱花景观与市民活动场景，且紧邻徐家汇商圈，适合作为城市漫步的独立节点。",
+        "evidence_refs": [
+          "e_cbe19e00ad85",
+          "e_60ff270fcc5a"
+        ]
+      },
+      "summary_draft": {
+        "text": "徐家汇公园",
+        "evidence_refs": [
+          "e_35fcdd0b42b3"
+        ]
+      },
+      "culture_bridge_draft": {
+        "text": "主题路线首站始于被誉为“城市绿肺”的徐家汇公园",
+        "evidence_refs": [
+          "e_cbe19e00ad85"
+        ]
+      },
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 20,
+          "standard": 45,
+          "deep": 90
+        },
+        "full_visit": {
+          "quick": 30,
+          "standard": 60,
+          "deep": 120
+        },
+        "time_basis": "product_planning_estimate",
+        "scope": "公园内主要步道、健身设施与樱花景观区域"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "当前开放时间",
+        "门票信息",
+        "内部设施具体位置与可达性"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": null,
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": []
+    },
+    "semantic": null,
+    "cache_hit": false,
+    "api_calls_this_run": 1,
+    "reason": "photogenic unsupported by cited evidence; remove or cite explicit matching description",
+    "provider": {
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 4283,
+        "completion_tokens": 834,
+        "total_tokens": 5117,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 3643
+      }
+    }
+  },
+  "material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+  "reason": "photogenic unsupported by cited evidence; remove or cite explicit matching description",
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4437,
+      "completion_tokens": 812,
+      "total_tokens": 5249,
+      "prompt_tokens_details": {
+        "cached_tokens": 2944
+      },
+      "prompt_cache_hit_tokens": 2944,
+      "prompt_cache_miss_tokens": 1493
+    }
+  }
+}

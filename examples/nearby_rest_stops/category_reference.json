@@ -1,0 +1,217 @@
+{
+  "source": "https://a.amap.com/lbs/static/code_resource/Amap_poicode.zip",
+  "download_page": "https://lbs.amap.com/api/webservice/download",
+  "sheet_version": "V1.06_20230208",
+  "selected_rows": [
+    [
+      "227",
+      "050000",
+      "餐饮服务",
+      "餐饮相关场所",
+      "餐饮相关",
+      "Food & Beverages",
+      "Food & Beverages Related",
+      "Food & Beverages Related"
+    ],
+    [
+      "228",
+      "050100",
+      "餐饮服务",
+      "中餐厅",
+      "中餐厅",
+      "Food & Beverages",
+      "Chinese Food Restaurant",
+      "Chinese Food Restaurant"
+    ],
+    [
+      "252",
+      "050200",
+      "餐饮服务",
+      "外国餐厅",
+      "外国餐厅",
+      "Food & Beverages",
+      "Foreign Food Restaurant",
+      "Foreign Food Restaurant"
+    ],
+    [
+      "270",
+      "050300",
+      "餐饮服务",
+      "快餐厅",
+      "快餐厅",
+      "Food & Beverages",
+      "Fast Food Restaurant",
+      "Fast Food Restaurant"
+    ],
+    [
+      "282",
+      "050400",
+      "餐饮服务",
+      "休闲餐饮场所",
+      "休闲餐饮场所",
+      "Food & Beverages",
+      "Leisure Food Restaurant",
+      "Leisure Food Restaurant"
+    ],
+    [
+      "283",
+      "050500",
+      "餐饮服务",
+      "咖啡厅",
+      "咖啡厅",
+      "Food & Beverages",
+      "Coffee House",
+      "Coffee House"
+    ],
+    [
+      "288",
+      "050600",
+      "餐饮服务",
+      "茶艺馆",
+      "茶艺馆",
+      "Food & Beverages",
+      "Tea House",
+      "Tea House"
+    ],
+    [
+      "289",
+      "050700",
+      "餐饮服务",
+      "冷饮店",
+      "冷饮店",
+      "Food & Beverages",
+      "Icecream Shop",
+      "Icecream Shop"
+    ],
+    [
+      "290",
+      "050800",
+      "餐饮服务",
+      "糕饼店",
+      "糕饼店",
+      "Food & Beverages",
+      "Bakery",
+      "Bakery"
+    ],
+    [
+      "291",
+      "050900",
+      "餐饮服务",
+      "甜品店",
+      "甜品店",
+      "Food & Beverages",
+      "Dessert House",
+      "Dessert House"
+    ],
+    [
+      "293",
+      "060100",
+      "购物服务",
+      "商场",
+      "商场",
+      "Shopping",
+      "Shopping Plaza",
+      "Shopping Plaza"
+    ],
+    [
+      "294",
+      "060101",
+      "购物服务",
+      "商场",
+      "购物中心",
+      "Shopping",
+      "Shopping Plaza",
+      "Shopping Centre"
+    ],
+    [
+      "295",
+      "060102",
+      "购物服务",
+      "商场",
+      "普通商场",
+      "Shopping",
+      "Shopping Plaza",
+      "Shops"
+    ],
+    [
+      "296",
+      "060103",
+      "购物服务",
+      "商场",
+      "免税品店",
+      "Shopping",
+      "Shopping Plaza",
+      "Duty-free Shop"
+    ],
+    [
+      "297",
+      "060200",
+      "购物服务",
+      "便民商店/便利店",
+      "便民商店/便利店",
+      "Shopping",
+      "Convenience Store",
+      "Convenience Store"
+    ],
+    [
+      "535",
+      "120201",
+      "商务住宅",
+      "楼宇",
+      "商务写字楼",
+      "Commercial House",
+      "Building",
+      "Business Office Building"
+    ],
+    [
+      "884",
+      "200300",
+      "公共设施",
+      "公共厕所",
+      "公共厕所",
+      "Public Facility",
+      "Public Toilet",
+      "Public Toilet"
+    ],
+    [
+      "885",
+      "200301",
+      "公共设施",
+      "公共厕所",
+      "男洗手间",
+      "Public Facility",
+      "Public Toilet",
+      "Male Toilet"
+    ],
+    [
+      "886",
+      "200302",
+      "公共设施",
+      "公共厕所",
+      "女洗手间",
+      "Public Facility",
+      "Public Toilet",
+      "Female Toilet"
+    ],
+    [
+      "887",
+      "200303",
+      "公共设施",
+      "公共厕所",
+      "残障洗手间/无障碍洗手间",
+      "Public Facility",
+      "Public Toilet",
+      "Wheelchair Accessible"
+    ],
+    [
+      "888",
+      "200304",
+      "公共设施",
+      "公共厕所",
+      "婴儿换洗间/哺乳室/母婴室",
+      "Public Facility",
+      "Public Toilet",
+      "Room of Mother and Infant"
+    ]
+  ]
+}

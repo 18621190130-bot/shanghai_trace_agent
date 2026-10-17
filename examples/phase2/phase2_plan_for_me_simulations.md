@@ -1,0 +1,1480 @@
+# Plan for me：自然语言与实际模拟输出
+
+措辞使用固定随机种子20261004生成。语义解析使用逐条明确编写的Mock响应；实际执行Semantic Expansion、共享引擎、一次澄清及CLI。不能证明真实LLM理解了这些措辞。
+
+| Case | Initial stops / status | Quality answer | Final status / stops |
+| --- | --- | --- | --- |
+| A | 1 / needs_route_quality_clarification | industrial_heritage | insufficient_route / 1 |
+| B | 3 / success | — | success / 3 |
+| C | 3 / success | — | success / 3 |
+| SIM_literary | 2 / needs_route_quality_clarification | architecture | insufficient_route / 1 |
+| SIM_short_local | 1 / needs_route_quality_clarification | strict | insufficient_route / 1 |
+| SIM_shopping | 1 / needs_route_quality_clarification | strict | insufficient_route / 1 |
+| SIM_must_go | 4 / success | — | success / 4 |
+| SIM_museum_deep | 2 / needs_route_quality_clarification | strict | insufficient_route / 2 |
+| SIM_zero_art | 0 / needs_route_quality_clarification | waterfront | insufficient_route / 1 |
+| SIM_broaden_area | 0 / needs_route_quality_clarification | broaden_area | success / 3 |
+| SIM_parks | 1 / needs_route_quality_clarification | strict | insufficient_route / 1 |
+
+## A
+
+**自然语言：** I have three hours for a city walk in the west bund and I'm more interested in art and natural scenery and I don't like museums.
+
+**缺字段回答：** []
+
+**质量澄清回答：** industrial_heritage
+
+```text
+A
+NATURAL LANGUAGE: I have three hours for a city walk in the west bund and I'm more interested in art and natural scenery and I don't like museums.
+ANSWERS: ['industrial_heritage']
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: art, parks, waterfront
+Experience: -
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: art, parks, waterfront
+Experience: -
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Status: needs_route_quality_clarification
+Semantic Expanded Tags:
+  natural scenery: Primary: waterfront; Secondary: parks
+  art: Primary: art; Secondary: -
+Route Quality Check: clarification_required
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Reason: insufficient_viable_stops
+Route Quality Clarification Applied: False
+Provisional Route
+Status: success
+Zone: West Bund Waterfront
+  1. #22 Gate M 西岸梦中心 / Gate M West Bund Dream Center
+     full_visit / standard: estimated stay 60 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 9.000; matched tags: interest_tags=waterfront; experience_tags=; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: waterfront. Located in West Bund Waterfront. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Preferred Richness: 4–5 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 75.00 / 180 min; remaining 105.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 60 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: visit_mode_expanded_for_time_utilization: Gate M West Bund Dream Center (#22); walk_stop -> full_visit; still a product planning estimate.
+Warning: visit_time_pending_manual_calibration: Gate M West Bund Dream Center (#22) full_visit; product estimate.
+Warning: representative_coordinate: Gate M West Bund Dream Center (#22); this anchor is not the whole area's unique location or entry/exit.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 4-5 stops; actual 1. This is a soft preference, not a failure.
+Warning: Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap.
+Time Utilization: 0.417
+Estimated Max Single Leg: 0.000 km
+I found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?
+1. Add industrial heritage
+2. Add modern city
+3. Broaden beyond the selected area
+4. Keep my current preferences
+> Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: art, parks, waterfront, industrial_heritage
+Experience: -
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Status: insufficient_route
+Semantic Expanded Tags:
+  natural scenery: Primary: waterfront; Secondary: parks
+  art: Primary: art; Secondary: -
+Route Quality Check: replanned
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Initial Quality Reason: insufficient_viable_stops
+Route Quality Clarification Applied: True
+Preference Broadening: industrial_heritage
+Suggested Places — not a complete City Walk
+Status: insufficient_route
+Zone: West Bund Waterfront
+  1. #22 Gate M 西岸梦中心 / Gate M West Bund Dream Center
+     full_visit / standard: estimated stay 60 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 14.000; matched tags: interest_tags=industrial_heritage,waterfront; experience_tags=; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: industrial_heritage, waterfront. Located in West Bund Waterfront. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Preferred Richness: 4–5 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 75.00 / 180 min; remaining 105.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 60 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: I found only 1 suitable stops. A complete City Walk requires at least three route anchors.
+Suggestion: Broaden one preference, allow a compatible theme, or broaden the selected area.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: visit_mode_expanded_for_time_utilization: Gate M West Bund Dream Center (#22); walk_stop -> full_visit; still a product planning estimate.
+Warning: visit_time_pending_manual_calibration: Gate M West Bund Dream Center (#22) full_visit; product estimate.
+Warning: representative_coordinate: Gate M West Bund Dream Center (#22); this anchor is not the whole area's unique location or entry/exit.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 4-5 stops; actual 1. This is a soft preference, not a failure.
+Warning: Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap.
+Time Utilization: 0.417
+Estimated Max Single Leg: 0.000 km
+
+```
+
+## B
+
+**自然语言：** I have two and a half hours. I want local neighborhoods and I'd rather avoid museums.
+
+**缺字段回答：** []
+
+**质量澄清回答：** 没有触发
+
+```text
+B
+NATURAL LANGUAGE: I have two and a half hours. I want local neighborhoods and I'd rather avoid museums.
+ANSWERS: []
+Parsed Intent
+Mode: plan_for_me
+Time: 150 min
+Start: -
+Interest: local_life
+Experience: neighborhood_walk
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 150 min
+Start: -
+Interest: local_life
+Experience: neighborhood_walk
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: success
+Route Quality Check: passed
+Minimum Viable City Walk: True
+Minimum Required Stops: 3
+Actual Stops: 3
+Reason: no_anomaly_detected
+Route Quality Clarification Applied: False
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=local_life; experience_tags=neighborhood_walk; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 9.735; matched tags: interest_tags=local_life; experience_tags=neighborhood_walk; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 10.211; matched tags: interest_tags=local_life; experience_tags=neighborhood_walk; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+Preferred Richness: 3–4 stops
+Actual Stops: 3
+Preferred Richness Met: True
+Estimated total: 78.26 / 150 min; remaining 71.74 min
+Estimated distance: 1.370 km; walking 18.26 min; stays 45 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap.
+Time Utilization: 0.522
+Estimated Max Single Leg: 0.844 km
+
+```
+
+## C
+
+**自然语言：** I want to see the more authentic side of Shanghai.
+
+**缺字段回答：** [('available_minutes', '3')]
+
+**质量澄清回答：** 没有触发
+
+```text
+C
+NATURAL LANGUAGE: I want to see the more authentic side of Shanghai.
+ANSWERS: ['3']
+Parsed Intent
+Mode: plan_for_me
+Time: -
+Start: -
+Interest: local_life
+Experience: local_atmosphere
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: True
+
+How long would you like to walk?
+  1. 1.5 hours
+  2. 2 hours
+  3. 3 hours
+  4. Half day
+> Merged Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: local_life
+Experience: local_atmosphere
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: local_life
+Experience: local_atmosphere
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: success
+Route Quality Check: passed
+Minimum Viable City Walk: True
+Minimum Required Stops: 3
+Actual Stops: 3
+Reason: no_anomaly_detected
+Route Quality Clarification Applied: False
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 9.000; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 9.735; matched tags: interest_tags=local_life; experience_tags=local_atmosphere; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: local_life, local_atmosphere. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 8.211; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+Preferred Richness: 4–5 stops
+Actual Stops: 3
+Preferred Richness Met: False
+Estimated total: 78.26 / 180 min; remaining 101.74 min
+Estimated distance: 1.370 km; walking 18.26 min; stays 45 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because additional candidates failed the route-quality gate. Preferred 4-5 stops; actual 3. This is a soft preference, not a failure.
+Warning: Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap.
+Time Utilization: 0.435
+Estimated Max Single Leg: 0.844 km
+
+```
+
+## SIM_literary
+
+**自然语言：** I have two hours in Hongkou and would enjoy literature and a quiet walk.
+
+**缺字段回答：** []
+
+**质量澄清回答：** architecture
+
+```text
+SIM_literary
+NATURAL LANGUAGE: I have two hours in Hongkou and would enjoy literature and a quiet walk.
+ANSWERS: ['architecture']
+Parsed Intent
+Mode: plan_for_me
+Time: 120 min
+Start: -
+Interest: literature
+Experience: quiet_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: Lu Xun Park–North Sichuan Road
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 120 min
+Start: -
+Interest: literature
+Experience: quiet_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: Lu Xun Park–North Sichuan Road
+Max Walking Distance: -
+Needs Clarification: False
+Status: needs_route_quality_clarification
+Semantic Expanded Tags:
+  literature: Primary: literature; Secondary: -
+Route Quality Check: clarification_required
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 2
+Reason: insufficient_viable_stops
+Route Quality Clarification Applied: False
+Provisional Route
+Status: success
+Zone: Lu Xun Park–North Sichuan Road
+  1. #12 鲁迅公园 / Lu Xun Park
+     full_visit / standard: estimated stay 50 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=literature; experience_tags=quiet_walk; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+  2. #2 鲁迅故居 / Lu Xun Former Residence
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 0.483 km / 6.43 min
+     Score: 10.276; matched tags: interest_tags=literature; experience_tags=quiet_walk; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Preferred Richness: 3–4 stops
+Actual Stops: 2
+Preferred Richness Met: False
+Estimated total: 101.43 / 120 min; remaining 18.57 min
+Estimated distance: 0.483 km; walking 6.43 min; stays 80 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: crowd_level_unknown: Lu Xun Park (#12); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Park (#12); unknown does not mean free or reservation-free.
+Warning: crowd_level_unknown: Lu Xun Former Residence (#2); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Former Residence (#2); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 3-4 stops; actual 2. This is a soft preference, not a failure.
+Time Utilization: 0.845
+Estimated Max Single Leg: 0.483 km
+I found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?
+1. Add history
+2. Add historic architecture
+3. Broaden beyond the selected area
+4. Keep my current preferences
+> Parsed Intent
+Mode: plan_for_me
+Time: 120 min
+Start: -
+Interest: literature, architecture
+Experience: quiet_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: Lu Xun Park–North Sichuan Road
+Max Walking Distance: -
+Needs Clarification: False
+Status: insufficient_route
+Semantic Expanded Tags:
+  literature: Primary: literature; Secondary: -
+Route Quality Check: replanned
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Initial Quality Reason: insufficient_viable_stops
+Route Quality Clarification Applied: True
+Preference Broadening: architecture
+Suggested Places — not a complete City Walk
+Status: insufficient_route
+Zone: Lu Xun Park–North Sichuan Road
+  1. #2 鲁迅故居 / Lu Xun Former Residence
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 16.000; matched tags: interest_tags=architecture,literature; experience_tags=quiet_walk; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: architecture, literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Preferred Richness: 3–4 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 45.00 / 120 min; remaining 75.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 30 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: I found only 1 suitable stops. A complete City Walk requires at least three route anchors.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: crowd_level_unknown: Lu Xun Former Residence (#2); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Former Residence (#2); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because additional candidates failed the route-quality gate. Preferred 3-4 stops; actual 1. This is a soft preference, not a failure.
+Warning: Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap.
+Time Utilization: 0.375
+Estimated Max Single Leg: 0.000 km
+
+```
+
+## SIM_short_local
+
+**自然语言：** I've only got thirty minutes; show me some ordinary local neighborhood life.
+
+**缺字段回答：** []
+
+**质量澄清回答：** strict
+
+```text
+SIM_short_local
+NATURAL LANGUAGE: I've only got thirty minutes; show me some ordinary local neighborhood life.
+ANSWERS: ['strict']
+Parsed Intent
+Mode: plan_for_me
+Time: 30 min
+Start: -
+Interest: local_life
+Experience: neighborhood_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 30 min
+Start: -
+Interest: local_life
+Experience: neighborhood_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: needs_route_quality_clarification
+Route Quality Check: clarification_required
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Reason: insufficient_viable_stops
+Route Quality Clarification Applied: False
+Provisional Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=local_life; experience_tags=neighborhood_walk; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+Preferred Richness: 2–3 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 30.00 / 30 min; remaining 0.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 15 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 2, 'max_stops': 3}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 2-3 stops; actual 1. This is a soft preference, not a failure.
+Time Utilization: 1.000
+Estimated Max Single Leg: 0.000 km
+I found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?
+1. Add historic architecture
+2. Add history
+3. Keep my current preferences
+> Parsed Intent
+Mode: plan_for_me
+Time: 30 min
+Start: -
+Interest: local_life
+Experience: neighborhood_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: insufficient_route
+Route Quality Check: accepted_strict
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Initial Quality Reason: insufficient_viable_stops
+Route Quality Clarification Applied: True
+Preference Broadening: declined
+Warning: The route remains intentionally short because you chose to keep the preference profile narrow.
+Suggested Places — not a complete City Walk
+Status: insufficient_route
+Zone: Wukang–Fuxing–Xujiahui
+  1. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=local_life; experience_tags=neighborhood_walk; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+Preferred Richness: 2–3 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 30.00 / 30 min; remaining 0.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 15 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 2, 'max_stops': 3}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: I found only 1 suitable stops. A complete City Walk requires at least three route anchors.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 2-3 stops; actual 1. This is a soft preference, not a failure.
+Time Utilization: 1.000
+Estimated Max Single Leg: 0.000 km
+
+```
+
+## SIM_shopping
+
+**自然语言：** Shopping and modern Shanghai interest me; I've got 150 minutes around Nanjing Road.
+
+**缺字段回答：** []
+
+**质量澄清回答：** strict
+
+```text
+SIM_shopping
+NATURAL LANGUAGE: Shopping and modern Shanghai interest me; I've got 150 minutes around Nanjing Road.
+ANSWERS: ['strict']
+Parsed Intent
+Mode: plan_for_me
+Time: 150 min
+Start: -
+Interest: shopping_lifestyle, modern_city
+Experience: -
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: Old City–Xintiandi–Bund
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 150 min
+Start: -
+Interest: shopping_lifestyle, modern_city
+Experience: -
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: Old City–Xintiandi–Bund
+Max Walking Distance: -
+Needs Clarification: False
+Status: needs_route_quality_clarification
+Route Quality Check: clarification_required
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Reason: insufficient_viable_stops
+Route Quality Clarification Applied: False
+Provisional Route
+Status: success
+Zone: Old City–Xintiandi–Bund
+  1. #26 南京路步行街 / Nanjing Road Pedestrian Street
+     full_visit / standard: estimated stay 60 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 14.000; matched tags: interest_tags=modern_city,shopping_lifestyle; experience_tags=; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: modern_city, shopping_lifestyle. Located in Old City–Xintiandi–Bund. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Preferred Richness: 3–4 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 75.00 / 150 min; remaining 75.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 60 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Nanjing Road Pedestrian Street (#26); this anchor is not the whole area's unique location or entry/exit.
+Warning: coordinate_pending_manual_review: Nanjing Road Pedestrian Street (#26); Provisional product anchor based on a published location; source datum unverified, provisionally interpreted as WGS84. Not a verified midpoint or street entrance. Needs manual coordinate review.
+Warning: coordinate_conversion: Nanjing Road Pedestrian Street (#26) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Nanjing Road Pedestrian Street (#26); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Nanjing Road Pedestrian Street (#26); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because additional candidates failed the route-quality gate. Preferred 3-4 stops; actual 1. This is a soft preference, not a failure.
+Warning: Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap.
+Time Utilization: 0.500
+Estimated Max Single Leg: 0.000 km
+I found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?
+1. Add historic architecture
+2. Add history
+3. Broaden beyond the selected area
+4. Keep my current preferences
+> Parsed Intent
+Mode: plan_for_me
+Time: 150 min
+Start: -
+Interest: shopping_lifestyle, modern_city
+Experience: -
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: Old City–Xintiandi–Bund
+Max Walking Distance: -
+Needs Clarification: False
+Status: insufficient_route
+Route Quality Check: accepted_strict
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Initial Quality Reason: insufficient_viable_stops
+Route Quality Clarification Applied: True
+Preference Broadening: declined
+Warning: The route remains intentionally short because you chose to keep the preference profile narrow.
+Suggested Places — not a complete City Walk
+Status: insufficient_route
+Zone: Old City–Xintiandi–Bund
+  1. #26 南京路步行街 / Nanjing Road Pedestrian Street
+     full_visit / standard: estimated stay 60 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 14.000; matched tags: interest_tags=modern_city,shopping_lifestyle; experience_tags=; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: modern_city, shopping_lifestyle. Located in Old City–Xintiandi–Bund. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Preferred Richness: 3–4 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 75.00 / 150 min; remaining 75.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 60 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: I found only 1 suitable stops. A complete City Walk requires at least three route anchors.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Nanjing Road Pedestrian Street (#26); this anchor is not the whole area's unique location or entry/exit.
+Warning: coordinate_pending_manual_review: Nanjing Road Pedestrian Street (#26); Provisional product anchor based on a published location; source datum unverified, provisionally interpreted as WGS84. Not a verified midpoint or street entrance. Needs manual coordinate review.
+Warning: coordinate_conversion: Nanjing Road Pedestrian Street (#26) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Nanjing Road Pedestrian Street (#26); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Nanjing Road Pedestrian Street (#26); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because additional candidates failed the route-quality gate. Preferred 3-4 stops; actual 1. This is a soft preference, not a failure.
+Warning: Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap.
+Time Utilization: 0.500
+Estimated Max Single Leg: 0.000 km
+
+```
+
+## SIM_must_go
+
+**自然语言：** Please include Wukang Mansion in a two-hour architecture and local-neighborhood walk.
+
+**缺字段回答：** []
+
+**质量澄清回答：** 没有触发
+
+```text
+SIM_must_go
+NATURAL LANGUAGE: Please include Wukang Mansion in a two-hour architecture and local-neighborhood walk.
+ANSWERS: []
+Parsed Intent
+Mode: plan_for_me
+Time: 120 min
+Start: -
+Interest: architecture, local_life
+Experience: -
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: Wukang Mansion
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 120 min
+Start: -
+Interest: architecture, local_life
+Experience: -
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: Wukang Mansion
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: success
+Route Quality Check: passed
+Minimum Viable City Walk: True
+Minimum Required Stops: 3
+Actual Stops: 4
+Reason: no_anomaly_detected
+Route Quality Clarification Applied: False
+Selected places minimum estimate: 30.00 min
+Walking-only feasible: True
+Selected places preserved: Wukang Mansion
+Warning: Distances and visit times are planning estimates; no street routing or transport times.
+Warning: No start supplied: arrival before the first selected stop is excluded.
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 14.000; matched tags: interest_tags=architecture,local_life; experience_tags=; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: architecture, local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 13.211; matched tags: interest_tags=architecture,local_life; experience_tags=; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: architecture, local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 12.735; matched tags: interest_tags=architecture,local_life; experience_tags=; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: architecture, local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  4. #9 武康大楼 / Wukang Mansion
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 1.175 km / 15.67 min
+     Score: 7.237; matched tags: interest_tags=architecture; experience_tags=; culture_tags=
+     Selection Reason: must_go
+     Included because you marked it as must-go. Recommended because it matches: architecture. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+Preferred Richness: 3–4 stops
+Actual Stops: 4
+Preferred Richness Met: True
+Estimated total: 108.93 / 120 min; remaining 11.07 min
+Estimated distance: 2.545 km; walking 33.93 min; stays 60 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows must-go stops; tag affinity breaks ties. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: crowd_level_unknown: Wukang Mansion (#9); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Wukang Mansion (#9); unknown does not mean free or reservation-free.
+Time Utilization: 0.908
+Estimated Max Single Leg: 1.175 km
+
+```
+
+## SIM_museum_deep
+
+**自然语言：** For three hours in the West Bund, I want to take my time with art exhibitions.
+
+**缺字段回答：** []
+
+**质量澄清回答：** strict
+
+```text
+SIM_museum_deep
+NATURAL LANGUAGE: For three hours in the West Bund, I want to take my time with art exhibitions.
+ANSWERS: ['strict']
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: art
+Experience: museum_visit
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: deep
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: art
+Experience: museum_visit
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: deep
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Status: needs_route_quality_clarification
+Semantic Expanded Tags:
+  art: Primary: art; Secondary: -
+Route Quality Check: clarification_required
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 2
+Reason: insufficient_viable_stops
+Route Quality Clarification Applied: False
+Provisional Route
+Status: success
+Zone: West Bund Waterfront
+  1. #20 西岸美术馆 / West Bund Museum
+     full_visit / deep: estimated stay 120 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=art; experience_tags=museum_visit; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: art, museum_visit. Located in West Bund Waterfront. Visit mode: full_visit; pace: deep.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+  2. #21 上海油罐艺术中心 / TANK Shanghai
+     walk_stop / deep: estimated stay 35 min
+     Estimated previous leg: 0.443 km / 5.91 min
+     Score: 10.335; matched tags: interest_tags=art; experience_tags=museum_visit; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: art, museum_visit. Located in West Bund Waterfront. Visit mode: walk_stop; pace: deep.
+     Scope: Exterior tanks, industrial heritage and waterfront public space; no exhibition entry.
+Preferred Richness: 4–5 stops
+Actual Stops: 2
+Preferred Richness Met: False
+Estimated total: 175.91 / 180 min; remaining 4.09 min
+Estimated distance: 0.443 km; walking 5.91 min; stays 155 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: ticket_required: West Bund Museum (#20); ticket cost and availability are not checked.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 4-5 stops; actual 2. This is a soft preference, not a failure.
+Time Utilization: 0.977
+Estimated Max Single Leg: 0.443 km
+I found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?
+1. Add waterfront scenery
+2. Add historic architecture
+3. Broaden beyond the selected area
+4. Keep my current preferences
+> Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: art
+Experience: museum_visit
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: deep
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Status: insufficient_route
+Semantic Expanded Tags:
+  art: Primary: art; Secondary: -
+Route Quality Check: accepted_strict
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 2
+Initial Quality Reason: insufficient_viable_stops
+Route Quality Clarification Applied: True
+Preference Broadening: declined
+Warning: The route remains intentionally short because you chose to keep the preference profile narrow.
+Suggested Places — not a complete City Walk
+Status: insufficient_route
+Zone: West Bund Waterfront
+  1. #20 西岸美术馆 / West Bund Museum
+     full_visit / deep: estimated stay 120 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=art; experience_tags=museum_visit; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: art, museum_visit. Located in West Bund Waterfront. Visit mode: full_visit; pace: deep.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+  2. #21 上海油罐艺术中心 / TANK Shanghai
+     walk_stop / deep: estimated stay 35 min
+     Estimated previous leg: 0.443 km / 5.91 min
+     Score: 10.335; matched tags: interest_tags=art; experience_tags=museum_visit; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: art, museum_visit. Located in West Bund Waterfront. Visit mode: walk_stop; pace: deep.
+     Scope: Exterior tanks, industrial heritage and waterfront public space; no exhibition entry.
+Preferred Richness: 4–5 stops
+Actual Stops: 2
+Preferred Richness Met: False
+Estimated total: 175.91 / 180 min; remaining 4.09 min
+Estimated distance: 0.443 km; walking 5.91 min; stays 155 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: I found only 2 suitable stops. A complete City Walk requires at least three route anchors.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: ticket_required: West Bund Museum (#20); ticket cost and availability are not checked.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 4-5 stops; actual 2. This is a soft preference, not a failure.
+Time Utilization: 0.977
+Estimated Max Single Leg: 0.443 km
+
+```
+
+## SIM_zero_art
+
+**自然语言：** I have three hours in the West Bund. I'm interested only in art, but no museums, please.
+
+**缺字段回答：** []
+
+**质量澄清回答：** waterfront
+
+```text
+SIM_zero_art
+NATURAL LANGUAGE: I have three hours in the West Bund. I'm interested only in art, but no museums, please.
+ANSWERS: ['waterfront']
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: art
+Experience: -
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: art
+Experience: -
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Status: needs_route_quality_clarification
+Semantic Expanded Tags:
+  art: Primary: art; Secondary: -
+Route Quality Check: clarification_required
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 0
+Reason: no_eligible_candidates
+Route Quality Clarification Applied: False
+Provisional Route
+Status: infeasible
+Zone: West Bund Waterfront
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: No eligible POIs matched the current zone, interests and avoidance preferences.
+Error: No eligible POIs matched the current zone, interests and avoidance preferences.
+Suggestion: Broaden one preference, allow a compatible theme, or broaden the selected area.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Time Utilization: -
+Estimated Max Single Leg: -
+I found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?
+1. Add waterfront scenery
+2. Add industrial heritage
+3. Broaden beyond the selected area
+4. Keep my current preferences
+> Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: art, waterfront
+Experience: -
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Status: insufficient_route
+Semantic Expanded Tags:
+  art: Primary: art; Secondary: -
+Route Quality Check: replanned
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Initial Quality Reason: insufficient_viable_stops
+Route Quality Clarification Applied: True
+Preference Broadening: waterfront
+Suggested Places — not a complete City Walk
+Status: insufficient_route
+Zone: West Bund Waterfront
+  1. #22 Gate M 西岸梦中心 / Gate M West Bund Dream Center
+     full_visit / standard: estimated stay 60 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 9.000; matched tags: interest_tags=waterfront; experience_tags=; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: waterfront. Located in West Bund Waterfront. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Preferred Richness: 4–5 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 75.00 / 180 min; remaining 105.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 60 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: I found only 1 suitable stops. A complete City Walk requires at least three route anchors.
+Suggestion: Broaden one preference, allow a compatible theme, or broaden the selected area.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: visit_mode_expanded_for_time_utilization: Gate M West Bund Dream Center (#22); walk_stop -> full_visit; still a product planning estimate.
+Warning: visit_time_pending_manual_calibration: Gate M West Bund Dream Center (#22) full_visit; product estimate.
+Warning: representative_coordinate: Gate M West Bund Dream Center (#22); this anchor is not the whole area's unique location or entry/exit.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 4-5 stops; actual 1. This is a soft preference, not a failure.
+Warning: Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap.
+Time Utilization: 0.417
+Estimated Max Single Leg: 0.000 km
+
+```
+
+## SIM_broaden_area
+
+**自然语言：** I have three hours in the West Bund and want ordinary local neighborhoods, not museums.
+
+**缺字段回答：** []
+
+**质量澄清回答：** broaden_area
+
+```text
+SIM_broaden_area
+NATURAL LANGUAGE: I have three hours in the West Bund and want ordinary local neighborhoods, not museums.
+ANSWERS: ['broaden_area']
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: local_life
+Experience: local_atmosphere
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: local_life
+Experience: local_atmosphere
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: West Bund Waterfront
+Max Walking Distance: -
+Needs Clarification: False
+Status: needs_route_quality_clarification
+Route Quality Check: clarification_required
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 0
+Reason: no_eligible_candidates
+Route Quality Clarification Applied: False
+Provisional Route
+Status: infeasible
+Zone: West Bund Waterfront
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: No eligible POIs matched the current zone, interests and avoidance preferences.
+Error: No eligible POIs matched the current zone, interests and avoidance preferences.
+Suggestion: Broaden one preference, allow a compatible theme, or broaden the selected area.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Time Utilization: -
+Estimated Max Single Leg: -
+I found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?
+1. Add waterfront scenery
+2. Add industrial heritage
+3. Broaden beyond the selected area
+4. Keep my current preferences
+> Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Start: -
+Interest: local_life
+Experience: local_atmosphere
+Culture: -
+Avoid: museum_visit
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: -
+Max Walking Distance: -
+Needs Clarification: False
+Status: success
+Route Quality Check: replanned
+Minimum Viable City Walk: True
+Minimum Required Stops: 3
+Actual Stops: 3
+Initial Quality Reason: no_anomaly_detected
+Route Quality Clarification Applied: True
+Preference Broadening: broaden_area
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 9.000; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 9.735; matched tags: interest_tags=local_life; experience_tags=local_atmosphere; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: local_life, local_atmosphere. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 8.211; matched tags: interest_tags=local_life; experience_tags=; culture_tags=
+     Selection Reason: richness_expansion
+     Recommended because it matches: local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+Preferred Richness: 4–5 stops
+Actual Stops: 3
+Preferred Richness Met: False
+Estimated total: 78.26 / 180 min; remaining 101.74 min
+Estimated distance: 1.370 km; walking 18.26 min; stays 45 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because additional candidates failed the route-quality gate. Preferred 4-5 stops; actual 3. This is a soft preference, not a failure.
+Warning: Limited matching POIs prevented fuller use of the available time within the checked candidate quality, modes, same-zone pool and stop cap.
+Time Utilization: 0.435
+Estimated Max Single Leg: 0.844 km
+
+```
+
+## SIM_parks
+
+**自然语言：** A quiet park walk in Hongkou for an hour and a half would suit me.
+
+**缺字段回答：** []
+
+**质量澄清回答：** strict
+
+```text
+SIM_parks
+NATURAL LANGUAGE: A quiet park walk in Hongkou for an hour and a half would suit me.
+ANSWERS: ['strict']
+Parsed Intent
+Mode: plan_for_me
+Time: 90 min
+Start: -
+Interest: parks
+Experience: quiet_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: Lu Xun Park–North Sichuan Road
+Max Walking Distance: -
+Needs Clarification: False
+Parsed Intent
+Mode: plan_for_me
+Time: 90 min
+Start: -
+Interest: parks
+Experience: quiet_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: Lu Xun Park–North Sichuan Road
+Max Walking Distance: -
+Needs Clarification: False
+Status: needs_route_quality_clarification
+Route Quality Check: clarification_required
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Reason: insufficient_viable_stops
+Route Quality Clarification Applied: False
+Provisional Route
+Status: success
+Zone: Lu Xun Park–North Sichuan Road
+  1. #12 鲁迅公园 / Lu Xun Park
+     full_visit / standard: estimated stay 50 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=parks; experience_tags=quiet_walk; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: parks, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Preferred Richness: 2–3 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 65.00 / 90 min; remaining 25.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 50 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 2, 'max_stops': 3}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; optional expansion uses a shared relative route-quality gate before score-ranked feasible insertion with geographic reordering. Richness and utilization are soft preferences. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: crowd_level_unknown: Lu Xun Park (#12); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Park (#12); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 2-3 stops; actual 1. This is a soft preference, not a failure.
+Time Utilization: 0.722
+Estimated Max Single Leg: 0.000 km
+I found fewer than three suitable stops under your current preferences, which is not enough for a complete City Walk. Would you like to broaden a theme or area?
+1. Add history
+2. Add literature
+3. Broaden beyond the selected area
+4. Keep my current preferences
+> Parsed Intent
+Mode: plan_for_me
+Time: 90 min
+Start: -
+Interest: parks
+Experience: quiet_walk
+Culture: -
+Avoid: -
+Avoid Places: -
+Unresolved Avoid: -
+Must-go: -
+Pace: standard
+Preferred Zone: Lu Xun Park–North Sichuan Road
+Max Walking Distance: -
+Needs Clarification: False
+Status: insufficient_route
+Route Quality Check: accepted_strict
+Minimum Viable City Walk: False
+Minimum Required Stops: 3
+Actual Stops: 1
+Initial Quality Reason: insufficient_viable_stops
+Route Quality Clarification Applied: True
+Preference Broadening: declined
+Warning: The route remains intentionally short because you chose to keep the preference profile narrow.
+Suggested Places — not a complete City Walk
+Status: insufficient_route
+Zone: Lu Xun Park–North Sichuan Road
+  1. #12 鲁迅公园 / Lu Xun Park
+     full_visit / standard: estimated stay 50 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=parks; experience_tags=quiet_walk; culture_tags=
+     Selection Reason: core_match
+     Recommended because it matches: parks, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Preferred Richness: 2–3 stops
+Actual Stops: 1
+Preferred Richness Met: False
+Estimated total: 65.00 / 90 min; remaining 25.00 min
+Estimated distance: 0.000 km; walking 0.00 min; stays 50 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 2, 'max_stops': 3}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: I found only 1 suitable stops. A complete City Walk requires at least three route anchors.
+Suggestion: Broaden one preference, allow a compatible theme, or broaden the selected area.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: crowd_level_unknown: Lu Xun Park (#12); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Park (#12); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: Preferred route richness was not reached because eligible candidates, access, time or walking budgets limited expansion. Preferred 2-3 stops; actual 1. This is a soft preference, not a failure.
+Time Utilization: 0.722
+Estimated Max Single Leg: 0.000 km
+
+```

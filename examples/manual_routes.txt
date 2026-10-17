@@ -1,0 +1,199 @@
+Route 1 — Architecture & Neighborhood Walk
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 16.000; matched tags: interest_tags=architecture,local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 15.211; matched tags: interest_tags=architecture,local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 14.735; matched tags: interest_tags=architecture,local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  4. #24 徐家汇天主堂 / St. Ignatius Cathedral / Xujiahui Cathedral
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 3.151 km / 42.01 min
+     Score: 4.274; matched tags: interest_tags=architecture; experience_tags=; culture_tags=
+     Recommended because it matches: architecture. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  5. #25 徐家汇书院 / Zikawei Library / Xujiahui Academy
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 0.121 km / 1.62 min
+     Score: 13.818; matched tags: interest_tags=architecture,local_life; experience_tags=; culture_tags=
+     Recommended because it matches: architecture, local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 171.89 / 180 min; remaining 8.11 min
+Estimated distance: 4.641 km; walking 61.89 min; stays 95 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: St. Ignatius Cathedral / Xujiahui Cathedral (#24) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: St. Ignatius Cathedral / Xujiahui Cathedral (#24); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: St. Ignatius Cathedral / Xujiahui Cathedral (#24); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: Zikawei Library / Xujiahui Academy (#25) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Zikawei Library / Xujiahui Academy (#25); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Zikawei Library / Xujiahui Academy (#25); unknown does not mean free or reservation-free.
+
+Route 2 — Literary Walk
+Status: success
+Zone: Lu Xun Park–North Sichuan Road
+  1. #12 鲁迅公园 / Lu Xun Park
+     full_visit / standard: estimated stay 50 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=literature; experience_tags=quiet_walk; culture_tags=
+     Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+  2. #2 鲁迅故居 / Lu Xun Former Residence
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 0.483 km / 6.43 min
+     Score: 10.276; matched tags: interest_tags=literature; experience_tags=quiet_walk; culture_tags=
+     Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 101.43 / 120 min; remaining 18.57 min
+Estimated distance: 0.483 km; walking 6.43 min; stays 80 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: crowd_level_unknown: Lu Xun Park (#12); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Park (#12); unknown does not mean free or reservation-free.
+Warning: crowd_level_unknown: Lu Xun Former Residence (#2); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Former Residence (#2); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: soft target 3-4 stops; delivered 2 without relaxing hard constraints or adding unrelated stops.
+
+Route 3 — West Bund Art Walk
+Status: success
+Zone: West Bund Waterfront
+  1. #21 上海油罐艺术中心 / TANK Shanghai
+     walk_stop / standard: estimated stay 25 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 16.000; matched tags: interest_tags=art,industrial_heritage; experience_tags=riverside_walk; culture_tags=
+     Recommended because it matches: art, industrial_heritage, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.
+     Scope: Exterior tanks, industrial heritage and waterfront public space; no exhibition entry.
+  2. #20 西岸美术馆 / West Bund Museum
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.443 km / 5.91 min
+     Score: 10.335; matched tags: interest_tags=art; experience_tags=riverside_walk; culture_tags=
+     Recommended because it matches: art, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard. Downgraded because: insufficient_time.
+     Scope: Key exterior/public-space observation.
+  3. #3 龙美术馆（西岸馆） / Long Museum (West Bund)
+     full_visit / standard: estimated stay 75 min
+     Estimated previous leg: 2.383 km / 31.78 min
+     Score: 12.425; matched tags: interest_tags=art,industrial_heritage; experience_tags=riverside_walk; culture_tags=
+     Recommended because it matches: art, industrial_heritage, riverside_walk. Located in West Bund Waterfront. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 172.69 / 180 min; remaining 7.31 min
+Estimated distance: 2.827 km; walking 37.69 min; stays 120 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: visit_mode_downgraded: West Bund Museum (#20): full_visit -> walk_stop; insufficient_time.
+Warning: visit_time_pending_manual_calibration: West Bund Museum (#20) walk_stop; product estimate.
+Warning: crowd_level_unknown: Long Museum (West Bund) (#3); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Long Museum (West Bund) (#3); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: soft target 4-5 stops; delivered 3 without relaxing hard constraints or adding unrelated stops.
+
+Route 4 — Nanjing Road Shopping Walk
+Status: success
+Zone: Old City–Xintiandi–Bund
+  1. #10 外滩·陈毅广场 / The Bund · Chen Yi Square
+     walk_stop / standard: estimated stay 25 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 9.000; matched tags: interest_tags=modern_city; experience_tags=; culture_tags=
+     Recommended because it matches: modern_city. Located in Old City–Xintiandi–Bund. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #26 南京路步行街 / Nanjing Road Pedestrian Street
+     full_visit / standard: estimated stay 60 min
+     Estimated previous leg: 0.850 km / 11.34 min
+     Score: 12.724; matched tags: interest_tags=modern_city,shopping_lifestyle; experience_tags=; culture_tags=
+     Recommended because it matches: modern_city, shopping_lifestyle. Located in Old City–Xintiandi–Bund. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+  3. #4 新天地北里（石库门街区） / Xintiandi North Block (Shikumen)
+     walk_stop / standard: estimated stay 30 min
+     Estimated previous leg: 2.696 km / 35.94 min
+     Score: 4.956; matched tags: interest_tags=shopping_lifestyle; experience_tags=; culture_tags=
+     Recommended because it matches: shopping_lifestyle. Located in Old City–Xintiandi–Bund. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+Estimated total: 177.28 / 180 min; remaining 2.72 min
+Estimated distance: 3.546 km; walking 47.28 min; stays 115 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: crowd_level_unknown: The Bund · Chen Yi Square (#10); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: The Bund · Chen Yi Square (#10); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Nanjing Road Pedestrian Street (#26); this anchor is not the whole area's unique location or entry/exit.
+Warning: coordinate_pending_manual_review: Nanjing Road Pedestrian Street (#26); Provisional product anchor based on a published location; source datum unverified, provisionally interpreted as WGS84. Not a verified midpoint or street entrance. Needs manual coordinate review.
+Warning: coordinate_conversion: Nanjing Road Pedestrian Street (#26) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Nanjing Road Pedestrian Street (#26); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Nanjing Road Pedestrian Street (#26); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Xintiandi North Block (Shikumen) (#4); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Xintiandi North Block (Shikumen) (#4); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Xintiandi North Block (Shikumen) (#4); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: soft target 4-5 stops; delivered 3 without relaxing hard constraints or adding unrelated stops.
+
+Route 5 — Xujiahui Commercial Walk
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 9.000; matched tags: interest_tags=shopping_lifestyle; experience_tags=; culture_tags=
+     Recommended because it matches: shopping_lifestyle. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #27 徐家汇商圈 / Xujiahui Commercial District
+     walk_stop / standard: estimated stay 30 min
+     Estimated previous leg: 3.644 km / 48.59 min
+     Score: 8.534; matched tags: interest_tags=modern_city,shopping_lifestyle; experience_tags=; culture_tags=
+     Recommended because it matches: modern_city, shopping_lifestyle. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Brief district observation, short mall stops and supplies.
+Estimated total: 113.59 / 180 min; remaining 66.41 min
+Estimated distance: 3.644 km; walking 48.59 min; stays 50 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Xujiahui Commercial District (#27); this anchor is not the whole area's unique location or entry/exit.
+Warning: coordinate_pending_manual_review: Xujiahui Commercial District (#27); Product-selected approximate public-space anchor northwest of the published Metro City anchor (31.1949, 121.4352), toward Grand Gateway. Not an entire-district centroid or verified entrance. Needs manual coordinate review.
+Warning: coordinate_conversion: Xujiahui Commercial District (#27) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Xujiahui Commercial District (#27); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Xujiahui Commercial District (#27); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: soft target 4-5 stops; delivered 2 without relaxing hard constraints or adding unrelated stops.

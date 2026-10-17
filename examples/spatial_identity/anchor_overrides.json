@@ -1,0 +1,200 @@
+{
+  "overrides": [
+    {
+      "core_id": "p14",
+      "name": "外滩·陈毅广场",
+      "change_kind": "SPATIAL_ANCHOR_ONLY",
+      "core_identity_coordinate_preserved": true,
+      "identity_coordinate_gcj02": {
+        "lat": 31.2365,
+        "lng": 121.4915,
+        "coordinate_system": "GCJ02"
+      },
+      "route_anchor": {
+        "lat": 31.238992,
+        "lng": 121.49039,
+        "coordinate_system": "GCJ02",
+        "source": "AMAP_POI",
+        "confidence": 0.9,
+        "name": "外滩-陈毅广场",
+        "notes": "Verified formal square identity position takes priority over the older Core point 296.5m away. Public square visit anchor; no Core identity coordinate rewrite.",
+        "evidence": [
+          {
+            "provider_id": "B00155G6WO",
+            "detail_reference": "examples/spatial_identity/provider_evidence.json"
+          }
+        ]
+      },
+      "offset_m": 296.5138931606605,
+      "notes": "Navigation entry/public visit position independent of unchanged Core identity coordinate."
+    },
+    {
+      "core_id": "p34",
+      "name": "南京路步行街",
+      "change_kind": "SPATIAL_ANCHOR_ONLY",
+      "core_identity_coordinate_preserved": true,
+      "identity_coordinate_gcj02": {
+        "lat": 31.236534,
+        "lng": 121.482374,
+        "coordinate_system": "GCJ02"
+      },
+      "route_anchor": {
+        "lat": 31.234789,
+        "lng": 121.47571,
+        "coordinate_system": "GCJ02",
+        "source": "AMAP_POI",
+        "confidence": 0.88,
+        "name": "南京东路观光车",
+        "notes": "Recommended western public walking-start vicinity beside the sightseeing-car position. No ticket/service use is required; not claimed as an official surveyed gate.",
+        "evidence": [
+          {
+            "provider_id": "B0FFH10ASN",
+            "query": "南京路步行街西入口"
+          }
+        ]
+      },
+      "offset_m": 662.6350089852951,
+      "notes": "Navigation entry/public visit position independent of unchanged Core identity coordinate."
+    },
+    {
+      "core_id": "p35",
+      "name": "徐家汇商圈",
+      "change_kind": "SPATIAL_ANCHOR_ONLY",
+      "core_identity_coordinate_preserved": true,
+      "identity_coordinate_gcj02": {
+        "lat": 31.193526044665383,
+        "lng": 121.43842179377025,
+        "coordinate_system": "GCJ02"
+      },
+      "route_anchor": {
+        "lat": 31.193781,
+        "lng": 121.438463,
+        "coordinate_system": "GCJ02",
+        "source": "TRACEMATE_CURATED",
+        "confidence": 0.82,
+        "name": "肇嘉浜路与虹桥路交叉口",
+        "notes": "Public junction beside the central Metro City/Grand Gateway cluster; curated City Walk entry, not a mall identity or region centroid.",
+        "evidence": [
+          {
+            "provider_id": "B0FFHPKBPR",
+            "query": "肇嘉浜路与漕溪北路交叉口"
+          }
+        ]
+      },
+      "offset_m": 28.61943924584099,
+      "notes": "Navigation entry/public visit position independent of unchanged Core identity coordinate."
+    },
+    {
+      "core_id": "pz_b72e3b8998b3",
+      "name": "多伦路文化名人街",
+      "change_kind": "SPATIAL_ANCHOR_ONLY",
+      "core_identity_coordinate_preserved": true,
+      "identity_coordinate_gcj02": {
+        "lat": 31.264124,
+        "lng": 121.481748,
+        "coordinate_system": "GCJ02"
+      },
+      "route_anchor": {
+        "lat": 31.262091,
+        "lng": 121.483703,
+        "coordinate_system": "GCJ02",
+        "source": "AMAP_POI",
+        "confidence": 0.88,
+        "name": "多伦路文化名人街牌坊",
+        "notes": "Enter the cultural street at the southern archway; not its ordinary road identity.",
+        "evidence": [
+          {
+            "provider_id": "B0G2CRB88C",
+            "query": "多伦路牌坊"
+          }
+        ]
+      },
+      "offset_m": 292.62973330223764,
+      "notes": "Navigation entry/public visit position independent of unchanged Core identity coordinate."
+    },
+    {
+      "core_id": "pz_b4acff8f32fc",
+      "name": "甜爱路",
+      "change_kind": "SPATIAL_ANCHOR_ONLY",
+      "core_identity_coordinate_preserved": true,
+      "identity_coordinate_gcj02": {
+        "lat": 31.26723,
+        "lng": 121.483903,
+        "coordinate_system": "GCJ02"
+      },
+      "route_anchor": {
+        "lat": 31.264694,
+        "lng": 121.483313,
+        "coordinate_system": "GCJ02",
+        "source": "AMAP_POI",
+        "confidence": 0.88,
+        "name": "四川北路与甜爱路交叉口",
+        "notes": "Southern entry from Sichuan North Road; start a walk along the cultural street.",
+        "evidence": [
+          {
+            "provider_id": "B0FFGGOFS6",
+            "query": "甜爱路与四川北路交叉口"
+          }
+        ]
+      },
+      "offset_m": 287.51244921768955,
+      "notes": "Navigation entry/public visit position independent of unchanged Core identity coordinate."
+    },
+    {
+      "core_id": "pz_a87eb2b5b5da",
+      "name": "武康路历史文化名街",
+      "change_kind": "SPATIAL_ANCHOR_ONLY",
+      "core_identity_coordinate_preserved": true,
+      "identity_coordinate_gcj02": {
+        "lat": 31.207255,
+        "lng": 121.43993,
+        "coordinate_system": "GCJ02"
+      },
+      "route_anchor": {
+        "lat": 31.203998,
+        "lng": 121.437919,
+        "coordinate_system": "GCJ02",
+        "source": "AMAP_POI",
+        "confidence": 0.88,
+        "name": "武康路与淮海中路交叉口",
+        "notes": "Recommended southern entry beside Wukang Mansion; walk north along the historical street.",
+        "evidence": [
+          {
+            "provider_id": "B0FFHPLENP",
+            "query": "武康路与淮海中路交叉口"
+          }
+        ]
+      },
+      "offset_m": 409.5628957372685,
+      "notes": "Navigation entry/public visit position independent of unchanged Core identity coordinate."
+    },
+    {
+      "core_id": "pz_cc5300aee299",
+      "name": "福州路",
+      "change_kind": "SPATIAL_ANCHOR_ONLY",
+      "core_identity_coordinate_preserved": true,
+      "identity_coordinate_gcj02": {
+        "lat": 31.233657,
+        "lng": 121.481917,
+        "coordinate_system": "GCJ02"
+      },
+      "route_anchor": {
+        "lat": 31.231509,
+        "lng": 121.476291,
+        "coordinate_system": "GCJ02",
+        "source": "AMAP_POI",
+        "confidence": 0.88,
+        "name": "福州路与西藏中路交叉口",
+        "notes": "Western entry for the bookish/street-scene walk.",
+        "evidence": [
+          {
+            "provider_id": "B0FFHPIT6P",
+            "query": "福州路与西藏中路交叉口"
+          }
+        ]
+      },
+      "offset_m": 585.8195435908021,
+      "notes": "Navigation entry/public visit position independent of unchanged Core identity coordinate."
+    }
+  ]
+}

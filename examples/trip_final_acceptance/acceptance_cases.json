@@ -1,0 +1,2000 @@
+[
+  {
+    "category": "REMOVE",
+    "text": "Skip this place.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SKIP_PLACE",
+          "target_mentions": [
+            "this place"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REMOVE",
+    "text": "nah, skip it",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SKIP_PLACE",
+          "target_mentions": [
+            "this place"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REMOVE",
+    "text": "这个点跳过。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SKIP_PLACE",
+          "target_mentions": [
+            "this place"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REMOVE",
+    "text": "I don't want to go to West Bund Museum anymore.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_PLACE",
+          "target_mentions": [
+            "West Bund Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REMOVE",
+    "text": "Remove West Bund Museum.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_PLACE",
+          "target_mentions": [
+            "West Bund Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REMOVE",
+    "text": "Let's take West Bund Museum off the route.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_PLACE",
+          "target_mentions": [
+            "West Bund Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REMOVE",
+    "text": "西岸美术馆我不想去了。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_PLACE",
+          "target_mentions": [
+            "West Bund Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REMOVE",
+    "text": "这个不去了。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_PLACE",
+          "target_mentions": [
+            "this place"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "ADD",
+    "text": "Add Long Museum.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_PLACE",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "ADD",
+    "text": "Add Long Museum to my route.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_PLACE",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "ADD",
+    "text": "Can we include Long Museum?",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_PLACE",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "ADD",
+    "text": "龙美术馆也安排一下。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_PLACE",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "MUST_GO",
+    "text": "Make sure we visit Long Museum.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_MUST_GO",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "MUST_GO",
+    "text": "I'd really like to see Long Museum.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_MUST_GO",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "MUST_GO",
+    "text": "龙美术馆我一定想去。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_MUST_GO",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVISIT",
+    "text": "I want to visit TANK Shanghai again.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REVISIT_PLACE",
+          "target_mentions": [
+            "TANK Shanghai"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVISIT",
+    "text": "Let's return to TANK Shanghai.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REVISIT_PLACE",
+          "target_mentions": [
+            "TANK Shanghai"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVISIT",
+    "text": "Can we return to TANK Shanghai?",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REVISIT_PLACE",
+          "target_mentions": [
+            "TANK Shanghai"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVISIT",
+    "text": "我们再去一次TANK Shanghai。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REVISIT_PLACE",
+          "target_mentions": [
+            "TANK Shanghai"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVISIT",
+    "text": "I want to go there again.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REVISIT_PLACE",
+          "target_mentions": [
+            "there"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVISIT",
+    "text": "刚才那个地方我还想再看看。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REVISIT_PLACE",
+          "target_mentions": [
+            "there"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REPLACE",
+    "text": "Replace this place.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REPLACE_PLACE",
+          "target_mentions": [
+            "this place"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REPLACE",
+    "text": "Skip this place and find me another one.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REPLACE_PLACE",
+          "target_mentions": [
+            "this place"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REPLACE",
+    "text": "这个不去了，换一个。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REPLACE_PLACE",
+          "target_mentions": [
+            "this place"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REORDER",
+    "text": "Can we go to Long Museum next?",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "MOVE_PLACE_NEXT",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": "next",
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REORDER",
+    "text": "Go to Long Museum next.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "MOVE_PLACE_NEXT",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": "next",
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REORDER",
+    "text": "龙美术馆下一站去。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "MOVE_PLACE_NEXT",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": "next",
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REORDER",
+    "text": "Put Long Museum before West Bund Museum.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "MOVE_PLACE_BEFORE",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [
+            "West Bund Museum"
+          ],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": "before",
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "PREFERENCE",
+    "text": "I don't want museums anymore.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_AVOID",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [
+            "museums"
+          ],
+          "preference_tags": [
+            "museum_visit"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "PREFERENCE",
+    "text": "博物馆不去了。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_AVOID",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [
+            "museums"
+          ],
+          "preference_tags": [
+            "museum_visit"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REMOVE",
+    "text": "I don't want West Bund Museum anymore.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_PLACE",
+          "target_mentions": [
+            "West Bund Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "PREFERENCE",
+    "text": "I'd like more architecture.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_INTEREST",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [
+            "architecture"
+          ],
+          "preference_tags": [
+            "architecture"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": true
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "PREFERENCE",
+    "text": "我想多看一些建筑。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_INTEREST",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [
+            "architecture"
+          ],
+          "preference_tags": [
+            "architecture"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": true
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVERSAL",
+    "text": "Actually, museums are fine again.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_AVOID",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [
+            "museum_visit"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVERSAL",
+    "text": "Forget the museum restriction.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_AVOID",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [
+            "museum_visit"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVERSAL",
+    "text": "博物馆也可以。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_AVOID",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [
+            "museum_visit"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "REVERSAL",
+    "text": "Actually, keep West Bund Museum.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_PLACE",
+          "target_mentions": [
+            "West Bund Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I have about an hour.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_TIME_TARGET",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "soft",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I want to walk for another hour.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_TIME_TARGET",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "soft",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I only have one hour left.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I have one hour left.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I can only stay another hour.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "我只剩一个小时了。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I have about one hour left before I need to leave.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I've only got 45 minutes left.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 45,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I have another 30 minutes before I need to go.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 30,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "最多只能再逛半小时。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 30,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "我还有四十分钟就要走了。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 40,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I'd like to spend about another hour.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_TIME_TARGET",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "soft",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "Let's aim for around one hour.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_TIME_TARGET",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "soft",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "Maybe another hour, but there's no rush.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_TIME_TARGET",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "soft",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "我想再逛大概一个小时。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_TIME_TARGET",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "soft",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "最好控制在一小时左右，不过不用赶。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_TIME_TARGET",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "soft",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I'd like to spend about another hour, but there's no rush.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_TIME_TARGET",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "soft",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I must leave in one hour.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "Make sure this fits within 60 minutes.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "必须在一个小时内结束。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": 60,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "COMPOUND",
+    "text": "Skip this museum, add Long Museum, and I'd like more architecture.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SKIP_PLACE",
+          "target_mentions": [
+            "this museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        },
+        {
+          "action_type": "ADD_PLACE",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        },
+        {
+          "action_type": "ADD_INTEREST",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [
+            "architecture"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": true
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "COMPOUND",
+    "text": "Remove this stop and put Long Museum next.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_PLACE",
+          "target_mentions": [
+            "this stop"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        },
+        {
+          "action_type": "ADD_PLACE",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        },
+        {
+          "action_type": "MOVE_PLACE_NEXT",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": "next",
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "NEGATION",
+    "text": "I don't dislike museums.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "REMOVE_AVOID",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [
+            "museum_visit"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "NEGATION",
+    "text": "I don't want to skip this place.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_PLACE",
+          "target_mentions": [
+            "this place"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "NEGATION",
+    "text": "I don't want museums, but I still want Long Museum.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_AVOID",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [
+            "museum_visit"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        },
+        {
+          "action_type": "ADD_MUST_GO",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "NEGATION",
+    "text": "I don't want museums except Long Museum.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "ADD_AVOID",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [
+            "museum_visit"
+          ],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        },
+        {
+          "action_type": "ADD_MUST_GO",
+          "target_mentions": [
+            "Long Museum"
+          ],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "READ",
+    "text": "What is my current route?",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SHOW_CURRENT_ROUTE",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "READ",
+    "text": "Show me my original route.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SHOW_ORIGINAL_ROUTE",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "READ",
+    "text": "Why did you change my route?",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "WHY_LATEST_REPLAN",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "READ",
+    "text": "What changes have been made to my route?",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SHOW_ROUTE_HISTORY",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "READ",
+    "text": "How many stops are left?",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SHOW_PROGRESS",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "FULL",
+    "text": "Replan the rest of my route.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "FULL_REPLAN",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": true,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "FULL",
+    "text": "重新规划剩下路线。",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "FULL_REPLAN",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": null,
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": true,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": false,
+      "clarification_reason": null
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I'd like to finish around 5.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_TIME_TARGET",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": "soft",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": true,
+      "clarification_reason": "duration_required"
+    }
+  },
+  {
+    "category": "TIME",
+    "text": "I need to be done by 5 PM.",
+    "expected": {
+      "actions": [
+        {
+          "action_type": "SET_HARD_TIME_LIMIT",
+          "target_mentions": [],
+          "secondary_target_mentions": [],
+          "preference_concepts": [],
+          "preference_tags": [],
+          "time_value_minutes": null,
+          "time_constraint_mode": "hard",
+          "pace": null,
+          "position_relation": null,
+          "reference_expression": null,
+          "explicit_replan": false,
+          "dwell_preference": null,
+          "request_matching_insert": false
+        }
+      ],
+      "needs_clarification": true,
+      "clarification_reason": "duration_required"
+    }
+  }
+]

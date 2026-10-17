@@ -1,0 +1,63 @@
+{
+  "source": "official",
+  "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20240812/88aa3935-4aec-4b22-bf63-33915fd9c319.html",
+  "parameters": {},
+  "variant": "official-excerpts-v1:甜爱路",
+  "retrieved_at": "2026-10-04T15:13:45.559322+00:00",
+  "response": {
+    "excerpts": {
+      "甜爱路": [
+        "悦读北外滩 | 甜爱路的人文味道-上海市虹口区人民政府",
+        "悦读北外滩 | 甜爱路的人文味道",
+        "甜爱路素有“最浪漫爱情街”之称,它的路口设了一只特别的爱情邮筒,从这座爱心邮筒投出的每一封信函,都将被盖上一枚英文爱的邮戳(要到溧阳路1338号四川北路街道门卫室盖)。独特的爱心邮戳无疑是传达爱意的新招式,浪漫而有新意,每一个邮递员都成了这份情谊的传递者。"
+      ]
+    },
+    "links": [
+      {
+        "href": "/",
+        "label": "首页"
+      },
+      {
+        "href": "/xwzx/xwzxdefault.html",
+        "label": "新闻中心"
+      },
+      {
+        "href": "/xwzx/002011/xwzxzxgz.html",
+        "label": "专项工作"
+      },
+      {
+        "href": "/xwzx/002008/002008040/moreinfo.html",
+        "label": "上海虹口微信公众号"
+      },
+      {
+        "href": "javascript:void(0)",
+        "label": "大"
+      },
+      {
+        "href": "javascript:void(0)",
+        "label": "中"
+      },
+      {
+        "href": "javascript:void(0)",
+        "label": "小"
+      },
+      {
+        "href": "javascript:window.print();",
+        "label": "打印"
+      },
+      {
+        "href": "javascript:window.close();",
+        "label": "关闭"
+      },
+      {
+        "href": "/xwzx/002008/002008040/20240812/59aaa161-3d84-4b3d-b21c-9af6ee549398.html",
+        "label": "爱在七夕!猎户座音乐节浪漫开唱→"
+      },
+      {
+        "href": "/xwzx/002008/002008040/20240812/501c3f6b-d4bd-4f47-9c39-c2d80d34bc7f.html",
+        "label": "睡觉时要盖好肚脐吗?"
+      }
+    ]
+  },
+  "response_hash": "7d1dfa6513af0d09c45a4ed3d39674c3df2c779c5bbc6f283a33dbd944c69a0d"
+}

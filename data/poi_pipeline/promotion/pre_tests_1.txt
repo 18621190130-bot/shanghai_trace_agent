@@ -1,0 +1,7 @@
+POI KB: production
+POI Count: 27
+West Bund Route Nodes: 5
+----------------------------------------------------------------------
+Ran 379 tests in 12.709s
+
+OK

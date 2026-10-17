@@ -1,0 +1,23 @@
+Mode: mock exact fixtures
+Initial route source: cached production fixture
+Saved progress: first stop visited; elapsed 60 minutes
+Use --list-fixtures for offline examples, or --live for other wording. No network fallback.
+Assistant: success_mutated / Route updated
+  skip place
+Change: REMOVE_ONLY
+Removed stops: Gate M West Bund Dream Center
+Added stops: none
+Kept stops: Xuhui Riverside Maritime Tower Square, Beipiao Wharf Crane, Long Museum (West Bund)
+Reordered stops: none
+Estimated duration: about 99 minutes | Target: 120 minutes
+Time target is soft.
+[1] User text: "Skip this place."
+[2] Raw provider proposal: [{"actions": [{"action_type": "SKIP_PLACE", "target_mentions": ["this place"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}]
+[3] Parsed actions: {"actions": [{"action_type": "SKIP_PLACE", "target_mentions": ["this place"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[4] Normalized actions: {"actions": [{"action_type": "SKIP_PLACE", "target_mentions": ["this place"], "secondary_target_mentions": [], "preference_concepts": [], "preference_tags": [], "time_value_minutes": null, "time_constraint_mode": null, "pace": null, "position_relation": null, "reference_expression": null, "explicit_replan": false, "dwell_preference": null, "request_matching_insert": false}], "needs_clarification": false, "clarification_reason": null}
+[5] POI resolution: [{"mention": "this place", "result": {"status": "resolved", "poi_id": "p30", "options": [{"label": "Gate M West Bund Dream Center / Gate M 西岸梦中心", "poi_id": "p30", "name": "Gate M West Bund Dream Center"}]}}]
+[6] Semantic validation: "passed"
+[7] Domain validation: "passed"
+[8] Mutation scope: ["REMOVE_ONLY"]
+[9] Execution result: "success_mutated"
+[10] Route diff / warnings: {"diff": {"mutation_scope": "REMOVE_ONLY", "action_scopes": ["REMOVE_ONLY"], "estimated_minutes": 98.6177235129673, "target_minutes": 120, "time_constraint_mode": "soft", "time_warning": null, "hard_limit_minutes": null, "actions": ["SKIP_PLACE"], "added_ids": [], "removed_ids": ["p30"], "kept_ids": ["p42", "p43", "p5"], "reordered_ids": [], "retained_stop_count": 3, "removed_stop_count": 1, "added_stop_count": 0, "reordered_stop_count": 0, "route_preservation_ratio": 0.75, "added_stops": [], "removed_stops": [{"poi_id": "p30", "name": "Gate M West Bund Dream Center", "name_zh": "Gate M 西岸梦中心"}], "kept_stops": [{"poi_id": "p42", "name": "Xuhui Riverside Maritime Tower Square", "name_zh": "徐汇滨江海事塔广场"}, {"poi_id": "p43", "name": "Beipiao Wharf Crane", "name_zh": "北票码头塔吊"}, {"poi_id": "p5", "name": "Long Museum (West Bund)", "name_zh": "龙美术馆（西岸馆）"}], "reordered_stops": [], "old_version": "v1", "new_version": "v2"}, "warnings": [], "failure_stage": null}

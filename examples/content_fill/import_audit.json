@@ -1,0 +1,289 @@
+{
+  "image_mappings": [
+    {
+      "slot": "hero-01",
+      "source": "照片-封面\\architecture.jpg",
+      "asset": "/assets/hero/architecture.jpg",
+      "sha256": "65cccf99a241697cc50316dfe2f0d1a156919c22abf9dfdf6f6a60561f5827b9"
+    },
+    {
+      "slot": "hero-02",
+      "source": "照片-封面\\local life.jpg",
+      "asset": "/assets/hero/local_life.jpg",
+      "sha256": "0fcb3dfe03f6c9f217327f30cf1bb8b2497b508bf450cd3c12d5a751ff4f6d11"
+    },
+    {
+      "slot": "hero-03",
+      "source": "照片-封面\\art.jpg",
+      "asset": "/assets/hero/art.jpg",
+      "sha256": "37765e816ed322107ab04cc9d9efb7582f736990bb8e3e33b4e238b2f3e3d3f7"
+    },
+    {
+      "slot": "hero-04",
+      "source": "照片-封面\\by the water.JPG",
+      "asset": "/assets/hero/waterfront.jpg",
+      "sha256": "0263626ed9f6d9376788ae9f244b443642177aa24a42d1201223d067165df3a0"
+    },
+    {
+      "slot": "hero-05",
+      "source": "照片-封面\\history.jpg",
+      "asset": "/assets/hero/history.jpg",
+      "sha256": "adbaefcfa268dfc7dc2acaa8b29ecbb3e43367321be178e1be21c64bba074187"
+    },
+    {
+      "slot": "hero-06",
+      "source": "照片-封面\\literature.jpg",
+      "asset": "/assets/hero/literature.jpg",
+      "sha256": "b707dac05d097dc0eacfa8b7dca5e53c99d26a2b338829f274d5c355ce394ac5"
+    },
+    {
+      "slot": "hero-07",
+      "source": "照片-封面\\parks and gardens.jpg",
+      "asset": "/assets/hero/parks.jpg",
+      "sha256": "5da286ff1448bb9164032a0e1b6d6bdf2857d3c69e54375346bae77e039d3e86"
+    },
+    {
+      "slot": "hero-08",
+      "source": "照片-封面\\modern city.jpg",
+      "asset": "/assets/hero/modern_city.jpg",
+      "sha256": "b2716e6afb284f4bae9e3120b2ea647635e365c632823df363a553bfeb6b8ad7"
+    },
+    {
+      "poi_id": "p27",
+      "source": "照片 封面以外\\1933老场坊 + p27.jpg",
+      "asset": "/assets/poi-images/p27.jpg",
+      "sha256": "d515fc648e8cf8bc44e7805106b8e480e1ceb903984d88c86839cec0a6a13f8f"
+    },
+    {
+      "poi_id": "p30",
+      "source": "照片 封面以外\\Gate M 西岸梦中心 + p30.jpg",
+      "asset": "/assets/poi-images/p30.jpg",
+      "sha256": "d0c7fae3ac694bdefce98abc0c9cb5e17f6b4dbe661fd3beba092ce6a2b6b04b"
+    },
+    {
+      "poi_id": "pz_0db17d82e9ec",
+      "source": "照片 封面以外\\上海人民广场 + pz_0db17d82e9ec.jpg",
+      "asset": "/assets/poi-images/pz_0db17d82e9ec.jpg",
+      "sha256": "b2716e6afb284f4bae9e3120b2ea647635e365c632823df363a553bfeb6b8ad7"
+    },
+    {
+      "poi_id": "p20",
+      "source": "照片 封面以外\\上海城隍庙 + p20.jpg",
+      "asset": "/assets/poi-images/p20.jpg",
+      "sha256": "b707dac05d097dc0eacfa8b7dca5e53c99d26a2b338829f274d5c355ce394ac5"
+    },
+    {
+      "poi_id": "p21",
+      "source": "照片 封面以外\\上海宋庆龄故居纪念馆 + p21.jpg",
+      "asset": "/assets/poi-images/p21.jpg",
+      "sha256": "904ada65c69a18b6db30b1c831e41cc867a1adb212c61779b244af805df6e5bc"
+    },
+    {
+      "poi_id": "pz_17d41390cac9",
+      "source": "照片 封面以外\\上海工艺美术博物馆 + pz_17d41390cac9.jpg",
+      "asset": "/assets/poi-images/pz_17d41390cac9.jpg",
+      "sha256": "e1d688f4216cfe675cb592b144e635d8690f6cd33fdf58afce70759c0a0701d5"
+    },
+    {
+      "poi_id": "p29",
+      "source": "照片 封面以外\\上海油罐艺术中心+p29.jpg",
+      "asset": "/assets/poi-images/p29.jpg",
+      "sha256": "e8fd3e8969583e52ca200c90244e1cd238cbe817b0757b67e52a1cf3de75e825"
+    },
+    {
+      "poi_id": "p24",
+      "source": "照片 封面以外\\中共一大纪念馆 + p24.jpg",
+      "asset": "/assets/poi-images/p24.jpg",
+      "sha256": "adbaefcfa268dfc7dc2acaa8b29ecbb3e43367321be178e1be21c64bba074187"
+    },
+    {
+      "poi_id": "p34",
+      "source": "照片 封面以外\\南京路步行街+p34.jpg",
+      "asset": "/assets/poi-images/p34.jpg",
+      "sha256": "0fcb3dfe03f6c9f217327f30cf1bb8b2497b508bf450cd3c12d5a751ff4f6d11"
+    },
+    {
+      "poi_id": "pz_bd40d04c7f5d",
+      "source": "照片 封面以外\\复兴公园 + pz_bd40d04c7f5d.jpg",
+      "asset": "/assets/poi-images/pz_bd40d04c7f5d.jpg",
+      "sha256": "5da286ff1448bb9164032a0e1b6d6bdf2857d3c69e54375346bae77e039d3e86"
+    },
+    {
+      "poi_id": "p14",
+      "source": "照片 封面以外\\外滩·陈毅广场+p4.JPG",
+      "asset": "/assets/poi-images/p14.jpg",
+      "sha256": "0263626ed9f6d9376788ae9f244b443642177aa24a42d1201223d067165df3a0"
+    },
+    {
+      "poi_id": "pz_b72e3b8998b3",
+      "source": "照片 封面以外\\多伦路文化名人街 + pz_b72e3b8998b3.jpg",
+      "asset": "/assets/poi-images/pz_b72e3b8998b3.jpg",
+      "sha256": "e77d8ee46a6bbb5661a2f9983e49b36b11e0388959baf2823c297f5f5e770326"
+    },
+    {
+      "poi_id": "p9",
+      "source": "照片 封面以外\\张园+p9.jpg",
+      "asset": "/assets/poi-images/p9.jpg",
+      "sha256": "bebfa6a182f7f9c5fc1834002d59ef727c99e5a1b3651bad49af57c448666db0"
+    },
+    {
+      "poi_id": "p32",
+      "source": "照片 封面以外\\徐家汇天主堂+p32.jpg",
+      "asset": "/assets/poi-images/p32.jpg",
+      "sha256": "d85f58ee69877f4ab1681ed172dc672d2ad0a550a33ed80ee1020a4bee3965a1"
+    },
+    {
+      "poi_id": "p7",
+      "source": "照片 封面以外\\新天地北里（石库门街区） + p7.jpg",
+      "asset": "/assets/poi-images/p7.jpg",
+      "sha256": "deabf459c0907081ae9441c50c10286c857e1bfc0a8c057277bc06b71ca7647b"
+    },
+    {
+      "poi_id": "p31",
+      "source": "照片 封面以外\\星美术馆+p41.jpg",
+      "asset": "/assets/poi-images/p31.jpg",
+      "sha256": "dea6b3b6071eb38002ee9ef4c78398e8e8882adef2a2989134752307578a0de8"
+    },
+    {
+      "poi_id": "pz_a87eb2b5b5da",
+      "source": "照片 封面以外\\武康路历史文化名街 + pz_a87eb2b5b5da.jpg",
+      "asset": "/assets/poi-images/pz_a87eb2b5b5da.jpg",
+      "sha256": "65cccf99a241697cc50316dfe2f0d1a156919c22abf9dfdf6f6a60561f5827b9"
+    },
+    {
+      "poi_id": "p28",
+      "source": "照片 封面以外\\西岸美术馆+p28.jpg",
+      "asset": "/assets/poi-images/p28.jpg",
+      "sha256": "ccce16945c61974fdd5b37bb764981d80f5c1741f1785c28eb52acc699648814"
+    },
+    {
+      "poi_id": "p15",
+      "source": "照片 封面以外\\豫园+p15.jpg",
+      "asset": "/assets/poi-images/p15.jpg",
+      "sha256": "208e42381ddec45c867b294b4034f45357784e809fcd753bce9bb10713bf7af5"
+    },
+    {
+      "poi_id": "p16",
+      "source": "照片 封面以外\\鲁迅公园+p16.jpg",
+      "asset": "/assets/poi-images/p16.jpg",
+      "sha256": "3c72564daff8e45145094eff0908c8cb63112abea75787172601c981dff1f786"
+    },
+    {
+      "poi_id": "p4",
+      "source": "照片 封面以外\\鲁迅故居+p4.jpg",
+      "asset": "/assets/poi-images/p4.jpg",
+      "sha256": "f70872d2e97f8be30a878a98c5443ba15eb5a217f6d59ec0a8873de5eb7dde14"
+    },
+    {
+      "poi_id": "p5",
+      "source": "照片 封面以外\\龙美术馆（西岸馆）+p5.jpg",
+      "asset": "/assets/poi-images/p5.jpg",
+      "sha256": "37765e816ed322107ab04cc9d9efb7582f736990bb8e3e33b4e238b2f3e3d3f7"
+    }
+  ],
+  "content_mappings": [
+    {
+      "poi_id": "p4",
+      "heading": "Lu Xun Former Residence + p4"
+    },
+    {
+      "poi_id": "p5",
+      "heading": "Long Museum West Bund + p5"
+    },
+    {
+      "poi_id": "p7",
+      "heading": "Xintiandi North Block — Shikumen Neighborhood + p7"
+    },
+    {
+      "poi_id": "p9",
+      "heading": "Zhangyuan + p9"
+    },
+    {
+      "poi_id": "p14",
+      "heading": "The Bund — Chen Yi Square + p14"
+    },
+    {
+      "poi_id": "p15",
+      "heading": "Yuyuan Garden + p15"
+    },
+    {
+      "poi_id": "p16",
+      "heading": "Lu Xun Park + p16"
+    },
+    {
+      "poi_id": "p20",
+      "heading": "Shanghai City God Temple + p20"
+    },
+    {
+      "poi_id": "p21",
+      "heading": "Memorial Residence of Soong Ching Ling + p21"
+    },
+    {
+      "poi_id": "p24",
+      "heading": "Memorial of the First National Congress of the Communist Party of China + p24"
+    },
+    {
+      "poi_id": "p27",
+      "heading": "1933 Old Millfun + p27"
+    },
+    {
+      "poi_id": "p28",
+      "heading": "West Bund Museum + p28"
+    },
+    {
+      "poi_id": "p29",
+      "heading": "Tank Shanghai + p29"
+    },
+    {
+      "poi_id": "p30",
+      "heading": "Gate M West Bund Dream Center + p30"
+    },
+    {
+      "poi_id": "p31",
+      "heading": "Star Art Museum+ p31"
+    },
+    {
+      "poi_id": "p32",
+      "heading": "St. Ignatius Cathedral of Shanghai — Xujiahui Catholic Church + p32"
+    },
+    {
+      "poi_id": "p34",
+      "heading": "Nanjing Road Pedestrian Street + p34"
+    },
+    {
+      "poi_id": "pz_17d41390cac9",
+      "heading": "Shanghai Museum of Arts and Crafts + pz_17d41390cac9"
+    },
+    {
+      "poi_id": "pz_b72e3b8998b3",
+      "heading": "Duolun Road Cultural Celebrities Street + pz_b72e3b8998b3"
+    },
+    {
+      "poi_id": "pz_bd40d04c7f5d",
+      "heading": "Fuxing Park + pz_bd40d04c7f5d"
+    },
+    {
+      "poi_id": "pz_a87eb2b5b5da",
+      "heading": "Wukang Road Historical and Cultural Street + pz_a87eb2b5b5da"
+    },
+    {
+      "poi_id": "pz_0db17d82e9ec",
+      "heading": "People’s Square + pz_0db17d82e9ec"
+    }
+  ],
+  "corrections": [
+    "User confirmed: 外滩·陈毅广场+p4.JPG maps to p14, not p4.",
+    "User confirmed: 星美术馆+p41.jpg maps to p31, not p41.",
+    "p4 residence dates corrected to 1933–1936 using Shanghai government source.",
+    "p14 comparison wording corrected: New York is not a European financial district."
+  ],
+  "source_document": "地点内容.docx",
+  "document_sha256": "0762773bccf95ef27ae075500864e3783fc594267bc088e613aa9ba73e779d38",
+  "historical_reference": "https://www.shanghai.gov.cn/nw4411/20240925/4d47a4ab740042d4935bebbbed45b3d7.html",
+  "counts": {
+    "hero_photos": 8,
+    "anchor_photos": 22,
+    "cultural_bridges": 22,
+    "what_to_notice": 58
+  }
+}

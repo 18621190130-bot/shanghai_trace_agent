@@ -1,0 +1,2621 @@
+{
+  "metadata": {
+    "project": "ShanghaiTrace / 沪迹",
+    "version": "poi-kb-v1.0",
+    "purpose": "MVP knowledge base for Shanghai City Walk route planning, replanning and culture explanation",
+    "poi_count": 19,
+    "important_notes": [
+      "Core POI descriptions, coordinates, stories, walk tips, related POIs and nearby picks are derived from the current project HTML.",
+      "walk_zone and environment are MVP planning fields inferred for route-engine use.",
+      "Dynamic fields such as opening hours, closures, weather, transit status and reservation requirements are intentionally left null until connected to verified sources or APIs.",
+      "English culture-bridge explanations are generated from the project's existing Chinese content and should be reviewed before production use.",
+      "For the competition MVP, prefer routes inside one walk_zone; cross-zone routes should incur a strong transfer penalty."
+    ]
+  },
+  "route_engine_defaults": {
+    "walking_speed_m_per_min": 75,
+    "prefer_same_walk_zone": true,
+    "max_pois_default": 5,
+    "route_buffer_minutes": 20,
+    "hard_constraints": [
+      "user_time_budget",
+      "must_go_pois",
+      "current_location",
+      "known_opening_constraints"
+    ],
+    "soft_constraints": [
+      "interests",
+      "avoid_crowds",
+      "culture_depth",
+      "food_need",
+      "walking_tolerance",
+      "indoor_outdoor_preference"
+    ]
+  },
+  "pois": [
+    {
+      "id": "p1",
+      "name": {
+        "zh": "董家渡天主堂",
+        "en": "Dongjiadu Catholic Church",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区董家渡路185号",
+        "lat": 31.2209,
+        "lng": 121.497,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "old_city_bund",
+        "name_zh": "老城厢—外滩",
+        "name_en": "Old City & Bund",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "老城厢",
+        "en": "Old City"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90,
+          "source_text": "45—90 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "狭窄曲折的弄堂网络，生活尺度密集",
+        "summary_zh": "这里不是一座被封存的“老城”，而是一片仍然能读到城市生活痕迹的空间。",
+        "story_zh": "走进小南门一带，最容易注意到的不是某一座宏伟建筑，而是弄堂、门牌、邻里交往与街道尺度共同形成的生活网络。它让人看到上海城市更新之前，普通居民如何在高密度空间中建立自己的日常秩序。",
+        "timeline": [
+          {
+            "period_zh": "近代",
+            "title_zh": "老城厢生活网络形成",
+            "text_zh": "街巷、店铺、住宅与公共生活长期叠加。"
+          },
+          {
+            "period_zh": "20世纪",
+            "title_zh": "居民生活持续生长",
+            "text_zh": "弄堂成为家庭、邻里与小商业共同发生的日常空间。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "更新与记忆并存",
+            "text_zh": "部分空间发生变化，原有街区的生活记忆更值得被记录。"
+          }
+        ],
+        "then_now_zh": [
+          "弄堂、老宅与密集街巷构成的生活场景",
+          "更新中的街区与仍可辨认的旧有空间尺度"
+        ],
+        "voice_quote_zh": "小时候出门就是巷子，谁家做饭、谁家来了客人，邻里之间都知道。",
+        "audio_label_zh": "口述历史 · 老居民的董家渡记忆 / 03:45",
+        "walk_tip_zh": "不要只看“景点”。沿着小巷慢慢走，留意门牌、晾衣杆、杂货店和楼梯入口。",
+        "field_note_zh": "时间感强、故事密度高，适合观察城市更新前后的空间变化。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Do not treat this only as a church stop. Use it as an entry point into the dense everyday fabric of Shanghai's old city: lanes, door numbers, small shops and neighborhood life.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p7",
+        "p9"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "南外滩轻纺面料市场",
+          "type_zh": "面料市场",
+          "tags_zh": [
+            "布料",
+            "裁缝",
+            "市井"
+          ],
+          "address_zh": null,
+          "description_zh": "董家渡最有名的市井商业：一层层布料摊位与裁缝铺连成片，是上海人做了几十年衣服的地方，比景点更真实。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%97%E5%A4%96%E6%BB%A9%E8%BD%BB%E7%BA%BA%E9%9D%A2%E6%96%99%E5%B8%82%E5%9C%BA",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E5%A4%96%E6%BB%A9%E8%BD%BB%E7%BA%BA%E9%9D%A2%E6%96%99%E5%B8%82%E5%9C%BA",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "复兴东路渡口",
+          "type_zh": "轮渡",
+          "tags_zh": [
+            "两元过江",
+            "江景",
+            "浦东"
+          ],
+          "address_zh": null,
+          "description_zh": "从天主堂散步到江边，花两块钱坐轮渡去对岸，回看老城厢与南外滩的天际线，是最上海的过江方式。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%8D%E5%85%B4%E4%B8%9C%E8%B7%AF%E6%B8%A1%E5%8F%A3",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%8D%E5%85%B4%E4%B8%9C%E8%B7%AF%E6%B8%A1%E5%8F%A3",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "董家渡路街坊小馆",
+          "type_zh": "本帮菜",
+          "tags_zh": [
+            "家常",
+            "街坊",
+            "实惠"
+          ],
+          "address_zh": null,
+          "description_zh": "老城厢里的小馆子，菜单直接、分量实在，逛完天主堂与面料市场，坐下来吃一顿家常本帮菜。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%91%A3%E5%AE%B6%E6%B8%A1%E8%B7%AF%20%E9%A4%90%E5%8E%85",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E8%91%A3%E5%AE%B6%E6%B8%A1%E8%B7%AF%20%E6%9C%AC%E5%B8%AE%E8%8F%9C",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p2",
+      "name": {
+        "zh": "永康路与嘉善路口",
+        "en": "Yongkang Road × Jiashan Road",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区永康路嘉善路口",
+        "lat": 31.2128,
+        "lng": 121.4592,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "former_french_concession",
+        "name_zh": "衡复—永康路片区",
+        "name_en": "Former French Concession",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "梧桐区",
+        "en": "Plane-tree Neighborhood"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 40,
+          "max_minutes": 80,
+          "source_text": "40—80 分钟"
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "林荫街道、小店与居民生活并置",
+        "summary_zh": "一条不需要赶路的街：梧桐、咖啡、五金店和水果摊共同组成上海的日常。",
+        "story_zh": "永康路最有意思的地方，在于“精致”与“市井”没有被分开。游客看到的是咖啡店和街景，居民看到的则是买菜、修东西、遛狗和邻里碰面的日常。",
+        "timeline": [
+          {
+            "period_zh": "早期",
+            "title_zh": "居住型街道",
+            "text_zh": "街道首先服务于附近居民的日常生活。"
+          },
+          {
+            "period_zh": "近年",
+            "title_zh": "生活方式进入街区",
+            "text_zh": "咖啡、餐饮与小型商业逐渐增加。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "新旧日常并置",
+            "text_zh": "游客漫游与居民真实生活继续交叠。"
+          }
+        ],
+        "then_now_zh": [
+          "居民街道、梧桐与街边小店",
+          "咖啡、餐饮与传统生活服务共存"
+        ],
+        "voice_quote_zh": "这里以前就是买东西、办事、回家的路，现在大家也会专门来散步。",
+        "audio_label_zh": "街区口述 · 永康路居民日常 / 02:58",
+        "walk_tip_zh": "别只沿主街直走。看看店铺招牌、居民楼入口和支弄。",
+        "field_note_zh": "“精致与市井”的零距离并置，适合生活方式观察。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The point is the coexistence of stylish cafés and ordinary neighborhood routines. Notice how tourism and daily life share the same street rather than being separated.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p11",
+        "p12"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "Cafe des Stagiaires",
+          "type_zh": "咖啡 / 小酒馆",
+          "tags_zh": [
+            "永康路",
+            "露台",
+            "咖啡"
+          ],
+          "address_zh": null,
+          "description_zh": "永康路上的轻松型停留点，适合下午坐下来喝咖啡或傍晚喝一杯。空间本身就是街区氛围的一部分。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/shop/5596992/photos/album/p2",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=Cafe%20des%20Stagiaires%20%E6%B0%B8%E5%BA%B7%E8%B7%AF",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "雷米咖啡馆",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "老派陈设",
+            "手冲",
+            "栗子蛋糕"
+          ],
+          "address_zh": "永康路88号",
+          "description_zh": "红色转角建筑里的小型咖啡馆，店内陈设带有明显的旧上海生活气息。豆奶咖啡、手冲咖啡、栗子蛋糕与茶饮是主要看点，适合把它当作一家有自己性格的街角咖啡馆。",
+          "highlight_zh": "重点看老派家具与小尺度室内陈设；栗子蛋糕和手冲咖啡是最值得优先尝试的组合。",
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%9B%B7%E7%B1%B3%E5%92%96%E5%95%A1%E9%A6%86",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%9B%B7%E7%B1%B3%E5%92%96%E5%95%A1%E9%A6%86",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "Nonna",
+          "type_zh": "面包 / 甜点",
+          "tags_zh": [
+            "佛卡夏",
+            "可颂",
+            "意式"
+          ],
+          "address_zh": "永康路126号",
+          "description_zh": "暖色调的小型意式烘焙店，面包、佛卡夏、可颂、小披萨和咖啡构成完整的日常菜单。番茄佛卡夏、开心果可颂、蘑菇奶酪恰巴塔等是店内辨识度较高的选择。",
+          "highlight_zh": "推荐优先尝试佛卡夏和可颂；店面不大，陈设简洁温暖，适合买面包与咖啡。",
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_Nonna%E6%B0%B8%E5%BA%B7%E8%B7%AF",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=Nonna%20%E6%B0%B8%E5%BA%B7%E8%B7%AF",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p3",
+      "name": {
+        "zh": "定西路菜市场",
+        "en": "Dingxi Road Market",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "长宁区定西路",
+        "lat": 31.217,
+        "lng": 121.4185,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "zhongshan_dingxi",
+        "name_zh": "中山公园—定西路",
+        "name_en": "Zhongshan Park & Dingxi Road",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "市井空间",
+        "en": "Local Everyday Life"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 30,
+          "max_minutes": 60,
+          "source_text": "30—60 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "菜市场背后的窄巷与骑楼底商",
+        "summary_zh": "真正的城市烟火，往往藏在主街背后：买菜、讨价还价、卸货与邻里聊天同时发生。",
+        "story_zh": "市场后巷是城市经济最微小也最真实的节点。它连接菜市场、居民区和街边小商业，形成一种由生活需要推动的空间秩序。",
+        "timeline": [
+          {
+            "period_zh": "形成",
+            "title_zh": "市场与居民区相互依存",
+            "text_zh": "日常采购带来稳定的人流和小商业。"
+          },
+          {
+            "period_zh": "长期",
+            "title_zh": "摊贩与居民共同使用",
+            "text_zh": "后巷承担运输、交易、休息和社交等功能。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "烟火气仍然可见",
+            "text_zh": "市场周边的生活网络仍有连续性。"
+          }
+        ],
+        "then_now_zh": [
+          "市场、摊位与居民生活高度交织",
+          "现代商业与传统市场功能继续并存"
+        ],
+        "voice_quote_zh": "早上最热闹，菜刚到的时候大家都在忙，邻居碰到了还会聊几句。",
+        "audio_label_zh": "摊主口述 · 定西路市场的三十年 / 02:50",
+        "walk_tip_zh": "注意市场如何影响周边公共空间，以及人流如何改变巷子的节奏。",
+        "field_note_zh": "适合观察市场如何影响周边公共空间与居民互动。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Look beyond the market stalls. The backstreets show how food supply, small business, delivery, conversation and residential life form one urban system.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p2",
+        "p10"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "定西路夜宵街",
+          "type_zh": "夜宵 / 烧烤",
+          "tags_zh": [
+            "烧烤",
+            "夜宵",
+            "烟火"
+          ],
+          "address_zh": null,
+          "description_zh": "定西路是长宁有名的夜宵街，烧烤、小龙虾与火锅店一家接一家，入夜后烟火气最浓。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%AE%9A%E8%A5%BF%E8%B7%AF%20%E7%83%A7%E7%83%A4",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%9A%E8%A5%BF%E8%B7%AF%20%E5%A4%9C%E5%AE%B5",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "定西路街坊面馆",
+          "type_zh": "面馆",
+          "tags_zh": [
+            "街坊",
+            "汤面",
+            "实惠"
+          ],
+          "address_zh": null,
+          "description_zh": "菜市场周边总有好吃的街坊面馆，浇头实在、翻台快，是附近居民的一日三餐。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%AE%9A%E8%A5%BF%E8%B7%AF%20%E9%9D%A2%E9%A6%86",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%9A%E8%A5%BF%E8%B7%AF%20%E9%9D%A2%E9%A6%86",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "中山公园商圈咖啡",
+          "type_zh": "咖啡 / 商场",
+          "tags_zh": [
+            "龙之梦",
+            "来福士",
+            "中场休息"
+          ],
+          "address_zh": null,
+          "description_zh": "逛完菜场向北走就是中山公园商圈，商场咖啡店适合中场休息，也可顺路进公园坐坐。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%AD%E5%B1%B1%E5%85%AC%E5%9B%AD%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p4",
+      "name": {
+        "zh": "鲁迅故居",
+        "en": "Lu Xun Former Residence",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "虹口区山阴路132弄9号",
+        "lat": 31.2693,
+        "lng": 121.481,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学片区",
+        "name_en": "Hongkou Literary District",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "文学街区",
+        "en": "Literary District"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90,
+          "source_text": "45—90 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "棋盘式街巷与低密度历史住宅",
+        "summary_zh": "表面安静的街巷背后，叠着文学、思想与普通居民共同留下的城市记忆。",
+        "story_zh": "这里的魅力并不只来自名人故居。真正值得漫游的是那些普通街巷：历史人物的生活轨迹与今天居民的日常重叠在一起。",
+        "timeline": [
+          {
+            "period_zh": "近代",
+            "title_zh": "城市居住区形成",
+            "text_zh": "街巷与住宅共同构成稳定的社区空间。"
+          },
+          {
+            "period_zh": "20世纪",
+            "title_zh": "文学与思想记忆沉淀",
+            "text_zh": "文化人物相关的生活轨迹使区域具有特殊文化记忆。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "日常街区继续生活",
+            "text_zh": "历史仍藏在普通建筑和街巷细节中。"
+          }
+        ],
+        "then_now_zh": [
+          "历史住宅与街巷构成的生活环境",
+          "安静的城市街区与文化漫游线路"
+        ],
+        "voice_quote_zh": "以前这些地方看起来就是普通弄堂，后来才知道原来发生过这么多事情。",
+        "audio_label_zh": "街坊口述 · 鲁迅公园周边的旧日生活 / 04:15",
+        "walk_tip_zh": "看到故居之后继续走，真正值得观察的往往是普通支弄。",
+        "field_note_zh": "“外表普通但故事很深”，适合历史文化与文学主题。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The literary value is not limited to a famous writer's former home. The surrounding lanes help explain how cultural memory remains embedded in an ordinary residential neighborhood.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p9",
+        "p10"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "甜爱咖啡 / 街角咖啡小店",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "文学街区",
+            "安静",
+            "窗边"
+          ],
+          "address_zh": null,
+          "description_zh": "适合在山阴路、甜爱路散步中间停下来。重点是小尺度街角空间与文学街区的安静气质，而不是连锁咖啡的标准化体验。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%94%9C%E7%88%B1%E8%B7%AF%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%9C%E7%88%B1%E8%B7%AF%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "山阴路旧书 / 文创小店",
+          "type_zh": "文艺小铺",
+          "tags_zh": [
+            "旧书",
+            "文创",
+            "文学"
+          ],
+          "address_zh": null,
+          "description_zh": "适合慢慢翻看书架和纸品，不追求大而全，而是利用文学街区的主题做小规模内容选择。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B1%B1%E9%98%B4%E8%B7%AF%20%E4%B9%A6%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E9%98%B4%E8%B7%AF%20%E6%96%87%E8%89%BA%E5%B0%8F%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "虹口社区小馆",
+          "type_zh": "在地餐饮",
+          "tags_zh": [
+            "本地菜",
+            "小馆",
+            "居民区"
+          ],
+          "address_zh": null,
+          "description_zh": "相比热门景点餐厅，更适合选择街坊型小馆：菜单不复杂，但能看到虹口居民真实的日常饮食。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B1%B1%E9%98%B4%E8%B7%AF%20%E9%A4%90%E5%8E%85",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B1%B1%E9%98%B4%E8%B7%AF%20%E6%8E%A2%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p5",
+      "name": {
+        "zh": "龙美术馆（西岸馆）",
+        "en": "Long Museum (West Bund)",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道3398号",
+        "lat": 31.1848,
+        "lng": 121.465,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "西岸滨江",
+        "name_en": "West Bund",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "工业遗存",
+        "en": "Industrial Heritage"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 60,
+          "max_minutes": 120,
+          "source_text": "60—120 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "工业遗存、当代艺术与开阔滨水空间",
+        "summary_zh": "从工业生产岸线到公共文化空间，城市功能变化被直接写进了江岸。",
+        "story_zh": "徐汇滨江适合用“过去—转型—现在”的方式观看。曾经服务于工业生产的空间，经过更新后承载艺术、休闲与公共生活。",
+        "timeline": [
+          {
+            "period_zh": "工业时期",
+            "title_zh": "生产型滨水空间",
+            "text_zh": "码头、仓储与工业设施构成江岸功能。"
+          },
+          {
+            "period_zh": "转型期",
+            "title_zh": "工业空间开始更新",
+            "text_zh": "旧设施被重新利用，滨江公共空间逐步形成。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "文化与公共空间",
+            "text_zh": "艺术馆、步道和江岸构成新的城市生活界面。"
+          }
+        ],
+        "then_now_zh": [
+          "工业码头、设备与生产岸线",
+          "艺术馆、步道、公共空间与江景"
+        ],
+        "voice_quote_zh": "以前这里是工作的地方，现在更多人来这里散步、看展。",
+        "audio_label_zh": "滨江口述 · 从工厂到公共空间 / 03:20",
+        "walk_tip_zh": "观察龙门吊、旧工业结构与新建筑的关系，再走到江边看城市尺度如何打开。",
+        "field_note_zh": "工业记忆与现代公共空间的三层视觉关系明显。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Read the waterfront as a before-and-after story: an industrial production zone transformed into public space for art, walking and leisure.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p8",
+        "p6"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "龙美术馆周边咖啡",
+          "type_zh": "咖啡 / 轻食",
+          "tags_zh": [
+            "滨江",
+            "看展后",
+            "户外"
+          ],
+          "address_zh": null,
+          "description_zh": "滨江步行中适合补充咖啡和轻食的停留点，重点是把室内看展和江边公共空间连接起来。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%BE%99%E7%BE%8E%E6%9C%AF%E9%A6%86%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%BE%99%E7%BE%8E%E6%9C%AF%E9%A6%86%20%E8%A5%BF%E5%B2%B8%20%E6%8E%A2%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "西岸艺术书店 / 文创店",
+          "type_zh": "文艺小铺",
+          "tags_zh": [
+            "艺术书",
+            "设计",
+            "展览"
+          ],
+          "address_zh": null,
+          "description_zh": "适合看完展后继续逛书和设计物件。内容偏艺术、建筑与城市文化，比普通纪念品店更适合做深度停留。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%A5%BF%E5%B2%B8%20%E8%89%BA%E6%9C%AF%E4%B9%A6%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E8%A5%BF%E5%B2%B8%20%E8%89%BA%E6%9C%AF%E4%B9%A6%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "滨江轻食小店",
+          "type_zh": "轻食",
+          "tags_zh": [
+            "江景",
+            "午后",
+            "慢坐"
+          ],
+          "address_zh": null,
+          "description_zh": "适合长距离滨江步行中的休息点，选择沙拉、三明治、甜点等轻食，把停留时间拉长。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E9%A4%90%E5%8E%85",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%BE%90%E6%B1%87%E6%BB%A8%E6%B1%9F%20%E7%BE%8E%E9%A3%9F",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p6",
+      "name": {
+        "zh": "前滩友城公园",
+        "en": "Qiantan Friendship City Park",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "浦东新区前滩友城路",
+        "lat": 31.1619,
+        "lng": 121.4792,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "qiantan",
+        "name_zh": "前滩片区",
+        "name_en": "Qiantan",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "滨水空间",
+        "en": "Waterfront"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90,
+          "source_text": "45—90 分钟"
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "商业、公园与开放式城市公共空间",
+        "summary_zh": "这里展示的是另一种上海：新城市空间如何把商业、公共活动与慢行连接起来。",
+        "story_zh": "前滩适合与老城厢形成对照。这里的空间尺度更大、公共设施更新，但同样在回答一个问题：人为什么愿意在城市里停下来、走路和交流？",
+        "timeline": [
+          {
+            "period_zh": "开发前",
+            "title_zh": "滨江功能转型",
+            "text_zh": "区域经历从传统功能向现代综合空间的变化。"
+          },
+          {
+            "period_zh": "建设期",
+            "title_zh": "商业与公共空间同步规划",
+            "text_zh": "步行系统、公园与商业空间被连接起来。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "新的城市生活场景",
+            "text_zh": "人们在这里消费、运动、散步和社交。"
+          }
+        ],
+        "then_now_zh": [
+          "较少被城市生活使用的滨水区域",
+          "商业、公园与慢行空间组成的新城区"
+        ],
+        "voice_quote_zh": "现在周末来这里的人很多，大家不一定消费，就是出来走走。",
+        "audio_label_zh": "城市观察 · 前滩公共空间使用记录 / 02:40",
+        "walk_tip_zh": "走一段天空环道或公园步道，观察人流如何自然形成。",
+        "field_note_zh": "适合与老城空间对照，观察现代城市公共空间。"
+      },
+      "culture_bridge": {
+        "explanation_en": "This is useful as a contrast with Shanghai's older neighborhoods. Observe how a newer district connects commercial space, parks and pedestrian movement.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p5",
+        "p8"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "前滩太古里餐饮街区",
+          "type_zh": "餐饮",
+          "tags_zh": [
+            "新式餐饮",
+            "商场",
+            "聚餐"
+          ],
+          "address_zh": null,
+          "description_zh": "品牌餐饮密度高，适合需要确定性用餐环境的用户。可把它作为前滩公共空间中的室内补给点。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%89%8D%E6%BB%A9%E5%A4%AA%E5%8F%A4%E9%87%8C%20%E9%A4%90%E5%8E%85",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%89%8D%E6%BB%A9%E5%A4%AA%E5%8F%A4%E9%87%8C%20%E7%BE%8E%E9%A3%9F",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "友城公园周边咖啡",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "公园",
+            "户外",
+            "休闲"
+          ],
+          "address_zh": null,
+          "description_zh": "适合把咖啡与公园停留结合起来，尤其适合下午散步、拍照和短暂停留。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8F%8B%E5%9F%8E%E5%85%AC%E5%9B%AD%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8F%8B%E5%9F%8E%E5%85%AC%E5%9B%AD%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "前滩设计 / 生活方式小店",
+          "type_zh": "生活方式",
+          "tags_zh": [
+            "设计",
+            "家居",
+            "选物"
+          ],
+          "address_zh": null,
+          "description_zh": "适合看新城区商业如何把家居、服饰、设计与日常消费结合。比单纯购物更适合观察当代生活方式。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%89%8D%E6%BB%A9%20%E8%AE%BE%E8%AE%A1%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%89%8D%E6%BB%A9%20%E8%AE%BE%E8%AE%A1%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p7",
+      "name": {
+        "zh": "新天地北里（石库门街区）",
+        "en": "Xintiandi North Block (Shikumen)",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区太仓路181弄",
+        "lat": 31.2212,
+        "lng": 121.4679,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "central_shikumen",
+        "name_zh": "新天地—张园片区",
+        "name_en": "Central Shikumen",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "石库门",
+        "en": "Shikumen"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90,
+          "source_text": "45—90 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "水面、石库门建筑与现代商业并置",
+        "summary_zh": "这里最值得看的，是旧有建筑肌理与现代商业如何彼此借景。",
+        "story_zh": "石库门建筑在更新后进入新的城市生活。太平湖和玻璃幕墙提供了新的视觉关系，而里弄建筑仍保留旧有尺度。",
+        "timeline": [
+          {
+            "period_zh": "早期",
+            "title_zh": "石库门居住空间",
+            "text_zh": "建筑以家庭与邻里共同生活为核心。"
+          },
+          {
+            "period_zh": "更新期",
+            "title_zh": "旧建筑进入新功能体系",
+            "text_zh": "历史建筑与现代商业发生结合。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "历史成为日常背景",
+            "text_zh": "人们在消费、散步与社交中继续使用空间。"
+          }
+        ],
+        "then_now_zh": [
+          "高密度石库门居住环境",
+          "历史建筑与现代商业共同构成的街区"
+        ],
+        "voice_quote_zh": "以前这里是家，现在很多人来这里逛，但老房子的样子还在。",
+        "audio_label_zh": "石库门口述 · 从居住到街区更新 / 03:05",
+        "walk_tip_zh": "站到太平湖边回头看，观察玻璃、树影和石库门屋顶线如何叠在一起。",
+        "field_note_zh": "适合观察新旧对话和历史空间再利用。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Shikumen is more than a photogenic brick style. Focus on the small-scale lane pattern and how former residential fabric has been reused for contemporary urban life.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p1",
+        "p9"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "新天地本帮菜 / 小馆",
+          "type_zh": "本帮菜",
+          "tags_zh": [
+            "上海菜",
+            "石库门",
+            "晚餐"
+          ],
+          "address_zh": null,
+          "description_zh": "适合在石库门环境里吃一顿正式的上海菜。重点可关注本帮菜浓油赤酱、时令河鲜与家常菜之间的区别。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E6%9C%AC%E5%B8%AE%E8%8F%9C",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E6%9C%AC%E5%B8%AE%E8%8F%9C",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "石库门文创 / 设计小铺",
+          "type_zh": "文创小店",
+          "tags_zh": [
+            "设计",
+            "礼物",
+            "石库门"
+          ],
+          "address_zh": null,
+          "description_zh": "适合寻找上海主题设计物件、明信片和小型礼物。重点看商品如何把城市建筑与日常生活转译成设计。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E6%96%87%E5%88%9B%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%96%B0%E5%A4%A9%E5%9C%B0%20%E6%96%87%E5%88%9B",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "太平湖畔咖啡",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "湖景",
+            "下午",
+            "户外"
+          ],
+          "address_zh": null,
+          "description_zh": "如果不想马上离开石库门区域，湖边咖啡是很好的低强度停留选择，适合观察新旧建筑的倒影与人流。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%AA%E5%B9%B3%E6%B9%96%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%AA%E5%B9%B3%E6%B9%96%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p8",
+      "name": {
+        "zh": "东昌路渡口",
+        "en": "Dongchang Road Ferry Terminal",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "浦东新区滨江大道",
+        "lat": 31.2353,
+        "lng": 121.508,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "louzui_riverfront",
+        "name_zh": "陆家嘴滨江",
+        "name_en": "Lujiazui Riverfront",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "滨水空间",
+        "en": "Waterfront"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 40,
+          "max_minutes": 80,
+          "source_text": "40—80 分钟"
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "开阔江面与外滩建筑群对岸视角",
+        "summary_zh": "换一个岸边看上海：城市天际线不再是背景，而成为被观看的城市历史。",
+        "story_zh": "从陆家嘴滨江望向外滩，可以同时看到近代城市建筑、现代金融中心和黄浦江交通。",
+        "timeline": [
+          {
+            "period_zh": "近代",
+            "title_zh": "浦江两岸形成城市核心",
+            "text_zh": "外滩建筑群见证上海近代城市发展。"
+          },
+          {
+            "period_zh": "现代",
+            "title_zh": "浦东快速城市化",
+            "text_zh": "陆家嘴成为现代金融与城市天际线的重要区域。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "两种城市历史同框",
+            "text_zh": "近代建筑与现代摩天楼隔江相望。"
+          }
+        ],
+        "then_now_zh": [
+          "外滩近代建筑群与渡口交通",
+          "陆家嘴现代天际线与滨江公共空间"
+        ],
+        "voice_quote_zh": "以前大家看上海会去外滩，现在站在这边看，又是完全不同的一幅图。",
+        "audio_label_zh": "江岸口述 · 两岸城市天际线 / 03:10",
+        "walk_tip_zh": "不要一直盯着高楼，观察渡船、江面、旧建筑和新建筑的层次。",
+        "field_note_zh": "城市对岸视角强，适合视觉型和城市发展主题漫游。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Instead of only looking at skyscrapers, use the opposite-bank view to compare Shanghai's older Bund skyline, the river and the modern Pudong cityscape in one frame.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p5",
+        "p6"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "东昌路渡口周边小吃",
+          "type_zh": "街头饮食",
+          "tags_zh": [
+            "渡口",
+            "小吃",
+            "本地"
+          ],
+          "address_zh": null,
+          "description_zh": "适合在滨江看完对岸城市天际线后解决一顿轻量午餐。比起目的地餐厅，更强调便捷、快速和街头感。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%9C%E6%98%8C%E8%B7%AF%E6%B8%A1%E5%8F%A3%20%E5%B0%8F%E5%90%83",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%9C%E6%98%8C%E8%B7%AF%E6%B8%A1%E5%8F%A3%20%E5%B0%8F%E5%90%83",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "陆家嘴滨江咖啡",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "江景",
+            "城市天际线",
+            "日落"
+          ],
+          "address_zh": null,
+          "description_zh": "核心优势是视野：一杯咖啡换一段完整的江景停留，适合下午到日落时段。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%99%86%E5%AE%B6%E5%98%B4%E6%BB%A8%E6%B1%9F%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%99%86%E5%AE%B6%E5%98%B4%E6%BB%A8%E6%B1%9F%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "陆家嘴城市书店 / 文化空间",
+          "type_zh": "文化空间",
+          "tags_zh": [
+            "书店",
+            "建筑",
+            "城市阅读"
+          ],
+          "address_zh": null,
+          "description_zh": "适合把“看城市”变成“读城市”。建筑、城市史和设计类书籍比普通旅游纪念品更适合这个点位主题。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%99%86%E5%AE%B6%E5%98%B4%20%E4%B9%A6%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%99%86%E5%AE%B6%E5%98%B4%20%E4%B9%A6%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p9",
+      "name": {
+        "zh": "张园",
+        "en": "Zhangyuan",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "静安区威海路588号",
+        "lat": 31.2286,
+        "lng": 121.4638,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "central_shikumen",
+        "name_zh": "新天地—张园片区",
+        "name_en": "Central Shikumen",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "石库门",
+        "en": "Shikumen"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90,
+          "source_text": "45—90 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "石库门建筑群、骑楼廊道与半室内空间",
+        "summary_zh": "一座城市更新中的历史建筑群，适合观察保存与重新使用如何同时发生。",
+        "story_zh": "张园的价值不仅是建筑本身，还在于它如何承载新的城市功能。走进里弄与廊道，可以看到历史空间尺度和现代商业使用方式的碰撞。",
+        "timeline": [
+          {
+            "period_zh": "历史时期",
+            "title_zh": "城市公共生活空间",
+            "text_zh": "张园及周边曾长期承担城市社交与生活功能。"
+          },
+          {
+            "period_zh": "更新前",
+            "title_zh": "历史建筑进入保护阶段",
+            "text_zh": "建筑群面临功能变化与保护需求。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "保护与再利用并行",
+            "text_zh": "历史空间继续被新的城市生活使用。"
+          }
+        ],
+        "then_now_zh": [
+          "历史建筑与传统里弄生活",
+          "更新后的公共空间与新商业功能"
+        ],
+        "voice_quote_zh": "小时候这里和现在完全不一样，但走进一些巷子还是能认出来。",
+        "audio_label_zh": "张园口述 · 一座街区的变化 / 04:05",
+        "walk_tip_zh": "重点看边界：哪里是原有建筑，哪里是新加入的商业与公共设施？",
+        "field_note_zh": "适合观察历史保护、商业更新与空间再利用。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The key question here is not simply 'old versus new' but how a protected historical environment is given new commercial and public uses.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p7",
+        "p11"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "张园周边精品咖啡",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "历史建筑",
+            "咖啡",
+            "室内陈设"
+          ],
+          "address_zh": null,
+          "description_zh": "适合在看完张园建筑之后继续观察室内空间：旧建筑尺度、新商业陈设和咖啡消费场景往往叠在一起。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BC%A0%E5%9B%AD%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%BC%A0%E5%9B%AD%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "威海路设计 / 买手小店",
+          "type_zh": "小众商店",
+          "tags_zh": [
+            "买手",
+            "设计",
+            "服饰"
+          ],
+          "address_zh": null,
+          "description_zh": "更适合关注陈设、选品和店面尺度。小店通常把服饰、饰品、家居或独立品牌集中在较小空间里。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A8%81%E6%B5%B7%E8%B7%AF%20%E4%B9%B0%E6%89%8B%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A8%81%E6%B5%B7%E8%B7%AF%20%E4%B9%B0%E6%89%8B%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "张园周边甜点店",
+          "type_zh": "甜点",
+          "tags_zh": [
+            "甜品",
+            "下午茶",
+            "街区"
+          ],
+          "address_zh": null,
+          "description_zh": "适合把建筑漫游切成一个下午茶段落，选择小份甜点与饮品即可，不需要安排很长用餐时间。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BC%A0%E5%9B%AD%20%E7%94%9C%E5%93%81",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%BC%A0%E5%9B%AD%20%E7%94%9C%E5%93%81",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p10",
+      "name": {
+        "zh": "今潮8弄",
+        "en": "Jinchao 8 Lanes",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "虹口区四川北路989弄",
+        "lat": 31.2588,
+        "lng": 121.4782,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学片区",
+        "name_en": "Hongkou Literary District",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "历史公寓",
+        "en": "Historic Residential Architecture"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90,
+          "source_text": "45—90 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "里弄、骑楼商业与半开放公共空间",
+        "summary_zh": "老弄堂并没有停止变化，它也可以进入新的城市文化生活。",
+        "story_zh": "今潮8弄将旧有里弄空间与新的文化商业功能结合起来，适合思考旧空间如何继续被使用。",
+        "timeline": [
+          {
+            "period_zh": "过去",
+            "title_zh": "里弄居住生活",
+            "text_zh": "里弄承担居民日常生活与邻里关系。"
+          },
+          {
+            "period_zh": "更新期",
+            "title_zh": "建筑修缮与功能转换",
+            "text_zh": "旧有空间被重新组织和利用。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "文化与商业进入里弄",
+            "text_zh": "新的使用者继续为旧建筑创造生活痕迹。"
+          }
+        ],
+        "then_now_zh": [
+          "居民生活为主的里弄空间",
+          "文化、商业与历史建筑并置"
+        ],
+        "voice_quote_zh": "以前这里很安静，后来慢慢有了新的店，但老房子的感觉还在。",
+        "audio_label_zh": "街区口述 · 今潮8弄的修旧与再用 / 06:01",
+        "walk_tip_zh": "留意老门窗、墙面和新店招牌之间的关系。",
+        "field_note_zh": "适合观察旧里弄的再利用与新旧空间关系。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Notice how old lane-house details coexist with new cultural and commercial functions. The site is useful for discussing adaptive reuse rather than simple preservation.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p4",
+        "p3"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "今潮8弄餐饮小店",
+          "type_zh": "餐饮",
+          "tags_zh": [
+            "弄堂",
+            "小馆",
+            "夜间"
+          ],
+          "address_zh": null,
+          "description_zh": "适合在旧里弄空间里体验新餐饮：空间尺度较小，重点看店铺如何借用老建筑的门窗、院落和公共区域。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%BB%8A%E6%BD%AE8%E5%BC%84%20%E9%A4%90%E5%8E%85",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%BB%8A%E6%BD%AE8%E5%BC%84%20%E9%A4%90%E5%8E%85",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "四川北路独立书店 / 文创",
+          "type_zh": "文艺小铺",
+          "tags_zh": [
+            "书店",
+            "文创",
+            "文学"
+          ],
+          "address_zh": null,
+          "description_zh": "适合把虹口的文学气质延伸到当代阅读与纸品。重点看选书和小物件是否有明确的城市文化主题。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%9B%9B%E5%B7%9D%E5%8C%97%E8%B7%AF%20%E7%8B%AC%E7%AB%8B%E4%B9%A6%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9B%9B%E5%B7%9D%E5%8C%97%E8%B7%AF%20%E4%B9%A6%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "虹口老字号点心店",
+          "type_zh": "传统点心",
+          "tags_zh": [
+            "糕团",
+            "点心",
+            "街坊"
+          ],
+          "address_zh": null,
+          "description_zh": "用一份传统糕团或点心结束街区漫游，适合尝试更日常、价格更亲民的上海味道。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%9B%9B%E5%B7%9D%E5%8C%97%E8%B7%AF%20%E7%82%B9%E5%BF%83",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9B%9B%E5%B7%9D%E5%8C%97%E8%B7%AF%20%E7%82%B9%E5%BF%83",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p11",
+      "name": {
+        "zh": "建业里",
+        "en": "Jianyeli",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区建国西路456弄",
+        "lat": 31.2073,
+        "lng": 121.4562,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "former_french_concession",
+        "name_zh": "衡复—永康路片区",
+        "name_en": "Former French Concession",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "石库门",
+        "en": "Shikumen"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 40,
+          "max_minutes": 80,
+          "source_text": "40—80 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "石库门里弄、连续街巷与居住空间层积",
+        "summary_zh": "从建筑尺度看居住生活：门、弄堂、天井和邻里关系共同构成空间记忆。",
+        "story_zh": "建业里适合慢慢走。与其把它当成一个老建筑景点，不如把注意力放到居民如何使用门口、弄堂和转角上。",
+        "timeline": [
+          {
+            "period_zh": "早期",
+            "title_zh": "石库门居住空间",
+            "text_zh": "住宅组织围绕家庭与邻里生活展开。"
+          },
+          {
+            "period_zh": "保护阶段",
+            "title_zh": "历史建筑价值被重新认识",
+            "text_zh": "建筑群的历史与城市文化价值受到关注。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "历史空间进入新的使用方式",
+            "text_zh": "建筑继续作为城市空间的一部分存在。"
+          }
+        ],
+        "then_now_zh": [
+          "高密度石库门居住环境",
+          "保护、更新与新功能共同存在"
+        ],
+        "voice_quote_zh": "以前最重要的是家门口，邻居之间就在弄堂里碰见。",
+        "audio_label_zh": "建业里口述 · 弄堂里的邻里关系 / 03:35",
+        "walk_tip_zh": "看一看每个门口的尺度变化，门前空间往往比建筑立面更能说明居住方式。",
+        "field_note_zh": "适合观察居住空间的历史层积。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Pay attention to doors, lanes, small courtyards and thresholds. These everyday spatial details help explain how residential life was organized in traditional Shanghai lane housing.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p2",
+        "p9"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "建业里周边咖啡馆",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "石库门",
+            "安静",
+            "下午"
+          ],
+          "address_zh": null,
+          "description_zh": "小尺度咖啡馆适合与建业里的居住建筑一起看：门窗、砖墙和室内陈设形成很自然的视觉对照。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%BB%BA%E4%B8%9A%E9%87%8C%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%BB%BA%E4%B8%9A%E9%87%8C%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "永康路买手 / 生活方式小店",
+          "type_zh": "小众商店",
+          "tags_zh": [
+            "选物",
+            "服饰",
+            "生活方式"
+          ],
+          "address_zh": null,
+          "description_zh": "适合观察上海小店的陈设方式：少量选品、独立品牌和生活杂货往往比大型商场更有个人风格。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B0%B8%E5%BA%B7%E8%B7%AF%20%E4%B9%B0%E6%89%8B%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B0%B8%E5%BA%B7%E8%B7%AF%20%E4%B9%B0%E6%89%8B%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "小陶面馆",
+          "type_zh": "面馆",
+          "tags_zh": [
+            "葱油拌面",
+            "辣肉面",
+            "街坊店"
+          ],
+          "address_zh": "嘉善路222号",
+          "description_zh": "建业里隔壁嘉善路上的街坊面馆，面条筋道、汤鲜，浇头选择很多。葱油拌面、辣肉、大排、猪肝、虾仁等都是店里的典型组合，分量扎实，价格也更接近日常社区餐饮。",
+          "highlight_zh": "推荐葱油拌面加辣肉或大排；想吃得更传统，可以点汤面配大排、素鸡等浇头。",
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%B0%8F%E9%99%B6%E9%9D%A2%E9%A6%86",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%B0%8F%E9%99%B6%E9%9D%A2%E9%A6%86%20%E5%98%89%E5%96%84%E8%B7%AF",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p12",
+      "name": {
+        "zh": "陕南邨",
+        "en": "Shannan Village",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区陕西南路151号",
+        "lat": 31.2158,
+        "lng": 121.4565,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "former_french_concession",
+        "name_zh": "衡复—永康路片区",
+        "name_en": "Former French Concession",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "历史公寓",
+        "en": "Historic Residential Architecture"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 30,
+          "max_minutes": 60,
+          "source_text": "30—60 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "法式里弄公寓与有顶盖入口廊道",
+        "summary_zh": "建筑本身是一份档案：入口、廊道与细部都在讲述上海近代居住方式。",
+        "story_zh": "陕南邨的魅力在于尺度。建筑并不靠巨大体量吸引人，而是通过入口、立面、廊道与居住关系留下城市历史。",
+        "timeline": [
+          {
+            "period_zh": "近代",
+            "title_zh": "现代公寓式居住进入上海",
+            "text_zh": "新的建筑形式与生活方式逐渐出现。"
+          },
+          {
+            "period_zh": "20世纪",
+            "title_zh": "居民生活不断叠加",
+            "text_zh": "建筑在长期使用中形成丰富的生活痕迹。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "建筑细节成为城市记忆",
+            "text_zh": "入口与公共空间仍能帮助人理解过去的生活方式。"
+          }
+        ],
+        "then_now_zh": [
+          "近代公寓式居住建筑",
+          "仍可辨认的建筑细节与当代城市生活"
+        ],
+        "voice_quote_zh": "这里以前住的人很多，楼道里总能碰见熟人。",
+        "audio_label_zh": "居民口述 · 陕南邨里的童年 / 04:20",
+        "walk_tip_zh": "抬头看入口和立面细节，再走进廊道观察公共空间如何连接不同家庭。",
+        "field_note_zh": "建筑史与日常生活结合紧密，适合建筑观察型 City Walk。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The building itself is the archive. Entrances, covered passages and façade details reveal how modern apartment living took shape in twentieth-century Shanghai.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p2",
+        "p11"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "陕西南路咖啡小店",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "法租界",
+            "街角",
+            "窗边"
+          ],
+          "address_zh": null,
+          "description_zh": "适合在法式里弄与历史公寓之间寻找小尺度咖啡空间。看点是街景、老建筑和室内陈设共同形成的氛围。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%99%95%E8%A5%BF%E5%8D%97%E8%B7%AF%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%99%95%E8%A5%BF%E5%8D%97%E8%B7%AF%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "陕南邨周边甜点 / 烘焙",
+          "type_zh": "烘焙",
+          "tags_zh": [
+            "可颂",
+            "甜点",
+            "街区"
+          ],
+          "address_zh": null,
+          "description_zh": "适合边走边吃的小份甜点，尤其适合观察老建筑街景与新消费小店如何并置。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%99%95%E5%8D%97%E9%82%A8%20%E7%83%98%E7%84%99",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%99%95%E5%8D%97%E9%82%A8%20%E7%83%98%E7%84%99",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "陕西南路古着 / 选物小店",
+          "type_zh": "小众商店",
+          "tags_zh": [
+            "古着",
+            "选物",
+            "陈设"
+          ],
+          "address_zh": null,
+          "description_zh": "小空间里常见服饰、饰品、旧物和生活杂货的组合，值得看的不是“买什么”，而是店主如何组织陈设和选品。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%99%95%E8%A5%BF%E5%8D%97%E8%B7%AF%20%E5%8F%A4%E7%9D%80",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%99%95%E8%A5%BF%E5%8D%97%E8%B7%AF%20%E5%8F%A4%E7%9D%80",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p13",
+      "name": {
+        "zh": "武康大楼",
+        "en": "Wukang Mansion",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区淮海中路1850号",
+        "lat": 31.2108,
+        "lng": 121.4472,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "former_french_concession",
+        "name_zh": "衡复—永康路片区",
+        "name_en": "Former French Concession",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "梧桐区",
+        "en": "Plane-tree Neighborhood"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 20,
+          "max_minutes": 40,
+          "source_text": "20—40 分钟"
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "船形公寓立面与五岔路口",
+        "summary_zh": "上海最著名的“船头楼”：站在淮海中路与武康路的交汇处，看老建筑如何成为一座城市的转角风景。",
+        "story_zh": "武康大楼是上海最早的外廊式公寓之一，外形如同一艘停在路口的船。今天它依然有人居住，楼下的咖啡店与拍照的游客，构成了老建筑的新日常。",
+        "timeline": [
+          {
+            "period_zh": "1924",
+            "title_zh": "外廊式公寓落成",
+            "text_zh": "现代公寓式居住在上海兴起。"
+          },
+          {
+            "period_zh": "20世纪",
+            "title_zh": "居民生活长期叠加",
+            "text_zh": "建筑在几代人使用中留下丰富的生活痕迹。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "转角成为城市地标",
+            "text_zh": "老建筑与往来人群构成新的城市风景。"
+          }
+        ],
+        "then_now_zh": [
+          "武康路口的老公寓",
+          "转角地标与往来人群"
+        ],
+        "voice_quote_zh": "我们从小就在这个路口玩，现在楼还是那栋楼，人越来越多了。",
+        "audio_label_zh": "居民口述 · 武康大楼里的老住户 / 03:30",
+        "walk_tip_zh": "绕到楼侧面看船形立面，再抬头数一数转角阳台，观察老建筑如何适应五岔路口。",
+        "field_note_zh": "上海公寓建筑的标志性案例，适合观察建筑与城市道路的关系。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Start with the ship-like corner façade and the five-way intersection. The building is a good way to explain how architecture responds to the shape of a city street.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p2",
+        "p12"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "大隐书局（武康大楼店）",
+          "type_zh": "书店",
+          "tags_zh": [
+            "阅读",
+            "纸品",
+            "武康路"
+          ],
+          "address_zh": null,
+          "description_zh": "武康大楼底层的书店，选书与纸品都围绕上海城市文化展开，适合作为街区漫游的安静停顿。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%A7%E9%9A%90%E4%B9%A6%E5%B1%80%20%E6%AD%A6%E5%BA%B7%E5%A4%A7%E6%A5%BC",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%A7%E9%9A%90%E4%B9%A6%E5%B1%80%20%E6%AD%A6%E5%BA%B7",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "老麦咖啡馆（武康路）",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "旧物陈设",
+            "手冲",
+            "街角"
+          ],
+          "address_zh": null,
+          "description_zh": "老物件堆出来的小空间，咖啡与旧家具共同构成很上海的怀旧氛围。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%80%81%E9%BA%A6%E5%92%96%E5%95%A1%E9%A6%86",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E8%80%81%E9%BA%A6%E5%92%96%E5%95%A1%E9%A6%86%20%E6%AD%A6%E5%BA%B7%E8%B7%AF",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "武康路选物小店",
+          "type_zh": "小众商店",
+          "tags_zh": [
+            "选物",
+            "设计",
+            "服饰"
+          ],
+          "address_zh": null,
+          "description_zh": "梧桐区的独立小店，选品不多但有个性，适合观察小尺度商业如何组织陈设。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%AD%A6%E5%BA%B7%E8%B7%AF%20%E4%B9%B0%E6%89%8B%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%AD%A6%E5%BA%B7%E8%B7%AF%20%E6%8E%A2%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p14",
+      "name": {
+        "zh": "外滩·陈毅广场",
+        "en": "The Bund · Chen Yi Square",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区中山东一路",
+        "lat": 31.2365,
+        "lng": 121.4915,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "old_city_bund",
+        "name_zh": "老城厢—外滩",
+        "name_en": "Old City & Bund",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "滨水空间",
+        "en": "Waterfront"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 30,
+          "max_minutes": 60,
+          "source_text": "30—60 分钟"
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "万国建筑群与黄浦江之间的滨水步道",
+        "summary_zh": "站在上海的城市正面：一边是万国建筑，一边是黄浦江，历史与天际线同时展开。",
+        "story_zh": "外滩是理解上海最直接的切口。近代建筑群记录城市开放的历史，对岸的陆家嘴则是城市今天的另一张脸。",
+        "timeline": [
+          {
+            "period_zh": "近代",
+            "title_zh": "金融建筑群形成",
+            "text_zh": "外滩成为上海近代城市形象的集中展示。"
+          },
+          {
+            "period_zh": "20世纪",
+            "title_zh": "滨水空间持续更新",
+            "text_zh": "防汛墙、步道与公共空间逐步形成。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "城市客厅",
+            "text_zh": "万国建筑与对岸天际线同框，成为城市最繁忙的公共空间之一。"
+          }
+        ],
+        "then_now_zh": [
+          "近代建筑群与码头",
+          "滨水步道与对岸天际线"
+        ],
+        "voice_quote_zh": "小时候来外滩要坐摆渡船，现在站在这里看对岸，像看一部电影。",
+        "audio_label_zh": "外滩口述 · 从十六铺到陈毅广场 / 04:00",
+        "walk_tip_zh": "沿防汛墙走一段，比较不同时期建筑的立面节奏，再看江上往来的船只。",
+        "field_note_zh": "城市形象最集中的一面，适合观察历史天际线与现代天际线的对话。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Use the Bund as a visual comparison point: historic waterfront architecture on one side, the river in the middle, and Pudong's modern skyline across the water.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p8",
+        "p1"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "和平饭店",
+          "type_zh": "历史建筑",
+          "tags_zh": [
+            "外滩",
+            "老饭店",
+            "爵士"
+          ],
+          "address_zh": null,
+          "description_zh": "外滩地标建筑之一，即使不入住，也值得看看门廊与大厅的老上海气场。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%92%8C%E5%B9%B3%E9%A5%AD%E5%BA%97%20%E4%B8%8A%E6%B5%B7",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "外滩源·圆明园路咖啡",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "历史街区",
+            "江景",
+            "下午"
+          ],
+          "address_zh": null,
+          "description_zh": "外滩背后安静的历史街区，咖啡店与老建筑比南京东路更从容。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%96%E6%BB%A9%E6%BA%90%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%96%E6%BB%A9%E6%BA%90%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "南京东路老字号点心",
+          "type_zh": "传统点心",
+          "tags_zh": [
+            "沈大成",
+            "糕团",
+            "伴手礼"
+          ],
+          "address_zh": null,
+          "description_zh": "走完外滩顺路带一份条头糕、双酿团，把老字号的味道装进袋子。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B2%88%E5%A4%A7%E6%88%90",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B2%88%E5%A4%A7%E6%88%90%20%E7%B3%95%E5%9B%A2",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p15",
+      "name": {
+        "zh": "豫园·城隍庙",
+        "en": "Yu Garden · City God Temple",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区方浜中路",
+        "lat": 31.227,
+        "lng": 121.4925,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "old_city_bund",
+        "name_zh": "老城厢—外滩",
+        "name_en": "Old City & Bund",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "老城厢",
+        "en": "Old City"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 60,
+          "max_minutes": 120,
+          "source_text": "60—120 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "江南园林、九曲桥与老城厢市集",
+        "summary_zh": "园林、庙宇与市集叠在同一片老城厢里：上海“城”的原点，至今仍然热闹。",
+        "story_zh": "豫园一带是上海老城厢的核心。四百多年的园林与香火不断的城隍庙，被小吃街、九曲桥和无数游客包围，传统生活以另一种方式延续。",
+        "timeline": [
+          {
+            "period_zh": "明代",
+            "title_zh": "豫园建成",
+            "text_zh": "私家园林成为老城厢的文化地标。"
+          },
+          {
+            "period_zh": "近代",
+            "title_zh": "城隍庙市集兴旺",
+            "text_zh": "庙会、小吃与商贸在老城厢聚集。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "城市文化地标",
+            "text_zh": "园林与市集成为上海城市记忆的重要现场。"
+          }
+        ],
+        "then_now_zh": [
+          "私家园林与庙会市集",
+          "热门景区与老城厢记忆"
+        ],
+        "voice_quote_zh": "我外婆说，她小时候来城隍庙看灯会，是过年最重要的事。",
+        "audio_label_zh": "老城厢口述 · 城隍庙灯会记忆 / 03:40",
+        "walk_tip_zh": "从方浜中路走进去，先看豫园围墙与飞檐，再比较园内安静与园外市集的对比。",
+        "field_note_zh": "上海城市起点之一，适合观察“园林—庙宇—市集”的空间叠加。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Explain this as a layered urban space rather than one attraction: garden, temple, market and food culture overlap in the historical core of the city.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p1",
+        "p14"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "南翔馒头店",
+          "type_zh": "小笼",
+          "tags_zh": [
+            "小笼包",
+            "老字号",
+            "九曲桥"
+          ],
+          "address_zh": null,
+          "description_zh": "豫园九曲桥边最有名的小笼，排队也要吃一笼，蟹粉小笼是招牌。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%8D%97%E7%BF%94%E9%A6%92%E5%A4%B4%E5%BA%97",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%8D%97%E7%BF%94%E9%A6%92%E5%A4%B4%E5%BA%97",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "湖心亭茶楼",
+          "type_zh": "茶馆",
+          "tags_zh": [
+            "九曲桥",
+            "老茶楼",
+            "湖景"
+          ],
+          "address_zh": null,
+          "description_zh": "坐在九曲桥中的湖心亭喝茶，窗外就是豫园的湖与飞檐，是景区里最老派的停留。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B9%96%E5%BF%83%E4%BA%AD%E8%8C%B6%E6%A5%BC",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B9%96%E5%BF%83%E4%BA%AD%E8%8C%B6%E6%A5%BC",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "城隍庙小吃广场",
+          "type_zh": "传统饮食",
+          "tags_zh": [
+            "小吃",
+            "市集",
+            "庙会"
+          ],
+          "address_zh": null,
+          "description_zh": "把上海小吃拆开来吃：小笼、生煎、糖藕、海棠糕，一次吃明白老城厢的街头味道。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%9F%8E%E9%9A%8D%E5%BA%99%20%E5%B0%8F%E5%90%83",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%9F%8E%E9%9A%8D%E5%BA%99%20%E5%B0%8F%E5%90%83",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p16",
+      "name": {
+        "zh": "鲁迅公园",
+        "en": "Lu Xun Park",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "虹口区四川北路2288号",
+        "lat": 31.2712,
+        "lng": 121.4844,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学片区",
+        "name_en": "Hongkou Literary District",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "文学街区",
+        "en": "Literary District"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90,
+          "source_text": "45—90 分钟"
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "公园湖面、草坪与市民日常活动",
+        "summary_zh": "上海的公园就是城市的客厅：下棋、唱歌、跳舞、遛鸟，普通人的日常比景点更耐看。",
+        "story_zh": "鲁迅公园曾是虹口公园，鲁迅墓就坐落在园内。比起纪念性，这里更动人的是每天来公园的人：晨练的队伍、合唱团和长椅上的老人。",
+        "timeline": [
+          {
+            "period_zh": "近代",
+            "title_zh": "公园开放",
+            "text_zh": "虹口一带形成重要的城市绿地。"
+          },
+          {
+            "period_zh": "1956",
+            "title_zh": "鲁迅墓迁入",
+            "text_zh": "公园与文学记忆结合。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "市民文化空间",
+            "text_zh": "晨练、合唱与日常休闲构成公园生活。"
+          }
+        ],
+        "then_now_zh": [
+          "公园绿地与纪念空间",
+          "市民日常与公共生活"
+        ],
+        "voice_quote_zh": "我们合唱团在公园唱了十几年了，一早就来，比上班还准时。",
+        "audio_label_zh": "公园口述 · 合唱团的早晨 / 03:15",
+        "walk_tip_zh": "早上去看合唱与晨练，观察公园里自发形成的活动分区。",
+        "field_note_zh": "观察上海市民公共生活的最佳样本之一。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The most revealing part may be ordinary public life rather than the monument itself: morning exercise, singing, chess, walking and social activity show how Shanghai residents use parks.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p4",
+        "p10"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "万寿斋（山阴路）",
+          "type_zh": "小笼",
+          "tags_zh": [
+            "小笼",
+            "街坊老店",
+            "虹口"
+          ],
+          "address_zh": null,
+          "description_zh": "山阴路上的街坊老店，小笼与三鲜馄饨都是虹口人吃了许多年的味道。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E4%B8%87%E5%AF%BF%E6%96%8B",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E4%B8%87%E5%AF%BF%E6%96%8B%20%E5%B1%B1%E9%98%B4%E8%B7%AF",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "甜爱路咖啡小店",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "甜爱路",
+            "安静",
+            "窗边"
+          ],
+          "address_zh": null,
+          "description_zh": "公园出来拐进甜爱路，找一家小咖啡馆坐下，看梧桐与红墙。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E7%94%9C%E7%88%B1%E8%B7%AF%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E7%94%9C%E7%88%B1%E8%B7%AF%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "多伦路文化名人街",
+          "type_zh": "文化街区",
+          "tags_zh": [
+            "多伦路",
+            "老建筑",
+            "文学"
+          ],
+          "address_zh": null,
+          "description_zh": "一条安静的文化街，老洋房与书店、茶室交替，适合慢慢逛。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%A4%9A%E4%BC%A6%E8%B7%AF",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%9A%E4%BC%A6%E8%B7%AF%20%E6%96%87%E5%8C%96%E5%90%8D%E4%BA%BA%E8%A1%97",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p17",
+      "name": {
+        "zh": "海事塔（西岸）",
+        "en": "Maritime Tower (West Bund)",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道",
+        "lat": 31.1778,
+        "lng": 121.4605,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "西岸滨江",
+        "name_en": "West Bund",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "工业遗存",
+        "en": "Industrial Heritage"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 30,
+          "max_minutes": 60,
+          "source_text": "30—60 分钟"
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "滨江高塔与开阔江岸",
+        "summary_zh": "滨江岸线上的一座工业记忆坐标：从航运设施到公共地标，塔下的江风没变。",
+        "story_zh": "海事塔曾是黄浦江航运体系的一部分。西岸更新后，它成为滨江步道上的标志，与美术馆、码头遗址一起讲述水岸工业的历史。",
+        "timeline": [
+          {
+            "period_zh": "航运时期",
+            "title_zh": "管理黄浦江航运",
+            "text_zh": "塔体服务于港口与航道功能。"
+          },
+          {
+            "period_zh": "更新期",
+            "title_zh": "滨江公共空间改造",
+            "text_zh": "工业岸线逐步开放为公共空间。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "滨江地标",
+            "text_zh": "高塔成为西岸步道上的视觉坐标。"
+          }
+        ],
+        "then_now_zh": [
+          "航运管理与码头功能",
+          "滨江公共步道与地标"
+        ],
+        "voice_quote_zh": "以前江边都是厂，现在塔还在，下面跑步的人多了。",
+        "audio_label_zh": "滨江口述 · 海事塔与西岸变迁 / 03:05",
+        "walk_tip_zh": "沿步道从龙美术馆走向海事塔，观察旧设施如何被保留为景观。",
+        "field_note_zh": "与龙美术馆构成西岸工业遗存漫游带。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Treat the tower as a marker of the waterfront's industrial past. The contrast between retained infrastructure and today's public promenade is the main story.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p5",
+        "p6"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "西岸营地咖啡",
+          "type_zh": "咖啡 / 轻食",
+          "tags_zh": [
+            "滨江",
+            "户外",
+            "骑行补给"
+          ],
+          "address_zh": null,
+          "description_zh": "滨江骑行与散步的中途补给点，江边坐着喝一杯最合适。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%A5%BF%E5%B2%B8%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E8%A5%BF%E5%B2%B8%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "油罐艺术中心",
+          "type_zh": "艺术空间",
+          "tags_zh": [
+            "油罐",
+            "当代艺术",
+            "草坪"
+          ],
+          "address_zh": null,
+          "description_zh": "旧油罐改造的艺术空间，建筑本身就是西岸最出片的装置。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%B2%B9%E7%BD%90%E8%89%BA%E6%9C%AF%E4%B8%AD%E5%BF%83",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%B2%B9%E7%BD%90%E8%89%BA%E6%9C%AF%E4%B8%AD%E5%BF%83",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "西岸滨江滑板公园",
+          "type_zh": "公共空间",
+          "tags_zh": [
+            "滑板",
+            "江景",
+            "运动"
+          ],
+          "address_zh": null,
+          "description_zh": "看年轻人玩滑板的好地方，滨江公共生活的活力样本。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E8%A5%BF%E5%B2%B8%20%E6%BB%91%E6%9D%BF",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E8%A5%BF%E5%B2%B8%20%E6%BB%91%E6%9D%BF%E5%85%AC%E5%9B%AD",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p18",
+      "name": {
+        "zh": "中山公园",
+        "en": "Zhongshan Park",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "长宁区长宁路780号",
+        "lat": 31.2198,
+        "lng": 121.4139,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "zhongshan_dingxi",
+        "name_zh": "中山公园—定西路",
+        "name_en": "Zhongshan Park & Dingxi Road",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "梧桐区",
+        "en": "Plane-tree Neighborhood"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 60,
+          "max_minutes": 120,
+          "source_text": "60—120 分钟"
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "百年公园、大草坪与林荫大道",
+        "summary_zh": "百年老公园的日常：草坪、梧桐和长椅，长宁人慢生活的中心。",
+        "story_zh": "中山公园前身是兆丰公园，是上海历史最久的公园之一。今天它被商圈与地铁包围，却仍然保持着大草坪和林荫道的从容。",
+        "timeline": [
+          {
+            "period_zh": "1914",
+            "title_zh": "兆丰公园开放",
+            "text_zh": "近代公共园林在上海出现。"
+          },
+          {
+            "period_zh": "20世纪",
+            "title_zh": "城市公园日常",
+            "text_zh": "草坪、林荫道与市民活动逐渐定型。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "商圈中的绿地",
+            "text_zh": "公园继续为周边居民提供慢生活空间。"
+          }
+        ],
+        "then_now_zh": [
+          "兆丰公园与林荫道",
+          "商圈环抱中的公共绿地"
+        ],
+        "voice_quote_zh": "下班路过就进来坐一会儿，草坪上一躺，一天就慢下来了。",
+        "audio_label_zh": "公园口述 · 长宁人的中山公园 / 03:20",
+        "walk_tip_zh": "从1号门走进林荫大道，观察公园与周边商业街区的关系。",
+        "field_note_zh": "适合与定西路市井生活连成一条“公园+菜场”的日常线。"
+      },
+      "culture_bridge": {
+        "explanation_en": "This park is useful for understanding everyday urban leisure. The important contrast is between a historic green space and the dense commercial district that now surrounds it.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p3",
+        "p2"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "愚园路咖啡街区",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "愚园路",
+            "梧桐",
+            "小铺"
+          ],
+          "address_zh": null,
+          "description_zh": "公园西门外的愚园路聚集了许多小而美的咖啡馆与面包房。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%84%9A%E5%9B%AD%E8%B7%AF%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%84%9A%E5%9B%AD%E8%B7%AF%20%E5%92%96%E5%95%A1",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "定西路本帮小馆",
+          "type_zh": "本帮菜",
+          "tags_zh": [
+            "家常",
+            "街坊",
+            "实惠"
+          ],
+          "address_zh": null,
+          "description_zh": "逛完菜场挑一家街坊小馆吃饭，浓油赤酱最是长宁人的日常。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%AE%9A%E8%A5%BF%E8%B7%AF%20%E6%9C%AC%E5%B8%AE%E8%8F%9C",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%AE%9A%E8%A5%BF%E8%B7%AF%20%E6%9C%AC%E5%B8%AE%E8%8F%9C",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "长宁来福士市集",
+          "type_zh": "市集",
+          "tags_zh": [
+            "周末市集",
+            "商场",
+            "亲子"
+          ],
+          "address_zh": null,
+          "description_zh": "公园旁商场的周末市集，适合顺手逛逛手工与餐饮小摊。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E9%95%BF%E5%AE%81%E6%9D%A5%E7%A6%8F%E5%A3%AB%20%E5%B8%82%E9%9B%86",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E9%95%BF%E5%AE%81%E6%9D%A5%E7%A6%8F%E5%A3%AB%20%E5%B8%82%E9%9B%86",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    },
+    {
+      "id": "p19",
+      "name": {
+        "zh": "前滩太古里",
+        "en": "Qiantan Taikoo Li",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "浦东新区东育路500号",
+        "lat": 31.1585,
+        "lng": 121.4817,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "qiantan",
+        "name_zh": "前滩片区",
+        "name_en": "Qiantan",
+        "assignment_basis": "MVP geographic grouping inferred from current POI coordinates"
+      },
+      "category": {
+        "zh": "现代商圈",
+        "en": "Modern Commercial District"
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 60,
+          "max_minutes": 120,
+          "source_text": "60—120 分钟"
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "best_time": null,
+        "cost_level": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null,
+        "realtime_fields_required": [
+          "opening_hours",
+          "temporary_closure",
+          "weather",
+          "transit_status"
+        ]
+      },
+      "content": {
+        "space_zh": "开放式街区商业与立体绿轴",
+        "summary_zh": "新一代开放式街区商业：把商场拆成街巷，把购物变成散步。",
+        "story_zh": "前滩太古里把商业空间做成了“里”和“巷”：屋顶绿轴、露天阶梯与开放广场，让人不知不觉走完一整天。它与友城公园相邻，商业与公共绿地在此连成一体。",
+        "timeline": [
+          {
+            "period_zh": "规划期",
+            "title_zh": "前滩整体开发",
+            "text_zh": "滨江地块进入新一轮城市建设。"
+          },
+          {
+            "period_zh": "2021",
+            "title_zh": "街区商业落成",
+            "text_zh": "开放街区商业成为前滩新地标。"
+          },
+          {
+            "period_zh": "今天",
+            "title_zh": "新城市生活样本",
+            "text_zh": "商业、绿地与滨江步道构成连续公共空间。"
+          }
+        ],
+        "then_now_zh": [
+          "开发中的前滩地块",
+          "开放街区与公共生活"
+        ],
+        "voice_quote_zh": "以前这片什么都没有，现在周末全上海的人都往这边跑。",
+        "audio_label_zh": "城市观察 · 前滩街区使用记录 / 02:45",
+        "walk_tip_zh": "走上屋顶绿轴环顾前滩，再沿步道走到友城公园，体会“商业—公园—滨江”的连续步行体验。",
+        "field_note_zh": "与友城公园、滨江步道构成前滩公共空间样本。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Instead of viewing it only as a mall, examine how retail, rooftop greenery, open stairs and public circulation are designed to make shopping behave more like an urban walk.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "related_poi_ids": [
+        "p6",
+        "p8"
+      ],
+      "nearby_picks": [
+        {
+          "name_zh": "前滩太古里餐饮街区",
+          "type_zh": "餐饮",
+          "tags_zh": [
+            "新式餐饮",
+            "街区",
+            "聚餐"
+          ],
+          "address_zh": null,
+          "description_zh": "开放街区里的餐饮密度很高，从咖啡到正餐选择丰富。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%89%8D%E6%BB%A9%E5%A4%AA%E5%8F%A4%E9%87%8C%20%E9%A4%90%E5%8E%85",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%89%8D%E6%BB%A9%E5%A4%AA%E5%8F%A4%E9%87%8C%20%E7%BE%8E%E9%A3%9F",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "晶耀前滩",
+          "type_zh": "生活方式",
+          "tags_zh": [
+            "亲子",
+            "运动",
+            "商场"
+          ],
+          "address_zh": null,
+          "description_zh": "太古里隔壁的社区型商场，运动与亲子内容更日常。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E6%99%B6%E8%80%80%E5%89%8D%E6%BB%A9",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E6%99%B6%E8%80%80%E5%89%8D%E6%BB%A9",
+          "verification_status": "project-curated; current opening status not verified"
+        },
+        {
+          "name_zh": "友城公园咖啡车",
+          "type_zh": "咖啡",
+          "tags_zh": [
+            "公园",
+            "户外",
+            "咖啡车"
+          ],
+          "address_zh": null,
+          "description_zh": "公园草坪边的咖啡车，买一杯坐在江边看日落。",
+          "highlight_zh": null,
+          "dianping_url": "https://www.dianping.com/search/keyword/1/0_%E5%89%8D%E6%BB%A9%E5%8F%8B%E5%9F%8E%E5%85%AC%E5%9B%AD%20%E5%92%96%E5%95%A1",
+          "xiaohongshu_url": "https://www.xiaohongshu.com/search_result?keyword=%E5%89%8D%E6%BB%A9%E5%8F%8B%E5%9F%8E%E5%85%AC%E5%9B%AD",
+          "verification_status": "project-curated; current opening status not verified"
+        }
+      ],
+      "source": {
+        "origin": "ShanghaiTrace_PointExplore_latest.html",
+        "stable_content_from_existing_project": true,
+        "dynamic_information_verified": false
+      }
+    }
+  ]
+}

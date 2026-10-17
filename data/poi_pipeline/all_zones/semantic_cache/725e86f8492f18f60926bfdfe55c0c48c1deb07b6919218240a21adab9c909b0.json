@@ -1,0 +1,17 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+  "semantic": null,
+  "output": null,
+  "attempts": [
+    {
+      "status": "validation_failure",
+      "kind": "unsupported_tag_evidence_or_over_generation",
+      "feedback": "industrial_heritage unsupported by cited evidence; remove or cite explicit matching description; quiet_walk unsupported by cited evidence; remove or cite explicit matching description; industrial_transformation unsupported by cited evidence; remove or cite explicit matching description"
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "725e86f8492f18f60926bfdfe55c0c48c1deb07b6919218240a21adab9c909b0",
+  "node_identity": "amap:B00155ILI8",
+  "evidence_hash": "8ed049018067721ffa97c65174c92b3ea1551c66d2ad6f54c5f4e8019398c383"
+}

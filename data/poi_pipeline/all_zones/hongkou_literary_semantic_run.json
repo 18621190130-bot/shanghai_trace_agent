@@ -1,0 +1,926 @@
+[
+  {
+    "candidate_id": "hongkou_literary_085cab001e5e5f1e",
+    "node_identity": "amap:B00152B056",
+    "semantic": {
+      "category": "park",
+      "interest_tags": [
+        "parks",
+        "gardens",
+        "history"
+      ],
+      "experience_tags": [
+        "neighborhood_walk",
+        "local_atmosphere"
+      ],
+      "culture_tags": [
+        "garden_culture",
+        "political_history"
+      ],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "parks",
+          "evidence_refs": [
+            "e_0fbaab58f481",
+            "e_219472db2c56",
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "gardens",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "history",
+          "evidence_refs": [
+            "e_ddfd52b10518"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "neighborhood_walk",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "local_atmosphere",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "garden_culture",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "political_history",
+          "evidence_refs": [
+            "e_ddfd52b10518"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_0fbaab58f481",
+        "e_219472db2c56",
+        "e_7557349cc0d4"
+      ],
+      "route_role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示为社区公园，含七大景区与纪念馆，具备独立休闲与红色文化体验价值，但作为路线主题承载力的证据有限，故定为支撑性停留点。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据未显示足以独立承载路线主题的高目的地价值，故不宜作锚点。",
+          "supporting_stop": "有公园景观与纪念馆等独立体验，可补充更强节点，符合支撑性停留点。",
+          "transition_stop": "虽可作连接性停留，但其景区与纪念馆内容超出短暂过渡的定位。"
+        }
+      },
+      "citywalk_value": {
+        "level": "medium",
+        "reason": "作为社区公园兼具园林景观与红色文化教育功能，适合步行途中停留体验。",
+        "evidence_refs": [
+          "e_e387e2784fa0",
+          "e_ddfd52b10518"
+        ]
+      },
+      "summary_draft": {
+        "text": "四川北路公园建成于2002年9月,是虹口区四星级的社区公园",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      "culture_bridge_draft": {
+        "text": "四川北路公园也是虹口区革命历史文化教育及红色旅游基地",
+        "evidence_refs": [
+          "e_ddfd52b10518"
+        ]
+      },
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 10,
+          "standard": 25,
+          "deep": 45
+        },
+        "full_visit": {
+          "quick": 20,
+          "standard": 45,
+          "deep": 90
+        },
+        "time_basis": "product_planning_estimate",
+        "scope": "公园内主要景区及纪念馆前广场的步行游览"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "当前开放时间",
+        "门票信息",
+        "纪念馆预约要求",
+        "公园现状是否与2011年改造后一致"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": {
+          "text": "四川北路公园建成于2002年9月",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": [],
+      "coordinates": [
+        31.254871,
+        121.484802
+      ],
+      "coordinate_system": "GCJ-02",
+      "verification": {
+        "status": "human_review_required",
+        "facts": "extractive_evidence_only",
+        "semantics": "interpretation_requires_review",
+        "production_imported": false
+      },
+      "rejected_tag_proposals": []
+    },
+    "output": {
+      "category": "park",
+      "interest_tags": [
+        "parks",
+        "gardens",
+        "history"
+      ],
+      "experience_tags": [
+        "neighborhood_walk",
+        "local_atmosphere"
+      ],
+      "culture_tags": [
+        "garden_culture",
+        "political_history"
+      ],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "parks",
+          "evidence_refs": [
+            "e_0fbaab58f481",
+            "e_219472db2c56",
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "gardens",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "history",
+          "evidence_refs": [
+            "e_ddfd52b10518"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "neighborhood_walk",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "local_atmosphere",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "garden_culture",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "political_history",
+          "evidence_refs": [
+            "e_ddfd52b10518"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_0fbaab58f481",
+        "e_219472db2c56",
+        "e_7557349cc0d4"
+      ],
+      "route_role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示为社区公园，含七大景区与纪念馆，具备独立休闲与红色文化体验价值，但作为路线主题承载力的证据有限，故定为支撑性停留点。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据未显示足以独立承载路线主题的高目的地价值，故不宜作锚点。",
+          "supporting_stop": "有公园景观与纪念馆等独立体验，可补充更强节点，符合支撑性停留点。",
+          "transition_stop": "虽可作连接性停留，但其景区与纪念馆内容超出短暂过渡的定位。"
+        }
+      },
+      "citywalk_value": {
+        "level": "medium",
+        "reason": "作为社区公园兼具园林景观与红色文化教育功能，适合步行途中停留体验。",
+        "evidence_refs": [
+          "e_e387e2784fa0",
+          "e_ddfd52b10518"
+        ]
+      },
+      "summary_draft": {
+        "text": "四川北路公园建成于2002年9月,是虹口区四星级的社区公园",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      "culture_bridge_draft": {
+        "text": "四川北路公园也是虹口区革命历史文化教育及红色旅游基地",
+        "evidence_refs": [
+          "e_ddfd52b10518"
+        ]
+      },
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 10,
+          "standard": 25,
+          "deep": 45
+        },
+        "full_visit": {
+          "quick": 20,
+          "standard": 45,
+          "deep": 90
+        },
+        "time_basis": "product_planning_estimate",
+        "scope": "公园内主要景区及纪念馆前广场的步行游览"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "当前开放时间",
+        "门票信息",
+        "纪念馆预约要求",
+        "公园现状是否与2011年改造后一致"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": {
+          "text": "四川北路公园建成于2002年9月",
+          "evidence_refs": [
+            "e_e387e2784fa0"
+          ]
+        },
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": []
+    },
+    "attempts": [
+      {
+        "status": "success",
+        "provider": {
+          "model": "deepseek-flash",
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 5236,
+            "completion_tokens": 880,
+            "total_tokens": 6116,
+            "prompt_tokens_details": {
+              "cached_tokens": 640
+            },
+            "prompt_cache_hit_tokens": 640,
+            "prompt_cache_miss_tokens": 4596
+          }
+        }
+      }
+    ],
+    "cache_hit": true,
+    "api_calls_this_run": 0,
+    "request_hash": "9b08811c001aca1f7487cf1f4eb14856ea895b47aa8f64c69efa9b126a71ea1a",
+    "evidence_hash": "b986d50c4eadf5652459171a5626de0c4ae2b228926442e7709cf3213f0971bd",
+    "retry_reason": "evidence_materially_improved"
+  },
+  {
+    "candidate_id": "hongkou_literary_0f40c36884fb10bc",
+    "node_identity": "amap:B00155FLFD",
+    "semantic": {
+      "category": "public_space",
+      "interest_tags": [
+        "literature",
+        "modern_china_history"
+      ],
+      "experience_tags": [
+        "neighborhood_walk",
+        "street_scene"
+      ],
+      "culture_tags": [
+        "literary_shanghai",
+        "political_history"
+      ],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "literature",
+          "evidence_refs": [
+            "e_82f101cc1552",
+            "e_a45fc111b461"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "modern_china_history",
+          "evidence_refs": [
+            "e_a45fc111b461"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "neighborhood_walk",
+          "evidence_refs": [
+            "e_518c52d2099e",
+            "e_a45fc111b461"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "street_scene",
+          "evidence_refs": [
+            "e_2208da7549ce",
+            "e_e4e2785d3eee"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "literary_shanghai",
+          "evidence_refs": [
+            "e_82f101cc1552",
+            "e_a45fc111b461"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "political_history",
+          "evidence_refs": [
+            "e_a45fc111b461"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_2208da7549ce",
+        "e_e4e2785d3eee",
+        "e_80d561b798c6"
+      ],
+      "route_role": {
+        "primary": "anchor",
+        "eligible": [
+          "anchor",
+          "supporting_stop"
+        ],
+        "confidence": "medium",
+        "reason": "政府来源证据显示该街区聚集多处名人旧居与红色展馆，具备独立成线的主题价值，可承载文学与近代史主题。",
+        "independent_destination_value": "high",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据表明街区本身即为目的地，含多处遗迹遗址与纪念馆，可独立承载主题。",
+          "supporting_stop": "若路线主题为其他方向，此处可作为补充文学与近代史体验的独立节点。",
+          "transition_stop": "不适用：证据显示其内容丰富，非短暂连接性停留。"
+        }
+      },
+      "citywalk_value": {
+        "level": "high",
+        "reason": "政府来源证据显示街区聚集鲁迅、郭沫若、茅盾旧居及左联会址等，文学与近代史体验密度高，适合作为城市漫步核心节点。",
+        "evidence_refs": [
+          "e_82f101cc1552",
+          "e_a45fc111b461"
+        ]
+      },
+      "summary_draft": {
+        "text": "多伦路文化名人街",
+        "evidence_refs": [
+          "e_80d561b798c6"
+        ]
+      },
+      "culture_bridge_draft": {
+        "text": "多伦路街区的红色记忆",
+        "evidence_refs": [
+          "e_518c52d2099e"
+        ]
+      },
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 20,
+          "standard": 45,
+          "deep": 90
+        },
+        "full_visit": {
+          "quick": 45,
+          "standard": 90,
+          "deep": 150
+        },
+        "time_basis": "product_planning_estimate",
+        "scope": "沿多伦路步行街及两侧名人旧居、纪念馆等可步行到达范围"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "开放时间",
+        "门票信息",
+        "预约要求",
+        "具体场馆当前运营状态"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": null,
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": [],
+      "coordinates": [
+        31.264124,
+        121.481748
+      ],
+      "coordinate_system": "GCJ-02",
+      "verification": {
+        "status": "human_review_required",
+        "facts": "extractive_evidence_only",
+        "semantics": "interpretation_requires_review",
+        "production_imported": false
+      },
+      "rejected_tag_proposals": []
+    },
+    "output": {
+      "category": "public_space",
+      "interest_tags": [
+        "literature",
+        "modern_china_history"
+      ],
+      "experience_tags": [
+        "neighborhood_walk",
+        "street_scene"
+      ],
+      "culture_tags": [
+        "literary_shanghai",
+        "political_history"
+      ],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "literature",
+          "evidence_refs": [
+            "e_82f101cc1552",
+            "e_a45fc111b461"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "modern_china_history",
+          "evidence_refs": [
+            "e_a45fc111b461"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "neighborhood_walk",
+          "evidence_refs": [
+            "e_518c52d2099e",
+            "e_a45fc111b461"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "street_scene",
+          "evidence_refs": [
+            "e_2208da7549ce",
+            "e_e4e2785d3eee"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "literary_shanghai",
+          "evidence_refs": [
+            "e_82f101cc1552",
+            "e_a45fc111b461"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "political_history",
+          "evidence_refs": [
+            "e_a45fc111b461"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_2208da7549ce",
+        "e_e4e2785d3eee",
+        "e_80d561b798c6"
+      ],
+      "route_role": {
+        "primary": "anchor",
+        "eligible": [
+          "anchor",
+          "supporting_stop"
+        ],
+        "confidence": "medium",
+        "reason": "政府来源证据显示该街区聚集多处名人旧居与红色展馆，具备独立成线的主题价值，可承载文学与近代史主题。",
+        "independent_destination_value": "high",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据表明街区本身即为目的地，含多处遗迹遗址与纪念馆，可独立承载主题。",
+          "supporting_stop": "若路线主题为其他方向，此处可作为补充文学与近代史体验的独立节点。",
+          "transition_stop": "不适用：证据显示其内容丰富，非短暂连接性停留。"
+        }
+      },
+      "citywalk_value": {
+        "level": "high",
+        "reason": "政府来源证据显示街区聚集鲁迅、郭沫若、茅盾旧居及左联会址等，文学与近代史体验密度高，适合作为城市漫步核心节点。",
+        "evidence_refs": [
+          "e_82f101cc1552",
+          "e_a45fc111b461"
+        ]
+      },
+      "summary_draft": {
+        "text": "多伦路文化名人街",
+        "evidence_refs": [
+          "e_80d561b798c6"
+        ]
+      },
+      "culture_bridge_draft": {
+        "text": "多伦路街区的红色记忆",
+        "evidence_refs": [
+          "e_518c52d2099e"
+        ]
+      },
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 20,
+          "standard": 45,
+          "deep": 90
+        },
+        "full_visit": {
+          "quick": 45,
+          "standard": 90,
+          "deep": 150
+        },
+        "time_basis": "product_planning_estimate",
+        "scope": "沿多伦路步行街及两侧名人旧居、纪念馆等可步行到达范围"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "开放时间",
+        "门票信息",
+        "预约要求",
+        "具体场馆当前运营状态"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": null,
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": []
+    },
+    "attempts": [
+      {
+        "status": "success",
+        "provider": {
+          "model": "deepseek-flash",
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 5069,
+            "completion_tokens": 895,
+            "total_tokens": 5964,
+            "prompt_tokens_details": {
+              "cached_tokens": 640
+            },
+            "prompt_cache_hit_tokens": 640,
+            "prompt_cache_miss_tokens": 4429
+          }
+        }
+      }
+    ],
+    "cache_hit": true,
+    "api_calls_this_run": 0,
+    "request_hash": "363850f20dc9203b09633c97ba965241d4ff3b8af17f29b1310af0b9b91317c6",
+    "evidence_hash": "0963ba564af8393b1f03361becc45d213251f103be5ea988020f81759e6ed69d",
+    "retry_reason": null
+  },
+  {
+    "candidate_id": "hongkou_literary_d459b1fbdf9d157b",
+    "node_identity": "amap:B00155P1VL",
+    "semantic": {
+      "category": "public_space",
+      "interest_tags": [
+        "parks",
+        "shopping_lifestyle"
+      ],
+      "experience_tags": [
+        "street_scene",
+        "quiet_walk"
+      ],
+      "culture_tags": [
+        "lane_life"
+      ],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "parks",
+          "evidence_refs": [
+            "e_099089932a13"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "shopping_lifestyle",
+          "evidence_refs": [
+            "e_099089932a13"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "street_scene",
+          "evidence_refs": [
+            "e_c0b5ad987933",
+            "e_5d3f5077c1bb"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "quiet_walk",
+          "evidence_refs": [
+            "e_388c19fb95e8"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "lane_life",
+          "evidence_refs": [
+            "e_388c19fb95e8"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_5d3f5077c1bb",
+        "e_340509e2bc25"
+      ],
+      "route_role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示甜爱路是有情调的私密空间与爱情主题街道，具备独立漫步体验，但中段仅三四百米，更适合作补充性停留。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据未显示足以独立承载路线主题的高目的地价值，长度有限，故不宜作锚点。",
+          "supporting_stop": "具备独立体验价值，可补充鲁迅公园等更强节点，符合支持性停留。",
+          "transition_stop": "虽可连接南北节点，但自身有爱情街与弄堂体验，价值高于单纯过渡。"
+        }
+      },
+      "citywalk_value": {
+        "level": "medium",
+        "reason": "爱情邮筒、绿树篱笆的私密空间与千爱里弄堂共同构成有主题的漫步体验，但规模较小。",
+        "evidence_refs": [
+          "e_c0b5ad987933",
+          "e_099089932a13",
+          "e_388c19fb95e8"
+        ]
+      },
+      "summary_draft": {
+        "text": "甜爱路素有“最浪漫爱情街”之称",
+        "evidence_refs": [
+          "e_c0b5ad987933"
+        ]
+      },
+      "culture_bridge_draft": {
+        "text": "有条与它共用一道围墙的弄堂叫千爱里",
+        "evidence_refs": [
+          "e_388c19fb95e8"
+        ]
+      },
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 10,
+          "standard": 20,
+          "deep": 35
+        },
+        "full_visit": null,
+        "time_basis": "product_planning_estimate",
+        "scope": "甜爱路中段及千爱里弄堂的步行体验"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "当前开放状态与运营信息未提供",
+        "具体门牌与入口位置未提供"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": null,
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": [],
+      "coordinates": [
+        31.26723,
+        121.483903
+      ],
+      "coordinate_system": "GCJ-02",
+      "verification": {
+        "status": "human_review_required",
+        "facts": "extractive_evidence_only",
+        "semantics": "interpretation_requires_review",
+        "production_imported": false
+      },
+      "rejected_tag_proposals": []
+    },
+    "output": {
+      "category": "public_space",
+      "interest_tags": [
+        "parks",
+        "shopping_lifestyle"
+      ],
+      "experience_tags": [
+        "street_scene",
+        "quiet_walk"
+      ],
+      "culture_tags": [
+        "lane_life"
+      ],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "parks",
+          "evidence_refs": [
+            "e_099089932a13"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "shopping_lifestyle",
+          "evidence_refs": [
+            "e_099089932a13"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "street_scene",
+          "evidence_refs": [
+            "e_c0b5ad987933",
+            "e_5d3f5077c1bb"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "quiet_walk",
+          "evidence_refs": [
+            "e_388c19fb95e8"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "lane_life",
+          "evidence_refs": [
+            "e_388c19fb95e8"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_5d3f5077c1bb",
+        "e_340509e2bc25"
+      ],
+      "route_role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示甜爱路是有情调的私密空间与爱情主题街道，具备独立漫步体验，但中段仅三四百米，更适合作补充性停留。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据未显示足以独立承载路线主题的高目的地价值，长度有限，故不宜作锚点。",
+          "supporting_stop": "具备独立体验价值，可补充鲁迅公园等更强节点，符合支持性停留。",
+          "transition_stop": "虽可连接南北节点，但自身有爱情街与弄堂体验，价值高于单纯过渡。"
+        }
+      },
+      "citywalk_value": {
+        "level": "medium",
+        "reason": "爱情邮筒、绿树篱笆的私密空间与千爱里弄堂共同构成有主题的漫步体验，但规模较小。",
+        "evidence_refs": [
+          "e_c0b5ad987933",
+          "e_099089932a13",
+          "e_388c19fb95e8"
+        ]
+      },
+      "summary_draft": {
+        "text": "甜爱路素有“最浪漫爱情街”之称",
+        "evidence_refs": [
+          "e_c0b5ad987933"
+        ]
+      },
+      "culture_bridge_draft": {
+        "text": "有条与它共用一道围墙的弄堂叫千爱里",
+        "evidence_refs": [
+          "e_388c19fb95e8"
+        ]
+      },
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 10,
+          "standard": 20,
+          "deep": 35
+        },
+        "full_visit": null,
+        "time_basis": "product_planning_estimate",
+        "scope": "甜爱路中段及千爱里弄堂的步行体验"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "当前开放状态与运营信息未提供",
+        "具体门牌与入口位置未提供"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": null,
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": []
+    },
+    "attempts": [
+      {
+        "status": "success",
+        "provider": {
+          "model": "deepseek-flash",
+          "finish_reason": "stop",
+          "usage": {
+            "prompt_tokens": 4927,
+            "completion_tokens": 835,
+            "total_tokens": 5762,
+            "prompt_tokens_details": {
+              "cached_tokens": 512
+            },
+            "prompt_cache_hit_tokens": 512,
+            "prompt_cache_miss_tokens": 4415
+          }
+        }
+      }
+    ],
+    "cache_hit": true,
+    "api_calls_this_run": 0,
+    "request_hash": "a0e049d158c510a298745560e7f1778b4d2ab70b78aa733b1316b08edf6534af",
+    "evidence_hash": "94f1e192c78b0dc115f61c6e712f8d63fcf3a74e6574e40a22b973a93fbb6918",
+    "retry_reason": null
+  }
+]

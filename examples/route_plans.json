@@ -1,0 +1,969 @@
+{
+  "examples": {
+    "Route 1 — Architecture & Neighborhood Walk": {
+      "status": "success",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture",
+          "local_life"
+        ],
+        "experience_tags": [
+          "neighborhood_walk"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true
+      },
+      "selected_zone": "wukang_fuxing_xujiahui",
+      "ordered_pois": [
+        {
+          "poi_id": "p12",
+          "display_order": 8,
+          "poi_type": "district",
+          "name_zh": "陕南邨",
+          "name_en": "Shannan Village",
+          "walk_zone": "wukang_fuxing_xujiahui",
+          "estimated_stay_minutes": 10.0,
+          "estimated_distance_from_previous_stop_km": 0.0,
+          "estimated_walking_minutes": 0.0,
+          "recommendation_score": 16.0,
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "walk_stop",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2158,
+            121.4565
+          ],
+          "original_coordinates": [
+            31.2158,
+            121.4565
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": "Key exterior/public-space observation.",
+          "estimated_distance_from_previous": 0.0,
+          "estimated_walking_minutes_from_previous": 0.0
+        },
+        {
+          "poi_id": "p2",
+          "display_order": 1,
+          "poi_type": "street",
+          "name_zh": "永康路与嘉善路口",
+          "name_en": "Yongkang Road × Jiashan Road",
+          "walk_zone": "wukang_fuxing_xujiahui",
+          "estimated_stay_minutes": 20.0,
+          "estimated_distance_from_previous_stop_km": 0.5261996102389217,
+          "estimated_walking_minutes": 7.015994803185622,
+          "recommendation_score": 15.210700584641618,
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "walk_stop",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2128,
+            121.4592
+          ],
+          "original_coordinates": [
+            31.2128,
+            121.4592
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": "Key exterior/public-space observation.",
+          "estimated_distance_from_previous": 0.5261996102389217,
+          "estimated_walking_minutes_from_previous": 7.015994803185622
+        },
+        {
+          "poi_id": "p11",
+          "display_order": 7,
+          "poi_type": "district",
+          "name_zh": "建业里",
+          "name_en": "Jianyeli",
+          "walk_zone": "wukang_fuxing_xujiahui",
+          "estimated_stay_minutes": 15.0,
+          "estimated_distance_from_previous_stop_km": 0.8435613726987543,
+          "estimated_walking_minutes": 11.247484969316725,
+          "recommendation_score": 14.734657940951868,
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "walk_stop",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2073,
+            121.4562
+          ],
+          "original_coordinates": [
+            31.2073,
+            121.4562
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": "Key exterior/public-space observation.",
+          "estimated_distance_from_previous": 0.8435613726987543,
+          "estimated_walking_minutes_from_previous": 11.247484969316725
+        },
+        {
+          "poi_id": "p32",
+          "display_order": 24,
+          "poi_type": "landmark",
+          "name_zh": "徐家汇天主堂",
+          "name_en": "St. Ignatius Cathedral / Xujiahui Cathedral",
+          "walk_zone": "wukang_fuxing_xujiahui",
+          "estimated_stay_minutes": 20.0,
+          "estimated_distance_from_previous_stop_km": 3.1505079954221054,
+          "estimated_walking_minutes": 42.00677327229474,
+          "recommendation_score": 4.274238006866842,
+          "matched_tags": {
+            "interest_tags": [
+              "architecture"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: architecture. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "walk_stop",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.19149671484055,
+            121.4372036194208
+          ],
+          "original_coordinates": [
+            31.19337,
+            121.43258
+          ],
+          "original_coordinate_system": "WGS84/OpenStreetMap approximation",
+          "visit_scope": "Key exterior/public-space observation.",
+          "estimated_distance_from_previous": 3.1505079954221054,
+          "estimated_walking_minutes_from_previous": 42.00677327229474
+        },
+        {
+          "poi_id": "p33",
+          "display_order": 25,
+          "poi_type": "venue",
+          "name_zh": "徐家汇书院",
+          "name_en": "Zikawei Library / Xujiahui Academy",
+          "walk_zone": "wukang_fuxing_xujiahui",
+          "estimated_stay_minutes": 30.0,
+          "estimated_distance_from_previous_stop_km": 0.12118325196644086,
+          "estimated_walking_minutes": 1.615776692885878,
+          "recommendation_score": 13.81822512205034,
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: architecture, local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: full_visit; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "full_visit",
+          "travel_pace": "standard",
+          "requested_visit_mode": "full_visit",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": null,
+          "reservation_required": null,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.190626365374555,
+            121.4371436403768
+          ],
+          "original_coordinates": [
+            31.1925,
+            121.43252
+          ],
+          "original_coordinate_system": "WGS84/OpenStreetMap approximation",
+          "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+          "estimated_distance_from_previous": 0.12118325196644086,
+          "estimated_walking_minutes_from_previous": 1.615776692885878
+        }
+      ],
+      "cross_zone_required": false,
+      "total_estimated_distance_km": 4.641452230326222,
+      "total_estimated_walking_minutes": 61.88602973768296,
+      "total_stay_minutes": 95.0,
+      "buffer_minutes": 15,
+      "total_estimated_minutes": 171.88602973768297,
+      "remaining_minutes": 8.113970262317025,
+      "warnings": [
+        "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+        "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+        "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+        "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+        "representative_coordinate: p12; this anchor is not the whole area's unique location or entry/exit.",
+        "crowd_level_unknown: p12; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p12; unknown does not mean free or reservation-free.",
+        "representative_coordinate: p2; this anchor is not the whole area's unique location or entry/exit.",
+        "crowd_level_unknown: p2; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p2; unknown does not mean free or reservation-free.",
+        "representative_coordinate: p11; this anchor is not the whole area's unique location or entry/exit.",
+        "crowd_level_unknown: p11; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p11; unknown does not mean free or reservation-free.",
+        "coordinate_conversion: p32 converted approximately from WGS84 to GCJ-02 in memory.",
+        "crowd_level_unknown: p32; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p32; unknown does not mean free or reservation-free.",
+        "coordinate_conversion: p33 converted approximately from WGS84 to GCJ-02 in memory.",
+        "crowd_level_unknown: p33; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p33; unknown does not mean free or reservation-free."
+      ],
+      "explanation": "Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+      "errors": [],
+      "relaxation_suggestions": [],
+      "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+      "richness_target": {
+        "min_stops": 4,
+        "max_stops": 5
+      },
+      "richness_target_met": true
+    },
+    "Route 2 — Literary Walk": {
+      "status": "success",
+      "request": {
+        "available_minutes": 120,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "literature"
+        ],
+        "experience_tags": [
+          "quiet_walk"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "hongkou_literary",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true
+      },
+      "selected_zone": "hongkou_literary",
+      "ordered_pois": [
+        {
+          "poi_id": "p16",
+          "display_order": 12,
+          "poi_type": "park",
+          "name_zh": "鲁迅公园",
+          "name_en": "Lu Xun Park",
+          "walk_zone": "hongkou_literary",
+          "estimated_stay_minutes": 50.0,
+          "estimated_distance_from_previous_stop_km": 0.0,
+          "estimated_walking_minutes": 0.0,
+          "recommendation_score": 11.0,
+          "matched_tags": {
+            "interest_tags": [
+              "literature"
+            ],
+            "experience_tags": [
+              "quiet_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "full_visit",
+          "travel_pace": "standard",
+          "requested_visit_mode": "full_visit",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": null,
+          "reservation_required": null,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2712,
+            121.4844
+          ],
+          "original_coordinates": [
+            31.2712,
+            121.4844
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+          "estimated_distance_from_previous": 0.0,
+          "estimated_walking_minutes_from_previous": 0.0
+        },
+        {
+          "poi_id": "p4",
+          "display_order": 2,
+          "poi_type": "venue",
+          "name_zh": "鲁迅故居",
+          "name_en": "Lu Xun Former Residence",
+          "walk_zone": "hongkou_literary",
+          "estimated_stay_minutes": 30.0,
+          "estimated_distance_from_previous_stop_km": 0.48259662243436063,
+          "estimated_walking_minutes": 6.434621632458142,
+          "recommendation_score": 10.276105066348459,
+          "matched_tags": {
+            "interest_tags": [
+              "literature"
+            ],
+            "experience_tags": [
+              "quiet_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "full_visit",
+          "travel_pace": "standard",
+          "requested_visit_mode": "full_visit",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": null,
+          "reservation_required": null,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2693,
+            121.481
+          ],
+          "original_coordinates": [
+            31.2693,
+            121.481
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+          "estimated_distance_from_previous": 0.48259662243436063,
+          "estimated_walking_minutes_from_previous": 6.434621632458142
+        }
+      ],
+      "cross_zone_required": false,
+      "total_estimated_distance_km": 0.48259662243436063,
+      "total_estimated_walking_minutes": 6.434621632458142,
+      "total_stay_minutes": 80.0,
+      "buffer_minutes": 15,
+      "total_estimated_minutes": 101.43462163245815,
+      "remaining_minutes": 18.565378367541854,
+      "warnings": [
+        "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+        "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+        "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+        "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+        "crowd_level_unknown: p16; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p16; unknown does not mean free or reservation-free.",
+        "crowd_level_unknown: p4; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p4; unknown does not mean free or reservation-free.",
+        "richness_target_unmet: soft target 3-4 stops; delivered 2 without relaxing hard constraints or adding unrelated stops."
+      ],
+      "explanation": "Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+      "errors": [],
+      "relaxation_suggestions": [],
+      "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+      "richness_target": {
+        "min_stops": 3,
+        "max_stops": 4
+      },
+      "richness_target_met": false
+    },
+    "Route 3 — West Bund Art Walk": {
+      "status": "success",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "art",
+          "industrial_heritage"
+        ],
+        "experience_tags": [
+          "riverside_walk"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "west_bund",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true
+      },
+      "selected_zone": "west_bund",
+      "ordered_pois": [
+        {
+          "poi_id": "p29",
+          "display_order": 21,
+          "poi_type": "venue",
+          "name_zh": "上海油罐艺术中心",
+          "name_en": "TANK Shanghai",
+          "walk_zone": "west_bund",
+          "estimated_stay_minutes": 25.0,
+          "estimated_distance_from_previous_stop_km": 0.0,
+          "estimated_walking_minutes": 0.0,
+          "recommendation_score": 16.0,
+          "matched_tags": {
+            "interest_tags": [
+              "art",
+              "industrial_heritage"
+            ],
+            "experience_tags": [
+              "riverside_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: art, industrial_heritage, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "walk_stop",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.164519,
+            121.464321
+          ],
+          "original_coordinates": [
+            31.164519,
+            121.464321
+          ],
+          "original_coordinate_system": "GCJ-02 / Amap",
+          "visit_scope": "Exterior tanks, industrial heritage and waterfront public space; no exhibition entry.",
+          "estimated_distance_from_previous": 0.0,
+          "estimated_walking_minutes_from_previous": 0.0
+        },
+        {
+          "poi_id": "p28",
+          "display_order": 20,
+          "poi_type": "venue",
+          "name_zh": "西岸美术馆",
+          "name_en": "West Bund Museum",
+          "walk_zone": "west_bund",
+          "estimated_stay_minutes": 20.0,
+          "estimated_distance_from_previous_stop_km": 0.44332853829981694,
+          "estimated_walking_minutes": 5.911047177330893,
+          "recommendation_score": 10.335007192550275,
+          "matched_tags": {
+            "interest_tags": [
+              "art"
+            ],
+            "experience_tags": [
+              "riverside_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: art, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard. Downgraded because: insufficient_time.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "full_visit",
+          "downgrade_reason": "insufficient_time",
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": "Tue-Sun 11:00-18:00; last entry 17:00; Monday closed",
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.167682,
+            121.463841
+          ],
+          "original_coordinates": [
+            31.167682,
+            121.463841
+          ],
+          "original_coordinate_system": "GCJ-02 / Amap",
+          "visit_scope": "Key exterior/public-space observation.",
+          "estimated_distance_from_previous": 0.44332853829981694,
+          "estimated_walking_minutes_from_previous": 5.911047177330893
+        },
+        {
+          "poi_id": "p5",
+          "display_order": 3,
+          "poi_type": "venue",
+          "name_zh": "龙美术馆（西岸馆）",
+          "name_en": "Long Museum (West Bund)",
+          "walk_zone": "west_bund",
+          "estimated_stay_minutes": 75.0,
+          "estimated_distance_from_previous_stop_km": 2.383285469796842,
+          "estimated_walking_minutes": 31.77713959729123,
+          "recommendation_score": 12.425071795304737,
+          "matched_tags": {
+            "interest_tags": [
+              "art",
+              "industrial_heritage"
+            ],
+            "experience_tags": [
+              "riverside_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: art, industrial_heritage, riverside_walk. Located in West Bund Waterfront. Visit mode: full_visit; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "full_visit",
+          "travel_pace": "standard",
+          "requested_visit_mode": "full_visit",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": null,
+          "reservation_required": null,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.1848,
+            121.465
+          ],
+          "original_coordinates": [
+            31.1848,
+            121.465
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+          "estimated_distance_from_previous": 2.383285469796842,
+          "estimated_walking_minutes_from_previous": 31.77713959729123
+        }
+      ],
+      "cross_zone_required": false,
+      "total_estimated_distance_km": 2.826614008096659,
+      "total_estimated_walking_minutes": 37.688186774622125,
+      "total_stay_minutes": 120.0,
+      "buffer_minutes": 15,
+      "total_estimated_minutes": 172.68818677462212,
+      "remaining_minutes": 7.311813225377875,
+      "warnings": [
+        "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+        "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+        "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+        "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+        "visit_mode_downgraded: p28: full_visit -> walk_stop; insufficient_time.",
+        "visit_time_pending_manual_calibration: p28 walk_stop; product estimate.",
+        "crowd_level_unknown: p5; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p5; unknown does not mean free or reservation-free.",
+        "richness_target_unmet: soft target 4-5 stops; delivered 3 without relaxing hard constraints or adding unrelated stops."
+      ],
+      "explanation": "Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+      "errors": [],
+      "relaxation_suggestions": [],
+      "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+      "richness_target": {
+        "min_stops": 4,
+        "max_stops": 5
+      },
+      "richness_target_met": false
+    },
+    "Route 4 — Nanjing Road Shopping Walk": {
+      "status": "success",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "shopping_lifestyle",
+          "modern_city"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "old_city_central",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true
+      },
+      "selected_zone": "old_city_central",
+      "ordered_pois": [
+        {
+          "poi_id": "p14",
+          "display_order": 10,
+          "poi_type": "landmark",
+          "name_zh": "外滩·陈毅广场",
+          "name_en": "The Bund · Chen Yi Square",
+          "walk_zone": "old_city_central",
+          "estimated_stay_minutes": 25.0,
+          "estimated_distance_from_previous_stop_km": 0.0,
+          "estimated_walking_minutes": 0.0,
+          "recommendation_score": 9.0,
+          "matched_tags": {
+            "interest_tags": [
+              "modern_city"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: modern_city. Located in Old City–Xintiandi–Bund. Visit mode: walk_stop; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "walk_stop",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2365,
+            121.4915
+          ],
+          "original_coordinates": [
+            31.2365,
+            121.4915
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": "Key exterior/public-space observation.",
+          "estimated_distance_from_previous": 0.0,
+          "estimated_walking_minutes_from_previous": 0.0
+        },
+        {
+          "poi_id": "p34",
+          "display_order": 26,
+          "poi_type": "street",
+          "name_zh": "南京路步行街",
+          "name_en": "Nanjing Road Pedestrian Street",
+          "walk_zone": "old_city_central",
+          "estimated_stay_minutes": 60.0,
+          "estimated_distance_from_previous_stop_km": 0.8503391752693695,
+          "estimated_walking_minutes": 11.33785567025826,
+          "recommendation_score": 12.724491237095945,
+          "matched_tags": {
+            "interest_tags": [
+              "modern_city",
+              "shopping_lifestyle"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: modern_city, shopping_lifestyle. Located in Old City–Xintiandi–Bund. Visit mode: full_visit; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "full_visit",
+          "travel_pace": "standard",
+          "requested_visit_mode": "full_visit",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": null,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.233941258407807,
+            121.48500090050078
+          ],
+          "original_coordinates": [
+            31.2359,
+            121.4805
+          ],
+          "original_coordinate_system": "WGS84 planning approximation",
+          "visit_scope": "Visit this destination in depth; full_visit does not imply indoor or ticketed access.",
+          "estimated_distance_from_previous": 0.8503391752693695,
+          "estimated_walking_minutes_from_previous": 11.33785567025826
+        },
+        {
+          "poi_id": "p7",
+          "display_order": 4,
+          "poi_type": "district",
+          "name_zh": "新天地北里（石库门街区）",
+          "name_en": "Xintiandi North Block (Shikumen)",
+          "walk_zone": "old_city_central",
+          "estimated_stay_minutes": 30.0,
+          "estimated_distance_from_previous_stop_km": 2.695830978418854,
+          "estimated_walking_minutes": 35.944413045584724,
+          "recommendation_score": 4.956253532371719,
+          "matched_tags": {
+            "interest_tags": [
+              "shopping_lifestyle"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: shopping_lifestyle. Located in Old City–Xintiandi–Bund. Visit mode: walk_stop; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "walk_stop",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2212,
+            121.4679
+          ],
+          "original_coordinates": [
+            31.2212,
+            121.4679
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": "Key exterior/public-space observation.",
+          "estimated_distance_from_previous": 2.695830978418854,
+          "estimated_walking_minutes_from_previous": 35.944413045584724
+        }
+      ],
+      "cross_zone_required": false,
+      "total_estimated_distance_km": 3.5461701536882235,
+      "total_estimated_walking_minutes": 47.282268715842974,
+      "total_stay_minutes": 115.0,
+      "buffer_minutes": 15,
+      "total_estimated_minutes": 177.28226871584297,
+      "remaining_minutes": 2.7177312841570256,
+      "warnings": [
+        "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+        "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+        "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+        "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+        "crowd_level_unknown: p14; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p14; unknown does not mean free or reservation-free.",
+        "representative_coordinate: p34; this anchor is not the whole area's unique location or entry/exit.",
+        "coordinate_pending_manual_review: p34; Provisional product anchor based on a published location; source datum unverified, provisionally interpreted as WGS84. Not a verified midpoint or street entrance. Needs manual coordinate review.",
+        "coordinate_conversion: p34 converted approximately from WGS84 to GCJ-02 in memory.",
+        "crowd_level_unknown: p34; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p34; unknown does not mean free or reservation-free.",
+        "representative_coordinate: p7; this anchor is not the whole area's unique location or entry/exit.",
+        "crowd_level_unknown: p7; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p7; unknown does not mean free or reservation-free.",
+        "richness_target_unmet: soft target 4-5 stops; delivered 3 without relaxing hard constraints or adding unrelated stops."
+      ],
+      "explanation": "Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+      "errors": [],
+      "relaxation_suggestions": [],
+      "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+      "richness_target": {
+        "min_stops": 4,
+        "max_stops": 5
+      },
+      "richness_target_met": false
+    },
+    "Route 5 — Xujiahui Commercial Walk": {
+      "status": "success",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "shopping_lifestyle",
+          "modern_city"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "wukang_fuxing_xujiahui",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true
+      },
+      "selected_zone": "wukang_fuxing_xujiahui",
+      "ordered_pois": [
+        {
+          "poi_id": "p2",
+          "display_order": 1,
+          "poi_type": "street",
+          "name_zh": "永康路与嘉善路口",
+          "name_en": "Yongkang Road × Jiashan Road",
+          "walk_zone": "wukang_fuxing_xujiahui",
+          "estimated_stay_minutes": 20.0,
+          "estimated_distance_from_previous_stop_km": 0.0,
+          "estimated_walking_minutes": 0.0,
+          "recommendation_score": 9.0,
+          "matched_tags": {
+            "interest_tags": [
+              "shopping_lifestyle"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: shopping_lifestyle. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "walk_stop",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2128,
+            121.4592
+          ],
+          "original_coordinates": [
+            31.2128,
+            121.4592
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": "Key exterior/public-space observation.",
+          "estimated_distance_from_previous": 0.0,
+          "estimated_walking_minutes_from_previous": 0.0
+        },
+        {
+          "poi_id": "p35",
+          "display_order": 27,
+          "poi_type": "district",
+          "name_zh": "徐家汇商圈",
+          "name_en": "Xujiahui Commercial District",
+          "walk_zone": "wukang_fuxing_xujiahui",
+          "estimated_stay_minutes": 30.0,
+          "estimated_distance_from_previous_stop_km": 3.644029220302636,
+          "estimated_walking_minutes": 48.587056270701815,
+          "recommendation_score": 8.533956169546046,
+          "matched_tags": {
+            "interest_tags": [
+              "modern_city",
+              "shopping_lifestyle"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: modern_city, shopping_lifestyle. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.",
+          "must_go": false,
+          "selected_visit_mode": "walk_stop",
+          "travel_pace": "standard",
+          "requested_visit_mode": "walk_stop",
+          "downgrade_reason": null,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": false,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.193526044665383,
+            121.43842179377025
+          ],
+          "original_coordinates": [
+            31.1954,
+            121.4338
+          ],
+          "original_coordinate_system": "WGS84 planning approximation",
+          "visit_scope": "Brief district observation, short mall stops and supplies.",
+          "estimated_distance_from_previous": 3.644029220302636,
+          "estimated_walking_minutes_from_previous": 48.587056270701815
+        }
+      ],
+      "cross_zone_required": false,
+      "total_estimated_distance_km": 3.644029220302636,
+      "total_estimated_walking_minutes": 48.587056270701815,
+      "total_stay_minutes": 50.0,
+      "buffer_minutes": 15,
+      "total_estimated_minutes": 113.58705627070182,
+      "remaining_minutes": 66.41294372929818,
+      "warnings": [
+        "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+        "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+        "opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.",
+        "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+        "representative_coordinate: p2; this anchor is not the whole area's unique location or entry/exit.",
+        "crowd_level_unknown: p2; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p2; unknown does not mean free or reservation-free.",
+        "representative_coordinate: p35; this anchor is not the whole area's unique location or entry/exit.",
+        "coordinate_pending_manual_review: p35; Product-selected approximate public-space anchor northwest of the published Metro City anchor (31.1949, 121.4352), toward Grand Gateway. Not an entire-district centroid or verified entrance. Needs manual coordinate review.",
+        "coordinate_conversion: p35 converted approximately from WGS84 to GCJ-02 in memory.",
+        "crowd_level_unknown: p35; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p35; unknown does not mean free or reservation-free.",
+        "richness_target_unmet: soft target 4-5 stops; delivered 2 without relaxing hard constraints or adding unrelated stops."
+      ],
+      "explanation": "Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.",
+      "errors": [],
+      "relaxation_suggestions": [],
+      "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance.",
+      "richness_target": {
+        "min_stops": 4,
+        "max_stops": 5
+      },
+      "richness_target_met": false
+    }
+  },
+  "missing_coordinate_poi_ids": []
+}

@@ -1,0 +1,903 @@
+{
+  "zone_id": "hongkou_literary",
+  "cases": [
+    {
+      "case": "core_1",
+      "label": "strongest core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "hongkou_literary",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "history"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "candidate_pool_after_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "relevant_candidate_pool": [
+        "p4",
+        "p10",
+        "p25",
+        "p26",
+        "pz_0b545bb1cf2a"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p10",
+          "name": "今潮8弄",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        },
+        {
+          "poi_id": "p26",
+          "name": "中国左翼作家联盟会址纪念馆",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        },
+        {
+          "poi_id": "p25",
+          "name": "1927·鲁迅与内山纪念书局",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "p4",
+          "name": "鲁迅故居",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 154.18226893246506,
+      "time_utilization": 0.856568160735917,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 3,
+          "anchor": 1
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.748180219245843,
+      "zone_isolation_passed": true,
+      "new_nodes_selected": [],
+      "geographic_continuity_passed": true,
+      "relevance_passed": true,
+      "passed": true
+    },
+    {
+      "case": "core_2",
+      "label": "second core theme",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "literature"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "hongkou_literary",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "literature"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "candidate_pool_after_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "relevant_candidate_pool": [
+        "p4",
+        "p16",
+        "p25",
+        "p26",
+        "pz_b72e3b8998b3"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p16",
+          "name": "鲁迅公园",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "literature"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 50.0
+        },
+        {
+          "poi_id": "p4",
+          "name": "鲁迅故居",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "literature"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        },
+        {
+          "poi_id": "p25",
+          "name": "1927·鲁迅与内山纪念书局",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "literature"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "p26",
+          "name": "中国左翼作家联盟会址纪念馆",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "literature"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 170.64115430831197,
+      "time_utilization": 0.9480064128239554,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2,
+          "supporting_stop": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.7083374099004296,
+      "zone_isolation_passed": true,
+      "new_nodes_selected": [],
+      "geographic_continuity_passed": true,
+      "relevance_passed": true,
+      "passed": true
+    },
+    {
+      "case": "non_museum",
+      "label": "outdoor/public-space walk; no museums",
+      "request": {
+        "available_minutes": 150,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "parks",
+          "history",
+          "literature"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "hongkou_literary",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "museum_visit"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "museum_visit"
+      ],
+      "matched_tags": {
+        "interest_tags": [
+          "history",
+          "literature",
+          "parks"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "candidate_pool_after_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "relevant_candidate_pool": [
+        "p4",
+        "p10",
+        "p16",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p16",
+          "name": "鲁迅公园",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "literature",
+              "parks"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 50.0
+        },
+        {
+          "poi_id": "p4",
+          "name": "鲁迅故居",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history",
+              "literature"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        }
+      ],
+      "total_estimated_time": 101.43462163245815,
+      "time_utilization": 0.6762308108830543,
+      "minimum_viable_passed": false,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "insufficient_route",
+      "failure_reason": [
+        "fewer than three suitable stops"
+      ],
+      "failure_attribution": "scoring_or_budget_constraint",
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": false,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.48259662243436063,
+      "zone_isolation_passed": true,
+      "new_nodes_selected": [],
+      "geographic_continuity_passed": true,
+      "relevance_passed": true,
+      "passed": false
+    },
+    {
+      "case": "new_coverage",
+      "label": "new nodes thematic coverage",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "gardens",
+          "history",
+          "literature"
+        ],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "hongkou_literary",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [
+          "gardens",
+          "history",
+          "literature"
+        ],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "candidate_pool_after_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "relevant_candidate_pool": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p4",
+          "name": "鲁迅故居",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [
+              "history",
+              "literature"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        },
+        {
+          "poi_id": "p25",
+          "name": "1927·鲁迅与内山纪念书局",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history",
+              "literature"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        },
+        {
+          "poi_id": "p26",
+          "name": "中国左翼作家联盟会址纪念馆",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "history",
+              "literature"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        },
+        {
+          "poi_id": "pz_0b545bb1cf2a",
+          "name": "四川北路公园",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [
+              "gardens",
+              "history"
+            ],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        }
+      ],
+      "total_estimated_time": 156.43982753254534,
+      "time_utilization": 0.8691101529585852,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 1,
+          "supporting_stop": 3
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 1.2924971142518638,
+      "zone_isolation_passed": true,
+      "new_nodes_selected": [
+        "pz_0b545bb1cf2a"
+      ],
+      "geographic_continuity_passed": true,
+      "relevance_passed": true,
+      "passed": true
+    },
+    {
+      "case": "general_180",
+      "label": "general three-hour walk",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "hongkou_literary",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "candidate_pool_after_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "relevant_candidate_pool": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p10",
+          "name": "今潮8弄",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 30.0
+        },
+        {
+          "poi_id": "p26",
+          "name": "中国左翼作家联盟会址纪念馆",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        },
+        {
+          "poi_id": "pz_b72e3b8998b3",
+          "name": "多伦路文化名人街",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 45.0
+        },
+        {
+          "poi_id": "p25",
+          "name": "1927·鲁迅与内山纪念书局",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        }
+      ],
+      "total_estimated_time": 159.80297378942,
+      "time_utilization": 0.8877942988301112,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "supporting_stop": 3,
+          "anchor": 1
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.748180219245843,
+      "zone_isolation_passed": true,
+      "new_nodes_selected": [
+        "pz_b72e3b8998b3"
+      ],
+      "geographic_continuity_passed": true,
+      "relevance_passed": true,
+      "passed": true
+    },
+    {
+      "case": "negative",
+      "label": "no shopping",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": "hongkou_literary",
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null,
+        "travel_pace": "standard",
+        "visit_mode_overrides": {},
+        "full_visit_unavailable_poi_ids": [],
+        "willing_to_buy_tickets": true,
+        "allow_mode_downgrade": true,
+        "avoid_tags": [
+          "shopping_lifestyle",
+          "shopping_leisure"
+        ],
+        "avoid_poi_ids": [],
+        "route_mode": "plan_for_me"
+      },
+      "avoid_tags": [
+        "shopping_lifestyle",
+        "shopping_leisure"
+      ],
+      "matched_tags": {
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": []
+      },
+      "candidate_pool_before_filtering": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "candidate_pool_after_filtering": [
+        "p4",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "relevant_candidate_pool": [
+        "p4",
+        "p16",
+        "p25",
+        "p26",
+        "p27",
+        "pz_0b545bb1cf2a",
+        "pz_b72e3b8998b3",
+        "pz_b4acff8f32fc"
+      ],
+      "selected_stops": [
+        {
+          "poi_id": "p16",
+          "name": "鲁迅公园",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 50.0
+        },
+        {
+          "poi_id": "p4",
+          "name": "鲁迅故居",
+          "primary_role": "anchor",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "full_visit",
+          "estimated_visit_minutes": 30.0
+        },
+        {
+          "poi_id": "pz_b4acff8f32fc",
+          "name": "甜爱路",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 20.0
+        },
+        {
+          "poi_id": "p25",
+          "name": "1927·鲁迅与内山纪念书局",
+          "primary_role": "supporting_stop",
+          "matched_tags": {
+            "interest_tags": [],
+            "experience_tags": [],
+            "culture_tags": []
+          },
+          "visit_mode": "walk_stop",
+          "estimated_visit_minutes": 25.0
+        }
+      ],
+      "total_estimated_time": 156.99335777380253,
+      "time_utilization": 0.8721853209655696,
+      "minimum_viable_passed": true,
+      "composition_passed": true,
+      "negative_preference_passed": true,
+      "route_status": "success",
+      "failure_reason": [],
+      "failure_attribution": null,
+      "composition_diagnostics": {
+        "enabled": true,
+        "minimum_stop_count_passed": true,
+        "route_composition_passed": true,
+        "primary_role_counts": {
+          "anchor": 2,
+          "supporting_stop": 2
+        },
+        "longest_transition_run": 0,
+        "transition_soft_preference_passed": true,
+        "basis": "primary roles only; visit modes never promote roles",
+        "failure_reason": null
+      },
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "estimated_max_single_leg_km": 0.48259662243436063,
+      "zone_isolation_passed": true,
+      "new_nodes_selected": [
+        "pz_b4acff8f32fc"
+      ],
+      "geographic_continuity_passed": true,
+      "relevance_passed": true,
+      "passed": true
+    }
+  ],
+  "passed_count": 5,
+  "total": 6,
+  "acceptable": true,
+  "zone_expansion_recommended": false,
+  "expansion_passes": 0,
+  "geographic_diagnostic": "Approximate straight-line-derived walking distances; not real map routing. 3.5 km maximum leg is a diagnostic threshold.",
+  "anchor_coverage_gap": false
+}

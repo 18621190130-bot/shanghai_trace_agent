@@ -1,0 +1,334 @@
+{
+  "candidate_id": "hongkou_literary_085cab001e5e5f1e",
+  "node_identity": "amap:B00152B056",
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "gardens",
+      "history"
+    ],
+    "experience_tags": [
+      "neighborhood_walk",
+      "local_atmosphere"
+    ],
+    "culture_tags": [
+      "garden_culture",
+      "political_history"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_0fbaab58f481",
+          "e_219472db2c56",
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "gardens",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_ddfd52b10518"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "neighborhood_walk",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "local_atmosphere",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "garden_culture",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "political_history",
+        "evidence_refs": [
+          "e_ddfd52b10518"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_0fbaab58f481",
+      "e_219472db2c56",
+      "e_7557349cc0d4"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示为社区公园，含七大景区与纪念馆，具备独立休闲与红色文化体验价值，但作为路线主题承载力的证据有限，故定为支撑性停留点。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示足以独立承载路线主题的高目的地价值，故不宜作锚点。",
+        "supporting_stop": "有公园景观与纪念馆等独立体验，可补充更强节点，符合支撑性停留点。",
+        "transition_stop": "虽可作连接性停留，但其景区与纪念馆内容超出短暂过渡的定位。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为社区公园兼具园林景观与红色文化教育功能，适合步行途中停留体验。",
+      "evidence_refs": [
+        "e_e387e2784fa0",
+        "e_ddfd52b10518"
+      ]
+    },
+    "summary_draft": {
+      "text": "四川北路公园建成于2002年9月,是虹口区四星级的社区公园",
+      "evidence_refs": [
+        "e_e387e2784fa0"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "四川北路公园也是虹口区革命历史文化教育及红色旅游基地",
+      "evidence_refs": [
+        "e_ddfd52b10518"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 25,
+        "deep": 45
+      },
+      "full_visit": {
+        "quick": 20,
+        "standard": 45,
+        "deep": 90
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "公园内主要景区及纪念馆前广场的步行游览"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放时间",
+      "门票信息",
+      "纪念馆预约要求",
+      "公园现状是否与2011年改造后一致"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": {
+        "text": "四川北路公园建成于2002年9月",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.254871,
+      121.484802
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "gardens",
+      "history"
+    ],
+    "experience_tags": [
+      "neighborhood_walk",
+      "local_atmosphere"
+    ],
+    "culture_tags": [
+      "garden_culture",
+      "political_history"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_0fbaab58f481",
+          "e_219472db2c56",
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "gardens",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_ddfd52b10518"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "neighborhood_walk",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "local_atmosphere",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "garden_culture",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "political_history",
+        "evidence_refs": [
+          "e_ddfd52b10518"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_0fbaab58f481",
+      "e_219472db2c56",
+      "e_7557349cc0d4"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示为社区公园，含七大景区与纪念馆，具备独立休闲与红色文化体验价值，但作为路线主题承载力的证据有限，故定为支撑性停留点。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示足以独立承载路线主题的高目的地价值，故不宜作锚点。",
+        "supporting_stop": "有公园景观与纪念馆等独立体验，可补充更强节点，符合支撑性停留点。",
+        "transition_stop": "虽可作连接性停留，但其景区与纪念馆内容超出短暂过渡的定位。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为社区公园兼具园林景观与红色文化教育功能，适合步行途中停留体验。",
+      "evidence_refs": [
+        "e_e387e2784fa0",
+        "e_ddfd52b10518"
+      ]
+    },
+    "summary_draft": {
+      "text": "四川北路公园建成于2002年9月,是虹口区四星级的社区公园",
+      "evidence_refs": [
+        "e_e387e2784fa0"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "四川北路公园也是虹口区革命历史文化教育及红色旅游基地",
+      "evidence_refs": [
+        "e_ddfd52b10518"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 25,
+        "deep": 45
+      },
+      "full_visit": {
+        "quick": 20,
+        "standard": 45,
+        "deep": 90
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "公园内主要景区及纪念馆前广场的步行游览"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放时间",
+      "门票信息",
+      "纪念馆预约要求",
+      "公园现状是否与2011年改造后一致"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": {
+        "text": "四川北路公园建成于2002年9月",
+        "evidence_refs": [
+          "e_e387e2784fa0"
+        ]
+      },
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "attempts": [
+    {
+      "status": "success",
+      "provider": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 5236,
+          "completion_tokens": 880,
+          "total_tokens": 6116,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 4596
+        }
+      }
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "9b08811c001aca1f7487cf1f4eb14856ea895b47aa8f64c69efa9b126a71ea1a",
+  "evidence_hash": "b986d50c4eadf5652459171a5626de0c4ae2b228926442e7709cf3213f0971bd",
+  "retry_reason": "evidence_materially_improved"
+}

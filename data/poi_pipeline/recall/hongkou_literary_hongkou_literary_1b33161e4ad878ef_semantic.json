@@ -1,0 +1,242 @@
+{
+  "candidate_id": "hongkou_literary_1b33161e4ad878ef",
+  "node_identity": "amap:B00155L3BC",
+  "output": {
+    "category": "museum",
+    "interest_tags": [
+      "art"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_a368c056842e",
+          "e_89ccbd68b9f9"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_722d0ad8b557",
+          "e_38e33b63781d",
+          "e_a368c056842e"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_722d0ad8b557",
+      "e_38e33b63781d",
+      "e_0fe30ce73434"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "政府来源证据显示故居含一、二楼事迹陈列室与三楼场景复原，并设发报互动体验区，具备独立参观内容与主题承载能力，可作为虹口文学/红色主题路线的目的地。",
+      "independent_destination_value": "high",
+      "route_connector_value": "low",
+      "alternatives_reason": {
+        "anchor": "证据支持独立陈列室、场景复原与互动体验，可承载主题，故适合作为anchor。",
+        "supporting_stop": "若路线主题非红色/文学，其独立体验仍可补充主线，作为supporting_stop亦成立。",
+        "transition_stop": "其内容为完整室内参观体验，非短暂街景停留，不适合作为transition_stop。"
+      }
+    },
+    "citywalk_value": {
+      "level": "high",
+      "reason": "故居兼具历史人物事迹陈列、场景复原与摩斯电码互动体验，主题明确且体验层次丰富，对城市漫步具有较高停留价值。",
+      "evidence_refs": [
+        "e_a368c056842e",
+        "e_89ccbd68b9f9"
+      ]
+    },
+    "summary_draft": {
+      "text": "一、二楼李白烈士事迹陈列室",
+      "evidence_refs": [
+        "e_a368c056842e"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "体验更真实的发送电码过程，寓教于乐",
+      "evidence_refs": [
+        "e_89ccbd68b9f9"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 15,
+        "standard": 30,
+        "deep": 60
+      },
+      "full_visit": {
+        "quick": 30,
+        "standard": 60,
+        "deep": 90
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "故居室内陈列与互动体验的规划估算，非官方开放时长。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放时间与是否需预约未在证据中确认",
+      "门票信息未提供",
+      "建筑年代与保护级别等历史信息未提供"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": null,
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "evidence_hash": "1790692a7f8b5b80dfee637bb2dfe2c5447d78896d7871c97af60bac2c24f91c",
+  "prior_attempt": {
+    "candidate_id": "hongkou_literary_1b33161e4ad878ef",
+    "node_identity": "amap:B00155L3BC",
+    "output": {
+      "category": "museum",
+      "interest_tags": [
+        "art"
+      ],
+      "experience_tags": [
+        "museum_visit"
+      ],
+      "culture_tags": [],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "art",
+          "evidence_refs": [
+            "e_a368c056842e"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "museum_visit",
+          "evidence_refs": [
+            "e_722d0ad8b557",
+            "e_38e33b63781d"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_722d0ad8b557",
+        "e_38e33b63781d",
+        "e_a368c056842e"
+      ],
+      "route_role": {
+        "primary": "anchor",
+        "eligible": [
+          "anchor",
+          "supporting_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示为具名的烈士故居，含一、二楼事迹陈列室与三楼场景复原，具备独立参观内容与主题承载能力，可作为虹口文学/红色主题路线的目的地。",
+        "independent_destination_value": "high",
+        "route_connector_value": "low",
+        "alternatives_reason": {
+          "anchor": "有明确陈列室与场景复原的独立参观内容，可承载主题，符合anchor标准。",
+          "supporting_stop": "若路线主题不涉及红色纪念，也可作为补充性参观点，但其独立内容更接近anchor。",
+          "transition_stop": "并非仅短暂停留的连接点，内部有陈列与复原空间，不符合transition_stop。"
+        }
+      },
+      "citywalk_value": {
+        "level": "medium",
+        "reason": "作为具名故居博物馆，内部有陈列室与场景复原，具备独立参观价值，但周边联动信息有限。",
+        "evidence_refs": [
+          "e_a368c056842e",
+          "e_722d0ad8b557"
+        ]
+      },
+      "summary_draft": {
+        "text": "坐南朝北的三层砖木结构的老式洋房",
+        "evidence_refs": [
+          "e_a368c056842e"
+        ]
+      },
+      "culture_bridge_draft": null,
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 15,
+          "standard": 30,
+          "deep": 60
+        },
+        "full_visit": {
+          "quick": 30,
+          "standard": 60,
+          "deep": 90
+        },
+        "time_basis": "product_planning_estimate",
+        "scope": "故居内部陈列室与场景复原的参观时长估算"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "开放时间",
+        "门票信息",
+        "预约要求",
+        "当前运营状态"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": null,
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": []
+    },
+    "semantic": null,
+    "cache_hit": false,
+    "api_calls_this_run": 1,
+    "reason": "art unsupported by cited evidence; remove or cite explicit matching description",
+    "provider": {
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 3568,
+        "completion_tokens": 622,
+        "total_tokens": 4190,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 2928
+      }
+    }
+  },
+  "material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+  "reason": "art unsupported by cited evidence; remove or cite explicit matching description",
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3707,
+      "completion_tokens": 632,
+      "total_tokens": 4339,
+      "prompt_tokens_details": {
+        "cached_tokens": 2816
+      },
+      "prompt_cache_hit_tokens": 2816,
+      "prompt_cache_miss_tokens": 891
+    }
+  }
+}

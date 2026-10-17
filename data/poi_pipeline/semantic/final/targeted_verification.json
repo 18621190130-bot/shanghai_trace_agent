@@ -1,0 +1,524 @@
+{
+  "route:skate": {
+    "checked_at": "2026-10-04T09:56:22+00:00",
+    "status": "completed",
+    "scope": "bounded targeted verification; no collection/enrichment",
+    "checks": {
+      "public_access": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_skate_public"
+        ]
+      },
+      "same_experience": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_skate_public",
+          "fv_skate_coordinate"
+        ]
+      },
+      "representative_coordinate": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_skate_coordinate"
+        ]
+      }
+    },
+    "conclusion": "官方公众台阶观察区域已确认。采用高德瑞宁路同名公园访问代表点，保留OSM几何点差异约180米；无独立入口证明，不拆节点。精确台阶入口坐标未测绘，不声称该点就是门口。",
+    "representative_anchor": {
+      "coordinates": [
+        31.185976,
+        121.467781
+      ],
+      "coordinate_system": "GCJ-02",
+      "anchor_kind": "approximate_visitor_route_anchor_not_surveyed_gate",
+      "confidence": "medium",
+      "evidence_refs": [
+        "fv_skate_coordinate",
+        "fv_skate_public"
+      ],
+      "reason": "高德访问POI有瑞宁路地址，且被官方同名公众休憩场景佐证；优先于OSM几何代表点，不求平均。",
+      "averaged": false,
+      "exact_entrance_coordinates": null
+    },
+    "evidence_catalog": {
+      "fv_skate_public": {
+        "record_id": "fv_skate_public",
+        "source_type": "targeted_verification",
+        "url": "https://whlyj.sh.gov.cn/gqfc/20260904/89b6a38c04274b0fbfe300752f21c3e6.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": "2026-09-04",
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "2026年9月市文旅局描述滨江滑板公园、相邻绿地和滨江步道，明确游客可在旁边台阶休憩；支持公众观察空间及同一滑板体验。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_open"
+      },
+      "fv_skate_coordinate": {
+        "record_id": "fv_skate_coordinate",
+        "source_type": "targeted_verification",
+        "url": "https://ditu.amap.com/place/B0FFG8TX4N",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": null,
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "高德同名瑞宁路公园点：GCJ-02纬度31.185976，经度121.467781。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_search_index",
+        "coordinates": [
+          31.185976,
+          121.467781
+        ],
+        "coordinate_system": "GCJ-02"
+      }
+    },
+    "sources": [
+      {
+        "record_id": "fv_skate_public",
+        "source_type": "targeted_verification",
+        "url": "https://whlyj.sh.gov.cn/gqfc/20260904/89b6a38c04274b0fbfe300752f21c3e6.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_open",
+        "supports": [
+          "targeted_verification"
+        ]
+      },
+      {
+        "record_id": "fv_skate_coordinate",
+        "source_type": "targeted_verification",
+        "url": "https://ditu.amap.com/place/B0FFG8TX4N",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_search_index",
+        "supports": [
+          "targeted_verification"
+        ]
+      }
+    ]
+  },
+  "route:runway": {
+    "checked_at": "2026-10-04T09:56:22+00:00",
+    "status": "completed",
+    "scope": "bounded targeted verification; no collection/enrichment",
+    "checks": {
+      "representative_coordinate": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_runway_coordinate"
+        ]
+      },
+      "pilot_relation": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_runway_coordinate"
+        ]
+      }
+    },
+    "conclusion": "线性公园以高德丰谷路南段访问点作为代表，不用OSM线性几何中心冒充入口。代表点在原多边形西侧约26米、原150米审核缓冲内；落实人工接受边界审核点，原polygon和margin均不改。",
+    "representative_anchor": {
+      "coordinates": [
+        31.168592,
+        121.45773
+      ],
+      "coordinate_system": "GCJ-02",
+      "anchor_kind": "approximate_visitor_route_anchor_not_surveyed_gate",
+      "confidence": "medium",
+      "evidence_refs": [
+        "fv_runway_coordinate",
+        "fv_runway_identity"
+      ],
+      "reason": "官方云锦路/丰谷路到访说明与高德访问POI一致；替换几何代表点，未为落入polygon而移动点。",
+      "averaged": false,
+      "exact_entrance_coordinates": null
+    },
+    "evidence_catalog": {
+      "fv_runway_identity": {
+        "record_id": "fv_runway_identity",
+        "source_type": "targeted_verification",
+        "url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_6deD0.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": null,
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "西岸官方将跑道公园定位云锦路，说明原跑道转为多样线性街道、公园系统，并提供云锦路站/丰谷路公交到访说明。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_open"
+      },
+      "fv_runway_coordinate": {
+        "record_id": "fv_runway_coordinate",
+        "source_type": "targeted_verification",
+        "url": "https://www.amap.com/place/B0FFI8D8QU",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": null,
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "高德徐汇跑道公园B0FFI8D8QU定位云锦路与丰谷路交口南约200米，GCJ-02纬度31.168592，经度121.457730。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_open",
+        "coordinates": [
+          31.168592,
+          121.45773
+        ],
+        "coordinate_system": "GCJ-02"
+      }
+    },
+    "sources": [
+      {
+        "record_id": "fv_runway_identity",
+        "source_type": "targeted_verification",
+        "url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_6deD0.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_open",
+        "supports": [
+          "targeted_verification"
+        ]
+      },
+      {
+        "record_id": "fv_runway_coordinate",
+        "source_type": "targeted_verification",
+        "url": "https://www.amap.com/place/B0FFI8D8QU",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_open",
+        "supports": [
+          "targeted_verification"
+        ]
+      }
+    ]
+  },
+  "route:wb_72b583ec31ffce20": {
+    "checked_at": "2026-10-04T09:56:22+00:00",
+    "status": "completed",
+    "scope": "bounded targeted verification; no collection/enrichment",
+    "checks": {
+      "public_access": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_maritime_public",
+          "fv_maritime_tour"
+        ]
+      },
+      "representative_coordinate": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_maritime_coordinate"
+        ]
+      }
+    },
+    "conclusion": "公众广场/塔旁滨江停留范围获官方支持；接受transition_stop。保留高德广场代表点，不声明允许进入或攀登塔体，不保证实时无临时管制。北外滩同名海事塔搜索结果排除。",
+    "representative_anchor": {
+      "coordinates": [
+        31.177546,
+        121.4624
+      ],
+      "coordinate_system": "GCJ-02",
+      "anchor_kind": "approximate_visitor_route_anchor_not_surveyed_gate",
+      "confidence": "medium",
+      "evidence_refs": [
+        "fv_maritime_coordinate",
+        "fv_maritime_public"
+      ],
+      "reason": "已有高德广场点关联徐汇官方塔旁公共观赏范围；未发明内部塔体入口。",
+      "averaged": false,
+      "exact_entrance_coordinates": null
+    },
+    "evidence_catalog": {
+      "fv_maritime_public": {
+        "record_id": "fv_maritime_public",
+        "source_type": "targeted_verification",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260414/8562052ebffb4b4ebdd83c5eeceac4bc.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": "2026-04-14",
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "徐汇区政府2026花卉节官方说明把瑞宁路至龙耀路滨江段界定为公共开放空间，海事塔周边/基座明确为公众观赏区域；证实广场外部访问，非塔体内部开放。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_open"
+      },
+      "fv_maritime_tour": {
+        "record_id": "fv_maritime_tour",
+        "source_type": "targeted_verification",
+        "url": "https://whlyj.sh.gov.cn/gqfc/20230523/3ee401f0a53846a990944f6275227162.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": "2023-05-23",
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "市文旅局发布的徐汇滨江建筑城市漫步明确途经徐汇滨江海事塔。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_search_index"
+      },
+      "fv_maritime_coordinate": {
+        "record_id": "fv_maritime_coordinate",
+        "source_type": "targeted_verification",
+        "url": "https://www.amap.com/detail/B0FFGXZYD4",
+        "retrieved_at": "2026-10-04T07:38:50.249841+00:00",
+        "published_at": null,
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "复用Phase 2.5A实际高德记录B0FFGXZYD4：海事塔广场GCJ-02代表点31.177546,121.4624。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "phase_2_5a_cached_record",
+        "coordinates": [
+          31.177546,
+          121.4624
+        ],
+        "coordinate_system": "GCJ-02",
+        "checked_at": "2026-10-04T09:56:22+00:00"
+      }
+    },
+    "sources": [
+      {
+        "record_id": "fv_maritime_public",
+        "source_type": "targeted_verification",
+        "url": "https://www.shanghai.gov.cn/nw17239/20260414/8562052ebffb4b4ebdd83c5eeceac4bc.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_open",
+        "supports": [
+          "targeted_verification"
+        ]
+      },
+      {
+        "record_id": "fv_maritime_tour",
+        "source_type": "targeted_verification",
+        "url": "https://whlyj.sh.gov.cn/gqfc/20230523/3ee401f0a53846a990944f6275227162.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_search_index",
+        "supports": [
+          "targeted_verification"
+        ]
+      },
+      {
+        "record_id": "fv_maritime_coordinate",
+        "source_type": "targeted_verification",
+        "url": "https://www.amap.com/detail/B0FFGXZYD4",
+        "retrieved_at": "2026-10-04T07:38:50.249841+00:00",
+        "retrieval_method": "phase_2_5a_cached_record",
+        "supports": [
+          "targeted_verification"
+        ]
+      }
+    ]
+  },
+  "route:wb_fd436a54b9d249a2": {
+    "checked_at": "2026-10-04T09:56:22+00:00",
+    "status": "completed",
+    "scope": "bounded targeted verification; no collection/enrichment",
+    "checks": {
+      "one_node_identity": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_crane_identity",
+          "fv_crane_walk",
+          "fv_crane_observation"
+        ]
+      }
+    },
+    "conclusion": "人工指定塔吊与其周边广场为同一停留体验，官方步行描述和检测研究佐证这一解释；不把塔吊广场当作独立stop。保留原高德塔吊代表点，塔吊体不上人，不新增art/photogenic。",
+    "representative_anchor": null,
+    "evidence_catalog": {
+      "fv_crane_identity": {
+        "record_id": "fv_crane_identity",
+        "source_type": "targeted_verification",
+        "url": "https://www.westbund.com/cn/index/NEWS-CENTER/West-Bund-12.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": null,
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "西岸官方记述北票码头工业遗存及保留塔吊，支持主要identity与工业遗存性质。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_search_index"
+      },
+      "fv_crane_walk": {
+        "record_id": "fv_crane_walk",
+        "source_type": "targeted_verification",
+        "url": "https://whlyj.sh.gov.cn/gqfc/20260904/89b6a38c04274b0fbfe300752f21c3e6.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": "2026-09-04",
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "官方游客步行说明：从相邻绿地沿滨江到龙美术馆途经塔吊广场；为塔吊周边步行公共空间证据。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_open"
+      },
+      "fv_crane_observation": {
+        "record_id": "fv_crane_observation",
+        "source_type": "targeted_verification",
+        "url": "https://jpm.front-sci.com/index.php/jpm/article/download/7746/7492",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": "2025",
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "2025塔吊检测研究指北票码头塔吊在东安路与龙腾大道交口东侧，现作工业遗存景观供观赏，不再起重、不上人。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_search_index"
+      }
+    },
+    "sources": [
+      {
+        "record_id": "fv_crane_identity",
+        "source_type": "targeted_verification",
+        "url": "https://www.westbund.com/cn/index/NEWS-CENTER/West-Bund-12.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_search_index",
+        "supports": [
+          "targeted_verification"
+        ]
+      },
+      {
+        "record_id": "fv_crane_walk",
+        "source_type": "targeted_verification",
+        "url": "https://whlyj.sh.gov.cn/gqfc/20260904/89b6a38c04274b0fbfe300752f21c3e6.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_open",
+        "supports": [
+          "targeted_verification"
+        ]
+      },
+      {
+        "record_id": "fv_crane_observation",
+        "source_type": "targeted_verification",
+        "url": "https://jpm.front-sci.com/index.php/jpm/article/download/7746/7492",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_search_index",
+        "supports": [
+          "targeted_verification"
+        ]
+      }
+    ]
+  },
+  "route:wb_d7d1677306fa4d92": {
+    "checked_at": "2026-10-04T09:56:22+00:00",
+    "status": "completed",
+    "scope": "bounded targeted verification; no collection/enrichment",
+    "checks": {
+      "current_existence": {
+        "status": "unknown",
+        "evidence_refs": []
+      },
+      "public_access": {
+        "status": "unknown",
+        "evidence_refs": []
+      },
+      "long_term_stability": {
+        "status": "unknown",
+        "evidence_refs": []
+      }
+    },
+    "conclusion": "定向查询未找到可靠当前存在及长期保留证据；旧报道与OSM记录不等于今日可达。defer，保留art/photogenic历史提议，绝不添加museum_visit。",
+    "representative_anchor": null,
+    "evidence_catalog": {
+      "fv_cinema_historical": {
+        "record_id": "fv_cinema_historical",
+        "source_type": "targeted_verification",
+        "url": "https://www.jfdaily.com/sgh/detail?id=1175176",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": "2023-11-11",
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "徐汇官方账号2023年11月报道：郭熙公共艺术装置在西岸美术馆北广场东侧供公众驻足观看。只有历史存在与历史公共可见证据，没有当前保留/长期稳定承诺。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_search_index; web_open shell did not expose article body"
+      }
+    },
+    "sources": [
+      {
+        "record_id": "fv_cinema_historical",
+        "source_type": "targeted_verification",
+        "url": "https://www.jfdaily.com/sgh/detail?id=1175176",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_search_index; web_open shell did not expose article body",
+        "supports": [
+          "targeted_verification"
+        ]
+      }
+    ]
+  },
+  "route:wb_7ca7f91efb488c29": {
+    "checked_at": "2026-10-04T09:56:22+00:00",
+    "status": "completed",
+    "scope": "bounded targeted verification; no collection/enrichment",
+    "checks": {
+      "current_existence": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_theatre_license",
+          "fv_theatre_services"
+        ]
+      },
+      "stable_public_venue": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_theatre_license",
+          "fv_theatre_services"
+        ]
+      },
+      "purposeful_visit": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_theatre_services"
+        ]
+      },
+      "arrival_scenario": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_theatre_services"
+        ]
+      },
+      "independent_citywalk_value": {
+        "status": "confirmed",
+        "evidence_refs": [
+          "fv_theatre_services",
+          "fv_theatre_license"
+        ]
+      }
+    },
+    "conclusion": "近期官方许可与官网文化服务支持稳定公共演艺目的地及有目的参观场景，接受supporting_stop；仅保留直接支持art，不新增建筑/拍照/地标标签。详细开放时间、当前可订场次及现场入场条件unknown。",
+    "representative_anchor": null,
+    "evidence_catalog": {
+      "fv_theatre_services": {
+        "record_id": "fv_theatre_services",
+        "source_type": "targeted_verification",
+        "url": "https://www.shwbtheatre.com/wbtheatrepc/index.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": "2026-09",
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "官方官网索引包含近期2026年9月资讯、演出购票、参观导览预约、如何到达及龙腾大道2290号地址；明确文化到访场景。直接open返回浏览器兼容提示，内容取官方页面搜索索引，不声称完成现场验门。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_search_index; web_open compatibility fallback"
+      },
+      "fv_theatre_license": {
+        "record_id": "fv_theatre_license",
+        "source_type": "targeted_verification",
+        "url": "https://www.xuhui.gov.cn/xxgk/portal/article/detail?id=8a4c0c069a97abda019f938a19e230a9",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "published_at": "2026-07-24",
+        "group": "targeted_fact_check",
+        "field": "source_summary",
+        "value": "徐汇文旅局2026许可申请人为上海西岸大剧院管理有限公司、演出地点西岸大剧院大剧场，许可近期音乐剧演出，佐证当前场馆运营与文化用途。",
+        "extraction": "reviewer paraphrase of retrieved source; not a verbatim quotation",
+        "retrieval_method": "web_open"
+      }
+    },
+    "sources": [
+      {
+        "record_id": "fv_theatre_services",
+        "source_type": "targeted_verification",
+        "url": "https://www.shwbtheatre.com/wbtheatrepc/index.html",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_search_index; web_open compatibility fallback",
+        "supports": [
+          "targeted_verification"
+        ]
+      },
+      {
+        "record_id": "fv_theatre_license",
+        "source_type": "targeted_verification",
+        "url": "https://www.xuhui.gov.cn/xxgk/portal/article/detail?id=8a4c0c069a97abda019f938a19e230a9",
+        "retrieved_at": "2026-10-04T09:56:22+00:00",
+        "retrieval_method": "web_open",
+        "supports": [
+          "targeted_verification"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "total": 58,
+  "counts": {
+    "AREA": 27,
+    "POINT": 26,
+    "LINEAR": 5
+  },
+  "area_linear_with_valid_anchor": 32,
+  "area_linear_with_valid_extent": 32,
+  "provider_boundaries": 0,
+  "reviewed_spatial_profiles": 0
+}

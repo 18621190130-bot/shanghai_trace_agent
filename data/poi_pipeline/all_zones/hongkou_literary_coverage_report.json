@@ -1,0 +1,499 @@
+{
+  "before": {
+    "walk_zone": "hongkou_literary",
+    "poi_count": 6,
+    "coverage": {
+      "interest_tags": {
+        "frequency": {
+          "history": 4,
+          "architecture": 3,
+          "local_life": 1,
+          "literature": 4,
+          "art": 1,
+          "industrial_heritage": 1,
+          "waterfront": 0,
+          "religion": 0,
+          "parks": 1,
+          "modern_city": 0,
+          "modern_china_history": 1,
+          "music": 0,
+          "gardens": 0,
+          "shopping_lifestyle": 1
+        },
+        "zero_coverage": [
+          "waterfront",
+          "religion",
+          "modern_city",
+          "music",
+          "gardens"
+        ],
+        "low_coverage": [
+          "local_life",
+          "art",
+          "industrial_heritage",
+          "parks",
+          "modern_china_history",
+          "shopping_lifestyle"
+        ]
+      },
+      "experience_tags": {
+        "frequency": {
+          "iconic_landmark": 0,
+          "neighborhood_walk": 2,
+          "street_scene": 1,
+          "local_atmosphere": 1,
+          "museum_visit": 2,
+          "photogenic": 1,
+          "quiet_walk": 4,
+          "adaptive_reuse": 2,
+          "riverside_walk": 0,
+          "bookish": 1,
+          "social_observation": 1,
+          "architecture_detail": 2,
+          "shopping_leisure": 0
+        },
+        "zero_coverage": [
+          "iconic_landmark",
+          "riverside_walk",
+          "shopping_leisure"
+        ],
+        "low_coverage": [
+          "street_scene",
+          "local_atmosphere",
+          "photogenic",
+          "bookish",
+          "social_observation"
+        ]
+      },
+      "culture_tags": {
+        "frequency": {
+          "old_city": 0,
+          "shikumen": 0,
+          "lane_life": 2,
+          "modern_shanghai": 6,
+          "literary_shanghai": 4,
+          "religious_culture": 0,
+          "sino_foreign_exchange": 1,
+          "political_history": 1,
+          "industrial_transformation": 1,
+          "urban_renewal": 2,
+          "garden_culture": 0,
+          "public_life": 1,
+          "music_culture": 0
+        },
+        "zero_coverage": [
+          "old_city",
+          "shikumen",
+          "religious_culture",
+          "garden_culture",
+          "music_culture"
+        ],
+        "low_coverage": [
+          "sino_foreign_exchange",
+          "political_history",
+          "industrial_transformation",
+          "public_life"
+        ]
+      }
+    },
+    "route_role_coverage": {
+      "unaudited": 6
+    },
+    "category_distribution": {
+      "Literary District": 2,
+      "Historic Residential Architecture": 1,
+      "Literary Heritage / Bookstore": 1,
+      "Literary & Modern History": 1,
+      "Industrial Heritage": 1
+    },
+    "largest_category_fraction": 0.3333333333333333,
+    "strong_themes": {
+      "interest_tags": [
+        "history",
+        "literature",
+        "architecture"
+      ],
+      "experience_tags": [
+        "quiet_walk",
+        "adaptive_reuse",
+        "architecture_detail",
+        "museum_visit",
+        "neighborhood_walk"
+      ],
+      "culture_tags": [
+        "modern_shanghai",
+        "literary_shanghai",
+        "lane_life",
+        "urban_renewal"
+      ]
+    },
+    "highly_correlated_tags": [
+      {
+        "tags": [
+          "interest_tags.literature",
+          "experience_tags.quiet_walk"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 4
+      },
+      {
+        "tags": [
+          "interest_tags.literature",
+          "culture_tags.literary_shanghai"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 4
+      },
+      {
+        "tags": [
+          "experience_tags.neighborhood_walk",
+          "culture_tags.lane_life"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 2
+      },
+      {
+        "tags": [
+          "experience_tags.quiet_walk",
+          "culture_tags.literary_shanghai"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 4
+      },
+      {
+        "tags": [
+          "experience_tags.adaptive_reuse",
+          "culture_tags.urban_renewal"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 2
+      }
+    ],
+    "definitions": {
+      "low_coverage": "count = 1",
+      "highly_correlated": "Jaccard >= 0.8, joint count >= 2; descriptive co-occurrence, not causal or Pearson correlation"
+    },
+    "production_sha256": "7cf7dc10c34a7f7947eb95eb9128db5cb7ec283e85a3f12f333fc01275caa127",
+    "museum_dependency": {
+      "definition": "museum_visit tag; does not imply indoor-only or required admission",
+      "count": 2,
+      "fraction": 0.3333333333333333,
+      "non_museum_count": 4,
+      "museum_pois_supporting_walk_stop": 1
+    },
+    "geography": {
+      "coordinate_system": "GCJ-02",
+      "missing_count": 0,
+      "bbox": [
+        31.254559,
+        121.4782,
+        31.2712,
+        121.491884
+      ],
+      "pois": [
+        {
+          "id": "p4",
+          "name": "鲁迅故居",
+          "coordinates": [
+            31.2693,
+            121.481
+          ]
+        },
+        {
+          "id": "p10",
+          "name": "今潮8弄",
+          "coordinates": [
+            31.2588,
+            121.4782
+          ]
+        },
+        {
+          "id": "p16",
+          "name": "鲁迅公园",
+          "coordinates": [
+            31.2712,
+            121.4844
+          ]
+        },
+        {
+          "id": "p25",
+          "name": "1927·鲁迅与内山纪念书局",
+          "coordinates": [
+            31.264768526339903,
+            121.4837278959415
+          ]
+        },
+        {
+          "id": "p26",
+          "name": "中国左翼作家联盟会址纪念馆",
+          "coordinates": [
+            31.263599596059006,
+            121.48105086774376
+          ]
+        },
+        {
+          "id": "p27",
+          "name": "1933老场坊",
+          "coordinates": [
+            31.254559,
+            121.491884
+          ]
+        }
+      ]
+    }
+  },
+  "after": {
+    "walk_zone": "hongkou_literary",
+    "poi_count": 9,
+    "coverage": {
+      "interest_tags": {
+        "frequency": {
+          "history": 5,
+          "architecture": 3,
+          "local_life": 1,
+          "literature": 5,
+          "art": 1,
+          "industrial_heritage": 1,
+          "waterfront": 0,
+          "religion": 0,
+          "parks": 2,
+          "modern_city": 0,
+          "modern_china_history": 2,
+          "music": 0,
+          "gardens": 1,
+          "shopping_lifestyle": 1
+        },
+        "zero_coverage": [
+          "waterfront",
+          "religion",
+          "modern_city",
+          "music"
+        ],
+        "low_coverage": [
+          "local_life",
+          "art",
+          "industrial_heritage",
+          "gardens",
+          "shopping_lifestyle"
+        ]
+      },
+      "experience_tags": {
+        "frequency": {
+          "iconic_landmark": 0,
+          "neighborhood_walk": 4,
+          "street_scene": 3,
+          "local_atmosphere": 2,
+          "museum_visit": 2,
+          "photogenic": 1,
+          "quiet_walk": 5,
+          "adaptive_reuse": 2,
+          "riverside_walk": 0,
+          "bookish": 1,
+          "social_observation": 1,
+          "architecture_detail": 2,
+          "shopping_leisure": 0
+        },
+        "zero_coverage": [
+          "iconic_landmark",
+          "riverside_walk",
+          "shopping_leisure"
+        ],
+        "low_coverage": [
+          "photogenic",
+          "bookish",
+          "social_observation"
+        ]
+      },
+      "culture_tags": {
+        "frequency": {
+          "old_city": 0,
+          "shikumen": 0,
+          "lane_life": 3,
+          "modern_shanghai": 6,
+          "literary_shanghai": 5,
+          "religious_culture": 0,
+          "sino_foreign_exchange": 1,
+          "political_history": 3,
+          "industrial_transformation": 1,
+          "urban_renewal": 2,
+          "garden_culture": 1,
+          "public_life": 1,
+          "music_culture": 0
+        },
+        "zero_coverage": [
+          "old_city",
+          "shikumen",
+          "religious_culture",
+          "music_culture"
+        ],
+        "low_coverage": [
+          "sino_foreign_exchange",
+          "industrial_transformation",
+          "garden_culture",
+          "public_life"
+        ]
+      }
+    },
+    "route_role_coverage": {
+      "anchor": 4,
+      "supporting_stop": 5
+    },
+    "category_distribution": {
+      "Literary District": 2,
+      "Historic Residential Architecture": 1,
+      "Literary Heritage / Bookstore": 1,
+      "Literary & Modern History": 1,
+      "Industrial Heritage": 1,
+      "park": 1,
+      "public_space": 2
+    },
+    "largest_category_fraction": 0.2222222222222222,
+    "strong_themes": {
+      "interest_tags": [
+        "history",
+        "literature",
+        "architecture",
+        "modern_china_history",
+        "parks"
+      ],
+      "experience_tags": [
+        "quiet_walk",
+        "neighborhood_walk",
+        "street_scene",
+        "adaptive_reuse",
+        "architecture_detail",
+        "local_atmosphere",
+        "museum_visit"
+      ],
+      "culture_tags": [
+        "modern_shanghai",
+        "literary_shanghai",
+        "lane_life",
+        "political_history",
+        "urban_renewal"
+      ]
+    },
+    "highly_correlated_tags": [
+      {
+        "tags": [
+          "interest_tags.literature",
+          "culture_tags.literary_shanghai"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 5
+      },
+      {
+        "tags": [
+          "interest_tags.parks",
+          "experience_tags.local_atmosphere"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 2
+      },
+      {
+        "tags": [
+          "experience_tags.adaptive_reuse",
+          "culture_tags.urban_renewal"
+        ],
+        "jaccard": 1.0,
+        "shared_poi_count": 2
+      }
+    ],
+    "definitions": {
+      "low_coverage": "count = 1",
+      "highly_correlated": "Jaccard >= 0.8, joint count >= 2; descriptive co-occurrence, not causal or Pearson correlation"
+    },
+    "production_sha256": "0dd09c7e4fef8a5617bb0afae1bfb7ec945d36cbf96edb31196211d396158fb1",
+    "museum_dependency": {
+      "definition": "museum_visit tag; does not imply indoor-only or required admission",
+      "count": 2,
+      "fraction": 0.2222222222222222,
+      "non_museum_count": 7,
+      "museum_pois_supporting_walk_stop": 1
+    },
+    "geography": {
+      "coordinate_system": "GCJ-02",
+      "missing_count": 0,
+      "bbox": [
+        31.254559,
+        121.4782,
+        31.2712,
+        121.491884
+      ],
+      "pois": [
+        {
+          "id": "p4",
+          "name": "鲁迅故居",
+          "coordinates": [
+            31.2693,
+            121.481
+          ]
+        },
+        {
+          "id": "p10",
+          "name": "今潮8弄",
+          "coordinates": [
+            31.2588,
+            121.4782
+          ]
+        },
+        {
+          "id": "p16",
+          "name": "鲁迅公园",
+          "coordinates": [
+            31.2712,
+            121.4844
+          ]
+        },
+        {
+          "id": "p25",
+          "name": "1927·鲁迅与内山纪念书局",
+          "coordinates": [
+            31.264768526339903,
+            121.4837278959415
+          ]
+        },
+        {
+          "id": "p26",
+          "name": "中国左翼作家联盟会址纪念馆",
+          "coordinates": [
+            31.263599596059006,
+            121.48105086774376
+          ]
+        },
+        {
+          "id": "p27",
+          "name": "1933老场坊",
+          "coordinates": [
+            31.254559,
+            121.491884
+          ]
+        },
+        {
+          "id": "pz_0b545bb1cf2a",
+          "name": "四川北路公园",
+          "coordinates": [
+            31.254871,
+            121.484802
+          ]
+        },
+        {
+          "id": "pz_b72e3b8998b3",
+          "name": "多伦路文化名人街",
+          "coordinates": [
+            31.264124,
+            121.481748
+          ]
+        },
+        {
+          "id": "pz_b4acff8f32fc",
+          "name": "甜爱路",
+          "coordinates": [
+            31.26723,
+            121.483903
+          ]
+        }
+      ]
+    }
+  }
+}

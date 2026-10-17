@@ -1,0 +1,32 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_6813e50b550d36b6",
+  "node_identity": "amap:B0015581AB",
+  "semantic": null,
+  "output": null,
+  "attempts": [
+    {
+      "status": "validation_failure",
+      "kind": "unsupported_tag_evidence_or_over_generation",
+      "feedback": "quiet_walk unsupported by cited evidence; remove or cite explicit matching description; garden_culture unsupported by cited evidence; remove or cite explicit matching description",
+      "provider": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 4886,
+          "completion_tokens": 781,
+          "total_tokens": 5667,
+          "prompt_tokens_details": {
+            "cached_tokens": 2944
+          },
+          "prompt_cache_hit_tokens": 2944,
+          "prompt_cache_miss_tokens": 1942
+        }
+      }
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "1d15d3d1705a2748e42e9844622e3534b498a6b9e5e14ca605f01d393c1105c1",
+  "evidence_hash": "6e1b72fa09167b632e3ccf5af27dcae184fc842fcd6c7d5b319d749451392ccd",
+  "retry_reason": "evidence_materially_improved"
+}

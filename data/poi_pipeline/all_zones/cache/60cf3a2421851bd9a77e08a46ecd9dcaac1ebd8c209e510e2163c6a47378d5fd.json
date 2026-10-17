@@ -1,0 +1,21 @@
+{
+  "source": "amap",
+  "url": "https://restapi.amap.com/v3/place/text",
+  "parameters": {
+    "keywords": "外滩陈毅广场",
+    "city": "上海",
+    "citylimit": "true",
+    "offset": "3",
+    "page": "1",
+    "extensions": "base",
+    "output": "JSON"
+  },
+  "variant": "json-v1",
+  "retrieved_at": "2026-10-04T14:56:36.846794+00:00",
+  "response": {
+    "status": "0",
+    "info": "CUQPS_HAS_EXCEEDED_THE_LIMIT",
+    "infocode": "10021"
+  },
+  "response_hash": "7a9ad064d51df8c3ef44d57b52f3d0e646817eba5b3dc3ab89bff0822611dd01"
+}

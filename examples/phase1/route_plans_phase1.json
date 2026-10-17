@@ -1,0 +1,382 @@
+{
+  "examples": {
+    "Architecture Walk": {
+      "status": "success",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "architecture",
+          "local_life"
+        ],
+        "experience_tags": [
+          "neighborhood_walk"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": null,
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null
+      },
+      "selected_zone": "hengfu",
+      "ordered_pois": [
+        {
+          "id": "p11",
+          "name_zh": "建业里",
+          "name_en": "Jianyeli",
+          "walk_zone": "hengfu",
+          "estimated_stay_minutes": 60.0,
+          "estimated_distance_from_previous_stop_km": 0.0,
+          "estimated_walking_minutes": 0.0,
+          "recommendation_score": 16.0,
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Hengfu · Wukang · Yongkang.",
+          "must_go": false,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": null,
+          "reservation_required": null,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2073,
+            121.4562
+          ],
+          "original_coordinates": [
+            31.2073,
+            121.4562
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": null
+        },
+        {
+          "id": "p2",
+          "name_zh": "永康路与嘉善路口",
+          "name_en": "Yongkang Road × Jiashan Road",
+          "walk_zone": "hengfu",
+          "estimated_stay_minutes": 60.0,
+          "estimated_distance_from_previous_stop_km": 0.8435613726987543,
+          "estimated_walking_minutes": 11.247484969316725,
+          "recommendation_score": 14.734657940951868,
+          "matched_tags": {
+            "interest_tags": [
+              "architecture",
+              "local_life"
+            ],
+            "experience_tags": [
+              "neighborhood_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Hengfu · Wukang · Yongkang.",
+          "must_go": false,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": null,
+          "reservation_required": null,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2128,
+            121.4592
+          ],
+          "original_coordinates": [
+            31.2128,
+            121.4592
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": null
+        }
+      ],
+      "cross_zone_required": false,
+      "total_estimated_distance_km": 0.8435613726987543,
+      "total_estimated_walking_minutes": 11.247484969316725,
+      "total_stay_minutes": 120.0,
+      "buffer_minutes": 15,
+      "total_estimated_minutes": 146.24748496931673,
+      "remaining_minutes": 33.75251503068327,
+      "warnings": [
+        "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+        "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+        "opening_status_unverified: arrival-time opening is not checked for any stop.",
+        "exclude_from_distance_based_route: p20, p22, p23, p24, p26, p31",
+        "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+        "crowd_level_unknown: p11; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p11; unknown does not mean free or reservation-free.",
+        "crowd_level_unknown: p2; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p2; unknown does not mean free or reservation-free."
+      ],
+      "explanation": "Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional stops use score-ranked feasible insertion. Every accepted route is rechecked against both budgets.",
+      "errors": [],
+      "relaxation_suggestions": [],
+      "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance."
+    },
+    "Literary Walk": {
+      "status": "success",
+      "request": {
+        "available_minutes": 120,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "literature"
+        ],
+        "experience_tags": [
+          "quiet_walk"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": null,
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null
+      },
+      "selected_zone": "hongkou_literary",
+      "ordered_pois": [
+        {
+          "id": "p16",
+          "name_zh": "鲁迅公园",
+          "name_en": "Lu Xun Park",
+          "walk_zone": "hongkou_literary",
+          "estimated_stay_minutes": 67.5,
+          "estimated_distance_from_previous_stop_km": 0.0,
+          "estimated_walking_minutes": 0.0,
+          "recommendation_score": 11.0,
+          "matched_tags": {
+            "interest_tags": [
+              "literature"
+            ],
+            "experience_tags": [
+              "quiet_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: literature, quiet_walk. Located in Hongkou Literary · North Sichuan Road.",
+          "must_go": false,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": null,
+          "reservation_required": null,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.2712,
+            121.4844
+          ],
+          "original_coordinates": [
+            31.2712,
+            121.4844
+          ],
+          "original_coordinate_system": "GCJ-02 approximate (from current project HTML)",
+          "visit_scope": null
+        }
+      ],
+      "cross_zone_required": false,
+      "total_estimated_distance_km": 0.0,
+      "total_estimated_walking_minutes": 0.0,
+      "total_stay_minutes": 67.5,
+      "buffer_minutes": 15,
+      "total_estimated_minutes": 82.5,
+      "remaining_minutes": 37.5,
+      "warnings": [
+        "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+        "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+        "opening_status_unverified: arrival-time opening is not checked for any stop.",
+        "exclude_from_distance_based_route: p20, p22, p23, p24, p26, p31",
+        "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+        "crowd_level_unknown: p16; low crowd is not guaranteed.",
+        "entry_requirements_unverified: p16; unknown does not mean free or reservation-free."
+      ],
+      "explanation": "Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional stops use score-ranked feasible insertion. Every accepted route is rechecked against both budgets.",
+      "errors": [],
+      "relaxation_suggestions": [],
+      "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance."
+    },
+    "West Bund Art Walk": {
+      "status": "success",
+      "request": {
+        "available_minutes": 180,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [
+          "art",
+          "industrial_heritage"
+        ],
+        "experience_tags": [
+          "riverside_walk"
+        ],
+        "culture_tags": [],
+        "must_go_poi_ids": [],
+        "preferred_zone": null,
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null
+      },
+      "selected_zone": "west_bund",
+      "ordered_pois": [
+        {
+          "id": "p28",
+          "name_zh": "西岸美术馆",
+          "name_en": "West Bund Museum",
+          "walk_zone": "west_bund",
+          "estimated_stay_minutes": 90.0,
+          "estimated_distance_from_previous_stop_km": 0.0,
+          "estimated_walking_minutes": 0.0,
+          "recommendation_score": 11.0,
+          "matched_tags": {
+            "interest_tags": [
+              "art"
+            ],
+            "experience_tags": [
+              "riverside_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: art, riverside_walk. Located in West Bund · Industrial Art Waterfront.",
+          "must_go": false,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": "Tue-Sun 11:00-18:00; last entry 17:00; Monday closed",
+          "ticket_required": true,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.167682,
+            121.463841
+          ],
+          "original_coordinates": [
+            31.167682,
+            121.463841
+          ],
+          "original_coordinate_system": "GCJ-02 / Amap",
+          "visit_scope": null
+        },
+        {
+          "id": "p29",
+          "name_zh": "上海油罐艺术中心",
+          "name_en": "TANK Shanghai",
+          "walk_zone": "west_bund",
+          "estimated_stay_minutes": 67.5,
+          "estimated_distance_from_previous_stop_km": 0.44332853829981694,
+          "estimated_walking_minutes": 5.911047177330893,
+          "recommendation_score": 15.335007192550275,
+          "matched_tags": {
+            "interest_tags": [
+              "art",
+              "industrial_heritage"
+            ],
+            "experience_tags": [
+              "riverside_walk"
+            ],
+            "culture_tags": []
+          },
+          "reason_for_recommendation": "Recommended because it matches: art, industrial_heritage, riverside_walk. Located in West Bund · Industrial Art Waterfront.",
+          "must_go": false,
+          "opening_status": "opening_status_unverified",
+          "original_opening_hours": null,
+          "ticket_required": true,
+          "reservation_required": false,
+          "coordinate_system": "GCJ-02",
+          "estimated_coordinates": [
+            31.164519,
+            121.464321
+          ],
+          "original_coordinates": [
+            31.164519,
+            121.464321
+          ],
+          "original_coordinate_system": "GCJ-02 / Amap",
+          "visit_scope": null
+        }
+      ],
+      "cross_zone_required": false,
+      "total_estimated_distance_km": 0.44332853829981694,
+      "total_estimated_walking_minutes": 5.911047177330893,
+      "total_stay_minutes": 157.5,
+      "buffer_minutes": 15,
+      "total_estimated_minutes": 178.4110471773309,
+      "remaining_minutes": 1.588952822669114,
+      "warnings": [
+        "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+        "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+        "opening_status_unverified: arrival-time opening is not checked for any stop.",
+        "exclude_from_distance_based_route: p20, p22, p23, p24, p26, p31",
+        "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.",
+        "ticket_required: p28; ticket cost and availability are not checked.",
+        "ticket_required: p29; ticket cost and availability are not checked."
+      ],
+      "explanation": "Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; optional stops use score-ranked feasible insertion. Every accepted route is rechecked against both budgets.",
+      "errors": [],
+      "relaxation_suggestions": [],
+      "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance."
+    },
+    "Yu Garden 90-minute infeasible request": {
+      "status": "infeasible",
+      "request": {
+        "available_minutes": 90,
+        "start_lat": null,
+        "start_lng": null,
+        "start_coordinate_system": "GCJ-02",
+        "interest_tags": [],
+        "experience_tags": [],
+        "culture_tags": [],
+        "must_go_poi_ids": [
+          "p15"
+        ],
+        "preferred_zone": null,
+        "max_walking_km": null,
+        "avoid_crowds": false,
+        "environment_preference": null
+      },
+      "selected_zone": "old_city_central",
+      "ordered_pois": [],
+      "cross_zone_required": false,
+      "total_estimated_distance_km": null,
+      "total_estimated_walking_minutes": null,
+      "total_stay_minutes": null,
+      "buffer_minutes": null,
+      "total_estimated_minutes": null,
+      "remaining_minutes": null,
+      "warnings": [
+        "estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.",
+        "walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.",
+        "opening_status_unverified: arrival-time opening is not checked for any stop.",
+        "exclude_from_distance_based_route: p20, p22, p23, p24, p26, p31",
+        "cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value."
+      ],
+      "explanation": "Proven required-time lower bound is 105.00 estimated minutes, exceeding 90.",
+      "errors": [
+        "Proven required-time lower bound is 105.00 estimated minutes, exceeding 90."
+      ],
+      "relaxation_suggestions": [
+        "Increase the time or walking-distance budget, or revise must-go requirements."
+      ],
+      "time_budget_scope": "First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.",
+      "distance_method": "estimated: Haversine × configured walking_distance_factor",
+      "scoring_distance_basis": "Insertion ranking: added route distance; final node score: previous leg distance."
+    }
+  },
+  "missing_coordinate_poi_ids": [
+    "p20",
+    "p22",
+    "p23",
+    "p24",
+    "p26",
+    "p31"
+  ]
+}

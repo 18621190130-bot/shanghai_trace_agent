@@ -1,0 +1,213 @@
+{
+  "initial_tree": ".env.example\n.gitignore\nchat_demo.py\nCONTEXT.md\ndata/\ndata/archive/\ndata/archive/pois_phase1.json\ndata/pois.json\ndata/surprise_themes.json\ndemo.py\nEXAMPLE_REVIEW.md\nexamples/\nexamples/archive/\nexamples/archive/route_plans_phase1.json\nexamples/clarification.schema.json\nexamples/deepseek_provider_baseline.json\nexamples/deepseek_provider_smoke.json\nexamples/intent_system_prompt.txt\nexamples/llm_candidate.schema.json\nexamples/manual_routes.txt\nexamples/phase2_first_repair.json\nexamples/phase2_first_repair_cli.txt\nexamples/phase2_first_repair_routes.txt\nexamples/phase2_manual_routes.txt\nexamples/phase2_plan_for_me_simulations.md\nexamples/phase2_repair11.json\nexamples/phase2_repair11_cli.txt\nexamples/phase2_repair12.json\nexamples/phase2_repair12_cli.txt\nexamples/phase2_repair13.json\nexamples/phase2_repair13_cli.txt\nexamples/phase2_routes.json\nexamples/phase2_unified_patch.json\nexamples/phase2_unified_patch_cli.txt\nexamples/poi_catalog.json\nexamples/request.json\nexamples/route_intent.schema.json\nexamples/route_plans.json\nPHASE15B_CALIBRATION_REPORT.md\nPHASE1_DESIGN_REVIEW.md\nPHASE2_DELIVERY_REPORT.md\nphase2_plan_for_me_simulations.md\nREADME.md\nroute_entry_demo.py\nscripts/\nscripts/calibrate_phase15b.py\nscripts/diagnose_deepseek.py\nscripts/export_phase15b_audit.py\nscripts/export_phase2_audit.py\nscripts/export_phase2_repair.py\nscripts/export_phase2_repair11.py\nscripts/export_phase2_repair12.py\nscripts/export_phase2_repair13.py\nscripts/export_phase2_unified_patch.py\nshanghaitrace_poi_kb_v1.json\nshanghaitrace_poi_kb_v2_25pois.json\nshanghaitrace_poi_kb_v3_minimal_tags.json\nsrc/\nsrc/__init__.py\nsrc/clarification.py\nsrc/feasibility.py\nsrc/geo_utils.py\nsrc/intent_adapter.py\nsrc/intent_models.py\nsrc/intent_parser.py\nsrc/intent_schema.py\nsrc/llm_client.py\nsrc/location_resolver.py\nsrc/mock_examples.py\nsrc/models.py\nsrc/poi_repository.py\nsrc/recommendation_engine.py\nsrc/route_engine.py\nsrc/route_entry.py\nsrc/route_quality.py\nsrc/semantic_expansion.py\nsrc/surprise_policy.py\nsrc/visit_planner.py\ntests/\ntests/__init__.py\ntests/helpers.py\ntests/test_cli.py\ntests/test_deepseek_provider.py\ntests/test_geo_utils.py\ntests/test_phase2.py\ntests/test_phase2_final_repair.py\ntests/test_phase2_quality.py\ntests/test_phase2_repair.py\ntests/test_phase2_richness.py\ntests/test_phase2_unified_patch.py\ntests/test_recommendation.py\ntests/test_repository.py\ntests/test_route_engine.py\ntests/test_visit_calibration.py\nTHIRD_PARTY_NOTICES.md",
+  "moves": [
+    {
+      "from": "examples/clarification.schema.json",
+      "to": "examples/phase2/clarification.schema.json",
+      "sha256": "659f86c5355d966169fac180b0c6f463de1c05ebd1bb9469541c1be60f146b6b"
+    },
+    {
+      "from": "examples/deepseek_provider_baseline.json",
+      "to": "examples/phase2/deepseek_provider_baseline.json",
+      "sha256": "db4af2b595640f37b42c1a84a9639ce376b6ad35d363146eb1d73a80a5f62b09"
+    },
+    {
+      "from": "examples/deepseek_provider_smoke.json",
+      "to": "examples/phase2/deepseek_provider_smoke.json",
+      "sha256": "d4ea002d124a313731dd2ff688e6b4a72ef02aa8f86c6a29c94c0639ed7bf91f"
+    },
+    {
+      "from": "examples/intent_system_prompt.txt",
+      "to": "examples/phase2/intent_system_prompt.txt",
+      "sha256": "f7d519769073d0ec428e04ba29c1c460586bd1a7dfc94ad856de4a278b147583"
+    },
+    {
+      "from": "examples/llm_candidate.schema.json",
+      "to": "examples/phase2/llm_candidate.schema.json",
+      "sha256": "f2fd92129f6a28186edac778561723fc1fd11ca0fc5151ad0216fdf42bdebf94"
+    },
+    {
+      "from": "examples/phase2_first_repair.json",
+      "to": "examples/phase2/phase2_first_repair.json",
+      "sha256": "016c4f0c1b36408f5504e5e700f7679fb4f0fddef960f93653d778f47097d3ca"
+    },
+    {
+      "from": "examples/phase2_first_repair_cli.txt",
+      "to": "examples/phase2/phase2_first_repair_cli.txt",
+      "sha256": "c8a75789e8e40518bbcf63bf8f4b15d8982f20dab4443faca4bffa4e15233552"
+    },
+    {
+      "from": "examples/phase2_first_repair_routes.txt",
+      "to": "examples/phase2/phase2_first_repair_routes.txt",
+      "sha256": "a8f0c040acfb0f894ce4d3fbaa60beb6bf3c42cc783f572402d6585eb6e60c44"
+    },
+    {
+      "from": "examples/phase2_manual_routes.txt",
+      "to": "examples/phase2/phase2_manual_routes.txt",
+      "sha256": "4c87dcf95b9bfae5712837a03720e3ad36cd712bfa35f8b6893a4833375dbd78"
+    },
+    {
+      "from": "examples/phase2_plan_for_me_simulations.md",
+      "to": "examples/phase2/phase2_plan_for_me_simulations.md",
+      "sha256": "27a2a5fda48db5f0a2117a961927298facf522231cda6e9a82cf02959870a537"
+    },
+    {
+      "from": "examples/phase2_repair11.json",
+      "to": "examples/phase2/phase2_repair11.json",
+      "sha256": "9ed54478d0cf3065043542f778bdfec17592b753f825e369f6d80fe0b0f34c2c"
+    },
+    {
+      "from": "examples/phase2_repair11_cli.txt",
+      "to": "examples/phase2/phase2_repair11_cli.txt",
+      "sha256": "2a6543ef2f869846274c70c5d2f076c9f716ee738db6ea1da5136ed37534c977"
+    },
+    {
+      "from": "examples/phase2_repair12.json",
+      "to": "examples/phase2/phase2_repair12.json",
+      "sha256": "6ac1f822a7b9bb536c9f9758bea49344f94e23b4c1b9df1685ccf5427b46f79b"
+    },
+    {
+      "from": "examples/phase2_repair12_cli.txt",
+      "to": "examples/phase2/phase2_repair12_cli.txt",
+      "sha256": "8f069e8125f0d9d228385e0a0e5695753fabac3b299ac5053e017859385a0400"
+    },
+    {
+      "from": "examples/phase2_repair13.json",
+      "to": "examples/phase2/phase2_repair13.json",
+      "sha256": "b5300341bc243bb0d5896f9abf97a940e4a2ee10b6e2a5883cce53baaec9873c"
+    },
+    {
+      "from": "examples/phase2_repair13_cli.txt",
+      "to": "examples/phase2/phase2_repair13_cli.txt",
+      "sha256": "c3f03ea9913a414c857b1df1b25fd965ae1e3c61ba55cf8ad20f202381581a2d"
+    },
+    {
+      "from": "examples/phase2_routes.json",
+      "to": "examples/phase2/phase2_routes.json",
+      "sha256": "6ae64aeec05626975186f4d614366d4c7a7620c3d6a7592c373edc2e15d5e31b"
+    },
+    {
+      "from": "examples/phase2_unified_patch.json",
+      "to": "examples/phase2/phase2_unified_patch.json",
+      "sha256": "cd0317f9ad6159dd4589bbe4509718987f199a8669dbaf58c9f37688063a2a77"
+    },
+    {
+      "from": "examples/phase2_unified_patch_cli.txt",
+      "to": "examples/phase2/phase2_unified_patch_cli.txt",
+      "sha256": "aa8054a0ef5b087714d295170fda45b19095c1e190fede7e7c87c66d0431754d"
+    },
+    {
+      "from": "examples/route_intent.schema.json",
+      "to": "examples/phase2/route_intent.schema.json",
+      "sha256": "4610ed489f090cd1993d386ec84607b70a388a13bcc89b0bb0a70698d15d0cd7"
+    },
+    {
+      "from": "examples/archive/route_plans_phase1.json",
+      "to": "examples/phase1/route_plans_phase1.json",
+      "sha256": "9e8b66df01ac5680780432333235fa16a0274c113113c97cf855be1923ee0c9e"
+    },
+    {
+      "from": "shanghaitrace_poi_kb_v1.json",
+      "to": "data/archive/shanghaitrace_poi_kb_v1.json",
+      "sha256": "61c29c35587cd293e2680b0526ffe66d997d12d78b02ec9ff5420de72c3fc6bb"
+    },
+    {
+      "from": "shanghaitrace_poi_kb_v2_25pois.json",
+      "to": "data/archive/shanghaitrace_poi_kb_v2_25pois.json",
+      "sha256": "e309993e2a4042bed77b766e654821be0bb8e0769ffb161faf418f5bbfed3d51"
+    },
+    {
+      "from": "shanghaitrace_poi_kb_v3_minimal_tags.json",
+      "to": "data/archive/shanghaitrace_poi_kb_v3_minimal_tags.json",
+      "sha256": "cbdf5edc4409378e23c1da4572a61885a76ee04a6a3701d842be4f3178009f7c"
+    }
+  ],
+  "deleted": [
+    "phase2_plan_for_me_simulations.md (SHA256-identical duplicate)"
+  ],
+  "protected_sha256_before": {
+    "src/clarification.py": "4ec22bfcd5d51f398fdf937f8575bf0c0d55ccfa341dc935a383adadf160aca2",
+    "src/feasibility.py": "6acdfb2f6fa582cb7aa81733187b3a89f32fd957a15df646d7d20881d4865b28",
+    "src/geo_utils.py": "0429da5386f2b03ba91b0afdba9114ccda3ff21d540df4ea5af58134b27b53e2",
+    "src/intent_adapter.py": "c342cf75d1ed879dc4d2ccdb6c3b25b623f3aecdf33bb3a745f619a51f7ee634",
+    "src/intent_models.py": "a00dc1123da9188201c55b6a06b9741c9096730997ebf2d08fb667a707faa115",
+    "src/intent_parser.py": "71419bf8627826352d7e58ab20ea7bb9ec608da00811d0112ca78e45bbe42da6",
+    "src/intent_schema.py": "ff87536e42d57e233cba90ccf24b68e0fc6165c029939bc194923094e858d7e7",
+    "src/llm_client.py": "5e596fd9719a50b7652b3a9e9c7ca615b5b04111c30b8c3ec0ec12caf863cfa5",
+    "src/location_resolver.py": "e53714c93033928e871a3853f0caa792cbc1a0dbae2bb63193e82eb4b032dd78",
+    "src/mock_examples.py": "8decc74c652881034fb4f34097a0603061e7509afeb0cb0cf824af47a3b310ac",
+    "src/models.py": "02086b0cc12d13d8e36d26ac09b3402f9587260eba97c4142a5b7d85beb8e8eb",
+    "src/poi_repository.py": "b92e9dd78df5fd5865735399f80e3d2c8ed5d183606adf90085c026351df7850",
+    "src/recommendation_engine.py": "2e0b990704fd81ff7c102297fc340d062f82dff5343f133cf1438f4343a70b20",
+    "src/route_engine.py": "c808ea854b7d1e612e78b0b9c847ffe5fd130f446834f340ddd29b6e10a5b2b4",
+    "src/route_entry.py": "ef6a5fd79847c11d4995d870c332bbcce66502eabe8b1656b9ca0046477c9829",
+    "src/route_quality.py": "2677e8d3023043f5f98307b632203ec72c38f71442980adaaa679fe97168abaf",
+    "src/semantic_expansion.py": "dd0475018e2d1a95c17dca510162b7b935454cfbacb4d2b1d70f101bce5141cd",
+    "src/surprise_policy.py": "fad0004da54682765b997328ea09ec34ba3d613e7e0871c9c17eb4ec484d4698",
+    "src/visit_planner.py": "febaf399e0b196853c99dd395ac21a64db73dafa44f7538cfa904c14f18aba77",
+    "src/__init__.py": "919d3344256966d8cd58d7186d8e552634610f080c3a9b6d46438de79e58e1ec",
+    "tests/helpers.py": "c6f2ff716fffc92af3ba7916182d2cb06e8791e95eeff865058d1f72086726c2",
+    "tests/test_cli.py": "3fd816794586a2d7dc6ff5b96ab229387679d7b74daac839bd3a37d4e708c79c",
+    "tests/test_deepseek_provider.py": "a625e07a3e399f5e8ad9d64a9595f279651d72c3c9c6f3fc73cbb009adc3cfd4",
+    "tests/test_geo_utils.py": "7c9ba7515b91393c95fdf5376ce2030d758aa3a833cfc6194fe0d6c9bcb60886",
+    "tests/test_phase2.py": "8e4982e3ce1b1c8d56be4ac4c9339de951c931517b399d9190c0b7c9e7b178d6",
+    "tests/test_phase2_final_repair.py": "0e1608518a52f65fd3682492e51e497d295bb5e889d3bf33ad8bac289cb23a0c",
+    "tests/test_phase2_quality.py": "b9602a31732170c361828813934f42a24bde06c168cd49e2729f1312a218b4aa",
+    "tests/test_phase2_repair.py": "e7b3b363150e1eba3a2bf8a3b2eac3809f2c2571d5fe1ea67ede601aee430e58",
+    "tests/test_phase2_richness.py": "6cc1984ea7373619c22430552cb8ec66fe65a55f09f04a13d0410ee2b10b69c1",
+    "tests/test_phase2_unified_patch.py": "65bfc47d17774a93ffc932767e7991efad0d06cc7b74966d7ca7e4249399da48",
+    "tests/test_recommendation.py": "a6b2ab63613a56f1a26344f1f31f60f0608481b9c44993a53749918c9b541eb8",
+    "tests/test_repository.py": "4c22f88c57c8d20b0c3c74cef749757765f676261febf05fd6ca544464a5006e",
+    "tests/test_route_engine.py": "a2ce5d3f8e9d89db0571f2020426e1ad78aabeabb9a52498b09498f5eabb707f",
+    "tests/test_visit_calibration.py": "85150bde52fd14917b451fc6f1f04c3659ab19a9de4f7f4be8fe9271ee598fb0",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "demo.py": "149e1fb298eb7e16914a50efb891b7302a7be83365776d18ca82fa86376223c2",
+    "chat_demo.py": "2ada6970ec41803cfa31ddf0e81b65cd3947e1d77747aa06c9bb0ba9d5118029",
+    "route_entry_demo.py": "984b4b0b72a152b4146a8b95f844f696dc0a792a2913b44167f4a65f27a18cf9",
+    "data/pois.json": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513",
+    "data/surprise_themes.json": "8fd3f8882218e9290b58154e28348e16ad085edb4c12fdd80dde44bfc43cfd7d"
+  },
+  "final_tree": "shanghai_trace_agent/\n├─ src/                         # stable functional modules\n├─ data/\n│  ├─ pois.json\n│  ├─ surprise_themes.json\n│  └─ archive/                  # Phase 1 and v1/v2/v3 source knowledge bases\n├─ tests/                       # 214 regression tests, unchanged\n├─ scripts/                     # existing tool entry points; path fixes only\n├─ examples/\n│  ├─ phase1/route_plans_phase1.json\n│  ├─ phase2/                   # schemas, simulations, real smoke evidence\n│  ├─ request.json\n│  ├─ route_plans.json\n│  ├─ poi_catalog.json\n│  └─ manual_routes.txt\n├─ docs/\n│  ├─ phases/PHASE1.md\n│  ├─ phases/PHASE1_5.md\n│  ├─ phases/PHASE2.md\n│  ├─ PHASE_MANIFEST.md\n│  ├─ PHASE2_CLEANUP.md\n│  ├─ ARCHITECTURE_REFERENCE.md\n│  └─ cleanup_inventory.json\n├─ chat_demo.py\n├─ route_entry_demo.py\n├─ demo.py\n├─ requirements.txt\n├─ README.md\n├─ PHASE1_DESIGN_REVIEW.md        # full historical report retained\n├─ EXAMPLE_REVIEW.md\n├─ PHASE15B_CALIBRATION_REPORT.md\n├─ PHASE2_DELIVERY_REPORT.md      # all repairs/provider history retained\n├─ CONTEXT.md\n├─ THIRD_PARTY_NOTICES.md\n├─ .env.example\n└─ .gitignore",
+  "protected_sha256_after": {
+    "src/clarification.py": "4ec22bfcd5d51f398fdf937f8575bf0c0d55ccfa341dc935a383adadf160aca2",
+    "src/feasibility.py": "6acdfb2f6fa582cb7aa81733187b3a89f32fd957a15df646d7d20881d4865b28",
+    "src/geo_utils.py": "0429da5386f2b03ba91b0afdba9114ccda3ff21d540df4ea5af58134b27b53e2",
+    "src/intent_adapter.py": "c342cf75d1ed879dc4d2ccdb6c3b25b623f3aecdf33bb3a745f619a51f7ee634",
+    "src/intent_models.py": "a00dc1123da9188201c55b6a06b9741c9096730997ebf2d08fb667a707faa115",
+    "src/intent_parser.py": "71419bf8627826352d7e58ab20ea7bb9ec608da00811d0112ca78e45bbe42da6",
+    "src/intent_schema.py": "ff87536e42d57e233cba90ccf24b68e0fc6165c029939bc194923094e858d7e7",
+    "src/llm_client.py": "5e596fd9719a50b7652b3a9e9c7ca615b5b04111c30b8c3ec0ec12caf863cfa5",
+    "src/location_resolver.py": "e53714c93033928e871a3853f0caa792cbc1a0dbae2bb63193e82eb4b032dd78",
+    "src/mock_examples.py": "8decc74c652881034fb4f34097a0603061e7509afeb0cb0cf824af47a3b310ac",
+    "src/models.py": "02086b0cc12d13d8e36d26ac09b3402f9587260eba97c4142a5b7d85beb8e8eb",
+    "src/poi_repository.py": "b92e9dd78df5fd5865735399f80e3d2c8ed5d183606adf90085c026351df7850",
+    "src/recommendation_engine.py": "2e0b990704fd81ff7c102297fc340d062f82dff5343f133cf1438f4343a70b20",
+    "src/route_engine.py": "c808ea854b7d1e612e78b0b9c847ffe5fd130f446834f340ddd29b6e10a5b2b4",
+    "src/route_entry.py": "ef6a5fd79847c11d4995d870c332bbcce66502eabe8b1656b9ca0046477c9829",
+    "src/route_quality.py": "2677e8d3023043f5f98307b632203ec72c38f71442980adaaa679fe97168abaf",
+    "src/semantic_expansion.py": "dd0475018e2d1a95c17dca510162b7b935454cfbacb4d2b1d70f101bce5141cd",
+    "src/surprise_policy.py": "fad0004da54682765b997328ea09ec34ba3d613e7e0871c9c17eb4ec484d4698",
+    "src/visit_planner.py": "febaf399e0b196853c99dd395ac21a64db73dafa44f7538cfa904c14f18aba77",
+    "src/__init__.py": "919d3344256966d8cd58d7186d8e552634610f080c3a9b6d46438de79e58e1ec",
+    "tests/helpers.py": "c6f2ff716fffc92af3ba7916182d2cb06e8791e95eeff865058d1f72086726c2",
+    "tests/test_cli.py": "3fd816794586a2d7dc6ff5b96ab229387679d7b74daac839bd3a37d4e708c79c",
+    "tests/test_deepseek_provider.py": "a625e07a3e399f5e8ad9d64a9595f279651d72c3c9c6f3fc73cbb009adc3cfd4",
+    "tests/test_geo_utils.py": "7c9ba7515b91393c95fdf5376ce2030d758aa3a833cfc6194fe0d6c9bcb60886",
+    "tests/test_phase2.py": "8e4982e3ce1b1c8d56be4ac4c9339de951c931517b399d9190c0b7c9e7b178d6",
+    "tests/test_phase2_final_repair.py": "0e1608518a52f65fd3682492e51e497d295bb5e889d3bf33ad8bac289cb23a0c",
+    "tests/test_phase2_quality.py": "b9602a31732170c361828813934f42a24bde06c168cd49e2729f1312a218b4aa",
+    "tests/test_phase2_repair.py": "e7b3b363150e1eba3a2bf8a3b2eac3809f2c2571d5fe1ea67ede601aee430e58",
+    "tests/test_phase2_richness.py": "6cc1984ea7373619c22430552cb8ec66fe65a55f09f04a13d0410ee2b10b69c1",
+    "tests/test_phase2_unified_patch.py": "65bfc47d17774a93ffc932767e7991efad0d06cc7b74966d7ca7e4249399da48",
+    "tests/test_recommendation.py": "a6b2ab63613a56f1a26344f1f31f60f0608481b9c44993a53749918c9b541eb8",
+    "tests/test_repository.py": "4c22f88c57c8d20b0c3c74cef749757765f676261febf05fd6ca544464a5006e",
+    "tests/test_route_engine.py": "a2ce5d3f8e9d89db0571f2020426e1ad78aabeabb9a52498b09498f5eabb707f",
+    "tests/test_visit_calibration.py": "85150bde52fd14917b451fc6f1f04c3659ab19a9de4f7f4be8fe9271ee598fb0",
+    "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "demo.py": "149e1fb298eb7e16914a50efb891b7302a7be83365776d18ca82fa86376223c2",
+    "chat_demo.py": "2ada6970ec41803cfa31ddf0e81b65cd3947e1d77747aa06c9bb0ba9d5118029",
+    "route_entry_demo.py": "984b4b0b72a152b4146a8b95f844f696dc0a792a2913b44167f4a65f27a18cf9",
+    "data/pois.json": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513",
+    "data/surprise_themes.json": "8fd3f8882218e9290b58154e28348e16ad085edb4c12fdd80dde44bfc43cfd7d"
+  }
+}

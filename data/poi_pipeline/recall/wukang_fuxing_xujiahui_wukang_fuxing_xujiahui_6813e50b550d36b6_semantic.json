@@ -1,0 +1,434 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_6813e50b550d36b6",
+  "node_identity": "amap:B0015581AB",
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "gardens"
+    ],
+    "experience_tags": [
+      "local_atmosphere",
+      "photogenic"
+    ],
+    "culture_tags": [
+      "public_life"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_7bc85f2979a2",
+          "e_481184fc32d1",
+          "e_85e68f4adbb4"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "gardens",
+        "evidence_refs": [
+          "e_6de9c8ca7e92",
+          "e_17814661ac33"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "local_atmosphere",
+        "evidence_refs": [
+          "e_6de9c8ca7e92"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "photogenic",
+        "evidence_refs": [
+          "e_17814661ac33"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "public_life",
+        "evidence_refs": [
+          "e_6de9c8ca7e92",
+          "e_6fb3b616e2e2"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_7bc85f2979a2",
+      "e_481184fc32d1",
+      "e_b1ec63a4a117"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为有花坛、草坪与市民活动的公园，具备独立休憩与漫步体验，可作为补充型停留；但缺乏高独立目的地价值证据，不足以承担路线主题。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示其具备高独立目的地价值或可承载路线主题的独特体验，故不适合作为锚点。",
+        "supporting_stop": "有明确公园属性与花坛、市民活动等体验证据，可作为补充型停留。",
+        "transition_stop": "虽可作为短时停留，但其公园体验价值高于单纯连接节点，故支持型更合适。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为沿线公园，提供绿荫、花坛与市民日常活动场景，适合城市漫步中的休憩与氛围体验。",
+      "evidence_refs": [
+        "e_6de9c8ca7e92",
+        "e_17814661ac33",
+        "e_bb621b9a1d20"
+      ]
+    },
+    "summary_draft": {
+      "text": "襄阳公园",
+      "evidence_refs": [
+        "e_95ead4e21f23"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "市民在此驻足、闲聊、小憩",
+      "evidence_refs": [
+        "e_6de9c8ca7e92"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "公园内主要步道与花坛区域"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "开放时间",
+      "门票信息",
+      "当前运营状态"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "gardens"
+    ],
+    "experience_tags": [
+      "local_atmosphere",
+      "photogenic"
+    ],
+    "culture_tags": [
+      "public_life"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_7bc85f2979a2",
+          "e_481184fc32d1",
+          "e_85e68f4adbb4"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "gardens",
+        "evidence_refs": [
+          "e_6de9c8ca7e92",
+          "e_17814661ac33"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "local_atmosphere",
+        "evidence_refs": [
+          "e_6de9c8ca7e92"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "photogenic",
+        "evidence_refs": [
+          "e_17814661ac33"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "public_life",
+        "evidence_refs": [
+          "e_6de9c8ca7e92",
+          "e_6fb3b616e2e2"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_7bc85f2979a2",
+      "e_481184fc32d1",
+      "e_b1ec63a4a117"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为有花坛、草坪与市民活动的公园，具备独立休憩与漫步体验，可作为补充型停留；但缺乏高独立目的地价值证据，不足以承担路线主题。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示其具备高独立目的地价值或可承载路线主题的独特体验，故不适合作为锚点。",
+        "supporting_stop": "有明确公园属性与花坛、市民活动等体验证据，可作为补充型停留。",
+        "transition_stop": "虽可作为短时停留，但其公园体验价值高于单纯连接节点，故支持型更合适。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为沿线公园，提供绿荫、花坛与市民日常活动场景，适合城市漫步中的休憩与氛围体验。",
+      "evidence_refs": [
+        "e_6de9c8ca7e92",
+        "e_17814661ac33",
+        "e_bb621b9a1d20"
+      ]
+    },
+    "summary_draft": {
+      "text": "襄阳公园",
+      "evidence_refs": [
+        "e_95ead4e21f23"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "市民在此驻足、闲聊、小憩",
+      "evidence_refs": [
+        "e_6de9c8ca7e92"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "公园内主要步道与花坛区域"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "开放时间",
+      "门票信息",
+      "当前运营状态"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.216991,
+      121.456737
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "evidence_hash": "1ca30316e3f1562856139ce74e82432f338168d52e15715e8583cb437c6e0be6",
+  "prior_attempt": {
+    "candidate_id": "wukang_fuxing_xujiahui_6813e50b550d36b6",
+    "node_identity": "amap:B0015581AB",
+    "output": {
+      "category": "park",
+      "interest_tags": [
+        "parks",
+        "gardens"
+      ],
+      "experience_tags": [
+        "neighborhood_walk",
+        "photogenic"
+      ],
+      "culture_tags": [
+        "public_life"
+      ],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "parks",
+          "evidence_refs": [
+            "e_7bc85f2979a2",
+            "e_481184fc32d1",
+            "e_85e68f4adbb4"
+          ]
+        },
+        {
+          "group": "interest_tags",
+          "tag": "gardens",
+          "evidence_refs": [
+            "e_6de9c8ca7e92",
+            "e_17814661ac33"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "neighborhood_walk",
+          "evidence_refs": [
+            "e_a8a7e7ca2d17",
+            "e_bb621b9a1d20"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "photogenic",
+          "evidence_refs": [
+            "e_17814661ac33"
+          ]
+        },
+        {
+          "group": "culture_tags",
+          "tag": "public_life",
+          "evidence_refs": [
+            "e_6de9c8ca7e92",
+            "e_17814661ac33"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_7bc85f2979a2",
+        "e_481184fc32d1",
+        "e_b1ec63a4a117"
+      ],
+      "route_role": {
+        "primary": "supporting_stop",
+        "eligible": [
+          "anchor",
+          "supporting_stop",
+          "transition_stop"
+        ],
+        "confidence": "medium",
+        "reason": "有明确公园身份与花坛景观、市民休憩活动的证据，具备独立漫步体验，但体量与内容更适合作线路中的补充节点。",
+        "independent_destination_value": "medium",
+        "route_connector_value": "medium",
+        "alternatives_reason": {
+          "anchor": "证据显示为受喜爱的公园并有花坛景观，但缺少足以支撑专程前往的独立目的地强度，故不作为首选。",
+          "supporting_stop": "公园身份明确，且有花坛、绿荫与市民日常活动证据，可独立体验并补充线路，符合首选。",
+          "transition_stop": "虽可作为短时停留，但已有花坛与休憩活动的独立体验价值，超出单纯连接功能。"
+        }
+      },
+      "citywalk_value": {
+        "level": "medium",
+        "reason": "作为街区绿荫与花坛节点，可与音乐街区漫步线路串联，提供休憩与观赏体验。",
+        "evidence_refs": [
+          "e_a8a7e7ca2d17",
+          "e_bb621b9a1d20",
+          "e_6de9c8ca7e92"
+        ]
+      },
+      "summary_draft": {
+        "text": "襄阳公园",
+        "evidence_refs": [
+          "e_95ead4e21f23"
+        ]
+      },
+      "culture_bridge_draft": {
+        "text": "市民在此驻足、闲聊、小憩",
+        "evidence_refs": [
+          "e_6de9c8ca7e92"
+        ]
+      },
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 10,
+          "standard": 20,
+          "deep": 40
+        },
+        "full_visit": {
+          "quick": 15,
+          "standard": 30,
+          "deep": 60
+        },
+        "time_basis": "product_planning_estimate",
+        "scope": "公园内主要步道与花坛区域"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "开放时间",
+        "门票信息",
+        "园内具体设施与出入口"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": null,
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": []
+    },
+    "semantic": null,
+    "cache_hit": false,
+    "api_calls_this_run": 1,
+    "reason": "Anchor requires evidenced high independent destination value",
+    "provider": {
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 4616,
+        "completion_tokens": 734,
+        "total_tokens": 5350,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 3976
+      }
+    }
+  },
+  "material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 4851,
+      "completion_tokens": 863,
+      "total_tokens": 5714,
+      "prompt_tokens_details": {
+        "cached_tokens": 2944
+      },
+      "prompt_cache_hit_tokens": 2944,
+      "prompt_cache_miss_tokens": 1907
+    }
+  }
+}

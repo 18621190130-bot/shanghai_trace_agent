@@ -1,0 +1,1773 @@
+{
+  "metadata": {
+    "project": "ShanghaiTrace / 沪迹",
+    "version": "poi-kb-v3-minimal-tags",
+    "purpose": "Minimal POI knowledge base for Shanghai City Walk route planning, replanning and culture explanation",
+    "poi_count": 25,
+    "walk_zone_count": 4,
+    "walk_zones": [
+      {
+        "id": "hengfu",
+        "name_zh": "衡复—武康—永康",
+        "poi_count": 6
+      },
+      {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "poi_count": 8
+      },
+      {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学—四川北路",
+        "poi_count": 6
+      },
+      {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸—工业艺术滨江",
+        "poi_count": 5
+      }
+    ],
+    "tag_taxonomy": {
+      "interest_tags": {
+        "history": "历史",
+        "architecture": "建筑",
+        "local_life": "在地生活",
+        "literature": "文学",
+        "art": "艺术",
+        "industrial_heritage": "工业遗产",
+        "waterfront": "滨水",
+        "religion": "宗教文化",
+        "parks": "公园与公共空间",
+        "modern_city": "现代城市",
+        "modern_china_history": "中国近现代史",
+        "music": "音乐文化",
+        "gardens": "园林",
+        "shopping_lifestyle": "商业与生活方式"
+      },
+      "experience_tags": {
+        "iconic_landmark": "城市地标",
+        "neighborhood_walk": "街区漫步",
+        "street_scene": "街景观察",
+        "local_atmosphere": "本地生活氛围",
+        "museum_visit": "博物馆/纪念馆参观",
+        "photogenic": "适合视觉观察/拍照",
+        "quiet_walk": "相对安静的步行体验",
+        "adaptive_reuse": "历史建筑再利用",
+        "riverside_walk": "滨江步行",
+        "bookish": "书店/阅读氛围",
+        "social_observation": "观察市民公共生活",
+        "architecture_detail": "建筑细节观察",
+        "shopping_leisure": "休闲商业体验"
+      },
+      "culture_tags": {
+        "old_city": "上海老城厢",
+        "shikumen": "石库门",
+        "lane_life": "弄堂/里弄生活",
+        "modern_shanghai": "近现代上海城市史",
+        "literary_shanghai": "上海文学文化",
+        "religious_culture": "中国宗教与民间信仰",
+        "sino_foreign_exchange": "中外文化交流",
+        "political_history": "中国近现代政治史",
+        "industrial_transformation": "工业空间转型",
+        "urban_renewal": "城市更新与再利用",
+        "garden_culture": "江南园林文化",
+        "public_life": "城市公共生活",
+        "music_culture": "上海音乐文化"
+      }
+    },
+    "design_notes": [
+      "This is the core route-planning POI dataset. Display-only legacy fields such as timeline, then/now, voice quotes, audio labels, field notes and related_poi_ids were removed.",
+      "Nearby food/shop recommendations and Xiaohongshu/Dianping links should be stored separately in local_recommendations.json, not mixed into the core POI route dataset.",
+      "interest_tags are the primary semantic input for Route Engine scoring.",
+      "experience_tags describe how a user may want to explore a place and can be used as secondary scoring signals.",
+      "culture_tags describe cultural topics the Culture Bridge can explain; they may be used as tertiary scoring signals.",
+      "Practical constraints are not duplicated as tags. They live in planning fields such as environment, opening hours, ticket and reservation requirements.",
+      "Dynamic information must be refreshed from verified sources at runtime when possible."
+    ]
+  },
+  "route_engine_defaults": {
+    "walking_speed_m_per_min": 75,
+    "walking_distance_factor": 1.25,
+    "prefer_same_walk_zone": true,
+    "cross_zone_transfer_penalty": "very_high",
+    "max_pois_default": 5,
+    "route_buffer_minutes": 15,
+    "scoring_weights": {
+      "interest_tag_match": 5.0,
+      "experience_tag_match": 2.0,
+      "culture_tag_match": 1.0,
+      "same_zone_bonus": 4.0,
+      "distance_penalty_per_km": 1.5
+    }
+  },
+  "pois": [
+    {
+      "id": "p1",
+      "name": {
+        "zh": "董家渡天主堂",
+        "en": "Dongjiadu Catholic Church",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区董家渡路185号",
+        "lat": 31.2209,
+        "lng": 121.497,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City · Xintiandi · Bund"
+      },
+      "category": {
+        "zh": "老城厢",
+        "en": "Old City"
+      },
+      "tags": {
+        "interest_tags": [
+          "history",
+          "architecture",
+          "religion",
+          "local_life"
+        ],
+        "experience_tags": [
+          "neighborhood_walk",
+          "architecture_detail",
+          "local_atmosphere"
+        ],
+        "culture_tags": [
+          "old_city",
+          "modern_shanghai",
+          "religious_culture",
+          "sino_foreign_exchange"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "董家渡天主堂是董家渡老城厢片区的重要历史宗教建筑，可作为理解上海近代城市发展、宗教建筑与老城空间关系的一个节点。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Do not treat this only as a church stop. Use it as an entry point into the dense everyday fabric of Shanghai's old city: lanes, door numbers, small shops and neighborhood life.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p2",
+      "name": {
+        "zh": "永康路与嘉善路口",
+        "en": "Yongkang Road × Jiashan Road",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区永康路嘉善路口",
+        "lat": 31.2128,
+        "lng": 121.4592,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hengfu",
+        "name_zh": "衡复—武康—永康",
+        "name_en": "Hengfu · Wukang · Yongkang"
+      },
+      "category": {
+        "zh": "梧桐区",
+        "en": "Plane-tree Neighborhood"
+      },
+      "tags": {
+        "interest_tags": [
+          "local_life",
+          "architecture",
+          "shopping_lifestyle"
+        ],
+        "experience_tags": [
+          "neighborhood_walk",
+          "street_scene",
+          "local_atmosphere",
+          "quiet_walk"
+        ],
+        "culture_tags": [
+          "lane_life",
+          "modern_shanghai",
+          "public_life"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 40,
+          "max_minutes": 80
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "一条不需要赶路的街：梧桐、咖啡、五金店和水果摊共同组成上海的日常。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The point is the coexistence of stylish cafés and ordinary neighborhood routines. Notice how tourism and daily life share the same street rather than being separated.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p4",
+      "name": {
+        "zh": "鲁迅故居",
+        "en": "Lu Xun Former Residence",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "虹口区山阴路132弄9号",
+        "lat": 31.2693,
+        "lng": 121.481,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学—四川北路",
+        "name_en": "Hongkou Literary · North Sichuan Road"
+      },
+      "category": {
+        "zh": "文学街区",
+        "en": "Literary District"
+      },
+      "tags": {
+        "interest_tags": [
+          "literature",
+          "history",
+          "architecture"
+        ],
+        "experience_tags": [
+          "neighborhood_walk",
+          "quiet_walk",
+          "architecture_detail"
+        ],
+        "culture_tags": [
+          "literary_shanghai",
+          "modern_shanghai",
+          "lane_life"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "表面安静的街巷背后，叠着文学、思想与普通居民共同留下的城市记忆。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The literary value is not limited to a famous writer's former home. The surrounding lanes help explain how cultural memory remains embedded in an ordinary residential neighborhood.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p5",
+      "name": {
+        "zh": "龙美术馆（西岸馆）",
+        "en": "Long Museum (West Bund)",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道3398号",
+        "lat": 31.1848,
+        "lng": 121.465,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸—工业艺术滨江",
+        "name_en": "West Bund · Industrial Art Waterfront"
+      },
+      "category": {
+        "zh": "工业遗存",
+        "en": "Industrial Heritage"
+      },
+      "tags": {
+        "interest_tags": [
+          "art",
+          "industrial_heritage",
+          "waterfront",
+          "architecture"
+        ],
+        "experience_tags": [
+          "museum_visit",
+          "adaptive_reuse",
+          "riverside_walk",
+          "photogenic"
+        ],
+        "culture_tags": [
+          "industrial_transformation",
+          "urban_renewal",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 60,
+          "max_minutes": 120
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "从工业生产岸线到公共文化空间，城市功能变化被直接写进了江岸。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Read the waterfront as a before-and-after story: an industrial production zone transformed into public space for art, walking and leisure.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p7",
+      "name": {
+        "zh": "新天地北里（石库门街区）",
+        "en": "Xintiandi North Block (Shikumen)",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区太仓路181弄",
+        "lat": 31.2212,
+        "lng": 121.4679,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City · Xintiandi · Bund"
+      },
+      "category": {
+        "zh": "石库门",
+        "en": "Shikumen"
+      },
+      "tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "shopping_lifestyle"
+        ],
+        "experience_tags": [
+          "iconic_landmark",
+          "neighborhood_walk",
+          "photogenic",
+          "adaptive_reuse"
+        ],
+        "culture_tags": [
+          "shikumen",
+          "lane_life",
+          "urban_renewal",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "这里最值得看的，是旧有建筑肌理与现代商业如何彼此借景。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Shikumen is more than a photogenic brick style. Focus on the small-scale lane pattern and how former residential fabric has been reused for contemporary urban life.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p9",
+      "name": {
+        "zh": "张园",
+        "en": "Zhangyuan",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "静安区威海路588号",
+        "lat": 31.2286,
+        "lng": 121.4638,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City · Xintiandi · Bund"
+      },
+      "category": {
+        "zh": "石库门",
+        "en": "Shikumen"
+      },
+      "tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "shopping_lifestyle"
+        ],
+        "experience_tags": [
+          "neighborhood_walk",
+          "photogenic",
+          "adaptive_reuse",
+          "architecture_detail"
+        ],
+        "culture_tags": [
+          "shikumen",
+          "urban_renewal",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "一座城市更新中的历史建筑群，适合观察保存与重新使用如何同时发生。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The key question here is not simply 'old versus new' but how a protected historical environment is given new commercial and public uses.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p10",
+      "name": {
+        "zh": "今潮8弄",
+        "en": "Jinchao 8 Lanes",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "虹口区四川北路989弄",
+        "lat": 31.2588,
+        "lng": 121.4782,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学—四川北路",
+        "name_en": "Hongkou Literary · North Sichuan Road"
+      },
+      "category": {
+        "zh": "历史公寓",
+        "en": "Historic Residential Architecture"
+      },
+      "tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "shopping_lifestyle"
+        ],
+        "experience_tags": [
+          "neighborhood_walk",
+          "adaptive_reuse",
+          "street_scene"
+        ],
+        "culture_tags": [
+          "lane_life",
+          "urban_renewal",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "老弄堂并没有停止变化，它也可以进入新的城市文化生活。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Notice how old lane-house details coexist with new cultural and commercial functions. The site is useful for discussing adaptive reuse rather than simple preservation.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p11",
+      "name": {
+        "zh": "建业里",
+        "en": "Jianyeli",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区建国西路456弄",
+        "lat": 31.2073,
+        "lng": 121.4562,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hengfu",
+        "name_zh": "衡复—武康—永康",
+        "name_en": "Hengfu · Wukang · Yongkang"
+      },
+      "category": {
+        "zh": "石库门",
+        "en": "Shikumen"
+      },
+      "tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "local_life"
+        ],
+        "experience_tags": [
+          "neighborhood_walk",
+          "architecture_detail",
+          "quiet_walk"
+        ],
+        "culture_tags": [
+          "shikumen",
+          "lane_life",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 40,
+          "max_minutes": 80
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "从建筑尺度看居住生活：门、弄堂、天井和邻里关系共同构成空间记忆。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Pay attention to doors, lanes, small courtyards and thresholds. These everyday spatial details help explain how residential life was organized in traditional Shanghai lane housing.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p12",
+      "name": {
+        "zh": "陕南邨",
+        "en": "Shannan Village",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区陕西南路151号",
+        "lat": 31.2158,
+        "lng": 121.4565,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hengfu",
+        "name_zh": "衡复—武康—永康",
+        "name_en": "Hengfu · Wukang · Yongkang"
+      },
+      "category": {
+        "zh": "历史公寓",
+        "en": "Historic Residential Architecture"
+      },
+      "tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "local_life"
+        ],
+        "experience_tags": [
+          "architecture_detail",
+          "neighborhood_walk",
+          "quiet_walk"
+        ],
+        "culture_tags": [
+          "lane_life",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 30,
+          "max_minutes": 60
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "建筑本身是一份档案：入口、廊道与细部都在讲述上海近代居住方式。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The building itself is the archive. Entrances, covered passages and façade details reveal how modern apartment living took shape in twentieth-century Shanghai.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p13",
+      "name": {
+        "zh": "武康大楼",
+        "en": "Wukang Mansion",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区淮海中路1850号",
+        "lat": 31.2108,
+        "lng": 121.4472,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hengfu",
+        "name_zh": "衡复—武康—永康",
+        "name_en": "Hengfu · Wukang · Yongkang"
+      },
+      "category": {
+        "zh": "梧桐区",
+        "en": "Plane-tree Neighborhood"
+      },
+      "tags": {
+        "interest_tags": [
+          "architecture",
+          "history"
+        ],
+        "experience_tags": [
+          "iconic_landmark",
+          "photogenic",
+          "architecture_detail",
+          "street_scene"
+        ],
+        "culture_tags": [
+          "modern_shanghai",
+          "sino_foreign_exchange"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 20,
+          "max_minutes": 40
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "上海最著名的“船头楼”：站在淮海中路与武康路的交汇处，看老建筑如何成为一座城市的转角风景。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Start with the ship-like corner façade and the five-way intersection. The building is a good way to explain how architecture responds to the shape of a city street.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p14",
+      "name": {
+        "zh": "外滩·陈毅广场",
+        "en": "The Bund · Chen Yi Square",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区中山东一路",
+        "lat": 31.2365,
+        "lng": 121.4915,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City · Xintiandi · Bund"
+      },
+      "category": {
+        "zh": "滨水空间",
+        "en": "Waterfront"
+      },
+      "tags": {
+        "interest_tags": [
+          "history",
+          "architecture",
+          "waterfront",
+          "modern_city"
+        ],
+        "experience_tags": [
+          "iconic_landmark",
+          "photogenic",
+          "riverside_walk",
+          "street_scene"
+        ],
+        "culture_tags": [
+          "modern_shanghai",
+          "sino_foreign_exchange"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 30,
+          "max_minutes": 60
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "站在上海的城市正面：一边是万国建筑，一边是黄浦江，历史与天际线同时展开。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Use the Bund as a visual comparison point: historic waterfront architecture on one side, the river in the middle, and Pudong's modern skyline across the water.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p15",
+      "name": {
+        "zh": "豫园",
+        "en": "Yu Garden",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区方浜中路",
+        "lat": 31.227,
+        "lng": 121.4925,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City · Xintiandi · Bund"
+      },
+      "category": {
+        "zh": "老城厢",
+        "en": "Old City"
+      },
+      "tags": {
+        "interest_tags": [
+          "history",
+          "gardens",
+          "architecture"
+        ],
+        "experience_tags": [
+          "iconic_landmark",
+          "photogenic",
+          "neighborhood_walk"
+        ],
+        "culture_tags": [
+          "old_city",
+          "garden_culture",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 60,
+          "max_minutes": 120
+        },
+        "environment": "mixed",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "园林、庙宇与市集叠在同一片老城厢里：上海“城”的原点，至今仍然热闹。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Explain this as a layered urban space rather than one attraction: garden, temple, market and food culture overlap in the historical core of the city.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p16",
+      "name": {
+        "zh": "鲁迅公园",
+        "en": "Lu Xun Park",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "虹口区四川北路2288号",
+        "lat": 31.2712,
+        "lng": 121.4844,
+        "coordinate_system": "GCJ-02 approximate (from current project HTML)"
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学—四川北路",
+        "name_en": "Hongkou Literary · North Sichuan Road"
+      },
+      "category": {
+        "zh": "文学街区",
+        "en": "Literary District"
+      },
+      "tags": {
+        "interest_tags": [
+          "literature",
+          "parks",
+          "local_life"
+        ],
+        "experience_tags": [
+          "social_observation",
+          "local_atmosphere",
+          "quiet_walk"
+        ],
+        "culture_tags": [
+          "literary_shanghai",
+          "public_life",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90
+        },
+        "environment": "outdoor",
+        "crowd_level_default": null,
+        "ticket_required": null,
+        "reservation_required": null,
+        "opening_hours": null,
+        "opening_hours_source": null,
+        "last_verified": null
+      },
+      "content": {
+        "summary_zh": "上海的公园就是城市的客厅：下棋、唱歌、跳舞、遛鸟，普通人的日常比景点更耐看。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The most revealing part may be ordinary public life rather than the monument itself: morning exercise, singing, chess, walking and social activity show how Shanghai residents use parks.",
+        "content_status": "generated from project source for MVP; not externally fact-checked"
+      },
+      "verification": {
+        "status": "verified_or_strongly_supported_existing_poi",
+        "source": "existing ShanghaiTrace project data",
+        "checked_on": "2026-10-02",
+        "note": "Retained from project because the place itself is real and location-specific; exact entrance/opening data should still be queried at runtime."
+      }
+    },
+    {
+      "id": "p20",
+      "name": {
+        "zh": "上海城隍庙",
+        "en": "Shanghai City God Temple",
+        "aliases": [
+          "城隍庙"
+        ]
+      },
+      "location": {
+        "address_zh": "黄浦区方浜中路249号",
+        "lat": null,
+        "lng": null,
+        "coordinate_system": "pending exact GCJ-02 geocoding"
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City · Xintiandi · Bund"
+      },
+      "category": {
+        "zh": "宗教文化",
+        "en": "Taoist Cultural Site"
+      },
+      "tags": {
+        "interest_tags": [
+          "religion",
+          "history",
+          "architecture",
+          "local_life"
+        ],
+        "experience_tags": [
+          "iconic_landmark",
+          "neighborhood_walk",
+          "local_atmosphere"
+        ],
+        "culture_tags": [
+          "old_city",
+          "religious_culture",
+          "public_life"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 25,
+          "max_minutes": 45
+        },
+        "environment": "mixed",
+        "crowd_level_default": "high",
+        "ticket_required": false,
+        "reservation_required": false,
+        "opening_hours": "08:30-16:30 (official page; lunar 1st/15th may differ)",
+        "opening_hours_source": "https://shchm.org/shchm/",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "上海老城厢重要的道教宫观，可用来解释中国传统城市中的城隍信仰以及庙宇、商业和市集的关系。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Use this stop to explain what a City God means in traditional Chinese urban culture, and why temples, markets and everyday commerce often developed together.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "official Shanghai City God Temple website",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p21",
+      "name": {
+        "zh": "上海宋庆龄故居纪念馆",
+        "en": "Former Residence of Soong Ching-ling in Shanghai",
+        "aliases": [
+          "宋庆龄故居"
+        ]
+      },
+      "location": {
+        "address_zh": "徐汇区淮海中路1843号",
+        "lat": 31.204017,
+        "lng": 121.439062,
+        "coordinate_system": "GCJ-02 / Amap"
+      },
+      "walk_zone": {
+        "id": "hengfu",
+        "name_zh": "衡复—武康—永康",
+        "name_en": "Hengfu · Wukang · Yongkang"
+      },
+      "category": {
+        "zh": "名人故居",
+        "en": "Historic Residence"
+      },
+      "tags": {
+        "interest_tags": [
+          "history",
+          "architecture",
+          "modern_china_history"
+        ],
+        "experience_tags": [
+          "museum_visit",
+          "quiet_walk",
+          "architecture_detail"
+        ],
+        "culture_tags": [
+          "modern_shanghai",
+          "political_history",
+          "sino_foreign_exchange"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 40,
+          "max_minutes": 60
+        },
+        "environment": "mixed",
+        "crowd_level_default": "medium",
+        "ticket_required": true,
+        "reservation_required": true,
+        "opening_hours": "Tue-Sun 09:00-17:00; last entry 16:30; Monday closed (holiday exceptions)",
+        "opening_hours_source": "https://www.shsoong-chingling.com/list-canguanyuyue.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "宋庆龄在上海长期生活和从事国务活动的重要住所，适合连接近现代中国史、女性人物与国际交流。"
+      },
+      "culture_bridge": {
+        "explanation_en": "A useful stop for explaining Soong Ching-ling as both a major political figure and an internationally connected public figure, while also showing how elite residential life looked in twentieth-century Shanghai.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "official memorial website + Amap",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p22",
+      "name": {
+        "zh": "黑石M+",
+        "en": "Blackstone M+",
+        "aliases": [
+          "黑石公寓"
+        ]
+      },
+      "location": {
+        "address_zh": "徐汇区复兴中路1331号",
+        "lat": null,
+        "lng": null,
+        "coordinate_system": "pending exact GCJ-02 geocoding"
+      },
+      "walk_zone": {
+        "id": "hengfu",
+        "name_zh": "衡复—武康—永康",
+        "name_en": "Hengfu · Wukang · Yongkang"
+      },
+      "category": {
+        "zh": "历史建筑 / 音乐文化",
+        "en": "Historic Architecture / Music Culture"
+      },
+      "tags": {
+        "interest_tags": [
+          "architecture",
+          "music",
+          "shopping_lifestyle"
+        ],
+        "experience_tags": [
+          "adaptive_reuse",
+          "architecture_detail",
+          "shopping_leisure"
+        ],
+        "culture_tags": [
+          "music_culture",
+          "urban_renewal",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 30,
+          "max_minutes": 60
+        },
+        "environment": "mixed",
+        "crowd_level_default": "medium",
+        "ticket_required": false,
+        "reservation_required": false,
+        "opening_hours": "10:00-22:00 (Shanghai government commerce page)",
+        "opening_hours_source": "https://english.shanghai.gov.cn/en-PlanANightOut/20231217/97b02f6f128241baa7167bd1af4bbb9d.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "以黑石公寓为核心的音乐文化空间，将历史公寓、书店、咖啡和音乐生活结合在一起。"
+      },
+      "culture_bridge": {
+        "explanation_en": "A good example of adaptive reuse: a historic apartment complex remains readable while being reactivated through music, books, cafés and contemporary urban culture.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified_address_and_operation",
+        "source": "Shanghai government commerce page",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p23",
+      "name": {
+        "zh": "思南公馆",
+        "en": "Sinan Mansions",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "黄浦区复兴中路523号",
+        "lat": null,
+        "lng": null,
+        "coordinate_system": "pending exact GCJ-02 geocoding"
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City · Xintiandi · Bund"
+      },
+      "category": {
+        "zh": "历史住宅街区",
+        "en": "Historic Residential Block"
+      },
+      "tags": {
+        "interest_tags": [
+          "architecture",
+          "history",
+          "local_life"
+        ],
+        "experience_tags": [
+          "neighborhood_walk",
+          "architecture_detail",
+          "photogenic",
+          "adaptive_reuse"
+        ],
+        "culture_tags": [
+          "modern_shanghai",
+          "urban_renewal",
+          "lane_life"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 30,
+          "max_minutes": 60
+        },
+        "environment": "mixed",
+        "crowd_level_default": "medium",
+        "ticket_required": false,
+        "reservation_required": false,
+        "opening_hours": null,
+        "opening_hours_source": "https://english.shanghai.gov.cn/en-SpecialtyShoppingAreas/20231217/2df63b2e96954fa093384679eaba9b49.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "由51幢花园住宅组成的历史街区，可展示上海近代住宅建筑类型和保护性再利用。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Think of this as a preserved residential ensemble rather than one monument. It helps explain how different upper- and middle-class housing types shaped modern Shanghai.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai government English portal",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p24",
+      "name": {
+        "zh": "中共一大纪念馆",
+        "en": "Memorial of the First National Congress of the CPC",
+        "aliases": [
+          "中共一大会址"
+        ]
+      },
+      "location": {
+        "address_zh": "黄浦区黄陂南路374号",
+        "lat": null,
+        "lng": 121.47135,
+        "coordinate_system": "longitude verified; latitude pending exact GCJ-02 geocoding"
+      },
+      "walk_zone": {
+        "id": "old_city_central",
+        "name_zh": "老城厢—新天地—外滩",
+        "name_en": "Old City · Xintiandi · Bund"
+      },
+      "category": {
+        "zh": "近现代历史",
+        "en": "Modern Chinese History"
+      },
+      "tags": {
+        "interest_tags": [
+          "modern_china_history",
+          "history",
+          "architecture"
+        ],
+        "experience_tags": [
+          "museum_visit",
+          "architecture_detail"
+        ],
+        "culture_tags": [
+          "political_history",
+          "shikumen",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90
+        },
+        "environment": "indoor",
+        "crowd_level_default": "medium",
+        "ticket_required": false,
+        "reservation_required": false,
+        "opening_hours": "Tue-Sun 09:00-17:00; last entry 16:30; Monday closed except holidays",
+        "opening_hours_source": "https://www.shanghai.gov.cn/hsly/20260625/10d0e931417d4614b0d8bbbbd03495c1.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "理解20世纪中国政治史和上海石库门城市空间之间关系的重要地点。"
+      },
+      "culture_bridge": {
+        "explanation_en": "This stop connects national political history with a very local Shanghai building type: the original meeting site is a shikumen residence, making it useful for explaining how major events unfolded inside ordinary urban fabric.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai municipal government",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p25",
+      "name": {
+        "zh": "1927·鲁迅与内山纪念书局",
+        "en": "1927 Lu Xun & Uchiyama Memorial Bookstore",
+        "aliases": [
+          "内山书店旧址"
+        ]
+      },
+      "location": {
+        "address_zh": "虹口区四川北路2056号",
+        "lat": 31.26671,
+        "lng": 121.47922,
+        "coordinate_system": "WGS84/OpenStreetMap approximation"
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学—四川北路",
+        "name_en": "Hongkou Literary · North Sichuan Road"
+      },
+      "category": {
+        "zh": "文学 / 书店旧址",
+        "en": "Literary Heritage / Bookstore"
+      },
+      "tags": {
+        "interest_tags": [
+          "literature",
+          "history"
+        ],
+        "experience_tags": [
+          "bookish",
+          "museum_visit",
+          "quiet_walk"
+        ],
+        "culture_tags": [
+          "literary_shanghai",
+          "sino_foreign_exchange",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 25,
+          "max_minutes": 50
+        },
+        "environment": "indoor",
+        "crowd_level_default": "medium",
+        "ticket_required": false,
+        "reservation_required": false,
+        "opening_hours": "10:00-21:00 (2026 Shanghai government city-walk article)",
+        "opening_hours_source": "https://www.shanghai.gov.cn/nw17239/20260821/437444e8364445a1a88082f9fbca30b3.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "原内山书店旧址，鲁迅曾长期在此购书、会友，也是中日文化交流史的重要地点。"
+      },
+      "culture_bridge": {
+        "explanation_en": "This is useful for showing Lu Xun not only as a textbook author, but as someone embedded in a real network of bookstores, friendships and Sino-Japanese cultural exchange.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai municipal government + OSM-based map",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p26",
+      "name": {
+        "zh": "中国左翼作家联盟会址纪念馆",
+        "en": "Memorial Site of the League of Left-Wing Writers",
+        "aliases": [
+          "左联会址纪念馆"
+        ]
+      },
+      "location": {
+        "address_zh": "虹口区多伦路201弄2号",
+        "lat": null,
+        "lng": null,
+        "coordinate_system": "pending exact GCJ-02 geocoding"
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学—四川北路",
+        "name_en": "Hongkou Literary · North Sichuan Road"
+      },
+      "category": {
+        "zh": "文学 / 近现代史",
+        "en": "Literary & Modern History"
+      },
+      "tags": {
+        "interest_tags": [
+          "literature",
+          "modern_china_history",
+          "history"
+        ],
+        "experience_tags": [
+          "museum_visit",
+          "quiet_walk"
+        ],
+        "culture_tags": [
+          "literary_shanghai",
+          "political_history",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 30,
+          "max_minutes": 50
+        },
+        "environment": "indoor",
+        "crowd_level_default": "low",
+        "ticket_required": false,
+        "reservation_required": false,
+        "opening_hours": "Typical published hours 09:00-16:30; Monday closed; verify before visit",
+        "opening_hours_source": "https://www.shanghai.gov.cn/nw17239/20260826/d99b1e1604094b1fb5e2db9437ea0355.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "1930年中国左翼作家联盟成立大会相关旧址，适合串联鲁迅与上海左翼文化运动。"
+      },
+      "culture_bridge": {
+        "explanation_en": "Instead of treating modern Chinese literature as isolated authors, this stop helps explain the organized literary and political networks that developed in 1930s Shanghai.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai municipal government / Hongkou official route",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p27",
+      "name": {
+        "zh": "1933老场坊",
+        "en": "1933 Old Millfun",
+        "aliases": [
+          "1933 Shanghai"
+        ]
+      },
+      "location": {
+        "address_zh": "虹口区沙泾路10号（官方文旅资料亦常标注溧阳路611号）",
+        "lat": 31.254559,
+        "lng": 121.491884,
+        "coordinate_system": "GCJ-02 / Amap"
+      },
+      "walk_zone": {
+        "id": "hongkou_literary",
+        "name_zh": "虹口文学—四川北路",
+        "name_en": "Hongkou Literary · North Sichuan Road"
+      },
+      "category": {
+        "zh": "工业遗产",
+        "en": "Industrial Heritage"
+      },
+      "tags": {
+        "interest_tags": [
+          "industrial_heritage",
+          "architecture",
+          "art"
+        ],
+        "experience_tags": [
+          "adaptive_reuse",
+          "photogenic",
+          "architecture_detail"
+        ],
+        "culture_tags": [
+          "industrial_transformation",
+          "urban_renewal",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 40,
+          "max_minutes": 80
+        },
+        "environment": "mixed",
+        "crowd_level_default": "medium",
+        "ticket_required": false,
+        "reservation_required": false,
+        "opening_hours": null,
+        "opening_hours_source": "https://english.shanghai.gov.cn/en-CityTour/20250523/c69d722267b64663a6082c3e5e4ada7f.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "1933年建成的原宰牲场，现转型为创意文化空间，建筑本身具有非常强的空间辨识度。"
+      },
+      "culture_bridge": {
+        "explanation_en": "A striking example of industrial architecture being repurposed. The unusual ramps, bridges and circulation system make the original function legible even after the building became a creative venue.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai government English portal + Amap",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p28",
+      "name": {
+        "zh": "西岸美术馆",
+        "en": "West Bund Museum",
+        "aliases": []
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道2600号",
+        "lat": 31.167682,
+        "lng": 121.463841,
+        "coordinate_system": "GCJ-02 / Amap"
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸—工业艺术滨江",
+        "name_en": "West Bund · Industrial Art Waterfront"
+      },
+      "category": {
+        "zh": "当代艺术",
+        "en": "Contemporary Art"
+      },
+      "tags": {
+        "interest_tags": [
+          "art",
+          "waterfront",
+          "architecture"
+        ],
+        "experience_tags": [
+          "museum_visit",
+          "riverside_walk",
+          "photogenic"
+        ],
+        "culture_tags": [
+          "urban_renewal",
+          "industrial_transformation",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 60,
+          "max_minutes": 120
+        },
+        "environment": "indoor",
+        "crowd_level_default": "medium",
+        "ticket_required": true,
+        "reservation_required": false,
+        "opening_hours": "Tue-Sun 11:00-18:00; last entry 17:00; Monday closed",
+        "opening_hours_source": "https://wbmshanghai.com/zh-hans/page/visit",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "西岸核心文化设施之一，适合把当代艺术体验与滨江步行结合。"
+      },
+      "culture_bridge": {
+        "explanation_en": "This stop makes more sense as part of the whole West Bund transformation: museum architecture, public waterfront and former industrial infrastructure are meant to be read together.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "official West Bund Museum + Amap",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p29",
+      "name": {
+        "zh": "上海油罐艺术中心",
+        "en": "TANK Shanghai",
+        "aliases": [
+          "油罐艺术中心"
+        ]
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道2380号",
+        "lat": 31.164519,
+        "lng": 121.464321,
+        "coordinate_system": "GCJ-02 / Amap"
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸—工业艺术滨江",
+        "name_en": "West Bund · Industrial Art Waterfront"
+      },
+      "category": {
+        "zh": "工业遗产 / 当代艺术",
+        "en": "Industrial Heritage / Contemporary Art"
+      },
+      "tags": {
+        "interest_tags": [
+          "art",
+          "industrial_heritage",
+          "architecture",
+          "waterfront"
+        ],
+        "experience_tags": [
+          "museum_visit",
+          "adaptive_reuse",
+          "photogenic",
+          "riverside_walk"
+        ],
+        "culture_tags": [
+          "industrial_transformation",
+          "urban_renewal",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90
+        },
+        "environment": "mixed",
+        "crowd_level_default": "medium",
+        "ticket_required": true,
+        "reservation_required": false,
+        "opening_hours": null,
+        "opening_hours_source": "https://www.shanghai.gov.cn/nw17239/20250317/cc760844ccbf4a15ab0583bd654d7914.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "由原航空储油罐改造而来的当代艺术空间，是西岸工业遗产再利用最直观的案例之一。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The tanks are not decorative replicas: the former industrial structures themselves became exhibition spaces, making the adaptive-reuse story immediately visible.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai government + Amap",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p30",
+      "name": {
+        "zh": "Gate M 西岸梦中心",
+        "en": "Gate M West Bund Dream Center",
+        "aliases": [
+          "西岸梦中心"
+        ]
+      },
+      "location": {
+        "address_zh": "徐汇区龙腾大道2266号",
+        "lat": 31.16119,
+        "lng": 121.465465,
+        "coordinate_system": "GCJ-02 / Amap"
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸—工业艺术滨江",
+        "name_en": "West Bund · Industrial Art Waterfront"
+      },
+      "category": {
+        "zh": "工业更新 / 滨水生活",
+        "en": "Industrial Renewal / Waterfront Lifestyle"
+      },
+      "tags": {
+        "interest_tags": [
+          "industrial_heritage",
+          "waterfront",
+          "shopping_lifestyle",
+          "modern_city"
+        ],
+        "experience_tags": [
+          "adaptive_reuse",
+          "riverside_walk",
+          "shopping_leisure",
+          "photogenic"
+        ],
+        "culture_tags": [
+          "industrial_transformation",
+          "urban_renewal",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 45,
+          "max_minutes": 90
+        },
+        "environment": "mixed",
+        "crowd_level_default": "high",
+        "ticket_required": false,
+        "reservation_required": false,
+        "opening_hours": null,
+        "opening_hours_source": "https://english.shanghai.gov.cn/en-ShoppingCenters/20241025/7c1d74e65c20417f870ab55ceccd5ae7.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "由百年水泥厂旧址更新而来的滨水商业文化目的地，保留工业建筑元素并引入餐饮、演艺和公共空间。"
+      },
+      "culture_bridge": {
+        "explanation_en": "This is a useful contrast to museum-style preservation: a former cement factory has been transformed into a lively commercial and leisure waterfront while retaining industrial traces.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "Shanghai government English portal + Amap",
+        "checked_on": "2026-10-02"
+      }
+    },
+    {
+      "id": "p31",
+      "name": {
+        "zh": "星美术馆",
+        "en": "START Museum",
+        "aliases": [
+          "START星美术馆"
+        ]
+      },
+      "location": {
+        "address_zh": "徐汇区瑞宁路111号",
+        "lat": null,
+        "lng": null,
+        "coordinate_system": "pending exact GCJ-02 geocoding"
+      },
+      "walk_zone": {
+        "id": "west_bund",
+        "name_zh": "徐汇西岸—工业艺术滨江",
+        "name_en": "West Bund · Industrial Art Waterfront"
+      },
+      "category": {
+        "zh": "工业遗产 / 当代艺术",
+        "en": "Industrial Heritage / Contemporary Art"
+      },
+      "tags": {
+        "interest_tags": [
+          "art",
+          "industrial_heritage",
+          "architecture"
+        ],
+        "experience_tags": [
+          "museum_visit",
+          "adaptive_reuse",
+          "architecture_detail"
+        ],
+        "culture_tags": [
+          "industrial_transformation",
+          "urban_renewal",
+          "modern_shanghai"
+        ]
+      },
+      "planning": {
+        "recommended_stay": {
+          "min_minutes": 60,
+          "max_minutes": 120
+        },
+        "environment": "indoor",
+        "crowd_level_default": "medium",
+        "ticket_required": true,
+        "reservation_required": false,
+        "opening_hours": "Tue-Fri 10:00-18:00; Sat-Sun 10:00-19:00; Monday closed",
+        "opening_hours_source": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_6f9E8.html",
+        "last_verified": "2026-10-02"
+      },
+      "content": {
+        "summary_zh": "由原铁路南浦站十八线仓库改造的当代艺术馆，保留铁路工业场地记忆。"
+      },
+      "culture_bridge": {
+        "explanation_en": "The museum sits inside a former railway warehouse, making the site useful for explaining how Shanghai's logistics and industrial infrastructure has been converted into a cultural waterfront.",
+        "content_status": "source-grounded MVP summary"
+      },
+      "verification": {
+        "status": "verified",
+        "source": "official West Bund website",
+        "checked_on": "2026-10-02"
+      }
+    }
+  ]
+}

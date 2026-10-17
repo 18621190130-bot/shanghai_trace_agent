@@ -1,0 +1,499 @@
+{
+  "errors": [
+    {
+      "source": "amap",
+      "status": "discovery_truncated",
+      "request": {
+        "keywords": "多伦路文化名人街",
+        "city": "上海",
+        "citylimit": "true"
+      }
+    },
+    {
+      "source": "amap",
+      "status": "discovery_truncated",
+      "request": {
+        "keywords": "甜爱路",
+        "city": "上海",
+        "citylimit": "true"
+      }
+    }
+  ],
+  "deterministic_rejected": [
+    {
+      "record_id": "amap:B0M2YR8VXC",
+      "name": "多伦路文化名人街-老电影院招牌夜景(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MUFCHLQO",
+      "name": "多伦路文化名人街-建筑屋檐(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2YL8RP6",
+      "name": "多伦路文化名人街-人像雕塑与绿植(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M29PSZDW",
+      "name": "多伦路文化名人街-与展览海报布幔合影(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFHTKS0T",
+      "name": "知音草堂(多伦路文化名人街店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M2SB4CW5",
+      "name": "多伦路文化名人街-藤蔓覆盖的拱形门洞(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MUF7HW1R",
+      "name": "多伦路文化名人街-仰拍路灯和红砖建筑(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B00155EJLS",
+      "name": "晶缘坊(多伦路文化名人街店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MUF7GWD0",
+      "name": "多伦路文化名人街-路牌和树木(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFF9ZJ1M",
+      "name": "聚雅轩(多伦路文化名人街店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M6JSDQF8",
+      "name": "樽沅·洋房融合菜(鲁迅公园店)(暂停营业)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0L3KHC0Y9",
+      "name": "觅柚青年旅舍(四川北路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0L1UR47J4",
+      "name": "尚豪茄",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M6JCEZHA",
+      "name": "炭呷烧烤(虹口店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFF9ZJAB",
+      "name": "松梅阁",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0L0JZFLH8",
+      "name": "椿上美·日式私人保养(四川北路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MDJXLDIT",
+      "name": "1号柜",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MBYM4V9L",
+      "name": "恒楚民宿(四川北路一店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0LBYLNTJN",
+      "name": "酥鱼坊",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MAMO78ZI",
+      "name": "先启半步颠小酒馆",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0L0FZ0EYQ",
+      "name": "老字号蟹壳黄",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0L39HSD8J",
+      "name": "即刻快照馆",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MGB1VMMM",
+      "name": "多金先生的民宿(四川北路二店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0J25ZKVGY",
+      "name": "湘伢子·土灶爆炒湘菜(上海时装商厦店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MUCR2NPG",
+      "name": "夜莺餐饮店",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MD0OU0DO",
+      "name": "锦睿轩·泡泡浴·水疗SPA",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0H61SNKF3",
+      "name": "上海时装商厦地下停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:BV11581682",
+      "name": "甜爱路(地铁站)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:BV10030137",
+      "name": "甜爱路四川北路(公交站)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M21OZFDB",
+      "name": "甜爱路-涂鸦墙(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M69CCLNU",
+      "name": "甜爱路邮筒",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0H2G7VN24",
+      "name": "甜爱路-道路停车位",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAQUN",
+      "name": "甜爱路-绿色蝴蝶结(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0H17D6Y5K",
+      "name": "钟姐·港式手打柠檬茶(甜爱路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFM6H9CC",
+      "name": "甜蜜1号(甜爱路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFIY377K",
+      "name": "甜爱路-路侧停车位",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FSACRB",
+      "name": "甜爱路-11号橱窗(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAEYM",
+      "name": "甜爱路-留言墙(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDAJDX",
+      "name": "甜爱路-微风礼堂(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0JRHCCM9H",
+      "name": "回响粤味鸡煲(山阴路2弄小区店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MU4RB438",
+      "name": "甜爱路32号小区地上停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FDADWK",
+      "name": "甜爱路-电镀皇冠熊(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M6NLFVZ4",
+      "name": "不如见一面·中式小排档甜爱路店",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M26CAW0O",
+      "name": "甜爱路-与爱心信号灯合影(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FSAI98",
+      "name": "甜爱路-爱心红绿灯(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M2B9B854",
+      "name": "甜爱路-旗帜树干与街边建筑(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B001518902",
+      "name": "天朗精品店(千爱里店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M2Y63GYJ",
+      "name": "上海甜爱路-甜爱路爱心装饰和红色涂鸦邮筒(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M1FSABB7",
+      "name": "甜爱路-拍甜爱路指示拍与红砖墙(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M24PDXUK",
+      "name": "甜爱路-围墙边爱心装饰墙(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFI0LMKN",
+      "name": "W CAFE",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M2MGCI3F",
+      "name": "甜爱路-红色邮箱(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M266709A",
+      "name": "甜爱路-红色涂鸦邮筒装置建筑(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0JGZRBQX4",
+      "name": "读酥世家(甜爱路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0MDU5ZCMU",
+      "name": "曲直汇造型甜爱路店",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M261H6PT",
+      "name": "甜爱路-与蓝色房子建筑合影(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0M24RIARX",
+      "name": "甜爱路-蓝色房屋建筑(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFFS2CI8",
+      "name": "甜爱路早饭摊",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0K0PDW61M",
+      "name": "特来电目的地充电站(特来电上海市虹口区甜爱路32弄小区充电站)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFK3QZAY",
+      "name": "85度C(上海甜爱路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0M24HGRN9",
+      "name": "甜爱路-世界和平打卡墙(打卡点)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0H1UX061X",
+      "name": "甜爱路331号停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0L3OHYFFJ",
+      "name": "幽竹SPA.婵指推拿(甜爱路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0FFGCW9XW",
+      "name": "四川北路公园地下停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B00156XXRG",
+      "name": "四川北路公园停车场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFGCEIK2",
+      "name": "四川北路公园地下停车场(2号出入口)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0LB6S60L3",
+      "name": "四川北路公园地下停车场(东出入口)(暂停营业)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFFRBZW2",
+      "name": "四川北路公园地下停车场(1号出入口)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFHRRFTV",
+      "name": "上海四川北路公园停车场(出入口)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B00155MY5K",
+      "name": "四川北路公园-公共厕所",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFF004HV",
+      "name": "衡水路-道路停车位",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFL6Z4BD",
+      "name": "鲁迅公园游乐场售票处",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0FFG69ZCV",
+      "name": "上海鲁迅公园停车点",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B0MDFH9L06",
+      "name": "nuovo Caffe·自烘豆手冲馆(三新里店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0J2YK5JQN",
+      "name": "安悦充电汽车充电站(四川北路公园停车场二期)",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    },
+    {
+      "record_id": "amap:B00155L3B7",
+      "name": "上海天鹅宾馆",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B00156EEY1",
+      "name": "星巴克(甜爱路店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "amap:B0KUNSNDOR",
+      "name": "阿杜板栗酥(上海鲁迅公园店)",
+      "decision": "reject",
+      "reason": "generic_service_or_shop"
+    },
+    {
+      "record_id": "osm:way/415783181",
+      "name": "室外篮球场",
+      "decision": "reject",
+      "reason": "ancillary_or_temporary"
+    }
+  ],
+  "raw_count": 320
+}

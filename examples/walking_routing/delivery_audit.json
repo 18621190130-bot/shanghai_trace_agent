@@ -1,0 +1,18 @@
+{
+  "protected_files_unchanged": true,
+  "protected_failures": [],
+  "old_test_files_unchanged": true,
+  "old_tests_changed": [],
+  "changed_baseline_files": [
+    "README.md",
+    "src/__init__.py",
+    "src/models.py",
+    "src/route_entry.py",
+    "src/route_mutation.py",
+    "src/trip_action_executor.py",
+    "src/trip_replanning.py"
+  ],
+  "configured_secret_exposures": [],
+  "frozen_archive_configured_secret_exposures": [],
+  "secret_scan_scope": "Known configured environment credentials, not a universal secret scanner"
+}

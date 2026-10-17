@@ -1,0 +1,62 @@
+{
+  "added": true,
+  "turnText": "Your request has been applied.\n\nAdded: TANK Shanghai",
+  "errors": [],
+  "failed": [
+    {
+      "host": "jsapi-data1.amap.com",
+      "path": "/tile/26_09_09_00/v2/building_region_road_transit/pbf/2/3430_1336_12",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data3.amap.com",
+      "path": "/tile/26_09_09_00/v2/building_region_road_transit/pbf/2/3429_1336_12",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data4.amap.com",
+      "path": "/tile/26_09_09_00/v2/poi_region_road_transit/pbf/2/3430_1338_12",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data5.amap.com",
+      "path": "/tile/26_09_09_00/v2/poi_region_road_transit/pbf/2/3430_1337_12",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data1.amap.com",
+      "path": "/tile/26_09_09_00/v2/poi_region_road_transit/pbf/2/3429_1338_12",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data2.amap.com",
+      "path": "/tile/26_09_09_00/v2/poi_region_road_transit/pbf/2/3429_1337_12",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data4.amap.com",
+      "path": "/tile/26_09_09_00/v2/poi_region_road_transit/pbf/0/13720_5351_14",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data1.amap.com",
+      "path": "/tile/26_09_09_00/v2/poi_region_road_transit/pbf/0/13719_5351_14",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data4.amap.com",
+      "path": "/tile/26_09_09_00/v2/building_region_road_transit/pbf/0/13720_5351_14",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data1.amap.com",
+      "path": "/tile/26_09_09_00/v2/building_region_road_transit/pbf/0/13719_5351_14",
+      "error": "net::ERR_ABORTED"
+    },
+    {
+      "host": "jsapi-data2.amap.com",
+      "path": "/tile/26_09_09_00/v2/building_region_road_transit/pbf/0/13719_5352_14",
+      "error": "net::ERR_ABORTED"
+    }
+  ]
+}

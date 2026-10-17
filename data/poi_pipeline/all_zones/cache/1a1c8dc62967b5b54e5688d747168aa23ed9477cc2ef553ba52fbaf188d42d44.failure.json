@@ -1,0 +1,11 @@
+{
+  "source": "official",
+  "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+  "parameters": {},
+  "variant": "official-excerpts-v1:徐家汇公园|上海工艺美术博物馆|上海话剧艺术中心|上海宋庆龄故居",
+  "retrieved_at": "2026-10-04T15:06:46.694936+00:00",
+  "status": "request_failed",
+  "error_type": "SourceError",
+  "http_status": null,
+  "attempts": 1
+}

@@ -1,0 +1,203 @@
+{
+  "candidate_id": "old_city_central_b6d5ce81307d6a31",
+  "node_identity": "amap:B00150C70A",
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_f54c5874118b",
+          "e_f86343f653e1",
+          "e_2fe177d1094c",
+          "e_1f70c0947055"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_f54c5874118b",
+      "e_f86343f653e1",
+      "e_2fe177d1094c",
+      "e_552e8c18ff1a"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示为具名的城市公园（leisure=park，公园广场），有独立可停留的绿地体验，但缺乏规模、设施与特色说明，难以支撑为路线主题核心。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据仅表明是公园，无规模、特色或独立目的地价值的高强度证据，不足以承担路线主题。",
+        "supporting_stop": "作为具名公园，可提供独立于周边节点的绿地休憩体验，适合作为补充性停留。",
+        "transition_stop": "虽可作为短时经过点，但其公园属性具备一定独立体验价值，优于纯连接性停留。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "具名城市公园，位于市中心且被列为公园绿地示范点建设对象，适合作为步行路线中的绿地休憩节点。",
+      "evidence_refs": [
+        "e_f54c5874118b",
+        "e_2fe177d1094c",
+        "e_1f70c0947055"
+      ]
+    },
+    "summary_draft": {
+      "text": "太平桥公园",
+      "evidence_refs": [
+        "e_1e5bf7e45ace"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "公园绿地步行停留，仅作路线中的休憩节点估算"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "公园规模、开放时间与设施信息",
+      "当前运营状态与出入口信息"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_f54c5874118b",
+          "e_f86343f653e1",
+          "e_2fe177d1094c",
+          "e_1f70c0947055"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_f54c5874118b",
+      "e_f86343f653e1",
+      "e_2fe177d1094c",
+      "e_552e8c18ff1a"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示为具名的城市公园（leisure=park，公园广场），有独立可停留的绿地体验，但缺乏规模、设施与特色说明，难以支撑为路线主题核心。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据仅表明是公园，无规模、特色或独立目的地价值的高强度证据，不足以承担路线主题。",
+        "supporting_stop": "作为具名公园，可提供独立于周边节点的绿地休憩体验，适合作为补充性停留。",
+        "transition_stop": "虽可作为短时经过点，但其公园属性具备一定独立体验价值，优于纯连接性停留。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "具名城市公园，位于市中心且被列为公园绿地示范点建设对象，适合作为步行路线中的绿地休憩节点。",
+      "evidence_refs": [
+        "e_f54c5874118b",
+        "e_2fe177d1094c",
+        "e_1f70c0947055"
+      ]
+    },
+    "summary_draft": {
+      "text": "太平桥公园",
+      "evidence_refs": [
+        "e_1e5bf7e45ace"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "公园绿地步行停留，仅作路线中的休憩节点估算"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "公园规模、开放时间与设施信息",
+      "当前运营状态与出入口信息"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.219645626782466,
+      121.47788238919954
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "evidence_hash": "3da93cec317f0b6b0a87ed4e1040c6ec5639942d557bc8c9954c6dcec6ad30dd",
+  "prior_attempt": null,
+  "material_repair": null,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3783,
+      "completion_tokens": 628,
+      "total_tokens": 4411,
+      "prompt_tokens_details": {
+        "cached_tokens": 2816
+      },
+      "prompt_cache_hit_tokens": 2816,
+      "prompt_cache_miss_tokens": 967
+    }
+  }
+}

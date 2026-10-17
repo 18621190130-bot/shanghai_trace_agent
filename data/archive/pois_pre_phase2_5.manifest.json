@@ -1,0 +1,7 @@
+{
+  "sha256": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513",
+  "created_at": "2026-10-05T03:24:07.214784+00:00",
+  "source_file": "data/pois.json",
+  "promotion_phase": "2.5",
+  "poi_count": 27
+}

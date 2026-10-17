@@ -1,0 +1,114 @@
+[
+  {
+    "candidate_id": "hongkou_literary_002743ae47f52922",
+    "name": "山阴路274弄",
+    "checks": [
+      {
+        "url": "https://www.shhk.gov.cn/xwzx/002006/20200525/f6009f16-7343-4748-9539-6410f382d221.html",
+        "excerpt": "听完越界筑路的故事，学员们漫步到了山阴路274弄，一条小而精致的弄堂。这是通往鲁迅公园和虹口足球场地铁站的一条交通便道",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:19.452782+00:00"
+      },
+      {
+        "url": "https://www.amap.com/detail/B0FFH165MQ",
+        "provider_identity": {
+          "type": "商务住宅;住宅区;住宅小区",
+          "id": "B0FFH165MQ",
+          "address": "甜爱路与甜爱支路交叉口东北60米",
+          "name": "山阴路274弄小区",
+          "location": "121.484599,31.268259"
+        },
+        "source_type": "amap",
+        "method": "one bounded targeted map identity query; extras ignored",
+        "retrieved_at": "2026-10-04T16:21:33.295312+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "hongkou_literary_1b33161e4ad878ef",
+    "name": "李白烈士故居",
+    "checks": [
+      {
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "excerpt": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00"
+      },
+      {
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "excerpt": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "hongkou_literary_783ce886a4d8323d",
+    "name": "沈尹默故居",
+    "checks": [
+      {
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "excerpt": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00"
+      },
+      {
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "excerpt": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "hongkou_literary_cd63adaf18fff2e2",
+    "name": "爱思儿童公园",
+    "checks": [
+      {
+        "url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "excerpt": "在公园步道两侧沿途设置了多块书本样式的宣传版，并附以“民生无小事”“长风破浪会有时，直挂云帆济沧海”等名言警句，让游客在漫步小径中接受廉文化的熏陶。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00"
+      },
+      {
+        "url": "https://www.amap.com/detail/B0FFGVI51N",
+        "provider_identity": {
+          "type": "体育休闲服务;休闲场所;游乐场",
+          "id": "B0FFGVI51N",
+          "address": "海伦公园海伦路499号",
+          "name": "爱思儿童公园",
+          "location": "121.486569,31.257395"
+        },
+        "source_type": "amap",
+        "method": "one bounded targeted map identity query; extras ignored",
+        "retrieved_at": "2026-10-04T16:21:34.399985+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "hongkou_literary_6ffd8b36b2afc5fb",
+    "name": "四川北路文化中心图书馆",
+    "checks": []
+  },
+  {
+    "candidate_id": "hongkou_literary_e54fe9df0f6a4fcb",
+    "name": "上海多伦路地区海派文化馆(多伦生活广场店)",
+    "checks": []
+  },
+  {
+    "candidate_id": "hongkou_literary_8e3bdc64e471f900",
+    "name": "上海子兮艺术社非遗文化馆",
+    "checks": []
+  },
+  {
+    "candidate_id": "hongkou_literary_aa45403fa488bac4",
+    "name": "日本海军特别陆战队司令部旧址",
+    "checks": []
+  }
+]

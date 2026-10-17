@@ -1,0 +1,284 @@
+Offline mock acceptance examples; not real API parser results.
+
+P1 Architecture and local neighborhoods
+Parsed Intent
+Mode: plan_for_me
+Time: 180 min
+Interest: architecture, local_life
+Pace: standard
+Status: success
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 16.000; matched tags: interest_tags=architecture,local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 15.211; matched tags: interest_tags=architecture,local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 14.735; matched tags: interest_tags=architecture,local_life; experience_tags=neighborhood_walk; culture_tags=
+     Recommended because it matches: architecture, local_life, neighborhood_walk. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  4. #24 徐家汇天主堂 / St. Ignatius Cathedral / Xujiahui Cathedral
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 3.151 km / 42.01 min
+     Score: 4.274; matched tags: interest_tags=architecture; experience_tags=; culture_tags=
+     Recommended because it matches: architecture. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  5. #25 徐家汇书院 / Zikawei Library / Xujiahui Academy
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 0.121 km / 1.62 min
+     Score: 13.818; matched tags: interest_tags=architecture,local_life; experience_tags=; culture_tags=
+     Recommended because it matches: architecture, local_life. Located in Wukang–Fuxing–Xujiahui. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 171.89 / 180 min; remaining 8.11 min
+Estimated distance: 4.641 km; walking 61.89 min; stays 95 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone maximizes eligible top-five tag affinity minus estimated approach-distance penalty. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: St. Ignatius Cathedral / Xujiahui Cathedral (#24) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: St. Ignatius Cathedral / Xujiahui Cathedral (#24); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: St. Ignatius Cathedral / Xujiahui Cathedral (#24); unknown does not mean free or reservation-free.
+Warning: coordinate_conversion: Zikawei Library / Xujiahui Academy (#25) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Zikawei Library / Xujiahui Academy (#25); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Zikawei Library / Xujiahui Academy (#25); unknown does not mean free or reservation-free.
+
+P3 Relaxed literary walk
+Parsed Intent
+Mode: plan_for_me
+Time: 120 min
+Interest: literature
+Pace: standard
+Status: success
+Generated Route
+Status: success
+Zone: Lu Xun Park–North Sichuan Road
+  1. #12 鲁迅公园 / Lu Xun Park
+     full_visit / standard: estimated stay 50 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=literature; experience_tags=quiet_walk; culture_tags=
+     Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+  2. #2 鲁迅故居 / Lu Xun Former Residence
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 0.483 km / 6.43 min
+     Score: 10.276; matched tags: interest_tags=literature; experience_tags=quiet_walk; culture_tags=
+     Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 101.43 / 120 min; remaining 18.57 min
+Estimated distance: 0.483 km; walking 6.43 min; stays 80 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: False
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: crowd_level_unknown: Lu Xun Park (#12); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Park (#12); unknown does not mean free or reservation-free.
+Warning: crowd_level_unknown: Lu Xun Former Residence (#2); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Former Residence (#2); unknown does not mean free or reservation-free.
+Warning: richness_target_unmet: soft target 3-4 stops; delivered 2 without relaxing hard constraints or adding unrelated stops.
+
+M1 Wukang Mansion and Jianyeli
+Parsed Intent
+Mode: places_in_mind
+Time: 180 min
+Interest: 
+Pace: standard
+Status: success
+Selected places minimum estimate: 60.67 min
+Walking-only feasible: True
+Selected places preserved: Wukang Mansion, Jianyeli
+Warning: Distances and visit times are planning estimates; no street routing or transport times.
+Warning: No start supplied: arrival before the first selected stop is excluded.
+Generated Route
+Status: success
+Zone: Wukang–Fuxing–Xujiahui
+  1. #8 陕南邨 / Shannan Village
+     walk_stop / standard: estimated stay 10 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 4.000; matched tags: interest_tags=; experience_tags=; culture_tags=
+     Recommended as a nearby stop; no requested tag matches. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #1 永康路与嘉善路口 / Yongkang Road × Jiashan Road
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.526 km / 7.02 min
+     Score: 3.211; matched tags: interest_tags=; experience_tags=; culture_tags=
+     Recommended as a nearby stop; no requested tag matches. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  3. #7 建业里 / Jianyeli
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 0.844 km / 11.25 min
+     Score: 2.735; matched tags: interest_tags=; experience_tags=; culture_tags=
+     Included because you marked it as must-go. Recommended as a nearby stop; no requested tag matches. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  4. #9 武康大楼 / Wukang Mansion
+     walk_stop / standard: estimated stay 15 min
+     Estimated previous leg: 1.175 km / 15.67 min
+     Score: 2.237; matched tags: interest_tags=; experience_tags=; culture_tags=
+     Included because you marked it as must-go. Recommended as a nearby stop; no requested tag matches. Located in Wukang–Fuxing–Xujiahui. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  5. #14 上海宋庆龄故居纪念馆 / Former Residence of Soong Ching-ling in Shanghai
+     full_visit / standard: estimated stay 45 min
+     Estimated previous leg: 1.351 km / 18.01 min
+     Score: 1.974; matched tags: interest_tags=; experience_tags=; culture_tags=
+     Recommended as a nearby stop; no requested tag matches. Located in Wukang–Fuxing–Xujiahui. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 171.95 / 180 min; remaining 8.05 min
+Estimated distance: 3.896 km; walking 51.95 min; stays 105 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: True
+Budget scope: First stop's arrival to final stop's departure; approach to the first stop excluded; no return journey.
+Explanation: Primary zone follows must-go stops; tag affinity breaks ties. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: representative_coordinate: Shannan Village (#8); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Shannan Village (#8); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Shannan Village (#8); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Yongkang Road × Jiashan Road (#1); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Yongkang Road × Jiashan Road (#1); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Yongkang Road × Jiashan Road (#1); unknown does not mean free or reservation-free.
+Warning: representative_coordinate: Jianyeli (#7); this anchor is not the whole area's unique location or entry/exit.
+Warning: crowd_level_unknown: Jianyeli (#7); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Jianyeli (#7); unknown does not mean free or reservation-free.
+Warning: crowd_level_unknown: Wukang Mansion (#9); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Wukang Mansion (#9); unknown does not mean free or reservation-free.
+Warning: ticket_required: Former Residence of Soong Ching-ling in Shanghai (#14); ticket cost and availability are not checked.
+Warning: reservation_required: Former Residence of Soong Ching-ling in Shanghai (#14); reservation availability is not checked.
+
+M2 Three distant areas in two hours
+Parsed Intent
+Mode: places_in_mind
+Time: 120 min
+Interest: 
+Pace: standard
+Status: transfer_required
+Selected places minimum estimate: 285.73 min
+Walking-only feasible: False
+Selected places preserved: Wukang Mansion, Yu Garden, Lu Xun Park
+Warning: Distances and visit times are planning estimates; no street routing or transport times.
+Warning: No start supplied: arrival before the first selected stop is excluded.
+Warning: This route would require a transfer between areas under the conservative Phase 2 walking-only policy. No transfer duration is modeled.
+Warning: Your selected places cannot fit the checked walking estimate into 120 minutes / the walking-distance budget.
+
+S1 West Bund
+Parsed Intent
+Mode: surprise_me
+Time: 180 min
+Interest: waterfront, industrial_heritage
+Pace: standard
+Status: success
+Surprise Theme: Riverside Walk
+Warning: zone_start_is_representative_anchor_not_actual_user_position
+Generated Route
+Status: success
+Zone: West Bund Waterfront
+  1. #20 西岸美术馆 / West Bund Museum
+     walk_stop / standard: estimated stay 20 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=waterfront; experience_tags=riverside_walk; culture_tags=
+     Recommended because it matches: waterfront, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard. Downgraded because: insufficient_time.
+     Scope: Key exterior/public-space observation.
+  2. #21 上海油罐艺术中心 / TANK Shanghai
+     walk_stop / standard: estimated stay 25 min
+     Estimated previous leg: 0.443 km / 5.91 min
+     Score: 15.335; matched tags: interest_tags=industrial_heritage,waterfront; experience_tags=riverside_walk; culture_tags=
+     Recommended because it matches: industrial_heritage, waterfront, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.
+     Scope: Exterior tanks, industrial heritage and waterfront public space; no exhibition entry.
+  3. #22 Gate M 西岸梦中心 / Gate M West Bund Dream Center
+     walk_stop / standard: estimated stay 30 min
+     Estimated previous leg: 0.482 km / 6.43 min
+     Score: 15.277; matched tags: interest_tags=industrial_heritage,waterfront; experience_tags=riverside_walk; culture_tags=
+     Recommended because it matches: industrial_heritage, waterfront, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  4. #3 龙美术馆（西岸馆） / Long Museum (West Bund)
+     walk_stop / standard: estimated stay 25 min
+     Estimated previous leg: 3.282 km / 43.76 min
+     Score: 11.077; matched tags: interest_tags=industrial_heritage,waterfront; experience_tags=riverside_walk; culture_tags=
+     Recommended because it matches: industrial_heritage, waterfront, riverside_walk. Located in West Bund Waterfront. Visit mode: walk_stop; pace: standard. Downgraded because: insufficient_time.
+     Scope: Key exterior/public-space observation.
+Estimated total: 171.10 / 180 min; remaining 8.90 min
+Estimated distance: 4.208 km; walking 56.10 min; stays 100 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 4, 'max_stops': 5}; met: True
+Budget scope: Provided start to final stop's departure; approach walking included; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: visit_mode_downgraded: West Bund Museum (#20): full_visit -> walk_stop; insufficient_time.
+Warning: visit_time_pending_manual_calibration: West Bund Museum (#20) walk_stop; product estimate.
+Warning: representative_coordinate: Gate M West Bund Dream Center (#22); this anchor is not the whole area's unique location or entry/exit.
+Warning: visit_mode_downgraded: Long Museum (West Bund) (#3): full_visit -> walk_stop; insufficient_time.
+Warning: visit_time_pending_manual_calibration: Long Museum (West Bund) (#3) walk_stop; product estimate.
+Warning: crowd_level_unknown: Long Museum (West Bund) (#3); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Long Museum (West Bund) (#3); unknown does not mean free or reservation-free.
+
+S2 Hongkou
+Parsed Intent
+Mode: surprise_me
+Time: 120 min
+Interest: literature
+Pace: standard
+Status: success
+Surprise Theme: Literary Shanghai
+Warning: zone_start_is_representative_anchor_not_actual_user_position
+Generated Route
+Status: success
+Zone: Lu Xun Park–North Sichuan Road
+  1. #17 1927·鲁迅与内山纪念书局 / 1927 Lu Xun & Uchiyama Memorial Bookstore
+     walk_stop / standard: estimated stay 25 min
+     Estimated previous leg: 0.000 km / 0.00 min
+     Score: 11.000; matched tags: interest_tags=literature; experience_tags=quiet_walk; culture_tags=
+     Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: walk_stop; pace: standard.
+     Scope: Key exterior/public-space observation.
+  2. #18 中国左翼作家联盟会址纪念馆 / Memorial Site of the League of Left-Wing Writers
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 0.357 km / 4.76 min
+     Score: 10.464; matched tags: interest_tags=literature; experience_tags=quiet_walk; culture_tags=
+     Recommended because it matches: literature, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+  3. #2 鲁迅故居 / Lu Xun Former Residence
+     full_visit / standard: estimated stay 30 min
+     Estimated previous leg: 0.792 km / 10.56 min
+     Score: 11.811; matched tags: interest_tags=literature; experience_tags=neighborhood_walk,quiet_walk; culture_tags=
+     Recommended because it matches: literature, neighborhood_walk, quiet_walk. Located in Lu Xun Park–North Sichuan Road. Visit mode: full_visit; pace: standard.
+     Scope: Visit this destination in depth; full_visit does not imply indoor or ticketed access.
+Estimated total: 115.33 / 120 min; remaining 4.67 min
+Estimated distance: 1.149 km; walking 15.33 min; stays 85 min; buffer 15 min
+Cross-zone required: False; richness target: {'min_stops': 3, 'max_stops': 4}; met: True
+Budget scope: Provided start to final stop's departure; approach walking included; no return journey.
+Explanation: Primary zone follows your explicit preference. Must-go stops are retained; relevant optional stops use score-ranked feasible insertion with geographic reordering. Selected mode and pace determine stay time. Every accepted route is rechecked against both budgets.
+Warning: estimated_geometry: approximate coordinates and a constant detour factor; not verified street navigation.
+Warning: walking_distance_scope: approach and inter-stop legs only; movement inside each POI is not separately modeled.
+Warning: opening_status_unverified: opening text is not parsed; only request-supplied full_visit unavailability is applied.
+Warning: cross_zone_transfer_penalty_inactive: configured symbolic penalty is not assigned an arbitrary numeric value.
+Warning: coordinate_conversion: 1927 Lu Xun & Uchiyama Memorial Bookstore (#17) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: coordinate_pending_manual_review: Memorial Site of the League of Left-Wing Writers (#18); Hongkou Archives public map record WM00377 matches Duolun Road Lane 201 No. 2. Map uses Tianditu; precise feature datum is unverified, provisionally treated as WGS84. Needs manual coordinate review; not a verified entrance.
+Warning: coordinate_conversion: Memorial Site of the League of Left-Wing Writers (#18) converted approximately from WGS84 to GCJ-02 in memory.
+Warning: crowd_level_unknown: Lu Xun Former Residence (#2); low crowd is not guaranteed.
+Warning: entry_requirements_unverified: Lu Xun Former Residence (#2); unknown does not mean free or reservation-free.

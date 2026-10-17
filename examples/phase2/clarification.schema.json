@@ -1,0 +1,71 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "field": {
+      "type": "string"
+    },
+    "question": {
+      "type": "string",
+      "minLength": 1
+    },
+    "input_type": {
+      "type": "string",
+      "enum": [
+        "single_choice",
+        "multi_choice",
+        "text",
+        "location"
+      ]
+    },
+    "options": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "label": {
+            "type": "string",
+            "minLength": 1
+          },
+          "value": {
+            "oneOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "integer"
+              }
+            ]
+          }
+        },
+        "required": [
+          "label",
+          "value"
+        ]
+      }
+    },
+    "required": {
+      "type": "boolean"
+    },
+    "max_choices": {
+      "oneOf": [
+        {
+          "type": "integer",
+          "minimum": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "field",
+    "question",
+    "input_type",
+    "options",
+    "required",
+    "max_choices"
+  ]
+}

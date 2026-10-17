@@ -1,0 +1,198 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_e58b1a0d921a65c8",
+  "node_identity": "wukang_fuxing_xujiahui_e58b1a0d921a65c8",
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_70ee9511541c",
+          "e_ee9dc41bbdca",
+          "e_78ee2b062e43"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_70ee9511541c",
+      "e_ee9dc41bbdca"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示为具名的城市公园（leisure=park），可作为独立体验的补充性停留；但缺乏规模、设施与开放信息，难以支撑为路线主题核心。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据仅表明其为具名公园，缺少足以支撑专程前往的独立目的地价值信息，故不宜作为锚点。",
+        "supporting_stop": "作为具名公园，具备独立体验价值，可补充路线中的公园类停留，符合支持性停留标准。",
+        "transition_stop": "虽可作为短时停留，但公园本身具独立体验价值，优于仅作连接用途的过渡停留。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "具名城市公园，可为城市漫步提供公园类体验节点，但现有证据未体现独特主题或深度体验。",
+      "evidence_refs": [
+        "e_70ee9511541c",
+        "e_ee9dc41bbdca",
+        "e_78ee2b062e43"
+      ]
+    },
+    "summary_draft": {
+      "text": "衡山公园",
+      "evidence_refs": [
+        "e_78ee2b062e43"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅针对公园外部/公共空间停留的规划估算，不含内部设施或活动时间。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "开放时间",
+      "门票信息",
+      "公园规模与设施",
+      "当前运营状态"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_70ee9511541c",
+          "e_ee9dc41bbdca",
+          "e_78ee2b062e43"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_70ee9511541c",
+      "e_ee9dc41bbdca"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示为具名的城市公园（leisure=park），可作为独立体验的补充性停留；但缺乏规模、设施与开放信息，难以支撑为路线主题核心。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据仅表明其为具名公园，缺少足以支撑专程前往的独立目的地价值信息，故不宜作为锚点。",
+        "supporting_stop": "作为具名公园，具备独立体验价值，可补充路线中的公园类停留，符合支持性停留标准。",
+        "transition_stop": "虽可作为短时停留，但公园本身具独立体验价值，优于仅作连接用途的过渡停留。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "具名城市公园，可为城市漫步提供公园类体验节点，但现有证据未体现独特主题或深度体验。",
+      "evidence_refs": [
+        "e_70ee9511541c",
+        "e_ee9dc41bbdca",
+        "e_78ee2b062e43"
+      ]
+    },
+    "summary_draft": {
+      "text": "衡山公园",
+      "evidence_refs": [
+        "e_78ee2b062e43"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅针对公园外部/公共空间停留的规划估算，不含内部设施或活动时间。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "开放时间",
+      "门票信息",
+      "公园规模与设施",
+      "当前运营状态"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.200606722311015,
+      121.44213913780838
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3518,
+      "completion_tokens": 682,
+      "total_tokens": 4200,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 2878
+    }
+  }
+}

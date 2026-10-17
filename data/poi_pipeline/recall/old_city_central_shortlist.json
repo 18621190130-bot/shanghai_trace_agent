@@ -1,0 +1,2759 @@
+[
+  {
+    "candidate_id": "old_city_central_b6d5ce81307d6a31",
+    "name_zh": "太平桥公园",
+    "name_en": "Taipingqiao Park",
+    "aliases": [],
+    "address": "上海市 自忠路 170",
+    "coordinates": [
+      31.219645626782466,
+      121.47788238919954
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "太平桥公园",
+        "name_en": "Taipingqiao Park",
+        "aliases": [],
+        "address": "上海市 自忠路 170",
+        "coordinates": [
+          31.2215911,
+          121.4733589
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "leisure=park",
+        "raw_provider_tags": {
+          "addr:city": "上海市",
+          "addr:district": "黄浦区",
+          "addr:housenumber": "170",
+          "addr:province": "上海市",
+          "addr:street": "自忠路",
+          "leisure": "park",
+          "name": "太平桥公园",
+          "name:en": "Taipingqiao Park",
+          "name:zh": "太平桥公园",
+          "type": "multipolygon",
+          "wikidata": "Q42310158"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:relation/10369752"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:relation/10369752",
+      "name_en": "osm:relation/10369752",
+      "address": "osm:relation/10369752",
+      "coordinates": "osm:relation/10369752"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_1e5bf7e45ace": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "太平桥公园"
+      },
+      "e_eca4ee244781": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Taipingqiao Park"
+      },
+      "e_076d2d5f7081": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "上海市 自忠路 170"
+      },
+      "e_6244bf7a7312": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2215911,
+            121.4733589
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_f54c5874118b": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "leisure=park"
+      },
+      "e_f86343f653e1": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_3c110a8fe44c": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "太平桥公园"
+      },
+      "e_d6b117680fff": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Taipingqiao Park"
+      },
+      "e_d13637c8c798": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "太平桥公园"
+      },
+      "e_f5573248851d": {
+        "record_id": "osm:relation/10369752",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10369752",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "type",
+        "value": "multipolygon"
+      }
+    },
+    "recall_screen": {
+      "rank": 1,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_fd9f90a4d3e59ac7",
+    "name_zh": "淮海公园",
+    "name_en": "Huaihai Park",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.223114644219063,
+      121.47759133585856
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/499566575",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "淮海公园",
+        "name_en": "Huaihai Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2250577,
+          121.4730666
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "leisure=park",
+        "raw_provider_tags": {
+          "leisure": "park",
+          "name": "淮海公园",
+          "name:en": "Huaihai Park",
+          "name:ru": "Парк Хуайхай",
+          "name:zh": "淮海公园",
+          "name:zh-Hans": "淮海公园",
+          "name:zh-Hant": "淮海公園"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/499566575"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:way/499566575",
+      "name_en": "osm:way/499566575",
+      "address": null,
+      "coordinates": "osm:way/499566575"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_75b6c26fbd53": {
+        "record_id": "osm:way/499566575",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "淮海公园"
+      },
+      "e_d5f6b55ac322": {
+        "record_id": "osm:way/499566575",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Huaihai Park"
+      },
+      "e_76dd7d699268": {
+        "record_id": "osm:way/499566575",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2250577,
+            121.4730666
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_ed177cac3bbb": {
+        "record_id": "osm:way/499566575",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "leisure=park"
+      },
+      "e_b7ca805c9b99": {
+        "record_id": "osm:way/499566575",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_3b7bccf45ce5": {
+        "record_id": "osm:way/499566575",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "淮海公园"
+      },
+      "e_5fe131834776": {
+        "record_id": "osm:way/499566575",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Huaihai Park"
+      },
+      "e_5aeecdc68964": {
+        "record_id": "osm:way/499566575",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/499566575",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "淮海公园"
+      }
+    },
+    "recall_screen": {
+      "rank": 2,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_4099dce97a905559",
+    "name_zh": "福州路",
+    "name_en": "",
+    "aliases": [],
+    "address": "黄浦区",
+    "coordinates": [
+      31.233657,
+      121.481917
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "name_zh": "福州路",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄浦区",
+        "coordinates": [
+          31.233657,
+          121.481917
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "地名地址信息;交通地名;道路名",
+        "raw_provider_tags": {
+          "type": "地名地址信息;交通地名;道路名",
+          "typecode": "190301",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:BZAFR002HH"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:BZAFR002HH",
+      "name_en": null,
+      "address": "amap:BZAFR002HH",
+      "coordinates": "amap:BZAFR002HH"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_55c5d5d2b929": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "福州路"
+      },
+      "e_0e4d72f25b2f": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄浦区"
+      },
+      "e_fc325e08fdcf": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.233657,
+            121.481917
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_b96327f802f3": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "地名地址信息;交通地名;道路名"
+      },
+      "e_3af5b49b2bda": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "地名地址信息;交通地名;道路名"
+      },
+      "e_fd92e8fab844": {
+        "record_id": "amap:BZAFR002HH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/BZAFR002HH",
+        "retrieved_at": "2026-10-04T15:12:12.019299+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "190301"
+      }
+    },
+    "recall_screen": {
+      "rank": 3,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_70bbb635ef76cb0e",
+    "name_zh": "复兴公园",
+    "name_en": "Fuxing Park",
+    "aliases": [],
+    "address": "复兴中路516号",
+    "coordinates": [
+      31.21698,
+      121.469115
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B00155KTVH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00155KTVH",
+        "retrieved_at": "2026-10-04T15:12:04.262972+00:00",
+        "name_zh": "复兴公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "复兴中路516号",
+        "coordinates": [
+          31.21698,
+          121.469115
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;公园广场;公园",
+        "raw_provider_tags": {
+          "type": "风景名胜;公园广场;公园",
+          "typecode": "110101",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "way/39961770",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "复兴公园",
+        "name_en": "Fuxing Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2190673,
+          121.4644414
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction;leisure=park",
+        "raw_provider_tags": {
+          "leisure": "park",
+          "name": "复兴公园",
+          "name:en": "Fuxing Park",
+          "tourism": "attraction",
+          "wikidata": "Q5510954",
+          "wikimedia_commons": "Category:Fuxing Park",
+          "wikipedia": "en:Fuxing Park"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "source_url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "name_zh": "复兴公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "WGS84",
+        "source_category": "official_place_mention",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市中心百年法式公园——复兴公园,即将再度焕新。运营主体INS新乐园透露,在黄浦区支持下,企业将于今年7月下旬,在复兴公园联动思南公馆推出全新夜间乐园项目,打造兼顾亲子休闲与都市潮流娱乐的特色游园空间。",
+            "supports": [
+              "identity",
+              "public_space"
+            ],
+            "extraction": "literal_excerpt; unverified temporal context"
+          },
+          {
+            "text": "复兴公园内的儿童乐园是本次焕新一大亮点。日间,这里仍保留亲子游玩功能,升级后的游乐设备正常开放,储值、购票渠道及收费标准维持原有方案不变。入夜后,乐园将转型为面向成人的沉浸式体验空间——帷幕拉开,投影与灯光同步点亮,整片园区化身实景演出场地,运营方将联动思南公馆及周边商业载体,推出演艺、密室互动等多元内容。“更丰富的夜间业态,能为成年人提供更多休闲选择,复兴公园的夜间活力将更持久。”INS新乐园总裁夏天一说。",
+            "supports": [
+              "identity",
+              "public_space"
+            ],
+            "extraction": "literal_excerpt; unverified temporal context"
+          },
+          {
+            "text": "园区整体光影系统将全方位升级。今年4月,配合上海国际花卉节举办,复兴公园已完成灯光改造一期工程。园区原有灯光以冷色调为主,现已全部更换为暖光照明;同步落地沉床花坛雾森系统、连通思南区域的“光之门”装置,其中最受市民喜爱的当数氛围感拉满的“宇宙级浪漫”巨型迪斯科灯球,光束洒落,地面铺满细碎星光。设计团队还在绿化带内隐藏互动感应屏,行人途经时,屏幕上的微信表情会跟随行人移动、注视来人,拍手即可触发树梢飞鸟造型灯组次第亮起。灯光改造二期工程将结合下半年国际光影节落地,重点升级复兴公园荷花池周边的光影景观。“我们力争打造国内顶尖的荷花池光影艺术场景。”夏天一透露,初步规划方案已在编制推进。",
+            "supports": [
+              "identity",
+              "history",
+              "public_space"
+            ],
+            "extraction": "literal_excerpt; unverified temporal context"
+          }
+        ],
+        "supports": [
+          "history",
+          "identity",
+          "public_space"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "source_url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "name_zh": "复兴公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "WGS84",
+        "source_category": "official_place_mention",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "夜幕低垂,复兴公园内的复古观光小火车缓缓开动,一旁的光影钢琴装置流光闪烁,百年法式园林褪去白日的静谧,灯火、音乐、人流交织在一起,焕发出潮流鲜活的夜间魅力。2026“精彩夜上海”系列活动正火热铺开。",
+            "supports": [
+              "identity",
+              "public_space"
+            ],
+            "extraction": "literal_excerpt; unverified temporal context"
+          },
+          {
+            "text": "水引流,带火周边整片街区的烟火气。每到散场时分,大批意犹未尽的年轻人从复兴公园涌出,散步前往不远处的南昌路,整条街巷瞬间热闹起来,各家小酒吧、夜宵小店迎来营业高峰。",
+            "supports": [
+              "identity",
+              "public_space"
+            ],
+            "extraction": "literal_excerpt; unverified temporal context"
+          },
+          {
+            "text": "INS LAND是黄浦夜经济的一个缩影。在黄浦区,夜间新场景遍地开花。复兴公园夜间限定观光小火车穿梭林间,串联起思南—复兴片区,形成“食、逛、玩”完整夜间漫游闭环;国内首个沉浸式微醺场馆SOUL HOUSE落地思南公馆,8段故事、8杯特调,让老洋房的夜晚充满新奇体验;在人民广场即将亮相的南熙258,主打“24小时不打烊商业新地标”定位,瞄准18—35岁年轻群体,超半数商铺营业至凌晨2:30之后,深夜时分依旧灯火通明,补齐人民广场商圈深夜消费的短板。",
+            "supports": [
+              "identity",
+              "history",
+              "public_space"
+            ],
+            "extraction": "literal_excerpt; unverified temporal context"
+          }
+        ],
+        "supports": [
+          "history",
+          "identity",
+          "public_space"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155KTVH",
+        "retrieved_at": "2026-10-04T15:12:04.262972+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B00155KTVH"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/39961770"
+      },
+      {
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "supports": [
+          "history",
+          "identity",
+          "public_space"
+        ],
+        "record_id": "government:41e9acc402939e8cb66e"
+      },
+      {
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "supports": [
+          "history",
+          "identity",
+          "public_space"
+        ],
+        "record_id": "government:c2b629f5469f23af3456"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B00155KTVH",
+      "name_en": "osm:way/39961770",
+      "address": "amap:B00155KTVH",
+      "coordinates": "amap:B00155KTVH"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_c116516836df": {
+        "record_id": "amap:B00155KTVH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155KTVH",
+        "retrieved_at": "2026-10-04T15:12:04.262972+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "复兴公园"
+      },
+      "e_bfeddba99ece": {
+        "record_id": "amap:B00155KTVH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155KTVH",
+        "retrieved_at": "2026-10-04T15:12:04.262972+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "复兴中路516号"
+      },
+      "e_5d0cf031e8a2": {
+        "record_id": "osm:way/39961770",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "复兴公园"
+      },
+      "e_87a9e0c15706": {
+        "record_id": "osm:way/39961770",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Fuxing Park"
+      },
+      "e_00c037da8521": {
+        "record_id": "government:41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "复兴公园"
+      },
+      "e_38293a7ea397": {
+        "record_id": "government:c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "复兴公园"
+      },
+      "e_169ff7106270": {
+        "record_id": "amap:B00155KTVH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155KTVH",
+        "retrieved_at": "2026-10-04T15:12:04.262972+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.21698,
+            121.469115
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_3cfaedfff7ab": {
+        "record_id": "osm:way/39961770",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2190673,
+            121.4644414
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_35d1181896f6": {
+        "record_id": "amap:B00155KTVH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155KTVH",
+        "retrieved_at": "2026-10-04T15:12:04.262972+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;公园广场;公园"
+      },
+      "e_f3ac96d5e501": {
+        "record_id": "amap:B00155KTVH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155KTVH",
+        "retrieved_at": "2026-10-04T15:12:04.262972+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;公园广场;公园"
+      },
+      "e_0b188fa4fec2": {
+        "record_id": "amap:B00155KTVH",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155KTVH",
+        "retrieved_at": "2026-10-04T15:12:04.262972+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110101"
+      },
+      "e_d49dbe3677d3": {
+        "record_id": "osm:way/39961770",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction;leisure=park"
+      },
+      "e_749a16626f64": {
+        "record_id": "osm:way/39961770",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_e53360a383ec": {
+        "record_id": "osm:way/39961770",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "复兴公园"
+      },
+      "e_fa07f7f818fc": {
+        "record_id": "osm:way/39961770",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Fuxing Park"
+      },
+      "e_ac6f185afc62": {
+        "record_id": "osm:way/39961770",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/39961770",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_d6d7eb312553": {
+        "record_id": "government:41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "official_place_mention"
+      },
+      "e_57504e3c4405": {
+        "record_id": "government:41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市中心百年法式公园——复兴公园,即将再度焕新。运营主体INS新乐园透露,在黄浦区支持下,企业将于今年7月下旬,在复兴公园联动思南公馆推出全新夜间乐园项目,打造兼顾亲子休闲与都市潮流娱乐的特色游园空间。"
+      },
+      "e_6548f9ba6b59": {
+        "record_id": "government:41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "复兴公园内的儿童乐园是本次焕新一大亮点。日间,这里仍保留亲子游玩功能,升级后的游乐设备正常开放,储值、购票渠道及收费标准维持原有方案不变。入夜后,乐园将转型为面向成人的沉浸式体验空间——帷幕拉开,投影与灯光同步点亮,整片园区化身实景演出场地,运营方将联动思南公馆及周边商业载体,推出演艺、密室互动等多元内容。“更丰富的夜间业态,能为成年人提供更多休闲选择,复兴公园的夜间活力将更持久。”INS新乐园总裁夏天一说。"
+      },
+      "e_66df54498d5c": {
+        "record_id": "government:41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "园区整体光影系统将全方位升级。今年4月,配合上海国际花卉节举办,复兴公园已完成灯光改造一期工程。园区原有灯光以冷色调为主,现已全部更换为暖光照明;同步落地沉床花坛雾森系统、连通思南区域的“光之门”装置,其中最受市民喜爱的当数氛围感拉满的“宇宙级浪漫”巨型迪斯科灯球,光束洒落,地面铺满细碎星光。设计团队还在绿化带内隐藏互动感应屏,行人途经时,屏幕上的微信表情会跟随行人移动、注视来人,拍手即可触发树梢飞鸟造型灯组次第亮起。灯光改造二期工程将结合下半年国际光影节落地,重点升级复兴公园荷花池周边的光影景观。“我们力争打造国内顶尖的荷花池光影艺术场景。”夏天一透露,初步规划方案已在编制推进。"
+      },
+      "e_3c7634f4f0d4": {
+        "record_id": "government:c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "official_place_mention"
+      },
+      "e_1cdc63b24c1e": {
+        "record_id": "government:c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "夜幕低垂,复兴公园内的复古观光小火车缓缓开动,一旁的光影钢琴装置流光闪烁,百年法式园林褪去白日的静谧,灯火、音乐、人流交织在一起,焕发出潮流鲜活的夜间魅力。2026“精彩夜上海”系列活动正火热铺开。"
+      },
+      "e_3b87327eaf1c": {
+        "record_id": "government:c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "水引流,带火周边整片街区的烟火气。每到散场时分,大批意犹未尽的年轻人从复兴公园涌出,散步前往不远处的南昌路,整条街巷瞬间热闹起来,各家小酒吧、夜宵小店迎来营业高峰。"
+      },
+      "e_998dbc1a7ad2": {
+        "record_id": "government:c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "INS LAND是黄浦夜经济的一个缩影。在黄浦区,夜间新场景遍地开花。复兴公园夜间限定观光小火车穿梭林间,串联起思南—复兴片区,形成“食、逛、玩”完整夜间漫游闭环;国内首个沉浸式微醺场馆SOUL HOUSE落地思南公馆,8段故事、8杯特调,让老洋房的夜晚充满新奇体验;在人民广场即将亮相的南熙258,主打“24小时不打烊商业新地标”定位,瞄准18—35岁年轻群体,超半数商铺营业至凌晨2:30之后,深夜时分依旧灯火通明,补齐人民广场商圈深夜消费的短板。"
+      },
+      "e_3790305b1538": {
+        "record_id": "government:41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "园区整体光影系统将全方位升级。今年4月,配合上海国际花卉节举办,复兴公园已完成灯光改造一期工程。园区原有灯光以冷色调为主,现已全部更换为暖光照明;同步落地沉床花坛雾森系统、连通思南区域的“光之门”装置,其中最受市民喜爱的当数氛围感拉满的“宇宙级浪漫”巨型迪斯科灯球,光束洒落,地面铺满细碎星光。设计团队还在绿化带内隐藏互动感应屏,行人途经时,屏幕上的微信表情会跟随行人移动、注视来人,拍手即可触发树梢飞鸟造型灯组次第亮起。灯光改造二期工程将结合下半年国际光影节落地,重点升级复兴公园荷花池周边的光影景观。“我们力争打造国内顶尖的荷花池光影艺术场景。”夏天一透露,初步规划方案已在编制推进。"
+      },
+      "e_af197aad8452": {
+        "record_id": "government:c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "INS LAND是黄浦夜经济的一个缩影。在黄浦区,夜间新场景遍地开花。复兴公园夜间限定观光小火车穿梭林间,串联起思南—复兴片区,形成“食、逛、玩”完整夜间漫游闭环;国内首个沉浸式微醺场馆SOUL HOUSE落地思南公馆,8段故事、8杯特调,让老洋房的夜晚充满新奇体验;在人民广场即将亮相的南熙258,主打“24小时不打烊商业新地标”定位,瞄准18—35岁年轻群体,超半数商铺营业至凌晨2:30之后,深夜时分依旧灯火通明,补齐人民广场商圈深夜消费的短板。"
+      },
+      "e_11f950436ca9": {
+        "record_id": "government:41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市中心百年法式公园——复兴公园,即将再度焕新。运营主体INS新乐园透露,在黄浦区支持下,企业将于今年7月下旬,在复兴公园联动思南公馆推出全新夜间乐园项目,打造兼顾亲子休闲与都市潮流娱乐的特色游园空间。"
+      },
+      "e_b0f1fcf8b0df": {
+        "record_id": "government:41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "复兴公园内的儿童乐园是本次焕新一大亮点。日间,这里仍保留亲子游玩功能,升级后的游乐设备正常开放,储值、购票渠道及收费标准维持原有方案不变。入夜后,乐园将转型为面向成人的沉浸式体验空间——帷幕拉开,投影与灯光同步点亮,整片园区化身实景演出场地,运营方将联动思南公馆及周边商业载体,推出演艺、密室互动等多元内容。“更丰富的夜间业态,能为成年人提供更多休闲选择,复兴公园的夜间活力将更持久。”INS新乐园总裁夏天一说。"
+      },
+      "e_d7195f209596": {
+        "record_id": "government:41e9acc402939e8cb66e",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "retrieved_at": "2026-10-04T15:18:58.091047+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "园区整体光影系统将全方位升级。今年4月,配合上海国际花卉节举办,复兴公园已完成灯光改造一期工程。园区原有灯光以冷色调为主,现已全部更换为暖光照明;同步落地沉床花坛雾森系统、连通思南区域的“光之门”装置,其中最受市民喜爱的当数氛围感拉满的“宇宙级浪漫”巨型迪斯科灯球,光束洒落,地面铺满细碎星光。设计团队还在绿化带内隐藏互动感应屏,行人途经时,屏幕上的微信表情会跟随行人移动、注视来人,拍手即可触发树梢飞鸟造型灯组次第亮起。灯光改造二期工程将结合下半年国际光影节落地,重点升级复兴公园荷花池周边的光影景观。“我们力争打造国内顶尖的荷花池光影艺术场景。”夏天一透露,初步规划方案已在编制推进。"
+      },
+      "e_d7120def6516": {
+        "record_id": "government:c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "夜幕低垂,复兴公园内的复古观光小火车缓缓开动,一旁的光影钢琴装置流光闪烁,百年法式园林褪去白日的静谧,灯火、音乐、人流交织在一起,焕发出潮流鲜活的夜间魅力。2026“精彩夜上海”系列活动正火热铺开。"
+      },
+      "e_4e9f4fd4ab11": {
+        "record_id": "government:c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "水引流,带火周边整片街区的烟火气。每到散场时分,大批意犹未尽的年轻人从复兴公园涌出,散步前往不远处的南昌路,整条街巷瞬间热闹起来,各家小酒吧、夜宵小店迎来营业高峰。"
+      },
+      "e_780d2a01681f": {
+        "record_id": "government:c2b629f5469f23af3456",
+        "source_type": "government",
+        "source_name": "www.shanghai.gov.cn",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "retrieved_at": "2026-10-04T15:19:01.418968+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "INS LAND是黄浦夜经济的一个缩影。在黄浦区,夜间新场景遍地开花。复兴公园夜间限定观光小火车穿梭林间,串联起思南—复兴片区,形成“食、逛、玩”完整夜间漫游闭环;国内首个沉浸式微醺场馆SOUL HOUSE落地思南公馆,8段故事、8杯特调,让老洋房的夜晚充满新奇体验;在人民广场即将亮相的南熙258,主打“24小时不打烊商业新地标”定位,瞄准18—35岁年轻群体,超半数商铺营业至凌晨2:30之后,深夜时分依旧灯火通明,补齐人民广场商圈深夜消费的短板。"
+      }
+    },
+    "recall_screen": {
+      "rank": 5,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_04d3c9c6bca78389",
+    "name_zh": "中国社会主义青年团中央机关旧址",
+    "name_en": "Site of the Socialist Youth League of China",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.22006096383807,
+      121.46836893800516
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "中国社会主义青年团中央机关旧址",
+        "name_en": "Site of the Socialist Youth League of China",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2219814,
+          121.4638157
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=museum",
+        "raw_provider_tags": {
+          "heritage": "2",
+          "heritage:operator": "上海全国重点文物保护单位列表",
+          "heritage:ref": "1-10",
+          "name": "中国社会主义青年团中央机关旧址",
+          "name:en": "Site of the Socialist Youth League of China",
+          "name:zh": "中国社会主义青年团中央机关旧址",
+          "name:zh-Hans": "中国社会主义青年团中央机关旧址",
+          "name:zh-Hant": "中國社會主義青年團中央機關舊址",
+          "start_date": "1921",
+          "tourism": "museum",
+          "wheelchair": "yes"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/4823869418"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/4823869418",
+      "name_en": "osm:node/4823869418",
+      "address": null,
+      "coordinates": "osm:node/4823869418"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_fed9c3287398": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "中国社会主义青年团中央机关旧址"
+      },
+      "e_902029246bca": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Site of the Socialist Youth League of China"
+      },
+      "e_38d0009a0145": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2219814,
+            121.4638157
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_f57349a98efa": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=museum"
+      },
+      "e_4c2b53af1db3": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "中国社会主义青年团中央机关旧址"
+      },
+      "e_3a19285061d8": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Site of the Socialist Youth League of China"
+      },
+      "e_0ce5637acbf1": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "中国社会主义青年团中央机关旧址"
+      },
+      "e_1efc6c2dc076": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "start_date",
+        "value": "1921"
+      },
+      "e_d7eb704d1fdf": {
+        "record_id": "osm:node/4823869418",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4823869418",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "museum"
+      }
+    },
+    "recall_screen": {
+      "rank": 6,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_330641af97b370bc",
+    "name_zh": "大韩民国临时政府旧址",
+    "name_en": "Former site of the Provisional Government of the Republic of Korea",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.217283290774702,
+      121.47469284661551
+    ],
+    "entity_kind": "building",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "Former site of the Provisional Government of the Republic of Korea",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2192213,
+          121.4701593
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "historic=memorial",
+        "raw_provider_tags": {
+          "historic": "memorial",
+          "name": "大韩民国临时政府旧址",
+          "name:en": "Former site of the Provisional Government of the Republic of Korea",
+          "name:ko": "대한민국임시정부"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "building"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/5530017323"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/5530017323",
+      "name_en": "osm:node/5530017323",
+      "address": null,
+      "coordinates": "osm:node/5530017323"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_28dd4eb2a27b": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_d0e8bfba6e20": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      },
+      "e_dd1e29c8b87e": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2192213,
+            121.4701593
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_95ec9d5667aa": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "historic=memorial"
+      },
+      "e_f97b194f5160": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "historic",
+        "value": "memorial"
+      },
+      "e_da106a1b3680": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_c88ab75e1824": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      }
+    },
+    "recall_screen": {
+      "rank": 7,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_7e582e001a84968c",
+    "name_zh": "延中公园",
+    "name_en": "Yanzhong Park",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.223851356773423,
+      121.46836128833877
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "延中公园",
+        "name_en": "Yanzhong Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.22577,
+          121.4638077
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "leisure=park",
+        "raw_provider_tags": {
+          "leisure": "park",
+          "name": "延中公园",
+          "name:en": "Yanzhong Park",
+          "name:zh": "延中公园",
+          "name:zh-Hans": "延中公园",
+          "name:zh-Hant": "延中公園",
+          "type": "multipolygon"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:relation/10556182"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:relation/10556182",
+      "name_en": "osm:relation/10556182",
+      "address": null,
+      "coordinates": "osm:relation/10556182"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_d46a450949d2": {
+        "record_id": "osm:relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "延中公园"
+      },
+      "e_ab0295f3c4df": {
+        "record_id": "osm:relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Yanzhong Park"
+      },
+      "e_01bbe8b074bb": {
+        "record_id": "osm:relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.22577,
+            121.4638077
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_94ec0c1ef728": {
+        "record_id": "osm:relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "leisure=park"
+      },
+      "e_cdcbfe4b03b7": {
+        "record_id": "osm:relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_e362a430f4f6": {
+        "record_id": "osm:relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "延中公园"
+      },
+      "e_16c59b19293f": {
+        "record_id": "osm:relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Yanzhong Park"
+      },
+      "e_2957289c5dac": {
+        "record_id": "osm:relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "延中公园"
+      },
+      "e_f3d0bad9e26d": {
+        "record_id": "osm:relation/10556182",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/10556182",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "type",
+        "value": "multipolygon"
+      }
+    },
+    "recall_screen": {
+      "rank": 4,
+      "reason": null,
+      "review_note": [
+        "weak_location",
+        "OSM 代表点与高德巨鹿路成都南路口约200m差异，可能是不同分区，补证没有解决。",
+        "sub-park identity and representative anchor"
+      ],
+      "evidence_score": 9,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_7a7e1b84663beb98",
+    "name_zh": "徐光启故居(九间楼)",
+    "name_en": "Former Residence of Xu Guangqi",
+    "aliases": [],
+    "address": "Shanghai Qiaojia Lu 239",
+    "coordinates": [
+      31.217599579659208,
+      121.49453987306539
+    ],
+    "entity_kind": "building",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "徐光启故居（九间楼）",
+        "name_en": "Former Residence of Xu Guangqi",
+        "aliases": [],
+        "address": "Shanghai Qiaojia Lu 239",
+        "coordinates": [
+          31.2195938,
+          121.4900738
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction;historic=yes",
+        "raw_provider_tags": {
+          "addr:city": "Shanghai",
+          "addr:district": "Huangpu District",
+          "addr:housenumber": "239",
+          "addr:street": "Qiaojia Lu",
+          "building": "historic",
+          "heritage": "2",
+          "heritage:levels": "municipal",
+          "historic": "yes",
+          "name": "徐光启故居（九间楼）",
+          "name:en": "Former Residence of Xu Guangqi",
+          "name:zh": "徐光启故居（九间楼）",
+          "tourism": "attraction"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "building"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/1556578807"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:way/1556578807",
+      "name_en": "osm:way/1556578807",
+      "address": "osm:way/1556578807",
+      "coordinates": "osm:way/1556578807"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_b1623c94714c": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐光启故居（九间楼）"
+      },
+      "e_fc013976c27e": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former Residence of Xu Guangqi"
+      },
+      "e_932805bba92b": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "Shanghai Qiaojia Lu 239"
+      },
+      "e_814a2e3ff877": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2195938,
+            121.4900738
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_2d2211d3a73e": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction;historic=yes"
+      },
+      "e_d0ed0958c621": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "building",
+        "value": "historic"
+      },
+      "e_b1ce8b9cfb8f": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "historic",
+        "value": "yes"
+      },
+      "e_8a3290e47b61": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "徐光启故居（九间楼）"
+      },
+      "e_a08369319b2e": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Former Residence of Xu Guangqi"
+      },
+      "e_b4c4436e5f7d": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "徐光启故居（九间楼）"
+      },
+      "e_5aa83c7cdfbb": {
+        "record_id": "osm:way/1556578807",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1556578807",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      }
+    },
+    "recall_screen": {
+      "rank": 8,
+      "reason": null,
+      "review_note": [
+        "insufficient_evidence",
+        "保护名单支持稳定身份；缺的是独立街面观察/展陈体验证据，不是此刻是否开门。",
+        "independent public observation or exhibition scope"
+      ],
+      "evidence_score": 9,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_dd18a6e82a853f20",
+    "name_zh": "",
+    "name_en": "fudeli",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.224210686232425,
+      121.46547326331503
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/14026617302",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/14026617302",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "",
+        "name_en": "fudeli",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2261221,
+          121.4609112
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "leisure=park",
+        "raw_provider_tags": {
+          "leisure": "park",
+          "name": "fudeli"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/14026617302",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/14026617302"
+      }
+    ],
+    "field_sources": {
+      "name_zh": null,
+      "name_en": "osm:node/14026617302",
+      "address": null,
+      "coordinates": "osm:node/14026617302"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_4c26b63b3586": {
+        "record_id": "osm:node/14026617302",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/14026617302",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "fudeli"
+      },
+      "e_2d569a24fafc": {
+        "record_id": "osm:node/14026617302",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/14026617302",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2261221,
+            121.4609112
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_0e683e06a509": {
+        "record_id": "osm:node/14026617302",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/14026617302",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "leisure=park"
+      },
+      "e_9b53faa26f19": {
+        "record_id": "osm:node/14026617302",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/14026617302",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_8fe8c7088102": {
+        "record_id": "osm:node/14026617302",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/14026617302",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "fudeli"
+      }
+    },
+    "recall_screen": {
+      "rank": 10,
+      "reason": null,
+      "review_note": [
+        "weak_identity",
+        "缓存英文名位置与大沽路379号的辅德里公园未对齐，不能凭译名合并。",
+        "provider identity/address reconciliation"
+      ],
+      "evidence_score": 9,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_a085d8c87e1380e7",
+    "name_zh": "上海人民广场",
+    "name_en": "People's Square",
+    "aliases": [
+      "People's Square",
+      "人民广场"
+    ],
+    "address": "人民大道185号",
+    "coordinates": [
+      31.228827,
+      121.475213
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "name_zh": "上海人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "人民大道185号",
+        "coordinates": [
+          31.228827,
+          121.475213
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;公园广场;城市广场",
+        "raw_provider_tags": {
+          "type": "风景名胜;公园广场;城市广场",
+          "typecode": "110105",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "人民广场",
+        "name_en": "People's Square",
+        "aliases": [],
+        "address": "上海 人民大道 120",
+        "coordinates": [
+          31.2310837,
+          121.4703964
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction;leisure=park",
+        "raw_provider_tags": {
+          "addr:city": "上海",
+          "addr:housenumber": "120",
+          "addr:street": "人民大道",
+          "leisure": "park",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:fr": "people square",
+          "name:ko": "인민광장",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "wikidata": "Q10883549",
+          "wikipedia": "zh:人民广场"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "name_zh": "人民广场",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄浦区",
+        "coordinates": [
+          31.228818,
+          121.475233
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "地名地址信息;热点地名;热点地名",
+        "raw_provider_tags": {
+          "type": "地名地址信息;热点地名;热点地名",
+          "typecode": "190700",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "人民广场",
+        "name_en": "People's Square",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2314722,
+          121.4701315
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction;highway=pedestrian",
+        "raw_provider_tags": {
+          "area": "yes",
+          "highway": "pedestrian",
+          "name": "人民广场",
+          "name:en": "People's Square",
+          "name:ru": "Народная площадь",
+          "name:zh": "人民广场",
+          "name:zh-Hans": "人民广场",
+          "name:zh-Hant": "人民廣場",
+          "tourism": "attraction",
+          "type": "multipolygon"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "street"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B00157917M"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/404709025"
+      },
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B0KUNUNG7Y"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:relation/2153738"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B00157917M",
+      "name_en": "osm:way/404709025",
+      "address": "amap:B00157917M",
+      "coordinates": "amap:B00157917M"
+    },
+    "issues": [
+      "address_variants_preserved"
+    ],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_ddab830d26a4": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海人民广场"
+      },
+      "e_dd77a9b8bc99": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "人民大道185号"
+      },
+      "e_d1dbc6896e41": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "人民广场"
+      },
+      "e_27227b07d146": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "People's Square"
+      },
+      "e_80b7c25ebcdd": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "上海 人民大道 120"
+      },
+      "e_64e2fecd9fa0": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "人民广场"
+      },
+      "e_c694f3971897": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄浦区"
+      },
+      "e_cec466967b77": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "人民广场"
+      },
+      "e_7278962ebe9b": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "People's Square"
+      },
+      "e_a949e971656f": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.228827,
+            121.475213
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_0c127ec91bc5": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2310837,
+            121.4703964
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_2d5e24cfcea6": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.228818,
+            121.475233
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_2c3b4bee276c": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2314722,
+            121.4701315
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_39bafd08d022": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;公园广场;城市广场"
+      },
+      "e_9acb0ddbcccd": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;公园广场;城市广场"
+      },
+      "e_93eb9fce366e": {
+        "record_id": "amap:B00157917M",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00157917M",
+        "retrieved_at": "2026-10-04T15:12:08.710836+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110105"
+      },
+      "e_b1e160e5936e": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "地名地址信息;热点地名;热点地名"
+      },
+      "e_313cdb4ba0d0": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "地名地址信息;热点地名;热点地名"
+      },
+      "e_e3da628a0e43": {
+        "record_id": "amap:B0KUNUNG7Y",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUNUNG7Y",
+        "retrieved_at": "2026-10-04T15:12:09.825350+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "190700"
+      },
+      "e_9dc7d6815961": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction;leisure=park"
+      },
+      "e_45f24e52cb54": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_0aa083ef1d8e": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "人民广场"
+      },
+      "e_8265db01bb86": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "People's Square"
+      },
+      "e_8330ae01a4d3": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "人民广场"
+      },
+      "e_8750894cd419": {
+        "record_id": "osm:way/404709025",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404709025",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_b41f432c3f01": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction;highway=pedestrian"
+      },
+      "e_fec7a3670e5f": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "人民广场"
+      },
+      "e_b1e05e4a9985": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "People's Square"
+      },
+      "e_a4dbdae81224": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "人民广场"
+      },
+      "e_ae71aa27fc44": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_9126a5be2c2b": {
+        "record_id": "osm:relation/2153738",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/relation/2153738",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "type",
+        "value": "multipolygon"
+      }
+    },
+    "recall_screen": {
+      "rank": 11,
+      "reason": null,
+      "review_note": [
+        "weak_location",
+        "多个面/点代表对象，范围宽且与周边节点独立访问范围未分清。",
+        "bounded visitor scope"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "old_city_central_06591af3b6abd091",
+    "name_zh": "东海大楼",
+    "name_en": "Dunhai building",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.236488185005573,
+      121.4841012919283
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "东海大楼",
+        "name_en": "Dunhai building",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2384432,
+          121.4795971
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction",
+        "raw_provider_tags": {
+          "name": "东海大楼",
+          "name:en": "Dunhai building",
+          "name:ru": "Здание Дунхай",
+          "tourism": "attraction"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/10738317085"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/10738317085",
+      "name_en": "osm:node/10738317085",
+      "address": null,
+      "coordinates": "osm:node/10738317085"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_e45ccb5d215a": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "东海大楼"
+      },
+      "e_8d487dad92da": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Dunhai building"
+      },
+      "e_7239f95ef2cd": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2384432,
+            121.4795971
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_35496efc454b": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction"
+      },
+      "e_c04a8eb886ff": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "东海大楼"
+      },
+      "e_9ff4f325e651": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Dunhai building"
+      },
+      "e_a830322f0da3": {
+        "record_id": "osm:node/10738317085",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738317085",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      }
+    },
+    "recall_screen": {
+      "rank": 12,
+      "reason": "weak_semantic_signal",
+      "review_note": [
+        "insufficient_evidence",
+        "历史建筑线索保留，未以名气推断值得独立停靠。",
+        "facade public observation scope and architectural evidence"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  }
+]

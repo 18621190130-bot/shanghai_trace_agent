@@ -1,0 +1,835 @@
+[
+  {
+    "zone_id": "wukang_fuxing_xujiahui",
+    "display_name": "武康—复兴—徐家汇",
+    "polygon": [
+      [
+        31.2121,
+        121.4367
+      ],
+      [
+        31.216,
+        121.4458
+      ],
+      [
+        31.2208,
+        121.4577
+      ],
+      [
+        31.2145,
+        121.4596
+      ],
+      [
+        31.209,
+        121.4608
+      ],
+      [
+        31.203,
+        121.4623
+      ],
+      [
+        31.201,
+        121.4518
+      ],
+      [
+        31.1965,
+        121.4438
+      ],
+      [
+        31.189,
+        121.443
+      ],
+      [
+        31.1885,
+        121.4348
+      ],
+      [
+        31.1955,
+        121.4335
+      ],
+      [
+        31.2002,
+        121.4355
+      ],
+      [
+        31.205,
+        121.437
+      ]
+    ],
+    "coordinate_system": "GCJ-02",
+    "boundary_review_margin_m": 150,
+    "boundary_basis": "北侧以华山路—复兴西路至长乐路的衡复街区外缘为折线；东侧贴陕西南路走向，南侧由肇嘉浜路折向天钥桥路及南丹路；西侧沿华山路、徐家汇核心街坊回接。道路间顶点为产品近似包络，不声称逐段道路测绘。",
+    "seed_pois": [
+      {
+        "poi_id": "p2",
+        "name": "永康路与嘉善路口",
+        "coordinates": [
+          31.2128,
+          121.4592
+        ]
+      },
+      {
+        "poi_id": "p11",
+        "name": "建业里",
+        "coordinates": [
+          31.2073,
+          121.4562
+        ]
+      },
+      {
+        "poi_id": "p12",
+        "name": "陕南邨",
+        "coordinates": [
+          31.2158,
+          121.4565
+        ]
+      },
+      {
+        "poi_id": "p13",
+        "name": "武康大楼",
+        "coordinates": [
+          31.2108,
+          121.4472
+        ]
+      },
+      {
+        "poi_id": "p21",
+        "name": "上海宋庆龄故居纪念馆",
+        "coordinates": [
+          31.204017,
+          121.439062
+        ]
+      },
+      {
+        "poi_id": "p32",
+        "name": "徐家汇天主堂",
+        "coordinates": [
+          31.19149671484055,
+          121.4372036194208
+        ]
+      },
+      {
+        "poi_id": "p33",
+        "name": "徐家汇书院",
+        "coordinates": [
+          31.190626365374555,
+          121.4371436403768
+        ]
+      },
+      {
+        "poi_id": "p35",
+        "name": "徐家汇商圈",
+        "coordinates": [
+          31.193526044665383,
+          121.43842179377025
+        ]
+      }
+    ],
+    "seed_production_pois": [
+      "p2",
+      "p11",
+      "p12",
+      "p13",
+      "p21",
+      "p32",
+      "p33",
+      "p35"
+    ],
+    "source_urls": [
+      "https://lhsr.sh.gov.cn/srgl/20220617/cf46474f-4259-4087-ada5-105e2ec94971.html",
+      "https://www.shanghai.gov.cn/xuhui/index.html",
+      "https://www.amap.com/detail/B0FFLKX9L6",
+      "https://www.amap.com/detail/B0FFI8IG7M",
+      "https://www.amap.com/detail/B0KR5HYRLD",
+      "https://www.amap.com/detail/B0FFHPGFQZ",
+      "https://www.amap.com/detail/B0LR7AID10",
+      "https://www.amap.com/detail/B0FFHPHVYA",
+      "https://www.amap.com/detail/B0M2MRNDAM",
+      "https://www.amap.com/detail/B0H3TUK613",
+      "https://www.amap.com/detail/B00154815D",
+      "https://www.amap.com/detail/B0FFGJQOL3",
+      "https://www.amap.com/detail/B00151EA79",
+      "https://www.amap.com/detail/B0FFFZS38D",
+      "https://www.amap.com/detail/B0H2A569FM"
+    ],
+    "retrieved_at": "2026-10-04T15:16:37.902997+00:00",
+    "initial_product_boundary": "approved_for_phase2_5_pipeline",
+    "discovery_terms": [
+      "徐家汇公园",
+      "上海工艺美术博物馆",
+      "襄阳公园",
+      "上海话剧艺术中心",
+      "衡复 历史建筑",
+      "武康路 文化"
+    ],
+    "official_source_targets": [
+      {
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "names": [
+          "徐家汇公园",
+          "上海工艺美术博物馆",
+          "上海话剧艺术中心",
+          "上海宋庆龄故居"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cfa0770c-00d3-4733-ae5a-93ec852c1541",
+        "names": [
+          "襄阳公园"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "names": [
+          "徐家汇公园"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/nw17239/20250423/404016f40ea2426ab8c7e6e7c6de9d46.html",
+        "names": [
+          "襄阳公园"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "allowed_candidate_categories": [
+      "museum",
+      "cultural_venue",
+      "performance_venue",
+      "public_art",
+      "public_space",
+      "park",
+      "architecture",
+      "heritage",
+      "commercial_complex"
+    ],
+    "excluded_generic_categories": [
+      "generic_cafe",
+      "generic_restaurant",
+      "ordinary_shop",
+      "temporary_event",
+      "ordinary_sports_facility"
+    ],
+    "disputed_edges": "西南徐家汇段是名称与既有 p32/p33/p35 所需的连续走廊，不纳入整个徐汇；p13旧代表点疑偏北，保留原点并记录后续坐标核验。",
+    "route_node_alias_groups": []
+  },
+  {
+    "zone_id": "old_city_central",
+    "display_name": "老城厢—新天地—外滩",
+    "polygon": [
+      [
+        31.2288,
+        121.4585
+      ],
+      [
+        31.2317,
+        121.469
+      ],
+      [
+        31.2355,
+        121.4795
+      ],
+      [
+        31.2421,
+        121.4865
+      ],
+      [
+        31.2414,
+        121.4903
+      ],
+      [
+        31.2365,
+        121.4925
+      ],
+      [
+        31.23,
+        121.4965
+      ],
+      [
+        31.2232,
+        121.5
+      ],
+      [
+        31.216,
+        121.4965
+      ],
+      [
+        31.2151,
+        121.4925
+      ],
+      [
+        31.2171,
+        121.484
+      ],
+      [
+        31.2118,
+        121.4712
+      ],
+      [
+        31.2138,
+        121.4668
+      ],
+      [
+        31.22,
+        121.465
+      ],
+      [
+        31.2254,
+        121.4585
+      ]
+    ],
+    "coordinate_system": "GCJ-02",
+    "boundary_review_margin_m": 150,
+    "boundary_basis": "北西侧沿南京西路—南京东路街坊串联张园和南京路；东北侧止于外白渡桥南侧，东侧顺外滩浦西岸线向南至老城厢东缘；南侧沿中华路及复兴路相关街坊，西南以思南公馆街坊回接重庆南路。滨江折线不包含浦东。",
+    "seed_pois": [
+      {
+        "poi_id": "p7",
+        "name": "新天地北里（石库门街区）",
+        "coordinates": [
+          31.2212,
+          121.4679
+        ]
+      },
+      {
+        "poi_id": "p9",
+        "name": "张园",
+        "coordinates": [
+          31.2286,
+          121.4638
+        ]
+      },
+      {
+        "poi_id": "p14",
+        "name": "外滩·陈毅广场",
+        "coordinates": [
+          31.2365,
+          121.4915
+        ]
+      },
+      {
+        "poi_id": "p15",
+        "name": "豫园",
+        "coordinates": [
+          31.227,
+          121.4925
+        ]
+      },
+      {
+        "poi_id": "p20",
+        "name": "上海城隍庙",
+        "coordinates": [
+          31.225879,
+          121.492466
+        ]
+      },
+      {
+        "poi_id": "p23",
+        "name": "思南公馆",
+        "coordinates": [
+          31.214509,
+          121.468956
+        ]
+      },
+      {
+        "poi_id": "p24",
+        "name": "中共一大纪念馆",
+        "coordinates": [
+          31.22012192043575,
+          121.47522210826187
+        ]
+      },
+      {
+        "poi_id": "p34",
+        "name": "南京路步行街",
+        "coordinates": [
+          31.233941258407807,
+          121.48500090050078
+        ]
+      }
+    ],
+    "seed_production_pois": [
+      "p7",
+      "p9",
+      "p14",
+      "p15",
+      "p20",
+      "p23",
+      "p24",
+      "p34"
+    ],
+    "source_urls": [
+      "https://lhsr.sh.gov.cn/srgl/20220617/cf46474f-4259-4087-ada5-105e2ec94971.html",
+      "https://www.shanghai.gov.cn/gwk/search/content/bd8ed5c6-4e7b-4197-91bf-10971f53b902",
+      "https://ghzyj.sh.gov.cn/tpxw/20231121/623eca025e1c4b1fa0e64ee992e06477.html",
+      "https://www.amap.com/detail/B00155QIPB",
+      "https://www.amap.com/detail/B0J0Y7JX9Z",
+      "https://www.amap.com/detail/B0MUF7HNR3",
+      "https://www.amap.com/detail/B001574I9I",
+      "https://www.amap.com/detail/B0FFHFDQ1C",
+      "https://www.amap.com/detail/B0M2ZU2ZC3",
+      "https://www.amap.com/detail/B00156YMMX",
+      "https://www.amap.com/detail/B0FFK0XU84",
+      "https://www.amap.com/detail/B0FFF6XN5S",
+      "https://www.amap.com/detail/BZAFR000SK",
+      "https://www.amap.com/detail/B0FFHPFZ6R",
+      "https://www.amap.com/detail/B0M2MRN1AB",
+      "https://www.amap.com/detail/B0FFHPO4RO",
+      "https://www.amap.com/detail/B0L0BSU5AW",
+      "https://www.amap.com/detail/B0I6RUVKAZ",
+      "https://www.amap.com/detail/B0FFHPGMRE",
+      "https://www.amap.com/detail/B0M2MRMWUP",
+      "https://www.amap.com/detail/B0FFHD418I",
+      "https://www.amap.com/detail/BZAFR002ID",
+      "https://www.amap.com/detail/B0IA3DU6GU",
+      "https://www.amap.com/detail/B0IA3DULUO"
+    ],
+    "retrieved_at": "2026-10-04T15:16:37.902997+00:00",
+    "initial_product_boundary": "approved_for_phase2_5_pipeline",
+    "discovery_terms": [
+      "复兴公园",
+      "古城公园",
+      "人民公园 上海",
+      "上海书城 福州路",
+      "老城厢 历史建筑",
+      "新天地 文化"
+    ],
+    "official_source_targets": [
+      {
+        "url": "https://www.shanghai.gov.cn/nw4411/20260622/98dbfc7640924743b9b8c477426dbbca.html",
+        "names": [
+          "复兴公园"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/cfa0770c-00d3-4733-ae5a-93ec852c1541",
+        "names": [
+          "古城公园",
+          "人民公园"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/bd8ed5c6-4e7b-4197-91bf-10971f53b902",
+        "names": [
+          "新天地",
+          "老城厢",
+          "外滩"
+        ],
+        "entity_kind": "street"
+      },
+      {
+        "url": "https://lhsr.sh.gov.cn/ywdt/20241206/9b079c2d-7ea5-4c55-a0cd-2052074593cc.html",
+        "names": [
+          "古城公园"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/nw4411/20260806/8eb10d2a4b4a449593276dcb877fe7c2.html",
+        "names": [
+          "复兴公园"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/nw17239/20250904/94d9f1c5fb954a3fbb9941bb5a0621f6.html",
+        "names": [
+          "古城公园"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "allowed_candidate_categories": [
+      "museum",
+      "cultural_venue",
+      "performance_venue",
+      "public_art",
+      "public_space",
+      "park",
+      "architecture",
+      "heritage",
+      "commercial_complex"
+    ],
+    "excluded_generic_categories": [
+      "generic_cafe",
+      "generic_restaurant",
+      "ordinary_shop",
+      "temporary_event",
+      "ordinary_sports_facility"
+    ],
+    "disputed_edges": "张园位于名称核心的西北侧，按既有 p9 和南京路连续街区保留，不把静安区纳入；新天地北里与张园旧代表坐标存在地图差异，旧点和主POI位置都在产品范围内，不通过改坐标凑边界。",
+    "route_node_alias_groups": []
+  },
+  {
+    "zone_id": "hongkou_literary",
+    "display_name": "鲁迅公园—四川北路",
+    "polygon": [
+      [
+        31.2745,
+        121.479
+      ],
+      [
+        31.2745,
+        121.4857
+      ],
+      [
+        31.27,
+        121.4868
+      ],
+      [
+        31.2655,
+        121.487
+      ],
+      [
+        31.261,
+        121.4875
+      ],
+      [
+        31.2567,
+        121.4935
+      ],
+      [
+        31.2525,
+        121.493
+      ],
+      [
+        31.2519,
+        121.487
+      ],
+      [
+        31.253,
+        121.48
+      ],
+      [
+        31.257,
+        121.477
+      ],
+      [
+        31.2635,
+        121.4768
+      ],
+      [
+        31.2695,
+        121.478
+      ]
+    ],
+    "coordinate_system": "GCJ-02",
+    "boundary_review_margin_m": 150,
+    "boundary_basis": "北侧取鲁迅公园北缘，西侧沿东江湾路—四川北路西侧街坊；东侧覆盖山阴路、溧阳路相关街坊，向海伦路—沙泾路1933既有节点收束；南侧在海宁路以北回接四川北路。以连续文学街区和步行连接空间限定范围。",
+    "seed_pois": [
+      {
+        "poi_id": "p4",
+        "name": "鲁迅故居",
+        "coordinates": [
+          31.2693,
+          121.481
+        ]
+      },
+      {
+        "poi_id": "p10",
+        "name": "今潮8弄",
+        "coordinates": [
+          31.2588,
+          121.4782
+        ]
+      },
+      {
+        "poi_id": "p16",
+        "name": "鲁迅公园",
+        "coordinates": [
+          31.2712,
+          121.4844
+        ]
+      },
+      {
+        "poi_id": "p25",
+        "name": "1927·鲁迅与内山纪念书局",
+        "coordinates": [
+          31.264768526339903,
+          121.4837278959415
+        ]
+      },
+      {
+        "poi_id": "p26",
+        "name": "中国左翼作家联盟会址纪念馆",
+        "coordinates": [
+          31.263599596059006,
+          121.48105086774376
+        ]
+      },
+      {
+        "poi_id": "p27",
+        "name": "1933老场坊",
+        "coordinates": [
+          31.254559,
+          121.491884
+        ]
+      }
+    ],
+    "seed_production_pois": [
+      "p4",
+      "p10",
+      "p16",
+      "p25",
+      "p26",
+      "p27"
+    ],
+    "source_urls": [
+      "https://lhsr.sh.gov.cn/srgl/20220617/cf46474f-4259-4087-ada5-105e2ec94971.html",
+      "https://www.shhk.gov.cn/xwzx/002008/002008040/20230505/c99546c4-c705-4670-8ff9-d703233d444e.html",
+      "https://www.shhk.gov.cn/xwzx/002008/002008040/20240812/88aa3935-4aec-4b22-bf63-33915fd9c319.html",
+      "https://www.amap.com/detail/B00155KZKW",
+      "https://www.amap.com/detail/B0FFILLF0X",
+      "https://www.amap.com/detail/B00155LPBC",
+      "https://www.amap.com/detail/B0FFH56QSK",
+      "https://www.amap.com/detail/B0FFHPLT57",
+      "https://www.amap.com/detail/B0M2MRMYNJ",
+      "https://www.amap.com/detail/B0FFH02DM0",
+      "https://www.amap.com/detail/B00155P1VL",
+      "https://www.amap.com/detail/B0FFH165MQ",
+      "https://www.amap.com/detail/B0LD1PJRN1",
+      "https://www.amap.com/detail/B00155FLFD",
+      "https://www.amap.com/detail/BZAGR0033N",
+      "https://www.amap.com/detail/B00155L3AW"
+    ],
+    "retrieved_at": "2026-10-04T15:16:37.902997+00:00",
+    "initial_product_boundary": "approved_for_phase2_5_pipeline",
+    "discovery_terms": [
+      "多伦路文化名人街",
+      "甜爱路",
+      "四川北路公园",
+      "李白烈士故居",
+      "四川北路 历史建筑",
+      "山阴路 文化"
+    ],
+    "official_source_targets": [
+      {
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20230505/c99546c4-c705-4670-8ff9-d703233d444e.html",
+        "names": [
+          "多伦路",
+          "鲁迅故居",
+          "左联会址纪念馆",
+          "内山书店"
+        ],
+        "entity_kind": "street"
+      },
+      {
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20240812/88aa3935-4aec-4b22-bf63-33915fd9c319.html",
+        "names": [
+          "甜爱路"
+        ],
+        "entity_kind": "street"
+      },
+      {
+        "url": "https://www.shhk.gov.cn/xwzx/002006/20210303/1af66a88-d678-4800-9550-b9dc471ca58d.html",
+        "names": [
+          "四川北路公园"
+        ],
+        "entity_kind": "public_space"
+      }
+    ],
+    "allowed_candidate_categories": [
+      "museum",
+      "cultural_venue",
+      "performance_venue",
+      "public_art",
+      "public_space",
+      "park",
+      "architecture",
+      "heritage",
+      "commercial_complex"
+    ],
+    "excluded_generic_categories": [
+      "generic_cafe",
+      "generic_restaurant",
+      "ordinary_shop",
+      "temporary_event",
+      "ordinary_sports_facility"
+    ],
+    "disputed_edges": "1933老场坊为既有东南端文化建筑节点，与文学核心存在主题差别，但经溧阳路—海伦路连接，不扩至北外滩；鲁迅公园内部纪念馆与雕塑不重复计站。",
+    "route_node_alias_groups": [
+      [
+        "多伦路",
+        "多伦路文化名人街"
+      ]
+    ]
+  },
+  {
+    "zone_id": "west_bund",
+    "display_name": "徐汇西岸滨江",
+    "polygon": [
+      [
+        31.157,
+        121.458
+      ],
+      [
+        31.157,
+        121.467
+      ],
+      [
+        31.17,
+        121.467
+      ],
+      [
+        31.1775,
+        121.4648
+      ],
+      [
+        31.182,
+        121.4665
+      ],
+      [
+        31.1895,
+        121.473
+      ],
+      [
+        31.1895,
+        121.466
+      ],
+      [
+        31.18,
+        121.458
+      ]
+    ],
+    "coordinate_system": "GCJ-02",
+    "boundary_review_margin_m": 150,
+    "boundary_basis": "沿用已验收西岸边界；不重新采集或 enrichment。",
+    "seed_pois": [
+      {
+        "poi_id": "p5",
+        "name": "龙美术馆（西岸馆）",
+        "coordinates": [
+          31.1848,
+          121.465
+        ]
+      },
+      {
+        "poi_id": "p28",
+        "name": "西岸美术馆",
+        "coordinates": [
+          31.167682,
+          121.463841
+        ]
+      },
+      {
+        "poi_id": "p29",
+        "name": "上海油罐艺术中心",
+        "coordinates": [
+          31.164519,
+          121.464321
+        ]
+      },
+      {
+        "poi_id": "p30",
+        "name": "Gate M 西岸梦中心",
+        "coordinates": [
+          31.16119,
+          121.465465
+        ]
+      },
+      {
+        "poi_id": "p31",
+        "name": "星美术馆",
+        "coordinates": [
+          31.18786,
+          121.470412
+        ]
+      }
+    ],
+    "seed_production_pois": [
+      "p5",
+      "p28",
+      "p29",
+      "p30",
+      "p31"
+    ],
+    "source_urls": [
+      "https://www.westbund.com/cn/index/NEWS-CENTER/2022-0930.html"
+    ],
+    "retrieved_at": "2026-10-04T15:16:37.902997+00:00",
+    "initial_product_boundary": "existing_approved_unchanged",
+    "discovery_terms": [
+      "西岸 美术馆",
+      "西岸 艺术中心",
+      "西岸 公园",
+      "西岸 广场",
+      "西岸 码头",
+      "西岸 工业遗址",
+      "西岸 剧院",
+      "西岸 滑板"
+    ],
+    "official_source_targets": [
+      {
+        "url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_aa8Ec.html",
+        "names": [
+          "龙美术馆(西岸馆)",
+          "龙美术馆"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "url": "https://www.westbund.com/cn/index/KEY-PROJECTS/detail_695y4T.html",
+        "names": [
+          "西岸美术馆"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "url": "https://www.westbund.com/cn/index/POPULAR-VENUES/detail_e9dD9.html",
+        "names": [
+          "上海油罐艺术中心",
+          "油罐艺术中心"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "url": "https://www.westbund.com/cn/index/NEWS-CENTER/2022-1230.html",
+        "names": [
+          "星美术馆"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "url": "https://whlyj.sh.gov.cn/gqfc/20260904/89b6a38c04274b0fbfe300752f21c3e6.html",
+        "names": [
+          "谷地花溪",
+          "滨江滑板公园",
+          "塔吊广场"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "names": [
+          "西岸穹顶艺术中心",
+          "西岸梦中心"
+        ],
+        "entity_kind": "venue"
+      }
+    ],
+    "allowed_candidate_categories": [
+      "museum",
+      "cultural_venue",
+      "performance_venue",
+      "public_art",
+      "public_space",
+      "park",
+      "architecture",
+      "heritage",
+      "commercial_complex"
+    ],
+    "excluded_generic_categories": [
+      "generic_cafe",
+      "generic_restaurant",
+      "ordinary_shop",
+      "temporary_event",
+      "ordinary_sports_facility"
+    ],
+    "disputed_edges": "原审批150米审核带决定保持。",
+    "route_node_alias_groups": []
+  }
+]

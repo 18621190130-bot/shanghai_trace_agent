@@ -1,0 +1,224 @@
+{
+  "candidate_id": "hongkou_literary_002743ae47f52922",
+  "node_identity": "hongkou_literary_002743ae47f52922",
+  "output": {
+    "category": "public_space",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [
+      "street_scene"
+    ],
+    "culture_tags": [
+      "lane_life"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_39bffc0c37b3"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "street_scene",
+        "evidence_refs": [
+          "e_91e76b63ca47"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "lane_life",
+        "evidence_refs": [
+          "e_39bffc0c37b3"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_91e76b63ca47",
+      "e_39bffc0c37b3"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为一条小而精致的弄堂，且是通往鲁迅公园和虹口足球场地铁站的交通便道，主要价值在于连接更强节点，符合短时停留的过渡节点定位。",
+      "independent_destination_value": "low",
+      "route_connector_value": "high",
+      "alternatives_reason": {
+        "anchor": "证据仅描述为交通便道和小弄堂，缺乏独立目的地价值，不适合作为锚点。",
+        "supporting_stop": "虽有一定弄堂体验，但核心功能是通行连接，独立体验价值有限，作为支持性停留偏弱。",
+        "transition_stop": "作为通往鲁迅公园和地铁站的便道，短时经过观察弄堂风貌，最符合过渡节点定义。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为连接鲁迅公园与地铁站的弄堂便道，可提供短时的街巷观察体验，但独立吸引力有限。",
+      "evidence_refs": [
+        "e_39bffc0c37b3",
+        "e_91e76b63ca47"
+      ]
+    },
+    "summary_draft": {
+      "text": "一条小而精致的弄堂",
+      "evidence_refs": [
+        "e_39bffc0c37b3"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅评估步行经过该弄堂的停留时间，不含周边公园或地铁站。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "弄堂的具体开放状态与可进入性未提供",
+      "当前是否仍作为公共通道使用未验证"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "public_space",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [
+      "street_scene"
+    ],
+    "culture_tags": [
+      "lane_life"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_39bffc0c37b3"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "street_scene",
+        "evidence_refs": [
+          "e_91e76b63ca47"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "lane_life",
+        "evidence_refs": [
+          "e_39bffc0c37b3"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_91e76b63ca47",
+      "e_39bffc0c37b3"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为一条小而精致的弄堂，且是通往鲁迅公园和虹口足球场地铁站的交通便道，主要价值在于连接更强节点，符合短时停留的过渡节点定位。",
+      "independent_destination_value": "low",
+      "route_connector_value": "high",
+      "alternatives_reason": {
+        "anchor": "证据仅描述为交通便道和小弄堂，缺乏独立目的地价值，不适合作为锚点。",
+        "supporting_stop": "虽有一定弄堂体验，但核心功能是通行连接，独立体验价值有限，作为支持性停留偏弱。",
+        "transition_stop": "作为通往鲁迅公园和地铁站的便道，短时经过观察弄堂风貌，最符合过渡节点定义。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为连接鲁迅公园与地铁站的弄堂便道，可提供短时的街巷观察体验，但独立吸引力有限。",
+      "evidence_refs": [
+        "e_39bffc0c37b3",
+        "e_91e76b63ca47"
+      ]
+    },
+    "summary_draft": {
+      "text": "一条小而精致的弄堂",
+      "evidence_refs": [
+        "e_39bffc0c37b3"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅评估步行经过该弄堂的停留时间，不含周边公园或地铁站。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "弄堂的具体开放状态与可进入性未提供",
+      "当前是否仍作为公共通道使用未验证"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.268259025551146,
+      121.48456693686504
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3300,
+      "completion_tokens": 663,
+      "total_tokens": 3963,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 2660
+    }
+  }
+}

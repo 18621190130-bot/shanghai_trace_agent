@@ -1,0 +1,226 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_1e47e74b88bb959d",
+  "node_identity": "wukang_fuxing_xujiahui_1e47e74b88bb959d",
+  "output": {
+    "category": "public_art",
+    "interest_tags": [
+      "art",
+      "history"
+    ],
+    "experience_tags": [
+      "photogenic"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_97c2ca976229"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_765a3f198082",
+          "e_f5987c413cf5"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "photogenic",
+        "evidence_refs": [
+          "e_97c2ca976229"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_765a3f198082",
+      "e_f5987c413cf5",
+      "e_97c2ca976229"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据仅表明其为沿线雕塑类纪念物，属可短暂停留观察的公共节点，独立目的地价值有限，主要起连接作用。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示其具备可承载路线主题的独立深度体验，不适合作为锚点。",
+        "supporting_stop": "作为沿线雕塑有一定观赏价值，但证据单薄，难以确认其独立体验强度，故仅列为可选。",
+        "transition_stop": "作为沿线经典雕塑之一，适合短时观察并连接周边更强节点，最符合现有证据。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "仅能确认其为沿线雕塑类纪念物，缺乏可支撑深度停留的体验信息。",
+      "evidence_refs": [
+        "e_97c2ca976229",
+        "e_765a3f198082"
+      ]
+    },
+    "summary_draft": {
+      "text": "聂耳铜像",
+      "evidence_refs": [
+        "e_f65ae7aae567"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 3,
+        "standard": 8,
+        "deep": 15
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅针对铜像本体的短时观察，不含周边街区。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "缺乏开放状态、可达方式与现场环境信息",
+      "缺乏雕塑设立背景与具体位置描述"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "public_art",
+    "interest_tags": [
+      "art",
+      "history"
+    ],
+    "experience_tags": [
+      "photogenic"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_97c2ca976229"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_765a3f198082",
+          "e_f5987c413cf5"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "photogenic",
+        "evidence_refs": [
+          "e_97c2ca976229"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_765a3f198082",
+      "e_f5987c413cf5",
+      "e_97c2ca976229"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据仅表明其为沿线雕塑类纪念物，属可短暂停留观察的公共节点，独立目的地价值有限，主要起连接作用。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示其具备可承载路线主题的独立深度体验，不适合作为锚点。",
+        "supporting_stop": "作为沿线雕塑有一定观赏价值，但证据单薄，难以确认其独立体验强度，故仅列为可选。",
+        "transition_stop": "作为沿线经典雕塑之一，适合短时观察并连接周边更强节点，最符合现有证据。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "仅能确认其为沿线雕塑类纪念物，缺乏可支撑深度停留的体验信息。",
+      "evidence_refs": [
+        "e_97c2ca976229",
+        "e_765a3f198082"
+      ]
+    },
+    "summary_draft": {
+      "text": "聂耳铜像",
+      "evidence_refs": [
+        "e_f65ae7aae567"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 3,
+        "standard": 8,
+        "deep": 15
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅针对铜像本体的短时观察，不含周边街区。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "缺乏开放状态、可达方式与现场环境信息",
+      "缺乏雕塑设立背景与具体位置描述"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.21026635744359,
+      121.44727737632154
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3548,
+      "completion_tokens": 690,
+      "total_tokens": 4238,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 2908
+    }
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "source": "official",
+  "url": "https://www.westbund.com/cn/index/KEY-PROJECTS/show_list.html",
+  "parameters": {
+    "progress": "1"
+  },
+  "variant": "official-directory-v1",
+  "retrieved_at": "2026-10-04T07:39:01.077937+00:00",
+  "response": {
+    "excerpts": {},
+    "links": [
+      {
+        "href": "/cn/",
+        "label": "西岸 | BEST BUND"
+      },
+      {
+        "href": "/en/",
+        "label": "EN"
+      },
+      {
+        "href": "/files/images/code_weixin.png",
+        "label": "微信"
+      },
+      {
+        "href": "http://weibo.com/p/1006065477365941/home?from=page_100606&mod=TAB#place",
+        "label": "新浪微博"
+      },
+      {
+        "href": "http://site.douban.com/257020/",
+        "label": "豆瓣"
+      },
+      {
+        "href": "/cn/index/VISITORSS-GUIDE/Location/Location.html",
+        "label": "来访指南"
+      },
+      {
+        "href": "/cn/index/VISITORSS-GUIDE/Location/Location.html",
+        "label": "地理位置"
+      },
+      {
+        "href": "/cn/index/VISITORSS-GUIDE/Transportation/Traffic-Information.html",
+        "label": "交通指南"
+      },
+      {
+        "href": "/cn/index/ABOUT-WEST-BUND/Area-Overview/District-Overview.html",
+        "label": "关于西岸"
+      },
+      {
+        "href": "/cn/index/ABOUT-WEST-BUND/Area-Overview/District-Overview.html",
+        "label": "区域概况"
+      },
+      {
+        "href": "/cn/index/ABOUT-WEST-BUND/Industry-Outline/Industry-Landscape.html",
+        "label": "产业布局"
+      },
+      {
+        "href": "/cn/index/ABOUT-WEST-BUND/History/West-Bund-History.html",
+        "label": "历史变迁"
+      },
+      {
+        "href": "/cn/index/EVENTS/show_list.html",
+        "label": "精彩活动"
+      },
+      {
+        "href": "/cn/index/EVENTS/Now/show_list.html",
+        "label": "当前活动"
+      },
+      {
+        "href": "/cn/index/EVENTS/Upcoming/show_list.html",
+        "label": "活动预告"
+      },
+      {
+        "href": "/cn/index/EVENTS/Past/show_list.html",
+        "label": "活动回顾"
+      },
+      {
+        "href": "/cn/index/POPULAR-VENUES/show_list.html",
+        "label": "热门场馆"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/show_list.html",
+        "label": "重点项目"
+      },
+      {
+        "href": "/index/KEY-PROJECTS/All-Projects/show_list.html#type_2_60",
+        "label": "开发项目"
+      },
+      {
+        "href": "/index/KEY-PROJECTS/All-Projects/show_list#type_2_61",
+        "label": "公共环境"
+      },
+      {
+        "href": "/index/KEY-PROJECTS/All-Projects/show_list.html#type_2_58",
+        "label": "文化设施"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/All-Projects/show_list.html",
+        "label": "全部项目"
+      },
+      {
+        "href": "/cn/index/NEWS-CENTER/show_list.html",
+        "label": "新闻中心"
+      },
+      {
+        "href": "/cn/index/NEWS-CENTER/Media-Coverage/show_list.html",
+        "label": "媒体报道"
+      },
+      {
+        "href": "/cn/index/NEWS-CENTER/Recent-News/show_list.html",
+        "label": "最新动态"
+      },
+      {
+        "href": "/cn/index/WEST-BUND-GROUP/Group-Profile/About-West-Bund-Group.html",
+        "label": "西岸集团"
+      },
+      {
+        "href": "/cn/index/WEST-BUND-GROUP/Group-Profile/About-West-Bund-Group.html",
+        "label": "集团简介"
+      },
+      {
+        "href": "/cn/index/WEST-BUND-GROUP/Join_us/Join-Us.html",
+        "label": "加入我们"
+      },
+      {
+        "href": "/cn/index/CONTACT-US/contact-us.html",
+        "label": "联系我们"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/show_list.html",
+        "label": "所有项目"
+      },
+      {
+        "href": "javascript:;",
+        "label": "建成项目"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/show_list.html?progress=2",
+        "label": "在建项目"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/show_list.html?progress=3",
+        "label": "规划中项目"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_aa8Ec.html",
+        "label": "文化设施 龙美术馆(西岸馆)"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_d7fEb.html",
+        "label": "文化设施 西岸艺术品保税仓库"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_e57Fa.html",
+        "label": "文化设施 西岸美术馆大道"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_6deD0.html",
+        "label": "公共环境 跑道公园"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_d69F8.html",
+        "label": "公共环境 公共开放空间"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_d62y5P.html",
+        "label": "开发项目 西岸中央公园"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_695y4T.html",
+        "label": "文化设施 西岸美术馆"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_696Ea.html",
+        "label": "开发项目 西岸传媒港"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_41bE6.html",
+        "label": "文化设施 西岸艺术中心A馆"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_e9dD9.html",
+        "label": "文化设施 油罐艺术中心"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/detail_e52D8.html",
+        "label": "文化设施 上海摄影艺术中心"
+      },
+      {
+        "href": "index.html",
+        "label": "西岸集团 | BEST BUND"
+      },
+      {
+        "href": "https://beian.miit.gov.cn/",
+        "label": "沪ICP备18021456号-2"
+      },
+      {
+        "href": "http://www.beian.gov.cn/",
+        "label": "沪公网安备 31010402005719号"
+      },
+      {
+        "href": "javascript:;",
+        "label": "来访指南"
+      },
+      {
+        "href": "javascript:;",
+        "label": "关于西岸"
+      },
+      {
+        "href": "/cn/index/EVENTS/show_list.html",
+        "label": "精彩活动"
+      },
+      {
+        "href": "/cn/index/POPULAR-VENUES/show_list.html",
+        "label": "热门场馆"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/show_list.html",
+        "label": "重点项目"
+      },
+      {
+        "href": "/cn/index/NEWS-CENTER/show_list.html",
+        "label": "新闻中心"
+      },
+      {
+        "href": "javascript:;",
+        "label": "西岸集团"
+      },
+      {
+        "href": "/cn/index/CONTACT-US/contact-us.html",
+        "label": "联系我们"
+      },
+      {
+        "href": "http://www.comonetwork.com",
+        "label": "ComoNetwork"
+      }
+    ]
+  },
+  "response_hash": "76480efb800815b7aa4b03e4ceb08ba06a91af5058feac8ca37c901d6fb046c3"
+}

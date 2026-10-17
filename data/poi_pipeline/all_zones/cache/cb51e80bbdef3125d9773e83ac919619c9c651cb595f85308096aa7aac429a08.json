@@ -1,0 +1,41 @@
+{
+  "source": "official",
+  "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+  "parameters": {},
+  "variant": "official-substantive-v2:徐家汇公园",
+  "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+  "response": {
+    "excerpts": {
+      "徐家汇公园": [
+        "主题路线首站始于被誉为“城市绿肺”的徐家汇公园,这里不仅有《义勇军进行曲》灌制地百代唱片公司的旧址,还设有深受市民喜爱的健身步道和室外篮球场,是市民健身和举办篮球比赛的上佳场所。公园西邻繁华的徐家汇商圈,汇聚港汇恒隆、美罗城、ITC、百脑汇以及在建的浦西第一高楼徐家汇中心等顶级商业综合体,云集阿迪达斯、露露乐蒙、哥伦比亚等知名跨国公司总部型体育企业,彰显了徐汇区在体育产业领域的强劲吸引力与国际化格局。"
+      ]
+    },
+    "links": [
+      {
+        "href": "/index.html",
+        "label": "首页"
+      },
+      {
+        "href": "/xwzx/index.html",
+        "label": "新闻中心"
+      },
+      {
+        "href": "/xwzx_tpxw/index.html",
+        "label": "图片新闻"
+      },
+      {
+        "href": "javascript:;",
+        "label": "【收藏】"
+      },
+      {
+        "href": "javascript:;",
+        "label": "【打印本页】"
+      },
+      {
+        "href": "javascript:;",
+        "label": "【关闭窗口】"
+      }
+    ]
+  },
+  "response_hash": "0b0b3ea585b1455aac637d70ac38ca4c52c90e638281b806b8cd7ec13ed0f682"
+}

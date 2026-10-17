@@ -1,0 +1,89 @@
+{
+  "status": "BLOCKED",
+  "blockers": [
+    {
+      "code": "semantic_proposal_reliability",
+      "explanation": "Four evidence-backed high-potential nodes remain blocked by repeated unsupported citations or anchor/value inconsistency after two attempts. Cannot certify that obvious route supply is no longer systematically lost.",
+      "candidates": [
+        {
+          "zone": "old_city_central",
+          "name": "中国社会主义青年团中央机关旧址",
+          "reason": "strict_semantic_validation_or_provider_failure",
+          "validation_error": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. anchor requires high independent destination value"
+        },
+        {
+          "zone": "wukang_fuxing_xujiahui",
+          "name": "徐家汇公园",
+          "reason": "strict_semantic_validation_or_provider_failure",
+          "validation_error": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. photogenic unsupported by cited evidence; remove or cite explicit matching description"
+        },
+        {
+          "zone": "hongkou_literary",
+          "name": "李白烈士故居",
+          "reason": "strict_semantic_validation_or_provider_failure",
+          "validation_error": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. art unsupported by cited evidence; remove or cite explicit matching description"
+        },
+        {
+          "zone": "hongkou_literary",
+          "name": "沈尹默故居",
+          "reason": "strict_semantic_validation_or_provider_failure",
+          "validation_error": "Evidence already improved; missing a consistent, strictly evidence-cited semantic proposal. architecture unsupported by cited evidence; remove or cite explicit matching description; architecture_detail unsupported by cited evidence; remove or cite explicit matching description; modern_shanghai unsupported by cited evidence; remove or cite explicit matching description"
+        }
+      ]
+    }
+  ],
+  "candidate": "data\\pois_phase2_5_recall_candidate.json",
+  "final_poi_count": 48,
+  "accepted_new": 8,
+  "zones": {
+    "wukang_fuxing_xujiahui": 12,
+    "hongkou_literary": 11,
+    "west_bund": 13,
+    "old_city_central": 12
+  },
+  "cross_mode_passed": 12,
+  "cross_mode_total": 12,
+  "tests": {
+    "command": "python -m scripts.verify_all_zones (unittest discover tests)",
+    "tests_run": 361,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "elapsed_seconds": 11.288,
+    "completed_at": "2026-10-04T16:42:10.491892+00:00",
+    "validation_fingerprint": "e4968c9e23c6e8f038d4ef2f35984093ba46c78fb6006265d27980fbfe2af5db"
+  },
+  "direct_unittest": {
+    "command": "python -m unittest discover -s tests -t . -q",
+    "tests_run": 361,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "exit_code": 0,
+    "elapsed_seconds": 11.44
+  },
+  "tests_current": true,
+  "protected_sha256_checks": {
+    "data\\pois.json": true,
+    "data\\pois_phase2_5_candidate.json": true,
+    "data\\pois_phase2_5_all_zones_candidate.json": true,
+    "data\\poi_pipeline\\zone_configs.json": true
+  },
+  "west_bund_frozen": true,
+  "existing_22_roles_frozen": true,
+  "zone_expansion_passes": 0,
+  "full_candidate_validation_ids": [
+    "pz_68957332b418",
+    "pz_8919938b21f2",
+    "pz_bd40d04c7f5d",
+    "pz_a87eb2b5b5da",
+    "pz_553cfd36707c",
+    "pz_a27dbbc6cab8",
+    "pz_a446052910a0",
+    "pz_f2fffcd2526c"
+  ],
+  "semantic_validator_sha256": "d3f287eaf46c1e2c14c8955c38e4d760635b4ba92f972c3b14ebbdcae6b47b4a",
+  "completed_at": "2026-10-04T16:43:10.297015+00:00",
+  "validation_fingerprint": "5549e1e8a819567c5c490b0035b8274f2777ef72982304555ced7e7d7c95f3ab"
+}

@@ -1,0 +1,2202 @@
+[
+  {
+    "candidate_id": "hongkou_literary_002743ae47f52922",
+    "name_zh": "山阴路274弄",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.268259025551146,
+      121.48456693686504
+    ],
+    "entity_kind": "street",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/137107929",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/137107929",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "name_zh": "山阴路274弄",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2702014,
+          121.4800616
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "highway=pedestrian",
+        "raw_provider_tags": {
+          "bicycle": "yes",
+          "highway": "pedestrian",
+          "name": "山阴路274弄",
+          "source": "Bing"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "street"
+      },
+      {
+        "source_candidate_id": "recall_c2c6f31e7f88",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/xwzx/002006/20200525/f6009f16-7343-4748-9539-6410f382d221.html",
+        "retrieved_at": "2026-10-04T16:18:19.452782+00:00",
+        "name_zh": "山阴路274弄",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "听完越界筑路的故事，学员们漫步到了山阴路274弄，一条小而精致的弄堂。这是通往鲁迅公园和虹口足球场地铁站的一条交通便道",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B0FFH165MQ",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0FFH165MQ",
+        "retrieved_at": "2026-10-04T16:21:33.295312+00:00",
+        "name_zh": "山阴路274弄小区",
+        "name_en": "",
+        "aliases": [],
+        "address": "甜爱路与甜爱支路交叉口东北60米",
+        "coordinates": [
+          31.268259,
+          121.484599
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "商务住宅;住宅区;住宅小区",
+        "raw_provider_tags": {
+          "type": "商务住宅;住宅区;住宅小区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/137107929",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/137107929"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_c2c6f31e7f88",
+        "url": "https://www.shhk.gov.cn/xwzx/002006/20200525/f6009f16-7343-4748-9539-6410f382d221.html",
+        "retrieved_at": "2026-10-04T16:18:19.452782+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B0FFH165MQ",
+        "url": "https://www.amap.com/detail/B0FFH165MQ",
+        "retrieved_at": "2026-10-04T16:21:33.295312+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:way/137107929",
+      "name_en": null,
+      "address": null,
+      "coordinates": "osm:way/137107929"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_783b84775bcd": {
+        "record_id": "osm:way/137107929",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/137107929",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "山阴路274弄"
+      },
+      "e_da2168039b66": {
+        "record_id": "government:recall_c2c6f31e7f88",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002006/20200525/f6009f16-7343-4748-9539-6410f382d221.html",
+        "retrieved_at": "2026-10-04T16:18:19.452782+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "山阴路274弄"
+      },
+      "e_bf5ce72c3ba1": {
+        "record_id": "amap:B0FFH165MQ",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFH165MQ",
+        "retrieved_at": "2026-10-04T16:21:33.295312+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "山阴路274弄小区"
+      },
+      "e_db125a6740e8": {
+        "record_id": "amap:B0FFH165MQ",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFH165MQ",
+        "retrieved_at": "2026-10-04T16:21:33.295312+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "甜爱路与甜爱支路交叉口东北60米"
+      },
+      "e_27ad674de6df": {
+        "record_id": "osm:way/137107929",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/137107929",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2702014,
+            121.4800616
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_ed8ef464007f": {
+        "record_id": "amap:B0FFH165MQ",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFH165MQ",
+        "retrieved_at": "2026-10-04T16:21:33.295312+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.268259,
+            121.484599
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_de2e4009c5b3": {
+        "record_id": "amap:B0FFH165MQ",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFH165MQ",
+        "retrieved_at": "2026-10-04T16:21:33.295312+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "商务住宅;住宅区;住宅小区"
+      },
+      "e_e8959742adc4": {
+        "record_id": "amap:B0FFH165MQ",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFH165MQ",
+        "retrieved_at": "2026-10-04T16:21:33.295312+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "商务住宅;住宅区;住宅小区"
+      },
+      "e_91e76b63ca47": {
+        "record_id": "osm:way/137107929",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/137107929",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "highway=pedestrian"
+      },
+      "e_528d59608789": {
+        "record_id": "osm:way/137107929",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/137107929",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "山阴路274弄"
+      },
+      "e_e98c587c010e": {
+        "record_id": "government:recall_c2c6f31e7f88",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002006/20200525/f6009f16-7343-4748-9539-6410f382d221.html",
+        "retrieved_at": "2026-10-04T16:18:19.452782+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_39bffc0c37b3": {
+        "record_id": "government:recall_c2c6f31e7f88",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002006/20200525/f6009f16-7343-4748-9539-6410f382d221.html",
+        "retrieved_at": "2026-10-04T16:18:19.452782+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "听完越界筑路的故事，学员们漫步到了山阴路274弄，一条小而精致的弄堂。这是通往鲁迅公园和虹口足球场地铁站的一条交通便道"
+      },
+      "e_9225f4c623f4": {
+        "record_id": "government:recall_c2c6f31e7f88",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002006/20200525/f6009f16-7343-4748-9539-6410f382d221.html",
+        "retrieved_at": "2026-10-04T16:18:19.452782+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "听完越界筑路的故事，学员们漫步到了山阴路274弄，一条小而精致的弄堂。这是通往鲁迅公园和虹口足球场地铁站的一条交通便道"
+      },
+      "e_eca3125cf895": {
+        "record_id": "government:recall_c2c6f31e7f88",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002006/20200525/f6009f16-7343-4748-9539-6410f382d221.html",
+        "retrieved_at": "2026-10-04T16:18:19.452782+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "听完越界筑路的故事，学员们漫步到了山阴路274弄，一条小而精致的弄堂。这是通往鲁迅公园和虹口足球场地铁站的一条交通便道"
+      },
+      "e_1262f863fd79": {
+        "record_id": "government:recall_c2c6f31e7f88",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002006/20200525/f6009f16-7343-4748-9539-6410f382d221.html",
+        "retrieved_at": "2026-10-04T16:18:19.452782+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "听完越界筑路的故事，学员们漫步到了山阴路274弄，一条小而精致的弄堂。这是通往鲁迅公园和虹口足球场地铁站的一条交通便道"
+      }
+    },
+    "recall_screen": {
+      "rank": 1,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "entity_stability": "stable",
+    "current_access_status": "unknown"
+  },
+  {
+    "candidate_id": "hongkou_literary_1b33161e4ad878ef",
+    "name_zh": "李白烈士故居",
+    "name_en": "",
+    "aliases": [
+      "李白烈士故居"
+    ],
+    "address": "黄渡路107弄15号(虹口足球场地铁站6号口步行280米)",
+    "coordinates": [
+      31.268021,
+      121.481397
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-04T15:13:35.186883+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄渡路107弄15号(虹口足球场地铁站6号口步行280米)",
+        "coordinates": [
+          31.268021,
+          121.481397
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;风景名胜;风景名胜",
+        "raw_provider_tags": {
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "虹口区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2698238,
+          121.4769319
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=museum",
+        "raw_provider_tags": {
+          "name": "李白烈士故居",
+          "name:ru": "Бывшая резиденция мученика Ли Бая",
+          "tourism": "museum"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "name_zh": "李白烈士故居",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-04T15:13:35.186883+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B00155L3BC"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/12074687693"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_4a4a0c11f490",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_de6df90eddf6",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B00155L3BC",
+      "name_en": null,
+      "address": "amap:B00155L3BC",
+      "coordinates": "amap:B00155L3BC"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_da31e11c1405": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-04T15:13:35.186883+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_2a215aae7cbd": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-04T15:13:35.186883+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄渡路107弄15号(虹口足球场地铁站6号口步行280米)"
+      },
+      "e_7def74aea146": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_78354599a0b6": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_2721d9045fa7": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "李白烈士故居"
+      },
+      "e_34c7a3716e27": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-04T15:13:35.186883+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.268021,
+            121.481397
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_e3096527b6d7": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2698238,
+            121.4769319
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_287c318b41e1": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-04T15:13:35.186883+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_7458c5eb8c1f": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-04T15:13:35.186883+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_f71f57fc78fd": {
+        "record_id": "amap:B00155L3BC",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155L3BC",
+        "retrieved_at": "2026-10-04T15:13:35.186883+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110200"
+      },
+      "e_722d0ad8b557": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=museum"
+      },
+      "e_0d68c50c2f80": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "李白烈士故居"
+      },
+      "e_38e33b63781d": {
+        "record_id": "osm:node/12074687693",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/12074687693",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "museum"
+      },
+      "e_0fe30ce73434": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_a368c056842e": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_59e8c58d5576": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_89ccbd68b9f9": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      },
+      "e_bfe7ac906419": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_49b56dd8c605": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      },
+      "e_1b62b1521072": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_16f6c026d181": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      },
+      "e_f0f6b251d123": {
+        "record_id": "government:recall_4a4a0c11f490",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008045/002008045002/20260907/a797bda7-753b-4a6f-b8a3-bdeda4d9c9ba.html",
+        "retrieved_at": "2026-10-04T16:18:22.358788+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "坐南朝北的三层砖木结构的老式洋房，曾是抗日战争和解放战争时期李白同志的住所，也是他最后居住、工作和被捕的地方。一、二楼李白烈士事迹陈列室，讲述了李白的成长经历以及与敌人斗争的光辉事迹。三楼为场景复原，再现了李白烈士生前战斗、生活的情景。"
+      },
+      "e_78155c08efec": {
+        "record_id": "government:recall_de6df90eddf6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008047/002008047002/20251222/17639b35-93cb-4d17-87de-e06467604e62.html",
+        "retrieved_at": "2026-10-04T16:29:38.932348+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "故居还保留了发报互动体验区，并在发报设备上进行了提升优化，同时设置了一定难度，让观众可以学习摩斯电码小知识，体验更真实的发送电码过程，寓教于乐。"
+      }
+    },
+    "recall_screen": {
+      "rank": 2,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "recall_material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags."
+  },
+  {
+    "candidate_id": "hongkou_literary_783ce886a4d8323d",
+    "name_zh": "沈尹默故居",
+    "name_en": "Shen Yinmo's Former Residence",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.258529840932688,
+      121.48738947950744
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "Shen Yinmo's Former Residence",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2604845,
+          121.4828947
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction",
+        "raw_provider_tags": {
+          "name": "沈尹默故居",
+          "name:en": "Shen Yinmo's Former Residence",
+          "name:zh": "沈尹默故居",
+          "name:zh-Hans": "沈尹默故居",
+          "name:zh-Hant": "沈尹默故居",
+          "tourism": "attraction"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "Shen Yinmo's Former Residence",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "name_zh": "沈尹默故居",
+        "name_en": "Shen Yinmo's Former Residence",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/9913893955"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_2284f7c49161",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_9d38b4db95a0",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/9913893955",
+      "name_en": "osm:node/9913893955",
+      "address": null,
+      "coordinates": "osm:node/9913893955"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_27bc81168c4b": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_be7c4b89c2d2": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Shen Yinmo's Former Residence"
+      },
+      "e_35721b559473": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_fbb7b1076b54": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Shen Yinmo's Former Residence"
+      },
+      "e_13af72f92ebd": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "沈尹默故居"
+      },
+      "e_89868914a9e4": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Shen Yinmo's Former Residence"
+      },
+      "e_482f9fd114f6": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2604845,
+            121.4828947
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_89d8624ba010": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction"
+      },
+      "e_4320fc67890c": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "沈尹默故居"
+      },
+      "e_e2e92cb3332a": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Shen Yinmo's Former Residence"
+      },
+      "e_e6a604f96463": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "沈尹默故居"
+      },
+      "e_79df2336a2b2": {
+        "record_id": "osm:node/9913893955",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/9913893955",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_4a78aa3e77c2": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_06934a7afa50": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_713bc0caa7b1": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_93c96aee0863": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      },
+      "e_c233dfcce513": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_c2ada1262cfa": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      },
+      "e_645383b5a0d1": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_ca7f62b2677b": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      },
+      "e_5f739944ab42": {
+        "record_id": "government:recall_2284f7c49161",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/qyfwy/030002/030002002/030002002005/20181215/b300eab7-5cb1-43de-835b-b20d2b40308c.html",
+        "retrieved_at": "2026-10-04T16:18:25.315161+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "沈尹默故居是沿街三层两开间西式住宅，居门首挂有赵朴初题写的“沈尹默先生故居”匾额。底楼是陈列室、有沈尹默的半身塑像，橱里陈列着沈尹默先生生前眼镜、笔筒等遗物和书法集、诗词集、书法理论等。二楼是书房兼画室，陈列着沈尹默的书法精品。"
+      },
+      "e_cd250fd1710a": {
+        "record_id": "government:recall_9d38b4db95a0",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/slh/038001/20251114/803f173f-6bd9-4bbc-aa6d-5aeff18bb1f7.html",
+        "retrieved_at": "2026-10-04T16:18:25.315215+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "统筹84处红色旧址遗址，推出“重走解放路”等研学线路，活化沈尹默故居、景云里名人故居群等历史建筑，让居民在城市更新中触摸文化根脉。"
+      }
+    },
+    "recall_screen": {
+      "rank": 3,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "recall_material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags."
+  },
+  {
+    "candidate_id": "hongkou_literary_cd63adaf18fff2e2",
+    "name_zh": "爱思儿童公园",
+    "name_en": "Aisi Children's Park",
+    "aliases": [
+      "海伦公园"
+    ],
+    "address": "",
+    "coordinates": [
+      31.257469979506286,
+      121.48669788377967
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "name_zh": "爱思儿童公园",
+        "name_en": "Aisi Children's Park",
+        "aliases": [
+          "海伦公园"
+        ],
+        "address": "",
+        "coordinates": [
+          31.2594231,
+          121.4822008
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "leisure=park",
+        "raw_provider_tags": {
+          "leisure": "park",
+          "name": "爱思儿童公园",
+          "name:en": "Aisi Children's Park",
+          "name:zh": "爱思儿童公园",
+          "name:zh-Hans": "爱思儿童公园",
+          "name:zh-Hant": "愛思兒童公園",
+          "old_name": "海伦公园",
+          "opening_hours": "Mo-Su 05:00-21:00"
+        },
+        "snippets": [
+          {
+            "text": "Mo-Su 05:00-21:00",
+            "supports": [
+              "opening"
+            ],
+            "provider_field": "opening_hours"
+          }
+        ],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category",
+          "opening"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "recall_81016f525485",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00",
+        "name_zh": "爱思儿童公园",
+        "name_en": "Aisi Children's Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "在公园步道两侧沿途设置了多块书本样式的宣传版，并附以“民生无小事”“长风破浪会有时，直挂云帆济沧海”等名言警句，让游客在漫步小径中接受廉文化的熏陶。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B0FFGVI51N",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0FFGVI51N",
+        "retrieved_at": "2026-10-04T16:21:34.399985+00:00",
+        "name_zh": "爱思儿童公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "海伦公园海伦路499号",
+        "coordinates": [
+          31.257395,
+          121.486569
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "体育休闲服务;休闲场所;游乐场",
+        "raw_provider_tags": {
+          "type": "体育休闲服务;休闲场所;游乐场"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category",
+          "opening"
+        ],
+        "record_id": "osm:way/1069118321"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_81016f525485",
+        "url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B0FFGVI51N",
+        "url": "https://www.amap.com/detail/B0FFGVI51N",
+        "retrieved_at": "2026-10-04T16:21:34.399985+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:way/1069118321",
+      "name_en": "osm:way/1069118321",
+      "address": null,
+      "coordinates": "osm:way/1069118321"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_7575259fa24c": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "爱思儿童公园"
+      },
+      "e_368b48be8b8b": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Aisi Children's Park"
+      },
+      "e_900407070201": {
+        "record_id": "government:recall_81016f525485",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "爱思儿童公园"
+      },
+      "e_6bf04075c58e": {
+        "record_id": "government:recall_81016f525485",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Aisi Children's Park"
+      },
+      "e_3c01ceea6386": {
+        "record_id": "amap:B0FFGVI51N",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFGVI51N",
+        "retrieved_at": "2026-10-04T16:21:34.399985+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "爱思儿童公园"
+      },
+      "e_f2e9501e1f9a": {
+        "record_id": "amap:B0FFGVI51N",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFGVI51N",
+        "retrieved_at": "2026-10-04T16:21:34.399985+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "海伦公园海伦路499号"
+      },
+      "e_b60bb779b98a": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2594231,
+            121.4822008
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_7cbf608f577f": {
+        "record_id": "amap:B0FFGVI51N",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFGVI51N",
+        "retrieved_at": "2026-10-04T16:21:34.399985+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.257395,
+            121.486569
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_fd36150200be": {
+        "record_id": "amap:B0FFGVI51N",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFGVI51N",
+        "retrieved_at": "2026-10-04T16:21:34.399985+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "体育休闲服务;休闲场所;游乐场"
+      },
+      "e_c462edcc498d": {
+        "record_id": "amap:B0FFGVI51N",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFGVI51N",
+        "retrieved_at": "2026-10-04T16:21:34.399985+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "体育休闲服务;休闲场所;游乐场"
+      },
+      "e_7f284b8b9226": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "leisure=park"
+      },
+      "e_5bccb27a01b4": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_d5c34e40a3c8": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "爱思儿童公园"
+      },
+      "e_7844df9bbd7d": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Aisi Children's Park"
+      },
+      "e_956916d0cd14": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "爱思儿童公园"
+      },
+      "e_362263d7178d": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "opening_hours",
+        "value": "Mo-Su 05:00-21:00"
+      },
+      "e_b914a9ffb936": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "snippet",
+        "value": "Mo-Su 05:00-21:00"
+      },
+      "e_aea5760f086a": {
+        "record_id": "government:recall_81016f525485",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_42dada9ce9b4": {
+        "record_id": "government:recall_81016f525485",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "在公园步道两侧沿途设置了多块书本样式的宣传版，并附以“民生无小事”“长风破浪会有时，直挂云帆济沧海”等名言警句，让游客在漫步小径中接受廉文化的熏陶。"
+      },
+      "e_31d081f2dba9": {
+        "record_id": "government:recall_81016f525485",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "在公园步道两侧沿途设置了多块书本样式的宣传版，并附以“民生无小事”“长风破浪会有时，直挂云帆济沧海”等名言警句，让游客在漫步小径中接受廉文化的熏陶。"
+      },
+      "e_8bf6ed881d72": {
+        "record_id": "government:recall_81016f525485",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "在公园步道两侧沿途设置了多块书本样式的宣传版，并附以“民生无小事”“长风破浪会有时，直挂云帆济沧海”等名言警句，让游客在漫步小径中接受廉文化的熏陶。"
+      },
+      "e_544a61a56572": {
+        "record_id": "government:recall_81016f525485",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shhk.gov.cn/xwzx/002003/20240428/ea83a215-53ff-4b16-8493-c5c4171a556d.html",
+        "retrieved_at": "2026-10-04T16:18:28.277947+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "在公园步道两侧沿途设置了多块书本样式的宣传版，并附以“民生无小事”“长风破浪会有时，直挂云帆济沧海”等名言警句，让游客在漫步小径中接受廉文化的熏陶。"
+      },
+      "e_f119ac9262e9": {
+        "record_id": "osm:way/1069118321",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1069118321",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "opening",
+        "field": "snippet",
+        "value": "Mo-Su 05:00-21:00"
+      }
+    },
+    "recall_screen": {
+      "rank": 4,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "entity_stability": "stable",
+    "current_access_status": "unknown"
+  },
+  {
+    "candidate_id": "hongkou_literary_6ffd8b36b2afc5fb",
+    "name_zh": "四川北路文化中心图书馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "海伦路与邢家桥北路交叉口东南100米",
+    "coordinates": [
+      31.258325,
+      121.487125
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B0IA3STA9L",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0IA3STA9L",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "name_zh": "四川北路文化中心图书馆",
+        "name_en": "",
+        "aliases": [],
+        "address": "海伦路与邢家桥北路交叉口东南100米",
+        "coordinates": [
+          31.258325,
+          121.487125
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "科教文化服务;图书馆;图书馆",
+        "raw_provider_tags": {
+          "type": "科教文化服务;图书馆;图书馆",
+          "typecode": "140500",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "虹口区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0IA3STA9L",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B0IA3STA9L"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B0IA3STA9L",
+      "name_en": null,
+      "address": "amap:B0IA3STA9L",
+      "coordinates": "amap:B0IA3STA9L"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_29bcb3bd84af": {
+        "record_id": "amap:B0IA3STA9L",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0IA3STA9L",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "四川北路文化中心图书馆"
+      },
+      "e_78c2d6e59c3a": {
+        "record_id": "amap:B0IA3STA9L",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0IA3STA9L",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "海伦路与邢家桥北路交叉口东南100米"
+      },
+      "e_d4d166040d20": {
+        "record_id": "amap:B0IA3STA9L",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0IA3STA9L",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.258325,
+            121.487125
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_bdbdf39d907e": {
+        "record_id": "amap:B0IA3STA9L",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0IA3STA9L",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "科教文化服务;图书馆;图书馆"
+      },
+      "e_ee5d76eb1378": {
+        "record_id": "amap:B0IA3STA9L",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0IA3STA9L",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "科教文化服务;图书馆;图书馆"
+      },
+      "e_8430229adabe": {
+        "record_id": "amap:B0IA3STA9L",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0IA3STA9L",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "140500"
+      }
+    },
+    "recall_screen": {
+      "rank": 5,
+      "reason": null,
+      "review_note": [
+        "insufficient_evidence",
+        "两次定向查找未形成该地址的权威独立文化体验证据。",
+        "current identity/public access"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "hongkou_literary_e54fe9df0f6a4fcb",
+    "name_zh": "上海多伦路地区海派文化馆(多伦生活广场店)",
+    "name_en": "",
+    "aliases": [],
+    "address": "多伦路179号",
+    "coordinates": [
+      31.263302,
+      121.481627
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B0FFF9ZHTM",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0FFF9ZHTM",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "name_zh": "上海多伦路地区海派文化馆(多伦生活广场店)",
+        "name_en": "",
+        "aliases": [],
+        "address": "多伦路179号",
+        "coordinates": [
+          31.263302,
+          121.481627
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "科教文化服务;文化宫;文化宫",
+        "raw_provider_tags": {
+          "type": "科教文化服务;文化宫;文化宫",
+          "typecode": "140800",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "虹口区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFF9ZHTM",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B0FFF9ZHTM"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B0FFF9ZHTM",
+      "name_en": null,
+      "address": "amap:B0FFF9ZHTM",
+      "coordinates": "amap:B0FFF9ZHTM"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_c8f89a9625b8": {
+        "record_id": "amap:B0FFF9ZHTM",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFF9ZHTM",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海多伦路地区海派文化馆(多伦生活广场店)"
+      },
+      "e_1a6d9beb4c1a": {
+        "record_id": "amap:B0FFF9ZHTM",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFF9ZHTM",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "多伦路179号"
+      },
+      "e_b393cf70c07b": {
+        "record_id": "amap:B0FFF9ZHTM",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFF9ZHTM",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.263302,
+            121.481627
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_3867dd56881f": {
+        "record_id": "amap:B0FFF9ZHTM",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFF9ZHTM",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "科教文化服务;文化宫;文化宫"
+      },
+      "e_44149a5b0229": {
+        "record_id": "amap:B0FFF9ZHTM",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFF9ZHTM",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "科教文化服务;文化宫;文化宫"
+      },
+      "e_d8a7c861737c": {
+        "record_id": "amap:B0FFF9ZHTM",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0FFF9ZHTM",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "140800"
+      }
+    },
+    "recall_screen": {
+      "rank": 6,
+      "reason": null,
+      "review_note": [
+        "insufficient_evidence",
+        "未找到能区分同名机构与商场内部文化设施的直接证据。",
+        "venue identity and independent visitor scope"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "hongkou_literary_8e3bdc64e471f900",
+    "name_zh": "上海子兮艺术社非遗文化馆",
+    "name_en": "",
+    "aliases": [],
+    "address": "黄渡路74号虹鹰大楼",
+    "coordinates": [
+      31.267345,
+      121.482078
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B0MR06FJCP",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0MR06FJCP",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "name_zh": "上海子兮艺术社非遗文化馆",
+        "name_en": "",
+        "aliases": [],
+        "address": "黄渡路74号虹鹰大楼",
+        "coordinates": [
+          31.267345,
+          121.482078
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "科教文化服务;文化宫;文化宫",
+        "raw_provider_tags": {
+          "type": "科教文化服务;文化宫;文化宫",
+          "typecode": "140800",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "虹口区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0MR06FJCP",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B0MR06FJCP"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B0MR06FJCP",
+      "name_en": null,
+      "address": "amap:B0MR06FJCP",
+      "coordinates": "amap:B0MR06FJCP"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_3df927c0d8cc": {
+        "record_id": "amap:B0MR06FJCP",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0MR06FJCP",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海子兮艺术社非遗文化馆"
+      },
+      "e_a1763a4a9656": {
+        "record_id": "amap:B0MR06FJCP",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0MR06FJCP",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "黄渡路74号虹鹰大楼"
+      },
+      "e_cdbe21383f89": {
+        "record_id": "amap:B0MR06FJCP",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0MR06FJCP",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.267345,
+            121.482078
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_7d17764df69d": {
+        "record_id": "amap:B0MR06FJCP",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0MR06FJCP",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "科教文化服务;文化宫;文化宫"
+      },
+      "e_b20d40eef595": {
+        "record_id": "amap:B0MR06FJCP",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0MR06FJCP",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "科教文化服务;文化宫;文化宫"
+      },
+      "e_7494ee12c9b7": {
+        "record_id": "amap:B0MR06FJCP",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0MR06FJCP",
+        "retrieved_at": "2026-10-04T15:13:38.607044+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "140800"
+      }
+    },
+    "recall_screen": {
+      "rank": 7,
+      "reason": null,
+      "review_note": [
+        "insufficient_evidence",
+        "有工作坊索引线索，但未证明稳定开放的独立常设参访空间。",
+        "stable venue/address/public access"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  },
+  {
+    "candidate_id": "hongkou_literary_aa45403fa488bac4",
+    "name_zh": "日本海军特别陆战队司令部旧址",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.265815631609563,
+      121.48161442252052
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "name_zh": "日本海军特别陆战队司令部旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2677507,
+          121.4770993
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=museum",
+        "raw_provider_tags": {
+          "building": "yes",
+          "museum": "history",
+          "name": "日本海军特别陆战队司令部旧址",
+          "name:ru": "Бывшее место расположения штаб-квартиры Специального корпуса морской пехоты ВМС Японии",
+          "tourism": "museum"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/1080935708"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:way/1080935708",
+      "name_en": null,
+      "address": null,
+      "coordinates": "osm:way/1080935708"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "hongkou_literary",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_2e3c15a62b73": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "日本海军特别陆战队司令部旧址"
+      },
+      "e_aa282b12f961": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2677507,
+            121.4770993
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_dabd6e570482": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=museum"
+      },
+      "e_30e04cfeae49": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "building",
+        "value": "yes"
+      },
+      "e_c8ba1ce15c83": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "日本海军特别陆战队司令部旧址"
+      },
+      "e_05163149d799": {
+        "record_id": "osm:way/1080935708",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/1080935708",
+        "retrieved_at": "2026-10-04T15:13:44.328222+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "museum"
+      }
+    },
+    "recall_screen": {
+      "rank": 8,
+      "reason": null,
+      "review_note": [
+        "insufficient_evidence",
+        "历史旧址 map 记录不证明现时公众可参访范围。",
+        "public exterior scope/access"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    }
+  }
+]

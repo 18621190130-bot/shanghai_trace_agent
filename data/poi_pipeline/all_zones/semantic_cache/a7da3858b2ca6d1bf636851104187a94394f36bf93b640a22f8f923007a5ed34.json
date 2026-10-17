@@ -1,0 +1,17 @@
+{
+  "candidate_id": "old_city_central_6da58f48e67a81a7",
+  "semantic": null,
+  "output": null,
+  "attempts": [
+    {
+      "status": "validation_failure",
+      "kind": "unsupported_tag_evidence_or_over_generation",
+      "feedback": "gardens unsupported by cited evidence; remove or cite explicit matching description; photogenic unsupported by cited evidence; remove or cite explicit matching description; sino_foreign_exchange unsupported by cited evidence; remove or cite explicit matching description"
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "a7da3858b2ca6d1bf636851104187a94394f36bf93b640a22f8f923007a5ed34",
+  "node_identity": "amap:B00155KTVH",
+  "evidence_hash": "56a164a8b5169e3c54bf675d4f3f90960545032e9beba1407091f1f32d0c0abe"
+}

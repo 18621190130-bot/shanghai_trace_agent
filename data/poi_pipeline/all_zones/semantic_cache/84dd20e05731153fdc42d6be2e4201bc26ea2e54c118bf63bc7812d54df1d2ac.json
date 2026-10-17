@@ -1,0 +1,205 @@
+{
+  "candidate_id": "hongkou_literary_085cab001e5e5f1e",
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_0fbaab58f481",
+          "e_219472db2c56",
+          "e_7557349cc0d4"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_0fbaab58f481",
+      "e_219472db2c56",
+      "e_7557349cc0d4"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "low",
+      "reason": "现有证据仅表明其为公园及中共四大纪念馆室外广场，缺乏独立体验内容与停留价值描述，更适合作为连接周边较强节点的短暂停留点。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示高独立目的地价值或可承载路线主题的独立体验，故不适合作为锚点。",
+        "supporting_stop": "虽为公园，但缺少可独立成行的体验内容证据，作为补充性停留点依据不足。",
+        "transition_stop": "作为公园与纪念馆室外广场，具备短时停留和连接周边节点的可能，符合过渡性停留点特征。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "证据仅支持其为公园及室外广场，缺少独特体验、文化内涵或独立游览价值的具体描述。",
+      "evidence_refs": [
+        "e_0fbaab58f481",
+        "e_219472db2c56",
+        "e_e4847c6b166d"
+      ]
+    },
+    "summary_draft": {
+      "text": "四川北路公园",
+      "evidence_refs": [
+        "e_3cc47f81a324"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅作为途经性公园/室外广场的短暂停留估算，不含纪念馆内部参观。"
+    },
+    "semantic_confidence": "low",
+    "stability": "unknown",
+    "missing_information": [
+      "公园内部设施与体验内容",
+      "开放时间与当前运营状态",
+      "与中共四大纪念馆的具体空间关系及可进入性"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.254871,
+      121.484802
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_0fbaab58f481",
+          "e_219472db2c56",
+          "e_7557349cc0d4"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_0fbaab58f481",
+      "e_219472db2c56",
+      "e_7557349cc0d4"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop",
+        "supporting_stop"
+      ],
+      "confidence": "low",
+      "reason": "现有证据仅表明其为公园及中共四大纪念馆室外广场，缺乏独立体验内容与停留价值描述，更适合作为连接周边较强节点的短暂停留点。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示高独立目的地价值或可承载路线主题的独立体验，故不适合作为锚点。",
+        "supporting_stop": "虽为公园，但缺少可独立成行的体验内容证据，作为补充性停留点依据不足。",
+        "transition_stop": "作为公园与纪念馆室外广场，具备短时停留和连接周边节点的可能，符合过渡性停留点特征。"
+      }
+    },
+    "citywalk_value": {
+      "level": "low",
+      "reason": "证据仅支持其为公园及室外广场，缺少独特体验、文化内涵或独立游览价值的具体描述。",
+      "evidence_refs": [
+        "e_0fbaab58f481",
+        "e_219472db2c56",
+        "e_e4847c6b166d"
+      ]
+    },
+    "summary_draft": {
+      "text": "四川北路公园",
+      "evidence_refs": [
+        "e_3cc47f81a324"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 5,
+        "standard": 10,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "仅作为途经性公园/室外广场的短暂停留估算，不含纪念馆内部参观。"
+    },
+    "semantic_confidence": "low",
+    "stability": "unknown",
+    "missing_information": [
+      "公园内部设施与体验内容",
+      "开放时间与当前运营状态",
+      "与中共四大纪念馆的具体空间关系及可进入性"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "attempts": [
+    {
+      "status": "success",
+      "provider": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 4719,
+          "completion_tokens": 687,
+          "total_tokens": 5406,
+          "prompt_tokens_details": {
+            "cached_tokens": 2816
+          },
+          "prompt_cache_hit_tokens": 2816,
+          "prompt_cache_miss_tokens": 1903
+        }
+      }
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "84dd20e05731153fdc42d6be2e4201bc26ea2e54c118bf63bc7812d54df1d2ac",
+  "node_identity": "amap:B00152B056",
+  "evidence_hash": "6ddc376ff6b44fe410d73f8631217132cb7cb813ec99dec9ff26ee87586f82a2"
+}

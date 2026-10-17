@@ -1,0 +1,76 @@
+{
+  "request_text": "Add another two places to the route.",
+  "interpreted_intent": {
+    "actions": [
+      {
+        "action_type": "ADD_MATCHING_STOPS",
+        "target_mentions": [],
+        "secondary_target_mentions": [],
+        "preference_concepts": [],
+        "preference_tags": [],
+        "time_value_minutes": null,
+        "time_constraint_mode": null,
+        "pace": null,
+        "position_relation": null,
+        "reference_expression": null,
+        "explicit_replan": false,
+        "dwell_preference": null,
+        "request_matching_insert": false,
+        "requested_count": 2,
+        "reduction_goal": null
+      }
+    ],
+    "needs_clarification": false,
+    "clarification_reason": null
+  },
+  "execution_status": "APPLIED",
+  "reason_code": "verified_change",
+  "previous_route_version_id": "v1",
+  "current_route_version_id": "v2",
+  "before_metrics": {
+    "stops": 5,
+    "duration_minutes": 168.88,
+    "walking_km": 4.4157,
+    "walking_minutes": 58.88,
+    "basis": "common_planning_estimate"
+  },
+  "after_metrics": {
+    "stops": 7,
+    "duration_minutes": 242.23,
+    "walking_km": 5.417,
+    "walking_minutes": 72.23,
+    "basis": "common_planning_estimate"
+  },
+  "added_ids": [
+    "p21",
+    "p13"
+  ],
+  "removed_ids": [],
+  "kept_ids": [
+    "p12",
+    "p2",
+    "p11",
+    "p32",
+    "p33"
+  ],
+  "reordered_ids": [],
+  "retained_stop_count": 5,
+  "removed_stop_count": 0,
+  "added_stop_count": 2,
+  "reordered_stop_count": 0,
+  "route_preservation_ratio": 1.0,
+  "visit_mode_changes": [],
+  "preserved_must_go_ids": [],
+  "requested_count": 2,
+  "actual_added_count": 2,
+  "warnings": [
+    {
+      "estimated_minutes": 242.22677932902872,
+      "target_minutes": 180,
+      "estimated_overrun_minutes": 62.226779329028716,
+      "severity": "warning"
+    }
+  ],
+  "explanation": "Route updated",
+  "preference_only": false
+}

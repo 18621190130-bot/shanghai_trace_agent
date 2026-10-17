@@ -1,0 +1,651 @@
+{
+  "candidate": {
+    "candidate_id": "wukang_fuxing_xujiahui_376c57989e6ecafa",
+    "name_zh": "安康公寓（乌鲁木齐南路176号）",
+    "name_en": "",
+    "aliases": [
+      "巨福公寓",
+      "乌鲁木齐公寓"
+    ],
+    "address": "乌鲁木齐南路176号",
+    "coordinates": [
+      31.203534,
+      121.449089
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "name_zh": "优秀历史建筑乌鲁木齐南路176号",
+        "name_en": "",
+        "aliases": [],
+        "address": "衡山路地铁站1号口步行380米",
+        "coordinates": [
+          31.203534,
+          121.449089
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;风景名胜;风景名胜",
+        "raw_provider_tags": {
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "徐汇区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "name_zh": "优秀历史建筑乌鲁木齐南路176号",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "name_zh": "优秀历史建筑乌鲁木齐南路176号",
+        "name_en": "",
+        "aliases": [],
+        "address": "乌鲁木齐南路176号",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "name_zh": "优秀历史建筑乌鲁木齐南路176号",
+        "name_en": "",
+        "aliases": [],
+        "address": "乌鲁木齐南路176号",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "优秀历史建筑。4D033 | 巨福公寓/安康公寓 | 安康公寓/乌鲁木齐公寓 | 乌鲁木齐南路176号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B0KUFC7BAU"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_23cddf9de68d",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_23cddf9de68d",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_cd6f2e40d25f",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B0KUFC7BAU",
+      "name_en": null,
+      "address": "government:diversity_cd6f2e40d25f",
+      "coordinates": "amap:B0KUFC7BAU"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_5012e7109956": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "优秀历史建筑乌鲁木齐南路176号"
+      },
+      "e_dea7b7aac370": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "衡山路地铁站1号口步行380米"
+      },
+      "e_629f37d62107": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "优秀历史建筑乌鲁木齐南路176号"
+      },
+      "e_d77a88bf3de6": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "优秀历史建筑乌鲁木齐南路176号"
+      },
+      "e_68afa5119062": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "乌鲁木齐南路176号"
+      },
+      "e_7774ef49e6e2": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "优秀历史建筑乌鲁木齐南路176号"
+      },
+      "e_12cf9dee74d1": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "乌鲁木齐南路176号"
+      },
+      "e_195b0bc5e218": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.203534,
+            121.449089
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_a337b99b9254": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_ea8176433b53": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_69c1d33e3237": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110200"
+      },
+      "e_8f96ffe35dab": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_5fd98fbaa4b4": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_5ddf9bbfc61f": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_4b686be3d453": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_f88bb21996a4": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_4adc22d3b222": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "优秀历史建筑。4D033 | 巨福公寓/安康公寓 | 安康公寓/乌鲁木齐公寓 | 乌鲁木齐南路176号"
+      },
+      "e_56b484dc5372": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_67be01ffb9ec": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_0bf10f94b177": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "优秀历史建筑。4D033 | 巨福公寓/安康公寓 | 安康公寓/乌鲁木齐公寓 | 乌鲁木齐南路176号"
+      },
+      "e_75020d3d5396": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_7492db664ed8": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_e4b0b2cc7fbe": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "优秀历史建筑。4D033 | 巨福公寓/安康公寓 | 安康公寓/乌鲁木齐公寓 | 乌鲁木齐南路176号"
+      },
+      "e_b004656cf95d": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      }
+    },
+    "recall_screen": {
+      "rank": 5,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "优秀历史建筑乌鲁木齐南路176号",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "architecture",
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_5fd98fbaa4b4"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_b004656cf95d"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "具体门牌的优秀历史建筑外观短观察；不进入居民住宅，不以建筑名气认定anchor。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "具体门牌的优秀历史建筑外观短观察；不进入居民住宅，不以建筑名气认定anchor。",
+      "evidence_refs": [
+        "e_b004656cf95d"
+      ]
+    },
+    "summary_draft": {
+      "text": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案",
+      "evidence_refs": [
+        "e_b004656cf95d"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 3,
+        "standard": 7,
+        "deep": 15
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "具体门牌的优秀历史建筑外观短观察；不进入居民住宅，不以建筑名气认定anchor。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "architecture",
+    "interest_tags": [
+      "history",
+      "architecture"
+    ],
+    "experience_tags": [
+      "architecture_detail"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "architecture",
+        "evidence_refs": [
+          "e_5fd98fbaa4b4"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "architecture_detail",
+        "evidence_refs": [
+          "e_5fd98fbaa4b4"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_b004656cf95d"
+    ],
+    "route_role": {
+      "primary": "transition_stop",
+      "eligible": [
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "具体门牌的优秀历史建筑外观短观察；不进入居民住宅，不以建筑名气认定anchor。",
+      "independent_destination_value": "low",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "具体门牌的优秀历史建筑外观短观察；不进入居民住宅，不以建筑名气认定anchor。",
+      "evidence_refs": [
+        "e_b004656cf95d"
+      ]
+    },
+    "summary_draft": {
+      "text": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案",
+      "evidence_refs": [
+        "e_b004656cf95d"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 3,
+        "standard": 7,
+        "deep": 15
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "具体门牌的优秀历史建筑外观短观察；不进入居民住宅，不以建筑名气认定anchor。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.203534,
+      121.449089
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "historic_building"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

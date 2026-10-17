@@ -1,0 +1,143 @@
+[
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_56500741faabe13a",
+    "name": "武康路历史文化名街",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/citywalk/20260625/3492b1b945c146fc96c4585d7b04f00d.html",
+        "excerpt": "武康路-安福路街区位于徐汇区衡复历史文化风貌区内，南至武康路淮海中路，北至安福路、乌鲁木齐路。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:52.806487+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_b7acaee740c202f1",
+    "name": "普希金雕像",
+    "checks": [
+      {
+        "url": "https://www.supdri.com/artmap/details.html?id=2&isPath=1&type=line",
+        "excerpt": "沿线经典建筑和雕塑有黄兴故居、巴金故居、湖南别墅、丁香花园、上方花园、黑石公寓、聂耳铜像和普希金铜像等。",
+        "source_type": "official",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:55.778859+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_e58b1a0d921a65c8",
+    "name": "衡山公园",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/nw17239/20250519/57cb4173d2274749a8a9f8eca3d05412.html",
+        "excerpt": "徐家汇公园的月季倾泻如瀑，衡山公园的藤本月季攀檐绕廊",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:17:58.683253+00:00"
+      },
+      {
+        "url": "https://www.amap.com/detail/B00155IQRX",
+        "provider_identity": {
+          "type": "风景名胜;公园广场;公园",
+          "id": "B00155IQRX",
+          "address": "上海市天平路街道广元路2号(衡山路宛平路口)",
+          "name": "衡山公园",
+          "location": "121.442123,31.200560"
+        },
+        "source_type": "amap",
+        "method": "one bounded targeted map identity query; extras ignored",
+        "retrieved_at": "2026-10-04T16:21:32.211535+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_53ae8b1a1f19b458",
+    "name": "天钥桥路口袋公园",
+    "checks": [
+      {
+        "url": "https://www.shhk.gov.cn/xwzx/002008/002008040/20240213/de1605dc-7013-4437-9aaa-c8da3d3fcdb5.html",
+        "excerpt": "天钥桥路口袋公园",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:01.687170+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_376c57989e6ecafa",
+    "name": "优秀历史建筑乌鲁木齐南路176号",
+    "checks": [
+      {
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "excerpt": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_6813e50b550d36b6",
+    "name": "襄阳公园",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/nw17239/20251203/572ffde1f42142a3ab088fc66ba847e5.html",
+        "excerpt": "这条线路从汾阳路音乐街区漫步至襄阳公园，沿途串联起多个融合音乐艺术与自然生态的公共空间。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:07.487443+00:00"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/nw15343/20250106/403da6dee9324dc08ab9194adf9199b3.html",
+        "excerpt": "区林长办开展丰富多样的“公园+”活动，依托“绿知汇”生态科普联盟中心，用好襄阳公园等4个葩科小屋和16个市民园艺中心阵地，积极开展面向儿童的科普、观鸟、文化和体育等活动。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:29:30.561592+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+    "name": "徐家汇公园",
+    "checks": [
+      {
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "excerpt": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00"
+      },
+      {
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "excerpt": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。",
+        "source_type": "government",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_1e47e74b88bb959d",
+    "name": "聂耳铜像",
+    "checks": [
+      {
+        "url": "https://www.supdri.com/artmap/details.html?id=2&isPath=1&type=line",
+        "excerpt": "沿线经典建筑和雕塑有黄兴故居、巴金故居、湖南别墅、丁香花园、上方花园、黑石公寓、聂耳铜像和普希金铜像等。",
+        "source_type": "official",
+        "method": "inspected web result/page; source-specific small excerpt",
+        "retrieved_at": "2026-10-04T16:18:13.957313+00:00"
+      }
+    ]
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_a820e639b44f621e",
+    "name": "中南新邨",
+    "checks": []
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_c17d7311ad244c39",
+    "name": "盛宣怀住宅",
+    "checks": []
+  }
+]

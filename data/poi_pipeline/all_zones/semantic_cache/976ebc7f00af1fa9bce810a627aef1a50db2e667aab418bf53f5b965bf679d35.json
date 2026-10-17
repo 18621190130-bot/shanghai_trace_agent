@@ -1,0 +1,32 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+  "node_identity": "amap:B00155ILI8",
+  "semantic": null,
+  "output": null,
+  "attempts": [
+    {
+      "status": "validation_failure",
+      "kind": "unsupported_tag_evidence_or_over_generation",
+      "feedback": "music unsupported by cited evidence; remove or cite explicit matching description; quiet_walk unsupported by cited evidence; remove or cite explicit matching description; photogenic unsupported by cited evidence; remove or cite explicit matching description; music_culture unsupported by cited evidence; remove or cite explicit matching description; modern_shanghai unsupported by cited evidence; remove or cite explicit matching description",
+      "provider": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 4693,
+          "completion_tokens": 972,
+          "total_tokens": 5665,
+          "prompt_tokens_details": {
+            "cached_tokens": 2944
+          },
+          "prompt_cache_hit_tokens": 2944,
+          "prompt_cache_miss_tokens": 1749
+        }
+      }
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "976ebc7f00af1fa9bce810a627aef1a50db2e667aab418bf53f5b965bf679d35",
+  "evidence_hash": "d6bc84a4b03c7b840566bb81e683b39e11dc52173963ca7fda1983458e7047cd",
+  "retry_reason": "evidence_materially_improved"
+}

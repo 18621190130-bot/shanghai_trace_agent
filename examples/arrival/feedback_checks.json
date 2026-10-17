@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "checks": [
+    "cover present",
+    "map corner archive",
+    "history after visited/next target",
+    "anchor cultural placeholder",
+    "all POI notice placeholder",
+    "internal entrance marker",
+    "no external tab",
+    "no unreviewed entrance photo",
+    "mobile archive",
+    "compact warnings"
+  ],
+  "errors": []
+}

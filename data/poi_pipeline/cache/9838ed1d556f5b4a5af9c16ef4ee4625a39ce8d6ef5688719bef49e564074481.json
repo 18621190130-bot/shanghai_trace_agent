@@ -1,0 +1,205 @@
+{
+  "source": "official",
+  "url": "https://www.westbund.com/cn/index/POPULAR-VENUES/detail_e9dD9.html",
+  "parameters": {},
+  "variant": "official-excerpts-v1:上海油罐艺术中心|油罐艺术中心",
+  "retrieved_at": "2026-10-04T07:39:04.354348+00:00",
+  "response": {
+    "excerpts": {
+      "上海油罐艺术中心": [
+        "上海油罐艺术中心建筑群坐落于中国最早的机场——上海龙华机场原址,机场停用后被保留的一组废弃航油罐,极具历史时代色彩,是全球为数不多的油罐空间改造案例之一。昔日的油罐变身为艺术载体,通过当代艺术展览、活动,让公众可以亲近感受艺术,成为上海艺术文化新地标。"
+      ],
+      "油罐艺术中心": [
+        "油罐艺术中心",
+        "上海油罐艺术中心建筑群坐落于中国最早的机场——上海龙华机场原址,机场停用后被保留的一组废弃航油罐,极具历史时代色彩,是全球为数不多的油罐空间改造案例之一。昔日的油罐变身为艺术载体,通过当代艺术展览、活动,让公众可以亲近感受艺术,成为上海艺术文化新地标。"
+      ]
+    },
+    "links": [
+      {
+        "href": "/cn/",
+        "label": "西岸 | BEST BUND"
+      },
+      {
+        "href": "/en/",
+        "label": "EN"
+      },
+      {
+        "href": "/files/images/code_weixin.png",
+        "label": "微信"
+      },
+      {
+        "href": "http://weibo.com/p/1006065477365941/home?from=page_100606&mod=TAB#place",
+        "label": "新浪微博"
+      },
+      {
+        "href": "http://site.douban.com/257020/",
+        "label": "豆瓣"
+      },
+      {
+        "href": "/cn/index/VISITORSS-GUIDE/Location/Location.html",
+        "label": "来访指南"
+      },
+      {
+        "href": "/cn/index/VISITORSS-GUIDE/Location/Location.html",
+        "label": "地理位置"
+      },
+      {
+        "href": "/cn/index/VISITORSS-GUIDE/Transportation/Traffic-Information.html",
+        "label": "交通指南"
+      },
+      {
+        "href": "/cn/index/ABOUT-WEST-BUND/Area-Overview/District-Overview.html",
+        "label": "关于西岸"
+      },
+      {
+        "href": "/cn/index/ABOUT-WEST-BUND/Area-Overview/District-Overview.html",
+        "label": "区域概况"
+      },
+      {
+        "href": "/cn/index/ABOUT-WEST-BUND/Industry-Outline/Industry-Landscape.html",
+        "label": "产业布局"
+      },
+      {
+        "href": "/cn/index/ABOUT-WEST-BUND/History/West-Bund-History.html",
+        "label": "历史变迁"
+      },
+      {
+        "href": "/cn/index/EVENTS/show_list.html",
+        "label": "精彩活动"
+      },
+      {
+        "href": "/cn/index/EVENTS/Now/show_list.html",
+        "label": "当前活动"
+      },
+      {
+        "href": "/cn/index/EVENTS/Upcoming/show_list.html",
+        "label": "活动预告"
+      },
+      {
+        "href": "/cn/index/EVENTS/Past/show_list.html",
+        "label": "活动回顾"
+      },
+      {
+        "href": "/cn/index/POPULAR-VENUES/show_list.html",
+        "label": "热门场馆"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/show_list.html",
+        "label": "重点项目"
+      },
+      {
+        "href": "/index/KEY-PROJECTS/All-Projects/show_list.html#type_2_60",
+        "label": "开发项目"
+      },
+      {
+        "href": "/index/KEY-PROJECTS/All-Projects/show_list#type_2_61",
+        "label": "公共环境"
+      },
+      {
+        "href": "/index/KEY-PROJECTS/All-Projects/show_list.html#type_2_58",
+        "label": "文化设施"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/All-Projects/show_list.html",
+        "label": "全部项目"
+      },
+      {
+        "href": "/cn/index/NEWS-CENTER/show_list.html",
+        "label": "新闻中心"
+      },
+      {
+        "href": "/cn/index/NEWS-CENTER/Media-Coverage/show_list.html",
+        "label": "媒体报道"
+      },
+      {
+        "href": "/cn/index/NEWS-CENTER/Recent-News/show_list.html",
+        "label": "最新动态"
+      },
+      {
+        "href": "/cn/index/WEST-BUND-GROUP/Group-Profile/About-West-Bund-Group.html",
+        "label": "西岸集团"
+      },
+      {
+        "href": "/cn/index/WEST-BUND-GROUP/Group-Profile/About-West-Bund-Group.html",
+        "label": "集团简介"
+      },
+      {
+        "href": "/cn/index/WEST-BUND-GROUP/Join_us/Join-Us.html",
+        "label": "加入我们"
+      },
+      {
+        "href": "/cn/index/CONTACT-US/contact-us.html",
+        "label": "联系我们"
+      },
+      {
+        "href": "javascript:;",
+        "label": "龙腾大道2380号"
+      },
+      {
+        "href": "javascript:;",
+        "label": "场馆介绍"
+      },
+      {
+        "href": "/cn/index/POPULAR-VENUES/event_list_e9dD9.html",
+        "label": "场馆活动"
+      },
+      {
+        "href": "/cn/index/POPULAR-VENUES/event_list_e9dD9.html",
+        "label": "更多..."
+      },
+      {
+        "href": "/cn/index/EVENTS/detail_37fA5U.html",
+        "label": "阿德里安·维拉·罗哈斯个展:有时候你会想,在一个相互连接的宇宙中,谁在梦到谁?"
+      },
+      {
+        "href": "index.html",
+        "label": "西岸集团 | BEST BUND"
+      },
+      {
+        "href": "https://beian.miit.gov.cn/",
+        "label": "沪ICP备18021456号-2"
+      },
+      {
+        "href": "http://www.beian.gov.cn/",
+        "label": "沪公网安备 31010402005719号"
+      },
+      {
+        "href": "javascript:;",
+        "label": "来访指南"
+      },
+      {
+        "href": "javascript:;",
+        "label": "关于西岸"
+      },
+      {
+        "href": "/cn/index/EVENTS/show_list.html",
+        "label": "精彩活动"
+      },
+      {
+        "href": "/cn/index/POPULAR-VENUES/show_list.html",
+        "label": "热门场馆"
+      },
+      {
+        "href": "/cn/index/KEY-PROJECTS/show_list.html",
+        "label": "重点项目"
+      },
+      {
+        "href": "/cn/index/NEWS-CENTER/show_list.html",
+        "label": "新闻中心"
+      },
+      {
+        "href": "javascript:;",
+        "label": "西岸集团"
+      },
+      {
+        "href": "/cn/index/CONTACT-US/contact-us.html",
+        "label": "联系我们"
+      },
+      {
+        "href": "http://www.comonetwork.com",
+        "label": "ComoNetwork"
+      }
+    ]
+  },
+  "response_hash": "e446f4fd06bc899eff51b5b38d16d8a6290541b4ff16085db5c695816c554ab5"
+}

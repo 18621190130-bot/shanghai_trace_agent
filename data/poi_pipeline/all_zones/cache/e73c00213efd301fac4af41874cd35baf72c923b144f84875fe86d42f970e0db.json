@@ -1,0 +1,42 @@
+{
+  "source": "official",
+  "url": "https://www.shanghai.gov.cn/nw17239/20250904/94d9f1c5fb954a3fbb9941bb5a0621f6.html",
+  "parameters": {},
+  "variant": "official-substantive-v2:古城公园",
+  "retrieved_at": "2026-10-04T15:21:54.783599+00:00",
+  "response": {
+    "excerpts": {
+      "古城公园": [
+        "古城公园草坪:除养草期外全年开放,每日开放时间为8:00-18:00。",
+        "古城公园设有帐篷区,全年每天8:00-16:00开放。"
+      ]
+    },
+    "links": [
+      {
+        "href": "/index.html",
+        "label": "首页"
+      },
+      {
+        "href": "/nw2315/index.html",
+        "label": "要闻动态"
+      },
+      {
+        "href": "/nw17239/index.html",
+        "label": "便民提示"
+      },
+      {
+        "href": "#",
+        "label": "大"
+      },
+      {
+        "href": "#",
+        "label": "中"
+      },
+      {
+        "href": "#",
+        "label": "小"
+      }
+    ]
+  },
+  "response_hash": "6be5cdd8d909dabd6f222decda7d6b71da35b06f930638f3475338ddd83ed1d9"
+}

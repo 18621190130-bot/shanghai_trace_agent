@@ -1,0 +1,300 @@
+{
+  "candidate_id": "old_city_central_f0e8568c2648a238",
+  "node_identity": "amap:B001556ZBL",
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "history"
+    ],
+    "experience_tags": [
+      "neighborhood_walk"
+    ],
+    "culture_tags": [
+      "old_city",
+      "urban_renewal"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_672cb533d409",
+          "e_3924672d5b2a",
+          "e_6b6936044e50"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_6b6936044e50"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "neighborhood_walk",
+        "evidence_refs": [
+          "e_0d143d06e5d2"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "old_city",
+        "evidence_refs": [
+          "e_6b6936044e50"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "urban_renewal",
+        "evidence_refs": [
+          "e_0d143d06e5d2"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_672cb533d409",
+      "e_3924672d5b2a",
+      "e_975f0a6684bf"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示公园位于老城厢内并保留城墙、护城河景观，丹凤楼为园内主体建筑，具备独立游憩与观景价值，可作为补充性停留；但缺乏足够独立目的地证据支撑其为锚点。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示其具备高独立目的地价值或可承载路线主题的强吸引力，故不选锚点。",
+        "supporting_stop": "有公园本体、丹凤楼与老城厢历史景观，可独立体验并补充路线，符合支持性停留。",
+        "transition_stop": "虽可作短时连接点，但其园内景观与历史元素超出单纯过渡价值，故支持性停留更合适。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "公园位于老城厢，保留城墙、护城河景观，丹凤楼可体验登高望江的历史意象，并与周边历史街区更新路线相连，具备中等城市漫步价值。",
+      "evidence_refs": [
+        "e_6b6936044e50",
+        "e_0d143d06e5d2"
+      ]
+    },
+    "summary_draft": {
+      "text": "古城公园建成于2002年。",
+      "evidence_refs": [
+        "e_6b6936044e50"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "由于公园建在上海老城厢内,景观中又保留了老城厢的城墙、护城河,故取名为古城公园。",
+      "evidence_refs": [
+        "e_6b6936044e50"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 15,
+        "standard": 30,
+        "deep": 60
+      },
+      "full_visit": {
+        "quick": 30,
+        "standard": 60,
+        "deep": 120
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "公园内部步道、丹凤楼及主要景观节点"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放时间未在证据中明确",
+      "门票与预约要求未提供",
+      "丹凤楼当前是否可登临未说明"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": {
+        "text": "古城公园建成于2002年。",
+        "evidence_refs": [
+          "e_6b6936044e50"
+        ]
+      },
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.228427,
+      121.493836
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks",
+      "history"
+    ],
+    "experience_tags": [
+      "neighborhood_walk"
+    ],
+    "culture_tags": [
+      "old_city",
+      "urban_renewal"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_672cb533d409",
+          "e_3924672d5b2a",
+          "e_6b6936044e50"
+        ]
+      },
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_6b6936044e50"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "neighborhood_walk",
+        "evidence_refs": [
+          "e_0d143d06e5d2"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "old_city",
+        "evidence_refs": [
+          "e_6b6936044e50"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "urban_renewal",
+        "evidence_refs": [
+          "e_0d143d06e5d2"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_672cb533d409",
+      "e_3924672d5b2a",
+      "e_975f0a6684bf"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示公园位于老城厢内并保留城墙、护城河景观，丹凤楼为园内主体建筑，具备独立游憩与观景价值，可作为补充性停留；但缺乏足够独立目的地证据支撑其为锚点。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "证据未显示其具备高独立目的地价值或可承载路线主题的强吸引力，故不选锚点。",
+        "supporting_stop": "有公园本体、丹凤楼与老城厢历史景观，可独立体验并补充路线，符合支持性停留。",
+        "transition_stop": "虽可作短时连接点，但其园内景观与历史元素超出单纯过渡价值，故支持性停留更合适。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "公园位于老城厢，保留城墙、护城河景观，丹凤楼可体验登高望江的历史意象，并与周边历史街区更新路线相连，具备中等城市漫步价值。",
+      "evidence_refs": [
+        "e_6b6936044e50",
+        "e_0d143d06e5d2"
+      ]
+    },
+    "summary_draft": {
+      "text": "古城公园建成于2002年。",
+      "evidence_refs": [
+        "e_6b6936044e50"
+      ]
+    },
+    "culture_bridge_draft": {
+      "text": "由于公园建在上海老城厢内,景观中又保留了老城厢的城墙、护城河,故取名为古城公园。",
+      "evidence_refs": [
+        "e_6b6936044e50"
+      ]
+    },
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 15,
+        "standard": 30,
+        "deep": 60
+      },
+      "full_visit": {
+        "quick": 30,
+        "standard": 60,
+        "deep": 120
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "公园内部步道、丹凤楼及主要景观节点"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放时间未在证据中明确",
+      "门票与预约要求未提供",
+      "丹凤楼当前是否可登临未说明"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": {
+        "text": "古城公园建成于2002年。",
+        "evidence_refs": [
+          "e_6b6936044e50"
+        ]
+      },
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "attempts": [
+    {
+      "status": "success",
+      "provider": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 5235,
+          "completion_tokens": 960,
+          "total_tokens": 6195,
+          "prompt_tokens_details": {
+            "cached_tokens": 640
+          },
+          "prompt_cache_hit_tokens": 640,
+          "prompt_cache_miss_tokens": 4595
+        }
+      }
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "91b436396c74e52b63bfeabd8003b470da82c21d1bf73e6725cf7c781cf4b870",
+  "evidence_hash": "e9b971cbaf8693495a3db54e3e09d7d7e5f9bdc818a124b3fe4cc07b566b7c91",
+  "retry_reason": "evidence_materially_improved"
+}

@@ -1,0 +1,81 @@
+{
+  "before": {
+    "nodes": 12,
+    "category_distribution": {
+      "Shikumen": 2,
+      "Waterfront": 1,
+      "Old City": 1,
+      "Taoist Cultural Site": 1,
+      "Historic Residential Block": 1,
+      "Modern Chinese History": 1,
+      "Commercial Pedestrian Street": 1,
+      "park": 4
+    },
+    "primary_role_distribution": {
+      "anchor": 8,
+      "supporting_stop": 4
+    },
+    "park_share": 0.3333,
+    "street_lane_share": 0.25,
+    "historic_building_share": 0.0833,
+    "public_square_civic_space_share": 0.0833,
+    "landmark_share": 0.0833,
+    "cultural_space_share": 0.1667,
+    "urban_texture_node_count": 7,
+    "facet_counts": {
+      "historic_district": 4,
+      "urban_renewal": 3,
+      "lane": 2,
+      "civic_space": 1,
+      "landmark": 1,
+      "public_square": 1,
+      "cultural_space": 2,
+      "religious_building": 1,
+      "historic_building": 1,
+      "street": 1,
+      "park": 4
+    },
+    "definitions": "Facets may overlap; legacy classification uses existing category/type/name/tags, new facets have explicit scope audit. Ordinary parks excluded from urban_texture count. Diagnostics never add tags or change roles."
+  },
+  "after": {
+    "nodes": 17,
+    "category_distribution": {
+      "Shikumen": 2,
+      "Waterfront": 1,
+      "Old City": 1,
+      "Taoist Cultural Site": 1,
+      "Historic Residential Block": 1,
+      "Modern Chinese History": 1,
+      "Commercial Pedestrian Street": 1,
+      "park": 4,
+      "public_space": 2,
+      "heritage": 2,
+      "architecture": 1
+    },
+    "primary_role_distribution": {
+      "anchor": 9,
+      "supporting_stop": 8
+    },
+    "park_share": 0.2353,
+    "street_lane_share": 0.2353,
+    "historic_building_share": 0.2353,
+    "public_square_civic_space_share": 0.1176,
+    "landmark_share": 0.1765,
+    "cultural_space_share": 0.1765,
+    "urban_texture_node_count": 12,
+    "facet_counts": {
+      "historic_district": 4,
+      "urban_renewal": 3,
+      "lane": 2,
+      "civic_space": 2,
+      "landmark": 3,
+      "public_square": 2,
+      "cultural_space": 3,
+      "religious_building": 1,
+      "historic_building": 4,
+      "street": 2,
+      "park": 4
+    },
+    "definitions": "Facets may overlap; legacy classification uses existing category/type/name/tags, new facets have explicit scope audit. Ordinary parks excluded from urban_texture count. Diagnostics never add tags or change roles."
+  }
+}

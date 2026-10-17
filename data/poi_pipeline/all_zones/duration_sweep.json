@@ -1,0 +1,335 @@
+[
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "minutes": 120,
+    "status": "success",
+    "stops": 3,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "supporting_stop": 1,
+        "anchor": 1,
+        "transition_stop": 1
+      },
+      "longest_transition_run": 1,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p11",
+      "pz_17d41390cac9",
+      "p2"
+    ],
+    "estimated_minutes": 109.8234084806926,
+    "minimum_viable_passed": true
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "minutes": 150,
+    "status": "success",
+    "stops": 4,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "supporting_stop": 1,
+        "anchor": 1,
+        "transition_stop": 2
+      },
+      "longest_transition_run": 2,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p11",
+      "pz_17d41390cac9",
+      "p2",
+      "p12"
+    ],
+    "estimated_minutes": 126.83940328387823,
+    "minimum_viable_passed": true
+  },
+  {
+    "zone": "wukang_fuxing_xujiahui",
+    "minutes": 180,
+    "status": "success",
+    "stops": 5,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "transition_stop": 2,
+        "supporting_stop": 2,
+        "anchor": 1
+      },
+      "longest_transition_run": 2,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p12",
+      "p2",
+      "p11",
+      "pz_17d41390cac9",
+      "p13"
+    ],
+    "estimated_minutes": 155.73085132679338,
+    "minimum_viable_passed": true
+  },
+  {
+    "zone": "old_city_central",
+    "minutes": 120,
+    "status": "success",
+    "stops": 2,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": false,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "anchor": 2
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p14",
+      "p34"
+    ],
+    "estimated_minutes": 111.33785567025826,
+    "minimum_viable_passed": false,
+    "default_mode_feasible_triple_exists": false,
+    "diagnostic_example_ids": [],
+    "diagnostic_note": "Budget/role feasibility only; example is not a recommended route and does not override ranking or quality gates. No expansion inferred."
+  },
+  {
+    "zone": "old_city_central",
+    "minutes": 150,
+    "status": "success",
+    "stops": 2,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": false,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "anchor": 2
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p14",
+      "p34"
+    ],
+    "estimated_minutes": 111.33785567025826,
+    "minimum_viable_passed": false,
+    "default_mode_feasible_triple_exists": true,
+    "diagnostic_example_ids": [
+      "p14",
+      "pz_a74f9e58195a",
+      "p20"
+    ],
+    "diagnostic_note": "Budget/role feasibility only; example is not a recommended route and does not override ranking or quality gates. No expansion inferred."
+  },
+  {
+    "zone": "old_city_central",
+    "minutes": 180,
+    "status": "success",
+    "stops": 3,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "anchor": 2,
+        "supporting_stop": 1
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p34",
+      "p14",
+      "pz_a74f9e58195a"
+    ],
+    "estimated_minutes": 156.75030265110252,
+    "minimum_viable_passed": true
+  },
+  {
+    "zone": "hongkou_literary",
+    "minutes": 120,
+    "status": "success",
+    "stops": 3,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "supporting_stop": 2,
+        "anchor": 1
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p25",
+      "pz_b72e3b8998b3",
+      "p26"
+    ],
+    "estimated_minutes": 119.82723753280877,
+    "minimum_viable_passed": true
+  },
+  {
+    "zone": "hongkou_literary",
+    "minutes": 150,
+    "status": "success",
+    "stops": 3,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "supporting_stop": 2,
+        "anchor": 1
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p10",
+      "p26",
+      "pz_b72e3b8998b3"
+    ],
+    "estimated_minutes": 131.44682011328246,
+    "minimum_viable_passed": true
+  },
+  {
+    "zone": "hongkou_literary",
+    "minutes": 180,
+    "status": "success",
+    "stops": 4,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "supporting_stop": 3,
+        "anchor": 1
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p10",
+      "p26",
+      "pz_b72e3b8998b3",
+      "p25"
+    ],
+    "estimated_minutes": 159.80297378942,
+    "minimum_viable_passed": true
+  },
+  {
+    "zone": "west_bund",
+    "minutes": 120,
+    "status": "success",
+    "stops": 2,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": false,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "anchor": 1,
+        "supporting_stop": 1
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p28",
+      "p40"
+    ],
+    "estimated_minutes": 111.47459223472336,
+    "minimum_viable_passed": false,
+    "default_mode_feasible_triple_exists": true,
+    "diagnostic_example_ids": [
+      "p29",
+      "p37",
+      "p41"
+    ],
+    "diagnostic_note": "Budget/role feasibility only; example is not a recommended route and does not override ranking or quality gates. No expansion inferred."
+  },
+  {
+    "zone": "west_bund",
+    "minutes": 150,
+    "status": "success",
+    "stops": 3,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "anchor": 1,
+        "supporting_stop": 2
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p28",
+      "p40",
+      "p36"
+    ],
+    "estimated_minutes": 128.15031487242658,
+    "minimum_viable_passed": true
+  },
+  {
+    "zone": "west_bund",
+    "minutes": 180,
+    "status": "success",
+    "stops": 5,
+    "composition": {
+      "enabled": true,
+      "minimum_stop_count_passed": true,
+      "route_composition_passed": true,
+      "primary_role_counts": {
+        "supporting_stop": 3,
+        "anchor": 2
+      },
+      "longest_transition_run": 0,
+      "transition_soft_preference_passed": true,
+      "basis": "primary roles only; visit modes never promote roles",
+      "failure_reason": null
+    },
+    "selected_ids": [
+      "p36",
+      "p40",
+      "p28",
+      "p29",
+      "p37"
+    ],
+    "estimated_minutes": 176.59569875547604,
+    "minimum_viable_passed": true
+  }
+]

@@ -1,0 +1,4005 @@
+{
+  "human_review": [],
+  "all_dispositions": [
+    {
+      "node_id": "hongkou_literary_8e5015b8c5f4ace2",
+      "name": "上海名仕文化礼品有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_085cab001e5e5f1e",
+      "name": "四川北路公园",
+      "decision": "recommended_accept",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "reason": "all_admission_gates_passed",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 10,
+      "boundary_status": "inside_pilot",
+      "primary_role": "supporting_stop",
+      "eligible_roles": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "role_confidence": "medium"
+    },
+    {
+      "node_id": "hongkou_literary_4baa5b1ba7fa1402",
+      "name": "上海鲁迅纪念馆(暂停开放)",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b443687314c10c9b",
+      "name": "上海铁路博物馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4bab1dc0e5cd7607",
+      "name": "长远文化集团",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f720cf292120ad2e",
+      "name": "亚细亚大楼",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_3eafe6bf3d1ba4a3",
+      "name": "中共三大后中央局机关历史纪念馆(装修中)",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b9100aa716fa86e0",
+      "name": "外滩-情人墙",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_0f40c36884fb10bc",
+      "name": "多伦路文化名人街",
+      "decision": "recommended_accept",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "reason": "all_admission_gates_passed",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 10,
+      "boundary_status": "inside_pilot",
+      "primary_role": "anchor",
+      "eligible_roles": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "role_confidence": "medium"
+    },
+    {
+      "node_id": "hongkou_literary_b64a60a349c44ad1",
+      "name": "晶钻博华",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b00205e9c1d0aa9a",
+      "name": "甜爱大楼小区",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_65da15d22faa8d34",
+      "name": "甜爱别墅",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_fe37e091a4d5792a",
+      "name": "甜爱公寓",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_3cafd9ba0fc49f7e",
+      "name": "圣三一堂",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_da4c267a0af8f276",
+      "name": "上海时装商厦",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_8e2906b8a627629b",
+      "name": "上海鲁迅公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p16",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 103.5,
+          "address_match": false,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_1b33161e4ad878ef",
+      "name": "李白烈士故居",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_963edb7e3c38a45c",
+      "name": "1933老场坊",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p27",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 0.0,
+          "address_match": true,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_309567d6503b5070",
+      "name": "扬子大楼",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b6324e3ca38d2603",
+      "name": "四川里",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_d459b1fbdf9d157b",
+      "name": "甜爱路",
+      "decision": "recommended_accept",
+      "route_selectable": true,
+      "counts_as_route_stop": true,
+      "reason": "all_admission_gates_passed",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 10,
+      "boundary_status": "inside_pilot",
+      "primary_role": "supporting_stop",
+      "eligible_roles": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "role_confidence": "medium"
+    },
+    {
+      "node_id": "hongkou_literary_0df4e88b3aa2f667",
+      "name": "万国博览建筑群-万国禁烟会会址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b94c9ddfaeca330f",
+      "name": "原划船俱乐部",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_14cfb00a2ef918e9",
+      "name": "安培洋行",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_8ebd04992e228c75",
+      "name": "女青年会大楼",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_750a6f0846273726",
+      "name": "欧阳社区文化活动中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_ab39f0f35aebde8e",
+      "name": "上海新汇文化娱乐集团",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_429c937ab0e36353",
+      "name": "半岛湾时尚文化创意产业园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_159535717eb30e17",
+      "name": "1930鑫鑫创意园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_1692d8a8a77a406e",
+      "name": "华俄道胜银行旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_44f8eb8bdf5cf000",
+      "name": "上海总会-有利银行旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_10a1da344de116f4",
+      "name": "三菱大楼旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_44e0baf68be18531",
+      "name": "中南大楼",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_cda6c4a5642b6014",
+      "name": "洛克·外滩源",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_e54fe9df0f6a4fcb",
+      "name": "上海多伦路地区海派文化馆(多伦生活广场店)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4c4a96f0b84258d4",
+      "name": "白公馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_dc636945220392c3",
+      "name": "上海外滩建筑群汇中饭店大楼",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_89f11c08614a3c87",
+      "name": "景林庐旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_15fab5a2ab434435",
+      "name": "甜爱路26、28号",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4ea473068bea1026",
+      "name": "李白等十二烈士就义纪念地",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_9785a2587e18f295",
+      "name": "甜爱路与甜爱支路交叉口",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b7f27dacbe3e141b",
+      "name": "东江湾路与多伦路文化名人街交叉口",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_217a2c1e3c8410ac",
+      "name": "万国建筑博览群",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_54449df562eb94c2",
+      "name": "四川北路公房",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_d89413a7c4f2bbd7",
+      "name": "甜爱路30弄小区",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_124cde741df67c0a",
+      "name": "甜爱支路地库",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_2e41f96e2a1be9a5",
+      "name": "外滩-信号台",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_6ee2fa00933783cd",
+      "name": "多伦路文化名人街与四川北路交叉口",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_8b22a08f98c1d59f",
+      "name": "四川北路与甜爱路交叉口",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f4f5c9dc4bcee9c5",
+      "name": "东横浜路与多伦路文化名人街交叉口",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f6e266f5feb672dd",
+      "name": "上海紫苏文化传媒有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_01b262f702f6d7b6",
+      "name": "上海钱业公会旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_79ebfa9c8858361e",
+      "name": "四川北路与多伦路文化名人街交叉口",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_c2ba006d56b41421",
+      "name": "欧阳文化活动街",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_bce14e8ec3f604c9",
+      "name": "上海市医务工会职工文化活动中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_817343459d57537b",
+      "name": "甜爱路公房",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b7684660dd9dec5d",
+      "name": "上海丝芭文化传媒有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_e66a2bd0d4380336",
+      "name": "四川北路公园-夕阳幽篁",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_15127a2578b72bd2",
+      "name": "东信文化传播有限公司",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_c742e74a0bda9025",
+      "name": "甜爱路32弄小区",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_6e9ae5fb3e86fe77",
+      "name": "世界文豪广场",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f61f0d4714780879",
+      "name": "多伦路189号",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_20d8b369c330efbc",
+      "name": "鲁迅公园梅园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "possible_duplicate",
+        "production_match": "p16",
+        "confidence": "medium",
+        "evidence": {
+          "reason": "scope-name containment; legacy representative geometry requires reconciliation"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_bda69a3dece6e9ac",
+      "name": "滇池路历史老建筑",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_d32105c593df2116",
+      "name": "珠江·铂世外滩界",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_e32eb4db5ec6f59b",
+      "name": "中国证券博物馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_00f826f8660ba8cf",
+      "name": "尹奉吉纪念园(梅园)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_3a240e4e056edbc3",
+      "name": "上海总商会旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_6feec61876d3f133",
+      "name": "丁玲雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_04e58fe95cee2991",
+      "name": "沈尹默雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b985d3e276cad5ef",
+      "name": "甜爱坊",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_7d5b76c287ad856c",
+      "name": "四川北路1953弄小区",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_a887b530973579f7",
+      "name": "市民林",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_62c4fa5f8432ae2c",
+      "name": "欢乐广场",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_050eb2f4c653915a",
+      "name": "虹口救火会旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_190df6f11db69f67",
+      "name": "法国邮船公司旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_e7c7f2eb9ccaab19",
+      "name": "赵世炎寓所",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_640fc1d52b40a8d6",
+      "name": "摩尔齿科(甜爱路店)",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_96cf2ada2fd176da",
+      "name": "上海济舟文化发展有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_eac949784ac19b67",
+      "name": "多伦路135弄",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_a9f21dde7378af63",
+      "name": "多伦路文化名人街牌坊",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_67a26b2ec40e10ef",
+      "name": "万国博览建筑群-交通银行旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_e090ecc5df77b1fc",
+      "name": "冯雪峰雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b88b6fd53f2de847",
+      "name": "柔石雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_ba6ab52681cd1446",
+      "name": "茅盾雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_ca9feeacb41e4eb0",
+      "name": "叶圣陶雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_fa061519e26b1956",
+      "name": "多伦路123号",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_84ad4ce1e7187662",
+      "name": "上海革命旧址遗址纪念墙",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_74b3aefe37db81b0",
+      "name": "紫霞双阁",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_14b4b8675c2494f3",
+      "name": "欧阳路街道图书馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_ecfde6b81541a63f",
+      "name": "郭沫若雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_1f3e99f51871e061",
+      "name": "上海盼巧文化传播有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f35047d9f99ade07",
+      "name": "瞿秋白雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_8a203d42f9b49fb1",
+      "name": "四川北路公园-饮水处",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_797a7834b01468a7",
+      "name": "上海蒙彤文化传播有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_c8d52ede0eba0ba3",
+      "name": "多伦路壹号公馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_df36502099997064",
+      "name": "1927·鲁迅与内山纪念书局",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "existing_production",
+        "production_match": "p25",
+        "confidence": "high",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 10.9,
+          "address_match": false,
+          "known_official_url": false,
+          "known_source_identity": false,
+          "explicit_production_id": false
+        },
+        "mapping_scope": "existing_route_node; internal source objects do not become separate stops"
+      },
+      "review_priority": 10,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_6f7b56f8d7de0d69",
+      "name": "乐林文化工作室",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_6ffd8b36b2afc5fb",
+      "name": "四川北路文化中心图书馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_53e468bd34ce4a65",
+      "name": "上海盛捷虹口外滩界服务公寓",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_cc9fbc75639d9843",
+      "name": "甜爱结婚登记中心",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_dcdb1261ac34bad4",
+      "name": "多伦路163弄14号",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_eec87122f4d70f80",
+      "name": "华耳康睡眠耳疗洗眼",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_207388beb4eb71b4",
+      "name": "有花盛开(甜爱路店)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_61f66dd8160fb140",
+      "name": "欧阳路街道社区文化活动中心分中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_0e6ac80b1cba5409",
+      "name": "锐思教育•小初高辅导(虹口足球场校区)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_ed00014b9b8a382b",
+      "name": "博萌文化艺术(上海)有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_849b00ecd88abaf1",
+      "name": "AR CITYGAME城市漫游",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_bac10e024e7af7a6",
+      "name": "多伦路163弄小区",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_ea8d9502570f9501",
+      "name": "纪念之林",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_aeed247c889fa099",
+      "name": "年轮大道'虹'色足迹",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_c540f31a77f1e951",
+      "name": "内山完造(日)雕像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_7e227e3b0d082ef1",
+      "name": "棕榈岛",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4938efd5e363e801",
+      "name": "甜爱路301-331号小区",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_d4a84ec2fdf8480d",
+      "name": "上海雷山文化传播有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_7ae14a9f819d51c0",
+      "name": "上海茕旌文化发展有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_8a4a47fccda9bb6a",
+      "name": "原聚兴城银行大楼",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_498cd4ac9238edf0",
+      "name": "京督学府一对一辅导(虹口足球场校区)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_b8a7ab941f99d7ac",
+      "name": "善甜绿色食品贸易(上海)有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_1340736892b25b72",
+      "name": "上海诗焓音乐文化传播有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4f832cc47f7e3912",
+      "name": "甜爱路311号",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_19465192bab8ca11",
+      "name": "东南数理化(虹口足球场校区)",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_28008051da7f4aee",
+      "name": "中建东孚多伦艺术中心",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_775104f3c22131f0",
+      "name": "柴吉文化",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_5a7396b5d0f07e82",
+      "name": "甜爱路精品街",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_aab5ba7ed83f78e5",
+      "name": "上海滔泊文化传播有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_274a1d73aad053f3",
+      "name": "上海市广中路街道图书馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_ad01c47c1c0945ef",
+      "name": "上海长远文化传媒有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_31ae18749e49270d",
+      "name": "麦西维尔文化咨询(上海)有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_2e4f78312e7e8a31",
+      "name": "上海晴朗芸文化传媒中心",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_bf598d1b21c8b8e1",
+      "name": "上海叁圆文化传媒有限公司",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_bdef86ff091e47de",
+      "name": "上海茸锦文化传播有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_7732f6af515fabe7",
+      "name": "甜爱路311弄1号",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_d0740e224aac5ce2",
+      "name": "上海昊翰影视文化有限公司",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b6d36053479505ad",
+      "name": "嘉兴路街道社区文化活动中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_cb75c867c14816cc",
+      "name": "上海弦逸文化传播有限公司",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4b01735159e79285",
+      "name": "上海馥琳文化传播有限公司",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f89902f5e0fec39a",
+      "name": "多伦路文化名人街-鲁迅雕像",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_7aff01a23d3dfb58",
+      "name": "多伦路文化名人街240号",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_502936180b7c95b0",
+      "name": "拾壹造物社",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_04db71fd229dd604",
+      "name": "上海疯慌社文化娱乐服务有限公司",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_1f7365755367b5eb",
+      "name": "上海索越文化传播有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_3c795bf337cbd521",
+      "name": "上海宣科文化传媒有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_b10e26e9e609973a",
+      "name": "上海魁蛮体育文化发展有限公司",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_b33d1845eedfbadc",
+      "name": "骐骥开物琳琅境艺术空间",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_a3007b5d735d5a4f",
+      "name": "甜爱留言墙",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4a2a30ce9c465e60",
+      "name": "上海至谌文化发展有限公司",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_2af5c88a08d9bea1",
+      "name": "锐力超跑俱乐部",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_8ebc0f7b22d6c078",
+      "name": "静安里·唐宅(建设中)",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4677daa888ca9fb4",
+      "name": "Doland人文艺术书房",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_8e3bdc64e471f900",
+      "name": "上海子兮艺术社非遗文化馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_0d2cf8de002b893e",
+      "name": "甜爱支路50弄1号",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_aad54b3bc7e312de",
+      "name": "上海音伴筝趣文化传播有限公司",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_d497c2f468853cfe",
+      "name": "上海星旗文化传媒有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_8ce643b85bd68f6f",
+      "name": "上海奇欢文化传播有限公司",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_97ca5e9574326757",
+      "name": "虹口救火会",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_ab221ad96561be70",
+      "name": "珍珠剧场",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_9bbc5f915f739386",
+      "name": "Temple of light",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_d6666e73bac5877f",
+      "name": "尹奉吉义举现场",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_ba9ff2f9f1d21e0d",
+      "name": "鲁迅塑像",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_99fa9358ebf008ec",
+      "name": "尹奉吉义士生平事迹陈列室",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_aa219f5f0ae1126f",
+      "name": "德云社",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_0969a49f8edc4e56",
+      "name": "礼查饭店旧址",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f8344b35cfecf4eb",
+      "name": "上海大学师寿坊遗址",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_4e6911baf54781a3",
+      "name": "鲁迅墓",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_5cfdf15cb7e258fc",
+      "name": "中共四大纪念馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f5e1629439f7551d",
+      "name": "Post museum",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_9a76c3a97c35583a",
+      "name": "多倫文人名人街",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_7f17e20d7ae38341",
+      "name": "上海多伦现代美术馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_962861bb8edb1360",
+      "name": "外滩历史纪念馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_dd76eea5c84c660b",
+      "name": "上海益民食品一厂历史展示馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_73ba500ac5e1a196",
+      "name": "四平",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_0dbd638948e78774",
+      "name": "魔都矩阵",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_d26ff025fdf93bcb",
+      "name": "Sino Art Space",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_3a32b15716e989ac",
+      "name": "鲁迅故居",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "identity_not_resolved_new_node",
+      "identity": {
+        "identity_status": "possible_duplicate",
+        "production_match": "p4",
+        "confidence": "medium",
+        "evidence": {
+          "name_match": true,
+          "distance_m": 467.7
+        },
+        "mapping_scope": "insufficient corroboration; not eligible as a new node"
+      },
+      "review_priority": 10,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_783ce886a4d8323d",
+      "name": "沈尹默故居",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_c54b0e12d36d9a5a",
+      "name": "汤公馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_079180ae72a1870b",
+      "name": "孔公馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_3df15e0a2567744e",
+      "name": "上海报纸博物馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_5eea3eb3b7dc3c85",
+      "name": "宝亨利艺术公馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_7d86b2b980a6a1a8",
+      "name": "薛公馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_0f0e97106a52a827",
+      "name": "星荟中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_9644441852221b9a",
+      "name": "上海船厂滨江绿地",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_70c627bf5b4fa525",
+      "name": "外滩",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_9c8fad49ed6e8a6f",
+      "name": "和平公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_fde1b7d5b8290db2",
+      "name": "曲苑",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_070864170ecd5f97",
+      "name": "曲二居委会",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_60ef81fe0656917a",
+      "name": "曲一居委会市民中心",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "child_or_internal_entity",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_e5015ea485e0db14",
+      "name": "曲一居委会",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_88c15bef0c090173",
+      "name": "曲阳路街道市民驿站",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_2bfbd00c358917cb",
+      "name": "朱屺瞻艺术馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "needs_boundary_review",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "needs_boundary_review"
+    },
+    {
+      "node_id": "hongkou_literary_cd63adaf18fff2e2",
+      "name": "爱思儿童公园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_aa45403fa488bac4",
+      "name": "日本海军特别陆战队司令部旧址",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_c1b7a8ad1490af44",
+      "name": "原英国驻上海总领事馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_8d24f5ef44abc297",
+      "name": "哈密大楼",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_8d90d79d0e308bfc",
+      "name": "香港路",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_7e84d9ae7be5758b",
+      "name": "梅园",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4c585d1876d3f66f",
+      "name": "外白渡桥",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f994460db3370546",
+      "name": "North Bund AIA Grand Theatre",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_7f4821a119a911d1",
+      "name": "一二九足球场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_1c79fff71774e77b",
+      "name": "雷士德花园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_002743ae47f52922",
+      "name": "山阴路274弄",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_8af01705bb3d0c0d",
+      "name": "欧阳路社区",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_7549d6ae46fd7ab5",
+      "name": "上海绿地建设集团",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_e919eab46792144b",
+      "name": "四平电影院",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_bc3475b9901ba359",
+      "name": "129运动场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_73c33e917aa71cc3",
+      "name": "黄浦公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_c1621a3db77ac50a",
+      "name": "小足球场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_44f3a6d95fcfa607",
+      "name": "田径场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_16aa61bd806ca542",
+      "name": "南校区运动场",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_4b9c31ff4d4d238d",
+      "name": "鲁迅纪念馆",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_0a13ffbc172f0555",
+      "name": "球类馆",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_f785b0223a3cb5a2",
+      "name": "大桥大楼",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_a22b8171f9051d29",
+      "name": "人民英雄纪念塔",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_590fb0bced1d1bff",
+      "name": "东方明珠公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_0805a777f0d3c86c",
+      "name": "圆明园路",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_47ffff72f34f1824",
+      "name": "上海大厦",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_84afa2216bc11fc8",
+      "name": "德邻公寓",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_7344ba8ed3ec22f4",
+      "name": "SNH48星梦剧院",
+      "decision": "defer",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "insufficient_evidence",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "inside_pilot"
+    },
+    {
+      "node_id": "hongkou_literary_faca1d1e7f845b59",
+      "name": "昆山公园",
+      "decision": "reject",
+      "route_selectable": false,
+      "counts_as_route_stop": false,
+      "reason": "outside_product_boundary",
+      "identity": {
+        "identity_status": "new_candidate",
+        "production_match": null,
+        "confidence": "medium",
+        "evidence": {
+          "reason": "no production identity match"
+        }
+      },
+      "review_priority": 0,
+      "boundary_status": "outside_pilot"
+    }
+  ],
+  "remaining_deferred": 0,
+  "low_confidence_existing": []
+}

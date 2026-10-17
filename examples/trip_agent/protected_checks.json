@@ -1,0 +1,16 @@
+{
+  "baseline_files": 70,
+  "changed_files": [
+    "src\\trip_conversation.py",
+    "src\\trip_state.py",
+    "src\\trip_store.py"
+  ],
+  "allowed_changes": [
+    "src\\trip_state.py",
+    "src\\trip_store.py",
+    "src\\trip_conversation.py"
+  ],
+  "protected_files_unchanged": true,
+  "production_sha256": "6fe891c894995df9aaf9c1c8488d085178399e8cf6d22fe84a87c68e28018782",
+  "live_api_calls": 0
+}

@@ -1,0 +1,30 @@
+{
+  "successful": true,
+  "runs": [
+    {
+      "command": "python -m unittest discover -s tests -t . -q",
+      "exit_code": 0,
+      "elapsed_seconds": 15.609
+    },
+    {
+      "command": "python trip_demo.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.179
+    }
+  ],
+  "completed_at": "2026-10-05T04:04:10.919872+00:00",
+  "frozen_files_unchanged": true,
+  "production_sha256": "6fe891c894995df9aaf9c1c8488d085178399e8cf6d22fe84a87c68e28018782",
+  "status": "PASS",
+  "tests_run": 403,
+  "new_trip_tests": 24,
+  "failures": 0,
+  "errors": 0,
+  "core_file_sha256": {
+    "src\\trip_state.py": "bccb0d8aec46a9f0fbe03be56886ed0c30e374450b1b64e6d6ba380abc0157a2",
+    "src\\trip_store.py": "5fa8c47c1ffc4582abc9b39c1fc82414d22419193f2f99748de567a4593cfae2",
+    "trip_demo.py": "5f2ae8c44f29abbf038f68fd6d8ed6b306e0b5afcb98a3f5e8258e5b046b39b8",
+    "tests\\test_trip_state.py": "bc8501e643dcde45f02bd1d456fbc84a555f7ffb6b9696970b0175634c278043",
+    "tests\\test_trip_store.py": "880664e8db4da55ad5202fd97697b342b2ca106d45bd987f51a41e337cfcb984"
+  }
+}

@@ -1,0 +1,213 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "action_type": {
+            "enum": [
+              "COMPLETE_STOP",
+              "SKIP_PLACE",
+              "REMOVE_PLACE",
+              "ADD_PLACE",
+              "ADD_MUST_GO",
+              "REPLACE_PLACE",
+              "REVISIT_PLACE",
+              "MOVE_PLACE_NEXT",
+              "MOVE_PLACE_BEFORE",
+              "MOVE_PLACE_AFTER",
+              "ADD_INTEREST",
+              "REMOVE_INTEREST",
+              "ADD_AVOID",
+              "REMOVE_AVOID",
+              "SET_TIME_TARGET",
+              "SET_HARD_TIME_LIMIT",
+              "SET_PACE",
+              "FULL_REPLAN",
+              "START_TRIP",
+              "ABANDON_TRIP",
+              "SHOW_CURRENT_ROUTE",
+              "SHOW_ORIGINAL_ROUTE",
+              "SHOW_ROUTE_HISTORY",
+              "WHY_LATEST_REPLAN",
+              "SHOW_PROGRESS",
+              "CANCEL",
+              "DWELL_LONGER",
+              "UNSUPPORTED"
+            ]
+          },
+          "target_mentions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "maxItems": 8
+          },
+          "secondary_target_mentions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "maxItems": 1
+          },
+          "preference_concepts": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "maxItems": 4
+          },
+          "preference_tags": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "adaptive_reuse",
+                "architecture",
+                "architecture_detail",
+                "art",
+                "bookish",
+                "garden_culture",
+                "gardens",
+                "history",
+                "iconic_landmark",
+                "industrial_heritage",
+                "industrial_transformation",
+                "lane_life",
+                "literary_shanghai",
+                "literature",
+                "local_atmosphere",
+                "local_life",
+                "modern_china_history",
+                "modern_city",
+                "modern_shanghai",
+                "museum_visit",
+                "music",
+                "music_culture",
+                "neighborhood_walk",
+                "old_city",
+                "parks",
+                "photogenic",
+                "political_history",
+                "public_life",
+                "quiet_walk",
+                "religion",
+                "religious_culture",
+                "riverside_walk",
+                "shikumen",
+                "shopping_leisure",
+                "shopping_lifestyle",
+                "sino_foreign_exchange",
+                "social_observation",
+                "street_scene",
+                "urban_renewal",
+                "waterfront"
+              ]
+            },
+            "maxItems": 8
+          },
+          "time_value_minutes": {
+            "oneOf": [
+              {
+                "type": "number",
+                "minimum": 0
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "time_constraint_mode": {
+            "enum": [
+              null,
+              "soft",
+              "hard"
+            ]
+          },
+          "pace": {
+            "enum": [
+              null,
+              "quick",
+              "standard",
+              "deep"
+            ]
+          },
+          "position_relation": {
+            "enum": [
+              null,
+              "next",
+              "before",
+              "after",
+              "last"
+            ]
+          },
+          "reference_expression": {
+            "oneOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "explicit_replan": {
+            "type": "boolean"
+          },
+          "dwell_preference": {
+            "enum": [
+              null,
+              "increase_current_stop_dwell"
+            ]
+          },
+          "request_matching_insert": {
+            "type": "boolean"
+          }
+        },
+        "required": [
+          "action_type",
+          "target_mentions",
+          "secondary_target_mentions",
+          "preference_concepts",
+          "preference_tags",
+          "time_value_minutes",
+          "time_constraint_mode",
+          "pace",
+          "position_relation",
+          "reference_expression",
+          "explicit_replan",
+          "dwell_preference",
+          "request_matching_insert"
+        ]
+      },
+      "minItems": 1,
+      "maxItems": 8
+    },
+    "needs_clarification": {
+      "type": "boolean"
+    },
+    "clarification_reason": {
+      "oneOf": [
+        {
+          "type": "string",
+          "minLength": 1
+        },
+        {
+          "type": "null"
+        }
+      ]
+    }
+  },
+  "required": [
+    "actions",
+    "needs_clarification",
+    "clarification_reason"
+  ]
+}

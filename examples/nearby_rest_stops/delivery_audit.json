@@ -1,0 +1,21 @@
+{
+  "phase": "3B_3",
+  "production_core_count": 58,
+  "changed_existing_files": [
+    "src/services/world_context_service.py"
+  ],
+  "new_source_files": [
+    "src/amap_category_mapping.py",
+    "src/nearby_models.py",
+    "src/providers/amap/nearby.py",
+    "src/providers/nearby.py",
+    "src/services/nearby_rest_stop_service.py",
+    "src/services/nearby_service.py"
+  ],
+  "frozen_core_spatial_identity_data_unchanged": true,
+  "core_route_engine_candidates_unchanged": true,
+  "trip_nlu_route_version_replan_walking_sources_unchanged": true,
+  "shared_amap_client_converter_cache_opening_sources_unchanged": true,
+  "configured_secret_exposures": [],
+  "phase3b_4_started": false
+}

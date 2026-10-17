@@ -1,0 +1,16 @@
+Scenario: skip_and_replan / Trip: ACTIVE
+Original Route: p29 → p30 → p42 → p43 → p5
+Visited: ['p29'] / Skipped: ['p30']
+Current Version: v1
+Replan Reason: stop_skipped
+Effective Remaining Time: 120 min
+Proposed Route: p28 → p42 → p43 → p5
+Journey Context: ['p29'] / visited roles: ['anchor']
+In-trip minimum: PASS
+In-trip composition: PASS
+Commit: success / committed: True
+Current Version: v2
+Original Route: p29 → p30 → p42 → p43 → p5
+Active Route: p28 → p42 → p43 → p5
+JSON roundtrip: True
+DEFERRED TO PHASE 3B MAP ROUTING; logical origin is not GPS.

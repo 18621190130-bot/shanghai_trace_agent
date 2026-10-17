@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "checks": [
+    "low-quality GPS does not call proximity",
+    "manual allowed after low quality",
+    "Nearby falls back to route anchor",
+    "Demo hidden by default",
+    "arrival queues behind modal",
+    "pending arrival reopens explicitly"
+  ]
+}

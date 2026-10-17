@@ -1,0 +1,43 @@
+{
+  "deleted": [
+    {
+      "core_id": "p40",
+      "name": "上海摄影艺术中心",
+      "reason": "Project owner confirmed erroneous / false Core POI in Phase 3B_2.1.",
+      "affected_routes": [
+        {
+          "path": "examples/walking_routing/live_west_bund.json",
+          "before": [
+            "p36",
+            "p40",
+            "p28",
+            "p29",
+            "p37"
+          ],
+          "after": [
+            "p36",
+            "p28",
+            "p29",
+            "p37"
+          ],
+          "replacement_ids": [],
+          "geometry_regenerated": true
+        }
+      ],
+      "removed_references": [
+        "/pois/31",
+        "examples/walking_routing/live_west_bund.json: stops/p40 and adjacent walking legs"
+      ],
+      "active_route_inventory": [
+        "trip_demo.DEFAULT_FIXTURE: no p40; preserved unchanged",
+        "RouteEngine/entry/replan: generated from current production repository; p40 no longer selectable"
+      ],
+      "historical_evidence_preserved": [
+        "examples/location_awareness/calibration/live_west_bund_before.json",
+        "Phase 2.5 pipeline candidates and frozen reports"
+      ],
+      "reviewed": true,
+      "deleted_at": "2026-10-05T13:30:21.024419+00:00"
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "candidate_id": "old_city_central_fd9f90a4d3e59ac7",
+  "node_identity": "old_city_central_fd9f90a4d3e59ac7",
+  "output": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_ed177cac3bbb",
+          "e_b7ca805c9b99",
+          "e_6bf79014aa67"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_ed177cac3bbb",
+      "e_b7ca805c9b99"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示为具名城市公园（leisure=park），有草坪开放信息，具备独立停留价值，但缺乏规模、设施与特色体验证据，难以承担路线主题，故定为支持性停留。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "仅有公园类别与草坪开放期信息，缺少足以支撑专程前往的独特体验证据，不宜作为锚点。",
+        "supporting_stop": "作为具名公园，可作为步行路线中独立可停留的一站，补充绿地体验，符合支持性停留。",
+        "transition_stop": "虽可作短暂停留，但公园本身具独立休闲价值，不止于连接功能，故不作为首选。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "具名城市公园，含草坪开放信息，适合作为城市漫步中的绿地休憩节点，但证据有限，体验丰富度一般。",
+      "evidence_refs": [
+        "e_ed177cac3bbb",
+        "e_6bf79014aa67"
+      ]
+    },
+    "summary_draft": {
+      "text": "淮海公园",
+      "evidence_refs": [
+        "e_75b6c26fbd53"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "公园内主要步道与草坪区域的停留估算"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "公园规模与出入口信息",
+      "园内设施与特色景观",
+      "当前开放状态与运营情况"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "park",
+    "interest_tags": [
+      "parks"
+    ],
+    "experience_tags": [],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "parks",
+        "evidence_refs": [
+          "e_ed177cac3bbb",
+          "e_b7ca805c9b99",
+          "e_6bf79014aa67"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_ed177cac3bbb",
+      "e_b7ca805c9b99"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop",
+        "transition_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示为具名城市公园（leisure=park），有草坪开放信息，具备独立停留价值，但缺乏规模、设施与特色体验证据，难以承担路线主题，故定为支持性停留。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "仅有公园类别与草坪开放期信息，缺少足以支撑专程前往的独特体验证据，不宜作为锚点。",
+        "supporting_stop": "作为具名公园，可作为步行路线中独立可停留的一站，补充绿地体验，符合支持性停留。",
+        "transition_stop": "虽可作短暂停留，但公园本身具独立休闲价值，不止于连接功能，故不作为首选。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "具名城市公园，含草坪开放信息，适合作为城市漫步中的绿地休憩节点，但证据有限，体验丰富度一般。",
+      "evidence_refs": [
+        "e_ed177cac3bbb",
+        "e_6bf79014aa67"
+      ]
+    },
+    "summary_draft": {
+      "text": "淮海公园",
+      "evidence_refs": [
+        "e_75b6c26fbd53"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 40
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "公园内主要步道与草坪区域的停留估算"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "公园规模与出入口信息",
+      "园内设施与特色景观",
+      "当前开放状态与运营情况"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.223114644219063,
+      121.47759133585856
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3569,
+      "completion_tokens": 596,
+      "total_tokens": 4165,
+      "prompt_tokens_details": {
+        "cached_tokens": 640
+      },
+      "prompt_cache_hit_tokens": 640,
+      "prompt_cache_miss_tokens": 2929
+    }
+  }
+}

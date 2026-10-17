@@ -1,0 +1,259 @@
+{
+  "candidate_id": "old_city_central_04d3c9c6bca78389",
+  "node_identity": "old_city_central_04d3c9c6bca78389",
+  "output": {
+    "category": "museum",
+    "interest_tags": [
+      "history"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [
+      "modern_shanghai"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_933de41584ed",
+          "e_1efc6c2dc076"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_f57349a98efa",
+          "e_d7eb704d1fdf"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "modern_shanghai",
+        "evidence_refs": [
+          "e_933de41584ed",
+          "e_1efc6c2dc076"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_f57349a98efa",
+      "e_d7eb704d1fdf"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "该点为具名的纪念馆类场馆，具备独立参观价值，可作为主题节点；但证据仅覆盖名称、类别与免费开放信息，深度体验信息有限。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "low",
+      "alternatives_reason": {
+        "anchor": "作为具名纪念馆，具备独立目的地属性，可承载主题，故列为候选。",
+        "supporting_stop": "若路线已有更强主题锚点，其独立参观价值亦可作为补充节点。",
+        "transition_stop": "其为封闭场馆而非街道公共空间，主要价值不在连接，故不适用。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "具名历史纪念场馆且免费开放，适合作为城市漫步中的独立参观节点，但现有证据未体现周边街区体验或深度内容。",
+      "evidence_refs": [
+        "e_933de41584ed",
+        "e_f57349a98efa"
+      ]
+    },
+    "summary_draft": {
+      "text": "中国社会主义青年团中央机关旧址纪念馆",
+      "evidence_refs": [
+        "e_933de41584ed"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 25,
+        "deep": 45
+      },
+      "full_visit": {
+        "quick": 20,
+        "standard": 45,
+        "deep": 75
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "场馆内部参观为主，含简要展陈浏览；时长为产品规划估计。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "unknown",
+    "missing_information": [
+      "当前开放状态与运营情况未在证据中确认",
+      "内部展陈内容与规模信息不足",
+      "周边街区漫步体验信息不足"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": {
+        "text": "该7处场馆均向公众（含未成年人）免费开放，无需预约。",
+        "evidence_refs": [
+          "e_933de41584ed"
+        ]
+      },
+      "historical_dates": {
+        "text": "1921",
+        "evidence_refs": [
+          "e_1efc6c2dc076"
+        ]
+      },
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": null,
+  "cache_hit": true,
+  "api_calls_this_run": 0,
+  "evidence_hash": "80274c00a88d9b766813d5656d2b8009efc6015d5d352b632cce138748ac3f4e",
+  "prior_attempt": {
+    "candidate_id": "old_city_central_04d3c9c6bca78389",
+    "node_identity": "old_city_central_04d3c9c6bca78389",
+    "output": {
+      "category": "museum",
+      "interest_tags": [
+        "history"
+      ],
+      "experience_tags": [
+        "museum_visit"
+      ],
+      "culture_tags": [],
+      "tag_evidence": [
+        {
+          "group": "interest_tags",
+          "tag": "history",
+          "evidence_refs": [
+            "e_2ec916b2877b",
+            "e_1efc6c2dc076"
+          ]
+        },
+        {
+          "group": "experience_tags",
+          "tag": "museum_visit",
+          "evidence_refs": [
+            "e_f57349a98efa",
+            "e_d7eb704d1fdf"
+          ]
+        }
+      ],
+      "category_evidence_refs": [
+        "e_f57349a98efa",
+        "e_d7eb704d1fdf"
+      ],
+      "route_role": {
+        "primary": "anchor",
+        "eligible": [
+          "anchor",
+          "supporting_stop"
+        ],
+        "confidence": "medium",
+        "reason": "证据显示其为具名的纪念馆（tourism=museum），具备独立参观价值，可作为主题节点；但缺少开放时间与规模信息，故置信度中等。",
+        "independent_destination_value": "high",
+        "route_connector_value": "low",
+        "alternatives_reason": {
+          "anchor": "作为具名纪念馆，具备独立目的地价值，适合作为主题锚点。",
+          "supporting_stop": "若路线已有更强锚点，也可作为补充性参观点，但独立价值已足以支撑锚点。",
+          "transition_stop": "并非仅连接性停留点，其自身具备参观内容，不适合仅作过渡。"
+        }
+      },
+      "citywalk_value": {
+        "level": "medium",
+        "reason": "作为具名历史纪念场馆，可为城市漫步提供历史主题参观点，但现有证据未涉及开放状态与参观条件。",
+        "evidence_refs": [
+          "e_2ec916b2877b",
+          "e_f57349a98efa"
+        ]
+      },
+      "summary_draft": {
+        "text": "中国社会主义青年团中央机关旧址纪念馆",
+        "evidence_refs": [
+          "e_2ec916b2877b"
+        ]
+      },
+      "culture_bridge_draft": null,
+      "visit_profile_proposal": {
+        "walk_stop": {
+          "quick": 10,
+          "standard": 25,
+          "deep": 45
+        },
+        "full_visit": {
+          "quick": 20,
+          "standard": 45,
+          "deep": 90
+        },
+        "time_basis": "product_planning_estimate",
+        "scope": "基于纪念馆类场馆的常规参观节奏估算，非官方开放或参观时长。"
+      },
+      "semantic_confidence": "medium",
+      "stability": "unknown",
+      "missing_information": [
+        "当前开放状态与开放时间",
+        "是否需预约及票务信息",
+        "场馆规模与展览内容"
+      ],
+      "factual_fields": {
+        "opening_hours": null,
+        "ticket_prices": null,
+        "reservation_requirements": null,
+        "historical_dates": {
+          "text": "1921",
+          "evidence_refs": [
+            "e_1efc6c2dc076"
+          ]
+        },
+        "former_functions": null,
+        "architect_names": null,
+        "official_designations": null
+      },
+      "taxonomy_extension_candidate": []
+    },
+    "semantic": null,
+    "cache_hit": false,
+    "api_calls_this_run": 1,
+    "reason": "historical_dates needs an official authority excerpt",
+    "provider": {
+      "model": "deepseek-flash",
+      "finish_reason": "stop",
+      "usage": {
+        "prompt_tokens": 3637,
+        "completion_tokens": 743,
+        "total_tokens": 4380,
+        "prompt_tokens_details": {
+          "cached_tokens": 640
+        },
+        "prompt_cache_hit_tokens": 640,
+        "prompt_cache_miss_tokens": 2997
+      }
+    }
+  },
+  "material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+  "reason": "anchor requires high independent destination value",
+  "provider": {
+    "model": "deepseek-flash",
+    "finish_reason": "stop",
+    "usage": {
+      "prompt_tokens": 3648,
+      "completion_tokens": 794,
+      "total_tokens": 4442,
+      "prompt_tokens_details": {
+        "cached_tokens": 3200
+      },
+      "prompt_cache_hit_tokens": 3200,
+      "prompt_cache_miss_tokens": 448
+    }
+  }
+}

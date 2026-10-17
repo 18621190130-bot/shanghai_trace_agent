@@ -1,0 +1,2444 @@
+[
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_376c57989e6ecafa",
+    "name_zh": "安康公寓（乌鲁木齐南路176号）",
+    "name_en": "",
+    "aliases": [
+      "巨福公寓",
+      "乌鲁木齐公寓"
+    ],
+    "address": "乌鲁木齐南路176号",
+    "coordinates": [
+      31.203534,
+      121.449089
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "name_zh": "优秀历史建筑乌鲁木齐南路176号",
+        "name_en": "",
+        "aliases": [],
+        "address": "衡山路地铁站1号口步行380米",
+        "coordinates": [
+          31.203534,
+          121.449089
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;风景名胜;风景名胜",
+        "raw_provider_tags": {
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "徐汇区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "name_zh": "优秀历史建筑乌鲁木齐南路176号",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "name_zh": "优秀历史建筑乌鲁木齐南路176号",
+        "name_en": "",
+        "aliases": [],
+        "address": "乌鲁木齐南路176号",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "name_zh": "优秀历史建筑乌鲁木齐南路176号",
+        "name_en": "",
+        "aliases": [],
+        "address": "乌鲁木齐南路176号",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "优秀历史建筑。4D033 | 巨福公寓/安康公寓 | 安康公寓/乌鲁木齐公寓 | 乌鲁木齐南路176号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B0KUFC7BAU"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_23cddf9de68d",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_23cddf9de68d",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_cd6f2e40d25f",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B0KUFC7BAU",
+      "name_en": null,
+      "address": "government:diversity_cd6f2e40d25f",
+      "coordinates": "amap:B0KUFC7BAU"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_5012e7109956": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "优秀历史建筑乌鲁木齐南路176号"
+      },
+      "e_dea7b7aac370": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "衡山路地铁站1号口步行380米"
+      },
+      "e_629f37d62107": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "优秀历史建筑乌鲁木齐南路176号"
+      },
+      "e_d77a88bf3de6": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "优秀历史建筑乌鲁木齐南路176号"
+      },
+      "e_68afa5119062": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "乌鲁木齐南路176号"
+      },
+      "e_7774ef49e6e2": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "优秀历史建筑乌鲁木齐南路176号"
+      },
+      "e_12cf9dee74d1": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "乌鲁木齐南路176号"
+      },
+      "e_195b0bc5e218": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.203534,
+            121.449089
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_a337b99b9254": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_ea8176433b53": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_69c1d33e3237": {
+        "record_id": "amap:B0KUFC7BAU",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B0KUFC7BAU",
+        "retrieved_at": "2026-10-04T15:03:33.278608+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110200"
+      },
+      "e_8f96ffe35dab": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_5fd98fbaa4b4": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_5ddf9bbfc61f": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_4b686be3d453": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_f88bb21996a4": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_4adc22d3b222": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "优秀历史建筑。4D033 | 巨福公寓/安康公寓 | 安康公寓/乌鲁木齐公寓 | 乌鲁木齐南路176号"
+      },
+      "e_56b484dc5372": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_67be01ffb9ec": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_0bf10f94b177": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "优秀历史建筑。4D033 | 巨福公寓/安康公寓 | 安康公寓/乌鲁木齐公寓 | 乌鲁木齐南路176号"
+      },
+      "e_75020d3d5396": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_7492db664ed8": {
+        "record_id": "government:diversity_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      },
+      "e_e4b0b2cc7fbe": {
+        "record_id": "government:diversity_cd6f2e40d25f",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz1/20200331/e3b99cf457ae48cab87ad5c02aa0fee3.html",
+        "retrieved_at": "2026-10-05T02:33:01.301093+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "优秀历史建筑。4D033 | 巨福公寓/安康公寓 | 安康公寓/乌鲁木齐公寓 | 乌鲁木齐南路176号"
+      },
+      "e_b004656cf95d": {
+        "record_id": "government:recall_23cddf9de68d",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjzjk/20240223/921ff8d978724856b21e8c38fc1d23ba.html",
+        "retrieved_at": "2026-10-04T16:18:04.034549+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "原则同意乌鲁木齐南路176号等优秀历史建筑保护性修缮项目设计方案"
+      }
+    },
+    "recall_screen": {
+      "rank": 5,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "优秀历史建筑乌鲁木齐南路176号",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_a820e639b44f621e",
+    "name_zh": "中南新邨",
+    "name_en": "",
+    "aliases": [],
+    "address": "淮海中路1670弄",
+    "coordinates": [
+      31.207083837661216,
+      121.44266142241591
+    ],
+    "entity_kind": "street",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/4417284093",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/4417284093",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "name_zh": "中南新邨",
+        "name_en": "",
+        "aliases": [],
+        "address": "淮海中路 1670弄",
+        "coordinates": [
+          31.2089575,
+          121.438046
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "amenity=community_centre",
+        "raw_provider_tags": {
+          "addr:housenumber": "1670弄",
+          "addr:street": "淮海中路",
+          "amenity": "community_centre",
+          "name": "中南新邨",
+          "name:zh": "中南新邨",
+          "wheelchair": "yes"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "diversity_b22d0a330457",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.xuhui.gov.cn/zfjg_qzfbm_fgj_bmdt/20241104/546672.html",
+        "retrieved_at": "2026-10-05T02:33:01.305296+00:00",
+        "name_zh": "中南新邨",
+        "name_en": "",
+        "aliases": [],
+        "address": "淮海中路1670弄",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "中南新邨 建筑类型 | 花园式里弄 建筑地址 | 淮海中路1670弄 建筑风格 | 现代主义风格。中南新邨建筑均为平缓的红瓦坡屋顶，形式简洁，横向窗间墙灰绿色面砖贴面，深绿色钢窗，整体强调水平线条。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4417284093",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/4417284093"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_b22d0a330457",
+        "url": "https://www.xuhui.gov.cn/zfjg_qzfbm_fgj_bmdt/20241104/546672.html",
+        "retrieved_at": "2026-10-05T02:33:01.305296+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/4417284093",
+      "name_en": null,
+      "address": "government:diversity_b22d0a330457",
+      "coordinates": "osm:node/4417284093"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_e116683f4029": {
+        "record_id": "osm:node/4417284093",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4417284093",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "中南新邨"
+      },
+      "e_b2a32dd85bc2": {
+        "record_id": "osm:node/4417284093",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4417284093",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "淮海中路 1670弄"
+      },
+      "e_f88bf5c02080": {
+        "record_id": "government:diversity_b22d0a330457",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/zfjg_qzfbm_fgj_bmdt/20241104/546672.html",
+        "retrieved_at": "2026-10-05T02:33:01.305296+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "中南新邨"
+      },
+      "e_202a37019e55": {
+        "record_id": "government:diversity_b22d0a330457",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/zfjg_qzfbm_fgj_bmdt/20241104/546672.html",
+        "retrieved_at": "2026-10-05T02:33:01.305296+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "淮海中路1670弄"
+      },
+      "e_8de6c4ac40f4": {
+        "record_id": "osm:node/4417284093",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4417284093",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2089575,
+            121.438046
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_8683a5101c25": {
+        "record_id": "osm:node/4417284093",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4417284093",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "amenity=community_centre"
+      },
+      "e_4002d1688c7b": {
+        "record_id": "osm:node/4417284093",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4417284093",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "amenity",
+        "value": "community_centre"
+      },
+      "e_97c9da1604b7": {
+        "record_id": "osm:node/4417284093",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4417284093",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "中南新邨"
+      },
+      "e_08bfd53c37bc": {
+        "record_id": "osm:node/4417284093",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4417284093",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name:zh",
+        "value": "中南新邨"
+      },
+      "e_bcf27ae45b8e": {
+        "record_id": "government:diversity_b22d0a330457",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/zfjg_qzfbm_fgj_bmdt/20241104/546672.html",
+        "retrieved_at": "2026-10-05T02:33:01.305296+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_8c4988a1c735": {
+        "record_id": "government:diversity_b22d0a330457",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/zfjg_qzfbm_fgj_bmdt/20241104/546672.html",
+        "retrieved_at": "2026-10-05T02:33:01.305296+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "中南新邨 建筑类型 | 花园式里弄 建筑地址 | 淮海中路1670弄 建筑风格 | 现代主义风格。中南新邨建筑均为平缓的红瓦坡屋顶，形式简洁，横向窗间墙灰绿色面砖贴面，深绿色钢窗，整体强调水平线条。"
+      },
+      "e_5c6f99a25670": {
+        "record_id": "government:diversity_b22d0a330457",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/zfjg_qzfbm_fgj_bmdt/20241104/546672.html",
+        "retrieved_at": "2026-10-05T02:33:01.305296+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "中南新邨 建筑类型 | 花园式里弄 建筑地址 | 淮海中路1670弄 建筑风格 | 现代主义风格。中南新邨建筑均为平缓的红瓦坡屋顶，形式简洁，横向窗间墙灰绿色面砖贴面，深绿色钢窗，整体强调水平线条。"
+      },
+      "e_3df15f19cf66": {
+        "record_id": "government:diversity_b22d0a330457",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/zfjg_qzfbm_fgj_bmdt/20241104/546672.html",
+        "retrieved_at": "2026-10-05T02:33:01.305296+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "中南新邨 建筑类型 | 花园式里弄 建筑地址 | 淮海中路1670弄 建筑风格 | 现代主义风格。中南新邨建筑均为平缓的红瓦坡屋顶，形式简洁，横向窗间墙灰绿色面砖贴面，深绿色钢窗，整体强调水平线条。"
+      }
+    },
+    "recall_screen": {
+      "rank": 9,
+      "reason": null,
+      "review_note": [
+        "insufficient_evidence",
+        "社区型对象不等于游客可进入的独立文化节点。",
+        "heritage identity and public walk scope"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "中南新邨",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_c17d7311ad244c39",
+    "name_zh": "盛宣怀住宅",
+    "name_en": "",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.208546363510628,
+      121.44587643411298
+    ],
+    "entity_kind": "unknown",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/10738288064",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/10738288064",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "name_zh": "盛宣怀住宅",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2104246,
+          121.4412672
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=attraction",
+        "raw_provider_tags": {
+          "name": "盛宣怀住宅",
+          "tourism": "attraction"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_fb78bbbf9ec2",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://fgj.sh.gov.cn/yxlsjz/20200331/fe7b4d6f35774b708a2c5122849065bd.html",
+        "retrieved_at": "2026-10-05T02:33:01.308779+00:00",
+        "name_zh": "盛宣怀住宅",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "优秀历史建筑。1D004 | 盛宣怀住宅 | 日本领事馆 | 淮海中路1517号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738288064",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/10738288064"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_fb78bbbf9ec2",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20200331/fe7b4d6f35774b708a2c5122849065bd.html",
+        "retrieved_at": "2026-10-05T02:33:01.308779+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/10738288064",
+      "name_en": null,
+      "address": null,
+      "coordinates": "osm:node/10738288064"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_91873775e57f": {
+        "record_id": "osm:node/10738288064",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738288064",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "盛宣怀住宅"
+      },
+      "e_0ae0277f4175": {
+        "record_id": "government:diversity_fb78bbbf9ec2",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20200331/fe7b4d6f35774b708a2c5122849065bd.html",
+        "retrieved_at": "2026-10-05T02:33:01.308779+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "盛宣怀住宅"
+      },
+      "e_facaf26c2a4b": {
+        "record_id": "osm:node/10738288064",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738288064",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2104246,
+            121.4412672
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_2fe54b5fada0": {
+        "record_id": "osm:node/10738288064",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738288064",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=attraction"
+      },
+      "e_0b27f33e9d8d": {
+        "record_id": "osm:node/10738288064",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738288064",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "盛宣怀住宅"
+      },
+      "e_6171c74284b3": {
+        "record_id": "osm:node/10738288064",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/10738288064",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "attraction"
+      },
+      "e_816fe646d079": {
+        "record_id": "government:diversity_fb78bbbf9ec2",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20200331/fe7b4d6f35774b708a2c5122849065bd.html",
+        "retrieved_at": "2026-10-05T02:33:01.308779+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_fe544bef88c4": {
+        "record_id": "government:diversity_fb78bbbf9ec2",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20200331/fe7b4d6f35774b708a2c5122849065bd.html",
+        "retrieved_at": "2026-10-05T02:33:01.308779+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "优秀历史建筑。1D004 | 盛宣怀住宅 | 日本领事馆 | 淮海中路1517号"
+      },
+      "e_ab674309a32d": {
+        "record_id": "government:diversity_fb78bbbf9ec2",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20200331/fe7b4d6f35774b708a2c5122849065bd.html",
+        "retrieved_at": "2026-10-05T02:33:01.308779+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "优秀历史建筑。1D004 | 盛宣怀住宅 | 日本领事馆 | 淮海中路1517号"
+      },
+      "e_b9973ff5143b": {
+        "record_id": "government:diversity_fb78bbbf9ec2",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://fgj.sh.gov.cn/yxlsjz/20200331/fe7b4d6f35774b708a2c5122849065bd.html",
+        "retrieved_at": "2026-10-05T02:33:01.308779+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "优秀历史建筑。1D004 | 盛宣怀住宅 | 日本领事馆 | 淮海中路1517号"
+      }
+    },
+    "recall_screen": {
+      "rank": 10,
+      "reason": null,
+      "review_note": [
+        "insufficient_evidence",
+        "历史名称和 map 点尚不足以证明独立可观察参访范围。",
+        "current exterior access and heritage match"
+      ],
+      "evidence_score": 5,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "盛宣怀住宅",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_d90241aa789950f0",
+    "name_zh": "张乐平故居",
+    "name_en": "Zhang Leping Former Residence",
+    "aliases": [
+      "张乐平"
+    ],
+    "address": "五原路288弄3号",
+    "coordinates": [
+      31.212523394593628,
+      121.44205113723257
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "name_zh": "张乐平",
+        "name_en": "Zhang Leping Former Residence",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2143935,
+          121.4374341
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=museum",
+        "raw_provider_tags": {
+          "name": "张乐平",
+          "name:en": "Zhang Leping Former Residence",
+          "tourism": "museum"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "name_zh": "张乐平",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "离开武康大楼，一行人抵达五原路288弄张乐平故居，走近“三毛之父”，探寻经典漫画背后的温情与初心。在专业讲解员的带领下，大家参观故居展厅，了解张乐平先生的创作生涯。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "name_zh": "张乐平",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "完成武康大楼、周璇旧居门头、张乐平故居三毛艺术弄等12个点位电影主题微更新",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "name_zh": "张乐平",
+        "name_en": "",
+        "aliases": [],
+        "address": "五原路288弄3号",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/4470004600"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_1ab0b3dfe55b",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_4d24d42e5e11",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_6658474895aa",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/4470004600",
+      "name_en": "osm:node/4470004600",
+      "address": "government:diversity_6658474895aa",
+      "coordinates": "osm:node/4470004600"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_8a7ec16666bc": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "张乐平"
+      },
+      "e_0904441bab46": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Zhang Leping Former Residence"
+      },
+      "e_b8b6b9cbaf5e": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "张乐平"
+      },
+      "e_16d07acd6d63": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "张乐平"
+      },
+      "e_fe195dad4153": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "张乐平"
+      },
+      "e_250d896f5390": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "五原路288弄3号"
+      },
+      "e_96f6ad9e5b29": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2143935,
+            121.4374341
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_88b102c6963a": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=museum"
+      },
+      "e_4b62922a910f": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "张乐平"
+      },
+      "e_a098d4757902": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Zhang Leping Former Residence"
+      },
+      "e_e632f38b1da2": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "museum"
+      },
+      "e_5c945d9bdd2f": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d21aabc5c3a9": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "离开武康大楼，一行人抵达五原路288弄张乐平故居，走近“三毛之父”，探寻经典漫画背后的温情与初心。在专业讲解员的带领下，大家参观故居展厅，了解张乐平先生的创作生涯。"
+      },
+      "e_aa5d31254bd0": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_bed5de421ac0": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "完成武康大楼、周璇旧居门头、张乐平故居三毛艺术弄等12个点位电影主题微更新"
+      },
+      "e_733fc499b6e6": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_0b6edbf35226": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）"
+      },
+      "e_4d35beb18465": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "离开武康大楼，一行人抵达五原路288弄张乐平故居，走近“三毛之父”，探寻经典漫画背后的温情与初心。在专业讲解员的带领下，大家参观故居展厅，了解张乐平先生的创作生涯。"
+      },
+      "e_bd22fb952ab3": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "完成武康大楼、周璇旧居门头、张乐平故居三毛艺术弄等12个点位电影主题微更新"
+      },
+      "e_6cffc4db8140": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）"
+      },
+      "e_3e7704a77af7": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "离开武康大楼，一行人抵达五原路288弄张乐平故居，走近“三毛之父”，探寻经典漫画背后的温情与初心。在专业讲解员的带领下，大家参观故居展厅，了解张乐平先生的创作生涯。"
+      },
+      "e_af1460a14313": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "完成武康大楼、周璇旧居门头、张乐平故居三毛艺术弄等12个点位电影主题微更新"
+      },
+      "e_f02ef51759e8": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）"
+      }
+    },
+    "original_cached_name": "张乐平",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_0a44d3d9e723b88b",
+    "name_zh": "上海交响乐团音乐厅",
+    "name_en": "Shanghai Symphony Hall",
+    "aliases": [],
+    "address": "",
+    "coordinates": [
+      31.211562009435305,
+      121.45169572057236
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "name_zh": "上海交响乐团音乐厅",
+        "name_en": "Shanghai Symphony Hall",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2134494,
+          121.4470989
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "amenity=theatre",
+        "raw_provider_tags": {
+          "amenity": "theatre",
+          "name": "上海交响乐团音乐厅",
+          "name:en": "Shanghai Symphony Hall",
+          "source": "bing map of 2016 and local knowledge",
+          "theatre": "concert_hall",
+          "wheelchair": "yes"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "name_zh": "上海交响乐团音乐厅",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/404687050"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_5468a1429596",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:way/404687050",
+      "name_en": "osm:way/404687050",
+      "address": null,
+      "coordinates": "osm:way/404687050"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_a0f96de1ab6c": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海交响乐团音乐厅"
+      },
+      "e_6db8a54278cc": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Shanghai Symphony Hall"
+      },
+      "e_e497d33dd796": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "上海交响乐团音乐厅"
+      },
+      "e_4ded9c82e77e": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2134494,
+            121.4470989
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_e571e5f4ce56": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "amenity=theatre"
+      },
+      "e_658c2e9814fa": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "amenity",
+        "value": "theatre"
+      },
+      "e_10263c10dcf8": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "上海交响乐团音乐厅"
+      },
+      "e_ea2433fd8b03": {
+        "record_id": "osm:way/404687050",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/404687050",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Shanghai Symphony Hall"
+      },
+      "e_ab9761ad69a8": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_61bf2665a477": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。"
+      },
+      "e_4a8a54100ba0": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。"
+      },
+      "e_873abc741516": {
+        "record_id": "government:diversity_5468a1429596",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-05T02:33:01.312738+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海交响乐团音乐厅位于上海复兴中路1380号。建筑外立面采用褐红色陶土砖，曲面屋顶形似摊开的乐谱，因外观被昵称为“馄饨皮”。"
+      }
+    },
+    "original_cached_name": "上海交响乐团音乐厅",
+    "recall_parent": null
+  },
+  {
+    "candidate_id": "wukang_fuxing_xujiahui_f8668967646d4b7c",
+    "name_zh": "徐家汇公园",
+    "name_en": "Xujiahui Park",
+    "aliases": [],
+    "address": "肇嘉浜路986号(徐家汇地铁站14号口步行250米)",
+    "coordinates": [
+      31.197401,
+      121.442461
+    ],
+    "entity_kind": "public_space",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "肇嘉浜路986号(徐家汇地铁站14号口步行250米)",
+        "coordinates": [
+          31.197401,
+          121.442461
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;公园广场;公园",
+        "raw_provider_tags": {
+          "type": "风景名胜;公园广场;公园",
+          "typecode": "110101",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "徐汇区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "Xujiahui Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.1994755,
+          121.4377772
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "leisure=park",
+        "raw_provider_tags": {
+          "bicycle": "no",
+          "dog": "no",
+          "leisure": "park",
+          "name": "徐家汇公园",
+          "name:en": "Xujiahui Park",
+          "source": "estimation",
+          "wikidata": "Q6802124",
+          "wikimedia_commons": "Category:Xujiahui Park",
+          "wikipedia": "en:Xujiahui Park"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "source_url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "WGS84",
+        "source_category": "official_place_mention",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "主题路线首站始于被誉为“城市绿肺”的徐家汇公园,这里不仅有《义勇军进行曲》灌制地百代唱片公司的旧址,还设有深受市民喜爱的健身步道和室外篮球场,是市民健身和举办篮球比赛的上佳场所。公园西邻繁华的徐家汇商圈,汇聚港汇恒隆、美罗城、ITC、百脑汇以及在建的浦西第一高楼徐家汇中心等顶级商业综合体,云集阿迪达斯、露露乐蒙、哥伦比亚等知名跨国公司总部型体育企业,彰显了徐汇区在体育产业领域的强劲吸引力与国际化格局。",
+            "supports": [
+              "identity",
+              "history",
+              "public_space"
+            ],
+            "extraction": "literal_excerpt; unverified temporal context"
+          }
+        ],
+        "supports": [
+          "history",
+          "identity",
+          "public_space"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "source_url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "WGS84",
+        "source_category": "official_place_mention",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "该园原系大中华橡胶厂、中国唱片上海公司及周边部分单位和居民住宅的建筑区域。",
+            "supports": [
+              "identity",
+              "history"
+            ],
+            "extraction": "web search returned indexed official-page excerpt; direct page exceeded bounded HTTP body limit; not a fresh direct fetch"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "public_space"
+      },
+      {
+        "source_candidate_id": "recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "Xujiahui Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "Xujiahui Park",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "name_zh": "徐家汇公园",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "amap:B00155ILI8"
+      },
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:way/12271429"
+      },
+      {
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "supports": [
+          "history",
+          "identity",
+          "public_space"
+        ],
+        "record_id": "government:ee0f2c57dc1bcd913eae"
+      },
+      {
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "supports": [
+          "identity"
+        ],
+        "record_id": "government:624a3dc194b15aeaae73"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_3c0b158ad9d6",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_b02e839bd004",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_3c0b158ad9d6",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_b02e839bd004",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "amap:B00155ILI8",
+      "name_en": "osm:way/12271429",
+      "address": "amap:B00155ILI8",
+      "coordinates": "amap:B00155ILI8"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_35fcdd0b42b3": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_0933012ac5cb": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "肇嘉浜路986号(徐家汇地铁站14号口步行250米)"
+      },
+      "e_adc5a4c970e3": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_1f1cc1392567": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Xujiahui Park"
+      },
+      "e_7615d19c906d": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_3a3ae4440446": {
+        "record_id": "government:624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_73d471ee7738": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_37bfca80d495": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Xujiahui Park"
+      },
+      "e_ef87e8f15053": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_ae67d2913599": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Xujiahui Park"
+      },
+      "e_83397c8fd7d5": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_99f05b4ae142": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "徐家汇公园"
+      },
+      "e_5bdc4f6dd129": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.197401,
+            121.442461
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_8b360e1144f9": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.1994755,
+            121.4377772
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_cbbb027f51ba": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;公园广场;公园"
+      },
+      "e_9d6183ea2780": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;公园广场;公园"
+      },
+      "e_c5a32a6cd370": {
+        "record_id": "amap:B00155ILI8",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B00155ILI8",
+        "retrieved_at": "2026-10-04T15:03:26.682604+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110101"
+      },
+      "e_97ebbb0c816d": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "leisure=park"
+      },
+      "e_2b863174bbd0": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "leisure",
+        "value": "park"
+      },
+      "e_e2ab40a6b5dc": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "徐家汇公园"
+      },
+      "e_e1e8fad831ec": {
+        "record_id": "osm:way/12271429",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/way/12271429",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Xujiahui Park"
+      },
+      "e_45f72ffa7b2f": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "official_place_mention"
+      },
+      "e_cbe19e00ad85": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "主题路线首站始于被誉为“城市绿肺”的徐家汇公园,这里不仅有《义勇军进行曲》灌制地百代唱片公司的旧址,还设有深受市民喜爱的健身步道和室外篮球场,是市民健身和举办篮球比赛的上佳场所。公园西邻繁华的徐家汇商圈,汇聚港汇恒隆、美罗城、ITC、百脑汇以及在建的浦西第一高楼徐家汇中心等顶级商业综合体,云集阿迪达斯、露露乐蒙、哥伦比亚等知名跨国公司总部型体育企业,彰显了徐汇区在体育产业领域的强劲吸引力与国际化格局。"
+      },
+      "e_0f0032be703e": {
+        "record_id": "government:624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "group": "official",
+        "field": "category",
+        "value": "official_place_mention"
+      },
+      "e_23b326bcc3b9": {
+        "record_id": "government:624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "group": "official",
+        "field": "snippet",
+        "value": "该园原系大中华橡胶厂、中国唱片上海公司及周边部分单位和居民住宅的建筑区域。"
+      },
+      "e_6d8d690d211f": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_60ff270fcc5a": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_3c9add73980e": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_7bc092ae43f1": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_bc75a16fd2a3": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d806f805d1d7": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_37d53fcaef04": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_0a901fde8575": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_fed9de001d69": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "主题路线首站始于被誉为“城市绿肺”的徐家汇公园,这里不仅有《义勇军进行曲》灌制地百代唱片公司的旧址,还设有深受市民喜爱的健身步道和室外篮球场,是市民健身和举办篮球比赛的上佳场所。公园西邻繁华的徐家汇商圈,汇聚港汇恒隆、美罗城、ITC、百脑汇以及在建的浦西第一高楼徐家汇中心等顶级商业综合体,云集阿迪达斯、露露乐蒙、哥伦比亚等知名跨国公司总部型体育企业,彰显了徐汇区在体育产业领域的强劲吸引力与国际化格局。"
+      },
+      "e_6c0b84cfb7fb": {
+        "record_id": "government:624a3dc194b15aeaae73",
+        "source_type": "government",
+        "source_name": "Official indexed excerpt via web search",
+        "url": "https://www.shanghai.gov.cn/xuhui/index.html",
+        "retrieved_at": "2026-10-04",
+        "group": "history",
+        "field": "snippet",
+        "value": "该园原系大中华橡胶厂、中国唱片上海公司及周边部分单位和居民住宅的建筑区域。"
+      },
+      "e_2235e4bbc78d": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_41437145f0af": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_f834a6f9ab75": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_3b95a797302b": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_04714a243204": {
+        "record_id": "government:ee0f2c57dc1bcd913eae",
+        "source_type": "government",
+        "source_name": "www.xuhui.gov.cn",
+        "url": "https://www.xuhui.gov.cn/xwzx_tpxw/20240423/535878.html",
+        "retrieved_at": "2026-10-04T15:17:51.161862+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "主题路线首站始于被誉为“城市绿肺”的徐家汇公园,这里不仅有《义勇军进行曲》灌制地百代唱片公司的旧址,还设有深受市民喜爱的健身步道和室外篮球场,是市民健身和举办篮球比赛的上佳场所。公园西邻繁华的徐家汇商圈,汇聚港汇恒隆、美罗城、ITC、百脑汇以及在建的浦西第一高楼徐家汇中心等顶级商业综合体,云集阿迪达斯、露露乐蒙、哥伦比亚等知名跨国公司总部型体育企业,彰显了徐汇区在体育产业领域的强劲吸引力与国际化格局。"
+      },
+      "e_5573a34fe3f8": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_d8f5b145f7e6": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_42ea551f94cf": {
+        "record_id": "government:diversity_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_73899d5d287c": {
+        "record_id": "government:diversity_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      },
+      "e_9f39966a0dde": {
+        "record_id": "government:recall_3c0b158ad9d6",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw17239/20250324/147efed623f141bb95a509e62aefdd0f.html",
+        "retrieved_at": "2026-10-04T16:18:10.952160+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "徐家汇公园的樱花主要集中在悬铃木大道的南端和汇金湖河畔，粉白色的染井吉野樱和东京樱与湖光林色交相辉映"
+      },
+      "e_1f410f4b4a3c": {
+        "record_id": "government:recall_b02e839bd004",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw15343/20250625/89c5c3f7be2a4dfbaae717e8bb74de36.html",
+        "retrieved_at": "2026-10-04T16:29:33.815752+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "在徐家汇公园，曹立强沿着人行步道察看景观绿化养护、儿童空间打造以及公厕布局等情况。"
+      }
+    },
+    "recall_screen": {
+      "rank": 7,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "recall_material_repair": "Added subject-specific public access/visitor-space evidence beyond first attempt; no retry solely for unsupported tags.",
+    "original_cached_name": "徐家汇公园",
+    "recall_parent": null
+  }
+]

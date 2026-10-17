@@ -1,0 +1,220 @@
+{
+  "source_candidate": "data\\pois_phase2_5_diversity_candidate.json",
+  "source_candidate_sha256": "8ff0bcac4bed8d023661f6a22dfdcb6e9dc86c4f008caa0412bf4d3453a000bb",
+  "final_candidate": "data\\pois_phase2_5_final_candidate.json",
+  "final_candidate_sha256": "6fe891c894995df9aaf9c1c8488d085178399e8cf6d22fe84a87c68e28018782",
+  "manual_removed_ids": [
+    "pz_42efca09357d",
+    "pz_463c9b82ac1e",
+    "pz_bc5155c245b0"
+  ],
+  "manual_removed_names": [
+    "中国社会主义青年团中央机关旧址",
+    "东海大楼",
+    "四川北路街道图书馆（海伦路505号）"
+  ],
+  "final_poi_count": 59,
+  "zone_counts": {
+    "wukang_fuxing_xujiahui": 17,
+    "hongkou_literary": 14,
+    "west_bund": 13,
+    "old_city_central": 15
+  },
+  "old_production_sha256": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513",
+  "new_production_sha256": "6fe891c894995df9aaf9c1c8488d085178399e8cf6d22fe84a87c68e28018782",
+  "promotion_timestamp": "2026-10-05T03:32:29.691101+00:00",
+  "phase": "2.5",
+  "status": "PROMOTED_AND_FROZEN",
+  "tests": {
+    "successful": true,
+    "runs": [
+      {
+        "command": "python -m unittest discover -s tests -t . -q",
+        "exit_code": 0,
+        "tests_run": 379,
+        "output": "pre_tests_1.txt",
+        "elapsed_seconds": 13.016
+      },
+      {
+        "command": "python -m scripts.verify_all_zones",
+        "exit_code": 0,
+        "tests_run": 379,
+        "output": "pre_tests_2.txt",
+        "elapsed_seconds": 14.705
+      }
+    ],
+    "completed_at": "2026-10-05T03:31:39.370355+00:00",
+    "validation_fingerprint": "f0d4c67b138ea584bb29560d11e54abb8b43edf47159664cd5725201f132b04f"
+  },
+  "regression_status": {
+    "wukang_fuxing_xujiahui": true,
+    "wukang_fuxing_xujiahui_hard_constraints": true,
+    "old_city_central": true,
+    "old_city_central_hard_constraints": true,
+    "hongkou_literary": true,
+    "hongkou_literary_hard_constraints": true,
+    "west_bund": true,
+    "cross_modes": true
+  },
+  "backup": "data\\archive\\pois_pre_phase2_5.json",
+  "backup_sha256": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513",
+  "phase_status": "COMPLETE / FROZEN",
+  "post_verification_timestamp": "2026-10-05T03:37:49.004920+00:00",
+  "post_promotion_tests": {
+    "successful": true,
+    "runs": [
+      {
+        "command": "python -m unittest discover -s tests -t . -q",
+        "exit_code": 0,
+        "tests_run": 379,
+        "output": "post_tests_1.txt",
+        "elapsed_seconds": 16.991
+      },
+      {
+        "command": "python -m scripts.verify_all_zones",
+        "exit_code": 0,
+        "tests_run": 379,
+        "output": "post_tests_2.txt",
+        "elapsed_seconds": 18.041
+      }
+    ],
+    "completed_at": "2026-10-05T03:34:37.257956+00:00",
+    "validation_fingerprint": "4c4563f21fdb07b89371925aeec74a71d78fa22d8112f150c2c2cbf5b3d002e2"
+  },
+  "post_promotion_regression_status": {
+    "wukang_fuxing_xujiahui": true,
+    "wukang_fuxing_xujiahui_hard_constraints": true,
+    "old_city_central": true,
+    "old_city_central_hard_constraints": true,
+    "hongkou_literary": true,
+    "hongkou_literary_hard_constraints": true,
+    "west_bund": true,
+    "cross_modes": true
+  },
+  "default_cli_verification": {
+    "passed": true,
+    "runs": [
+      {
+        "command": "python route_entry_demo.py --kb production --list-places",
+        "exit_code": 0,
+        "poi_kb": "production",
+        "poi_count": 59,
+        "output": "production_cli_1.txt"
+      },
+      {
+        "command": "python route_entry_demo.py --list-places",
+        "exit_code": 0,
+        "poi_kb": "production",
+        "poi_count": 59,
+        "output": "production_cli_2.txt"
+      },
+      {
+        "command": "python chat_demo.py --list-places",
+        "exit_code": 0,
+        "poi_kb": "production",
+        "poi_count": 59,
+        "output": "production_cli_3.txt"
+      },
+      {
+        "command": "python route_entry_demo.py --mode surprise_me --start West Bund --minutes 180 --seed 42 --json",
+        "exit_code": 0,
+        "poi_kb": "production",
+        "poi_count": 59,
+        "output": "production_cli_4.txt"
+      },
+      {
+        "command": "python route_entry_demo.py --mode plan_for_me --text I have three hours and want to see old architecture and local neighborhoods. --json",
+        "exit_code": 0,
+        "poi_kb": "production",
+        "poi_count": 59,
+        "output": "production_cli_5.txt"
+      }
+    ],
+    "production_sha256": "6fe891c894995df9aaf9c1c8488d085178399e8cf6d22fe84a87c68e28018782"
+  },
+  "display_order_changes": [
+    {
+      "poi_id": "pz_66452d5db8a1",
+      "before": 51,
+      "after": 50
+    },
+    {
+      "poi_id": "pz_54f53d30c0dc",
+      "before": 53,
+      "after": 51
+    },
+    {
+      "poi_id": "pz_de47b0cf3e98",
+      "before": 54,
+      "after": 52
+    },
+    {
+      "poi_id": "pz_437ddd34f2c1",
+      "before": 55,
+      "after": 53
+    },
+    {
+      "poi_id": "pz_7e40d824dbee",
+      "before": 56,
+      "after": 54
+    },
+    {
+      "poi_id": "pz_09b5938601ee",
+      "before": 57,
+      "after": 55
+    },
+    {
+      "poi_id": "pz_8b1bb0928e7e",
+      "before": 58,
+      "after": 56
+    },
+    {
+      "poi_id": "pz_c862ec0d6ddd",
+      "before": 59,
+      "after": 57
+    },
+    {
+      "poi_id": "pz_c4f63095cb01",
+      "before": 60,
+      "after": 58
+    },
+    {
+      "poi_id": "pz_f8277d15786a",
+      "before": 62,
+      "after": 59
+    }
+  ],
+  "role_distributions": {
+    "wukang_fuxing_xujiahui": {
+      "transition_stop": 3,
+      "supporting_stop": 10,
+      "anchor": 4
+    },
+    "old_city_central": {
+      "anchor": 9,
+      "supporting_stop": 6
+    },
+    "hongkou_literary": {
+      "anchor": 4,
+      "supporting_stop": 8,
+      "transition_stop": 2
+    },
+    "west_bund": {
+      "anchor": 5,
+      "supporting_stop": 6,
+      "transition_stop": 2
+    }
+  },
+  "stable_ids_unchanged": true,
+  "retained_poi_fields_unchanged_except_display_order": true,
+  "deepseek_calls": 0,
+  "source_discovery_calls": 0,
+  "known_limitations": [
+    "old_city_life insufficient_route",
+    "old_city default 120min may have two stops",
+    "real-time opening/crowd/weather/tickets unknown",
+    "representative coordinates are not actual entrances",
+    "approximate walking geometry; no real Map Routing",
+    "historical narrow local_life preference composition_failure present in both G62 and final59"
+  ]
+}

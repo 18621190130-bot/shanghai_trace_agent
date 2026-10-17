@@ -1,0 +1,284 @@
+{
+  "status": "BOUNDARIES_READY",
+  "completed_zones": [
+    "west_bund"
+  ],
+  "completed_zones_note": "West Bund completion inherited from Phase 2.5C; no discovery rerun.",
+  "blocked_zones": [],
+  "blocker": null,
+  "zone_preflight": [
+    {
+      "zone_id": "wukang_fuxing_xujiahui",
+      "display_name": "武康—复兴—徐家汇",
+      "boundary": [
+        [
+          31.2121,
+          121.4367
+        ],
+        [
+          31.216,
+          121.4458
+        ],
+        [
+          31.2208,
+          121.4577
+        ],
+        [
+          31.2145,
+          121.4596
+        ],
+        [
+          31.209,
+          121.4608
+        ],
+        [
+          31.203,
+          121.4623
+        ],
+        [
+          31.201,
+          121.4518
+        ],
+        [
+          31.1965,
+          121.4438
+        ],
+        [
+          31.189,
+          121.443
+        ],
+        [
+          31.1885,
+          121.4348
+        ],
+        [
+          31.1955,
+          121.4335
+        ],
+        [
+          31.2002,
+          121.4355
+        ],
+        [
+          31.205,
+          121.437
+        ]
+      ],
+      "boundary_review_margin": 150,
+      "boundary_status": "approved_for_phase2_5_pipeline",
+      "seed_production_pois": [
+        "p2",
+        "p11",
+        "p12",
+        "p13",
+        "p21",
+        "p32",
+        "p33",
+        "p35"
+      ],
+      "poi_count": 8
+    },
+    {
+      "zone_id": "old_city_central",
+      "display_name": "老城厢—新天地—外滩",
+      "boundary": [
+        [
+          31.2288,
+          121.4585
+        ],
+        [
+          31.2317,
+          121.469
+        ],
+        [
+          31.2355,
+          121.4795
+        ],
+        [
+          31.2421,
+          121.4865
+        ],
+        [
+          31.2414,
+          121.4903
+        ],
+        [
+          31.2365,
+          121.4925
+        ],
+        [
+          31.23,
+          121.4965
+        ],
+        [
+          31.2232,
+          121.5
+        ],
+        [
+          31.216,
+          121.4965
+        ],
+        [
+          31.2151,
+          121.4925
+        ],
+        [
+          31.2171,
+          121.484
+        ],
+        [
+          31.2118,
+          121.4712
+        ],
+        [
+          31.2138,
+          121.4668
+        ],
+        [
+          31.22,
+          121.465
+        ],
+        [
+          31.2254,
+          121.4585
+        ]
+      ],
+      "boundary_review_margin": 150,
+      "boundary_status": "approved_for_phase2_5_pipeline",
+      "seed_production_pois": [
+        "p7",
+        "p9",
+        "p14",
+        "p15",
+        "p20",
+        "p23",
+        "p24",
+        "p34"
+      ],
+      "poi_count": 8
+    },
+    {
+      "zone_id": "hongkou_literary",
+      "display_name": "鲁迅公园—四川北路",
+      "boundary": [
+        [
+          31.2745,
+          121.479
+        ],
+        [
+          31.2745,
+          121.4857
+        ],
+        [
+          31.27,
+          121.4868
+        ],
+        [
+          31.2655,
+          121.487
+        ],
+        [
+          31.261,
+          121.4875
+        ],
+        [
+          31.2567,
+          121.4935
+        ],
+        [
+          31.2525,
+          121.493
+        ],
+        [
+          31.2519,
+          121.487
+        ],
+        [
+          31.253,
+          121.48
+        ],
+        [
+          31.257,
+          121.477
+        ],
+        [
+          31.2635,
+          121.4768
+        ],
+        [
+          31.2695,
+          121.478
+        ]
+      ],
+      "boundary_review_margin": 150,
+      "boundary_status": "approved_for_phase2_5_pipeline",
+      "seed_production_pois": [
+        "p4",
+        "p10",
+        "p16",
+        "p25",
+        "p26",
+        "p27"
+      ],
+      "poi_count": 6
+    },
+    {
+      "zone_id": "west_bund",
+      "display_name": "徐汇西岸滨江",
+      "boundary": [
+        [
+          31.157,
+          121.458
+        ],
+        [
+          31.157,
+          121.467
+        ],
+        [
+          31.17,
+          121.467
+        ],
+        [
+          31.1775,
+          121.4648
+        ],
+        [
+          31.182,
+          121.4665
+        ],
+        [
+          31.1895,
+          121.473
+        ],
+        [
+          31.1895,
+          121.466
+        ],
+        [
+          31.18,
+          121.458
+        ]
+      ],
+      "boundary_review_margin": 150,
+      "boundary_status": "existing_approved_unchanged",
+      "seed_production_pois": [
+        "p5",
+        "p28",
+        "p29",
+        "p30",
+        "p31"
+      ],
+      "poi_count": 13
+    }
+  ],
+  "protected_sha256": {
+    "data\\pois.json": "6585b3baf653ae89cc6a1e3c5fc10140bdd801fb298d92c392381d0b5fc17513",
+    "data\\pois_phase2_5_candidate.json": "dc30a2933786b2c339a1b1f10ddfbf5f0025b502894f1e376232287799c00d2c"
+  },
+  "collection_attempted": false,
+  "enrichment_attempted": false,
+  "deepseek_calls": 0,
+  "route_regression_status": "not_run",
+  "promotion_ready": false,
+  "cost_note": "No collection or enrichment performed; zero calls do not demonstrate marginal-cost improvement."
+}

@@ -1,0 +1,50 @@
+{
+  "source": "amap",
+  "url": "https://restapi.amap.com/v3/place/detail",
+  "parameters": {
+    "id": "B00155QIPB",
+    "extensions": "base",
+    "output": "JSON"
+  },
+  "variant": "json-v1",
+  "retrieved_at": "2026-10-04T16:14:02.514148+00:00",
+  "response": {
+    "count": "1",
+    "infocode": "10000",
+    "pois": [
+      {
+        "parent": [],
+        "distance": [],
+        "keytag": "商场",
+        "importance": [],
+        "biz_ext": [],
+        "type": "购物服务;商场;商场",
+        "photos": [],
+        "building": [],
+        "typecode": "060100",
+        "shopinfo": "1",
+        "poiweight": [],
+        "updateflag": "0",
+        "adname": "静安区",
+        "featured_reviews_remake": [],
+        "tel": "021-52386088",
+        "id": "B00155QIPB",
+        "address": "茂名北路258号(南京西路地铁站13号口步行50米)",
+        "space_num": [],
+        "pname": "上海市",
+        "biz_type": [],
+        "cityname": "上海市",
+        "childtype": [],
+        "atag": "商场",
+        "name": "张园",
+        "location": "121.460064,31.227971",
+        "shopid": [],
+        "favorite_num": [],
+        "featured_reviews": []
+      }
+    ],
+    "status": "1",
+    "info": "OK"
+  },
+  "response_hash": "544f5b24dc7c6b6087b3e5d13e69d3f5b9c4efd982c8017905b2ac226e217574"
+}

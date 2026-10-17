@@ -1,0 +1,941 @@
+{
+  "candidate": {
+    "candidate_id": "old_city_central_330641af97b370bc",
+    "name_zh": "大韩民国临时政府旧址",
+    "name_en": "Former site of the Provisional Government of the Republic of Korea",
+    "aliases": [],
+    "address": "马当路306弄4号",
+    "coordinates": [
+      31.217351,
+      121.474625
+    ],
+    "entity_kind": "building",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "Former site of the Provisional Government of the Republic of Korea",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2192213,
+          121.4701593
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "historic=memorial",
+        "raw_provider_tags": {
+          "historic": "memorial",
+          "name": "大韩民国临时政府旧址",
+          "name:en": "Former site of the Provisional Government of the Republic of Korea",
+          "name:ko": "대한민국임시정부"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "building"
+      },
+      {
+        "source_candidate_id": "recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "Former site of the Provisional Government of the Republic of Korea",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "Former site of the Provisional Government of the Republic of Korea",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "下午，总统夫妇一同访问大韩民国临时政府旧址。",
+            "supports": [
+              "history",
+              "public_space",
+              "access"
+            ]
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "下午，总统夫妇一同访问大韩民国临时政府旧址。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市博物馆名单（2024年度）。大韩民国临时政府旧址管理处 | 马当路306弄4号",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "source_url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "name_zh": "大韩民国临时政府旧址",
+        "name_en": "",
+        "aliases": [],
+        "address": "马当路306弄4号",
+        "coordinates": [
+          31.217351,
+          121.474625
+        ],
+        "coordinate_system": "GCJ-02",
+        "source_category": "风景名胜;风景名胜;风景名胜",
+        "raw_provider_tags": {
+          "type": "风景名胜;风景名胜;风景名胜",
+          "typecode": "110200",
+          "pname": "上海市",
+          "cityname": "上海市",
+          "adname": "黄浦区"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "address",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/5530017323"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_e0f192eb12a3",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "recall_854b04a49b67",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_e0f192eb12a3",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_854b04a49b67",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_f57c777ae6c3",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00"
+      },
+      {
+        "source_type": "amap",
+        "source_candidate_id": "B001556HRR",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/5530017323",
+      "name_en": "osm:node/5530017323",
+      "address": "amap:B001556HRR",
+      "coordinates": "amap:B001556HRR"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "old_city_central",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_28dd4eb2a27b": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_d0e8bfba6e20": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      },
+      "e_2ce78f53ab7a": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_a83546d017db": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      },
+      "e_90f97b756a85": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_e700d432c2b1": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      },
+      "e_b4f9bc518916": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_2eb017ce07c9": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_661be102b4cc": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_1f880092bc1e": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_afc61a1795b8": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "马当路306弄4号"
+      },
+      "e_dd1e29c8b87e": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2192213,
+            121.4701593
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_95d97c07c3aa": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.217351,
+            121.474625
+          ],
+          "coordinate_system": "GCJ-02"
+        }
+      },
+      "e_57558d8ca771": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "map",
+        "field": "category",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_e7af382abc66": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "map",
+        "field": "type",
+        "value": "风景名胜;风景名胜;风景名胜"
+      },
+      "e_e278d79e032e": {
+        "record_id": "amap:B001556HRR",
+        "source_type": "amap",
+        "source_name": "Amap Web Service",
+        "url": "https://www.amap.com/detail/B001556HRR",
+        "retrieved_at": "2026-10-05T02:25:22.502367+00:00",
+        "group": "map",
+        "field": "typecode",
+        "value": "110200"
+      },
+      "e_95ec9d5667aa": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "historic=memorial"
+      },
+      "e_f97b194f5160": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "historic",
+        "value": "memorial"
+      },
+      "e_da106a1b3680": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "大韩民国临时政府旧址"
+      },
+      "e_c88ab75e1824": {
+        "record_id": "osm:node/5530017323",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/5530017323",
+        "retrieved_at": "2026-10-04T15:21:54.610602+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Former site of the Provisional Government of the Republic of Korea"
+      },
+      "e_3de81a122f25": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_57dbf33d9ef0": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_a20a275cf058": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_5eb92c8ddcfc": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_f16e66e10f76": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_4b4e4b29ca20": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_7787f952857d": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d35217d68560": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_306b86f32ec2": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_e0719bb0a654": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。大韩民国临时政府旧址管理处 | 马当路306弄4号"
+      },
+      "e_d3325375ce18": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_5ebb30d59bb6": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_689895289074": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_fe3a145a9f37": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_403f6e09fa14": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。大韩民国临时政府旧址管理处 | 马当路306弄4号"
+      },
+      "e_300c0d94152d": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_89f66fa0d570": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_a8da8c4bf8e6": {
+        "record_id": "government:diversity_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_6e527fd0ec27": {
+        "record_id": "government:diversity_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      },
+      "e_3aedc678fdff": {
+        "record_id": "government:diversity_f57c777ae6c3",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.353083+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。大韩民国临时政府旧址管理处 | 马当路306弄4号"
+      },
+      "e_75fc5037a563": {
+        "record_id": "government:recall_e0f192eb12a3",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/gwk/search/content/f6c94ab732754740a06562bd7aeae40c",
+        "retrieved_at": "2026-10-04T16:17:47.371768+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "区级文物保护单位大韩民国临时政府旧址（马当路306弄4号）本体原址保留，不纳入征收实施范围。"
+      },
+      "e_55e92972d8fb": {
+        "record_id": "government:recall_854b04a49b67",
+        "source_type": "government",
+        "source_name": "Phase 2.5F targeted inspected source",
+        "url": "https://www.shanghai.gov.cn/nw4411/20260108/8358d0e5029b45a981750e8696ba90c7.html",
+        "retrieved_at": "2026-10-04T16:17:47.371818+00:00",
+        "group": "access",
+        "field": "snippet",
+        "value": "下午，总统夫妇一同访问大韩民国临时政府旧址。"
+      }
+    },
+    "recall_screen": {
+      "rank": 7,
+      "reason": null,
+      "review_note": null,
+      "evidence_score": 11,
+      "priority_basis": "Explicit cached-pool comparison: independent public walk/connector scope, differentiated location, stable mapped identity, source confidence. Coverage prioritizes only; never supplies tags."
+    },
+    "original_cached_name": "大韩民国临时政府旧址",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "heritage",
+    "interest_tags": [
+      "history"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [
+      "political_history"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_57dbf33d9ef0"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_e0719bb0a654"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "political_history",
+        "evidence_refs": [
+          "e_57dbf33d9ef0"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_55e92972d8fb"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "官方确认原址保留及近期访问；限定街面旧址观察，内部开放安排未知，不默认为入馆。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "官方确认原址保留及近期访问；限定街面旧址观察，内部开放安排未知，不默认为入馆。",
+      "evidence_refs": [
+        "e_55e92972d8fb"
+      ]
+    },
+    "summary_draft": {
+      "text": "下午，总统夫妇一同访问大韩民国临时政府旧址。",
+      "evidence_refs": [
+        "e_55e92972d8fb"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 6,
+        "standard": 12,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "官方确认原址保留及近期访问；限定街面旧址观察，内部开放安排未知，不默认为入馆。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "heritage",
+    "interest_tags": [
+      "history"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [
+      "political_history"
+    ],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "history",
+        "evidence_refs": [
+          "e_57dbf33d9ef0"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_e0719bb0a654"
+        ]
+      },
+      {
+        "group": "culture_tags",
+        "tag": "political_history",
+        "evidence_refs": [
+          "e_57dbf33d9ef0"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_55e92972d8fb"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "官方确认原址保留及近期访问；限定街面旧址观察，内部开放安排未知，不默认为入馆。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "官方确认原址保留及近期访问；限定街面旧址观察，内部开放安排未知，不默认为入馆。",
+      "evidence_refs": [
+        "e_55e92972d8fb"
+      ]
+    },
+    "summary_draft": {
+      "text": "下午，总统夫妇一同访问大韩民国临时政府旧址。",
+      "evidence_refs": [
+        "e_55e92972d8fb"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 6,
+        "standard": 12,
+        "deep": 20
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "官方确认原址保留及近期访问；限定街面旧址观察，内部开放安排未知，不默认为入馆。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.217351,
+      121.474625
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "historic_building"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

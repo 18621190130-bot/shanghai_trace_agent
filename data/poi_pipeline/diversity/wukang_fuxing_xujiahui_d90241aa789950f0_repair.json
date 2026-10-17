@@ -1,0 +1,614 @@
+{
+  "candidate": {
+    "candidate_id": "wukang_fuxing_xujiahui_d90241aa789950f0",
+    "name_zh": "张乐平故居",
+    "name_en": "Zhang Leping Former Residence",
+    "aliases": [
+      "张乐平"
+    ],
+    "address": "五原路288弄3号",
+    "coordinates": [
+      31.212523394593628,
+      121.44205113723257
+    ],
+    "entity_kind": "venue",
+    "boundary_status": "inside_pilot",
+    "merged_source_records": [
+      {
+        "source_candidate_id": "node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "source_url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "name_zh": "张乐平",
+        "name_en": "Zhang Leping Former Residence",
+        "aliases": [],
+        "address": "",
+        "coordinates": [
+          31.2143935,
+          121.4374341
+        ],
+        "coordinate_system": "WGS84",
+        "source_category": "tourism=museum",
+        "raw_provider_tags": {
+          "name": "张乐平",
+          "name:en": "Zhang Leping Former Residence",
+          "tourism": "museum"
+        },
+        "snippets": [],
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "entity_kind": "venue"
+      },
+      {
+        "source_candidate_id": "diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "name_zh": "张乐平",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "离开武康大楼，一行人抵达五原路288弄张乐平故居，走近“三毛之父”，探寻经典漫画背后的温情与初心。在专业讲解员的带领下，大家参观故居展厅，了解张乐平先生的创作生涯。",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "name_zh": "张乐平",
+        "name_en": "",
+        "aliases": [],
+        "address": "",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "完成武康大楼、周璇旧居门头、张乐平故居三毛艺术弄等12个点位电影主题微更新",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      },
+      {
+        "source_candidate_id": "diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "source_url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "name_zh": "张乐平",
+        "name_en": "",
+        "aliases": [],
+        "address": "五原路288弄3号",
+        "coordinates": null,
+        "coordinate_system": "GCJ-02",
+        "source_category": "subject_specific_excerpt",
+        "raw_provider_tags": {},
+        "snippets": [
+          {
+            "text": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）",
+            "supports": [
+              "history",
+              "public_space"
+            ],
+            "extraction": "short inspected source passages, whitespace joined; not live access verification"
+          }
+        ],
+        "supports": [
+          "identity"
+        ],
+        "entity_kind": "unknown"
+      }
+    ],
+    "sources": [
+      {
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "supports": [
+          "identity",
+          "coordinates",
+          "basic_category"
+        ],
+        "record_id": "osm:node/4470004600"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_1ab0b3dfe55b",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_4d24d42e5e11",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00"
+      },
+      {
+        "source_type": "government",
+        "source_candidate_id": "diversity_6658474895aa",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00"
+      }
+    ],
+    "field_sources": {
+      "name_zh": "osm:node/4470004600",
+      "name_en": "osm:node/4470004600",
+      "address": "government:diversity_6658474895aa",
+      "coordinates": "osm:node/4470004600"
+    },
+    "issues": [],
+    "coordinate_system": "GCJ-02",
+    "walk_zone": "wukang_fuxing_xujiahui",
+    "stage": "unreviewed_candidate",
+    "identity": {
+      "identity_status": "new_candidate",
+      "production_match": null,
+      "confidence": "medium",
+      "evidence": {
+        "reason": "no production identity match"
+      }
+    },
+    "evidence_catalog": {
+      "e_8a7ec16666bc": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "张乐平"
+      },
+      "e_0904441bab46": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "identity",
+        "field": "name_en",
+        "value": "Zhang Leping Former Residence"
+      },
+      "e_b8b6b9cbaf5e": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "张乐平"
+      },
+      "e_16d07acd6d63": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "张乐平"
+      },
+      "e_fe195dad4153": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "identity",
+        "field": "name_zh",
+        "value": "张乐平"
+      },
+      "e_250d896f5390": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "identity",
+        "field": "address",
+        "value": "五原路288弄3号"
+      },
+      "e_96f6ad9e5b29": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "coordinates",
+        "field": "coordinates",
+        "value": {
+          "coordinates": [
+            31.2143935,
+            121.4374341
+          ],
+          "coordinate_system": "WGS84"
+        }
+      },
+      "e_88b102c6963a": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "category",
+        "value": "tourism=museum"
+      },
+      "e_4b62922a910f": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name",
+        "value": "张乐平"
+      },
+      "e_a098d4757902": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "name:en",
+        "value": "Zhang Leping Former Residence"
+      },
+      "e_e632f38b1da2": {
+        "record_id": "osm:node/4470004600",
+        "source_type": "osm",
+        "source_name": "OpenStreetMap contributors / Overpass",
+        "url": "https://www.openstreetmap.org/node/4470004600",
+        "retrieved_at": "2026-10-04T15:06:46.042978+00:00",
+        "group": "osm",
+        "field": "tourism",
+        "value": "museum"
+      },
+      "e_5c945d9bdd2f": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_d21aabc5c3a9": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "离开武康大楼，一行人抵达五原路288弄张乐平故居，走近“三毛之父”，探寻经典漫画背后的温情与初心。在专业讲解员的带领下，大家参观故居展厅，了解张乐平先生的创作生涯。"
+      },
+      "e_aa5d31254bd0": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_bed5de421ac0": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "完成武康大楼、周璇旧居门头、张乐平故居三毛艺术弄等12个点位电影主题微更新"
+      },
+      "e_733fc499b6e6": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "official",
+        "field": "category",
+        "value": "subject_specific_excerpt"
+      },
+      "e_0b6edbf35226": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "official",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）"
+      },
+      "e_4d35beb18465": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "离开武康大楼，一行人抵达五原路288弄张乐平故居，走近“三毛之父”，探寻经典漫画背后的温情与初心。在专业讲解员的带领下，大家参观故居展厅，了解张乐平先生的创作生涯。"
+      },
+      "e_bd22fb952ab3": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "完成武康大楼、周璇旧居门头、张乐平故居三毛艺术弄等12个点位电影主题微更新"
+      },
+      "e_6cffc4db8140": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "history",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）"
+      },
+      "e_3e7704a77af7": {
+        "record_id": "government:diversity_1ab0b3dfe55b",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260715/575182.html",
+        "retrieved_at": "2026-10-05T02:33:01.309594+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "离开武康大楼，一行人抵达五原路288弄张乐平故居，走近“三毛之父”，探寻经典漫画背后的温情与初心。在专业讲解员的带领下，大家参观故居展厅，了解张乐平先生的创作生涯。"
+      },
+      "e_af1460a14313": {
+        "record_id": "government:diversity_4d24d42e5e11",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://www.xuhui.gov.cn/xwzx_zwxx/20260702/574867.html",
+        "retrieved_at": "2026-10-05T02:33:01.309629+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "完成武康大楼、周璇旧居门头、张乐平故居三毛艺术弄等12个点位电影主题微更新"
+      },
+      "e_f02ef51759e8": {
+        "record_id": "government:diversity_6658474895aa",
+        "source_type": "government",
+        "source_name": "Phase 2.5G subject-specific inspected source",
+        "url": "https://whlyj.sh.gov.cn/bwg/20250227/c238000e1dc5486e8027e2c4e1774ac4.html",
+        "retrieved_at": "2026-10-05T02:53:51.491254+00:00",
+        "group": "public_space",
+        "field": "snippet",
+        "value": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）"
+      }
+    },
+    "original_cached_name": "张乐平",
+    "recall_parent": null
+  },
+  "output": {
+    "category": "cultural_venue",
+    "interest_tags": [
+      "art"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_bed5de421ac0"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_0b6edbf35226"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_f02ef51759e8"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "已有近期公众展厅参访证据的故居与漫画创作观察，补充街区文化主题。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "已有近期公众展厅参访证据的故居与漫画创作观察，补充街区文化主题。",
+      "evidence_refs": [
+        "e_f02ef51759e8"
+      ]
+    },
+    "summary_draft": {
+      "text": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）",
+      "evidence_refs": [
+        "e_f02ef51759e8"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 28
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "已有近期公众展厅参访证据的故居与漫画创作观察，补充街区文化主题。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "semantic": {
+    "category": "cultural_venue",
+    "interest_tags": [
+      "art"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_bed5de421ac0"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_0b6edbf35226"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_f02ef51759e8"
+    ],
+    "route_role": {
+      "primary": "supporting_stop",
+      "eligible": [
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "已有近期公众展厅参访证据的故居与漫画创作观察，补充街区文化主题。",
+      "independent_destination_value": "medium",
+      "route_connector_value": "medium",
+      "alternatives_reason": {
+        "anchor": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "supporting_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。",
+        "transition_stop": "本节点的独立体验与受证据限制的访问范围支持当前角色；不能为配比改变角色。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "已有近期公众展厅参访证据的故居与漫画创作观察，补充街区文化主题。",
+      "evidence_refs": [
+        "e_f02ef51759e8"
+      ]
+    },
+    "summary_draft": {
+      "text": "上海市博物馆名单（2024年度）。衡复风貌博物馆群 | 张乐平故居（五原路288弄3号）",
+      "evidence_refs": [
+        "e_f02ef51759e8"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 10,
+        "standard": 20,
+        "deep": 28
+      },
+      "full_visit": null,
+      "time_basis": "product_planning_estimate",
+      "scope": "已有近期公众展厅参访证据的故居与漫画创作观察，补充街区文化主题。"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "实时开放、预约与票务需未来实时层核实；代表点不等于入口。"
+    ],
+    "factual_fields": {
+      "opening_hours": null,
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": null,
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.212523394593628,
+      121.44205113723257
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": [],
+    "subject_scope_validation": {
+      "removed_tags": [],
+      "policy": "Only the individual POI, not other places in the source itinerary, may support a tag."
+    }
+  },
+  "method": "fresh_minimum_evidence_skeleton",
+  "api_calls": 0,
+  "facets": [
+    "historic_building",
+    "cultural_space"
+  ],
+  "role_judgment_basis": "explicit product assessment of independent destination / experience / connector value; category and target count are not role evidence"
+}

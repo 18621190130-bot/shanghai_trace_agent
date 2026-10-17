@@ -1,0 +1,297 @@
+{
+  "wukang_fuxing_xujiahui": {
+    "polygon_valid": true,
+    "self_intersections": [],
+    "area_km2": 5.2657,
+    "reasonable_area": true,
+    "not_administrative_scale": true,
+    "not_degenerate": true,
+    "gcj02_coordinates_valid": true,
+    "seed_coverage": [
+      {
+        "poi_id": "p2",
+        "name": "永康路与嘉善路口",
+        "coordinates": [
+          31.2128,
+          121.4592
+        ],
+        "status": "needs_review"
+      },
+      {
+        "poi_id": "p11",
+        "name": "建业里",
+        "coordinates": [
+          31.2073,
+          121.4562
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p12",
+        "name": "陕南邨",
+        "coordinates": [
+          31.2158,
+          121.4565
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p13",
+        "name": "武康大楼",
+        "coordinates": [
+          31.2108,
+          121.4472
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p21",
+        "name": "上海宋庆龄故居纪念馆",
+        "coordinates": [
+          31.204017,
+          121.439062
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p32",
+        "name": "徐家汇天主堂",
+        "coordinates": [
+          31.19149671484055,
+          121.4372036194208
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p33",
+        "name": "徐家汇书院",
+        "coordinates": [
+          31.190626365374555,
+          121.4371436403768
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p35",
+        "name": "徐家汇商圈",
+        "coordinates": [
+          31.193526044665383,
+          121.43842179377025
+        ],
+        "status": "inside_pilot"
+      }
+    ],
+    "all_production_seeds_covered": true,
+    "area_policy": "Product diagnostic range 0.05–15 km²; not a cadastral or surveyed area."
+  },
+  "old_city_central": {
+    "polygon_valid": true,
+    "self_intersections": [],
+    "area_km2": 7.6729,
+    "reasonable_area": true,
+    "not_administrative_scale": true,
+    "not_degenerate": true,
+    "gcj02_coordinates_valid": true,
+    "seed_coverage": [
+      {
+        "poi_id": "p7",
+        "name": "新天地北里（石库门街区）",
+        "coordinates": [
+          31.2212,
+          121.4679
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p9",
+        "name": "张园",
+        "coordinates": [
+          31.2286,
+          121.4638
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p14",
+        "name": "外滩·陈毅广场",
+        "coordinates": [
+          31.2365,
+          121.4915
+        ],
+        "status": "needs_review"
+      },
+      {
+        "poi_id": "p15",
+        "name": "豫园",
+        "coordinates": [
+          31.227,
+          121.4925
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p20",
+        "name": "上海城隍庙",
+        "coordinates": [
+          31.225879,
+          121.492466
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p23",
+        "name": "思南公馆",
+        "coordinates": [
+          31.214509,
+          121.468956
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p24",
+        "name": "中共一大纪念馆",
+        "coordinates": [
+          31.22012192043575,
+          121.47522210826187
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p34",
+        "name": "南京路步行街",
+        "coordinates": [
+          31.233941258407807,
+          121.48500090050078
+        ],
+        "status": "inside_pilot"
+      }
+    ],
+    "all_production_seeds_covered": true,
+    "area_policy": "Product diagnostic range 0.05–15 km²; not a cadastral or surveyed area."
+  },
+  "hongkou_literary": {
+    "polygon_valid": true,
+    "self_intersections": [],
+    "area_km2": 2.5803,
+    "reasonable_area": true,
+    "not_administrative_scale": true,
+    "not_degenerate": true,
+    "gcj02_coordinates_valid": true,
+    "seed_coverage": [
+      {
+        "poi_id": "p4",
+        "name": "鲁迅故居",
+        "coordinates": [
+          31.2693,
+          121.481
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p10",
+        "name": "今潮8弄",
+        "coordinates": [
+          31.2588,
+          121.4782
+        ],
+        "status": "needs_review"
+      },
+      {
+        "poi_id": "p16",
+        "name": "鲁迅公园",
+        "coordinates": [
+          31.2712,
+          121.4844
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p25",
+        "name": "1927·鲁迅与内山纪念书局",
+        "coordinates": [
+          31.264768526339903,
+          121.4837278959415
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p26",
+        "name": "中国左翼作家联盟会址纪念馆",
+        "coordinates": [
+          31.263599596059006,
+          121.48105086774376
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p27",
+        "name": "1933老场坊",
+        "coordinates": [
+          31.254559,
+          121.491884
+        ],
+        "status": "needs_review"
+      }
+    ],
+    "all_production_seeds_covered": true,
+    "area_policy": "Product diagnostic range 0.05–15 km²; not a cadastral or surveyed area."
+  },
+  "west_bund": {
+    "polygon_valid": true,
+    "self_intersections": [],
+    "area_km2": 2.758,
+    "reasonable_area": true,
+    "not_administrative_scale": true,
+    "not_degenerate": true,
+    "gcj02_coordinates_valid": true,
+    "seed_coverage": [
+      {
+        "poi_id": "p5",
+        "name": "龙美术馆（西岸馆）",
+        "coordinates": [
+          31.1848,
+          121.465
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p28",
+        "name": "西岸美术馆",
+        "coordinates": [
+          31.167682,
+          121.463841
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p29",
+        "name": "上海油罐艺术中心",
+        "coordinates": [
+          31.164519,
+          121.464321
+        ],
+        "status": "inside_pilot"
+      },
+      {
+        "poi_id": "p30",
+        "name": "Gate M 西岸梦中心",
+        "coordinates": [
+          31.16119,
+          121.465465
+        ],
+        "status": "needs_review"
+      },
+      {
+        "poi_id": "p31",
+        "name": "星美术馆",
+        "coordinates": [
+          31.18786,
+          121.470412
+        ],
+        "status": "needs_review"
+      }
+    ],
+    "all_production_seeds_covered": true,
+    "area_policy": "Product diagnostic range 0.05–15 km²; not a cadastral or surveyed area."
+  }
+}

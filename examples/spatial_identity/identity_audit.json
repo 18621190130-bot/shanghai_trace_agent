@@ -1,0 +1,23 @@
+{
+  "total_core_pois": 58,
+  "identity_counts": {
+    "MATCHED": 57,
+    "AMBIGUOUS": 0,
+    "NOT_FOUND": 1
+  },
+  "live_info_applicability_counts": {
+    "FULL": 20,
+    "LIMITED": 22,
+    "NOT_APPLICABLE": 16
+  },
+  "manual_review_required": [],
+  "search_failures": [],
+  "threshold": {
+    "min_confidence": 0.92,
+    "min_name_similarity": 0.9,
+    "max_distance_m": 300,
+    "min_runner_up_margin": 0.08
+  },
+  "source": "live_amap_identity_calibration",
+  "identity_does_not_establish_venue_existence": true
+}

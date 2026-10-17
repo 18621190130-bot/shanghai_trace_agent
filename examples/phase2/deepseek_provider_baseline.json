@@ -1,0 +1,71 @@
+{
+  "execution": "REAL DeepSeek CLI subprocess calls, no Mock client",
+  "cases": [
+    {
+      "input": "Shopping and modern Shanghai interest me; I've got 150 minutes around Nanjing Road.",
+      "returncode": 2,
+      "stdout": "",
+      "stderr": "{\"diagnostic\": \"deepseek\", \"stage\": \"request\", \"provider\": \"deepseek\", \"model\": \"deepseek-flash\", \"max_tokens\": 1200, \"thinking\": \"provider_default\", \"required_fields\": [\"available_minutes\", \"start_location_text\", \"interest_tags\", \"experience_tags\", \"culture_tags\", \"travel_pace\", \"preferred_zone\", \"max_walking_km\", \"must_go_place_names\", \"avoid_tags\", \"avoid_place_names\", \"unresolved_negative_preferences\"]}\n{\"diagnostic\": \"deepseek\", \"stage\": \"api_response\", \"provider\": \"deepseek\", \"model\": \"deepseek-flash\", \"http_status\": 200, \"success\": true, \"finish_reason\": \"length\", \"raw_message_content\": \"\", \"reasoning_content_characters\": 5524, \"usage\": {\"prompt_tokens\": 2563, \"completion_tokens\": 1200, \"total_tokens\": 3763, \"prompt_tokens_details\": {\"cached_tokens\": 2429}, \"completion_tokens_details\": {\"reasoning_tokens\": 1200}, \"prompt_cache_hit_tokens\": 2429, \"prompt_cache_miss_tokens\": 134}}\n{\"status\": \"provider_error\", \"errors\": [\"DeepSeek completion did not finish normally (finish_reason='length')\"], \"error_type\": \"output_truncated\", \"stage\": \"api_response\", \"http_status\": 200, \"finish_reason\": \"length\"}\n",
+      "diagnostics": [
+        {
+          "diagnostic": "deepseek",
+          "stage": "request",
+          "provider": "deepseek",
+          "model": "deepseek-flash",
+          "max_tokens": 1200,
+          "thinking": "provider_default",
+          "required_fields": [
+            "available_minutes",
+            "start_location_text",
+            "interest_tags",
+            "experience_tags",
+            "culture_tags",
+            "travel_pace",
+            "preferred_zone",
+            "max_walking_km",
+            "must_go_place_names",
+            "avoid_tags",
+            "avoid_place_names",
+            "unresolved_negative_preferences"
+          ]
+        },
+        {
+          "diagnostic": "deepseek",
+          "stage": "api_response",
+          "provider": "deepseek",
+          "model": "deepseek-flash",
+          "http_status": 200,
+          "success": true,
+          "finish_reason": "length",
+          "raw_message_content": "",
+          "reasoning_content_characters": 5524,
+          "usage": {
+            "prompt_tokens": 2563,
+            "completion_tokens": 1200,
+            "total_tokens": 3763,
+            "prompt_tokens_details": {
+              "cached_tokens": 2429
+            },
+            "completion_tokens_details": {
+              "reasoning_tokens": 1200
+            },
+            "prompt_cache_hit_tokens": 2429,
+            "prompt_cache_miss_tokens": 134
+          }
+        },
+        {
+          "status": "provider_error",
+          "errors": [
+            "DeepSeek completion did not finish normally (finish_reason='length')"
+          ],
+          "error_type": "output_truncated",
+          "stage": "api_response",
+          "http_status": 200,
+          "finish_reason": "length"
+        }
+      ],
+      "parsed_intent_reached": false,
+      "route_flow_reached": false
+    }
+  ]
+}

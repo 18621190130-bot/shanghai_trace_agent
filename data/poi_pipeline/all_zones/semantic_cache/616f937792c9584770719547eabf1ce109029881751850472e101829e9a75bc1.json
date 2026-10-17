@@ -1,0 +1,249 @@
+{
+  "candidate_id": "wukang_fuxing_xujiahui_836f6bfc01af319b",
+  "semantic": {
+    "category": "museum",
+    "interest_tags": [
+      "art"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_77a9bb0c93f2"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_151e3414416b",
+          "e_1863a410b7f9",
+          "e_c9b7579e38f8"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_151e3414416b",
+      "e_1863a410b7f9",
+      "e_c9b7579e38f8"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为正式博物馆，设有民间工艺、雕刻、织绣三大展示厅及专业工作室，具备独立参观价值，可作为路线主题节点。",
+      "independent_destination_value": "high",
+      "route_connector_value": "low",
+      "alternatives_reason": {
+        "anchor": "馆内设三大展示厅及专业工作室，属可专程参观的独立目的地，符合anchor标准。",
+        "supporting_stop": "若路线主题非工艺美术，其仍可作为补充性体验节点，但独立目的地价值高于一般supporting_stop。",
+        "transition_stop": "其为完整博物馆而非短暂停留的连接点，不符合transition_stop的短时连接定位。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为工艺美术专题博物馆，具备明确参观内容与固定开放时段，适合作为片区路线中的文化停留点。",
+      "evidence_refs": [
+        "e_77a9bb0c93f2",
+        "e_ca54a06668db"
+      ]
+    },
+    "summary_draft": {
+      "text": "上海工艺美术博物馆，位于上海市徐汇区汾阳路79号",
+      "evidence_refs": [
+        "e_77a9bb0c93f2"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 20,
+        "standard": 45,
+        "deep": 90
+      },
+      "full_visit": {
+        "quick": 30,
+        "standard": 60,
+        "deep": 120
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "馆内三大展示厅及专业工作室的参观时间估算"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "门票价格",
+      "预约要求",
+      "建筑历史与设计者信息"
+    ],
+    "factual_fields": {
+      "opening_hours": {
+        "text": "Tu-Su 09:00-11:30, 13:00-16:30",
+        "evidence_refs": [
+          "e_ca54a06668db"
+        ]
+      },
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": {
+        "text": "于2002年10月正式开馆",
+        "evidence_refs": [
+          "e_77a9bb0c93f2"
+        ]
+      },
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": [],
+    "coordinates": [
+      31.210087,
+      121.454495
+    ],
+    "coordinate_system": "GCJ-02",
+    "verification": {
+      "status": "human_review_required",
+      "facts": "extractive_evidence_only",
+      "semantics": "interpretation_requires_review",
+      "production_imported": false
+    },
+    "rejected_tag_proposals": []
+  },
+  "output": {
+    "category": "museum",
+    "interest_tags": [
+      "art"
+    ],
+    "experience_tags": [
+      "museum_visit"
+    ],
+    "culture_tags": [],
+    "tag_evidence": [
+      {
+        "group": "interest_tags",
+        "tag": "art",
+        "evidence_refs": [
+          "e_77a9bb0c93f2"
+        ]
+      },
+      {
+        "group": "experience_tags",
+        "tag": "museum_visit",
+        "evidence_refs": [
+          "e_151e3414416b",
+          "e_1863a410b7f9",
+          "e_c9b7579e38f8"
+        ]
+      }
+    ],
+    "category_evidence_refs": [
+      "e_151e3414416b",
+      "e_1863a410b7f9",
+      "e_c9b7579e38f8"
+    ],
+    "route_role": {
+      "primary": "anchor",
+      "eligible": [
+        "anchor",
+        "supporting_stop"
+      ],
+      "confidence": "medium",
+      "reason": "证据显示其为正式博物馆，设有民间工艺、雕刻、织绣三大展示厅及专业工作室，具备独立参观价值，可作为路线主题节点。",
+      "independent_destination_value": "high",
+      "route_connector_value": "low",
+      "alternatives_reason": {
+        "anchor": "馆内设三大展示厅及专业工作室，属可专程参观的独立目的地，符合anchor标准。",
+        "supporting_stop": "若路线主题非工艺美术，其仍可作为补充性体验节点，但独立目的地价值高于一般supporting_stop。",
+        "transition_stop": "其为完整博物馆而非短暂停留的连接点，不符合transition_stop的短时连接定位。"
+      }
+    },
+    "citywalk_value": {
+      "level": "medium",
+      "reason": "作为工艺美术专题博物馆，具备明确参观内容与固定开放时段，适合作为片区路线中的文化停留点。",
+      "evidence_refs": [
+        "e_77a9bb0c93f2",
+        "e_ca54a06668db"
+      ]
+    },
+    "summary_draft": {
+      "text": "上海工艺美术博物馆，位于上海市徐汇区汾阳路79号",
+      "evidence_refs": [
+        "e_77a9bb0c93f2"
+      ]
+    },
+    "culture_bridge_draft": null,
+    "visit_profile_proposal": {
+      "walk_stop": {
+        "quick": 20,
+        "standard": 45,
+        "deep": 90
+      },
+      "full_visit": {
+        "quick": 30,
+        "standard": 60,
+        "deep": 120
+      },
+      "time_basis": "product_planning_estimate",
+      "scope": "馆内三大展示厅及专业工作室的参观时间估算"
+    },
+    "semantic_confidence": "medium",
+    "stability": "stable",
+    "missing_information": [
+      "门票价格",
+      "预约要求",
+      "建筑历史与设计者信息"
+    ],
+    "factual_fields": {
+      "opening_hours": {
+        "text": "Tu-Su 09:00-11:30, 13:00-16:30",
+        "evidence_refs": [
+          "e_ca54a06668db"
+        ]
+      },
+      "ticket_prices": null,
+      "reservation_requirements": null,
+      "historical_dates": {
+        "text": "于2002年10月正式开馆",
+        "evidence_refs": [
+          "e_77a9bb0c93f2"
+        ]
+      },
+      "former_functions": null,
+      "architect_names": null,
+      "official_designations": null
+    },
+    "taxonomy_extension_candidate": []
+  },
+  "attempts": [
+    {
+      "status": "success",
+      "provider": {
+        "model": "deepseek-flash",
+        "finish_reason": "stop",
+        "usage": {
+          "prompt_tokens": 4726,
+          "completion_tokens": 640,
+          "total_tokens": 5366,
+          "prompt_tokens_details": {
+            "cached_tokens": 2816
+          },
+          "prompt_cache_hit_tokens": 2816,
+          "prompt_cache_miss_tokens": 1910
+        }
+      }
+    }
+  ],
+  "cache_hit": false,
+  "api_calls_this_run": 1,
+  "request_hash": "616f937792c9584770719547eabf1ce109029881751850472e101829e9a75bc1",
+  "node_identity": "amap:B00155LL5X",
+  "evidence_hash": "ced3495b71796afcf912219e1754f838d2c8b9f00c1176122f731826717086da"
+}

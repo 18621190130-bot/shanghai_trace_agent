@@ -1,0 +1,11 @@
+{
+  "command": "python -m scripts.verify_all_zones (unittest discover tests)",
+  "tests_run": 379,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "elapsed_seconds": 16.28,
+  "completed_at": "2026-10-05T03:34:36.151442+00:00",
+  "validation_fingerprint": "4d7b20daa83989671d9009ac637677dc1767c956d31b2ad9cd4eec0f9181a7a5"
+}
