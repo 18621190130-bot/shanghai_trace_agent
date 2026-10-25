@@ -99,6 +99,7 @@ def handler_for(app,map_service=None):
                 routes={'/api/arrival/context':lambda:app.arrivals.context(session),
                         '/api/guidance/route':lambda:app.guidance.route(body),
                         '/api/guidance/search':lambda:app.guidance.search(body),
+                        '/api/guidance/describe':lambda:app.guidance.describe(body),
                         '/api/guidance/location':lambda:dict(location=asdict(app.guidance.location(body.get('location')))),
                         '/api/guidance/direction':lambda:app.guidance_direction(session,body),
                         '/api/arrival/check':lambda:app.arrivals.check(session,body),

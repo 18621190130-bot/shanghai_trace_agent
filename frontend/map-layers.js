@@ -6,5 +6,5 @@ export class MapLayers {
  objects(name){return this.layers.get(name)||[];}
  destroy(){for(const name of [...this.layers.keys()])this.clear(name);}
 }
-export const routeStyle={strokeColor:'#8053DB',strokeWeight:8,isOutline:true,outlineColor:'#22222A',borderWeight:2,showDir:true,lineCap:'round',lineJoin:'round',zIndex:45};
-export const auxiliaryStyle=kind=>({...routeStyle,strokeColor:kind==='start_access'?'#D99A39':'#20A89A',strokeWeight:kind==='start_access'?7:5,strokeStyle:kind==='start_access'?'solid':'dashed',showDir:kind==='start_access',zIndex:48});
+export const routeStyle={strokeColor:'#8053DB',strokeWeight:8,isOutline:false,outlineColor:'#22222A',borderWeight:2,showDir:true,lineCap:'round',lineJoin:'round',zIndex:45};
+export const auxiliaryStyle=kind=>({...routeStyle,strokeColor:kind==='start_access'?'#397DE0':'#20A89A',strokeWeight:kind==='start_access'?7:5,strokeStyle:kind==='start_access'?'solid':'dashed',showDir:kind==='start_access',zIndex:48});

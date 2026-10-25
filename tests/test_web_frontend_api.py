@@ -56,6 +56,17 @@ class WebAdapterTests(unittest.TestCase):
         self.assertIn(result['entry']['status'],('success','needs_route_quality_clarification'))
         self.assertIsNotNone(result['entry']['surprise_theme'])
 
+    def test_surprise_zone_and_time_need_no_origin(self):
+        for zone in self.repo.zone_order:
+            with self.subTest(zone=zone):
+                result=self.app.generate(self.session,intent('surprise_me',interest_tags=[],preferred_zone=zone,surprise_seed=42))
+                self.assertEqual(result['entry']['status'],'success')
+                self.assertIsNone(result['trip']['direction_lock'])
+                stops=result['trip']['active_route']['ordered_pois']
+                self.assertGreaterEqual(len(stops),3)
+                for stop in stops:
+                    self.assertEqual(self.repo.get_poi_by_id(stop['poi_id']).zone_id,zone)
+
     def test_missing_fields_go_through_real_clarification(self):
         result=self.app.generate(self.session,{'intent':{'route_mode':'places_in_mind'}})
         self.assertEqual(result['entry']['status'],'needs_clarification')

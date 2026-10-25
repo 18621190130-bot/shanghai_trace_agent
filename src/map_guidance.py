@@ -13,8 +13,8 @@ from .providers.base import ExternalProviderError, ProviderResponseError
 class MapGuidance:
     MODES = ('walking', 'transit', 'taxi', 'bicycle')
 
-    def __init__(self, client, walking):
-        self.client, self.walking = client, walking
+    def __init__(self, client, walking, labels=None):
+        self.client, self.walking, self.labels = client, walking, labels
         self.cache = OrderedDict()
         self.lock = RLock()
 
@@ -34,9 +34,22 @@ class MapGuidance:
             try:
                 lng, lat = map(float, p['location'].split(','))
                 location = self.location(dict(lat=lat, lng=lng))
-                results.append(dict(id=p['id'], name=self.client.redact_text(p.get('name', '')), location=asdict(location)))
+                text=lambda key:self.client.redact_text(p[key]) if isinstance(p.get(key),str) else ''
+                address=' '.join(dict.fromkeys(filter(None,[text('cityname'),text('adname'),text('address')])))
+                results.append(dict(id=p['id'],service_poi_id=p['id'],name=text('name'),address=address,category=text('type'),location=asdict(location)))
             except (ValueError, KeyError, TypeError):continue
-        return dict(results=results)
+        result=dict(results=results)
+        return self.labels.apply(result) if self.labels and body.get('lang')=='en' else result
+
+    def describe(self, body):
+        point=self.location(body.get('location'))
+        data=self.client.get('/v3/geocode/regeo',dict(location=point.amap_value(),extensions='base'))
+        address=data.get('regeocode',{}).get('formatted_address')
+        if not isinstance(address,str) or not address:raise ProviderResponseError()
+        row=dict(service_poi_id='point:'+point.amap_value(),name=self.client.redact_text(address),address='',location=asdict(point))
+        result=dict(results=[row])
+        if self.labels and body.get('lang')=='en':result=self.labels.apply(result)
+        return result['results'][0]
 
     def route(self, body):
         mode = body.get('mode', 'walking')
@@ -67,7 +80,17 @@ class MapGuidance:
         if mode=='bicycle':params.update(show_fields='cost,polyline')
         data = self.client.get(endpoint, params)
         try:
-            path = data['route']['transits' if mode=='transit' else 'paths'][0]
+            paths=data['route']['transits' if mode=='transit' else 'paths']
+            available=[]
+            for path in paths:
+                try:available.append(self._normalize_path(mode,path))
+                except ProviderResponseError:continue
+            if not available:raise ProviderResponseError()
+            return min(available,key=lambda r:r['duration_s'])
+        except (KeyError, IndexError, TypeError, AttributeError):raise ProviderResponseError() from None
+
+    def _normalize_path(self, mode, path):
+        try:
             distance = number(path.get('distance'), optional=True)
             duration = number(path.get('duration', path.get('cost', {}).get('duration')) if mode=='bicycle' else path.get('duration'))
             parts, steps = [], []

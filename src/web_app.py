@@ -38,7 +38,7 @@ class WebApplication:
         self.llm=DeepSeekLLMClient() if os.environ.get("DEEPSEEK_API_KEY") else None
         self.english=EnglishPlaceLabels(self.llm)
         self.arrivals=WebArrival(self)
-        self.guidance=MapGuidance(client,self.entry.walking_service)
+        self.guidance=MapGuidance(client,self.entry.walking_service,labels=self.english)
         self.sessions = {}
         self.lock = threading.RLock()
         raw = {p['id']:p for p in self.repo.get_raw_data()['pois']}

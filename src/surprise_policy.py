@@ -26,9 +26,9 @@ class SurpriseRoutePolicy:
                     raise RequestValidationError("Unknown surprise theme tag")
 
     def choose(self, intent):
-        if intent.start_lat is None or intent.start_lng is None:
+        if (intent.start_lat is None or intent.start_lng is None) and not intent.preferred_zone:
             raise RequestValidationError("Surprise me requires a usable start")
-        start = to_gcj02(intent.start_lat, intent.start_lng, intent.start_coordinate_system)
+        start = None if intent.start_lat is None else to_gcj02(intent.start_lat, intent.start_lng, intent.start_coordinate_system)
         candidates = []
         for zone in self.repo.zone_order:
             if intent.preferred_zone is not None and zone != intent.preferred_zone:
@@ -36,7 +36,7 @@ class SurpriseRoutePolicy:
             points = [p for p in self.repo.get_pois_by_zone(zone) if p.coordinates is not None]
             if not points:
                 continue
-            approach = min(haversine_km(start, p.coordinates) * self.engine.factor for p in points)
+            approach = min(haversine_km(start, p.coordinates) * self.engine.factor for p in points) if start else 0
             minimum_stay = min(min(p.visit_profile.stay_for(mode, intent.travel_pace)
                                    for mode in p.visit_profile.supported_modes) for p in points)
             if approach * 1000 / self.engine.speed + minimum_stay + self.engine.buffer > intent.available_minutes:
@@ -49,11 +49,12 @@ class SurpriseRoutePolicy:
                 for group in TAG_GROUPS:
                     setattr(curated, group, list(theme[group]))
                 plan = self.engine.generate_route(intent_to_route_request(curated))
-                if plan.status != "success" or not plan.ordered_pois or any(n.walk_zone != zone for n in plan.ordered_pois):
+                if plan.status != "success" or len(plan.ordered_pois) < (3 if start is None else 1) or any(n.walk_zone != zone for n in plan.ordered_pois):
                     continue
                 # Nearest reachable area first, then richer checked routes; stable hash breaks ties.
                 digest = hashlib.sha256(f"{intent.surprise_seed}:{zone}:{theme['name']}".encode()).hexdigest()
-                candidates.append(((approach, -len(plan.ordered_pois), digest), curated, theme["name"], plan))
+                rank = (approach, -len(plan.ordered_pois), digest) if start else (0, digest, -len(plan.ordered_pois))
+                candidates.append((rank, curated, theme["name"], plan))
         if not candidates:
             return None
         _, curated, theme, plan = min(candidates, key=lambda item: item[0])

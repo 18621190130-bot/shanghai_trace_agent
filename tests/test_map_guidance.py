@@ -57,8 +57,23 @@ class GuidanceTests(unittest.TestCase):
         self.assertEqual(r['origin']['coordinate_system'],'GCJ02');self.assertEqual(r['origin']['lng'],121.401)
 
     def test_search_preserves_provider_coordinates_and_no_name_inference(self):
-        self.client.get.return_value=dict(pois=[dict(id='A',name='Station',location='121.4,31.2'),dict(id='B',name='Invalid',location='')])
-        self.assertEqual(len(self.service.search(dict(query='station'))['results']),1)
+        self.client.get.return_value=dict(pois=[dict(id='A',name='Mall (Zhongshan Park)',cityname='Shanghai',adname='Changning',address='1018 Changning Road',location='121.4,31.2'),dict(id='B',name='Invalid',location='')])
+        rows=self.service.search(dict(query='mall'))['results']
+        self.assertEqual(len(rows),1)
+        self.assertEqual(rows[0]['name'],'Mall (Zhongshan Park)')
+        self.assertIn('1018 Changning Road',rows[0]['address'])
+
+    def test_fastest_valid_transit_not_first_ranked_or_broken_path(self):
+        def path(duration,valid=True):return dict(distance='400',duration=str(duration),segments=[{'bus':{'buslines':[dict(name='Bus',polyline=LINE if valid else '')]}}])
+        self.client.get.return_value={'route':{'transits':[path(2500),path(500,False),path(900)]}}
+        result=self.query('transit')
+        self.assertEqual(result['duration_s'],900)
+
+    def test_reverse_geocoding_uses_actual_address(self):
+        self.client.get.return_value={'regeocode':{'formatted_address':'Shanghai Changning Road 1018'}}
+        result=self.service.describe({'location':ORIGIN})
+        self.assertEqual(result['name'],'Shanghai Changning Road 1018')
+        self.assertEqual(result['location'],ORIGIN)
 
 class DirectionTests(unittest.TestCase):
     def setUp(self):

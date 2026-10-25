@@ -104,7 +104,7 @@ class ClarificationLayer:
         if value.route_mode == RouteMode.PLACES_IN_MIND and not value.must_go_poi_ids:
             questions.append(ClarificationRequest("must_go_poi_ids", "Which places would you like to visit?", "multi_choice",
                 [ClarificationOption(f"#{p.display_order} {p.name_en}", p.id) for p in self.repo.get_all_pois()]))
-        needs_start = value.route_mode == RouteMode.SURPRISE_ME or bool(value.start_location_text)
+        needs_start = (value.route_mode == RouteMode.SURPRISE_ME and not value.preferred_zone) or bool(value.start_location_text)
         if needs_start and value.start_lat is None:
             questions.append(ClarificationRequest("start_location_text", "Where would you like to start?", "location",
                 [ClarificationOption(z["name_en"], z["name_en"]) for z in self.repo.get_raw_data()["metadata"]["walk_zones"]]))
