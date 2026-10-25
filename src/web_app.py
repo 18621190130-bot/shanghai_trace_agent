@@ -20,6 +20,7 @@ from .trip_conversation import ConversationalTripService, InMemoryTripConversati
 from .web_trip_actions import execute_control
 from .web_english import EnglishPlaceLabels
 from .web_arrival import WebArrival
+from .map_guidance import MapGuidance, direction_lock
 
 
 class WebApplication:
@@ -37,6 +38,7 @@ class WebApplication:
         self.llm=DeepSeekLLMClient() if os.environ.get("DEEPSEEK_API_KEY") else None
         self.english=EnglishPlaceLabels(self.llm)
         self.arrivals=WebArrival(self)
+        self.guidance=MapGuidance(client,self.entry.walking_service)
         self.sessions = {}
         self.lock = threading.RLock()
         raw = {p['id']:p for p in self.repo.get_raw_data()['pois']}
@@ -74,6 +76,7 @@ class WebApplication:
     def current_trip(self, session):
         if not session['trip_id']:return None
         result=self.trips.get_trip(session['trip_id']).to_dict()
+        result['direction_lock']=direction_lock(result['active_route'])
         if session.get('change_history'):result['change_history']=copy.deepcopy(session['change_history'])
         return result
 
@@ -190,6 +193,36 @@ class WebApplication:
         result=self.world.search_nearby_services(core_poi_id=body.get('poi_id'),
             current_location=body.get('current_location'),categories=body.get('categories'),radius_m=800,limit_per_category=5).to_dict()
         return self.english.apply(result) if body.get('lang')=='en' else result
+
+    def guidance_direction(self, session, body):
+        with session['lock']:
+            trip=self.store.get(session['trip_id'])
+            revision=body.get('revision')
+            if type(revision) is not int or revision!=trip.state_revision:raise ValueError('stale_state_conflict')
+            if body.get('direction') not in ('original','reverse'):raise ValueError('invalid_input')
+            if trip.status!='PLANNED' or direction_lock(trip.active_route):raise ValueError('direction_locked')
+            desired=[s['poi_id'] for s in trip.original_route['ordered_pois']]
+            if body['direction']=='reverse':desired.reverse()
+            route=trip.active_route
+            if desired==[s['poi_id'] for s in route['ordered_pois']]:return dict(trip=self.current_trip(session))
+            if desired!=[s['poi_id'] for s in reversed(route['ordered_pois'])]:raise ValueError('direction_locked')
+            from .route_engine import RouteEngine
+            engine=RouteEngine(self.repo)
+            route['ordered_pois'].reverse()
+            total=0
+            for i,stop in enumerate(route['ordered_pois']):
+                km=engine._distance(route['ordered_pois'][i-1]['estimated_coordinates'],stop['estimated_coordinates']) if i else 0
+                mins=km*1000/engine.speed
+                stop.update(estimated_distance_from_previous_stop_km=km,estimated_distance_from_previous=km,
+                            estimated_walking_minutes=mins,estimated_walking_minutes_from_previous=mins)
+                total+=km
+            route.update(total_estimated_distance_km=total,total_estimated_walking_minutes=total*1000/engine.speed)
+            route['total_estimated_minutes']=route['total_stay_minutes']+route['total_estimated_walking_minutes']+(route.get('buffer_minutes') or 0)
+            route['remaining_minutes']=route['request']['available_minutes']-route['total_estimated_minutes']
+            route=self.entry.walking_service.hydrate_dict(route)
+            trip.set_walk_direction(route)
+            self.store.save_if_revision(trip,revision)
+            return dict(trip=self.current_trip(session))
 
     def _validate_zone(self, intent):
         zones={self.repo.get_poi_by_id(pid).zone_id for pid in intent.must_go_poi_ids}

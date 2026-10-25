@@ -19,7 +19,7 @@ export class ArrivalController {
  try{const result=await request('/api/arrival/check',{trip_id:id,revision,poi_id:target.poi_id,source,position});if(epoch!==this.epoch||this.state.trip.trip_id!==id||this.state.trip.state_revision!==revision||this.state.screen!=='route')return;
  this.observation=result.status;this.context=result.context;this.position=result.position&&usablePosition(result.position)?result.position:null;
  this.state.gps=this.position?{lat:this.position.latitude,lng:this.position.longitude,coordinate_system:this.position.coordinate_system}:null;
- this.state.userLocation=result.proximity?.current_location||null;
+ this.state.userLocation=result.proximity?.current_location?{...result.proximity.current_location,accuracy:position?.accuracy,timestamp:position?.timestamp,heading:source==='GPS'?position?.heading:null}:null;
  if(result.status==='LOW_QUALITY')this.error='gpsLowQuality';
  if(result.status==='ARRIVED'){const record=this.history.arrive(this.state.trip,source);if(record){if(this.blocked()||this.openId)this.pendingId=record.event_id;else this.open(record.event_id,false);}else if(source==='MANUAL'){const r=this.history.records.filter(r=>r.core_poi_id===target.poi_id).at(-1);if(r)this.open(r.event_id,false);}}
  this.notify();

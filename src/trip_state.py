@@ -497,6 +497,27 @@ class TripState:
             self._data['status'] = 'COMPLETED'
             self._event('trip_completed', dict(visited_count=len(self.visited_poi_ids), skipped_count=len(self.skipped_poi_ids)), at)
 
+    def set_walk_direction(self, route, *, timestamp=None):
+        """A planned-only whole-sequence reversal; original snapshot stays immutable."""
+        from .map_guidance import direction_lock
+        if self.status != 'PLANNED' or direction_lock(self.active_route):
+            raise TripStateError('direction_locked')
+        ids = validate_plan(route)
+        current = self.active_route['ordered_pois']
+        if ids != [s['poi_id'] for s in reversed(current)]:
+            raise TripStateError('Only a complete reversal is allowed')
+        # Direction never changes the selected place/visit facts.
+        metrics = {'order', 'estimated_distance_from_previous_stop_km', 'estimated_walking_minutes',
+                   'estimated_distance_from_previous', 'estimated_walking_minutes_from_previous'}
+        for old, new in zip(reversed(current), route['ordered_pois']):
+            if {k:v for k,v in old.items() if k not in metrics} != {k:v for k,v in new.items() if k not in metrics}:
+                raise TripStateError('Direction changed stop facts')
+        at = self._at(timestamp)
+        old = self.route_versions[-1]['version_id'];new = 'v'+str(len(self.route_versions)+1)
+        self._data['active_route'] = snapshot(route)
+        self._data['route_versions'].append(RouteVersion(new, snapshot(route), at, 'SMART_START_DIRECTION', old).to_dict())
+        self._event('walk_direction_changed', dict(route=route), at)
+
     @classmethod
     def from_dict(cls, value, *, clock=utc_now):
         """Replay append-only events and reject drift/tampered derived fields.
@@ -536,6 +557,8 @@ class TripState:
                     trip.commit_replan(payload['route'], payload['intent'], reason=payload['reason'],
                                        effective_minutes=payload['effective_minutes'], delta=payload['delta'],
                                        diagnostics=payload['diagnostics'], timestamp=at)
+                elif kind == 'walk_direction_changed':
+                    trip.set_walk_direction(payload['route'], timestamp=at)
                 elif kind == 'route_mutated':
                     trip.commit_mutation(payload['route'], payload['intent'], payload['policy'], reason=payload['reason'],
                                          diagnostics=payload['diagnostics'], allow_terminal_disposition=payload['allow_terminal_disposition'], timestamp=at)
