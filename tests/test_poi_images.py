@@ -40,10 +40,33 @@ class ImageEnrichmentTests(unittest.TestCase):
         out=commit(audit,{'candidate_digest':digest,'decisions':{r['poi_id']:{'decision':'accept','image_url':r['image_url']}}})
         accepted=next(x for x in out['records'] if x['poi_id']==r['poi_id']);self.assertTrue(accepted['reviewed']);self.assertEqual(accepted['image_url'],r['image_url'])
         self.assertEqual([x['poi_id'] for x in out['records']],[p['id'] for p in self.pois])
-        self.assertTrue(all(x['image_url'] is None for x in out['records'] if x['route_role']=='anchor'))
+        for row in out['records']:
+            if row['route_role']=='anchor':
+                self.assertEqual(row['image_url'],self.curated.get(row['poi_id'],{}).get('src'))
+                self.assertEqual(row['source'],'CURATED')
     def test_unreviewed_candidates_fallback(self):
         out=commit(read(AUDIT/'image_audit.json'),{'decisions':{}})
-        self.assertEqual(len(out['records']),58);self.assertFalse(any(x['image_url'] for x in out['records']))
+        self.assertEqual(len(out['records']),58)
+        for row in out['records']:
+            expected=self.curated.get(row['poi_id'],{}).get('src')
+            self.assertEqual(row['image_url'],expected)
+            if expected:
+                self.assertEqual(row['source'],'CURATED');self.assertEqual(row['status'],'AVAILABLE');self.assertTrue(row['reviewed'])
+            else:
+                self.assertFalse(row['reviewed']);self.assertIn(row['status'],('MISSING','FALLBACK'))
+    def test_without_curated_images_unreviewed_candidates_stay_empty(self):
+        with patch('scripts.enrich_poi_images.inputs',return_value=(self.pois,self.mapping,self.spatial,{})):
+            out=commit(read(AUDIT/'image_audit.json'),{'decisions':{}})
+        self.assertEqual(len(out['records']),58)
+        self.assertTrue(all(row['image_url'] is None for row in out['records']))
+    def test_provider_decision_cannot_override_curated_anchor(self):
+        import hashlib,json
+        audit=read(AUDIT/'image_audit.json')
+        anchor=next(p for p in self.pois if p['route_role']['primary']=='anchor' and self.curated.get(p['id'],{}).get('src'))
+        digest=hashlib.sha256(json.dumps(audit,sort_keys=True,ensure_ascii=False).encode()).hexdigest()
+        out=commit(audit,{'candidate_digest':digest,'decisions':{anchor['id']:{'decision':'accept','image_url':URL}}})
+        row=next(r for r in out['records'] if r['poi_id']==anchor['id'])
+        self.assertEqual(row['image_url'],self.curated[anchor['id']]['src']);self.assertEqual(row['source'],'CURATED')
     def test_manual_local_asset_requires_provenance(self):
         from hashlib import sha256
         import json

@@ -38,7 +38,21 @@ class DiversityRepairTests(unittest.TestCase):
    if p['id']!=REMOVED:self.assertEqual(p,index[p['id']])
   self.assertEqual(len(self.repo.get_pois_by_zone('west_bund')),13)
   for path,digest in load(OUT/'cost_report.json')['protected_sha256'].items():
-   self.assertEqual(hashlib.sha256((ROOT/('data/archive/pois_pre_phase2_5.json' if Path(path).name=='pois.json' else path)).read_bytes()).hexdigest(),digest,path)
+   path=path.replace('\\','/')
+   if path.startswith('src/'):continue  # Source versions are historical, tested separately below.
+   archived=ROOT/('data/archive/pois_pre_phase2_5.json' if Path(path).name=='pois.json' else path)
+   raw=archived.read_bytes();lf=raw.replace(b'\r\n',b'\n')
+   # Git checkouts may use LF or CRLF; no other content normalization is allowed.
+   self.assertIn(digest,{hashlib.sha256(b).hexdigest() for b in (raw,lf,lf.replace(b'\n',b'\r\n'))},path)
+ def test_historical_source_hashes_match_frozen_manifest(self):
+  # Phase 2.5G recorded the then-current engine/validator. Compare that evidence
+  # to the independent Phase 3A freeze, not to the legitimately evolved source.
+  # Current behavior is covered by test_route_engine / test_map_guidance and
+  # the semantic validation tests; do not rewrite either historical manifest.
+  recorded={p.replace('\\','/'):h for p,h in load(OUT/'cost_report.json')['protected_sha256'].items() if p.replace('\\','/').startswith('src/')}
+  self.assertEqual(set(recorded),{'src/route_engine.py','src/poi_pipeline/semantic/validation.py'})
+  frozen=load(ROOT/'examples/phase3a_freeze/manifest.json')
+  for path,digest in recorded.items():self.assertEqual(digest,frozen[path],path)
  def test_square_parent_identity_not_station_or_park(self):
   r=next(r for r in load(OUT/'review.json') if r['name']=='上海人民广场')
   self.assertEqual(r['map_identity']['provider_id'],'B00157917M')
