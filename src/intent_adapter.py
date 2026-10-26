@@ -15,7 +15,7 @@ def intent_to_route_request(intent):
         raise RequestValidationError("Plan for me requires at least one existing preference tag")
     if intent.route_mode == RouteMode.PLACES_IN_MIND and not intent.must_go_poi_ids:
         raise RequestValidationError("Places in mind requires selected places")
-    if intent.route_mode == RouteMode.SURPRISE_ME and (intent.start_lat is None or intent.start_lng is None):
+    if intent.route_mode == RouteMode.SURPRISE_ME and not intent.preferred_zone and (intent.start_lat is None or intent.start_lng is None):
         raise RequestValidationError("Surprise me requires a usable start")
     if intent.route_mode not in tuple(RouteMode):
         raise RequestValidationError("Unknown route_mode")

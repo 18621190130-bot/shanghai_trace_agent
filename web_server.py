@@ -1,4 +1,5 @@
 """Run TraceMate locally: python web_server.py --port 8765 [--offline]."""
+from dataclasses import asdict
 import argparse
 from http.cookies import SimpleCookie
 from http.server import BaseHTTPRequestHandler,ThreadingHTTPServer
@@ -96,6 +97,11 @@ def handler_for(app,map_service=None):
                 if not isinstance(body,dict):raise ValueError('invalid_input')
                 token,session=self.session()
                 routes={'/api/arrival/context':lambda:app.arrivals.context(session),
+                        '/api/guidance/route':lambda:app.guidance.route(body),
+                        '/api/guidance/search':lambda:app.guidance.search(body),
+                        '/api/guidance/describe':lambda:app.guidance.describe(body),
+                        '/api/guidance/location':lambda:dict(location=asdict(app.guidance.location(body.get('location')))),
+                        '/api/guidance/direction':lambda:app.guidance_direction(session,body),
                         '/api/arrival/check':lambda:app.arrivals.check(session,body),
                         '/api/arrival/content':lambda:app.arrivals.content(body.get('poi_id')),
                         '/api/generate':lambda:app.generate(session,body),'/api/clarify':lambda:app.clarify(session,body),
@@ -107,7 +113,7 @@ def handler_for(app,map_service=None):
             except LLMClientError:return self.send(503,{'error':'language_provider_unavailable'})
             except ExternalProviderError:return self.send(503,{'error':'provider_unavailable'})
             except (ValueError,KeyError,TypeError) as exc:
-                known={'stale_state_conflict','no_trip','active_trip_requires_replan','natural_language_unavailable','no_pending_question','zone_mismatch'}
+                known={'stale_state_conflict','no_trip','active_trip_requires_replan','natural_language_unavailable','no_pending_question','zone_mismatch','direction_locked','location_outside'}
                 code=str(exc) if str(exc) in known else 'invalid_input'
                 return self.send(409 if code=='stale_state_conflict' else 400,{'error':code})
             except Exception:return self.send(500,{'error':'server_error'})
