@@ -10,3 +10,6 @@
 .route-heading .route-actions{float:right;margin:-32px 0 0;padding:0;min-height:0}.route-heading:after{content:"";display:block;clear:both}.route-heading .route-data-status{margin-bottom:8px}.map-location-tools{position:absolute;right:18px;bottom:90px;z-index:165;max-width:245px;text-align:right;pointer-events:none}.map-location-tools .button{pointer-events:auto;font-size:13px;padding:9px 12px;min-height:38px;background:var(--surface);box-shadow:var(--shadow)}.map-location-tools [aria-pressed=true]{background:var(--accent-soft);border-color:var(--accent)}.map-location-tools p{font-size:13px!important;line-height:1.5;background:var(--surface);padding:8px;border-radius:8px}.start-ready{padding-top:18px;padding-bottom:22px}.start-location-note{font-size:14px!important}.smart-start .section-heading{margin-bottom:12px}
 
 .smart-start .start-location-note{font-size:16px!important;color:var(--ink)}.service-marker>span:first-child{display:grid;place-items:center}.service-marker svg,.guidance-target svg{width:17px;height:17px}.route-marker.guidance-service>span:first-child{background:#20A89A;color:white;border:2px solid white}.start-location-note{scroll-margin:24px}
+
+/* Keep map controls below the POI and arrival cards. */
+.map-panel{isolation:isolate}
