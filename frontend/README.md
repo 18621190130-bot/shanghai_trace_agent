@@ -48,7 +48,9 @@ node --test frontend/tests/contracts.test.js
 
 Normal: `python web_server.py --port 8777`. Developer demonstration: `python web_server.py --demo --port 8777` (equivalent server environment: `TRACEMATE_ENABLE_DEMO_MODE=true`). The controller is hidden by default; demo mode only changes the location provider, and the SIMULATION label remains visible while enabled.
 
-Generate a route, Start Walk, then use I'm Here or Developer Demo → Enable simulation → Far / Near / Arrived. Arrival does not complete a visit. Use Mark as Visited to update the real trip. Arrived Places keeps reached cards across page refresh and replans in the same browser/trip. Next Target only synchronizes the simulation target. Reset clears location, not trip progress. Reload starts in real GPS mode.
+Current behavior: enter Your Walk to request real GPS automatically. Smart Start supports location/search and direction selection. Start Walk is allowed near the first stop (80 m, accuracy <= 50 m, age <= 30 s). In demo-enabled mode, the map-corner simulation button lets map clicks move the current position; turning it off clears simulation and resumes real GPS. Arrival does not mark a stop visited: use Mark as Visited. The former sidebar Far / Near / Arrived controls are no longer the current UI.
+
+For architecture, current acceptance results, known limitations and the mobile development checklist, read [the current handoff report](../docs/acceptance/MAIN_MOBILE_HANDOFF_20261026.md).
 
 Arrival content: edit `data/poi_arrival_content.json`, `records[core_id]` with bilingual `arrival_hook: {en, zh}` and `what_to_notice: {en: [], zh: []}`, plus `content_status`. Omitted/null fields stay hidden. Full Cultural Bridge continues using the existing `frontend/content.json` schema. No runtime content generation or RAG is implemented.
 

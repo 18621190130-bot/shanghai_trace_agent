@@ -2,7 +2,7 @@
 
 上海 City Walk 路线规划与步行体验原型。当前网站覆盖四个街区、58 个 Core POI，支持三种路线规划方式、中英文、途中路线调整与历史、地图、天气与地点信息、附近服务、到达卡片和行程结算。
 
-当前主目录是唯一运行版本。Smart Start 已撤回；保留原版 Developer Demo 预设位置模拟、后续表单补充修复、四个区块照片及已填写的照片和文化内容。阶段报告属于历史记录，不代表当前待办或验收状态。
+当前主目录是唯一运行版本，已集成 Smart Start、地图内接驳/附近服务导航、起点到达校验和地图点击虚拟定位。当前基线及手机端开发交接以[验收与交接报告](docs/acceptance/MAIN_MOBILE_HANDOFF_20261026.md)为准；旧阶段报告仅作历史参考。
 
 ## 启动网站
 
@@ -66,10 +66,12 @@ node --test frontend/tests/*.test.js
 - [CLI 工具用法](tools/README.md)
 - [维护脚本说明](scripts/README.md)
 - [目录整理记录](docs/maintenance/ORGANIZATION_20261017.md)
-- [Smart Start 撤回记录](docs/maintenance/SMART_START_ROLLBACK.md)
+- [当前验收与手机端交接](docs/acceptance/MAIN_MOBILE_HANDOFF_20261026.md)
+- [Smart Start 实施记录](docs/maintenance/SMART_START_UNIFIED_GUIDANCE.md)
+- [Smart Start 旧撤回记录（历史）](docs/maintenance/SMART_START_ROLLBACK.md)
 - [第三方素材与服务说明](THIRD_PARTY_NOTICES.md)
 
-Cloudflare 临时部署文件已移除。旧版本副本已归档到项目外，位置记录在整理报告中。当前没有配置替代的公网部署，Git 已初始化；首次提交前按 `.gitignore` 排除本机素材与生成文件。
+Cloudflare 临时部署文件已移除。旧版本副本已归档到项目外，位置记录在整理报告中。当前没有配置替代的公网部署，Git 已初始化并维护 main / smart-start 分支；本机素材与生成文件按 `.gitignore` 排除。
 
 ## Git 提交范围
 

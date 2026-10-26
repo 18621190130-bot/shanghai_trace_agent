@@ -2,6 +2,11 @@
 
 当前运行方式和功能范围以[根目录 README](../README.md)为准。以下阶段报告保留当时的验收状态和数字，不用来推断当前阶段。
 
+## 当前验收基线
+
+- [主分支验收与手机端交接（2026-10-26）](acceptance/MAIN_MOBILE_HANDOFF_20261026.md)
+- [Smart Start 实施记录](maintenance/SMART_START_UNIFIED_GUIDANCE.md)
+
 ## 日常使用
 
 - [本地网站启动](LOCAL_START.md)
