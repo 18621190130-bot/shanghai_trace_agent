@@ -129,7 +129,7 @@ async function dispatch(action,value){if(action==='nav-demo')return walkLocation
  case 'back-setup':state.entry=null;state.error=null;render();return;
  case 'quality':runGeneration(()=>api.clarify({answer:value}));return;
  case 'clear-error':state.error=null;render();return;
- case 'start':if(!walkLocation.ready()){navigation.error=walkLocation.status();render();return;}navigation.open=false;navigation.guidance=null;navigation.epoch++;navigation.pickPoint=false;act('start');return;
+ case 'start':if(!walkLocation.ready()){navigation.error=null;render();const note=document.querySelector('.start-location-note');note?.scrollIntoView({block:'nearest'});note?.animate([{opacity:1},{opacity:.3},{opacity:1}],{duration:600,iterations:2});return;}navigation.open=false;navigation.guidance=null;navigation.epoch++;navigation.pickPoint=false;act('start');return;
  case 'complete':act('complete',{poi_id:value});return;
  case 'skip':state.modal={type:'skip',poi:value};render();return;
  case 'end':state.modal={type:'end'};render();return;

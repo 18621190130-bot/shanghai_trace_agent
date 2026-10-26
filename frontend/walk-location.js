@@ -16,7 +16,7 @@ export class WalkLocationController {
  ready(){return this.status()==='readyToStart';}
  sync(){const trip=this.state.trip,enabled=this.state.screen==='route'&&['PLANNED','ACTIVE'].includes(trip?.status);
   if(!enabled){this.stop();this.entry=null;return;}
-  if(this.entry!==trip.trip_id){this.stop();this.entry=trip.trip_id;this.demo=false;this.initialized=false;this.arrivals.mode='GPS';this.state.userLocation=null;if(trip.status==='PLANNED')this.navigation.open=true;}
+  if(this.entry!==trip.trip_id){this.stop();this.entry=trip.trip_id;if(globalThis.DeviceOrientationEvent&&!globalThis.DeviceOrientationEvent.requestPermission)this.navigation.headingTracker?.enable();this.demo=false;this.initialized=false;this.arrivals.mode='GPS';this.state.userLocation=null;if(trip.status==='PLANNED')this.navigation.open=true;}
   if(trip.status==='PLANNED')this.navigation.open=true;
   const ready=trip.status==='PLANNED'&&this.ready();if(ready&&!this.wasReady)queueMicrotask(()=>globalThis.document?.querySelector('.start-ready')?.scrollIntoView({block:'nearest'}));this.wasReady=ready;
   if(!this.demo&&!this.watching){this.watching=true;const token=this.epoch;queueMicrotask(()=>{if(token!==this.epoch||!this.watching)return;this.browser.start(p=>this.receive(p,token),error=>{if(token!==this.epoch)return;this.sequence++;this.arrivals.epoch++;this.error=error;this.state.userLocation=null;this.render();});});}
