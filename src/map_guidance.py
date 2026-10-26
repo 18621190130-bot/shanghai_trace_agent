@@ -118,7 +118,7 @@ class MapGuidance:
 
 def direction_lock(route):
     request = route.get('request', {})
-    if request.get('start_poi_id') or request.get('start_lat') is not None:return 'fixed_start'
+    if request.get('route_mode') not in ('surprise_me','places_in_mind') and (request.get('start_poi_id') or request.get('start_lat') is not None):return 'fixed_start'
     for obj in [route, request, route.get('composition_diagnostics', {}), *route.get('ordered_pois', [])]:
         if any(obj.get(k) for k in ('direction_locked', 'fixed_order', 'time_windows', 'time_window', 'narrative_constraints', 'reservation_required')):
             return 'constrained_order'

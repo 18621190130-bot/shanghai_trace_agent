@@ -20,7 +20,7 @@ export class ArrivalHistory {
 }
 export function usablePosition(p,now=Date.now()){return !!p&&[p.latitude,p.longitude,p.timestamp,p.accuracy].every(Number.isFinite)&&p.accuracy>=0&&p.accuracy<=50&&now-p.timestamp>=-5000&&now-p.timestamp<=30000;}
 export class BrowserLocationProvider {
- start(onPosition,onError){if(this.watch!==undefined)return;if(!globalThis.navigator?.geolocation){onError('gpsUnavailable');return;}this.watch=navigator.geolocation.watchPosition(p=>onPosition({latitude:p.coords.latitude,longitude:p.coords.longitude,coordinate_system:'WGS84',timestamp:p.timestamp,accuracy:p.coords.accuracy,heading:movementHeading(p.coords),source:'GPS'}),e=>onError(e.code===1?'gpsDenied':e.code===3?'gpsTimeout':'gpsUnavailable'),{enableHighAccuracy:true,maximumAge:0,timeout:12000});}
+ start(onPosition,onError){if(this.watch!==undefined)return;if(!globalThis.navigator?.geolocation){onError('gpsUnavailable');return;}try{this.watch=navigator.geolocation.watchPosition(p=>onPosition({latitude:p.coords.latitude,longitude:p.coords.longitude,coordinate_system:'WGS84',timestamp:p.timestamp,accuracy:p.coords.accuracy,heading:movementHeading(p.coords),source:'GPS'}),e=>onError(e.code===1?'gpsDenied':e.code===3?'gpsTimeout':'gpsUnavailable'),{enableHighAccuracy:true,maximumAge:0,timeout:12000});}catch{onError('gpsUnavailable');}}
  stop(){if(this.watch!==undefined)navigator.geolocation.clearWatch(this.watch);this.watch=undefined;}
 }
 export class DemoLocationProvider {

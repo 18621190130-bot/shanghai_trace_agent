@@ -108,6 +108,24 @@ class DirectionTests(unittest.TestCase):
             self.assertEqual(direction_lock(dict(request={field:True})),'constrained_order')
         self.assertEqual(direction_lock(dict(request={'start_poi_id':'p1'})),'fixed_start')
 
+    def test_flexible_modes_ignore_legacy_start_but_keep_real_constraints(self):
+        for mode in ('surprise_me','places_in_mind'):
+            request=dict(route_mode=mode,start_poi_id='p1',start_lat=31.2)
+            self.assertIsNone(direction_lock(dict(request=request)))
+            self.assertEqual(direction_lock(dict(request={**request,'fixed_order':True})),'constrained_order')
+
+    def test_places_and_surprise_allow_full_reversal(self):
+        for mode in ('surprise_me','places_in_mind'):
+            body=dict(route_mode=mode,available_minutes=240,interest_tags=[],preferred_zone='west_bund',surprise_seed=42)
+            if mode=='places_in_mind':body['must_go_poi_ids']=['p28','p5']
+            before=self.app.generate(self.session,dict(intent=body))['trip']
+            self.assertIsNone(before['direction_lock'])
+            reversed_trip=self.app.guidance_direction(self.session,dict(direction='reverse',revision=before['state_revision']))['trip']
+            self.assertEqual([p['poi_id'] for p in reversed_trip['active_route']['ordered_pois']],list(reversed([p['poi_id'] for p in before['active_route']['ordered_pois']])))
+            self.assertEqual(reversed_trip['original_route'],before['original_route'])
+            restored=self.app.guidance_direction(self.session,dict(direction='original',revision=reversed_trip['state_revision']))['trip']
+            self.assertEqual(restored['remaining_poi_ids'],before['remaining_poi_ids'])
+
     def test_guidance_never_changes_trip(self):
         snapshot=self.app.current_trip(self.session)
         self.app.guidance.route(dict(origin=ORIGIN,destination=DEST))
